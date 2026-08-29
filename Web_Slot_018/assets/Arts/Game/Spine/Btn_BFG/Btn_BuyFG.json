@@ -1,0 +1,369 @@
+{
+"skeleton": { "hash": "h2P4j4L8j/gFw3QnODPBCs9xdtI", "spine": "3.8.99", "x": -172, "y": -117, "width": 346, "height": 235 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root" },
+	{ "name": "Sboard_light", "parent": "bone", "y": -17.04 },
+	{ "name": "bone3", "parent": "root" },
+	{ "name": "bone4", "parent": "bone3", "y": -41.47 },
+	{ "name": "Btn_BuyFG_title_txt_V", "parent": "bone", "y": 29.13 },
+	{ "name": "Btn_BuyFG_title_txt_P", "parent": "bone3", "y": 16.69 },
+	{ "name": "fnt_BuyFG", "parent": "root", "y": -36.69 }
+],
+"slots": [
+	{ "name": "down_2", "bone": "bone3", "attachment": "01_pic/down_2" },
+	{ "name": "up_2", "bone": "bone3", "attachment": "01_pic/up_2" },
+	{ "name": "down_shadow", "bone": "bone", "attachment": "01_pic/down_shadow" },
+	{ "name": "up", "bone": "bone", "attachment": "01_pic/up" },
+	{ "name": "fnt_BuyFG", "bone": "fnt_BuyFG" },
+	{ "name": "Btn_BuyFG_title_txt_V", "bone": "Btn_BuyFG_title_txt_V", "attachment": "01_pic/supersed" },
+	{ "name": "Btn_BuyFG_title_txt_P", "bone": "Btn_BuyFG_title_txt_P", "attachment": "01_pic/supersed" },
+	{ "name": "Sboard_light_10", "bone": "bone4", "blend": "additive" },
+	{ "name": "Sboard_light_11", "bone": "Sboard_light", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Btn_BuyFG_title_txt_P": {
+				"01_pic/supersed": { "x": -0.5, "y": -0.5, "width": 10, "height": 10 }
+			},
+			"Btn_BuyFG_title_txt_V": {
+				"01_pic/supersed": { "x": 0.92, "y": -2.93, "width": 10, "height": 10 }
+			},
+			"Sboard_light_10": {
+				"02_fx/Sboard_light_10": { "y": 41.47, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_11": { "y": 41.47, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_13": { "y": 41.47, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_15": { "y": 41.47, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_17": { "y": 41.47, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_19": { "y": 41.47, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_21": { "y": 41.47, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_23": { "y": 41.47, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_25": { "y": 41.47, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_27": { "y": 41.47, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_29": { "y": 41.47, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_31": { "y": 41.47, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_33": { "y": 41.47, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_35": { "y": 41.47, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_37": { "y": 41.47, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_39": { "y": 41.47, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_41": { "y": 41.47, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_43": { "y": 41.47, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_44": { "y": 41.47, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_45": { "y": 41.47, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_46": { "y": 41.47, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_47": { "y": 41.47, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_49": { "y": 41.47, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_50": { "y": 41.47, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_51": { "y": 41.47, "width": 148, "height": 232 }
+			},
+			"Sboard_light_11": {
+				"02_fx/Sboard_light_10": { "y": 17.04, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_11": { "y": 17.04, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_13": { "y": 17.04, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_15": { "y": 17.04, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_17": { "y": 17.04, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_19": { "y": 17.04, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_21": { "y": 17.04, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_23": { "y": 17.04, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_25": { "y": 17.04, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_27": { "y": 17.04, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_29": { "y": 17.04, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_31": { "y": 17.04, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_33": { "y": 17.04, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_35": { "y": 17.04, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_37": { "y": 17.04, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_39": { "y": 17.04, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_41": { "y": 17.04, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_43": { "y": 17.04, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_44": { "y": 17.04, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_45": { "y": 17.04, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_46": { "y": 17.04, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_47": { "y": 17.04, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_49": { "y": 17.04, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_50": { "y": 17.04, "width": 148, "height": 232 },
+				"02_fx/Sboard_light_51": { "y": 17.04, "width": 148, "height": 232 }
+			},
+			"down_2": {
+				"01_pic/down_2": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 174, -62, -172, -62, -172, 63, 174, 63 ],
+					"hull": 4
+				}
+			},
+			"down_shadow": {
+				"01_pic/down_shadow": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 77, -117, -75, -117, -75, 118, 77, 118 ],
+					"hull": 4
+				}
+			},
+			"fnt_BuyFG": {
+				"01_pic/supersed": { "x": 2, "y": -3.31, "width": 10, "height": 10 }
+			},
+			"up": {
+				"01_pic/up": { "x": 1, "y": 2.5, "width": 138, "height": 221 }
+			},
+			"up_2": {
+				"01_pic/up_2": { "x": 1.5, "y": 2.5, "width": 333, "height": 111 }
+			}
+		}
+	}
+],
+"animations": {
+	"disabled_L": {
+		"slots": {
+			"Btn_BuyFG_title_txt_P": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"down_2": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"down_shadow": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"up_2": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"translate": [
+					{ "time": 0.0333 }
+				]
+			},
+			"fnt_BuyFG": {
+				"translate": [
+					{ "y": -2.72 }
+				]
+			},
+			"Sboard_light": {
+				"translate": [
+					{ "y": 2.26 }
+				]
+			},
+			"bone4": {
+				"translate": [
+					{ "y": -0.22 }
+				]
+			}
+		}
+	},
+	"disabled_P": {
+		"slots": {
+			"Btn_BuyFG_title_txt_V": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"down_2": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"down_shadow": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"up": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bone4": {
+				"rotate": [
+					{ "angle": 90 }
+				],
+				"translate": [
+					{ "x": 65.93, "y": 43.3 }
+				],
+				"scale": [
+					{ "x": 0.8, "y": 1.514 }
+				]
+			},
+			"bone3": {
+				"translate": [
+					{ "time": 0.0333 }
+				]
+			},
+			"fnt_BuyFG": {
+				"translate": [
+					{ "y": 18.59 }
+				]
+			}
+		}
+	},
+	"idle_L": {
+		"slots": {
+			"Btn_BuyFG_title_txt_P": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"Sboard_light_11": {
+				"attachment": [
+					{ "time": 0.0333, "name": "02_fx/Sboard_light_10" },
+					{ "time": 0.0667, "name": "02_fx/Sboard_light_11" },
+					{ "time": 0.1, "name": "02_fx/Sboard_light_13" },
+					{ "time": 0.1333, "name": "02_fx/Sboard_light_15" },
+					{ "time": 0.1667, "name": "02_fx/Sboard_light_17" },
+					{ "time": 0.2, "name": "02_fx/Sboard_light_19" },
+					{ "time": 0.2333, "name": "02_fx/Sboard_light_21" },
+					{ "time": 0.2667, "name": "02_fx/Sboard_light_23" },
+					{ "time": 0.3, "name": "02_fx/Sboard_light_25" },
+					{ "time": 0.3333, "name": "02_fx/Sboard_light_27" },
+					{ "time": 0.3667, "name": "02_fx/Sboard_light_29" },
+					{ "time": 0.4, "name": "02_fx/Sboard_light_31" },
+					{ "time": 0.4333, "name": "02_fx/Sboard_light_33" },
+					{ "time": 0.4667, "name": "02_fx/Sboard_light_35" },
+					{ "time": 0.5, "name": "02_fx/Sboard_light_37" },
+					{ "time": 0.5333, "name": "02_fx/Sboard_light_39" },
+					{ "time": 0.5667, "name": "02_fx/Sboard_light_41" },
+					{ "time": 0.6, "name": "02_fx/Sboard_light_43" },
+					{ "time": 0.6333, "name": "02_fx/Sboard_light_44" },
+					{ "time": 0.6667, "name": "02_fx/Sboard_light_45" },
+					{ "time": 0.7, "name": "02_fx/Sboard_light_46" },
+					{ "time": 0.7333, "name": "02_fx/Sboard_light_47" },
+					{ "time": 0.7667, "name": "02_fx/Sboard_light_49" },
+					{ "time": 0.8, "name": "02_fx/Sboard_light_50" },
+					{ "time": 0.8333, "name": "02_fx/Sboard_light_51" },
+					{ "time": 0.8667, "name": null }
+				]
+			},
+			"down_2": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"down_shadow": {
+				"color": [
+					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.5, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 3, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 4.5, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 6, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 7.5, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 9, "color": "ffffff00" }
+				]
+			},
+			"up_2": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		},
+		"bones": {
+			"Sboard_light": {
+				"translate": [
+					{ "y": 2.26 }
+				]
+			},
+			"bone4": {
+				"translate": [
+					{ "y": -0.22 }
+				]
+			},
+			"fnt_BuyFG": {
+				"translate": [
+					{ "y": -2.72 }
+				]
+			}
+		}
+	},
+	"idle_P": {
+		"slots": {
+			"Btn_BuyFG_title_txt_V": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"Sboard_light_10": {
+				"attachment": [
+					{ "time": 0.0333, "name": "02_fx/Sboard_light_10" },
+					{ "time": 0.0667, "name": "02_fx/Sboard_light_11" },
+					{ "time": 0.1, "name": "02_fx/Sboard_light_13" },
+					{ "time": 0.1333, "name": "02_fx/Sboard_light_15" },
+					{ "time": 0.1667, "name": "02_fx/Sboard_light_17" },
+					{ "time": 0.2, "name": "02_fx/Sboard_light_19" },
+					{ "time": 0.2333, "name": "02_fx/Sboard_light_21" },
+					{ "time": 0.2667, "name": "02_fx/Sboard_light_23" },
+					{ "time": 0.3, "name": "02_fx/Sboard_light_25" },
+					{ "time": 0.3333, "name": "02_fx/Sboard_light_27" },
+					{ "time": 0.3667, "name": "02_fx/Sboard_light_29" },
+					{ "time": 0.4, "name": "02_fx/Sboard_light_31" },
+					{ "time": 0.4333, "name": "02_fx/Sboard_light_33" },
+					{ "time": 0.4667, "name": "02_fx/Sboard_light_35" },
+					{ "time": 0.5, "name": "02_fx/Sboard_light_37" },
+					{ "time": 0.5333, "name": "02_fx/Sboard_light_39" },
+					{ "time": 0.5667, "name": "02_fx/Sboard_light_41" },
+					{ "time": 0.6, "name": "02_fx/Sboard_light_43" },
+					{ "time": 0.6333, "name": "02_fx/Sboard_light_44" },
+					{ "time": 0.6667, "name": "02_fx/Sboard_light_45" },
+					{ "time": 0.7, "name": "02_fx/Sboard_light_46" },
+					{ "time": 0.7333, "name": "02_fx/Sboard_light_47" },
+					{ "time": 0.7667, "name": "02_fx/Sboard_light_49" },
+					{ "time": 0.8, "name": "02_fx/Sboard_light_50" },
+					{ "time": 0.8333, "name": "02_fx/Sboard_light_51" },
+					{ "time": 0.8667, "name": null }
+				]
+			},
+			"down_2": {
+				"color": [
+					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.5, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 3, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 4.5, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 6, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 7.5, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 9, "color": "ffffff00" }
+				]
+			},
+			"down_shadow": {
+				"attachment": [
+					{ "name": null }
+				]
+			},
+			"up": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		},
+		"bones": {
+			"bone4": {
+				"rotate": [
+					{ "angle": 90 }
+				],
+				"translate": [
+					{ "x": 65.93, "y": 43.3 },
+					{ "time": 0.7667, "x": 61.84, "y": 43.3 }
+				],
+				"scale": [
+					{ "x": 0.8, "y": 1.514 }
+				]
+			},
+			"fnt_BuyFG": {
+				"translate": [
+					{ "y": 18.59 }
+				]
+			}
+		}
+	}
+}
+}

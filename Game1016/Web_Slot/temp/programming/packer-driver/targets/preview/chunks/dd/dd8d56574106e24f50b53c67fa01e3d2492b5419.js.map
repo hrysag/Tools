@@ -1,0 +1,1 @@
+{"version":3,"sources":["file:///D:/cocosProject/Game1016/Web_Slot/assets/Arts/Tools/FXControl/Script/MotionStreak/v1/index.ts"],"names":["SlicedTrail"],"mappings":";;;;;;;;;0CACSA,W","sourcesContent":["\r\nexport { SlicedTrail } from \"./SlicedTrail\";\r\n\r\n\r\n"]}

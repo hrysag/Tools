@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_bfg_down.png",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 5,
+      "width": 482,
+      "height": 192
+    },
+    "offset": {
+      "x": 0,
+      "y": -2
+    },
+    "originalSize": {
+      "width": 482,
+      "height": 198
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -241,
+        -96,
+        0,
+        241,
+        -96,
+        0,
+        -241,
+        96,
+        0,
+        241,
+        96,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        193,
+        482,
+        193,
+        0,
+        1,
+        482,
+        1
+      ],
+      "nuv": [
+        0,
+        0.005050505050505051,
+        1,
+        0.005050505050505051,
+        0,
+        0.9747474747474747,
+        1,
+        0.9747474747474747
+      ],
+      "minPos": {
+        "x": -241,
+        "y": -96,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 241,
+        "y": 96,
+        "z": 0
+      }
+    },
+    "texture": "fe7aceb7-ce79-4286-b4f3-8d539517bf4e@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

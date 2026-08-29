@@ -1,0 +1,208 @@
+{
+  "__type__": "cc.BitmapFont",
+  "_name": "num_bfg_dialog",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "fntDataStr": "",
+  "spriteFrame": {
+    "__uuid__": "a2b1eb73-7883-4336-8c8e-a5a16968c7b5@f9941",
+    "__expectedType__": "cc.SpriteFrame"
+  },
+  "fontSize": 102,
+  "fntConfig": {
+    "commonHeight": 102,
+    "fontSize": 102,
+    "atlasName": "num_bfg_dialog.png",
+    "fontDefDictionary": {
+      "44": {
+        "rect": {
+          "x": 150,
+          "y": 204,
+          "width": 32,
+          "height": 102
+        },
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 32
+      },
+      "46": {
+        "rect": {
+          "x": 225,
+          "y": 204,
+          "width": 29,
+          "height": 102
+        },
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 29
+      },
+      "48": {
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 68,
+          "height": 102
+        },
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 68
+      },
+      "49": {
+        "rect": {
+          "x": 75,
+          "y": 0,
+          "width": 46,
+          "height": 102
+        },
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 46
+      },
+      "50": {
+        "rect": {
+          "x": 150,
+          "y": 0,
+          "width": 68,
+          "height": 102
+        },
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 68
+      },
+      "51": {
+        "rect": {
+          "x": 225,
+          "y": 0,
+          "width": 68,
+          "height": 102
+        },
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 68
+      },
+      "52": {
+        "rect": {
+          "x": 300,
+          "y": 0,
+          "width": 68,
+          "height": 102
+        },
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 68
+      },
+      "53": {
+        "rect": {
+          "x": 375,
+          "y": 0,
+          "width": 68,
+          "height": 102
+        },
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 68
+      },
+      "54": {
+        "rect": {
+          "x": 0,
+          "y": 102,
+          "width": 68,
+          "height": 102
+        },
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 68
+      },
+      "55": {
+        "rect": {
+          "x": 75,
+          "y": 102,
+          "width": 68,
+          "height": 102
+        },
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 68
+      },
+      "56": {
+        "rect": {
+          "x": 150,
+          "y": 102,
+          "width": 68,
+          "height": 102
+        },
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 68
+      },
+      "57": {
+        "rect": {
+          "x": 225,
+          "y": 102,
+          "width": 68,
+          "height": 102
+        },
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 68
+      },
+      "66": {
+        "rect": {
+          "x": 300,
+          "y": 102,
+          "width": 69,
+          "height": 102
+        },
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 69
+      },
+      "75": {
+        "rect": {
+          "x": 375,
+          "y": 102,
+          "width": 70,
+          "height": 102
+        },
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 70
+      },
+      "77": {
+        "rect": {
+          "x": 0,
+          "y": 204,
+          "width": 75,
+          "height": 102
+        },
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 75
+      },
+      "88": {
+        "rect": {
+          "x": 75,
+          "y": 204,
+          "width": 73,
+          "height": 102
+        },
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 73
+      },
+      "121": {
+        "rect": {
+          "x": 300,
+          "y": 204,
+          "width": 70,
+          "height": 102
+        },
+        "xOffset": 0,
+        "yOffset": 1,
+        "xAdvance": 70
+      }
+    },
+    "kerningDict": {}
+  }
+}

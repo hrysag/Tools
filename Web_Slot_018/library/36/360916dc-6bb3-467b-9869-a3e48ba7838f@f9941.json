@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "BuyFG_btn_confirm_bot_normal",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 240,
+      "height": 100
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 240,
+      "height": 100
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -120,
+        -50,
+        0,
+        120,
+        -50,
+        0,
+        -120,
+        50,
+        0,
+        120,
+        50,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        100,
+        240,
+        100,
+        0,
+        0,
+        240,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -120,
+        "y": -50,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 120,
+        "y": 50,
+        "z": 0
+      }
+    },
+    "texture": "360916dc-6bb3-467b-9869-a3e48ba7838f@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

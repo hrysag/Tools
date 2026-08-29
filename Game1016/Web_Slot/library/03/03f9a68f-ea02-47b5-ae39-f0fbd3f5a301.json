@@ -1,0 +1,19 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "icon_08",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": ".bin",
+  "_skeletonJson": null,
+  "textures": [
+    {
+      "__uuid__": "c6c59caa-e387-45d4-b899-fe046524e776@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "icon_08.webp"
+  ],
+  "scale": 1,
+  "_atlasText": "\r\nicon_08.webp\r\nsize: 512,256\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\n01_Pulm_BK_Glow_00\r\n  rotate: false\r\n  xy: 154, 58\r\n  size: 117, 111\r\n  orig: 117, 111\r\n  offset: 0, 0\r\n  index: -1\r\n01_plum_bossom\r\n  rotate: false\r\n  xy: 273, 2\r\n  size: 88, 81\r\n  orig: 88, 81\r\n  offset: 0, 0\r\n  index: -1\r\n01_plum_bossom_sd\r\n  rotate: false\r\n  xy: 273, 85\r\n  size: 91, 84\r\n  orig: 91, 84\r\n  offset: 0, 0\r\n  index: -1\r\nStar_Fx\r\n  rotate: false\r\n  xy: 2, 19\r\n  size: 150, 150\r\n  orig: 150, 150\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

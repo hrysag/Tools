@@ -1,0 +1,13 @@
+
+ani_sym_04_bot.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+m4_bg
+  rotate: false
+  xy: 2, 2
+  size: 206, 168
+  orig: 206, 168
+  offset: 0, 0
+  index: -1

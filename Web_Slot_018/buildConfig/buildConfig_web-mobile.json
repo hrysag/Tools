@@ -1,0 +1,71 @@
+{
+  "name": "Web_Slot",
+  "server": "",
+  "platform": "web-mobile",
+  "buildPath": "project://build",
+  "debug": false,
+  "md5Cache": true,
+  "skipCompressTexture": false,
+  "sourceMaps": false,
+  "overwriteProjectSettings": {
+    "includeModules": {
+      "gfx-webgl2": "on",
+      "physics": "inherit-project-setting",
+      "physics-2d": "inherit-project-setting"
+    },
+    "macroConfig": {
+      "cleanupImageCache": "inherit-project-setting"
+    }
+  },
+  "nativeCodeBundleMode": "both",
+  "polyfills": {
+    "asyncFunctions": true
+  },
+  "experimentalEraseModules": false,
+  "startSceneAssetBundle": false,
+  "bundleConfigs": [],
+  "useBuiltinServer": false,
+  "mainBundleIsRemote": false,
+  "mainBundleCompressionType": "merge_dep",
+  "useSplashScreen": false,
+  "bundleCommonChunk": false,
+  "packAutoAtlas": true,
+  "startScene": "d8c770a5-f8cf-4ca4-809b-82152b68c674",
+  "outputName": "game018",
+  "taskName": "web-mobile-001",
+  "scenes": [
+    {
+      "url": "db://assets/Game/Game018/Scene/Game018.scene",
+      "uuid": "2f111353-34d2-417f-871c-0819726a6a1d"
+    },
+    {
+      "url": "db://assets/Game/Game018/Scene/Game018_Start.scene",
+      "uuid": "d8c770a5-f8cf-4ca4-809b-82152b68c674"
+    }
+  ],
+  "wasmCompressionMode": false,
+  "packages": {
+    "adsense-h5g-plugin": {
+      "enableAdsense": false,
+      "enableTestAd": false,
+      "__version__": "1.0.1",
+      "AFPHostPropertyCode": "ca-host-pub-5396158963872751",
+      "AFPHostDomain": "douyougame.com",
+      "otherAFPHostPropertyCode": "",
+      "otherAFPDomain": ""
+    },
+    "web-mobile": {
+      "orientation": "auto",
+      "embedWebDebugger": false,
+      "__version__": "1.0.1"
+    },
+    "cocos-service": {
+      "configID": "290273",
+      "services": [],
+      "__version__": "3.0.7"
+    }
+  },
+  "__version__": "1.3.8",
+  "buildMode": "normal",
+  "logDest": "project://temp/builder/log/web-mobile2025-6-3 11-36.log"
+}

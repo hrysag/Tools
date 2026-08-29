@@ -1,0 +1,4 @@
+(function(root){var exports=undefined,module=undefined,require=undefined;var define=undefined;var self=root,window=root,global=root,globalThis=root;(function(){var timerId=null;var elapsedTime=0;function runTimer(){var nowTime=new Date().getTime();var deltaTime=nowTime-elapsedTime;elapsedTime=nowTime;self.postMessage(deltaTime);timerId=setTimeout(runTimer,16);}self.onmessage=function(event){if(event.data==='start'){// 開始執行 runTimer，每16毫秒通知主執行緒
+elapsedTime=new Date().getTime();runTimer();}};// 當 Worker 被終止時清除定時器
+self.onclose=function(){if(timerId!==null){clearTimeout(timerId);}};}).call(root);})(// The environment-specific global.
+function(){if(typeof globalThis!=='undefined')return globalThis;if(typeof self!=='undefined')return self;if(typeof window!=='undefined')return window;if(typeof global!=='undefined')return global;if(typeof this!=='undefined')return this;return{};}.call(this));

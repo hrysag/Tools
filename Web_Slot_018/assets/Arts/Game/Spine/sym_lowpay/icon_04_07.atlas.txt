@@ -1,0 +1,139 @@
+
+Icon_04_07.webp
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01_pic/sym_low_04_frame
+  rotate: false
+  xy: 249, 441
+  size: 242, 246
+  orig: 242, 246
+  offset: 0, 0
+  index: -1
+01_pic/sym_low_04_gem
+  rotate: false
+  xy: 468, 77
+  size: 210, 208
+  orig: 210, 208
+  offset: 0, 0
+  index: -1
+01_pic/sym_low_04_shadow
+  rotate: false
+  xy: 575, 622
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+01_pic/sym_low_05_frame
+  rotate: false
+  xy: 650, 518
+  size: 253, 225
+  orig: 253, 225
+  offset: 0, 0
+  index: -1
+01_pic/sym_low_05_gem
+  rotate: false
+  xy: 680, 108
+  size: 216, 177
+  orig: 216, 177
+  offset: 0, 0
+  index: -1
+01_pic/sym_low_05_shadow
+  rotate: false
+  xy: 563, 546
+  size: 66, 59
+  orig: 66, 59
+  offset: 0, 0
+  index: -1
+01_pic/sym_low_06_frame
+  rotate: false
+  xy: 650, 745
+  size: 261, 270
+  orig: 261, 270
+  offset: 0, 0
+  index: -1
+01_pic/sym_low_06_gem
+  rotate: false
+  xy: 222, 2
+  size: 201, 206
+  orig: 201, 206
+  offset: 0, 0
+  index: -1
+01_pic/sym_low_06_shadow
+  rotate: false
+  xy: 493, 535
+  size: 68, 70
+  orig: 68, 70
+  offset: 0, 0
+  index: -1
+01_pic/sym_low_07_frame
+  rotate: false
+  xy: 2, 454
+  size: 245, 233
+  orig: 245, 233
+  offset: 0, 0
+  index: -1
+01_pic/sym_low_07_gem
+  rotate: false
+  xy: 2, 9
+  size: 218, 212
+  orig: 218, 212
+  offset: 0, 0
+  index: -1
+01_pic/sym_low_07_shadow
+  rotate: false
+  xy: 905, 682
+  size: 64, 61
+  orig: 64, 61
+  offset: 0, 0
+  index: -1
+01_pic/sym_low_bot_blue
+  rotate: false
+  xy: 2, 689
+  size: 322, 326
+  orig: 322, 326
+  offset: 0, 0
+  index: -1
+01_pic/sym_low_bot_rad
+  rotate: false
+  xy: 326, 689
+  size: 322, 326
+  orig: 322, 326
+  offset: 0, 0
+  index: -1
+02_fx/exp_white_light_add
+  rotate: false
+  xy: 493, 607
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+02_fx/sym_low_04_gem_glow
+  rotate: false
+  xy: 2, 223
+  size: 231, 229
+  orig: 231, 229
+  offset: 0, 0
+  index: -1
+02_fx/sym_low_05_gem_glow
+  rotate: false
+  xy: 493, 287
+  size: 231, 229
+  orig: 231, 229
+  offset: 0, 0
+  index: -1
+02_fx/sym_low_06_gem_glow
+  rotate: false
+  xy: 235, 210
+  size: 231, 229
+  orig: 231, 229
+  offset: 0, 0
+  index: -1
+02_fx/sym_low_07_gem_glow
+  rotate: false
+  xy: 726, 287
+  size: 231, 229
+  orig: 231, 229
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,164 @@
+{
+  "__type__": "cc.BitmapFont",
+  "_name": "WinScore_fnt",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "fntDataStr": "",
+  "spriteFrame": {
+    "__uuid__": "357deecb-f81d-4796-a2cd-899859f84191@f9941",
+    "__expectedType__": "cc.SpriteFrame"
+  },
+  "fontSize": 220,
+  "fntConfig": {
+    "commonHeight": 220,
+    "fontSize": 220,
+    "atlasName": "WinScore_fnt.png",
+    "fontDefDictionary": {
+      "32": {
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "xOffset": 0,
+        "yOffset": 0,
+        "xAdvance": 62
+      },
+      "44": {
+        "rect": {
+          "x": 408,
+          "y": 0,
+          "width": 69,
+          "height": 85
+        },
+        "xOffset": 16,
+        "yOffset": 134,
+        "xAdvance": 100
+      },
+      "46": {
+        "rect": {
+          "x": 408,
+          "y": 86,
+          "width": 65,
+          "height": 63
+        },
+        "xOffset": 17,
+        "yOffset": 134,
+        "xAdvance": 100
+      },
+      "48": {
+        "rect": {
+          "x": 126,
+          "y": 0,
+          "width": 150,
+          "height": 166
+        },
+        "xOffset": 5,
+        "yOffset": 31,
+        "xAdvance": 160
+      },
+      "49": {
+        "rect": {
+          "x": 400,
+          "y": 170,
+          "width": 110,
+          "height": 164
+        },
+        "xOffset": 5,
+        "yOffset": 32,
+        "xAdvance": 120
+      },
+      "50": {
+        "rect": {
+          "x": 138,
+          "y": 337,
+          "width": 130,
+          "height": 164
+        },
+        "xOffset": 9,
+        "yOffset": 32,
+        "xAdvance": 148
+      },
+      "51": {
+        "rect": {
+          "x": 277,
+          "y": 0,
+          "width": 130,
+          "height": 166
+        },
+        "xOffset": 9,
+        "yOffset": 31,
+        "xAdvance": 148
+      },
+      "52": {
+        "rect": {
+          "x": 269,
+          "y": 337,
+          "width": 140,
+          "height": 163
+        },
+        "xOffset": 10,
+        "yOffset": 32,
+        "xAdvance": 160
+      },
+      "53": {
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 125,
+          "height": 169
+        },
+        "xOffset": 17,
+        "yOffset": 29,
+        "xAdvance": 160
+      },
+      "54": {
+        "rect": {
+          "x": 131,
+          "y": 170,
+          "width": 137,
+          "height": 165
+        },
+        "xOffset": 12,
+        "yOffset": 31,
+        "xAdvance": 160
+      },
+      "55": {
+        "rect": {
+          "x": 269,
+          "y": 170,
+          "width": 130,
+          "height": 165
+        },
+        "xOffset": 15,
+        "yOffset": 31,
+        "xAdvance": 160
+      },
+      "56": {
+        "rect": {
+          "x": 0,
+          "y": 170,
+          "width": 130,
+          "height": 166
+        },
+        "xOffset": 15,
+        "yOffset": 31,
+        "xAdvance": 160
+      },
+      "57": {
+        "rect": {
+          "x": 0,
+          "y": 337,
+          "width": 137,
+          "height": 165
+        },
+        "xOffset": 11,
+        "yOffset": 32,
+        "xAdvance": 160
+      }
+    },
+    "kerningDict": {}
+  }
+}

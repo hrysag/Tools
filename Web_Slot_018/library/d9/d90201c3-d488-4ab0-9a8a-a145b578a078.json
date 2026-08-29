@@ -1,0 +1,527 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "FX_FreeStart_front",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "Pdcap5qTmgy+8GQcFNXCF08JZtY",
+      "spine": "3.8.99",
+      "x": -750,
+      "y": -444,
+      "width": 1500,
+      "height": 888
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "fx_all_around",
+        "parent": "root"
+      },
+      {
+        "name": "fx_transition_light_line_comp",
+        "parent": "fx_all_around"
+      },
+      {
+        "name": "fx_dark_front_fx",
+        "parent": "fx_all_around"
+      },
+      {
+        "name": "fx_door_mulight_01160",
+        "parent": "root",
+        "scaleX": 4,
+        "scaleY": 4
+      }
+    ],
+    "slots": [
+      {
+        "name": "fx_dark_front_fx",
+        "bone": "fx_dark_front_fx",
+        "color": "ffffff00",
+        "attachment": "02_fx_front_transition/dark_front_fx"
+      },
+      {
+        "name": "fx_door_mulight_01160",
+        "bone": "fx_door_mulight_01160",
+        "color": "ffffff00",
+        "attachment": "02_fx_front_transition/fx_door_light_frame_g_01160_circle",
+        "blend": "additive"
+      },
+      {
+        "name": "fx_transition_light_line_L",
+        "bone": "fx_transition_light_line_comp",
+        "color": "ffffff00",
+        "attachment": "02_fx_front_transition/fx_transition_light_line_L",
+        "blend": "additive"
+      },
+      {
+        "name": "fx_transition_light_line_L2",
+        "bone": "fx_transition_light_line_comp",
+        "color": "ffffff00",
+        "attachment": "02_fx_front_transition/fx_transition_light_line_L",
+        "blend": "additive"
+      },
+      {
+        "name": "fx_transition_light_line_L3",
+        "bone": "fx_transition_light_line_comp",
+        "color": "ffffff00",
+        "attachment": "02_fx_front_transition/fx_transition_light_line_L",
+        "blend": "additive"
+      },
+      {
+        "name": "fx_transition_light_line_L4",
+        "bone": "fx_transition_light_line_comp",
+        "color": "ffffff00",
+        "attachment": "02_fx_front_transition/fx_transition_light_line_L",
+        "blend": "additive"
+      }
+    ],
+    "skins": [
+      {
+        "name": "default",
+        "attachments": {
+          "fx_dark_front_fx": {
+            "02_fx_front_transition/dark_front_fx": {
+              "scaleX": 4,
+              "scaleY": 4,
+              "width": 320,
+              "height": 222
+            }
+          },
+          "fx_door_mulight_01160": {
+            "02_fx_front_transition/fx_door_light_frame_g_01160_circle": {
+              "width": 43,
+              "height": 151
+            },
+            "02_fx_front_transition/fx_door_light_frame_g_01161": {
+              "width": 47,
+              "height": 151
+            },
+            "02_fx_front_transition/fx_door_light_frame_g_01162": {
+              "width": 80,
+              "height": 156
+            },
+            "02_fx_front_transition/fx_door_light_frame_g_01163": {
+              "width": 122,
+              "height": 159
+            },
+            "02_fx_front_transition/fx_door_light_frame_g_01164": {
+              "width": 160,
+              "height": 159
+            },
+            "02_fx_front_transition/fx_door_light_frame_g_01165": {
+              "width": 199,
+              "height": 159
+            },
+            "02_fx_front_transition/fx_door_light_frame_g_01166": {
+              "width": 237,
+              "height": 159
+            },
+            "02_fx_front_transition/fx_door_light_frame_g_01167": {
+              "width": 242,
+              "height": 159
+            },
+            "02_fx_front_transition/fx_door_light_frame_g_01168": {
+              "width": 245,
+              "height": 156
+            }
+          },
+          "fx_transition_light_line_L": {
+            "02_fx_front_transition/fx_transition_light_line_L": {
+              "scaleX": 2,
+              "scaleY": 2,
+              "width": 750,
+              "height": 422
+            }
+          },
+          "fx_transition_light_line_L2": {
+            "02_fx_front_transition/fx_transition_light_line_L": {
+              "scaleX": -2,
+              "scaleY": -2,
+              "width": 750,
+              "height": 422
+            }
+          },
+          "fx_transition_light_line_L3": {
+            "02_fx_front_transition/fx_transition_light_line_L": {
+              "scaleX": 2,
+              "scaleY": -2,
+              "width": 750,
+              "height": 422
+            }
+          },
+          "fx_transition_light_line_L4": {
+            "02_fx_front_transition/fx_transition_light_line_L": {
+              "scaleX": -2,
+              "scaleY": 2,
+              "width": 750,
+              "height": 422
+            }
+          }
+        }
+      }
+    ],
+    "animations": {
+      "freestart_out_L": {
+        "slots": {
+          "fx_dark_front_fx": {
+            "color": [
+              {
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.3667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "fx_door_mulight_01160": {
+            "color": [
+              {
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.4333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.4667,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 1.2,
+                "name": "02_fx_front_transition/fx_door_light_frame_g_01161"
+              },
+              {
+                "time": 1.2333,
+                "name": "02_fx_front_transition/fx_door_light_frame_g_01162"
+              },
+              {
+                "time": 1.2667,
+                "name": "02_fx_front_transition/fx_door_light_frame_g_01163"
+              },
+              {
+                "time": 1.3,
+                "name": "02_fx_front_transition/fx_door_light_frame_g_01164"
+              },
+              {
+                "time": 1.3333,
+                "name": "02_fx_front_transition/fx_door_light_frame_g_01165"
+              },
+              {
+                "time": 1.3667,
+                "name": "02_fx_front_transition/fx_door_light_frame_g_01166"
+              },
+              {
+                "time": 1.4,
+                "name": "02_fx_front_transition/fx_door_light_frame_g_01167"
+              },
+              {
+                "time": 1.4333,
+                "name": "02_fx_front_transition/fx_door_light_frame_g_01168"
+              }
+            ]
+          },
+          "fx_transition_light_line_L": {
+            "color": [
+              {
+                "time": 1,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.3333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.6667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "fx_transition_light_line_L2": {
+            "color": [
+              {
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffff7d"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "fx_transition_light_line_L3": {
+            "color": [
+              {
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffffe6"
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "fx_transition_light_line_L4": {
+            "color": [
+              {
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.3333,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "fx_door_mulight_01160": {
+            "scale": [
+              {
+                "time": 1.4
+              },
+              {
+                "time": 1.4333,
+                "x": 1.255
+              }
+            ]
+          }
+        }
+      },
+      "freestart_out_P": {
+        "slots": {
+          "fx_dark_front_fx": {
+            "color": [
+              {
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.3667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "fx_door_mulight_01160": {
+            "color": [
+              {
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.4333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.4667,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 1.2,
+                "name": "02_fx_front_transition/fx_door_light_frame_g_01161"
+              },
+              {
+                "time": 1.2333,
+                "name": "02_fx_front_transition/fx_door_light_frame_g_01162"
+              },
+              {
+                "time": 1.2667,
+                "name": "02_fx_front_transition/fx_door_light_frame_g_01163"
+              },
+              {
+                "time": 1.3,
+                "name": "02_fx_front_transition/fx_door_light_frame_g_01164"
+              },
+              {
+                "time": 1.3333,
+                "name": "02_fx_front_transition/fx_door_light_frame_g_01165"
+              },
+              {
+                "time": 1.3667,
+                "name": "02_fx_front_transition/fx_door_light_frame_g_01166"
+              },
+              {
+                "time": 1.4,
+                "name": "02_fx_front_transition/fx_door_light_frame_g_01167"
+              },
+              {
+                "time": 1.4333,
+                "name": "02_fx_front_transition/fx_door_light_frame_g_01168"
+              }
+            ]
+          },
+          "fx_transition_light_line_L": {
+            "color": [
+              {
+                "time": 1,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.3333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.6667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "fx_transition_light_line_L2": {
+            "color": [
+              {
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffff7d"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "fx_transition_light_line_L3": {
+            "color": [
+              {
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffffe6"
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "fx_transition_light_line_L4": {
+            "color": [
+              {
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.3333,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "fx_door_mulight_01160": {
+            "translate": [
+              {
+                "y": 50
+              }
+            ],
+            "scale": [
+              {
+                "x": 0.7,
+                "y": 0.7,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.4,
+                "x": 0.7,
+                "y": 0.7
+              },
+              {
+                "time": 1.4333,
+                "x": 0.805,
+                "y": 0.7
+              }
+            ]
+          },
+          "fx_all_around": {
+            "rotate": [
+              {
+                "angle": 90
+              }
+            ],
+            "scale": [
+              {
+                "x": 1.05,
+                "y": 1.05
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "textures": [
+    {
+      "__uuid__": "89588b87-b547-485e-b2de-ebb9fccf010d@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "FX_FreeStart_front.png"
+  ],
+  "scale": 1,
+  "_atlasText": "\r\nFX_FreeStart_front.png\r\nsize: 1024,1024\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\n02_fx_front_transition/dark_front_fx\r\n  rotate: false\r\n  xy: 485, 527\r\n  size: 320, 222\r\n  orig: 320, 222\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_front_transition/fx_door_light_frame_g_01160_circle\r\n  rotate: false\r\n  xy: 2, 759\r\n  size: 43, 151\r\n  orig: 43, 151\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_front_transition/fx_door_light_frame_g_01161\r\n  rotate: false\r\n  xy: 47, 759\r\n  size: 47, 151\r\n  orig: 47, 151\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_front_transition/fx_door_light_frame_g_01162\r\n  rotate: false\r\n  xy: 96, 754\r\n  size: 80, 156\r\n  orig: 80, 156\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_front_transition/fx_door_light_frame_g_01163\r\n  rotate: false\r\n  xy: 425, 751\r\n  size: 122, 159\r\n  orig: 122, 159\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_front_transition/fx_door_light_frame_g_01164\r\n  rotate: false\r\n  xy: 549, 751\r\n  size: 160, 159\r\n  orig: 160, 159\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_front_transition/fx_door_light_frame_g_01165\r\n  rotate: false\r\n  xy: 711, 751\r\n  size: 199, 159\r\n  orig: 199, 159\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_front_transition/fx_door_light_frame_g_01166\r\n  rotate: false\r\n  xy: 2, 593\r\n  size: 237, 159\r\n  orig: 237, 159\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_front_transition/fx_door_light_frame_g_01167\r\n  rotate: false\r\n  xy: 241, 590\r\n  size: 242, 159\r\n  orig: 242, 159\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_front_transition/fx_door_light_frame_g_01168\r\n  rotate: false\r\n  xy: 178, 754\r\n  size: 245, 156\r\n  orig: 245, 156\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_front_transition/fx_transition_light_line_L\r\n  rotate: false\r\n  xy: 2, 103\r\n  size: 750, 422\r\n  orig: 750, 422\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

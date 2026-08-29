@@ -1,0 +1,12 @@
+{
+  "ver": "1.2.0",
+  "importer": "directory",
+  "imported": true,
+  "uuid": "c283fdbf-9db5-477d-b4b9-0471d7cbfc59",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "bundleName": "audio",
+    "isBundle": true
+  }
+}

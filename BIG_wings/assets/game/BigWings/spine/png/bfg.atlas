@@ -1,0 +1,146 @@
+
+bfg.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+02_pic/bot
+  rotate: false
+  xy: 2, 59
+  size: 614, 451
+  orig: 614, 451
+  offset: 0, 0
+  index: -1
+02_pic/frame_cy
+  rotate: true
+  xy: 2, 13
+  size: 44, 265
+  orig: 44, 265
+  offset: 0, 0
+  index: -1
+02_pic/frame_dbot
+  rotate: false
+  xy: 618, 356
+  size: 390, 154
+  orig: 390, 154
+  offset: 0, 0
+  index: -1
+02_pic/frame_roof
+  rotate: false
+  xy: 618, 232
+  size: 398, 122
+  orig: 398, 122
+  offset: 0, 0
+  index: -1
+02_pic/gold
+  rotate: false
+  xy: 269, 21
+  size: 50, 36
+  orig: 50, 36
+  offset: 0, 0
+  index: -1
+02_pic/jade__d
+  rotate: false
+  xy: 618, 102
+  size: 240, 60
+  orig: 240, 60
+  offset: 0, 0
+  index: -1
+02_pic/jade__u
+  rotate: false
+  xy: 618, 164
+  size: 376, 66
+  orig: 376, 66
+  offset: 0, 0
+  index: -1
+02_pic/lantern__d
+  rotate: true
+  xy: 618, 37
+  size: 63, 77
+  orig: 63, 77
+  offset: 0, 0
+  index: -1
+02_pic/lantern__u
+  rotate: true
+  xy: 860, 74
+  size: 88, 100
+  orig: 88, 100
+  offset: 0, 0
+  index: -1
+02_pic/line_01
+  rotate: false
+  xy: 1010, 465
+  size: 11, 45
+  orig: 11, 45
+  offset: 0, 0
+  index: -1
+02_pic/line_02
+  rotate: false
+  xy: 996, 208
+  size: 7, 22
+  orig: 7, 22
+  offset: 0, 0
+  index: -1
+02_pic/line_03
+  rotate: true
+  xy: 269, 2
+  size: 17, 41
+  orig: 17, 41
+  offset: 0, 0
+  index: -1
+
+bfg_fx.jpg
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01_fx/bot_01
+  rotate: false
+  xy: 760, 2
+  size: 536, 393
+  orig: 536, 393
+  offset: 0, 0
+  index: -1
+01_fx/frame_1
+  rotate: false
+  xy: 2, 10
+  size: 356, 238
+  orig: 356, 238
+  offset: 0, 0
+  index: -1
+01_fx/light_01
+  rotate: false
+  xy: 760, 397
+  size: 711, 481
+  orig: 711, 481
+  offset: 0, 0
+  index: -1
+01_fx/light_03
+  rotate: false
+  xy: 2, 250
+  size: 756, 628
+  orig: 756, 628
+  offset: 0, 0
+  index: -1
+01_fx/light_07
+  rotate: false
+  xy: 1298, 325
+  size: 70, 70
+  orig: 70, 70
+  offset: 0, 0
+  index: -1
+01_fx/light_spot_01
+  rotate: true
+  xy: 1473, 224
+  size: 654, 522
+  orig: 654, 522
+  offset: 0, 0
+  index: -1
+01_fx/shine_2
+  rotate: false
+  xy: 1997, 825
+  size: 48, 53
+  orig: 48, 53
+  offset: 0, 0
+  index: -1
+

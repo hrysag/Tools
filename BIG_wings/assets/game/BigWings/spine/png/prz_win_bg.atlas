@@ -1,0 +1,27 @@
+
+prz_win_bg.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+background2_painting
+  rotate: false
+  xy: 2, 47
+  size: 325, 397
+  orig: 325, 397
+  offset: 0, 0
+  index: -1
+background3_painting
+  rotate: false
+  xy: 329, 208
+  size: 325, 236
+  orig: 325, 236
+  offset: 0, 0
+  index: -1
+background_cloud
+  rotate: false
+  xy: 2, 2
+  size: 99, 43
+  orig: 99, 43
+  offset: 0, 0
+  index: -1

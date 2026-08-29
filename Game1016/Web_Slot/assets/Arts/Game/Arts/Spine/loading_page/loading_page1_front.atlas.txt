@@ -1,0 +1,13 @@
+
+loading_page1_front.webp
+size: 184,536
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+icon_09
+  rotate: false
+  xy: 2, 2
+  size: 180, 532
+  orig: 180, 532
+  offset: 0, 0
+  index: -1

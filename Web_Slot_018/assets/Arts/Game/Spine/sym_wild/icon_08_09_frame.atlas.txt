@@ -1,0 +1,188 @@
+
+Icon_08_09_frame.webp
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01_pic/wild_frame_ad_down
+  rotate: false
+  xy: 745, 682
+  size: 311, 62
+  orig: 311, 62
+  offset: 0, 0
+  index: -1
+01_pic/wild_frame_ad_up
+  rotate: false
+  xy: 404, 894
+  size: 234, 64
+  orig: 234, 64
+  offset: 0, 0
+  index: -1
+01_pic/wild_frame_base
+  rotate: false
+  xy: 2, 112
+  size: 322, 322
+  orig: 322, 322
+  offset: 0, 0
+  index: -1
+01_pic/wild_reel_frame_down
+  rotate: false
+  xy: 916, 1048
+  size: 322, 70
+  orig: 322, 70
+  offset: 0, 0
+  index: -1
+01_pic/wild_reel_frame_up
+  rotate: false
+  xy: 916, 1120
+  size: 322, 118
+  orig: 322, 118
+  offset: 0, 0
+  index: -1
+01_pic/wild_reel_gem_down_blue
+  rotate: false
+  xy: 404, 828
+  size: 115, 64
+  orig: 115, 64
+  offset: 0, 0
+  index: -1
+01_pic/wild_reel_gem_down_rad
+  rotate: false
+  xy: 404, 762
+  size: 115, 64
+  orig: 115, 64
+  offset: 0, 0
+  index: -1
+01_pic/wild_reel_gem_up_blue
+  rotate: false
+  xy: 607, 848
+  size: 62, 44
+  orig: 62, 44
+  offset: 0, 0
+  index: -1
+01_pic/wild_reel_gem_up_rad
+  rotate: false
+  xy: 607, 802
+  size: 62, 44
+  orig: 62, 44
+  offset: 0, 0
+  index: -1
+01_pic/wild_wold_p_d
+  rotate: false
+  xy: 478, 470
+  size: 74, 94
+  orig: 74, 94
+  offset: 0, 0
+  index: -1
+01_pic/wild_wold_p_i
+  rotate: false
+  xy: 715, 648
+  size: 28, 96
+  orig: 28, 96
+  offset: 0, 0
+  index: -1
+01_pic/wild_wold_p_l
+  rotate: false
+  xy: 715, 551
+  size: 58, 95
+  orig: 58, 95
+  offset: 0, 0
+  index: -1
+01_pic/wild_wold_p_w
+  rotate: false
+  xy: 569, 666
+  size: 99, 96
+  orig: 99, 96
+  offset: 0, 0
+  index: -1
+01_pic/wild_wold_shadow_d
+  rotate: false
+  xy: 569, 554
+  size: 90, 110
+  orig: 90, 110
+  offset: 0, 0
+  index: -1
+01_pic/wild_wold_shadow_i
+  rotate: false
+  xy: 670, 632
+  size: 43, 112
+  orig: 43, 112
+  offset: 0, 0
+  index: -1
+01_pic/wild_wold_shadow_l
+  rotate: false
+  xy: 404, 463
+  size: 72, 111
+  orig: 72, 111
+  offset: 0, 0
+  index: -1
+01_pic/wild_wold_shadow_w
+  rotate: false
+  xy: 453, 648
+  size: 114, 112
+  orig: 114, 112
+  offset: 0, 0
+  index: -1
+01_pic/wild_word_crack_light_d
+  rotate: false
+  xy: 672, 746
+  size: 400, 239
+  orig: 400, 239
+  offset: 0, 0
+  index: -1
+01_pic/wild_word_crack_light_u
+  rotate: false
+  xy: 326, 127
+  size: 400, 307
+  orig: 400, 307
+  offset: 0, 0
+  index: -1
+02_fx/exp_white_light_add
+  rotate: false
+  xy: 478, 566
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+02_fx/fx_free_sweap_y
+  rotate: false
+  xy: 521, 764
+  size: 84, 128
+  orig: 84, 128
+  offset: 0, 0
+  index: -1
+02_fx/wild_bigger_fx2
+  rotate: false
+  xy: 404, 960
+  size: 266, 278
+  orig: 266, 278
+  offset: 0, 0
+  index: -1
+02_fx/wild_bigger_fx2_framesqare
+  rotate: false
+  xy: 672, 987
+  size: 242, 251
+  orig: 242, 251
+  offset: 0, 0
+  index: -1
+02_fx/wild_frame_base_fx
+  rotate: false
+  xy: 2, 838
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+02_fx/wild_line_fx
+  rotate: false
+  xy: 404, 576
+  size: 47, 184
+  orig: 47, 184
+  offset: 0, 0
+  index: -1
+02_fx/wild_word_connect_fx
+  rotate: false
+  xy: 2, 436
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1

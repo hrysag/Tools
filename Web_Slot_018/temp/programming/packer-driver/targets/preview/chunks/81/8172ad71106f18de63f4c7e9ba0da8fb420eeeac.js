@@ -1,0 +1,293 @@
+System.register(["cc"], function (_export, _context) {
+  "use strict";
+
+  var _cclegacy, EliminationPayTable, WinData, Block, _crd;
+
+  _export({
+    EliminationPayTable: void 0,
+    WinData: void 0,
+    Block: void 0
+  });
+
+  return {
+    setters: [function (_cc) {
+      _cclegacy = _cc.cclegacy;
+    }],
+    execute: function () {
+      _crd = true;
+
+      _cclegacy._RF.push({}, "9a8241YcM9Mn4lieicHA/BS", "EliminationPayTable", undefined);
+
+      _export("EliminationPayTable", EliminationPayTable = class EliminationPayTable {
+        /**
+         * @param wild WILD圖示
+         * @param iconList 中獎圖示表 (將有賠率的連線中獎圖示放入，SCATTER請另外算)
+         * @param oddList 賠率表
+         * @param connectNum 連線數量
+         * @param directions 連線方向(默認為上下左右)
+         */
+        constructor(wild, iconList, oddList, connectNum, directions) {
+          if (directions === void 0) {
+            directions = [[0, 1], [1, 0], [0, -1], [-1, 0]];
+          }
+
+          this.wild = void 0;
+          this.iconList = void 0;
+          this.oddList = void 0;
+          this.connectNum = void 0;
+          this.directions = void 0;
+          this.grid = void 0;
+          this.reelAmount = void 0;
+          this.symbolLength = void 0;
+          this.normalBroad = void 0;
+          this.wildBroad = void 0;
+          this.wild = wild;
+          this.iconList = iconList;
+          this.oddList = oddList;
+          this.connectNum = connectNum;
+          this.directions = directions;
+        }
+
+        getEliminationWinData(iconData, reelAmount, symbolLength) {
+          this.reelAmount = reelAmount;
+          this.symbolLength = symbolLength;
+          this.grid = this.convertSymbolTo2DArray(iconData);
+          this.normalBroad = Array.from({
+            length: this.reelAmount
+          }, () => Array(this.symbolLength).fill(false));
+
+          if (this.iconListHasWild()) {
+            this.wildBroad = Array.from({
+              length: this.reelAmount
+            }, () => Array(this.symbolLength).fill(false));
+            this.setWildBroad();
+          }
+
+          return this.getWinDataList();
+        }
+
+        convertSymbolTo2DArray(iconData) {
+          var resultData = [];
+
+          for (var index = 0; index < this.reelAmount; index++) {
+            resultData[index] = iconData.slice(index * this.symbolLength, (index + 1) * this.symbolLength);
+          }
+
+          return resultData;
+        }
+
+        getWinDataList() {
+          var WinDataList = [];
+          var blocks = this.getEliminationBlocks();
+
+          for (var i = 0; i < blocks.length; i++) {
+            var symbol = blocks[i].symbol;
+            var length = blocks[i].cells.length;
+            var index = this.getWinLength(length);
+            var odd = this.oddList[symbol][index];
+
+            if (length >= this.connectNum[0] && odd > 0) {
+              var pos = this.getPosList(blocks[i].cells);
+              var win2DPos = this.get2DPosList(blocks[i].cells);
+              blocks[i].cells.sort((a, b) => a[0] - b[0] || a[1] - b[1]);
+              var winData = new WinData(symbol, odd, pos, win2DPos);
+              WinDataList.push(winData);
+            }
+          }
+
+          return WinDataList;
+        }
+
+        getEliminationBlocks() {
+          var blocks = [];
+          this.normalConnect(blocks);
+
+          if (this.iconListHasWild()) {
+            for (var r = 0; r < this.reelAmount; r++) {
+              for (var c = 0; c < this.symbolLength; c++) {
+                if (this.wildBroad[r][c]) {
+                  continue;
+                }
+
+                var currentValue = this.grid[r][c];
+                var targetValue = currentValue;
+                var block = new Block(targetValue, []);
+                this.dfs(r, c, targetValue, this.wildBroad, block.cells);
+
+                if (block.cells.length >= 0) {
+                  blocks.push(block);
+                }
+              }
+            }
+          }
+
+          return blocks;
+        }
+
+        normalConnect(blocks) {
+          for (var r = 0; r < this.reelAmount; r++) {
+            for (var c = 0; c < this.symbolLength; c++) {
+              this.resetWild();
+
+              if (this.normalBroad[r][c]) {
+                continue;
+              }
+
+              var currentValue = this.grid[r][c];
+              var targetValue = currentValue;
+
+              if (this.isWild(currentValue)) {
+                var foundTarget = false;
+
+                for (var [dr, dc] of this.directions) {
+                  var nr = r + dr;
+                  var nc = c + dc;
+
+                  if (this.canConnect(nr, nc)) {
+                    targetValue = this.grid[nr][nc];
+                    foundTarget = true;
+                    break;
+                  }
+                }
+
+                if (!foundTarget) {
+                  this.normalBroad[r][c] = true;
+                  continue;
+                }
+              }
+
+              var block = new Block(targetValue, []);
+              this.dfs(r, c, targetValue, this.normalBroad, block.cells);
+
+              if (block.cells.length >= 0) {
+                blocks.push(block);
+              }
+            }
+          }
+        }
+
+        dfs(r, c, targetValue, broad, block) {
+          if (!this.isValidCoordinate(r, c) || broad[r][c]) {
+            return;
+          }
+
+          var val = this.grid[r][c];
+
+          if (val !== targetValue && !this.isWild(val)) {
+            return;
+          }
+
+          broad[r][c] = true;
+          block.push([r, c]);
+
+          for (var [dr, dc] of this.directions) {
+            this.dfs(r + dr, c + dc, targetValue, broad, block);
+          }
+        }
+
+        resetWild() {
+          for (var r = 0; r < this.reelAmount; r++) {
+            for (var c = 0; c < this.symbolLength; c++) {
+              if (this.isWild(this.grid[r][c])) {
+                this.normalBroad[r][c] = false;
+              }
+            }
+          }
+        }
+
+        setWildBroad() {
+          for (var r = 0; r < this.reelAmount; r++) {
+            for (var c = 0; c < this.symbolLength; c++) {
+              if (!this.isWild(this.grid[r][c])) {
+                this.wildBroad[r][c] = true;
+              }
+            }
+          }
+        }
+
+        canConnect(nr, nc) {
+          return this.isValidCoordinate(nr, nc) && !this.normalBroad[nr][nc] && !this.isWild(this.grid[nr][nc]);
+        }
+
+        isValidCoordinate(r, c) {
+          return r >= 0 && c >= 0 && r < this.reelAmount && c < this.symbolLength;
+        }
+
+        isWild(val) {
+          return this.wild.includes(val);
+        }
+
+        iconListHasWild() {
+          return this.iconList.some(val => this.wild.includes(val));
+        }
+
+        getWinLength(cellLength) {
+          for (var i = 0; i < this.connectNum.length; i++) {
+            var isMaxConnectNum = i === this.connectNum.length - 1 && cellLength >= this.connectNum[i];
+            var isEqualConnectNum = cellLength >= this.connectNum[i] && cellLength < this.connectNum[i + 1];
+
+            if (isMaxConnectNum || isEqualConnectNum) {
+              return i;
+            }
+          }
+        }
+
+        getPosList(cell) {
+          var posList = [];
+
+          for (var i = 0; i < cell.length; i++) {
+            posList.push(cell[i][0] * this.symbolLength + cell[i][1]);
+          }
+
+          posList.sort((a, b) => a - b);
+          return posList;
+        }
+
+        get2DPosList(cell) {
+          var result = Array.from({
+            length: this.reelAmount
+          }, () => []);
+
+          for (var [x, y] of cell) {
+            if (result[x]) {
+              result[x].push(y);
+              result[x].sort((a, b) => a - b);
+            }
+          }
+
+          return result;
+        }
+
+      });
+
+      _export("WinData", WinData = class WinData {
+        constructor(symbolID, odd, pos, Win2DPos) {
+          this.SymbolID = void 0;
+          this.Odd = void 0;
+          this.Pos = void 0;
+          this.Win2DPos = void 0;
+          this.SymbolID = symbolID;
+          this.Odd = odd;
+          this.Pos = pos;
+          this.Win2DPos = Win2DPos;
+        }
+
+      });
+
+      _export("Block", Block = class Block {
+        constructor(symbol, cells) {
+          this.symbol = void 0;
+          this.cells = void 0;
+          this.symbol = symbol;
+          this.cells = cells;
+        }
+
+      });
+
+      _cclegacy._RF.pop();
+
+      _crd = false;
+    }
+  };
+});
+//# sourceMappingURL=8172ad71106f18de63f4c7e9ba0da8fb420eeeac.js.map

@@ -1,0 +1,654 @@
+
+loading_page3_front.webp
+size: 2044,1956
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ICON10/ICON10__00
+  rotate: false
+  xy: 967, 1806
+  size: 160, 148
+  orig: 458, 441
+  offset: 150, 138
+  index: -1
+ICON10/ICON10__02
+  rotate: false
+  xy: 312, 1809
+  size: 156, 145
+  orig: 458, 441
+  offset: 152, 140
+  index: -1
+ICON10/ICON10__04
+  rotate: false
+  xy: 2, 1810
+  size: 152, 144
+  orig: 458, 441
+  offset: 154, 143
+  index: -1
+ICON10/ICON10__06
+  rotate: false
+  xy: 156, 1810
+  size: 154, 144
+  orig: 458, 441
+  offset: 153, 145
+  index: -1
+ICON10/ICON10__08
+  rotate: false
+  xy: 470, 1809
+  size: 158, 145
+  orig: 458, 441
+  offset: 151, 146
+  index: -1
+ICON10/ICON10__10
+  rotate: false
+  xy: 630, 1808
+  size: 164, 146
+  orig: 458, 441
+  offset: 148, 148
+  index: -1
+ICON10/ICON10__12
+  rotate: false
+  xy: 796, 1807
+  size: 169, 147
+  orig: 458, 441
+  offset: 145, 149
+  index: -1
+ICON10/ICON10__14
+  rotate: false
+  xy: 1129, 1790
+  size: 190, 164
+  orig: 458, 441
+  offset: 135, 143
+  index: -1
+ICON10/ICON10__16
+  rotate: false
+  xy: 1321, 1774
+  size: 204, 180
+  orig: 458, 441
+  offset: 128, 134
+  index: -1
+ICON10/ICON10__18
+  rotate: false
+  xy: 1604, 1544
+  size: 242, 212
+  orig: 458, 441
+  offset: 109, 122
+  index: -1
+ICON10/ICON10__20
+  rotate: false
+  xy: 1079, 971
+  size: 251, 230
+  orig: 458, 441
+  offset: 105, 104
+  index: -1
+ICON10/ICON10__22
+  rotate: false
+  xy: 1079, 659
+  size: 288, 269
+  orig: 458, 441
+  offset: 88, 80
+  index: -1
+ICON10/ICON10__24
+  rotate: false
+  xy: 547, 550
+  size: 313, 285
+  orig: 458, 441
+  offset: 74, 76
+  index: -1
+ICON10/ICON10__26
+  rotate: false
+  xy: 1369, 532
+  size: 322, 294
+  orig: 458, 441
+  offset: 70, 71
+  index: -1
+ICON10/ICON10__28
+  rotate: false
+  xy: 862, 360
+  size: 326, 297
+  orig: 458, 441
+  offset: 68, 70
+  index: -1
+ICON10/ICON10__30
+  rotate: false
+  xy: 1190, 229
+  size: 330, 301
+  orig: 458, 441
+  offset: 66, 68
+  index: -1
+ICON10/ICON10__32
+  rotate: false
+  xy: 1522, 77
+  size: 334, 304
+  orig: 458, 441
+  offset: 64, 66
+  index: -1
+ICON10/ICON10__38
+  rotate: false
+  xy: 857, 42
+  size: 330, 316
+  orig: 458, 441
+  offset: 66, 60
+  index: -1
+ICON10/ICON10__44
+  rotate: false
+  xy: 536, 229
+  size: 319, 319
+  orig: 458, 441
+  offset: 71, 56
+  index: -1
+ICON10/ICON10__46
+  rotate: false
+  xy: 1693, 383
+  size: 299, 295
+  orig: 458, 441
+  offset: 76, 66
+  index: -1
+ICON10/ICON10__48
+  rotate: false
+  xy: 1579, 828
+  size: 278, 249
+  orig: 458, 441
+  offset: 78, 95
+  index: -1
+ICON10/ICON10__50
+  rotate: true
+  xy: 1332, 930
+  size: 271, 245
+  orig: 458, 441
+  offset: 79, 96
+  index: -1
+ICON10/ICON10__52
+  rotate: false
+  xy: 1604, 1079
+  size: 224, 245
+  orig: 458, 441
+  offset: 119, 96
+  index: -1
+ICON10/ICON10__54
+  rotate: true
+  xy: 1604, 1326
+  size: 216, 244
+  orig: 458, 441
+  offset: 122, 97
+  index: -1
+ICON10/ICON10__56
+  rotate: false
+  xy: 1720, 1758
+  size: 202, 196
+  orig: 458, 441
+  offset: 129, 118
+  index: -1
+ICON10/ICON10__58
+  rotate: false
+  xy: 1527, 1768
+  size: 191, 186
+  orig: 458, 441
+  offset: 134, 122
+  index: -1
+icon_09-Connect/add/icon_09-Connect00
+  rotate: true
+  xy: 536, 1623
+  size: 181, 532
+  orig: 525, 840
+  offset: 173, 146
+  index: -1
+icon_09-Connect/add/icon_09-Connect02
+  rotate: true
+  xy: 2, 2
+  size: 213, 535
+  orig: 525, 840
+  offset: 141, 146
+  index: -1
+icon_09-Connect/add/icon_09-Connect58
+  rotate: true
+  xy: 2, 1626
+  size: 181, 532
+  orig: 525, 840
+  offset: 173, 146
+  index: -1
+icon_09-Connect/n/icon_09-Connect00
+  rotate: true
+  xy: 1070, 1585
+  size: 181, 532
+  orig: 525, 840
+  offset: 173, 146
+  index: -1
+icon_09-Connect/n/icon_09-Connect02
+  rotate: true
+  xy: 2, 1068
+  size: 181, 535
+  orig: 525, 840
+  offset: 173, 146
+  index: -1
+icon_09-Connect/n/icon_09-Connect04
+  rotate: true
+  xy: 539, 1020
+  size: 181, 538
+  orig: 525, 840
+  offset: 173, 146
+  index: -1
+icon_09-Connect/n/icon_09-Connect06
+  rotate: true
+  xy: 536, 837
+  size: 181, 541
+  orig: 525, 840
+  offset: 173, 146
+  index: -1
+icon_09-Connect/n/icon_09-Connect08
+  rotate: true
+  xy: 2, 654
+  size: 181, 543
+  orig: 525, 840
+  offset: 173, 146
+  index: -1
+icon_09-Connect/n/icon_09-Connect10
+  rotate: false
+  xy: 1859, 680
+  size: 181, 540
+  orig: 525, 840
+  offset: 173, 146
+  index: -1
+icon_09-Connect/n/icon_09-Connect12
+  rotate: false
+  xy: 1850, 1222
+  size: 181, 534
+  orig: 525, 840
+  offset: 173, 146
+  index: -1
+icon_09-Connect/n/icon_09-Connect14
+  rotate: true
+  xy: 2, 1443
+  size: 181, 532
+  orig: 525, 840
+  offset: 173, 146
+  index: -1
+icon_09-Connect/n/icon_09-Connect16
+  rotate: true
+  xy: 536, 1440
+  size: 181, 532
+  orig: 525, 840
+  offset: 173, 146
+  index: -1
+icon_09-Connect/n/icon_09-Connect18
+  rotate: true
+  xy: 2, 860
+  size: 206, 532
+  orig: 525, 840
+  offset: 163, 146
+  index: -1
+icon_09-Connect/n/icon_09-Connect48
+  rotate: true
+  xy: 2, 217
+  size: 224, 532
+  orig: 525, 840
+  offset: 154, 146
+  index: -1
+icon_09-Connect/n/icon_09-Connect50
+  rotate: true
+  xy: 2, 443
+  size: 209, 532
+  orig: 525, 840
+  offset: 161, 146
+  index: -1
+icon_09-Connect/n/icon_09-Connect52
+  rotate: true
+  xy: 1070, 1203
+  size: 197, 532
+  orig: 525, 840
+  offset: 167, 146
+  index: -1
+icon_09-Connect/n/icon_09-Connect54
+  rotate: true
+  xy: 536, 1251
+  size: 187, 532
+  orig: 525, 840
+  offset: 172, 146
+  index: -1
+icon_09-Connect/n/icon_09-Connect56
+  rotate: true
+  xy: 2, 1259
+  size: 182, 532
+  orig: 525, 840
+  offset: 173, 146
+  index: -1
+icon_09-Connect/n/icon_09-Connect58
+  rotate: true
+  xy: 1070, 1402
+  size: 181, 532
+  orig: 525, 840
+  offset: 173, 146
+  index: -1
+
+loading_page3_front2.webp
+size: 1972,2004
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ICON10/ICON10__34
+  rotate: false
+  xy: 1633, 1693
+  size: 337, 308
+  orig: 458, 441
+  offset: 62, 64
+  index: -1
+ICON10/ICON10__36
+  rotate: false
+  xy: 1604, 1379
+  size: 341, 312
+  orig: 458, 441
+  offset: 60, 62
+  index: -1
+ICON10/ICON10__40
+  rotate: false
+  xy: 1604, 1058
+  size: 333, 319
+  orig: 458, 441
+  offset: 64, 58
+  index: -1
+ICON10/ICON10__42
+  rotate: false
+  xy: 1604, 734
+  size: 335, 322
+  orig: 458, 441
+  offset: 63, 57
+  index: -1
+icon_09-Connect/add/icon_09-Connect04
+  rotate: true
+  xy: 2, 1788
+  size: 213, 538
+  orig: 525, 840
+  offset: 141, 146
+  index: -1
+icon_09-Connect/add/icon_09-Connect06
+  rotate: true
+  xy: 542, 1788
+  size: 213, 542
+  orig: 525, 840
+  offset: 141, 146
+  index: -1
+icon_09-Connect/add/icon_09-Connect08
+  rotate: true
+  xy: 1086, 1775
+  size: 226, 545
+  orig: 525, 840
+  offset: 141, 146
+  index: -1
+icon_09-Connect/add/icon_09-Connect10
+  rotate: true
+  xy: 2, 316
+  size: 258, 698
+  orig: 525, 840
+  offset: 136, 67
+  index: -1
+icon_09-Connect/add/icon_09-Connect12
+  rotate: true
+  xy: 702, 202
+  size: 278, 727
+  orig: 525, 840
+  offset: 124, 50
+  index: -1
+icon_09-Connect/add/icon_09-Connect54
+  rotate: false
+  xy: 1672, 2
+  size: 281, 730
+  orig: 525, 840
+  offset: 122, 49
+  index: -1
+icon_09-Connect/add/icon_09-Connect56
+  rotate: true
+  xy: 1070, 482
+  size: 250, 600
+  orig: 525, 840
+  offset: 139, 112
+  index: -1
+icon_09-Connect/n/icon_09-Connect20
+  rotate: true
+  xy: 2, 1552
+  size: 234, 532
+  orig: 525, 840
+  offset: 149, 146
+  index: -1
+icon_09-Connect/n/icon_09-Connect22
+  rotate: true
+  xy: 536, 1552
+  size: 234, 532
+  orig: 525, 840
+  offset: 149, 146
+  index: -1
+icon_09-Connect/n/icon_09-Connect24
+  rotate: true
+  xy: 1070, 1537
+  size: 236, 532
+  orig: 525, 840
+  offset: 148, 146
+  index: -1
+icon_09-Connect/n/icon_09-Connect26
+  rotate: true
+  xy: 2, 1312
+  size: 238, 532
+  orig: 525, 840
+  offset: 147, 146
+  index: -1
+icon_09-Connect/n/icon_09-Connect28
+  rotate: true
+  xy: 536, 1312
+  size: 238, 532
+  orig: 525, 840
+  offset: 147, 146
+  index: -1
+icon_09-Connect/n/icon_09-Connect30
+  rotate: true
+  xy: 2, 1070
+  size: 240, 532
+  orig: 525, 840
+  offset: 146, 146
+  index: -1
+icon_09-Connect/n/icon_09-Connect32
+  rotate: true
+  xy: 536, 1070
+  size: 240, 532
+  orig: 525, 840
+  offset: 146, 146
+  index: -1
+icon_09-Connect/n/icon_09-Connect34
+  rotate: true
+  xy: 1070, 1053
+  size: 242, 532
+  orig: 525, 840
+  offset: 145, 146
+  index: -1
+icon_09-Connect/n/icon_09-Connect36
+  rotate: true
+  xy: 2, 824
+  size: 244, 532
+  orig: 525, 840
+  offset: 144, 146
+  index: -1
+icon_09-Connect/n/icon_09-Connect38
+  rotate: true
+  xy: 536, 824
+  size: 244, 532
+  orig: 525, 840
+  offset: 144, 146
+  index: -1
+icon_09-Connect/n/icon_09-Connect40
+  rotate: true
+  xy: 1070, 806
+  size: 245, 532
+  orig: 525, 840
+  offset: 144, 146
+  index: -1
+icon_09-Connect/n/icon_09-Connect42
+  rotate: true
+  xy: 2, 576
+  size: 246, 532
+  orig: 525, 840
+  offset: 143, 146
+  index: -1
+icon_09-Connect/n/icon_09-Connect44
+  rotate: true
+  xy: 536, 576
+  size: 246, 532
+  orig: 525, 840
+  offset: 143, 146
+  index: -1
+icon_09-Connect/n/icon_09-Connect46
+  rotate: true
+  xy: 1070, 1297
+  size: 238, 532
+  orig: 525, 840
+  offset: 147, 146
+  index: -1
+
+loading_page3_front3.webp
+size: 1924,1944
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+icon_09-Connect/add/icon_09-Connect14
+  rotate: true
+  xy: 2, 1650
+  size: 290, 738
+  orig: 525, 840
+  offset: 119, 45
+  index: -1
+icon_09-Connect/add/icon_09-Connect16
+  rotate: true
+  xy: 2, 1353
+  size: 294, 744
+  orig: 525, 840
+  offset: 118, 42
+  index: -1
+icon_09-Connect/add/icon_09-Connect18
+  rotate: false
+  xy: 1494, 1189
+  size: 349, 751
+  orig: 525, 840
+  offset: 89, 38
+  index: -1
+icon_09-Connect/add/icon_09-Connect20
+  rotate: true
+  xy: 755, 479
+  size: 401, 751
+  orig: 525, 840
+  offset: 63, 38
+  index: -1
+icon_09-Connect/add/icon_09-Connect22
+  rotate: false
+  xy: 1509, 435
+  size: 410, 752
+  orig: 525, 840
+  offset: 58, 37
+  index: -1
+icon_09-Connect/add/icon_09-Connect24
+  rotate: true
+  xy: 2, 57
+  size: 420, 752
+  orig: 525, 840
+  offset: 53, 37
+  index: -1
+icon_09-Connect/add/icon_09-Connect26
+  rotate: true
+  xy: 756, 2
+  size: 431, 762
+  orig: 525, 840
+  offset: 48, 32
+  index: -1
+icon_09-Connect/add/icon_09-Connect44
+  rotate: true
+  xy: 755, 882
+  size: 305, 752
+  orig: 525, 840
+  offset: 112, 37
+  index: -1
+icon_09-Connect/add/icon_09-Connect46
+  rotate: true
+  xy: 2, 736
+  size: 305, 751
+  orig: 525, 840
+  offset: 112, 38
+  index: -1
+icon_09-Connect/add/icon_09-Connect48
+  rotate: true
+  xy: 2, 1043
+  size: 304, 751
+  orig: 525, 840
+  offset: 112, 38
+  index: -1
+icon_09-Connect/add/icon_09-Connect50
+  rotate: true
+  xy: 748, 1349
+  size: 298, 744
+  orig: 525, 840
+  offset: 115, 42
+  index: -1
+icon_09-Connect/add/icon_09-Connect52
+  rotate: true
+  xy: 742, 1649
+  size: 291, 739
+  orig: 525, 840
+  offset: 118, 44
+  index: -1
+
+loading_page3_front4.webp
+size: 1924,1564
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+icon_09-Connect/add/icon_09-Connect28
+  rotate: false
+  xy: 998, 799
+  size: 443, 762
+  orig: 525, 840
+  offset: 42, 32
+  index: -1
+icon_09-Connect/add/icon_09-Connect30
+  rotate: false
+  xy: 484, 8
+  size: 455, 769
+  orig: 525, 840
+  offset: 36, 32
+  index: -1
+icon_09-Connect/add/icon_09-Connect32
+  rotate: false
+  xy: 1453, 784
+  size: 468, 777
+  orig: 525, 840
+  offset: 29, 31
+  index: -1
+icon_09-Connect/add/icon_09-Connect34
+  rotate: false
+  xy: 2, 3
+  size: 480, 774
+  orig: 525, 840
+  offset: 23, 32
+  index: -1
+icon_09-Connect/add/icon_09-Connect36
+  rotate: false
+  xy: 2, 779
+  size: 490, 782
+  orig: 525, 840
+  offset: 18, 30
+  index: -1
+icon_09-Connect/add/icon_09-Connect38
+  rotate: false
+  xy: 494, 782
+  size: 502, 779
+  orig: 525, 840
+  offset: 12, 30
+  index: -1
+icon_09-Connect/add/icon_09-Connect40
+  rotate: false
+  xy: 941, 2
+  size: 510, 778
+  orig: 525, 840
+  offset: 8, 30
+  index: -1
+icon_09-Connect/add/icon_09-Connect42
+  rotate: false
+  xy: 1453, 29
+  size: 466, 753
+  orig: 525, 840
+  offset: 31, 37
+  index: -1

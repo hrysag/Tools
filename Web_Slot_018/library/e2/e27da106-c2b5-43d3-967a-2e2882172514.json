@@ -1,0 +1,19 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "WinScore",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": ".bin",
+  "_skeletonJson": null,
+  "textures": [
+    {
+      "__uuid__": "eebbb473-5b26-44a2-9fcc-91871831f372@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "WinScore.webp"
+  ],
+  "scale": 1,
+  "_atlasText": "\r\nWinScore.webp\r\nsize: 1024,1024\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\n01_pic/supersed\r\n  rotate: false\r\n  xy: 594, 950\r\n  size: 10, 10\r\n  orig: 10, 10\r\n  offset: 0, 0\r\n  index: -1\r\n03_score/win_score_bot\r\n  rotate: false\r\n  xy: 2, 138\r\n  size: 623, 230\r\n  orig: 623, 230\r\n  offset: 0, 0\r\n  index: -1\r\n03_score/win_score_dott\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 136, 134\r\n  orig: 136, 134\r\n  offset: 0, 0\r\n  index: -1\r\n03_score/win_score_light3\r\n  rotate: false\r\n  xy: 2, 370\r\n  size: 590, 590\r\n  orig: 590, 590\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

@@ -1,0 +1,125 @@
+
+total_win.png
+size: 1059,1031
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pic/cloud
+  rotate: true
+  xy: 443, 183
+  size: 268, 166
+  orig: 268, 166
+  offset: 0, 0
+  index: -1
+pic/panel
+  rotate: true
+  xy: 611, 132
+  size: 319, 67
+  orig: 319, 67
+  offset: 0, 0
+  index: -1
+pic/v_blackcloud8_d
+  rotate: false
+  xy: 2, 453
+  size: 650, 148
+  orig: 650, 148
+  offset: 0, 0
+  index: -1
+pic/v_blackcloud8_u
+  rotate: true
+  xy: 797, 111
+  size: 556, 65
+  orig: 556, 65
+  offset: 0, 0
+  index: -1
+pic/v_blackcloud_f_01l
+  rotate: true
+  xy: 773, 669
+  size: 360, 284
+  orig: 360, 284
+  offset: 0, 0
+  index: -1
+pic/v_scroll_paper
+  rotate: false
+  xy: 2, 603
+  size: 769, 426
+  orig: 769, 426
+  offset: 0, 0
+  index: -1
+pic/v_scroll_rope_l
+  rotate: false
+  xy: 864, 128
+  size: 159, 190
+  orig: 159, 190
+  offset: 0, 0
+  index: -1
+pic/v_scroll_rope_r
+  rotate: false
+  xy: 864, 320
+  size: 191, 347
+  orig: 191, 347
+  offset: 0, 0
+  index: -1
+pic/v_scroll_side_l
+  rotate: false
+  xy: 680, 79
+  size: 115, 522
+  orig: 115, 522
+  offset: 0, 0
+  index: -1
+pic/v_scroll_side_r
+  rotate: true
+  xy: 2, 9
+  size: 149, 556
+  orig: 149, 556
+  offset: 0, 0
+  index: -1
+pic/v_star01
+  rotate: false
+  xy: 560, 2
+  size: 54, 53
+  orig: 54, 53
+  offset: 0, 0
+  index: -1
+pic/v_star02
+  rotate: false
+  xy: 797, 67
+  size: 45, 42
+  orig: 45, 42
+  offset: 0, 0
+  index: -1
+pic/v_star03
+  rotate: false
+  xy: 560, 57
+  size: 75, 73
+  orig: 75, 73
+  offset: 0, 0
+  index: -1
+pic/v_word_en
+  rotate: false
+  xy: 2, 160
+  size: 439, 291
+  orig: 439, 291
+  offset: 0, 0
+  index: -1
+
+total_win_fx.jpg
+size: 1002,445
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fx/v_back_light
+  rotate: false
+  xy: 621, 2
+  size: 379, 441
+  orig: 379, 441
+  offset: 0, 0
+  index: -1
+fx/v_back_light_1
+  rotate: true
+  xy: 2, 64
+  size: 379, 617
+  orig: 379, 617
+  offset: 0, 0
+  index: -1
+

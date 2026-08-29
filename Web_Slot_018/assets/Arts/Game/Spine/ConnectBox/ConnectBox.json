@@ -1,0 +1,89 @@
+{
+"skeleton": { "hash": "ZAAJEOd4XktTso6Eyd+s09N7Sds", "spine": "3.8.99", "x": -120, "y": -120, "width": 240, "height": 240 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "ConnectBox", "parent": "root" }
+],
+"slots": [
+	{ "name": "ConnectBox_00000", "bone": "ConnectBox", "attachment": "02_fx_connectbox/ConnectBox_00000", "blend": "additive" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"ConnectBox_00000": {
+				"02_fx_connectbox/ConnectBox_00000": { "width": 240, "height": 240 },
+				"02_fx_connectbox/ConnectBox_00001": { "width": 240, "height": 240 },
+				"02_fx_connectbox/ConnectBox_00002": { "width": 240, "height": 240 },
+				"02_fx_connectbox/ConnectBox_00003": { "width": 240, "height": 240 },
+				"02_fx_connectbox/ConnectBox_00004": { "width": 240, "height": 240 },
+				"02_fx_connectbox/ConnectBox_00005": { "width": 240, "height": 240 },
+				"02_fx_connectbox/ConnectBox_00006": { "width": 240, "height": 240 },
+				"02_fx_connectbox/ConnectBox_00007": { "width": 240, "height": 240 },
+				"02_fx_connectbox/ConnectBox_00008": { "width": 240, "height": 240 },
+				"02_fx_connectbox/ConnectBox_00009": { "width": 240, "height": 240 },
+				"02_fx_connectbox/ConnectBox_00010": { "width": 240, "height": 240 },
+				"02_fx_connectbox/ConnectBox_00011": { "width": 240, "height": 240 },
+				"02_fx_connectbox/ConnectBox_00012": { "width": 240, "height": 240 },
+				"02_fx_connectbox/ConnectBox_00013": { "width": 240, "height": 240 },
+				"02_fx_connectbox/ConnectBox_00014": { "width": 240, "height": 240 },
+				"02_fx_connectbox/ConnectBox_00015": { "width": 240, "height": 240 },
+				"02_fx_connectbox/ConnectBox_00016": { "width": 240, "height": 240 },
+				"02_fx_connectbox/ConnectBox_00017": { "width": 240, "height": 240 },
+				"02_fx_connectbox/ConnectBox_00018": { "width": 240, "height": 240 },
+				"02_fx_connectbox/ConnectBox_00019": { "width": 240, "height": 240 },
+				"02_fx_connectbox/ConnectBox_00020": { "width": 240, "height": 240 },
+				"02_fx_connectbox/ConnectBox_00021": { "width": 240, "height": 240 },
+				"02_fx_connectbox/ConnectBox_00022": { "width": 240, "height": 240 },
+				"02_fx_connectbox/ConnectBox_00023": { "width": 240, "height": 240 },
+				"02_fx_connectbox/ConnectBox_00024": { "width": 240, "height": 240 },
+				"02_fx_connectbox/ConnectBox_00025": { "width": 240, "height": 240 },
+				"02_fx_connectbox/ConnectBox_00026": { "width": 240, "height": 240 },
+				"02_fx_connectbox/ConnectBox_00027": { "width": 240, "height": 240 },
+				"02_fx_connectbox/ConnectBox_00028": { "width": 240, "height": 240 },
+				"02_fx_connectbox/ConnectBox_00029": { "width": 240, "height": 240 }
+			}
+		}
+	}
+],
+"animations": {
+	"connect": {
+		"slots": {
+			"ConnectBox_00000": {
+				"attachment": [
+					{ "time": 0.0333, "name": "02_fx_connectbox/ConnectBox_00001" },
+					{ "time": 0.0667, "name": "02_fx_connectbox/ConnectBox_00002" },
+					{ "time": 0.1, "name": "02_fx_connectbox/ConnectBox_00003" },
+					{ "time": 0.1333, "name": "02_fx_connectbox/ConnectBox_00004" },
+					{ "time": 0.1667, "name": "02_fx_connectbox/ConnectBox_00005" },
+					{ "time": 0.2, "name": "02_fx_connectbox/ConnectBox_00006" },
+					{ "time": 0.2333, "name": "02_fx_connectbox/ConnectBox_00007" },
+					{ "time": 0.2667, "name": "02_fx_connectbox/ConnectBox_00008" },
+					{ "time": 0.3, "name": "02_fx_connectbox/ConnectBox_00009" },
+					{ "time": 0.3333, "name": "02_fx_connectbox/ConnectBox_00010" },
+					{ "time": 0.3667, "name": "02_fx_connectbox/ConnectBox_00011" },
+					{ "time": 0.4, "name": "02_fx_connectbox/ConnectBox_00012" },
+					{ "time": 0.4333, "name": "02_fx_connectbox/ConnectBox_00013" },
+					{ "time": 0.4667, "name": "02_fx_connectbox/ConnectBox_00014" },
+					{ "time": 0.5, "name": "02_fx_connectbox/ConnectBox_00015" },
+					{ "time": 0.5333, "name": "02_fx_connectbox/ConnectBox_00016" },
+					{ "time": 0.5667, "name": "02_fx_connectbox/ConnectBox_00017" },
+					{ "time": 0.6, "name": "02_fx_connectbox/ConnectBox_00018" },
+					{ "time": 0.6333, "name": "02_fx_connectbox/ConnectBox_00019" },
+					{ "time": 0.6667, "name": "02_fx_connectbox/ConnectBox_00020" },
+					{ "time": 0.7, "name": "02_fx_connectbox/ConnectBox_00021" },
+					{ "time": 0.7333, "name": "02_fx_connectbox/ConnectBox_00022" },
+					{ "time": 0.7667, "name": "02_fx_connectbox/ConnectBox_00023" },
+					{ "time": 0.8, "name": "02_fx_connectbox/ConnectBox_00024" },
+					{ "time": 0.8333, "name": "02_fx_connectbox/ConnectBox_00025" },
+					{ "time": 0.8667, "name": "02_fx_connectbox/ConnectBox_00026" },
+					{ "time": 0.9, "name": "02_fx_connectbox/ConnectBox_00027" },
+					{ "time": 0.9333, "name": "02_fx_connectbox/ConnectBox_00028" },
+					{ "time": 0.9667, "name": "02_fx_connectbox/ConnectBox_00029" },
+					{ "time": 1, "name": "02_fx_connectbox/ConnectBox_00000" }
+				]
+			}
+		}
+	}
+}
+}

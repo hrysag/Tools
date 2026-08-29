@@ -1,0 +1,13 @@
+
+gamble_time.png
+size: 128,64
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+hourglass
+  rotate: true
+  xy: 2, 2
+  size: 40, 61
+  orig: 40, 61
+  offset: 0, 0
+  index: -1

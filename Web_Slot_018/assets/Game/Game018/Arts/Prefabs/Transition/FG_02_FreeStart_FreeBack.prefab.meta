@@ -1,0 +1,13 @@
+{
+  "ver": "1.1.50",
+  "importer": "prefab",
+  "imported": true,
+  "uuid": "042e32de-7e2e-425d-a6e3-315cc8cc7381",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {
+    "syncNodeName": "FG_02_FreeStart_FreeBack"
+  }
+}

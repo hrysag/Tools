@@ -1,0 +1,167 @@
+
+icon_09_front.webp
+size: 1244,1020
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01_crown
+  rotate: true
+  xy: 1013, 214
+  size: 101, 60
+  orig: 101, 60
+  offset: 0, 0
+  index: -1
+01_crown_g
+  rotate: true
+  xy: 1075, 219
+  size: 101, 60
+  orig: 101, 60
+  offset: 0, 0
+  index: -1
+01_font
+  rotate: true
+  xy: 1186, 847
+  size: 170, 51
+  orig: 170, 51
+  offset: 0, 0
+  index: -1
+01_font_D
+  rotate: false
+  xy: 1137, 229
+  size: 48, 46
+  orig: 48, 46
+  offset: 0, 0
+  index: -1
+01_font_I
+  rotate: true
+  xy: 604, 6
+  size: 22, 43
+  orig: 25, 43
+  offset: 3, 0
+  index: -1
+01_font_L
+  rotate: false
+  xy: 1187, 232
+  size: 35, 43
+  orig: 35, 43
+  offset: 0, 0
+  index: -1
+01_font_W
+  rotate: true
+  xy: 1186, 699
+  size: 71, 50
+  orig: 71, 50
+  offset: 0, 0
+  index: -1
+01_font_g
+  rotate: false
+  xy: 978, 388
+  size: 187, 69
+  orig: 187, 69
+  offset: 0, 0
+  index: -1
+01_font_r_g
+  rotate: false
+  xy: 646, 214
+  size: 365, 101
+  orig: 365, 101
+  offset: 0, 0
+  index: -1
+01_font_s
+  rotate: true
+  xy: 1186, 611
+  size: 86, 27
+  orig: 86, 27
+  offset: 0, 0
+  index: -1
+01_frame
+  rotate: true
+  xy: 604, 30
+  size: 182, 533
+  orig: 182, 533
+  offset: 0, 0
+  index: -1
+01_frame_expect
+  rotate: false
+  xy: 324, 254
+  size: 320, 763
+  orig: 320, 763
+  offset: 0, 0
+  index: -1
+01_frame_g
+  rotate: true
+  xy: 2, 2
+  size: 250, 600
+  orig: 250, 600
+  offset: 0, 0
+  index: -1
+01_frame_mut
+  rotate: false
+  xy: 978, 459
+  size: 206, 558
+  orig: 250, 600
+  offset: 22, 21
+  index: -1
+01_frame_r_g
+  rotate: false
+  xy: 646, 317
+  size: 330, 700
+  orig: 330, 700
+  offset: 0, 0
+  index: -1
+01_frame_r_mut
+  rotate: false
+  xy: 2, 254
+  size: 320, 763
+  orig: 320, 763
+  offset: 0, 0
+  index: -1
+01_hair_03
+  rotate: true
+  xy: 1186, 772
+  size: 73, 52
+  orig: 73, 52
+  offset: 0, 0
+  index: -1
+Star_Fx
+  rotate: false
+  xy: 978, 317
+  size: 67, 69
+  orig: 75, 75
+  offset: 4, 3
+  index: -1
+SunLine 3_00
+  rotate: false
+  xy: 1167, 382
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+circle_10
+  rotate: false
+  xy: 1139, 163
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+circle_9
+  rotate: false
+  xy: 1047, 322
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+rainbow_Circle
+  rotate: false
+  xy: 1139, 277
+  size: 103, 103
+  orig: 103, 103
+  offset: 0, 0
+  index: -1
+star01
+  rotate: false
+  xy: 1139, 97
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,46 @@
+{
+  "ver": "1.0.26",
+  "importer": "image",
+  "imported": true,
+  "uuid": "a3102f56-8bc0-4cd1-a373-eedb6909316d",
+  "files": [
+    ".jpg",
+    ".json"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "a3102f56-8bc0-4cd1-a373-eedb6909316d@6c48a",
+      "displayName": "lightning",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "nearest",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "a3102f56-8bc0-4cd1-a373-eedb6909316d",
+        "visible": false
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "texture",
+    "fixAlphaTransparencyArtifacts": false,
+    "hasAlpha": false,
+    "redirect": "a3102f56-8bc0-4cd1-a373-eedb6909316d@6c48a",
+    "compressSettings": {
+      "useCompressTexture": false,
+      "presetId": "default"
+    }
+  }
+}

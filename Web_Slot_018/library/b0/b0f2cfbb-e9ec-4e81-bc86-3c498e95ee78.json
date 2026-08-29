@@ -1,0 +1,8 @@
+{
+  "__type__": "cc.TextAsset",
+  "_name": "ReadMe",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "text": "{\r\n  \"gameID\": \"Game1001\", // 遊戲場景的名稱\r\n  \"gameNumber\": 12099,\t// 與總部取牌館連線的編號\r\n  \"versionCode\": 10,\t// 遊戲的版號，會顯示在右下角的第二位\r\n  \"gameCode\": \"W002\",\t// 與北分連線的編號\r\n  \"idleTimeoutLimit\": 600, // 閒置多久後會被踢出，以秒為單位\r\n  \"isExhibition\": false,   // 是否是展示模式(如果開啟，在Start頁面就不會連線，進入遊戲後如果是isOnline的sendBet也會直接與取牌館要資料\r\n  \"isOnline\": true,        // 是否是online如果開啟就要走NetworkHandler的sendBet要資料，不然就要走假資料，這部分每個遊戲要獨立實作\r\n  \"debugLocalization\": false,  // 是否要強制開啟語系，預設為false，false時會看url的語系調整語系，如果為true會看下方debugLanguageKey決定語系\r\n  \"debugLanguageKey\": \"en\" //語系代號 說明如下\r\n}\r\n\r\nexport enum SlotRelayLang {\r\n    tw = 0, //繁體中文\r\n    cn = 1, //簡體中文\r\n    en = 2, //英文\r\n    vn = 3, //越南文\r\n    jp = 4, //日文\r\n    th = 5, //泰文\r\n    es = 6, //西班牙文\r\n    kr = 7, //韓文\r\n}"
+}

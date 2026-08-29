@@ -1,0 +1,46 @@
+{
+  "ver": "1.0.26",
+  "importer": "image",
+  "imported": true,
+  "uuid": "b0f3c65d-0b51-4438-a55e-cb68ea422afc",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "b0f3c65d-0b51-4438-a55e-cb68ea422afc@6c48a",
+      "displayName": "particleIngot",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "b0f3c65d-0b51-4438-a55e-cb68ea422afc",
+        "visible": false
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "texture",
+    "fixAlphaTransparencyArtifacts": false,
+    "hasAlpha": true,
+    "redirect": "b0f3c65d-0b51-4438-a55e-cb68ea422afc@6c48a",
+    "compressSettings": {
+      "useCompressTexture": true,
+      "presetId": "93xqlzlT5H2YVwIxxddmS0"
+    }
+  }
+}

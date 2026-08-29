@@ -1,0 +1,1 @@
+{"version":3,"sources":["file:///D:/cocosProject/Game1016/Web_Slot/assets/Game1016/Script/MyUtils/AnimationSystemV2/Components/AniStateLists/Events.ts"],"names":["SEQUENCE_EVENTS"],"mappings":";;;;;;;;;;;;;;iCAAYA,e,0BAAAA,e;AAAAA,QAAAA,e;AAAAA,QAAAA,e;eAAAA,e","sourcesContent":["export enum SEQUENCE_EVENTS {\n    COMPLETE = 'complete',\n    FRAME_EVENT = 'frame_event',\n}\n\n"]}

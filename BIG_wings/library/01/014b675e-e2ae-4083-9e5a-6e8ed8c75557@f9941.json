@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bg_function_box.png",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 1,
+      "width": 150,
+      "height": 263
+    },
+    "offset": {
+      "x": 0,
+      "y": -0.5
+    },
+    "originalSize": {
+      "width": 150,
+      "height": 264
+    },
+    "rotated": false,
+    "capInsets": [
+      42,
+      57,
+      39,
+      57
+    ],
+    "vertices": {
+      "rawPosition": [
+        -75,
+        -131.5,
+        0,
+        75,
+        -131.5,
+        0,
+        -75,
+        131.5,
+        0,
+        75,
+        131.5,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        263,
+        150,
+        263,
+        0,
+        0,
+        150,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0.9962121212121212,
+        1,
+        0.9962121212121212
+      ],
+      "minPos": {
+        "x": -75,
+        "y": -131.5,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 75,
+        "y": 131.5,
+        "z": 0
+      }
+    },
+    "texture": "014b675e-e2ae-4083-9e5a-6e8ed8c75557@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

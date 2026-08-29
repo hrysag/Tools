@@ -1,0 +1,11 @@
+{
+  "panel": {
+    "filterType": "all",
+    "filterTypes": [
+      "log",
+      "error",
+      "info"
+    ]
+  },
+  "__version__": "1.0.0"
+}

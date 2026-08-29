@@ -1,0 +1,616 @@
+{
+  "path": {
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\script\\components\\TextureLineGraphics\\shader\\textureLine.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\vs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\fs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\embedded-alpha.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\chunks\\vs.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\chunks\\fs.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\chunks\\builtin\\internal\\embedded-alpha.chunk"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_btn_bfg.json": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_btn_bfg.atlas"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\common\\image\\_num\\num_keyboard.fnt": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\common\\image\\_num\\num_keyboard.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\common\\image\\_num\\num_info.fnt": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\common\\image\\_num\\num_info.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\common\\texture\\commonUI\\fnt\\arial60.fnt": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\common\\texture\\commonUI\\fnt\\arial60.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\common\\texture\\commonUI\\fnt\\arialBd60.fnt": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\common\\texture\\commonUI\\fnt\\arialBd60.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_bg_leaf.json": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_bg_leaf.atlas"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_bg.json": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_bg.atlas"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_01.json": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_01.atlas"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_01_bot.json": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_01_bot.atlas"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_02.json": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_02.atlas"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_03.json": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_03.atlas"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_03_bot.json": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_03_bot.atlas"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_02_bot.json": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_02_bot.atlas"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_04.json": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_04.atlas"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_04_bot.json": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_04_bot.atlas"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_05.json": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_05.atlas"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_07.json": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_07.atlas"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_08.json": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_08.atlas"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_06.json": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_06.atlas"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_09.json": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_09.atlas"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_10.json": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_10.atlas"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_11to13.json": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_11to13.atlas"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_14.json": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_14.atlas"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\bfg.json": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\bfg.atlas"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_border.json": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_border.atlas"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_connect_border.json": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_connect_border.atlas"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_btn_spin.json": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_btn_spin.atlas"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_expect_border.json": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_expect_border.atlas"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_pic_win_bot.json": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_pic_win_bot.atlas"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_pic_win.json": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_pic_win.atlas"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_sym_13_lock.json": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_sym_13_lock.atlas"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\gamble_bg.json": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\gamble_bg.atlas"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\gamble_leaf.json": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\gamble_leaf.atlas"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\gamble_pin.json": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\gamble_pin.atlas"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\gamble_time.json": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\gamble_time.atlas"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\gamble_win.json": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\gamble_win.atlas"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\prz_win.json": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\prz_win.atlas"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\prz_win_bg.json": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\prz_win_bg.atlas"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\prz_win_coin.json": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\prz_win_coin.atlas"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\total_win.json": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\total_win.atlas"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_auto.fnt": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_auto.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_bfg_disable.fnt": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_bfg_disable.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_bfg_dialog.fnt": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_bfg_dialog.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_bfg_up.fnt": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_bfg_up.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\transition.json": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\transition.atlas"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_common_jackpot.fnt": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_common_jackpot.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_countdown.fnt": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_countdown.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_extra.fnt": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_extra.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_free_spin.fnt": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_free_spin.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_odds_1.fnt": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_odds_1.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_odds_2.fnt": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_odds_2.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_remaining.fnt": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_remaining.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_settle_win.fnt": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_settle_win.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_win.fnt": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_win.png"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\script\\components\\TextureLineGraphics\\shader\\textureLine.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\vs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\fs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\embedded-alpha.chunk",
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\chunks\\vs.chunk",
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\chunks\\fs.chunk",
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\chunks\\builtin\\internal\\embedded-alpha.chunk"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_btn_spin.json": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_btn_spin.atlas"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\gamble_bg.json": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\gamble_bg.atlas"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\common\\image\\_num\\num_info.fnt": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\common\\image\\_num\\num_info.png"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\common\\texture\\commonUI\\fnt\\arial60.fnt": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\common\\texture\\commonUI\\fnt\\arial60.png"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\common\\image\\_num\\num_keyboard.fnt": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\common\\image\\_num\\num_keyboard.png"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\common\\texture\\commonUI\\fnt\\arialBd60.fnt": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\common\\texture\\commonUI\\fnt\\arialBd60.png"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_bg.json": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_bg.atlas"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_bg_leaf.json": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_bg_leaf.atlas"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_01_bot.json": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_01_bot.atlas"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_01.json": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_01.atlas"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_02.json": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_02.atlas"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_02_bot.json": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_02_bot.atlas"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_03.json": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_03.atlas"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_04_bot.json": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_04_bot.atlas"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_03_bot.json": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_03_bot.atlas"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_04.json": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_04.atlas"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_05.json": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_05.atlas"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_06.json": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_06.atlas"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_07.json": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_07.atlas"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_08.json": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_08.atlas"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_09.json": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_09.atlas"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_10.json": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_10.atlas"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_14.json": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_14.atlas"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_11to13.json": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_11to13.atlas"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_border.json": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_border.atlas"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\bfg.json": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\bfg.atlas"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_btn_bfg.json": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_btn_bfg.atlas"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_connect_border.json": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_connect_border.atlas"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_expect_border.json": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_expect_border.atlas"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_pic_win_bot.json": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_pic_win_bot.atlas"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_pic_win.json": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_pic_win.atlas"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_sym_13_lock.json": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_sym_13_lock.atlas"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\gamble_leaf.json": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\gamble_leaf.atlas"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\gamble_time.json": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\gamble_time.atlas"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\gamble_pin.json": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\gamble_pin.atlas"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\gamble_win.json": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\gamble_win.atlas"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\prz_win.json": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\prz_win.atlas"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\prz_win_bg.json": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\prz_win_bg.atlas"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\prz_win_coin.json": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\prz_win_coin.atlas"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\total_win.json": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\total_win.atlas"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\transition.json": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\transition.atlas"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_auto.fnt": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_auto.png"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_bfg_dialog.fnt": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_bfg_dialog.png"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_bfg_disable.fnt": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_bfg_disable.png"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_bfg_up.fnt": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_bfg_up.png"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_countdown.fnt": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_countdown.png"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_common_jackpot.fnt": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_common_jackpot.png"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_extra.fnt": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_extra.png"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_free_spin.fnt": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_free_spin.png"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_odds_1.fnt": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_odds_1.png"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_odds_2.fnt": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_odds_2.png"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_remaining.fnt": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_remaining.png"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_win.fnt": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_win.png"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_settle_win.fnt": [
+      "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\texture\\fnt\\num_settle_win.png"
+    ]
+  },
+  "uuid": {
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\common\\material\\additive.mtl": [
+      "60f7195c-ec2a-45eb-ba94-8955f60e81d0"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\common\\material\\builtinSprite.mtl": [
+      "60f7195c-ec2a-45eb-ba94-8955f60e81d0"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\common\\image\\_num\\num_bet_disable\\label-atlas.labelatlas": [
+      "286fa0f8-14ff-4784-a02a-8655496bd17c@f9941"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_bg.json": [
+      "56a3ea29-38e0-49a8-9984-24fc5b513284@6c48a"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_bg_leaf.json": [
+      "9680543c-5c77-4756-bee3-151c380e57cc@6c48a"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_01.json": [
+      "ac382c9e-eab5-4531-8b03-4126becc8c53@6c48a"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_01_bot.json": [
+      "75c2c8f7-cbfc-4fdb-9366-d068998fcc3d@6c48a"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_02.json": [
+      "7ba1943c-6416-4cc1-9685-f0e4cc3b3899@6c48a"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_02_bot.json": [
+      "2bcda1ea-1196-432d-be66-17607f940a11@6c48a"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_03.json": [
+      "ca03ef59-e7b7-4013-8b01-161e444cb830@6c48a"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_03_bot.json": [
+      "850d8035-5853-4d63-af75-132fb3f2fe3d@6c48a"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_04.json": [
+      "9c323ddf-98a7-4421-a8b6-fdaed1725352@6c48a"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_04_bot.json": [
+      "c603096e-11e5-4ce9-8522-ac2927ba5010@6c48a"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_05.json": [
+      "28219395-9c71-435a-a8a7-9015eb537187@6c48a"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_06.json": [
+      "f0cd1363-d0ea-4a13-b00c-7fb10ae42622@6c48a"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_07.json": [
+      "0699fe21-8d19-4bfb-9498-7df042c195f4@6c48a"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_08.json": [
+      "53738f07-8325-41a0-96b4-d989e792a534@6c48a"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_09.json": [
+      "92df638a-5a68-4c7b-8d58-83d092d14913@6c48a"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_10.json": [
+      "7a153c76-0adb-416f-b534-355d6ef75888@6c48a"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_11to13.json": [
+      "aa721010-e33c-4489-8ba5-0e2c1c8f77e2@6c48a",
+      "8b7df390-51a3-4716-bcbc-8830a8ce7d9a@6c48a"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_14.json": [
+      "9ba1c1b5-a7e4-40cb-a8be-9fc219327b56@6c48a"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\bfg.json": [
+      "299af02a-7ba1-4f4a-9b29-02ef12190a99@6c48a",
+      "bc3f9893-7003-4c92-b1c9-8d8de6aa0df8@6c48a"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_border.json": [
+      "d51f4e06-a229-44ad-b35e-1a9616f1b4a1@6c48a",
+      "9c787174-f814-4758-b03d-030ef2a12cc2@6c48a"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_btn_bfg.json": [
+      "e480db30-fc06-46b5-8380-cd340e341ea9@6c48a"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_btn_spin.json": [
+      "49d13cb4-81d8-4424-a7aa-847b22803649@6c48a"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_connect_border.json": [
+      "521d086c-28a2-45c0-a82b-1c8848ca87ea@6c48a"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_expect_border.json": [
+      "332019f2-d9db-4b61-9056-085e048578a2@6c48a",
+      "9ed31318-8c91-44c9-887b-99520772e870@6c48a"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_pic_win.json": [
+      "f05d549b-6505-49fd-8c33-d848c3001a6e@6c48a"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_pic_win_bot.json": [
+      "f05d549b-6505-49fd-8c33-d848c3001a6e@6c48a"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_sym_13_lock.json": [
+      "4c43cf41-f813-4878-b8c1-29478ba56093@6c48a"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\gamble_bg.json": [
+      "3ddaf209-2c20-479f-bf4c-ba5145933258@6c48a"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\gamble_leaf.json": [
+      "ae624381-0db1-433a-afbf-68d55b09ade0@6c48a"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\gamble_pin.json": [
+      "c9589a76-c13a-4342-87fc-c3c4a07abf67@6c48a"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\gamble_time.json": [
+      "6a81ebf6-c2c9-475b-9624-91fbff573590@6c48a"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\gamble_win.json": [
+      "d8bc056d-d0a0-4178-a5c4-2d5ab0835b8c@6c48a"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\prz_win.json": [
+      "60f6236c-00a4-443b-b1e5-6abb1d537c65@6c48a",
+      "064b1856-943d-4497-82f1-43c14dad3663@6c48a"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\prz_win_bg.json": [
+      "940d0135-4ba2-4eb9-982d-f8775e23c8e6@6c48a"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\prz_win_coin.json": [
+      "648aab89-dfcc-4817-b80d-df68cce0d84c@6c48a",
+      "a94e6b5e-f8c1-40a3-ae83-49ad7fd1ed17@6c48a"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\total_win.json": [
+      "0c4ff4e1-c336-4d33-be69-601f1c8254d9@6c48a",
+      "1e6a19ad-cf60-48d3-82db-b4be20aa8993@6c48a"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\transition.json": [
+      "b0aeb199-b5a6-4b86-8e1c-8bb7f61d2ecf@6c48a",
+      "09e26317-4fc2-4427-9dbc-28a180959a5b@6c48a"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\BIG_wings\\assets\\game\\BigWings\\script\\components\\TextureLineGraphics\\shader\\textureLine.mtl": [
+      "bcb6e92f-d37e-4250-8ff5-b36edf8185e9"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\common\\material\\additive.mtl": [
+      "60f7195c-ec2a-45eb-ba94-8955f60e81d0"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\common\\material\\builtinSprite.mtl": [
+      "60f7195c-ec2a-45eb-ba94-8955f60e81d0"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\common\\image\\_num\\num_bet_disable\\label-atlas.labelatlas": [
+      "286fa0f8-14ff-4784-a02a-8655496bd17c@f9941"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_bg.json": [
+      "56a3ea29-38e0-49a8-9984-24fc5b513284@6c48a"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_bg_leaf.json": [
+      "9680543c-5c77-4756-bee3-151c380e57cc@6c48a"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_01.json": [
+      "ac382c9e-eab5-4531-8b03-4126becc8c53@6c48a"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_01_bot.json": [
+      "75c2c8f7-cbfc-4fdb-9366-d068998fcc3d@6c48a"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_02.json": [
+      "7ba1943c-6416-4cc1-9685-f0e4cc3b3899@6c48a"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_02_bot.json": [
+      "2bcda1ea-1196-432d-be66-17607f940a11@6c48a"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_03.json": [
+      "ca03ef59-e7b7-4013-8b01-161e444cb830@6c48a"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_03_bot.json": [
+      "850d8035-5853-4d63-af75-132fb3f2fe3d@6c48a"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_04.json": [
+      "9c323ddf-98a7-4421-a8b6-fdaed1725352@6c48a"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_04_bot.json": [
+      "c603096e-11e5-4ce9-8522-ac2927ba5010@6c48a"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_05.json": [
+      "28219395-9c71-435a-a8a7-9015eb537187@6c48a"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_06.json": [
+      "f0cd1363-d0ea-4a13-b00c-7fb10ae42622@6c48a"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_07.json": [
+      "0699fe21-8d19-4bfb-9498-7df042c195f4@6c48a"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_08.json": [
+      "53738f07-8325-41a0-96b4-d989e792a534@6c48a"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_09.json": [
+      "92df638a-5a68-4c7b-8d58-83d092d14913@6c48a"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_10.json": [
+      "7a153c76-0adb-416f-b534-355d6ef75888@6c48a"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_11to13.json": [
+      "aa721010-e33c-4489-8ba5-0e2c1c8f77e2@6c48a",
+      "8b7df390-51a3-4716-bcbc-8830a8ce7d9a@6c48a"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\ani_sym_14.json": [
+      "9ba1c1b5-a7e4-40cb-a8be-9fc219327b56@6c48a"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\bfg.json": [
+      "299af02a-7ba1-4f4a-9b29-02ef12190a99@6c48a",
+      "bc3f9893-7003-4c92-b1c9-8d8de6aa0df8@6c48a"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_border.json": [
+      "d51f4e06-a229-44ad-b35e-1a9616f1b4a1@6c48a",
+      "9c787174-f814-4758-b03d-030ef2a12cc2@6c48a"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_btn_bfg.json": [
+      "e480db30-fc06-46b5-8380-cd340e341ea9@6c48a"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_btn_spin.json": [
+      "49d13cb4-81d8-4424-a7aa-847b22803649@6c48a"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_connect_border.json": [
+      "521d086c-28a2-45c0-a82b-1c8848ca87ea@6c48a"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_expect_border.json": [
+      "332019f2-d9db-4b61-9056-085e048578a2@6c48a",
+      "9ed31318-8c91-44c9-887b-99520772e870@6c48a"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_pic_win_bot.json": [
+      "f05d549b-6505-49fd-8c33-d848c3001a6e@6c48a"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_pic_win.json": [
+      "f05d549b-6505-49fd-8c33-d848c3001a6e@6c48a"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\fx_sym_13_lock.json": [
+      "4c43cf41-f813-4878-b8c1-29478ba56093@6c48a"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\gamble_bg.json": [
+      "3ddaf209-2c20-479f-bf4c-ba5145933258@6c48a"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\gamble_leaf.json": [
+      "ae624381-0db1-433a-afbf-68d55b09ade0@6c48a"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\gamble_pin.json": [
+      "c9589a76-c13a-4342-87fc-c3c4a07abf67@6c48a"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\gamble_time.json": [
+      "6a81ebf6-c2c9-475b-9624-91fbff573590@6c48a"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\gamble_win.json": [
+      "d8bc056d-d0a0-4178-a5c4-2d5ab0835b8c@6c48a"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\prz_win.json": [
+      "60f6236c-00a4-443b-b1e5-6abb1d537c65@6c48a",
+      "064b1856-943d-4497-82f1-43c14dad3663@6c48a"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\prz_win_bg.json": [
+      "940d0135-4ba2-4eb9-982d-f8775e23c8e6@6c48a"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\prz_win_coin.json": [
+      "648aab89-dfcc-4817-b80d-df68cce0d84c@6c48a",
+      "a94e6b5e-f8c1-40a3-ae83-49ad7fd1ed17@6c48a"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\total_win.json": [
+      "0c4ff4e1-c336-4d33-be69-601f1c8254d9@6c48a",
+      "1e6a19ad-cf60-48d3-82db-b4be20aa8993@6c48a"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\spine\\png\\transition.json": [
+      "b0aeb199-b5a6-4b86-8e1c-8bb7f61d2ecf@6c48a",
+      "09e26317-4fc2-4427-9dbc-28a180959a5b@6c48a"
+    ],
+    "D:\\bbin\\cocos\\BIG_wings\\assets\\game\\BigWings\\script\\components\\TextureLineGraphics\\shader\\textureLine.mtl": [
+      "bcb6e92f-d37e-4250-8ff5-b36edf8185e9"
+    ]
+  }
+}

@@ -1,0 +1,1652 @@
+{
+  "09c90961-3d7c-4bb0-b08d-3cfd2da36b9b": {
+    "url": "db://custom-extension-manager/custom-extension-manager",
+    "value": {},
+    "versionCode": 1
+  },
+  "b0a12785-612d-440b-91a3-ba8bf2cb6733": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "0f2896b2-ed19-453a-b3ab-545f853a74dc": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "d33f1335-991a-407f-804d-e2a71361d5ce": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "6c7b71d3-72ba-4c68-9a10-f5d752055e1e": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "c19deaaa-60e1-4861-80d4-30ccb92e4d52": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "9974b700-0080-4ee0-ab84-c88631e037c1": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "92cfc764-f534-499f-a801-af1881886e4a": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "b84a0050-c8e0-4888-9309-1c47f287f6aa": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "66e1a3a6-c433-4621-8837-003df5665fa6": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5bae0515-e12a-4636-af36-fb4791769f8d": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "cbb08a7a-0ad6-4aa4-aa9b-6896e62cfe78": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "411ad7e8-03f4-495f-be07-3e819d7ecd8b": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "6384a057-ba2c-44f6-a422-7f3cc267fd6e": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5e294eed-9b65-4867-af46-bdcc67f9abd8": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "0eccd783-da8b-4fad-8869-84efb0933abd": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "6f30f1b6-3489-46fb-96b0-96ef3a13c5a7": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "9bf04852-7144-434a-971a-74e6c1ed04b3": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "fb606097-f16e-4e94-be50-6fdd9eb248ac": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "b25ed93e-26f4-460c-a1ab-50cdc6c8a2f2": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "9552777f-41df-4fe1-9703-760e36d275a9": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "023912e8-4087-4c62-b781-a37147932d49": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "3b236a95-5fdd-4323-94e2-19ed80817109": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "d2d39ef7-b085-44c1-afd6-24958a1f8439": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "a5a4a891-ae11-41b5-bcfd-3b6f3924ac9d": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "97968d72-361e-4cb8-a5bd-b68f202e620c": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "aaeeb0d9-f551-4da8-a705-06f5f74b68b4": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "c8b7fb71-3c2d-4f1d-8bec-dbf778b0fbe1": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "828dae92-6c43-431f-89db-502049de2bb6": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "d2a36678-9ae4-48e2-ac50-b3bf2744b3da": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "9ab8efdc-705f-4503-8dfa-11ca18528d67": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "29e7332e-de2b-4b53-a964-efb1b589b06c": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "4ddc79a4-4233-459f-8d4b-c8a0b7fd695f": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "c36035b5-8ba8-42c5-97d0-3f5e3a5fd81b": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "d7b058a0-5345-4d61-a7cd-5f2d177c7714": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "92b14bc4-27e8-4e03-b965-8c4fa38f94b9": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1931c9b9-95b7-4192-8e13-fa3e35d7b259": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "9ea19f4e-9fe3-4592-842e-5988b99b40d5": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "46d7765b-f7ff-4470-8280-4b3994fad527": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "367dc3cb-2d7c-4710-b7e0-1fad629ee5cc": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "c8c67b5d-0fa7-44a9-b645-1ce4d2ab2d37": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1c0132fa-4838-4944-b967-63484a93fc61": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "d8edb268-0ae4-4f65-b9ba-7aed23230a49": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "02d0650a-21b2-4227-930b-e58bfc01070a": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "3c7e1f28-0ab3-47b4-b271-eca09e04b01a": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "dcc94d6b-38dc-4403-8a56-285dac518f9c": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "dfc785ca-1055-415c-8df7-6563fde503a3": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "043f89ec-bef6-48e6-a81b-7c9ccdf6400d": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1b669db2-5481-42aa-bab9-8da865df0f77": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5bfb5116-da4f-482a-b3b5-18e9c9b133d6": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "c581ba43-ef35-45eb-9ec8-5b45b043fad1": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "0de21a96-43c5-4b17-9aab-a35254cc9d79": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "d5d58c66-caa8-45e5-bd1d-afcad9108ff2": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "3a3a8ef3-11ee-42e4-bd46-4e3bf2526587": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "292ef54a-8df8-4fe3-87ca-50fdff3ff446": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "21813bd9-fd1c-4bd2-aa16-8ce6e8f07703": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "76574e1d-0f0e-4990-ba6f-8104f5fc2de6": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1f9c76bd-d37b-484d-be6d-95d89fa1f69b": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "3403cec4-6cd6-4123-9c06-ba1fb0441ad1": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "da6a2815-ef1d-4f5d-92a1-e15985c5532e": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1bd74bf9-34cb-4d6a-976b-364bf323d4d1": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "cacacc39-d0e6-4c10-a2f4-824bad67c7a3": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "c969360b-d1bd-433e-b5d6-8492d8ab10e1": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "40563f45-00fd-4a0f-9c6e-0e7b3ef68477": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "eb7a4b9d-aca6-46bc-b783-be3197fde991": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "b8dc9e89-256c-4da2-aa6b-0c296094c08a": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "f1c51da7-e104-4431-ab1e-b5489b787610": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "040231d7-0c34-4f5e-9fec-288dc3498346": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "d3df1d73-25fc-4433-9e3c-0c0b89f8a884": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "380b7328-5c17-4f2e-8542-fcd5729afdc4": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "26523526-246b-4d6d-8ea0-7eb1ccf7436f": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "84c05aad-3f2e-4f97-ad85-9548c20cf6c8": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "15942a38-6147-47a6-8f60-2214f558c2e3": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "67fbd78d-f5bc-459f-881b-88e6b3fd0f4a": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "e7d65c50-9d09-43fa-a6d0-438bb16cde4f": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "23dffdfb-6ddd-454a-9d7b-3c58bb1ebeca": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "9f91918f-c646-451d-902c-e38837619064": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "27f4520e-bc79-4df7-95bb-52463c6e61eb": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1fd64dbe-0ff2-443b-a2a8-db843ed68d30": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "e6529223-f3cf-48b5-ae8a-12ecae3ee3a5": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "a7e41ff8-9392-4587-8e99-604415893fa0": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "2d43a286-405c-4b2e-85dc-7974f9a7207e": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "9e766560-8a6b-44b6-aff3-9ba85d34ee7c": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "2ba8e1b3-6a41-416b-9d68-5aaa1e9e57f1": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1fbf8d53-2771-40d3-a139-eef89e178cb3": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "8fa3e480-e3d5-4abc-a0fc-f027d92adba0": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "17f8fa06-f552-4feb-ad57-cf475b86e1a7": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "e72556cf-881b-464d-89a6-3f3a7530ace2": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "c5534ab0-7c45-4d11-9888-9c53698df81c": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "b5db4b5f-a390-4f9e-b2ca-7e0045e424ea": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "dab5541c-a837-44e9-b83b-82e5fbf66bae": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "587012bd-6e2d-464e-88ec-8a641b8d4846": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "42e8d5d2-6d11-48dc-adde-c3f2febf68ce": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "9d10b548-8829-4087-83ec-20f206fc200e": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "35be36aa-7237-41fc-b001-4c3ba2f3fc58": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "d067c985-89ef-40ca-8039-f659a5bef6d2": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "8f748b48-bf87-491d-bf1d-2f45a0da4d3b": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5e7e3945-bf6a-4f7b-8cb3-450716e4237b": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "04e1a808-9473-4c81-9fb0-871d75ffed22": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "df5d9bc5-e9c0-488d-8fc3-835c9e6f9151": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "b0d2bb9f-c7ac-4c8b-8cf0-f0d25dc4b080": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "18365182-9d52-4e7d-866e-9c0dba663625": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "667b208d-68fc-44f4-a3d4-b2052b67dd0d": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "d95f41a9-ccde-429b-b8b5-6aabbd29a098": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "9835813a-a1b6-4829-924b-a14a89d82784": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1d4ae2c5-432f-4c05-9ddd-3f01b2ef3ae5": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "c99dc58a-74a1-43ec-8d35-8cf6d23b362f": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "fe1f76f5-ad69-412b-8b8a-ac0f3d9aafbd": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "41908df0-301b-4983-ade3-642f097a0c45": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "a797aa86-01ff-4387-839d-884a19306810": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "e0810737-a53a-405d-95ae-213a73b3c5cb": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "15eadede-9c0c-4c88-8b61-0a99a11dfee3": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "c0b73087-a150-42b4-8005-2f9cfe6fd90d": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "cafe0a83-6f66-4d76-9ea2-644a291f3960": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "7a546cca-1cb9-4b3e-ac6d-f6989353bd47": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "9535fcb1-894e-48e5-8b01-f0a494d62c0c": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "8f16a890-e6c6-4799-959b-e3a4ae11ae09": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "613356d3-2218-4528-9766-fafd1e8230d1": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "914919be-14fb-410c-af9b-1d291a265b03": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "420f767b-c94a-4d54-9762-cfada8996beb": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "a062780f-443c-4929-baa6-2319298c0b57": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "f1f509d4-ef6a-459e-a978-7e97ca16a752": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "274dafb9-5b32-4229-8586-6985d3209a51": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5c10229a-b188-4b33-a089-0ab824c6113a": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "892eff38-f933-4474-b6f6-0ded90326e87": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "e0f1444b-bcde-43f7-8266-d1dba7c330a9": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "7265d648-6a3d-481a-887b-acaa4f355000": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "67a5a6d6-6693-4c00-a94a-e6c8f4aa8767": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "51aa29a2-b87d-4215-8197-c91529574559": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "061b02dd-e934-4513-ac1b-caf848403e64": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "bed6f5bd-8ec1-4ac4-972c-2c81c7061294": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "48e8820a-370e-43e0-9f11-411b04c2dc06": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "863ba9e9-cea3-491a-8ba7-33f99ef4ba73": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "b1215855-b539-4c94-8c40-8140da41a8fd": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "bf5e6395-305a-4a9b-b0b1-00f69144bf87": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "ca0c9502-7273-4859-8e0c-4a291af5f207": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "15e4c9a2-9b93-40fa-a688-6f2c4b6a705d": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "b0c914d6-06a9-4361-a8fd-917ecce74e85": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "38383be1-ab35-459a-a631-eea9e3c9a953": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "7be82e96-bec1-42d0-aa60-420c705b7240": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1383fca0-9bd2-4728-a184-23920ae22eff": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "9eed358b-04db-4a92-8dc2-391250214757": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "32ff4821-a2bd-4a1b-bd0f-d64aafc39195": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "f04d5054-0d7f-4c7c-b3c5-28e11dafae2e": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "f1ca9062-cc07-4d26-a0bb-bd9745c392f1": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "dd1823ff-ac2e-409b-bab7-dea83b454508": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "6934ba3f-5112-44cc-bab7-964d30088882": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "afa82ae0-8f8f-46d7-b8ca-8bacde0369d1": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1dec4328-c049-47d3-aa70-db3928f0561b": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "29a69691-d070-4820-a25b-d871af84752b": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "df226458-555a-460f-a8f6-3729ad133fda": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "3dc880db-8b1d-495b-aaa6-deeae097f001": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "50d6e7fe-b8b9-4a3c-8a00-7ddd77d3c8e3": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "b1e25e2a-dd7a-450b-a28a-8d7aaceb773c": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "bfb67796-b66c-4831-ae5b-5abfa74946ae": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "00560647-8cfc-49bd-80f2-5498433edc8a": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "2a217066-c631-4eb0-90f1-1a63f8c86cbe": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "f1af897f-7d44-4b41-8b58-7941ab71e3ab": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "e6f12ba4-0916-4db4-9293-8a451ea76284": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "8d41764a-f561-4bf5-af7f-a9ec930fb329": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1094d86a-3569-4735-acea-43a32cec0050": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "2c892138-3f37-436d-8a81-bb00c69d87fb": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5e71866b-1536-4426-9f39-60745438b6cd": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "8a426081-d81b-47d1-ae08-e2a034a4697b": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5f2c362a-0178-4514-9987-c8b1f4996b95": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "c01f4033-1102-4dc3-acb1-6cb1793845cd": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "05f096de-4600-4aed-97bf-5386c8fccb61": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "74aa9641-b975-482e-adf9-c2291fd05c45": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "e11048a9-5a10-4bd8-96d7-05e9c6a47ad4": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "712876ed-e03c-400a-8123-c19fb78d1e56": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "ab2bda23-077a-4ab0-ac33-b8712c62d420": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "4e5f30bc-ef0c-4d09-ac8c-3035fe18ba0c": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "0d6d029e-f598-4221-bd7f-0e99b1cd794e": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "15934e6b-1b4d-40ef-9b60-bb7a0ecc2f8a": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "8ebf0fef-0b37-4eef-a162-7489e914b774": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "f09ea8f7-dc9f-49c8-9de5-5e57e5e763a1": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "2bda8cbe-85b8-44e3-8568-301f50065243": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "94753e36-95dc-4ae3-b3ef-dbfeb08d75bb": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "e33d31d8-4e71-4030-b5d4-8c9c32974472": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "12aeedeb-2a91-455d-8a08-5df140b11808": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "9c1dcdf9-8e70-420b-814e-23a7e6d65ba5": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "26c55198-9b0e-4607-80bb-81fe7f896366": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "48a45553-e886-4135-9a84-2cdcb3f81a56": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "b6be1cba-a202-41c8-be0e-5c9eecacd851": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "7d0d13b9-72cb-4d05-9d4d-59379a46d704": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "ead2ac46-05dd-4ab2-9eee-e6fecb2fb5b7": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "0b63c833-690d-4ca5-a256-1eaa5d5c6494": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "936feb1f-618b-4eb0-b66b-e67d727a3771": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "7bd88c38-cc69-4050-af57-01ffd34206a1": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "90fc5a92-48e4-4c17-9268-c795421de233": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "6bfa616b-f81a-4c1f-adab-6a0d758fb832": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "76f41e87-6cdb-4c39-9f0f-c318886e501e": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "06ee4089-4603-451d-aec2-012063112d2a": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "130b497c-d28d-4ed5-8260-99ac8a843392": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "a1a6e2a9-d5ad-47e5-8268-bbadc489fc5e": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "210b54d5-5332-4e0f-b1ad-42398c40f8c6": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "e100deae-22d4-4b9c-92e2-9adf10e96df2": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "8ad86289-cbca-4109-9e71-bc5837ea2506": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1c9e4dbe-3377-46ca-a4af-83e5cee632ec": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "fcb8a6e2-d95b-432c-b02c-f980350bcb32": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "919eb8a3-7f60-4f4a-ad90-458be811bb0e": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5c782981-b348-4fb5-adde-b9b210c1117e": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "b0ef9574-9d16-4360-8527-7481bb13c6ea": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "3e13cfa0-fe18-490a-a926-b28d1b47a53b": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "55911a7a-fcb3-41cd-bba5-7df90b8e7166": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "3e2e426b-8d10-4fe9-b389-74a52d40095a": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "9be64aca-f24a-419f-a39c-531ab638df32": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "3a016046-da14-4d98-a1e5-daf04b88bb9f": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "f9459ef6-21af-4f81-a6e9-ba589e1800d8": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5181fb18-a367-4cd8-bb55-f65f914260dd": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "31310e5a-70aa-4d45-9885-8fea52b3b0d2": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5da0d9dc-5fd5-484a-9db3-25af76ec477b": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5e7dc03b-74e6-4a55-9143-b9f4bb814b8a": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "65801a72-031c-4efd-a9a2-0f07aba528e6": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "6ee69477-caf7-4193-a2f0-f011f93e0905": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "f7922496-d3c4-4208-ae37-67dd86a6250e": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "db02d9f8-ceb6-4ea9-b815-8b5479196628": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "82545c04-c859-4737-ac4a-eba39b996f91": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "d734bdb6-785a-4014-87f8-19b34f964693": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "c86038bf-ee4e-44b3-b426-ae7ddde8813f": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "9080a1ed-c108-40eb-b8c7-393e332d2859": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "d77ab29c-aa39-4838-8527-9e8e6e284d75": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "c971cee8-b509-4877-a87d-9e60b0e385a0": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "682232a9-0d76-4f59-bf6b-e7d03c72e9fc": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "3842cbb8-d06a-4325-a271-d606b2e4f17b": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "a8eca718-f864-48cb-82c7-c161af270ebb": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "9d156aeb-68d2-49dc-9cb3-dc8a0c9020d2": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "2a0957d1-1d17-49d8-9309-c4446b3a7b93": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "b5a64670-b30d-4a42-8f7c-1d51ea568f9b": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "d92ce7c2-6fcb-4ea3-9c24-7703aee7ff59": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "e4db33e8-c0cb-4565-aa9c-42d1e67ab5a1": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "45e97b95-f472-4a66-99cf-1b53a0f98348": {
+    "url": "db://custom-extension-manager/custom-extension-manager/art-tool (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "9ddd0a45-a36f-442f-a308-41fa8e2ed063": {
+    "url": "db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5c6e9e21-35d1-4736-9048-eeb66165c4a9": {
+    "url": "db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5c7d1d6e-af34-4d28-b3e5-e20a4545faff": {
+    "url": "db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "64cef9b3-b3cf-44ba-8b90-4c6633c3f2af": {
+    "url": "db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  }
+}

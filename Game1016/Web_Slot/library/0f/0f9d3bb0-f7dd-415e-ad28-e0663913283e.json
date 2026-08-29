@@ -1,0 +1,19 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "skeleton",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": ".bin",
+  "_skeletonJson": null,
+  "textures": [
+    {
+      "__uuid__": "106d99a9-3568-4343-b53b-a642a65f44b8@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "skeleton.png"
+  ],
+  "scale": 1,
+  "_atlasText": "\r\nskeleton.png\r\nsize: 444,76\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nFG_remaining_fnt_0\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 42, 70\r\n  orig: 42, 70\r\n  offset: 0, 0\r\n  index: -1\r\nFG_remaining_fnt_1\r\n  rotate: false\r\n  xy: 46, 2\r\n  size: 42, 70\r\n  orig: 42, 70\r\n  offset: 0, 0\r\n  index: -1\r\nFG_remaining_fnt_2\r\n  rotate: false\r\n  xy: 90, 2\r\n  size: 42, 70\r\n  orig: 42, 70\r\n  offset: 0, 0\r\n  index: -1\r\nFG_remaining_fnt_3\r\n  rotate: false\r\n  xy: 134, 2\r\n  size: 42, 70\r\n  orig: 42, 70\r\n  offset: 0, 0\r\n  index: -1\r\nFG_remaining_fnt_4\r\n  rotate: false\r\n  xy: 178, 2\r\n  size: 42, 70\r\n  orig: 42, 70\r\n  offset: 0, 0\r\n  index: -1\r\nFG_remaining_fnt_5\r\n  rotate: false\r\n  xy: 222, 2\r\n  size: 42, 70\r\n  orig: 42, 70\r\n  offset: 0, 0\r\n  index: -1\r\nFG_remaining_fnt_6\r\n  rotate: false\r\n  xy: 266, 2\r\n  size: 42, 70\r\n  orig: 42, 70\r\n  offset: 0, 0\r\n  index: -1\r\nFG_remaining_fnt_7\r\n  rotate: false\r\n  xy: 310, 2\r\n  size: 42, 70\r\n  orig: 42, 70\r\n  offset: 0, 0\r\n  index: -1\r\nFG_remaining_fnt_8\r\n  rotate: false\r\n  xy: 354, 2\r\n  size: 42, 70\r\n  orig: 42, 70\r\n  offset: 0, 0\r\n  index: -1\r\nFG_remaining_fnt_9\r\n  rotate: false\r\n  xy: 398, 2\r\n  size: 42, 70\r\n  orig: 42, 70\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

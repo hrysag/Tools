@@ -1,0 +1,8 @@
+{
+  "__type__": "cc.TextAsset",
+  "_name": "icon_07.atlas",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "text": "\r\nicon_07.webp\r\nsize: 256,512\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\n01_Block_BK_00\r\n  rotate: false\r\n  xy: 2, 154\r\n  size: 114, 122\r\n  orig: 114, 122\r\n  offset: 0, 0\r\n  index: -1\r\n01_block\r\n  rotate: false\r\n  xy: 2, 280\r\n  size: 83, 94\r\n  orig: 83, 94\r\n  offset: 0, 0\r\n  index: -1\r\n01_block_sd\r\n  rotate: false\r\n  xy: 87, 278\r\n  size: 86, 96\r\n  orig: 86, 96\r\n  offset: 0, 0\r\n  index: -1\r\nStar_Fx\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 150, 150\r\n  orig: 150, 150\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

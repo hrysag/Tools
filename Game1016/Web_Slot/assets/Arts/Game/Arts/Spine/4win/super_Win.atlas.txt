@@ -1,0 +1,440 @@
+
+super_Win.webp
+size: 1548,1824
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01_00
+  rotate: false
+  xy: 933, 1477
+  size: 308, 308
+  orig: 308, 308
+  offset: 0, 0
+  index: -1
+01_crown
+  rotate: false
+  xy: 1254, 1097
+  size: 219, 215
+  orig: 219, 215
+  offset: 0, 0
+  index: -1
+01_crown_s
+  rotate: false
+  xy: 1317, 1028
+  size: 225, 47
+  orig: 225, 47
+  offset: 0, 0
+  index: -1
+02_00
+  rotate: false
+  xy: 944, 776
+  size: 336, 368
+  orig: 336, 368
+  offset: 0, 0
+  index: -1
+03_00
+  rotate: false
+  xy: 806, 456
+  size: 171, 156
+  orig: 171, 156
+  offset: 0, 0
+  index: -1
+06_flag
+  rotate: false
+  xy: 1388, 342
+  size: 114, 287
+  orig: 114, 287
+  offset: 0, 0
+  index: -1
+06_flag_sd
+  rotate: false
+  xy: 675, 308
+  size: 132, 304
+  orig: 132, 304
+  offset: 0, 0
+  index: -1
+06_super_win
+  rotate: false
+  xy: 2, 983
+  size: 940, 161
+  orig: 940, 161
+  offset: 0, 0
+  index: -1
+06_super_win_sd
+  rotate: false
+  xy: 2, 522
+  size: 486, 90
+  orig: 486, 90
+  offset: 0, 0
+  index: -1
+07_gold_decoration
+  rotate: false
+  xy: 186, 455
+  size: 235, 65
+  orig: 235, 65
+  offset: 0, 0
+  index: -1
+07_tassel
+  rotate: false
+  xy: 1464, 1314
+  size: 81, 319
+  orig: 81, 319
+  offset: 0, 0
+  index: -1
+08_cloth_left
+  rotate: false
+  xy: 490, 378
+  size: 184, 234
+  orig: 184, 234
+  offset: 0, 0
+  index: -1
+08_gold_decoration_sd
+  rotate: false
+  xy: 1243, 1680
+  size: 252, 82
+  orig: 252, 82
+  offset: 0, 0
+  index: -1
+08_horizontal_pillar
+  rotate: false
+  xy: 2, 1146
+  size: 1148, 329
+  orig: 1148, 329
+  offset: 0, 0
+  index: -1
+08_horizontal_pillar_sd
+  rotate: false
+  xy: 2, 614
+  size: 1164, 65
+  orig: 1164, 65
+  offset: 0, 0
+  index: -1
+08_icon_03_sd
+  rotate: false
+  xy: 2, 761
+  size: 564, 220
+  orig: 564, 220
+  offset: 0, 0
+  index: -1
+09_cloth_left_sd
+  rotate: false
+  xy: 1282, 776
+  size: 201, 251
+  orig: 201, 251
+  offset: 0, 0
+  index: -1
+09_cloth_sd
+  rotate: false
+  xy: 2, 1476
+  size: 930, 343
+  orig: 930, 343
+  offset: 0, 0
+  index: -1
+09_tassel_sd
+  rotate: false
+  xy: 1396, 3
+  size: 98, 336
+  orig: 98, 336
+  offset: 0, 0
+  index: -1
+16_pattern_carving
+  rotate: false
+  xy: 1168, 631
+  size: 324, 143
+  orig: 324, 143
+  offset: 0, 0
+  index: -1
+21_horn_01
+  rotate: false
+  xy: 1024, 1197
+  size: 441, 264
+  orig: 441, 264
+  offset: 0, 0
+  index: -1
+21_horn_01_Grip
+  rotate: false
+  xy: 1036, 1427
+  size: 135, 37
+  orig: 135, 37
+  offset: 0, 0
+  index: -1
+Fx/01_crown_00
+  rotate: false
+  xy: 1243, 1463
+  size: 219, 215
+  orig: 219, 215
+  offset: 0, 0
+  index: -1
+Fx/Gem_01
+  rotate: false
+  xy: 1168, 414
+  size: 219, 215
+  orig: 219, 215
+  offset: 0, 0
+  index: -1
+Fx/star_txt
+  rotate: false
+  xy: 568, 681
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+carving_lig_00/carving_lig_00_00
+  rotate: false
+  xy: 319, 1795
+  size: 33, 26
+  orig: 162, 72
+  offset: 0, 25
+  index: -1
+carving_lig_00/carving_lig_00_01
+  rotate: false
+  xy: 2, 7
+  size: 49, 31
+  orig: 162, 72
+  offset: 0, 21
+  index: -1
+carving_lig_00/carving_lig_00_02
+  rotate: false
+  xy: 1460, 134
+  size: 63, 38
+  orig: 162, 72
+  offset: 0, 15
+  index: -1
+carving_lig_00/carving_lig_00_03
+  rotate: false
+  xy: 1455, 96
+  size: 81, 36
+  orig: 162, 72
+  offset: 0, 16
+  index: -1
+carving_lig_00/carving_lig_00_04
+  rotate: false
+  xy: 2, 1200
+  size: 94, 44
+  orig: 162, 72
+  offset: 0, 15
+  index: -1
+carving_lig_00/carving_lig_00_05
+  rotate: false
+  xy: 1452, 4
+  size: 93, 45
+  orig: 162, 72
+  offset: 13, 15
+  index: -1
+carving_lig_00/carving_lig_00_06
+  rotate: false
+  xy: 1173, 1417
+  size: 92, 45
+  orig: 162, 72
+  offset: 26, 15
+  index: -1
+carving_lig_00/carving_lig_00_07
+  rotate: false
+  xy: 1453, 50
+  size: 80, 46
+  orig: 162, 72
+  offset: 44, 14
+  index: -1
+carving_lig_00/carving_lig_00_08
+  rotate: false
+  xy: 2, 1423
+  size: 98, 53
+  orig: 162, 72
+  offset: 46, 9
+  index: -1
+carving_lig_00/carving_lig_00_09
+  rotate: false
+  xy: 2, 1373
+  size: 99, 50
+  orig: 162, 72
+  offset: 60, 7
+  index: -1
+carving_lig_00/carving_lig_00_10
+  rotate: false
+  xy: 2, 1321
+  size: 95, 51
+  orig: 162, 72
+  offset: 67, 6
+  index: -1
+carving_lig_00/carving_lig_00_11
+  rotate: false
+  xy: 466, 681
+  size: 72, 62
+  orig: 162, 72
+  offset: 90, 4
+  index: -1
+carving_lig_00/carving_lig_00_12
+  rotate: false
+  xy: 68, 1246
+  size: 54, 72
+  orig: 162, 72
+  offset: 108, 0
+  index: -1
+carving_lig_00/carving_lig_00_13
+  rotate: false
+  xy: 1185, 1146
+  size: 50, 72
+  orig: 162, 72
+  offset: 112, 0
+  index: -1
+carving_lig_00/carving_lig_00_14
+  rotate: false
+  xy: 1473, 173
+  size: 37, 53
+  orig: 162, 72
+  offset: 125, 19
+  index: -1
+carving_lig_00/carving_lig_00_15
+  rotate: false
+  xy: 98, 1326
+  size: 23, 45
+  orig: 162, 72
+  offset: 139, 27
+  index: -1
+note/note_blue
+  rotate: false
+  xy: 1208, 1220
+  size: 31, 59
+  orig: 31, 59
+  offset: 0, 0
+  index: -1
+note/note_green
+  rotate: false
+  xy: 870, 819
+  size: 48, 85
+  orig: 48, 85
+  offset: 0, 0
+  index: -1
+note/note_purple_00
+  rotate: false
+  xy: 870, 906
+  size: 55, 75
+  orig: 55, 75
+  offset: 0, 0
+  index: -1
+note/note_purple_01
+  rotate: false
+  xy: 2, 1245
+  size: 64, 73
+  orig: 64, 73
+  offset: 0, 0
+  index: -1
+note/note_red
+  rotate: false
+  xy: 870, 758
+  size: 30, 59
+  orig: 30, 59
+  offset: 0, 0
+  index: -1
+raylight
+  rotate: false
+  xy: 2, 338
+  size: 182, 182
+  orig: 182, 182
+  offset: 0, 0
+  index: -1
+super_win/super_win_00
+  rotate: false
+  xy: 932, 173
+  size: 460, 67
+  orig: 500, 81
+  offset: 18, 10
+  index: -1
+super_win/super_win_01
+  rotate: false
+  xy: 2, 242
+  size: 463, 66
+  orig: 500, 81
+  offset: 18, 11
+  index: -1
+super_win/super_win_02
+  rotate: false
+  xy: 467, 173
+  size: 464, 66
+  orig: 500, 81
+  offset: 18, 10
+  index: -1
+super_win/super_win_03
+  rotate: false
+  xy: 2, 106
+  size: 462, 67
+  orig: 500, 81
+  offset: 19, 11
+  index: -1
+super_win/super_win_04
+  rotate: false
+  xy: 809, 308
+  size: 463, 67
+  orig: 500, 81
+  offset: 18, 11
+  index: -1
+super_win/super_win_05
+  rotate: false
+  xy: 2, 39
+  size: 464, 66
+  orig: 500, 81
+  offset: 18, 11
+  index: -1
+super_win/super_win_06
+  rotate: false
+  xy: 931, 241
+  size: 464, 67
+  orig: 500, 81
+  offset: 18, 10
+  index: -1
+super_win/super_win_07
+  rotate: false
+  xy: 931, 39
+  size: 465, 66
+  orig: 500, 81
+  offset: 18, 11
+  index: -1
+super_win/super_win_08
+  rotate: false
+  xy: 465, 241
+  size: 466, 66
+  orig: 500, 81
+  offset: 17, 11
+  index: -1
+super_win/super_win_09
+  rotate: false
+  xy: 466, 38
+  size: 464, 66
+  orig: 500, 81
+  offset: 18, 11
+  index: -1
+super_win/super_win_10
+  rotate: false
+  xy: 928, 106
+  size: 464, 66
+  orig: 500, 81
+  offset: 18, 11
+  index: -1
+super_win/super_win_11
+  rotate: false
+  xy: 186, 310
+  size: 463, 67
+  orig: 500, 81
+  offset: 18, 10
+  index: -1
+super_win/super_win_12
+  rotate: false
+  xy: 464, 106
+  size: 462, 66
+  orig: 500, 81
+  offset: 19, 11
+  index: -1
+super_win/super_win_13
+  rotate: false
+  xy: 2, 693
+  size: 464, 67
+  orig: 500, 81
+  offset: 18, 11
+  index: -1
+super_win/super_win_14
+  rotate: false
+  xy: 2, 173
+  size: 464, 66
+  orig: 500, 81
+  offset: 18, 11
+  index: -1

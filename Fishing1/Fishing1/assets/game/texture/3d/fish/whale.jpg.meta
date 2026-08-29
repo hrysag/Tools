@@ -1,0 +1,46 @@
+{
+  "ver": "1.0.26",
+  "importer": "image",
+  "imported": true,
+  "uuid": "4c4cc7b2-6771-4f04-b67b-0c815b872844",
+  "files": [
+    ".jpg",
+    ".json"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "4c4cc7b2-6771-4f04-b67b-0c815b872844@6c48a",
+      "displayName": "whale",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "repeat",
+        "wrapModeT": "repeat",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "4c4cc7b2-6771-4f04-b67b-0c815b872844",
+        "visible": false
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "texture",
+    "fixAlphaTransparencyArtifacts": false,
+    "hasAlpha": false,
+    "redirect": "4c4cc7b2-6771-4f04-b67b-0c815b872844@6c48a",
+    "compressSettings": {
+      "useCompressTexture": false,
+      "presetId": "default"
+    }
+  }
+}

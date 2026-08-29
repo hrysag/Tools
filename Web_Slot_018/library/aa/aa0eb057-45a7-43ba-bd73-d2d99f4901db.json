@@ -1,0 +1,19 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "FX_battle",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": ".bin",
+  "_skeletonJson": null,
+  "textures": [
+    {
+      "__uuid__": "67236176-47ef-4d2e-9719-2be829c5c493@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "FX_battle.webp"
+  ],
+  "scale": 1,
+  "_atlasText": "\r\nFX_battle.webp\r\nsize: 2048,2048\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\n02_fx_add/fx_smash_00006\r\n  rotate: false\r\n  xy: 2, 1400\r\n  size: 464, 464\r\n  orig: 464, 464\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_add/fx_smash_00007\r\n  rotate: false\r\n  xy: 2, 934\r\n  size: 464, 464\r\n  orig: 464, 464\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_add/fx_smash_00008\r\n  rotate: false\r\n  xy: 468, 1400\r\n  size: 464, 464\r\n  orig: 464, 464\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_add/fx_smash_00009\r\n  rotate: false\r\n  xy: 2, 468\r\n  size: 464, 464\r\n  orig: 464, 464\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_add/fx_smash_00010\r\n  rotate: false\r\n  xy: 468, 934\r\n  size: 464, 464\r\n  orig: 464, 464\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_add/fx_smash_00011\r\n  rotate: false\r\n  xy: 934, 1400\r\n  size: 464, 464\r\n  orig: 464, 464\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_add/fx_smash_00012\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 464, 464\r\n  orig: 464, 464\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_add/fx_smash_00013\r\n  rotate: false\r\n  xy: 468, 468\r\n  size: 464, 464\r\n  orig: 464, 464\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_add/fx_smash_00014\r\n  rotate: false\r\n  xy: 934, 934\r\n  size: 464, 464\r\n  orig: 464, 464\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_add/fx_smash_00015\r\n  rotate: false\r\n  xy: 1400, 1400\r\n  size: 464, 464\r\n  orig: 464, 464\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_add/fx_smash_00016\r\n  rotate: false\r\n  xy: 468, 2\r\n  size: 464, 464\r\n  orig: 464, 464\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_add/fx_smash_00017\r\n  rotate: false\r\n  xy: 934, 468\r\n  size: 464, 464\r\n  orig: 464, 464\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_add/fx_smash_00018\r\n  rotate: false\r\n  xy: 1400, 934\r\n  size: 464, 464\r\n  orig: 464, 464\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

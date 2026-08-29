@@ -1,0 +1,187 @@
+
+prz_win_coin.png
+size: 1930,1930
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gold_coin_00000
+  rotate: false
+  xy: 2, 1448
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+gold_coin_00001
+  rotate: false
+  xy: 2, 966
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+gold_coin_00002
+  rotate: false
+  xy: 484, 1448
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+gold_coin_00003
+  rotate: false
+  xy: 2, 484
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+gold_coin_00004
+  rotate: false
+  xy: 484, 966
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+gold_coin_00005
+  rotate: false
+  xy: 966, 1448
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+gold_coin_00006
+  rotate: false
+  xy: 2, 2
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+gold_coin_00007
+  rotate: false
+  xy: 484, 484
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+gold_coin_00008
+  rotate: false
+  xy: 966, 966
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+gold_coin_00009
+  rotate: false
+  xy: 1448, 1448
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+gold_coin_00010
+  rotate: false
+  xy: 484, 2
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+gold_coin_00011
+  rotate: false
+  xy: 966, 484
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+gold_coin_00012
+  rotate: false
+  xy: 1448, 966
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+gold_coin_00013
+  rotate: false
+  xy: 966, 2
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+gold_coin_00014
+  rotate: false
+  xy: 1448, 484
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+gold_coin_00015
+  rotate: false
+  xy: 1448, 2
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+
+prz_win_coin2.png
+size: 1448,1448
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gold_coin_00016
+  rotate: false
+  xy: 2, 966
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+gold_coin_00017
+  rotate: false
+  xy: 2, 484
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+gold_coin_00018
+  rotate: false
+  xy: 484, 966
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+gold_coin_00019
+  rotate: false
+  xy: 2, 2
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+gold_coin_00020
+  rotate: false
+  xy: 484, 484
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+gold_coin_00021
+  rotate: false
+  xy: 966, 966
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+gold_coin_00022
+  rotate: false
+  xy: 484, 2
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+gold_coin_00023
+  rotate: false
+  xy: 966, 484
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+gold_coin_00024
+  rotate: false
+  xy: 966, 2
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1

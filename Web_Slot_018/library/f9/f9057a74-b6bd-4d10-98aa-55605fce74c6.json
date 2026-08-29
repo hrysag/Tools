@@ -1,0 +1,19 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "FX_FreeStart_back",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": ".bin",
+  "_skeletonJson": null,
+  "textures": [
+    {
+      "__uuid__": "7a8884da-d90e-4ecc-8d7b-79713fd93575@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "FX_FreeStart_back.webp"
+  ],
+  "scale": 1,
+  "_atlasText": "\r\nFX_FreeStart_back.webp\r\nsize: 1024,1024\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\n02_fx_front_transition/fx_transition_lilP_add\r\n  rotate: false\r\n  xy: 2, 364\r\n  size: 390, 614\r\n  orig: 390, 614\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_front_transition/fx_transition_lil_add\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 635, 360\r\n  orig: 635, 360\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

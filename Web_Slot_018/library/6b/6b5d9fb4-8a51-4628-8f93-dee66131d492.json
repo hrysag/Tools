@@ -1,0 +1,39 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "Localization_Game018",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "json": {
+    "tw": {
+      "GameMsg_018_1_1": "出現2個猜拳圖示，將觸發重新旋轉！",
+      "GameMsg_018_1_2": "根據猜拳結果，可以進入對應的免費遊戲",
+      "FreeGameMsg_018_1_1": "收集<<icon_09_b>>，獲得免費旋轉並累積加成倍數！",
+      "FreeGameMsg_018_1_2": "收集<<icon_09_p>>，獲得免費旋轉並消除低分圖示！"
+    },
+    "cn": {
+      "GameMsg_018_1_1": "出现2个猜拳符号，将触发重新旋转！",
+      "GameMsg_018_1_2": "根据猜拳结果，可以进入对应的免费游戏",
+      "FreeGameMsg_018_1_1": "收集<<icon_09_b>>，获得免费旋转并累积奖励倍数！",
+      "FreeGameMsg_018_1_2": "收集<<icon_09_p>>，获得免费旋转并消除低分符号！"
+    },
+    "en": {
+      "GameMsg_018_1_1": "2 rock-paper-scissors symbols trigger RESPIN!",
+      "GameMsg_018_1_2": "RPS result triggers corresponding FREE GAME",
+      "FreeGameMsg_018_1_1": "<<icon_09_b>> = FREE SPINS + MULTIPLIER boost",
+      "FreeGameMsg_018_1_2": "<<icon_09_p>> = FREE SPINS + low-paying removal!"
+    },
+    "vn": {
+      "GameMsg_018_1_1": "2 Biểu tượng oẳn tù tì, khởi động RESPIN!",
+      "GameMsg_018_1_2": "Dựa vào kết quả, vào FREE GAME tương ứng",
+      "FreeGameMsg_018_1_1": "Thu<<icon_09_b>>，nhận Free Spins, THƯỞNG BỘI SỐ!",
+      "FreeGameMsg_018_1_2": "Thu<<icon_09_p>>，nhận Free Spins, xóa điểm thấp!"
+    },
+    "jp": {
+      "GameMsg_018_1_1": "ジャンケン図柄2つで、RESPIN発動！",
+      "GameMsg_018_1_2": "ジャンケン結果で対応するFREE GAMEに突入！",
+      "FreeGameMsg_018_1_1": "<<icon_09_b>>，でFREE SPINS＆マルチプライヤーGET！",
+      "FreeGameMsg_018_1_2": "<<icon_09_p>>，でFREE SPINS GET！低配当図柄も削除！"
+    }
+  }
+}

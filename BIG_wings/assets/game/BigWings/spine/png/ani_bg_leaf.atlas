@@ -1,0 +1,13 @@
+
+ani_bg_leaf.png
+size: 32,32
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mg_fall_leaf
+  rotate: false
+  xy: 2, 2
+  size: 18, 13
+  orig: 18, 13
+  offset: 0, 0
+  index: -1

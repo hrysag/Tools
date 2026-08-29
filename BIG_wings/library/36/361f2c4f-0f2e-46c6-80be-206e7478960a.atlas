@@ -1,0 +1,27 @@
+
+fx_sym_13_lock.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+green_lock
+  rotate: false
+  xy: 901, 129
+  size: 79, 98
+  orig: 79, 98
+  offset: 0, 0
+  index: -1
+lock_line
+  rotate: true
+  xy: 2, 2
+  size: 225, 897
+  orig: 225, 897
+  offset: 0, 0
+  index: -1
+yellow_lock
+  rotate: false
+  xy: 901, 86
+  size: 48, 41
+  orig: 48, 41
+  offset: 0, 0
+  index: -1

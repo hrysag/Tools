@@ -1,0 +1,32 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "en",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "json": {
+    "MSG": {
+      "RE_LOGIN": "Please re-enter the game.",
+      "NOT_ENOUGH_CREDIT": "Not enough credit.",
+      "DISCONNECTED": "Server Disconnected",
+      "CATEGORY_MAINTAINED": "Game Maintain",
+      "LOBBYCLOSE": "This Game is not Open please close Window",
+      "CANT_BET": "You can not bet now, please contact the upper level.",
+      "RENT_NOT_OPEN": "Rent point  system is unopened",
+      "ACC_DISABLED": "Your account has been disabled, Please contact your game provider to resolve the issue",
+      "NO_SERVICE": "Due to the restriction of your location.",
+      "DISCONNECT_IDLE": "Network disconnected!\nPlease restart the game or check the connect status!",
+      "TIMEOUT": "timeout",
+      "GAMEPLAYERNOBALANCE": "Dear customer, the current balance amount of BBIN Casino is 0. Please go to “Member Center” to check your balance or deposit to activate the functions, thank you !",
+      "WAIT_EXCHANGING": "Please wait while exchanging",
+      "FE_BOSS_WAVE_ALERT": "A golden dragon is Coming soon",
+      "BALANCE_IS_NOT_ENOUGH": "Not enough credit",
+      "ALREADY_ENTERED": "Already entered the room",
+      "NOT_FIND_RATIO": "Unable to find room type multiplier/exchange ratio",
+      "NOT_FIND_CURRENCY": "Unable to find currency",
+      "NO_CREDIT_EXCHANGE": "credit exchange error",
+      "CANT_NOT_USE_PROPS": "This prop cannot be used currently",
+      "PROPS_NOT_ENOUGH": "Insufficient number of items in stock"
+    }
+  }
+}

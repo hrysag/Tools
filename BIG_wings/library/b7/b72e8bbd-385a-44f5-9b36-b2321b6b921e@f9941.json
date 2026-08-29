@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "num_bet_disable_13.png",
+    "atlas": "",
+    "rect": {
+      "x": 5,
+      "y": 6,
+      "width": 41,
+      "height": 47
+    },
+    "offset": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "originalSize": {
+      "width": 50,
+      "height": 60
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -20.5,
+        -23.5,
+        0,
+        20.5,
+        -23.5,
+        0,
+        -20.5,
+        23.5,
+        0,
+        20.5,
+        23.5,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        5,
+        54,
+        46,
+        54,
+        5,
+        7,
+        46,
+        7
+      ],
+      "nuv": [
+        0.1,
+        0.11666666666666667,
+        0.92,
+        0.11666666666666667,
+        0.1,
+        0.9,
+        0.92,
+        0.9
+      ],
+      "minPos": {
+        "x": -20.5,
+        "y": -23.5,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 20.5,
+        "y": 23.5,
+        "z": 0
+      }
+    },
+    "texture": "b72e8bbd-385a-44f5-9b36-b2321b6b921e@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

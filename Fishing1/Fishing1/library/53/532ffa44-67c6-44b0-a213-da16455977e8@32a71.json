@@ -1,0 +1,52 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_selet_hook",
+    "atlas": "532ffa44-67c6-44b0-a213-da16455977e8",
+    "rect": {
+      "x": 1953,
+      "y": 914,
+      "width": 48,
+      "height": 46
+    },
+    "offset": {
+      "x": 1,
+      "y": 2
+    },
+    "originalSize": {
+      "width": 50,
+      "height": 50
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [],
+      "indexes": [],
+      "uv": [],
+      "nuv": [],
+      "minPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "texture": "492913c5-9769-4c97-b974-b360ebbba052@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

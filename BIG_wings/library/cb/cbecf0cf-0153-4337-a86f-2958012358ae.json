@@ -1,0 +1,32 @@
+{
+  "__type__": "cc.LabelAtlas",
+  "_name": "label-atlas",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "fntDataStr": "",
+  "spriteFrame": {
+    "__uuid__": "286fa0f8-14ff-4784-a02a-8655496bd17c@f9941",
+    "__expectedType__": "cc.SpriteFrame"
+  },
+  "fontSize": 1.76,
+  "fntConfig": {
+    "commonHeight": 2,
+    "fontSize": 1,
+    "atlasName": "num_bet_disable",
+    "fontDefDictionary": {
+      "NaN": {
+        "rect": {
+          "x": 52,
+          "y": 546,
+          "width": 2,
+          "height": 2
+        },
+        "xOffset": 0,
+        "yOffset": 0,
+        "xAdvance": 2
+      }
+    },
+    "kerningDict": {}
+  }
+}

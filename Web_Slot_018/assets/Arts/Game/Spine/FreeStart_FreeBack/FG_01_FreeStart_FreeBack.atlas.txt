@@ -1,0 +1,349 @@
+
+FG_01_FreeStart_FreeBack.webp
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01_pic/FG01_obj_a
+  rotate: false
+  xy: 479, 1131
+  size: 24, 17
+  orig: 24, 17
+  offset: 0, 0
+  index: -1
+01_pic/FG01_obj_b
+  rotate: false
+  xy: 479, 1150
+  size: 24, 21
+  orig: 24, 21
+  offset: 0, 0
+  index: -1
+01_pic/FG01_obj_c
+  rotate: false
+  xy: 223, 1033
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+01_pic/FG01_obj_c_full
+  rotate: false
+  xy: 243, 1033
+  size: 18, 18
+  orig: 18, 18
+  offset: 0, 0
+  index: -1
+01_pic/FG01_obj_coin
+  rotate: false
+  xy: 462, 1090
+  size: 26, 21
+  orig: 26, 21
+  offset: 0, 0
+  index: -1
+01_pic/FG01_obj_d
+  rotate: false
+  xy: 335, 1093
+  size: 28, 17
+  orig: 28, 17
+  offset: 0, 0
+  index: -1
+01_pic/FG01_obj_e
+  rotate: false
+  xy: 294, 1038
+  size: 26, 23
+  orig: 26, 23
+  offset: 0, 0
+  index: -1
+01_pic/FG01_obj_f
+  rotate: false
+  xy: 609, 1141
+  size: 21, 16
+  orig: 21, 16
+  offset: 0, 0
+  index: -1
+01_pic/FG01_obj_f_shadow
+  rotate: false
+  xy: 196, 1032
+  size: 25, 19
+  orig: 25, 19
+  offset: 0, 0
+  index: -1
+01_pic/FG01_obj_g
+  rotate: false
+  xy: 609, 1181
+  size: 22, 18
+  orig: 22, 18
+  offset: 0, 0
+  index: -1
+01_pic/FG01_obj_g_gold
+  rotate: false
+  xy: 417, 1077
+  size: 43, 34
+  orig: 43, 34
+  offset: 0, 0
+  index: -1
+01_pic/FG01_obj_g_shadow
+  rotate: false
+  xy: 632, 1120
+  size: 42, 33
+  orig: 42, 33
+  offset: 0, 0
+  index: -1
+01_pic/FG01_obj_h_01
+  rotate: false
+  xy: 609, 1122
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+01_pic/FG01_obj_h_02
+  rotate: false
+  xy: 609, 1159
+  size: 21, 20
+  orig: 21, 20
+  offset: 0, 0
+  index: -1
+01_pic/FG01_obj_h_03
+  rotate: false
+  xy: 174, 1031
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+01_pic/FG01_obj_h_shadow
+  rotate: false
+  xy: 335, 1112
+  size: 34, 15
+  orig: 34, 15
+  offset: 0, 0
+  index: -1
+01_pic/FG01_obj_i
+  rotate: false
+  xy: 626, 1101
+  size: 25, 17
+  orig: 25, 17
+  offset: 0, 0
+  index: -1
+01_pic/FG01_obj_i_shadow
+  rotate: false
+  xy: 609, 1106
+  size: 15, 14
+  orig: 15, 14
+  offset: 0, 0
+  index: -1
+01_pic/FG01_obj_j
+  rotate: false
+  xy: 479, 1113
+  size: 24, 16
+  orig: 24, 16
+  offset: 0, 0
+  index: -1
+01_pic/FG01_obj_j_shadow
+  rotate: false
+  xy: 609, 1084
+  size: 24, 15
+  orig: 24, 15
+  offset: 0, 0
+  index: -1
+01_pic/FG01_obj_k
+  rotate: false
+  xy: 335, 1058
+  size: 27, 33
+  orig: 27, 33
+  offset: 0, 0
+  index: -1
+01_pic/FG01_obj_k_shadow
+  rotate: false
+  xy: 278, 1033
+  size: 14, 28
+  orig: 14, 28
+  offset: 0, 0
+  index: -1
+01_pic/FG01_pot
+  rotate: false
+  xy: 180, 1105
+  size: 101, 152
+  orig: 101, 152
+  offset: 0, 0
+  index: -1
+01_pic/FG01_pot_in_coin
+  rotate: false
+  xy: 578, 1201
+  size: 54, 56
+  orig: 54, 56
+  offset: 0, 0
+  index: -1
+01_pic/FG01_rock_bot_flat
+  rotate: false
+  xy: 644, 568
+  size: 748, 378
+  orig: 748, 378
+  offset: 0, 0
+  index: -1
+01_pic/FG01_rock_bot_money
+  rotate: false
+  xy: 2, 1259
+  size: 949, 133
+  orig: 949, 133
+  offset: 0, 0
+  index: -1
+01_pic/FG01_rock_frame_half
+  rotate: false
+  xy: 953, 948
+  size: 415, 444
+  orig: 415, 444
+  offset: 0, 0
+  index: -1
+01_pic/FG01_rock_statue_middle
+  rotate: false
+  xy: 283, 1167
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+01_pic/FG01_rock_statuebot_middle
+  rotate: false
+  xy: 375, 1173
+  size: 128, 84
+  orig: 128, 84
+  offset: 0, 0
+  index: -1
+01_pic/black
+  rotate: false
+  xy: 322, 1051
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+01_pic/coins_00000
+  rotate: false
+  xy: 634, 1207
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+01_pic/coins_00001
+  rotate: false
+  xy: 634, 1155
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+01_pic/coins_00002
+  rotate: false
+  xy: 505, 1148
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+01_pic/coins_00003
+  rotate: false
+  xy: 375, 1121
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+01_pic/coins_00004
+  rotate: false
+  xy: 283, 1115
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+01_pic/coins_00005
+  rotate: false
+  xy: 283, 1063
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+01_pic/coins_00006
+  rotate: false
+  xy: 174, 1053
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+01_pic/coins_00007
+  rotate: false
+  xy: 226, 1053
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+01_pic/coins_00008
+  rotate: false
+  xy: 427, 1121
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+01_pic/coins_00009
+  rotate: false
+  xy: 557, 1148
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+01_pic/coins_00010
+  rotate: false
+  xy: 505, 1096
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+01_pic/coins_00011
+  rotate: false
+  xy: 557, 1096
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+01_pic/fx_smoke_b
+  rotate: false
+  xy: 505, 1200
+  size: 71, 57
+  orig: 71, 57
+  offset: 0, 0
+  index: -1
+01_pic/num_totalwin_bot
+  rotate: false
+  xy: 2, 1203
+  size: 176, 54
+  orig: 176, 54
+  offset: 0, 0
+  index: -1
+01_pic/supersed
+  rotate: false
+  xy: 263, 1041
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+02_fx/FreeStart_partical
+  rotate: false
+  xy: 2, 669
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+02_fx/blur_circle
+  rotate: false
+  xy: 335, 1129
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+02_fx/fx_cross
+  rotate: false
+  xy: 2, 1031
+  size: 170, 170
+  orig: 170, 170
+  offset: 0, 0
+  index: -1
+02_fx/high_flash
+  rotate: false
+  xy: 371, 1073
+  size: 44, 46
+  orig: 44, 46
+  offset: 0, 0
+  index: -1

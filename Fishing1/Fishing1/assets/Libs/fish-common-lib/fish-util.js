@@ -1,0 +1,2402 @@
+var o$2 = {
+  fixed: function fixed(num) {
+    return 0;
+  }
+};
+
+function _classCallCheck(instance, Constructor) {
+  if (!(instance instanceof Constructor)) {
+    throw new TypeError("Cannot call a class as a function");
+  }
+}
+
+function _typeof$1(o) {
+  "@babel/helpers - typeof";
+
+  return _typeof$1 = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) {
+    return typeof o;
+  } : function (o) {
+    return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o;
+  }, _typeof$1(o);
+}
+
+function toPrimitive(t, r) {
+  if ("object" != _typeof$1(t) || !t) return t;
+  var e = t[Symbol.toPrimitive];
+  if (void 0 !== e) {
+    var i = e.call(t, r || "default");
+    if ("object" != _typeof$1(i)) return i;
+    throw new TypeError("@@toPrimitive must return a primitive value.");
+  }
+  return ("string" === r ? String : Number)(t);
+}
+
+function toPropertyKey(t) {
+  var i = toPrimitive(t, "string");
+  return "symbol" == _typeof$1(i) ? i : String(i);
+}
+
+function _defineProperties(target, props) {
+  for (var i = 0; i < props.length; i++) {
+    var descriptor = props[i];
+    descriptor.enumerable = descriptor.enumerable || false;
+    descriptor.configurable = true;
+    if ("value" in descriptor) descriptor.writable = true;
+    Object.defineProperty(target, toPropertyKey(descriptor.key), descriptor);
+  }
+}
+function _createClass(Constructor, protoProps, staticProps) {
+  if (protoProps) _defineProperties(Constructor.prototype, protoProps);
+  if (staticProps) _defineProperties(Constructor, staticProps);
+  Object.defineProperty(Constructor, "prototype", {
+    writable: false
+  });
+  return Constructor;
+}
+
+function _defineProperty(obj, key, value) {
+  key = toPropertyKey(key);
+  if (key in obj) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+  return obj;
+}
+
+var PomeloAPI;
+(function (PomeloAPI) {
+  PomeloAPI["INIT"] = "init";
+  PomeloAPI["ON"] = "on";
+  PomeloAPI["DISCONNECT"] = "disconnect";
+  PomeloAPI["NOTIFY"] = "notify";
+  PomeloAPI["REQUEST"] = "request";
+  PomeloAPI["FORCE_HEARTBEAT"] = "forceHeartbeat";
+  PomeloAPI["REMOVE_LISTENER"] = "removeListener";
+})(PomeloAPI || (PomeloAPI = {}));
+var Pomelo = /*#__PURE__*/_createClass(function Pomelo() {
+  _classCallCheck(this, Pomelo);
+  var JS_WS_CLIENT_TYPE = 'js-websocket';
+  var JS_WS_CLIENT_VERSION = '0.0.1';
+  var Protocol = globalThis.Protocol;
+  var protobuf = globalThis.protobuf;
+  var decodeIO_protobuf = globalThis.decodeIO_protobuf;
+  var decodeIOEncoder = null;
+  var decodeIODecoder = null;
+  var Package = Protocol.Package;
+  var Message = Protocol.Message;
+  var EventEmitter = globalThis.EventEmitter;
+  var rsa = globalThis.rsa;
+  var disconnectCb = null;
+  var RES_OK = 200;
+  var RES_OLD_CLIENT = 501;
+  if (typeof Object.create !== 'function') {
+    Object.create = function (o) {
+      function F() {}
+      F.prototype = o;
+      return new F();
+    };
+  }
+  var pomelo = Object.create(EventEmitter.prototype);
+  var socket = null;
+  var reqId = 0;
+  var callbacks = {};
+  var handlers = {};
+  var routeMap = {};
+  var dict = {};
+  var abbrs = {};
+  var serverProtos = {};
+  var clientProtos = {};
+  var protoVersion = 0;
+  var heartbeatInterval = 0;
+  var heartbeatTimeout = 0;
+  var nextHeartbeatTimeout = 0;
+  var gapThreshold = 100;
+  var heartbeatId = null;
+  var heartbeatTimeoutId = null;
+  var handshakeCallback = null;
+  var decode = null;
+  var encode = null;
+  var reconnect = false;
+  var reconncetTimer = null;
+  var reconnectUrl = null;
+  var reconnectAttempts = 0;
+  var reconnectionDelay = 5000;
+  var DEFAULT_MAX_RECONNECT_ATTEMPTS = 10;
+  var useCrypto;
+  var handshakeBuffer = {
+    sys: {
+      type: JS_WS_CLIENT_TYPE,
+      version: JS_WS_CLIENT_VERSION,
+      rsa: {}
+    },
+    user: {}
+  };
+  var initCallback = null;
+  pomelo.init = function (params, cb) {
+    initCallback = cb;
+    var host = params.host;
+    var port = params.port;
+    encode = params.encode || defaultEncode;
+    decode = params.decode || defaultDecode;
+    var url = host;
+    if (port) {
+      url += ":".concat(port);
+    }
+    handshakeBuffer.user = params.user;
+    if (params.encrypt) {
+      useCrypto = true;
+      rsa.generate(1024, '10001');
+      var data = {
+        rsa_n: rsa.n.toString(16),
+        rsa_e: rsa.e
+      };
+      handshakeBuffer.sys.rsa = data;
+    }
+    handshakeCallback = params.handshakeCallback;
+    connect(params, url);
+  };
+  var defaultDecode = pomelo.decode = function (data) {
+    var msg = Message.decode(data);
+    if (msg.id > 0) {
+      msg.route = routeMap[msg.id];
+      delete routeMap[msg.id];
+      if (!msg.route) {
+        return;
+      }
+    }
+    msg.body = deCompose(msg);
+    return msg;
+  };
+  var defaultEncode = pomelo.encode = function (reqId, route, msg) {
+    var type = reqId ? Message.TYPE_REQUEST : Message.TYPE_NOTIFY;
+    var _msg = msg;
+    var _route = route;
+    if (protobuf && clientProtos[_route]) {
+      _msg = protobuf.encode(_route, _msg);
+    } else if (decodeIOEncoder && decodeIOEncoder.lookup(_route)) {
+      var builder = decodeIOEncoder.build(_route);
+      _msg = new builder(_msg).encodeNB();
+    } else {
+      _msg = Protocol.strencode(JSON.stringify(_msg));
+    }
+    var compressRoute = 0;
+    if (dict && dict[_route]) {
+      _route = dict[_route];
+      compressRoute = 1;
+    }
+    return Message.encode(reqId, type, compressRoute, _route, _msg);
+  };
+  var connect = function connect(param, url, cb) {
+    var params = param || {};
+    var maxReconnectAttempts = params.maxReconnectAttempts || DEFAULT_MAX_RECONNECT_ATTEMPTS;
+    reconnectUrl = url;
+    if (globalThis.localStorage && globalThis.localStorage.getItem('protos') && protoVersion === 0) {
+      var protos = JSON.parse(globalThis.localStorage.getItem('protos'));
+      protoVersion = protos.version || 0;
+      serverProtos = protos.server || {};
+      clientProtos = protos.client || {};
+      if (!!protobuf) {
+        protobuf.init({
+          encoderProtos: clientProtos,
+          decoderProtos: serverProtos
+        });
+      }
+      if (!!decodeIO_protobuf) {
+        decodeIOEncoder = decodeIO_protobuf.loadJson(clientProtos);
+        decodeIODecoder = decodeIO_protobuf.loadJson(serverProtos);
+      }
+    }
+    handshakeBuffer.sys.protoVersion = protoVersion;
+    var onopen = function onopen(event) {
+      if (!!reconnect) {
+        pomelo.emit('reconnect');
+      }
+      reset();
+      var obj = Package.encode(Package.TYPE_HANDSHAKE, Protocol.strencode(JSON.stringify(handshakeBuffer)));
+      send(obj);
+    };
+    var onmessage = function onmessage(event) {
+      processPackage(Package.decode(event.data));
+      if (heartbeatTimeout) {
+        nextHeartbeatTimeout = Date.now() + heartbeatTimeout;
+      }
+    };
+    var onerror = function onerror(event) {
+      pomelo.emit('io-error', event);
+      console.error('socket error: ', event);
+    };
+    var onclose = function onclose(event) {
+      pomelo.emit('close', event);
+      pomelo.emit('disconnect', event);
+      console.error('socket close: ', event);
+      if (!!params.reconnect && reconnectAttempts < maxReconnectAttempts) {
+        reconnect = true;
+        reconnectAttempts++;
+        reconncetTimer = setTimeout(function () {
+          connect(params, reconnectUrl);
+        }, reconnectionDelay);
+        reconnectionDelay *= 2;
+      }
+      socket = null;
+      disconnectCb && disconnectCb();
+      disconnectCb = null;
+    };
+    socket = new WebSocket(url);
+    socket.binaryType = 'arraybuffer';
+    socket.onopen = onopen;
+    socket.onmessage = onmessage;
+    socket.onerror = onerror;
+    socket.onclose = onclose;
+  };
+  pomelo.disconnect = function (cb) {
+    disconnectCb = cb;
+    if (socket) {
+      if (socket.disconnect) {
+        socket.disconnect();
+      }
+      if (socket.close) {
+        socket.close();
+      }
+      socket = null;
+    }
+    if (heartbeatId) {
+      clearTimeout(heartbeatId);
+      heartbeatId = null;
+    }
+    if (heartbeatTimeoutId) {
+      clearTimeout(heartbeatTimeoutId);
+      heartbeatTimeoutId = null;
+    }
+  };
+  var reset = function reset() {
+    reconnect = false;
+    reconnectionDelay = 1000 * 5;
+    reconnectAttempts = 0;
+    clearTimeout(reconncetTimer);
+  };
+  pomelo.request = function (route, msg, cb) {
+    var _route = route;
+    var _msg = msg;
+    var _cb = cb;
+    if (arguments.length === 2 && typeof _msg === 'function') {
+      _cb = _msg;
+      _msg = {};
+    } else {
+      _msg = _msg || {};
+    }
+    _route = _route || _msg.route;
+    if (!_route) {
+      return;
+    }
+    reqId = reqId + 1 >= 128 ? 0 : reqId + 1;
+    sendMessage(reqId, _route, _msg);
+    callbacks[reqId] = _cb;
+    routeMap[reqId] = _route;
+  };
+  pomelo.notify = function (route, msg) {
+    var _msg = msg || {};
+    sendMessage(0, route, _msg);
+  };
+  pomelo.forceHeartbeat = function () {
+    var obj = Package.encode(Package.TYPE_HEARTBEAT);
+    send(obj);
+    pomelo.emit('heartbeat', 'send');
+    heartbeatId = null;
+    clearTimeout(heartbeatTimeoutId);
+    heartbeatTimeoutId = null;
+  };
+  var sendMessage = function sendMessage(reqId, route, msg) {
+    var _msg = msg;
+    if (useCrypto) {
+      _msg = JSON.stringify(_msg);
+      var sig = rsa.signString(_msg, 'sha256');
+      _msg = JSON.parse(_msg);
+      _msg.__crypto__ = sig;
+    }
+    if (encode) {
+      _msg = encode(reqId, route, _msg);
+    }
+    var packet = Package.encode(Package.TYPE_DATA, _msg);
+    send(packet);
+  };
+  var send = function send(packet) {
+    if (socket !== null) {
+      socket.send(packet.buffer);
+    }
+  };
+  var heartbeat = function heartbeat(data) {
+    if (!heartbeatInterval) {
+      return;
+    }
+    pomelo.emit('heartbeat');
+    var obj = Package.encode(Package.TYPE_HEARTBEAT);
+    if (heartbeatTimeoutId) {
+      clearTimeout(heartbeatTimeoutId);
+      heartbeatTimeoutId = null;
+    }
+    if (heartbeatId) {
+      return;
+    }
+    heartbeatId = setTimeout(function () {
+      heartbeatId = null;
+      send(obj);
+      pomelo.emit('heartbeat', 'send');
+      nextHeartbeatTimeout = Date.now() + heartbeatTimeout;
+      heartbeatTimeoutId = setTimeout(heartbeatTimeoutCb, heartbeatTimeout);
+    }, heartbeatInterval);
+  };
+  var heartbeatTimeoutCb = function heartbeatTimeoutCb() {
+    var gap = nextHeartbeatTimeout - Date.now();
+    if (gap > gapThreshold) {
+      heartbeatTimeoutId = setTimeout(heartbeatTimeoutCb, gap);
+    } else {
+      console.error('server heartbeat timeout');
+      pomelo.emit('heartbeat timeout');
+      pomelo.disconnect();
+    }
+  };
+  var handshake = function handshake(data) {
+    var _data = JSON.parse(Protocol.strdecode(data));
+    if (_data.code === RES_OLD_CLIENT) {
+      pomelo.emit('error', 'client version not fullfill');
+      return;
+    }
+    if (_data.code !== RES_OK) {
+      pomelo.emit('error', 'handshake fail');
+      return;
+    }
+    handshakeInit(_data);
+    var obj = Package.encode(Package.TYPE_HANDSHAKE_ACK);
+    send(obj);
+    if (initCallback) {
+      initCallback(socket);
+    }
+  };
+  var onData = function onData(data) {
+    var msg = data;
+    if (decode) {
+      msg = decode(msg);
+    }
+    processMessage(pomelo, msg);
+  };
+  var onKick = function onKick(data) {
+    var _data = JSON.parse(Protocol.strdecode(data));
+    pomelo.emit('onKick', _data);
+  };
+  handlers[Package.TYPE_HANDSHAKE] = handshake;
+  handlers[Package.TYPE_HEARTBEAT] = heartbeat;
+  handlers[Package.TYPE_DATA] = onData;
+  handlers[Package.TYPE_KICK] = onKick;
+  var processPackage = function processPackage(msgs) {
+    if (Array.isArray(msgs)) {
+      for (var i = 0; i < msgs.length; i++) {
+        var msg = msgs[i];
+        handlers[msg.type](msg.body);
+      }
+    } else {
+      handlers[msgs.type](msgs.body);
+    }
+  };
+  var processMessage = function processMessage(pomelo, msg) {
+    if (!msg.id) {
+      pomelo.emit(msg.route, msg.body);
+      return;
+    }
+    var cb = callbacks[msg.id];
+    delete callbacks[msg.id];
+    if (typeof cb !== 'function') {
+      return;
+    }
+    cb(msg.body);
+    return;
+  };
+  var deCompose = function deCompose(msg) {
+    var route = msg.route;
+    if (msg.compressRoute) {
+      if (!abbrs[route]) {
+        return {};
+      }
+      route = msg.route = abbrs[route];
+    }
+    if (protobuf && serverProtos[route]) {
+      return protobuf.decode(route, msg.body);
+    }
+    if (decodeIODecoder && decodeIODecoder.lookup(route)) {
+      return decodeIODecoder.build(route).decode(msg.body);
+    }
+    return JSON.parse(Protocol.strdecode(msg.body));
+  };
+  var handshakeInit = function handshakeInit(data) {
+    if (data.sys && data.sys.heartbeat) {
+      heartbeatInterval = data.sys.heartbeat * 1000;
+      heartbeatTimeout = heartbeatInterval * 2;
+    } else {
+      heartbeatInterval = 0;
+      heartbeatTimeout = 0;
+    }
+    initData(data);
+    if (typeof handshakeCallback === 'function') {
+      handshakeCallback(data.user);
+    }
+  };
+  var initData = function initData(data) {
+    if (!data || !data.sys) {
+      return;
+    }
+    dict = data.sys.dict;
+    var protos = data.sys.protos;
+    if (dict) {
+      dict = dict;
+      abbrs = {};
+      for (var route in dict) {
+        abbrs[dict[route]] = route;
+      }
+    }
+    if (protos) {
+      protoVersion = protos.version || 0;
+      serverProtos = protos.server || {};
+      clientProtos = protos.client || {};
+      globalThis.localStorage.setItem('protos', JSON.stringify(protos));
+      if (!!protobuf) {
+        protobuf.init({
+          encoderProtos: protos.client,
+          decoderProtos: protos.server
+        });
+      }
+      if (!!decodeIO_protobuf) {
+        decodeIOEncoder = decodeIO_protobuf.loadJson(clientProtos);
+        decodeIODecoder = decodeIO_protobuf.loadJson(serverProtos);
+      }
+    }
+  };
+  return pomelo;
+});
+var PomeloClient = /*#__PURE__*/function () {
+  function PomeloClient() {
+    _classCallCheck(this, PomeloClient);
+  }
+  _createClass(PomeloClient, null, [{
+    key: "init",
+    value: function init() {
+      if (!PomeloClient._initialized) {
+        PomeloClient._initialized = true;
+        this._init1();
+        this._init2({}, Uint8Array, this);
+        this._init3('undefined' !== typeof protobuf ? protobuf : {}, this);
+        this._init4('undefined' !== typeof protobuf ? protobuf : {}, this);
+        this._init5('undefined' !== typeof protobuf ? protobuf : {}, this);
+        this._init6('undefined' !== typeof protobuf ? protobuf : {}, this);
+        this._init7('undefined' !== typeof protobuf ? protobuf : {}, this);
+        this._init8('undefined' !== typeof protobuf ? protobuf : {}, this);
+      }
+    }
+  }, {
+    key: "_init1",
+    value: function _init1() {
+      function Emitter(obj) {
+        if (obj) {
+          return mixin(obj);
+        }
+      }
+      function mixin(obj) {
+        for (var key in Emitter.prototype) {
+          obj[key] = Emitter.prototype[key];
+        }
+        return obj;
+      }
+      Emitter.prototype.on = Emitter.prototype.addEventListener = function (event, fn) {
+        this._callbacks = this._callbacks || {};
+        (this._callbacks[event] = this._callbacks[event] || []).push(fn);
+        return this;
+      };
+      Emitter.prototype.once = function (event, fn) {
+        var _this = this;
+        this._callbacks = this._callbacks || {};
+        var on = function on() {
+          _this.off(event, on);
+          for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+            args[_key] = arguments[_key];
+          }
+          fn.apply(_this, args);
+        };
+        on.fn = fn;
+        this.on(event, on);
+        return this;
+      };
+      Emitter.prototype.off = Emitter.prototype.removeListener = Emitter.prototype.removeAllListeners = Emitter.prototype.removeEventListener = function (event, fn) {
+        this._callbacks = this._callbacks || {};
+        if (0 === arguments.length) {
+          this._callbacks = {};
+          return this;
+        }
+        var callbacks = this._callbacks[event];
+        if (!callbacks) {
+          return this;
+        }
+        if (1 === arguments.length) {
+          delete this._callbacks[event];
+          return this;
+        }
+        var cb;
+        for (var i = 0; i < callbacks.length; i++) {
+          cb = callbacks[i];
+          if (cb === fn || cb.fn === fn) {
+            callbacks.splice(i, 1);
+            break;
+          }
+        }
+        return this;
+      };
+      Emitter.prototype.emit = function (event) {
+        this._callbacks = this._callbacks || {};
+        var args = [].slice.call(arguments, 1);
+        var callbacks = this._callbacks[event];
+        if (callbacks) {
+          callbacks = callbacks.slice(0);
+          for (var i = 0, len = callbacks.length; i < len; ++i) {
+            callbacks[i].apply(this, args);
+          }
+        }
+        return this;
+      };
+      Emitter.prototype.listeners = function (event) {
+        this._callbacks = this._callbacks || {};
+        return this._callbacks[event] || [];
+      };
+      Emitter.prototype.hasListeners = function (event) {
+        return !!this.listeners(event).length;
+      };
+      if (typeof globalThis !== 'undefined') {
+        globalThis.EventEmitter = Emitter;
+      }
+    }
+  }, {
+    key: "_init2",
+    value: function _init2(exports, byteArray, global) {
+      var _protocol = exports;
+      var PKG_HEAD_BYTES = 4;
+      var MSG_FLAG_BYTES = 1;
+      var MSG_ROUTE_CODE_BYTES = 2;
+      var MSG_ROUTE_LEN_BYTES = 1;
+      var MSG_ROUTE_CODE_MAX = 0xffff;
+      var MSG_COMPRESS_ROUTE_MASK = 0x1;
+      var MSG_TYPE_MASK = 0x7;
+      var _package = _protocol.Package = {};
+      var _message = _protocol.Message = {};
+      _package.TYPE_HANDSHAKE = 1;
+      _package.TYPE_HANDSHAKE_ACK = 2;
+      _package.TYPE_HEARTBEAT = 3;
+      _package.TYPE_DATA = 4;
+      _package.TYPE_KICK = 5;
+      _message.TYPE_REQUEST = 0;
+      _message.TYPE_NOTIFY = 1;
+      _message.TYPE_RESPONSE = 2;
+      _message.TYPE_PUSH = 3;
+      _protocol.strencode = function (str) {
+        var _byteArray = new byteArray(str.length * 3);
+        var offset = 0;
+        for (var i = 0; i < str.length; i++) {
+          var charCode = str.charCodeAt(i);
+          var codes = null;
+          if (charCode <= 0x7f) {
+            codes = [charCode];
+          } else if (charCode <= 0x7ff) {
+            codes = [0xc0 | charCode >> 6, 0x80 | charCode & 0x3f];
+          } else {
+            codes = [0xe0 | charCode >> 12, 0x80 | (charCode & 0xfc0) >> 6, 0x80 | charCode & 0x3f];
+          }
+          for (var j = 0; j < codes.length; j++) {
+            _byteArray[offset] = codes[j];
+            ++offset;
+          }
+        }
+        var _buffer = new byteArray(offset);
+        copyArray(_buffer, 0, _byteArray, 0, offset);
+        return _buffer;
+      };
+      _protocol.strdecode = function (buffer) {
+        var decoder = new TextDecoder('utf-8');
+        return decoder.decode(buffer);
+      };
+      _package.encode = function (type, body) {
+        var length = body ? body.length : 0;
+        var buffer = new byteArray(PKG_HEAD_BYTES + length);
+        var index = 0;
+        buffer[index++] = type & 0xff;
+        buffer[index++] = length >> 16 & 0xff;
+        buffer[index++] = length >> 8 & 0xff;
+        buffer[index++] = length & 0xff;
+        if (body) {
+          copyArray(buffer, index, body, 0, length);
+        }
+        return buffer;
+      };
+      _package.decode = function (buffer) {
+        var offset = 0;
+        var bytes = new byteArray(buffer);
+        var length = 0;
+        var rs = [];
+        while (offset < bytes.length) {
+          var type = bytes[offset++];
+          length = (bytes[offset++] << 16 | bytes[offset++] << 8 | bytes[offset++]) >>> 0;
+          var body = length ? new byteArray(length) : null;
+          copyArray(body, 0, bytes, offset, length);
+          offset += length;
+          rs.push({
+            type: type,
+            body: body
+          });
+        }
+        return rs.length === 1 ? rs[0] : rs;
+      };
+      _message.encode = function (id, type, compressRoute, route, msg) {
+        var _route = route;
+        var idBytes = msgHasId(type) ? caculateMsgIdBytes(id) : 0;
+        var msgLen = MSG_FLAG_BYTES + idBytes;
+        if (msgHasRoute(type)) {
+          if (compressRoute) {
+            if (typeof _route !== 'number') {
+              throw new Error('error flag for number route!');
+            }
+            msgLen += MSG_ROUTE_CODE_BYTES;
+          } else {
+            msgLen += MSG_ROUTE_LEN_BYTES;
+            if (_route) {
+              _route = _protocol.strencode(_route);
+              if (_route.length > 255) {
+                throw new Error('route maxlength is overflow');
+              }
+              msgLen += _route.length;
+            }
+          }
+        }
+        if (msg) {
+          msgLen += msg.length;
+        }
+        var buffer = new byteArray(msgLen);
+        var offset = 0;
+        offset = encodeMsgFlag(type, compressRoute, buffer, offset);
+        if (msgHasId(type)) {
+          offset = encodeMsgId(id, buffer, offset);
+        }
+        if (msgHasRoute(type)) {
+          offset = encodeMsgRoute(compressRoute, _route, buffer, offset);
+        }
+        if (msg) {
+          offset = encodeMsgBody(msg, buffer, offset);
+        }
+        return buffer;
+      };
+      _message.decode = function (buffer) {
+        var bytes = new byteArray(buffer);
+        var bytesLen = bytes.length || bytes.byteLength;
+        var offset = 0;
+        var id = 0;
+        var route = null;
+        var flag = bytes[offset++];
+        var compressRoute = flag & MSG_COMPRESS_ROUTE_MASK;
+        var type = flag >> 1 & MSG_TYPE_MASK;
+        if (msgHasId(type)) {
+          var m = parseInt(bytes[offset], 10);
+          var i = 0;
+          do {
+            var _m = parseInt(bytes[offset], 10);
+            id = id + (_m & 0x7f) * Math.pow(2, 7 * i);
+            offset++;
+            i++;
+          } while (m >= 128);
+        }
+        if (msgHasRoute(type)) {
+          if (compressRoute) {
+            route = bytes[offset++] << 8 | bytes[offset++];
+          } else {
+            var routeLen = bytes[offset++];
+            if (routeLen) {
+              route = new byteArray(routeLen);
+              copyArray(route, 0, bytes, offset, routeLen);
+              route = _protocol.strdecode(route);
+            } else {
+              route = '';
+            }
+            offset += routeLen;
+          }
+        }
+        var bodyLen = bytesLen - offset;
+        var body = new byteArray(bodyLen);
+        copyArray(body, 0, bytes, offset, bodyLen);
+        return {
+          id: id,
+          type: type,
+          compressRoute: compressRoute,
+          route: route,
+          body: body
+        };
+      };
+      var copyArray = function copyArray(dest, doffset, src, soffset, length) {
+        var _doffset = doffset;
+        var _soffset = soffset;
+        if ('function' === typeof src.copy) {
+          src.copy(dest, _doffset, _soffset, _soffset + length);
+        } else {
+          for (var index = 0; index < length; index++) {
+            dest[_doffset++] = src[_soffset++];
+          }
+        }
+      };
+      var msgHasId = function msgHasId(type) {
+        return type === _message.TYPE_REQUEST || type === _message.TYPE_RESPONSE;
+      };
+      var msgHasRoute = function msgHasRoute(type) {
+        return type === _message.TYPE_REQUEST || type === _message.TYPE_NOTIFY || type === _message.TYPE_PUSH;
+      };
+      var caculateMsgIdBytes = function caculateMsgIdBytes(id) {
+        var len = 0;
+        var _id = id;
+        do {
+          len += 1;
+          _id >>= 7;
+        } while (_id > 0);
+        return len;
+      };
+      var encodeMsgFlag = function encodeMsgFlag(type, compressRoute, buffer, offset) {
+        if (type !== _message.TYPE_REQUEST && type !== _message.TYPE_NOTIFY && type !== _message.TYPE_RESPONSE && type !== _message.TYPE_PUSH) {
+          throw new Error("unkonw message type: ".concat(type));
+        }
+        buffer[offset] = type << 1 | (compressRoute ? 1 : 0);
+        return offset + MSG_FLAG_BYTES;
+      };
+      var encodeMsgId = function encodeMsgId(id, buffer, offset) {
+        var _id = id;
+        var _offset = offset;
+        do {
+          var tmp = _id % 128;
+          var next = Math.floor(_id / 128);
+          if (next !== 0) {
+            tmp = tmp + 128;
+          }
+          buffer[_offset++] = tmp;
+          _id = next;
+        } while (_id !== 0);
+        return _offset;
+      };
+      var encodeMsgRoute = function encodeMsgRoute(compressRoute, route, buffer, offset) {
+        var _offset = offset;
+        if (compressRoute) {
+          if (route > MSG_ROUTE_CODE_MAX) {
+            throw new Error('route number is overflow');
+          }
+          buffer[_offset++] = route >> 8 & 0xff;
+          buffer[_offset++] = route & 0xff;
+        } else {
+          if (route) {
+            buffer[_offset++] = route.length & 0xff;
+            copyArray(buffer, _offset, route, 0, route.length);
+            _offset += route.length;
+          } else {
+            buffer[_offset++] = 0;
+          }
+        }
+        return _offset;
+      };
+      var encodeMsgBody = function encodeMsgBody(msg, buffer, offset) {
+        copyArray(buffer, offset, msg, 0, msg.length);
+        return offset + msg.length;
+      };
+      if (typeof globalThis !== 'undefined') {
+        globalThis.Protocol = _protocol;
+      }
+    }
+  }, {
+    key: "_init3",
+    value: function _init3(exports, global) {
+      var _protobuf = exports;
+      _protobuf.init = function (opts) {
+        _protobuf.encoder.init(opts.encoderProtos);
+        _protobuf.decoder.init(opts.decoderProtos);
+      };
+      _protobuf.encode = function (key, msg) {
+        return _protobuf.encoder.encode(key, msg);
+      };
+      _protobuf.decode = function (key, msg) {
+        return _protobuf.decoder.decode(key, msg);
+      };
+      if (typeof globalThis !== 'undefined') {
+        globalThis.protobuf = _protobuf;
+      }
+    }
+  }, {
+    key: "_init4",
+    value: function _init4(exports, global) {
+      var constants = exports.constants = {};
+      constants.TYPES = {
+        uInt32: 0,
+        sInt32: 0,
+        int32: 0,
+        "double": 1,
+        string: 2,
+        message: 2,
+        "float": 5
+      };
+    }
+  }, {
+    key: "_init5",
+    value: function _init5(exports, global) {
+      var _util = exports.util = {};
+      _util.isSimpleType = function (type) {
+        return type === 'uInt32' || type === 'sInt32' || type === 'int32' || type === 'uInt64' || type === 'sInt64' || type === 'float' || type === 'double';
+      };
+    }
+  }, {
+    key: "_init6",
+    value: function _init6(exports, global) {
+      var _codec = exports.codec = {};
+      var buffer = new ArrayBuffer(8);
+      var float32Array = new Float32Array(buffer);
+      var float64Array = new Float64Array(buffer);
+      var uInt8Array = new Uint8Array(buffer);
+      _codec.encodeUInt32 = function (n) {
+        var _n = parseInt(n, 10);
+        if (isNaN(_n) || _n < 0) {
+          return null;
+        }
+        var result = [];
+        do {
+          var tmp = _n % 128;
+          var next = Math.floor(_n / 128);
+          if (next !== 0) {
+            tmp = tmp + 128;
+          }
+          result.push(tmp);
+          _n = next;
+        } while (_n !== 0);
+        return result;
+      };
+      _codec.encodeSInt32 = function (n) {
+        var _n = parseInt(n, 10);
+        if (isNaN(_n)) {
+          return null;
+        }
+        _n = _n < 0 ? Math.abs(_n) * 2 - 1 : _n * 2;
+        return _codec.encodeUInt32(_n);
+      };
+      _codec.decodeUInt32 = function (bytes) {
+        var n = 0;
+        for (var i = 0; i < bytes.length; i++) {
+          var m = parseInt(bytes[i], 10);
+          n = n + (m & 0x7f) * Math.pow(2, 7 * i);
+          if (m < 128) {
+            return n;
+          }
+        }
+        return n;
+      };
+      _codec.decodeSInt32 = function (bytes) {
+        var n = this.decodeUInt32(bytes);
+        var flag = n % 2 === 1 ? -1 : 1;
+        n = (n % 2 + n) / 2 * flag;
+        return n;
+      };
+      _codec.encodeFloat = function (_float) {
+        float32Array[0] = _float;
+        return uInt8Array;
+      };
+      _codec.decodeFloat = function (bytes, offset) {
+        if (!bytes || bytes.length < offset + 4) {
+          return null;
+        }
+        for (var i = 0; i < 4; i++) {
+          uInt8Array[i] = bytes[offset + i];
+        }
+        return float32Array[0];
+      };
+      _codec.encodeDouble = function (_double) {
+        float64Array[0] = _double;
+        return uInt8Array.subarray(0, 8);
+      };
+      _codec.decodeDouble = function (bytes, offset) {
+        if (!bytes || bytes.length < offset + 8) {
+          return null;
+        }
+        for (var i = 0; i < 8; i++) {
+          uInt8Array[i] = bytes[offset + i];
+        }
+        return float64Array[0];
+      };
+      _codec.encodeStr = function (bytes, offset, str) {
+        var _offset = offset;
+        for (var i = 0; i < str.length; i++) {
+          var code = str.charCodeAt(i);
+          var codes = encode2UTF8(code);
+          for (var j = 0; j < codes.length; j++) {
+            bytes[_offset] = codes[j];
+            _offset++;
+          }
+        }
+        return _offset;
+      };
+      _codec.decodeStr = function (bytes, offset, length) {
+        var _offset = offset;
+        var array = [];
+        var end = _offset + length;
+        while (_offset < end) {
+          var code = 0;
+          if (bytes[_offset] < 128) {
+            code = bytes[_offset];
+            _offset += 1;
+          } else if (bytes[_offset] < 224) {
+            code = ((bytes[_offset] & 0x3f) << 6) + (bytes[_offset + 1] & 0x3f);
+            _offset += 2;
+          } else {
+            code = ((bytes[_offset] & 0x0f) << 12) + ((bytes[_offset + 1] & 0x3f) << 6) + (bytes[_offset + 2] & 0x3f);
+            _offset += 3;
+          }
+          array.push(code);
+        }
+        var str = '';
+        for (var i = 0; i < array.length;) {
+          str += String.fromCharCode.apply(null, array.slice(i, i + 10000));
+          i += 10000;
+        }
+        return str;
+      };
+      _codec.byteLength = function (str) {
+        if (typeof str !== 'string') {
+          return -1;
+        }
+        var length = 0;
+        for (var i = 0; i < str.length; i++) {
+          var code = str.charCodeAt(i);
+          length += codeLength(code);
+        }
+        return length;
+      };
+      function encode2UTF8(charCode) {
+        if (charCode <= 0x7f) {
+          return [charCode];
+        }
+        if (charCode <= 0x7ff) {
+          return [0xc0 | charCode >> 6, 0x80 | charCode & 0x3f];
+        }
+        return [0xe0 | charCode >> 12, 0x80 | (charCode & 0xfc0) >> 6, 0x80 | charCode & 0x3f];
+      }
+      function codeLength(code) {
+        if (code <= 0x7f) {
+          return 1;
+        }
+        if (code <= 0x7ff) {
+          return 2;
+        }
+        return 3;
+      }
+    }
+  }, {
+    key: "_init7",
+    value: function _init7(exports, global) {
+      var protobuf = exports;
+      var _msgEncoder = exports.encoder = {};
+      var codec = protobuf.codec;
+      var constant = protobuf.constants;
+      var util = protobuf.util;
+      _msgEncoder.init = function (protos) {
+        this.protos = protos || {};
+      };
+      _msgEncoder.encode = function (route, msg) {
+        var protos = this.protos[route];
+        if (!checkMsg(msg, protos)) {
+          return null;
+        }
+        var length = codec.byteLength(JSON.stringify(msg));
+        var buffer = new ArrayBuffer(length);
+        var uInt8Array = new Uint8Array(buffer);
+        var offset = 0;
+        if (!!protos) {
+          offset = encodeMsg(uInt8Array, offset, protos, msg);
+          if (offset > 0) {
+            return uInt8Array.subarray(0, offset);
+          }
+        }
+        return null;
+      };
+      function checkMsg(msg, protos) {
+        if (!protos) {
+          return false;
+        }
+        for (var name in protos) {
+          var proto = protos[name];
+          switch (proto.option) {
+            case 'required':
+              if (typeof msg[name] === 'undefined') {
+                warn('no property exist for required! name: %j, proto: %j, msg: %j', name, proto, msg);
+                return false;
+              }
+            case 'optional':
+              if (typeof msg[name] !== 'undefined') {
+                var _message2 = protos.__messages[proto.type] || _msgEncoder.protos["message ".concat(proto.type)];
+                if (!!_message2 && !checkMsg(msg[name], _message2)) {
+                  warn('inner proto error! name: %j, proto: %j, msg: %j', name, proto, msg);
+                  return false;
+                }
+              }
+              break;
+            case 'repeated':
+              var message = protos.__messages[proto.type] || _msgEncoder.protos["message ".concat(proto.type)];
+              if (!!msg[name] && !!message) {
+                for (var i = 0; i < msg[name].length; i++) {
+                  if (!checkMsg(msg[name][i], message)) {
+                    return false;
+                  }
+                }
+              }
+              break;
+          }
+        }
+        return true;
+      }
+      function encodeMsg(buffer, offset, protos, msg) {
+        var _offset = offset;
+        for (var name in msg) {
+          if (!!protos[name]) {
+            var proto = protos[name];
+            switch (proto.option) {
+              case 'required':
+              case 'optional':
+                _offset = writeBytes(buffer, _offset, encodeTag(proto.type, proto.tag));
+                _offset = encodeProp(msg[name], proto.type, _offset, buffer, protos);
+                break;
+              case 'repeated':
+                if (msg[name].length > 0) {
+                  _offset = encodeArray(msg[name], proto, _offset, buffer, protos);
+                }
+                break;
+            }
+          }
+        }
+        return _offset;
+      }
+      function encodeProp(value, type, offset, buffer, protos) {
+        var _offset = offset;
+        switch (type) {
+          case 'uInt32':
+            _offset = writeBytes(buffer, _offset, codec.encodeUInt32(value));
+            break;
+          case 'int32':
+          case 'sInt32':
+            _offset = writeBytes(buffer, _offset, codec.encodeSInt32(value));
+            break;
+          case 'float':
+            writeBytes(buffer, _offset, codec.encodeFloat(value));
+            _offset += 4;
+            break;
+          case 'double':
+            writeBytes(buffer, _offset, codec.encodeDouble(value));
+            _offset += 8;
+            break;
+          case 'string':
+            var length = codec.byteLength(value);
+            _offset = writeBytes(buffer, _offset, codec.encodeUInt32(length));
+            codec.encodeStr(buffer, _offset, value);
+            _offset += length;
+            break;
+          default:
+            var message = protos.__messages[type] || _msgEncoder.protos["message ".concat(type)];
+            if (!!message) {
+              var tmpBuffer = new ArrayBuffer(codec.byteLength(JSON.stringify(value)) * 2);
+              var _length = 0;
+              _length = encodeMsg(tmpBuffer, _length, message, value);
+              _offset = writeBytes(buffer, _offset, codec.encodeUInt32(_length));
+              for (var i = 0; i < _length; i++) {
+                buffer[_offset] = tmpBuffer[i];
+                _offset++;
+              }
+            }
+            break;
+        }
+        return _offset;
+      }
+      function encodeArray(array, proto, offset, buffer, protos) {
+        var i = 0;
+        var _offset = offset;
+        if (util.isSimpleType(proto.type)) {
+          _offset = writeBytes(buffer, _offset, encodeTag(proto.type, proto.tag));
+          _offset = writeBytes(buffer, _offset, codec.encodeUInt32(array.length));
+          for (i = 0; i < array.length; i++) {
+            _offset = encodeProp(array[i], proto.type, _offset, buffer);
+          }
+        } else {
+          for (i = 0; i < array.length; i++) {
+            _offset = writeBytes(buffer, offset, encodeTag(proto.type, proto.tag));
+            _offset = encodeProp(array[i], proto.type, offset, buffer, protos);
+          }
+        }
+        return offset;
+      }
+      function writeBytes(buffer, offset, bytes) {
+        var _offset = offset;
+        for (var i = 0; i < bytes.length; i++, _offset++) {
+          buffer[_offset] = bytes[i];
+        }
+        return _offset;
+      }
+      function encodeTag(type, tag) {
+        var value = constant.TYPES[type] || 2;
+        return codec.encodeUInt32(tag << 3 | value);
+      }
+    }
+  }, {
+    key: "_init8",
+    value: function _init8(exports, global) {
+      var protobuf = exports;
+      var _msgDecoder = exports.decoder = {};
+      var codec = protobuf.codec;
+      var util = protobuf.util;
+      var buffer;
+      var offset = 0;
+      _msgDecoder.init = function (protos) {
+        this.protos = protos || {};
+      };
+      _msgDecoder.setProtos = function (protos) {
+        if (!!protos) {
+          this.protos = protos;
+        }
+      };
+      _msgDecoder.decode = function (route, buf) {
+        var protos = this.protos[route];
+        buffer = buf;
+        offset = 0;
+        if (!!protos) {
+          return decodeMsg({}, protos, buffer.length);
+        }
+        return null;
+      };
+      function decodeMsg(msg, protos, length) {
+        while (offset < length) {
+          var head = getHead();
+          head.type;
+          var tag = head.tag;
+          var name = protos.__tags[tag];
+          switch (protos[name].option) {
+            case 'optional':
+            case 'required':
+              msg[name] = decodeProp(protos[name].type, protos);
+              break;
+            case 'repeated':
+              if (!msg[name]) {
+                msg[name] = [];
+              }
+              decodeArray(msg[name], protos[name].type, protos);
+              break;
+          }
+        }
+        return msg;
+      }
+      function getHead() {
+        var tag = codec.decodeUInt32(getBytes());
+        return {
+          type: tag & 0x7,
+          tag: tag >> 3
+        };
+      }
+      function decodeProp(type, protos) {
+        switch (type) {
+          case 'uInt32':
+            return codec.decodeUInt32(getBytes());
+          case 'int32':
+          case 'sInt32':
+            return codec.decodeSInt32(getBytes());
+          case 'float':
+            var _float2 = codec.decodeFloat(buffer, offset);
+            offset += 4;
+            return _float2;
+          case 'double':
+            var _double2 = codec.decodeDouble(buffer, offset);
+            offset += 8;
+            return _double2;
+          case 'string':
+            var length = codec.decodeUInt32(getBytes());
+            var str = codec.decodeStr(buffer, offset, length);
+            offset += length;
+            return str;
+          default:
+            var message = protos && (protos.__messages[type] || _msgDecoder.protos["message ".concat(type)]);
+            if (!!message) {
+              var _length2 = codec.decodeUInt32(getBytes());
+              var msg = {};
+              decodeMsg(msg, message, offset + _length2);
+              return msg;
+            }
+            break;
+        }
+      }
+      function decodeArray(array, type, protos) {
+        if (util.isSimpleType(type)) {
+          var length = codec.decodeUInt32(getBytes());
+          for (var i = 0; i < length; i++) {
+            array.push(decodeProp(type));
+          }
+        } else {
+          array.push(decodeProp(type, protos));
+        }
+      }
+      function getBytes(flag) {
+        var bytes = [];
+        var pos = offset;
+        var _flag = flag || false;
+        var b;
+        do {
+          b = buffer[pos];
+          bytes.push(b);
+          pos++;
+        } while (b >= 128);
+        if (!_flag) {
+          offset = pos;
+        }
+        return bytes;
+      }
+    }
+  }]);
+  return PomeloClient;
+}();
+_defineProperty(PomeloClient, "_initialized", false);
+
+var PomeloPeer = /*#__PURE__*/function () {
+  function PomeloPeer(observer) {
+    _classCallCheck(this, PomeloPeer);
+    _defineProperty(this, "pomelo", void 0);
+    _defineProperty(this, "wsPrefix", 'ws://');
+    _defineProperty(this, "reconnect", false);
+    _defineProperty(this, "observer", void 0);
+    _defineProperty(this, "isConnect", false);
+    _defineProperty(this, "sentHeartbeatTimestamp", 0);
+    PomeloClient.init();
+    this.observer = observer;
+    this.pomelo = new Pomelo();
+    this.pomelo[PomeloAPI.ON]('close', this.onDisconnect.bind(this));
+    this.pomelo[PomeloAPI.ON]('onKick', this.onKick.bind(this));
+    this.pomelo[PomeloAPI.ON]('io-error', this.onError.bind(this));
+    this.pomelo[PomeloAPI.ON]('heartbeat', this.onHeartbeat.bind(this));
+  }
+  _createClass(PomeloPeer, [{
+    key: "isConnected",
+    get: function get() {
+      return this.isConnect;
+    }
+  }, {
+    key: "onDestroy",
+    value: function onDestroy() {
+      this.pomelo = undefined;
+    }
+  }, {
+    key: "disconnect",
+    value: function disconnect() {
+      this.isConnect = false;
+      this.pomelo[PomeloAPI.DISCONNECT]();
+    }
+  }, {
+    key: "forceHeartbeat",
+    value: function forceHeartbeat() {
+      this.pomelo[PomeloAPI.FORCE_HEARTBEAT]();
+    }
+  }, {
+    key: "notify",
+    value: function notify(route, data) {
+      this.pomelo[PomeloAPI.NOTIFY](route, data);
+    }
+  }, {
+    key: "addListeningCode",
+    value: function addListeningCode(gid, code, resolve) {
+      this.pomelo.on("".concat(gid).concat(code), resolve);
+    }
+  }, {
+    key: "connectConnector",
+    value: function connectConnector(wsPrefix, wsHost, wsPort) {
+      var params = {
+        host: wsPrefix + wsHost,
+        port: wsPort,
+        reconnect: this.reconnect
+      };
+      this.pomelo[PomeloAPI.INIT](params, this.observer.onConnect.bind(this.observer));
+    }
+  }, {
+    key: "sessionLogin",
+    value: function sessionLogin(sessionID, cid, gid, platform, portal, clientType) {
+      var params = {
+        sid: sessionID,
+        gid: gid,
+        cid: cid,
+        pl: platform,
+        po: portal,
+        ct: clientType
+      };
+      this.pomelo[PomeloAPI.REQUEST]('connector.enterHandler.login', params, this.observer.onAccountRequest.bind(this.observer));
+    }
+  }, {
+    key: "onLogin",
+    value: function onLogin(data) {
+      this.observer.onAccountRequest(data);
+    }
+  }, {
+    key: "onDisconnect",
+    value: function onDisconnect(data) {
+      this.isConnect = false;
+      this.observer.onDisconnect(data);
+    }
+  }, {
+    key: "onKick",
+    value: function onKick(data) {
+      this.isConnect = false;
+      this.observer.onKick(data);
+    }
+  }, {
+    key: "onError",
+    value: function onError(data) {
+      this.isConnect = false;
+      this.observer.onError(data);
+    }
+  }, {
+    key: "onConnectorConnected",
+    value: function onConnectorConnected() {
+      this.isConnect = true;
+      this.observer.onConnect();
+    }
+  }, {
+    key: "onHeartbeat",
+    value: function onHeartbeat(msg) {
+      if (msg == 'send') {
+        this.sentHeartbeatTimestamp = Date.now();
+      } else if (this.sentHeartbeatTimestamp > 0) {
+        this.observer.onHeartBeat(Date.now() - this.sentHeartbeatTimestamp);
+        this.sentHeartbeatTimestamp = 0;
+      }
+    }
+  }]);
+  return PomeloPeer;
+}();
+
+var o$1 = {
+  getOSVersion: function getOSVersion() {
+    return 0;
+  },
+  getPlatformDeviceEntryInfo: function getPlatformDeviceEntryInfo() {
+    if (!window.cc) {
+      return {
+        client: -1,
+        portal: 11,
+        platform: 1
+      };
+    }
+    var cc = window.cc;
+    var client = cc.sys.isNative ? 5 : 3;
+    var platform = cc.sys.isMobile ? 1 : cc.sys.os === cc.sys.OS.OSX ? 6 : 0;
+    var isTablet = false;
+    if (cc.sys.isBrowser) {
+      isTablet = navigator.userAgent.match(/Android/i) && !navigator.userAgent.match(/Mobile/i) ? true : false;
+      if (cc.sys.os === cc.sys.OS.OSX) {
+        isTablet = navigator.userAgent.match(/iPad/i) ? true : false;
+      }
+    }
+    if (cc.sys.os === cc.sys.OS.IOS) {
+      platform = isTablet ? 4 : 2;
+    } else if (cc.sys.os === cc.sys.OS.ANDROID) {
+      platform = isTablet ? 5 : 3;
+    }
+    var portal = 11;
+    var ua = window.navigator && window.navigator.userAgent;
+    if (ua) {
+      var game_portal = ua.match(/game_portal\/\d/);
+      if (game_portal) {
+        portal = parseInt(game_portal[0][game_portal[0].length - 1]);
+      } else {
+        portal = cc.sys.isMobile ? PortalType.MOBILE_WEB : PortalType.PC;
+        if (window.navigator.standalone || window.matchMedia('(display-mode: standalone)').matches) {
+          portal = PortalType.PWA;
+        }
+        if (ua.includes('UB')) {
+          portal = cc.sys.os === cc.sys.OSX || cc.sys.os === cc.sys.WINDOWS ? PortalType.UB_PC : PortalType.UB_MOBILE;
+          if (ua.includes('CustomBrowser')) {
+            portal = cc.sys.os === cc.sys.OSX || cc.sys.os === cc.sys.WINDOWS ? PortalType.UB_PC_CUSTOM : PortalType.UB_MOBILE_CUSTOM;
+          }
+        }
+      }
+    }
+    return {
+      client: client,
+      portal: portal,
+      platform: platform
+    };
+  },
+  get isIframe() {
+    return window.self !== window.top;
+  },
+  get isWebView() {
+    return /(iPhone|iPod|iPad).*AppleWebKit(?!.*Safari)/i.test(window.navigator.userAgent);
+  }
+};
+var PortalType;
+(function (PortalType) {
+  PortalType[PortalType["PC"] = 0] = "PC";
+  PortalType[PortalType["APP"] = 1] = "APP";
+  PortalType[PortalType["MOBILE_WEB"] = 2] = "MOBILE_WEB";
+  PortalType[PortalType["AIO"] = 3] = "AIO";
+  PortalType[PortalType["AIOS"] = 4] = "AIOS";
+  PortalType[PortalType["AIO_SDK"] = 5] = "AIO_SDK";
+  PortalType[PortalType["UB_PC"] = 6] = "UB_PC";
+  PortalType[PortalType["UB_MOBILE"] = 7] = "UB_MOBILE";
+  PortalType[PortalType["UB_PC_CUSTOM"] = 8] = "UB_PC_CUSTOM";
+  PortalType[PortalType["UB_MOBILE_CUSTOM"] = 9] = "UB_MOBILE_CUSTOM";
+  PortalType[PortalType["PWA"] = 10] = "PWA";
+  PortalType[PortalType["UNKNOWN"] = 11] = "UNKNOWN";
+})(PortalType || (PortalType = {}));
+
+var Connector = /*#__PURE__*/function () {
+  function Connector() {
+    _classCallCheck(this, Connector);
+    _defineProperty(this, "timeout", 5);
+    _defineProperty(this, "pomelo", void 0);
+    _defineProperty(this, "setting", null);
+    _defineProperty(this, "delegate", null);
+    _defineProperty(this, "gid", 0);
+    _defineProperty(this, "resolves", null);
+    this.pomelo = new PomeloPeer(this);
+    this.resolves = {
+      onConnected: null,
+      onLogin: null
+    };
+  }
+  _createClass(Connector, [{
+    key: "init",
+    value: function init(setting, delegate) {
+      this.setting = setting;
+      this.timeout = this.setting.timeout || this.timeout;
+      this.delegate = delegate;
+    }
+  }, {
+    key: "connect",
+    value: function connect() {
+      var _this = this;
+      var p = new Promise(function (resolve, reject) {
+        if (_this.setting == null) {
+          reject('missing connector setting, maybe you missed to call init first?');
+        }
+        _this.resolves.onConnected = resolve;
+        _this.pomelo.connectConnector(_this.setting.ssl ? 'wss://' : 'ws://', _this.setting.host, _this.setting.port ? "".concat(_this.setting.port) : '');
+      });
+      setTimeout(function () {
+        _this.resolves.onConnected && _this.onKick({
+          reason: 'connector_connect_timeout'
+        });
+      }, this.timeout * 1000);
+      return p;
+    }
+  }, {
+    key: "login",
+    value: function login(info) {
+      var _this2 = this;
+      this.gid = info.gid;
+      this.addListeningCodes();
+      var entryData = o$1.getPlatformDeviceEntryInfo();
+      var p = new Promise(function (resolve, _) {
+        _this2.resolves.onLogin = resolve;
+        _this2.pomelo.sessionLogin(info.sid, info.cid, info.gid, info.entry.platform == undefined ? entryData.platform : info.entry.platform, info.entry.portal == undefined ? entryData.portal : info.entry.portal, info.entry.client == undefined ? entryData.client : info.entry.client);
+      });
+      setTimeout(function () {
+        _this2.resolves.onLogin && _this2.onKick({
+          reason: 'connector_login_timeout'
+        });
+      }, this.timeout * 1000);
+      return p;
+    }
+  }, {
+    key: "send",
+    value: function send(route, data, sync) {
+      var _this3 = this;
+      if (sync) {
+        var r;
+        var p = new Promise(function (resolve, reject) {
+          r = reject;
+          _this3.pomelo.addListeningCode(_this3.gid, sync.code, resolve);
+          _this3.pomelo.notify(route, data);
+        });
+        var t = sync.timeout || this.timeout;
+        setTimeout(function () {
+          r("".concat(route, " timeout! Time elapsed:").concat(_this3.timeout, " seconds and still didn't receive response through code: ").concat(sync.code));
+        }, t * 1000);
+        return p;
+      } else {
+        this.pomelo.notify(route, data);
+      }
+    }
+  }, {
+    key: "onConnect",
+    value: function onConnect() {
+      !!this.resolves.onConnected && this.resolves.onConnected(true);
+      this.resolves.onConnected = undefined;
+    }
+  }, {
+    key: "onAccountRequest",
+    value: function onAccountRequest(data) {
+      !!this.resolves.onLogin && this.resolves.onLogin(data);
+      this.resolves.onLogin = undefined;
+    }
+  }, {
+    key: "onDisconnect",
+    value: function onDisconnect(data) {
+      this.delegate.onDisconnected(data);
+    }
+  }, {
+    key: "onKick",
+    value: function onKick(data) {
+      this.delegate.onKick(data);
+    }
+  }, {
+    key: "onError",
+    value: function onError(data) {
+      this.delegate.onError(data);
+    }
+  }, {
+    key: "onHeartBeat",
+    value: function onHeartBeat(millisecond) {
+      var quality = 'poor';
+      if (millisecond < 100) {
+        quality = 'good';
+      } else if (millisecond < 200) {
+        quality = 'adequate';
+      }
+      this.delegate.onPing(quality);
+    }
+  }, {
+    key: "addListeningCodes",
+    value: function addListeningCodes() {
+      var _this4 = this;
+      this.setting.codeMap.forEach(function (v, k) {
+        _this4.pomelo.addListeningCode(_this4.gid, k, function (data) {
+          v(k, data);
+        });
+      });
+    }
+  }]);
+  return Connector;
+}();
+
+var o = {
+  numberWithComma: function numberWithComma(num) {
+    num += '';
+    var nStr = num;
+    var x = nStr.split('.');
+    var x1 = x[0];
+    var x2 = x.length > 1 ? '.' + x[1] : '';
+    var rgx = /(\d+)(\d{3})/;
+    while (rgx.test(x1)) {
+      x1 = x1.replace(rgx, '$1' + ',' + '$2');
+    }
+    return x1 + x2;
+  },
+  numberInKilo: function numberInKilo(num) {
+    return 'numberInKilo';
+  },
+  numberInMillion: function numberInMillion(num) {
+    return 'numberInMillion';
+  }
+};
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
+  try {
+    var info = gen[key](arg);
+    var value = info.value;
+  } catch (error) {
+    reject(error);
+    return;
+  }
+  if (info.done) {
+    resolve(value);
+  } else {
+    Promise.resolve(value).then(_next, _throw);
+  }
+}
+function _asyncToGenerator(fn) {
+  return function () {
+    var self = this,
+      args = arguments;
+    return new Promise(function (resolve, reject) {
+      var gen = fn.apply(self, args);
+      function _next(value) {
+        asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);
+      }
+      function _throw(err) {
+        asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);
+      }
+      _next(undefined);
+    });
+  };
+}
+
+function getDefaultExportFromCjs (x) {
+	return x && x.__esModule && Object.prototype.hasOwnProperty.call(x, 'default') ? x['default'] : x;
+}
+
+var regeneratorRuntime$1 = {exports: {}};
+
+var _typeof = {exports: {}};
+
+(function (module) {
+	function _typeof(o) {
+	  "@babel/helpers - typeof";
+
+	  return (module.exports = _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) {
+	    return typeof o;
+	  } : function (o) {
+	    return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o;
+	  }, module.exports.__esModule = true, module.exports["default"] = module.exports), _typeof(o);
+	}
+	module.exports = _typeof, module.exports.__esModule = true, module.exports["default"] = module.exports; 
+} (_typeof));
+
+var _typeofExports = _typeof.exports;
+
+(function (module) {
+	var _typeof = _typeofExports["default"];
+	function _regeneratorRuntime() {
+	  module.exports = _regeneratorRuntime = function _regeneratorRuntime() {
+	    return e;
+	  }, module.exports.__esModule = true, module.exports["default"] = module.exports;
+	  var t,
+	    e = {},
+	    r = Object.prototype,
+	    n = r.hasOwnProperty,
+	    o = Object.defineProperty || function (t, e, r) {
+	      t[e] = r.value;
+	    },
+	    i = "function" == typeof Symbol ? Symbol : {},
+	    a = i.iterator || "@@iterator",
+	    c = i.asyncIterator || "@@asyncIterator",
+	    u = i.toStringTag || "@@toStringTag";
+	  function define(t, e, r) {
+	    return Object.defineProperty(t, e, {
+	      value: r,
+	      enumerable: !0,
+	      configurable: !0,
+	      writable: !0
+	    }), t[e];
+	  }
+	  try {
+	    define({}, "");
+	  } catch (t) {
+	    define = function define(t, e, r) {
+	      return t[e] = r;
+	    };
+	  }
+	  function wrap(t, e, r, n) {
+	    var i = e && e.prototype instanceof Generator ? e : Generator,
+	      a = Object.create(i.prototype),
+	      c = new Context(n || []);
+	    return o(a, "_invoke", {
+	      value: makeInvokeMethod(t, r, c)
+	    }), a;
+	  }
+	  function tryCatch(t, e, r) {
+	    try {
+	      return {
+	        type: "normal",
+	        arg: t.call(e, r)
+	      };
+	    } catch (t) {
+	      return {
+	        type: "throw",
+	        arg: t
+	      };
+	    }
+	  }
+	  e.wrap = wrap;
+	  var h = "suspendedStart",
+	    l = "suspendedYield",
+	    f = "executing",
+	    s = "completed",
+	    y = {};
+	  function Generator() {}
+	  function GeneratorFunction() {}
+	  function GeneratorFunctionPrototype() {}
+	  var p = {};
+	  define(p, a, function () {
+	    return this;
+	  });
+	  var d = Object.getPrototypeOf,
+	    v = d && d(d(values([])));
+	  v && v !== r && n.call(v, a) && (p = v);
+	  var g = GeneratorFunctionPrototype.prototype = Generator.prototype = Object.create(p);
+	  function defineIteratorMethods(t) {
+	    ["next", "throw", "return"].forEach(function (e) {
+	      define(t, e, function (t) {
+	        return this._invoke(e, t);
+	      });
+	    });
+	  }
+	  function AsyncIterator(t, e) {
+	    function invoke(r, o, i, a) {
+	      var c = tryCatch(t[r], t, o);
+	      if ("throw" !== c.type) {
+	        var u = c.arg,
+	          h = u.value;
+	        return h && "object" == _typeof(h) && n.call(h, "__await") ? e.resolve(h.__await).then(function (t) {
+	          invoke("next", t, i, a);
+	        }, function (t) {
+	          invoke("throw", t, i, a);
+	        }) : e.resolve(h).then(function (t) {
+	          u.value = t, i(u);
+	        }, function (t) {
+	          return invoke("throw", t, i, a);
+	        });
+	      }
+	      a(c.arg);
+	    }
+	    var r;
+	    o(this, "_invoke", {
+	      value: function value(t, n) {
+	        function callInvokeWithMethodAndArg() {
+	          return new e(function (e, r) {
+	            invoke(t, n, e, r);
+	          });
+	        }
+	        return r = r ? r.then(callInvokeWithMethodAndArg, callInvokeWithMethodAndArg) : callInvokeWithMethodAndArg();
+	      }
+	    });
+	  }
+	  function makeInvokeMethod(e, r, n) {
+	    var o = h;
+	    return function (i, a) {
+	      if (o === f) throw new Error("Generator is already running");
+	      if (o === s) {
+	        if ("throw" === i) throw a;
+	        return {
+	          value: t,
+	          done: !0
+	        };
+	      }
+	      for (n.method = i, n.arg = a;;) {
+	        var c = n.delegate;
+	        if (c) {
+	          var u = maybeInvokeDelegate(c, n);
+	          if (u) {
+	            if (u === y) continue;
+	            return u;
+	          }
+	        }
+	        if ("next" === n.method) n.sent = n._sent = n.arg;else if ("throw" === n.method) {
+	          if (o === h) throw o = s, n.arg;
+	          n.dispatchException(n.arg);
+	        } else "return" === n.method && n.abrupt("return", n.arg);
+	        o = f;
+	        var p = tryCatch(e, r, n);
+	        if ("normal" === p.type) {
+	          if (o = n.done ? s : l, p.arg === y) continue;
+	          return {
+	            value: p.arg,
+	            done: n.done
+	          };
+	        }
+	        "throw" === p.type && (o = s, n.method = "throw", n.arg = p.arg);
+	      }
+	    };
+	  }
+	  function maybeInvokeDelegate(e, r) {
+	    var n = r.method,
+	      o = e.iterator[n];
+	    if (o === t) return r.delegate = null, "throw" === n && e.iterator["return"] && (r.method = "return", r.arg = t, maybeInvokeDelegate(e, r), "throw" === r.method) || "return" !== n && (r.method = "throw", r.arg = new TypeError("The iterator does not provide a '" + n + "' method")), y;
+	    var i = tryCatch(o, e.iterator, r.arg);
+	    if ("throw" === i.type) return r.method = "throw", r.arg = i.arg, r.delegate = null, y;
+	    var a = i.arg;
+	    return a ? a.done ? (r[e.resultName] = a.value, r.next = e.nextLoc, "return" !== r.method && (r.method = "next", r.arg = t), r.delegate = null, y) : a : (r.method = "throw", r.arg = new TypeError("iterator result is not an object"), r.delegate = null, y);
+	  }
+	  function pushTryEntry(t) {
+	    var e = {
+	      tryLoc: t[0]
+	    };
+	    1 in t && (e.catchLoc = t[1]), 2 in t && (e.finallyLoc = t[2], e.afterLoc = t[3]), this.tryEntries.push(e);
+	  }
+	  function resetTryEntry(t) {
+	    var e = t.completion || {};
+	    e.type = "normal", delete e.arg, t.completion = e;
+	  }
+	  function Context(t) {
+	    this.tryEntries = [{
+	      tryLoc: "root"
+	    }], t.forEach(pushTryEntry, this), this.reset(!0);
+	  }
+	  function values(e) {
+	    if (e || "" === e) {
+	      var r = e[a];
+	      if (r) return r.call(e);
+	      if ("function" == typeof e.next) return e;
+	      if (!isNaN(e.length)) {
+	        var o = -1,
+	          i = function next() {
+	            for (; ++o < e.length;) if (n.call(e, o)) return next.value = e[o], next.done = !1, next;
+	            return next.value = t, next.done = !0, next;
+	          };
+	        return i.next = i;
+	      }
+	    }
+	    throw new TypeError(_typeof(e) + " is not iterable");
+	  }
+	  return GeneratorFunction.prototype = GeneratorFunctionPrototype, o(g, "constructor", {
+	    value: GeneratorFunctionPrototype,
+	    configurable: !0
+	  }), o(GeneratorFunctionPrototype, "constructor", {
+	    value: GeneratorFunction,
+	    configurable: !0
+	  }), GeneratorFunction.displayName = define(GeneratorFunctionPrototype, u, "GeneratorFunction"), e.isGeneratorFunction = function (t) {
+	    var e = "function" == typeof t && t.constructor;
+	    return !!e && (e === GeneratorFunction || "GeneratorFunction" === (e.displayName || e.name));
+	  }, e.mark = function (t) {
+	    return Object.setPrototypeOf ? Object.setPrototypeOf(t, GeneratorFunctionPrototype) : (t.__proto__ = GeneratorFunctionPrototype, define(t, u, "GeneratorFunction")), t.prototype = Object.create(g), t;
+	  }, e.awrap = function (t) {
+	    return {
+	      __await: t
+	    };
+	  }, defineIteratorMethods(AsyncIterator.prototype), define(AsyncIterator.prototype, c, function () {
+	    return this;
+	  }), e.AsyncIterator = AsyncIterator, e.async = function (t, r, n, o, i) {
+	    void 0 === i && (i = Promise);
+	    var a = new AsyncIterator(wrap(t, r, n, o), i);
+	    return e.isGeneratorFunction(r) ? a : a.next().then(function (t) {
+	      return t.done ? t.value : a.next();
+	    });
+	  }, defineIteratorMethods(g), define(g, u, "Generator"), define(g, a, function () {
+	    return this;
+	  }), define(g, "toString", function () {
+	    return "[object Generator]";
+	  }), e.keys = function (t) {
+	    var e = Object(t),
+	      r = [];
+	    for (var n in e) r.push(n);
+	    return r.reverse(), function next() {
+	      for (; r.length;) {
+	        var t = r.pop();
+	        if (t in e) return next.value = t, next.done = !1, next;
+	      }
+	      return next.done = !0, next;
+	    };
+	  }, e.values = values, Context.prototype = {
+	    constructor: Context,
+	    reset: function reset(e) {
+	      if (this.prev = 0, this.next = 0, this.sent = this._sent = t, this.done = !1, this.delegate = null, this.method = "next", this.arg = t, this.tryEntries.forEach(resetTryEntry), !e) for (var r in this) "t" === r.charAt(0) && n.call(this, r) && !isNaN(+r.slice(1)) && (this[r] = t);
+	    },
+	    stop: function stop() {
+	      this.done = !0;
+	      var t = this.tryEntries[0].completion;
+	      if ("throw" === t.type) throw t.arg;
+	      return this.rval;
+	    },
+	    dispatchException: function dispatchException(e) {
+	      if (this.done) throw e;
+	      var r = this;
+	      function handle(n, o) {
+	        return a.type = "throw", a.arg = e, r.next = n, o && (r.method = "next", r.arg = t), !!o;
+	      }
+	      for (var o = this.tryEntries.length - 1; o >= 0; --o) {
+	        var i = this.tryEntries[o],
+	          a = i.completion;
+	        if ("root" === i.tryLoc) return handle("end");
+	        if (i.tryLoc <= this.prev) {
+	          var c = n.call(i, "catchLoc"),
+	            u = n.call(i, "finallyLoc");
+	          if (c && u) {
+	            if (this.prev < i.catchLoc) return handle(i.catchLoc, !0);
+	            if (this.prev < i.finallyLoc) return handle(i.finallyLoc);
+	          } else if (c) {
+	            if (this.prev < i.catchLoc) return handle(i.catchLoc, !0);
+	          } else {
+	            if (!u) throw new Error("try statement without catch or finally");
+	            if (this.prev < i.finallyLoc) return handle(i.finallyLoc);
+	          }
+	        }
+	      }
+	    },
+	    abrupt: function abrupt(t, e) {
+	      for (var r = this.tryEntries.length - 1; r >= 0; --r) {
+	        var o = this.tryEntries[r];
+	        if (o.tryLoc <= this.prev && n.call(o, "finallyLoc") && this.prev < o.finallyLoc) {
+	          var i = o;
+	          break;
+	        }
+	      }
+	      i && ("break" === t || "continue" === t) && i.tryLoc <= e && e <= i.finallyLoc && (i = null);
+	      var a = i ? i.completion : {};
+	      return a.type = t, a.arg = e, i ? (this.method = "next", this.next = i.finallyLoc, y) : this.complete(a);
+	    },
+	    complete: function complete(t, e) {
+	      if ("throw" === t.type) throw t.arg;
+	      return "break" === t.type || "continue" === t.type ? this.next = t.arg : "return" === t.type ? (this.rval = this.arg = t.arg, this.method = "return", this.next = "end") : "normal" === t.type && e && (this.next = e), y;
+	    },
+	    finish: function finish(t) {
+	      for (var e = this.tryEntries.length - 1; e >= 0; --e) {
+	        var r = this.tryEntries[e];
+	        if (r.finallyLoc === t) return this.complete(r.completion, r.afterLoc), resetTryEntry(r), y;
+	      }
+	    },
+	    "catch": function _catch(t) {
+	      for (var e = this.tryEntries.length - 1; e >= 0; --e) {
+	        var r = this.tryEntries[e];
+	        if (r.tryLoc === t) {
+	          var n = r.completion;
+	          if ("throw" === n.type) {
+	            var o = n.arg;
+	            resetTryEntry(r);
+	          }
+	          return o;
+	        }
+	      }
+	      throw new Error("illegal catch attempt");
+	    },
+	    delegateYield: function delegateYield(e, r, n) {
+	      return this.delegate = {
+	        iterator: values(e),
+	        resultName: r,
+	        nextLoc: n
+	      }, "next" === this.method && (this.arg = t), y;
+	    }
+	  }, e;
+	}
+	module.exports = _regeneratorRuntime, module.exports.__esModule = true, module.exports["default"] = module.exports; 
+} (regeneratorRuntime$1));
+
+var regeneratorRuntimeExports = regeneratorRuntime$1.exports;
+
+// TODO(Babel 8): Remove this file.
+
+var runtime = regeneratorRuntimeExports();
+var regenerator = runtime;
+
+// Copied from https://github.com/facebook/regenerator/blob/main/packages/runtime/runtime.js#L736=
+try {
+  regeneratorRuntime = runtime;
+} catch (accidentalStrictMode) {
+  if (typeof globalThis === "object") {
+    globalThis.regeneratorRuntime = runtime;
+  } else {
+    Function("r", "regeneratorRuntime = r")(runtime);
+  }
+}
+
+var _regeneratorRuntime = /*@__PURE__*/getDefaultExportFromCjs(regenerator);
+
+function getSession(_x, _x2, _x3, _x4, _x5) {
+  return _getSession.apply(this, arguments);
+}
+function _getSession() {
+  _getSession = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime.mark(function _callee(userID, userSID, gameType, lang, env) {
+    var data;
+    return _regeneratorRuntime.wrap(function _callee$(_context) {
+      while (1) switch (_context.prev = _context.next) {
+        case 0:
+          gameType = gameType ? gameType : '38001';
+          lang = lang ? lang : 'en';
+          _context.next = 4;
+          return fetch("https://".concat(getDomain(env), "/Cli/Platform/Demo2/Fish/Session?gameType=").concat(gameType, "&lang=").concat(lang, "&exitOption=1"), {
+            method: 'GET',
+            headers: {
+              userid: userID,
+              sid: userSID,
+              ekey: 'mroftalpm'
+            }
+          }).then(function (res) {
+            return res.json();
+          });
+        case 4:
+          data = _context.sent;
+          if (!(data.status !== '000')) {
+            _context.next = 7;
+            break;
+          }
+          return _context.abrupt("return", Promise.reject(new Error("".concat(data.msg, "(").concat(data.status, "-").concat(data.errorCode, ")"))));
+        case 7:
+          return _context.abrupt("return", data.data.url);
+        case 8:
+        case "end":
+          return _context.stop();
+      }
+    }, _callee);
+  }));
+  return _getSession.apply(this, arguments);
+}
+function login(_x6, _x7) {
+  return _login.apply(this, arguments);
+}
+function _login() {
+  _login = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime.mark(function _callee2(account, env) {
+    var data;
+    return _regeneratorRuntime.wrap(function _callee2$(_context2) {
+      while (1) switch (_context2.prev = _context2.next) {
+        case 0:
+          _context2.next = 2;
+          return fetch("https://".concat(getDomain(env), "/Cli/User/SignIn"), {
+            method: 'PUT',
+            body: JSON.stringify({
+              account: account
+            }),
+            headers: new Headers({
+              Ekey: 'mroftalpm',
+              'Content-Type': 'application/json'
+            })
+          }).then(function (res) {
+            return res.json();
+          });
+        case 2:
+          data = _context2.sent;
+          if (!(data.status !== '000')) {
+            _context2.next = 5;
+            break;
+          }
+          return _context2.abrupt("return", Promise.reject(new Error("".concat(data.msg, "(").concat(data.status, "-").concat(data.errorCode, ")"))));
+        case 5:
+          return _context2.abrupt("return", data.data);
+        case 6:
+        case "end":
+          return _context2.stop();
+      }
+    }, _callee2);
+  }));
+  return _login.apply(this, arguments);
+}
+function getDomain(env) {
+  switch (env) {
+    case 'TEST':
+      return 'demo.in-app.cc/DemoAPI';
+    case 'PROD':
+      return 'bbinmobile.com/DemoAPI';
+    case 'DEV':
+    default:
+      return 'demo.in-app.asia/DemoAPI';
+  }
+}
+
+var AppTalking = {
+  nativeBridge: {
+    callbacksCount: 1,
+    callbacks: {},
+    resultForCallback: function resultForCallback(callbackId, resultArray) {
+      try {
+        var callback = this.callbacks[callbackId];
+        if (!callback) {
+          return;
+        }
+        callback.apply(null, resultArray);
+      } catch (e) {
+        alert(e);
+      }
+    },
+    call: function call(functionName, args, callback) {
+      var hasCallback = callback && typeof callback == "function";
+      var callbackId = hasCallback ? this.callbacksCount++ : 0;
+      if (hasCallback) {
+        this.callbacks[callbackId] = callback;
+      }
+      var iframe = document.createElement("IFRAME");
+      iframe.setAttribute("src", "js-frame:" + functionName + ":" + callbackId + ":" + encodeURIComponent(JSON.stringify(args)));
+      document.documentElement.appendChild(iframe);
+      iframe.parentNode.removeChild(iframe);
+    }
+  },
+  iosAppToJsMessage: function iosAppToJsMessage(response) {},
+  androidAppToJsMessage: function androidAppToJsMessage(message) {},
+  iosJsToAppMessage: function iosJsToAppMessage(message) {
+    this.nativeBridge.call("JsToAppMessage", [message], this.iosAppToJsMessage);
+  },
+  androidJsToAppMessage: function androidJsToAppMessage(message) {
+    if (globalThis.MyHandler) {
+      globalThis.MyHandler.JsToAppMessage(message);
+    }
+  },
+  jsToAppMessage: function jsToAppMessage(message) {
+    var device = {
+      isiPad: navigator.userAgent.match(/iPad/i) !== null,
+      isiPhone: navigator.userAgent.match(/iPhone/i) !== null,
+      isAndroid: navigator.userAgent.match(/Android/i) !== null
+    };
+    if (device.isiPad || device.isiPhone) {
+      this.iosJsToAppMessage(message);
+    } else if (device.isAndroid) {
+      this.androidJsToAppMessage(message);
+    }
+  },
+  logout: function logout() {
+    this.jsToAppMessage('{"event":"EXIT", "data":""}');
+  },
+  logout_quest: function logout_quest() {
+    this.jsToAppMessage('{"event":"SESSION_INVALIDATE", "data":""}');
+  },
+  loaded: function loaded() {
+    this.jsToAppMessage('{"event":"LOADED", "data":""}');
+  }
+};
+
+function _createForOfIteratorHelper(o, allowArrayLike) { var it = typeof Symbol !== "undefined" && o[Symbol.iterator] || o["@@iterator"]; if (!it) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = it.call(o); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) arr2[i] = arr[i]; return arr2; }
+function urlGet(key) {
+  var name = new RegExp("[?&]".concat(encodeURIComponent(key), "=([^&]*)")).exec(location.search);
+  if (name) {
+    return decodeURIComponent(name[1]);
+  }
+  return undefined;
+}
+function getCookie(key) {
+  var name = "".concat(key, "=");
+  var ca = document.cookie.split(';');
+  var _iterator = _createForOfIteratorHelper(ca),
+    _step;
+  try {
+    for (_iterator.s(); !(_step = _iterator.n()).done;) {
+      var item = _step.value;
+      var c = item;
+      while (c.charAt(0) === ' ') {
+        c = c.substring(1);
+      }
+      if (c.indexOf(name) === 0) {
+        return c.substring(name.length, c.length);
+      }
+    }
+  } catch (err) {
+    _iterator.e(err);
+  } finally {
+    _iterator.f();
+  }
+  return undefined;
+}
+function setCookie(key, value) {
+  var config = isLocalTesting() ? '' : 'SameSite=None; Secure; path=/';
+  document.cookie = "".concat(key, "=").concat(value, "; ").concat(config);
+}
+function loginWithDemo(_x) {
+  return _loginWithDemo.apply(this, arguments);
+}
+function _loginWithDemo() {
+  _loginWithDemo = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime.mark(function _callee(data) {
+    var userData, url;
+    return _regeneratorRuntime.wrap(function _callee$(_context) {
+      while (1) switch (_context.prev = _context.next) {
+        case 0:
+          _context.prev = 0;
+          _context.next = 3;
+          return login(data.account, data.env);
+        case 3:
+          userData = _context.sent;
+          _context.next = 6;
+          return getSession(userData.userID, userData.sid, data.gameType, data.lang, data.env);
+        case 6:
+          url = _context.sent;
+          return _context.abrupt("return", url);
+        case 10:
+          _context.prev = 10;
+          _context.t0 = _context["catch"](0);
+          console.error(_context.t0);
+        case 13:
+          return _context.abrupt("return", '');
+        case 14:
+        case "end":
+          return _context.stop();
+      }
+    }, _callee, null, [[0, 10]]);
+  }));
+  return _loginWithDemo.apply(this, arguments);
+}
+function parseEntryData(encryptedData) {
+  try {
+    return JSON.parse(decodeURIComponent(encodeURIComponent(window.atob(encryptedData))));
+    ;
+  } catch (e) {
+    console.error(e);
+    return {};
+  }
+}
+function toLocalLangSuffix(lang) {
+  var l = lang.toLocaleLowerCase();
+  var result = lang;
+  switch (l) {
+    case 'zh-tw':
+    case 'zh_tw':
+    case 'zh-hant':
+    case 'zh_hant':
+    case 'twn':
+      result = 'tw';
+      break;
+    case 'zh-cn':
+    case 'zh_cn':
+    case 'zh-hans':
+    case 'zh_hans':
+      result = 'cn';
+      break;
+    case 'us':
+    case 'en-us':
+    case 'en_us':
+      result = 'en';
+      break;
+    case 'vnm':
+    case 'vn':
+      result = 'vi';
+      break;
+  }
+  return result;
+}
+function checkWebGLSupport() {
+  try {
+    var canvas = document.createElement('canvas');
+    return !!(window.WebGLRenderingContext && (canvas.getContext('webgl') || canvas.getContext('experimental-webgl')));
+  } catch (e) {
+    return false;
+  }
+}
+function isLocalTesting() {
+  return window.location.hostname.includes('localhost') || window.location.hostname.includes('192.168');
+}
+function getLocalTestDomain() {
+  var env = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'DEV';
+  var gsSubDomain = 'ws01';
+  var domain = env == 'DEV' ? 'fisher-dev.cc' : env === 'TEST' ? 'fisher-test.cc' : 'fisherleader.com';
+  return {
+    domain: domain,
+    gsSubDomain: gsSubDomain
+  };
+}
+function exit() {
+  var exitOption = getCookie('exit_option');
+  var exitURL = getCookie('exit_url');
+  var isWebInAIO = urlGet('platform') === 'AIO' || urlGet('platform') === 'SDK' || getCookie('platform') === 'AIO' || getCookie('platform') === 'SDK';
+  switch (exitOption) {
+    case '1':
+      if (isWebInAIO && AppTalking) {
+        AppTalking.logout();
+      }
+      window.close();
+      if (!window.closed) {
+        setTimeout(function () {
+          alert('window close failed.');
+        }, 3000);
+      }
+      break;
+    case '2':
+      window.location.href = exitURL;
+      break;
+    case '4':
+      if (window.history.length > 1) {
+        window.history.go(-1);
+      } else {
+        window.close();
+        if (!window.closed) {
+          setTimeout(function () {
+            alert('window close failed.');
+          }, 3000);
+        }
+      }
+      break;
+    case '3':
+    default:
+      if (isWebInAIO && AppTalking) {
+        AppTalking.logout();
+      }
+      setTimeout(function () {
+        window.location.reload();
+      }, 1000);
+      break;
+  }
+}
+
+function analyze(d) {
+  var h = location.hostname;
+  var condition = !h.includes('-dev') && !h.includes('-test') && !h.includes('localhost') && !h.includes('192.168');
+  var testItAnyway = urlGet('analytic') == 'true';
+  if ((testItAnyway || condition) && window.dataLayer && window.dataLayer.push) {
+    window.dataLayer.push(d);
+  }
+}
+function setUserID(user_id) {
+  if (window.dataLayer) {
+    window.dataLayer.push({
+      user_id: user_id
+    });
+  }
+}
+var ShootTypeAnalytics = /*#__PURE__*/function () {
+  function ShootTypeAnalytics() {
+    _classCallCheck(this, ShootTypeAnalytics);
+  }
+  _createClass(ShootTypeAnalytics, null, [{
+    key: "accumulate",
+    value: function accumulate(type) {
+      switch (type) {
+        case 'normal':
+          this.normalShoot++;
+          break;
+        case 'auto':
+          this.autoShoot++;
+          break;
+        case 'lock':
+          this.lockShoot++;
+          break;
+      }
+    }
+  }, {
+    key: "start",
+    value: function start(minute) {
+      var _this = this;
+      this.interval = minute ? minute : this.interval;
+      clearTimeout(this.intervalID);
+      setTimeout(function () {
+        if (_this.autoShoot != 0 || _this.normalShoot != 0 || _this.lockShoot != 0) {
+          analyze({
+            event: 'fishing_shoot',
+            auto_shoot: _this.autoShoot,
+            normal_shoot: _this.normalShoot,
+            lock_shoot: _this.lockShoot
+          });
+        }
+        _this.normalShoot = 0;
+        _this.lockShoot = 0;
+        _this.autoShoot = 0;
+        _this.start();
+      }, this.interval * 60 * 1000);
+    }
+  }]);
+  return ShootTypeAnalytics;
+}();
+_defineProperty(ShootTypeAnalytics, "normalShoot", 0);
+_defineProperty(ShootTypeAnalytics, "lockShoot", 0);
+_defineProperty(ShootTypeAnalytics, "autoShoot", 0);
+_defineProperty(ShootTypeAnalytics, "interval", 10);
+_defineProperty(ShootTypeAnalytics, "intervalID", void 0);
+
+if (!window.util) {
+  var u = {
+    version: '1.0.0',
+    network: {
+      connector: new Connector()
+    },
+    numeric: {
+      "float": o$2,
+      prettify: o
+    },
+    general: {
+      device: o$1,
+      urlGet: urlGet,
+      getCookie: getCookie,
+      loginWithDemo: loginWithDemo,
+      setCookie: setCookie,
+      parseEntryData: parseEntryData,
+      toLocalLangSuffix: toLocalLangSuffix,
+      checkWebGLSupport: checkWebGLSupport,
+      isLocalTesting: isLocalTesting,
+      getLocalTestDomain: getLocalTestDomain,
+      exit: exit
+    },
+    analytic: {
+      analyze: analyze,
+      setUserID: setUserID,
+      ShootTypeAnalytics: ShootTypeAnalytics
+    }
+  };
+  window.util = u;
+}

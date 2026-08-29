@@ -1,0 +1,451 @@
+
+loading_page2_front.webp
+size: 1988,2044
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/icon_09-Connect/add/icon_09-Connect00
+  rotate: true
+  xy: 2, 1861
+  size: 181, 532
+  orig: 525, 840
+  offset: 173, 146
+  index: -1
+images/icon_09-Connect/add/icon_09-Connect02
+  rotate: true
+  xy: 2, 888
+  size: 213, 535
+  orig: 525, 840
+  offset: 141, 146
+  index: -1
+images/icon_09-Connect/add/icon_09-Connect04
+  rotate: true
+  xy: 539, 712
+  size: 213, 538
+  orig: 525, 840
+  offset: 141, 146
+  index: -1
+images/icon_09-Connect/add/icon_09-Connect06
+  rotate: true
+  xy: 1079, 712
+  size: 213, 542
+  orig: 525, 840
+  offset: 141, 146
+  index: -1
+images/icon_09-Connect/add/icon_09-Connect08
+  rotate: true
+  xy: 536, 484
+  size: 226, 545
+  orig: 525, 840
+  offset: 141, 146
+  index: -1
+images/icon_09-Connect/add/icon_09-Connect58
+  rotate: true
+  xy: 536, 1861
+  size: 181, 532
+  orig: 525, 840
+  offset: 173, 146
+  index: -1
+images/icon_09-Connect/n/icon_09-Connect00
+  rotate: true
+  xy: 1070, 1861
+  size: 181, 532
+  orig: 525, 840
+  offset: 173, 146
+  index: -1
+images/icon_09-Connect/n/icon_09-Connect02
+  rotate: true
+  xy: 2, 1678
+  size: 181, 535
+  orig: 525, 840
+  offset: 173, 146
+  index: -1
+images/icon_09-Connect/n/icon_09-Connect04
+  rotate: true
+  xy: 539, 1678
+  size: 181, 538
+  orig: 525, 840
+  offset: 173, 146
+  index: -1
+images/icon_09-Connect/n/icon_09-Connect06
+  rotate: true
+  xy: 1079, 1678
+  size: 181, 541
+  orig: 525, 840
+  offset: 173, 146
+  index: -1
+images/icon_09-Connect/n/icon_09-Connect08
+  rotate: true
+  xy: 2, 1495
+  size: 181, 543
+  orig: 525, 840
+  offset: 173, 146
+  index: -1
+images/icon_09-Connect/n/icon_09-Connect10
+  rotate: true
+  xy: 547, 1495
+  size: 181, 540
+  orig: 525, 840
+  offset: 173, 146
+  index: -1
+images/icon_09-Connect/n/icon_09-Connect12
+  rotate: true
+  xy: 1089, 1327
+  size: 181, 534
+  orig: 525, 840
+  offset: 173, 146
+  index: -1
+images/icon_09-Connect/n/icon_09-Connect14
+  rotate: false
+  xy: 1622, 1510
+  size: 181, 532
+  orig: 525, 840
+  offset: 173, 146
+  index: -1
+images/icon_09-Connect/n/icon_09-Connect16
+  rotate: false
+  xy: 1805, 1510
+  size: 181, 532
+  orig: 525, 840
+  offset: 173, 146
+  index: -1
+images/icon_09-Connect/n/icon_09-Connect18
+  rotate: true
+  xy: 536, 1103
+  size: 206, 532
+  orig: 525, 840
+  offset: 163, 146
+  index: -1
+images/icon_09-Connect/n/icon_09-Connect20
+  rotate: false
+  xy: 1625, 976
+  size: 234, 532
+  orig: 525, 840
+  offset: 149, 146
+  index: -1
+images/icon_09-Connect/n/icon_09-Connect22
+  rotate: true
+  xy: 1083, 476
+  size: 234, 532
+  orig: 525, 840
+  offset: 149, 146
+  index: -1
+images/icon_09-Connect/n/icon_09-Connect24
+  rotate: false
+  xy: 1623, 442
+  size: 236, 532
+  orig: 525, 840
+  offset: 148, 146
+  index: -1
+images/icon_09-Connect/n/icon_09-Connect26
+  rotate: true
+  xy: 2, 422
+  size: 238, 532
+  orig: 525, 840
+  offset: 147, 146
+  index: -1
+images/icon_09-Connect/n/icon_09-Connect28
+  rotate: true
+  xy: 536, 244
+  size: 238, 532
+  orig: 525, 840
+  offset: 147, 146
+  index: -1
+images/icon_09-Connect/n/icon_09-Connect30
+  rotate: true
+  xy: 2, 180
+  size: 240, 532
+  orig: 525, 840
+  offset: 146, 146
+  index: -1
+images/icon_09-Connect/n/icon_09-Connect32
+  rotate: true
+  xy: 536, 2
+  size: 240, 532
+  orig: 525, 840
+  offset: 146, 146
+  index: -1
+images/icon_09-Connect/n/icon_09-Connect46
+  rotate: true
+  xy: 1070, 236
+  size: 238, 532
+  orig: 525, 840
+  offset: 147, 146
+  index: -1
+images/icon_09-Connect/n/icon_09-Connect48
+  rotate: true
+  xy: 2, 662
+  size: 224, 532
+  orig: 525, 840
+  offset: 154, 146
+  index: -1
+images/icon_09-Connect/n/icon_09-Connect50
+  rotate: true
+  xy: 1070, 927
+  size: 209, 532
+  orig: 525, 840
+  offset: 161, 146
+  index: -1
+images/icon_09-Connect/n/icon_09-Connect52
+  rotate: true
+  xy: 2, 1113
+  size: 197, 532
+  orig: 525, 840
+  offset: 167, 146
+  index: -1
+images/icon_09-Connect/n/icon_09-Connect54
+  rotate: true
+  xy: 1070, 1138
+  size: 187, 532
+  orig: 525, 840
+  offset: 172, 146
+  index: -1
+images/icon_09-Connect/n/icon_09-Connect56
+  rotate: true
+  xy: 536, 1311
+  size: 182, 532
+  orig: 525, 840
+  offset: 173, 146
+  index: -1
+images/icon_09-Connect/n/icon_09-Connect58
+  rotate: true
+  xy: 2, 1312
+  size: 181, 532
+  orig: 525, 840
+  offset: 173, 146
+  index: -1
+
+loading_page2_front2.webp
+size: 1856,1952
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/icon_09-Connect/add/icon_09-Connect10
+  rotate: true
+  xy: 2, 1198
+  size: 258, 698
+  orig: 525, 840
+  offset: 136, 67
+  index: -1
+images/icon_09-Connect/add/icon_09-Connect12
+  rotate: true
+  xy: 702, 1178
+  size: 278, 727
+  orig: 525, 840
+  offset: 124, 50
+  index: -1
+images/icon_09-Connect/add/icon_09-Connect14
+  rotate: true
+  xy: 734, 886
+  size: 290, 738
+  orig: 525, 840
+  offset: 119, 45
+  index: -1
+images/icon_09-Connect/add/icon_09-Connect16
+  rotate: true
+  xy: 2, 590
+  size: 294, 744
+  orig: 525, 840
+  offset: 118, 42
+  index: -1
+images/icon_09-Connect/add/icon_09-Connect44
+  rotate: true
+  xy: 755, 2
+  size: 305, 752
+  orig: 525, 840
+  offset: 112, 37
+  index: -1
+images/icon_09-Connect/add/icon_09-Connect48
+  rotate: true
+  xy: 2, 3
+  size: 304, 751
+  orig: 525, 840
+  offset: 112, 38
+  index: -1
+images/icon_09-Connect/add/icon_09-Connect50
+  rotate: true
+  xy: 748, 309
+  size: 298, 744
+  orig: 525, 840
+  offset: 115, 42
+  index: -1
+images/icon_09-Connect/add/icon_09-Connect52
+  rotate: false
+  xy: 1474, 609
+  size: 291, 739
+  orig: 525, 840
+  offset: 118, 44
+  index: -1
+images/icon_09-Connect/add/icon_09-Connect54
+  rotate: true
+  xy: 2, 895
+  size: 281, 730
+  orig: 525, 840
+  offset: 122, 49
+  index: -1
+images/icon_09-Connect/add/icon_09-Connect56
+  rotate: false
+  xy: 1604, 1350
+  size: 250, 600
+  orig: 525, 840
+  offset: 139, 112
+  index: -1
+images/icon_09-Connect/n/icon_09-Connect34
+  rotate: true
+  xy: 2, 1708
+  size: 242, 532
+  orig: 525, 840
+  offset: 145, 146
+  index: -1
+images/icon_09-Connect/n/icon_09-Connect36
+  rotate: true
+  xy: 536, 1706
+  size: 244, 532
+  orig: 525, 840
+  offset: 144, 146
+  index: -1
+images/icon_09-Connect/n/icon_09-Connect38
+  rotate: true
+  xy: 1070, 1706
+  size: 244, 532
+  orig: 525, 840
+  offset: 144, 146
+  index: -1
+images/icon_09-Connect/n/icon_09-Connect40
+  rotate: true
+  xy: 2, 1461
+  size: 245, 532
+  orig: 525, 840
+  offset: 144, 146
+  index: -1
+images/icon_09-Connect/n/icon_09-Connect42
+  rotate: true
+  xy: 536, 1458
+  size: 246, 532
+  orig: 525, 840
+  offset: 143, 146
+  index: -1
+images/icon_09-Connect/n/icon_09-Connect44
+  rotate: true
+  xy: 1070, 1458
+  size: 246, 532
+  orig: 525, 840
+  offset: 143, 146
+  index: -1
+
+loading_page2_front3.webp
+size: 2008,1648
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/icon_09-Connect/add/icon_09-Connect18
+  rotate: true
+  xy: 755, 1295
+  size: 349, 751
+  orig: 525, 840
+  offset: 89, 38
+  index: -1
+images/icon_09-Connect/add/icon_09-Connect20
+  rotate: true
+  xy: 2, 936
+  size: 401, 751
+  orig: 525, 840
+  offset: 63, 38
+  index: -1
+images/icon_09-Connect/add/icon_09-Connect22
+  rotate: false
+  xy: 1508, 892
+  size: 410, 752
+  orig: 525, 840
+  offset: 58, 37
+  index: -1
+images/icon_09-Connect/add/icon_09-Connect24
+  rotate: false
+  xy: 755, 541
+  size: 420, 752
+  orig: 525, 840
+  offset: 53, 37
+  index: -1
+images/icon_09-Connect/add/icon_09-Connect26
+  rotate: true
+  xy: 1177, 459
+  size: 431, 762
+  orig: 525, 840
+  offset: 48, 32
+  index: -1
+images/icon_09-Connect/add/icon_09-Connect28
+  rotate: true
+  xy: 470, 14
+  size: 443, 762
+  orig: 525, 840
+  offset: 42, 32
+  index: -1
+images/icon_09-Connect/add/icon_09-Connect30
+  rotate: true
+  xy: 1234, 2
+  size: 455, 769
+  orig: 525, 840
+  offset: 36, 32
+  index: -1
+images/icon_09-Connect/add/icon_09-Connect42
+  rotate: false
+  xy: 2, 181
+  size: 466, 753
+  orig: 525, 840
+  offset: 31, 37
+  index: -1
+images/icon_09-Connect/add/icon_09-Connect46
+  rotate: true
+  xy: 2, 1339
+  size: 305, 751
+  orig: 525, 840
+  offset: 112, 38
+  index: -1
+
+loading_page2_front4.webp
+size: 1756,1568
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/frame_B
+  rotate: true
+  xy: 2, 609
+  size: 956, 766
+  orig: 956, 766
+  offset: 0, 0
+  index: -1
+images/icon_09-Connect/add/icon_09-Connect32
+  rotate: false
+  xy: 1274, 12
+  size: 468, 777
+  orig: 525, 840
+  offset: 29, 31
+  index: -1
+images/icon_09-Connect/add/icon_09-Connect34
+  rotate: false
+  xy: 1274, 791
+  size: 480, 774
+  orig: 525, 840
+  offset: 23, 32
+  index: -1
+images/icon_09-Connect/add/icon_09-Connect36
+  rotate: false
+  xy: 782, 2
+  size: 490, 782
+  orig: 525, 840
+  offset: 18, 30
+  index: -1
+images/icon_09-Connect/add/icon_09-Connect38
+  rotate: false
+  xy: 770, 786
+  size: 502, 779
+  orig: 525, 840
+  offset: 12, 30
+  index: -1
+images/icon_09-Connect/add/icon_09-Connect40
+  rotate: true
+  xy: 2, 97
+  size: 510, 778
+  orig: 525, 840
+  offset: 8, 30
+  index: -1

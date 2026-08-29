@@ -1,0 +1,52 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tx_kill_dragon_03",
+    "atlas": "276e305a-c4c8-446b-8d35-606a53a51837",
+    "rect": {
+      "x": 1,
+      "y": 587,
+      "width": 186,
+      "height": 194
+    },
+    "offset": {
+      "x": 0,
+      "y": 2
+    },
+    "originalSize": {
+      "width": 210,
+      "height": 210
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [],
+      "indexes": [],
+      "uv": [],
+      "nuv": [],
+      "minPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "texture": "f570cf7c-52ee-48a2-9c37-1a031914316a@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

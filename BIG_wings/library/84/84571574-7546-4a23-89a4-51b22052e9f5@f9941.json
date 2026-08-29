@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_function_setting_hover",
+    "atlas": "",
+    "rect": {
+      "x": 16,
+      "y": 12,
+      "width": 119,
+      "height": 126
+    },
+    "offset": {
+      "x": 0.5,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 150,
+      "height": 150
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -59.5,
+        -63,
+        0,
+        59.5,
+        -63,
+        0,
+        -59.5,
+        63,
+        0,
+        59.5,
+        63,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        16,
+        138,
+        135,
+        138,
+        16,
+        12,
+        135,
+        12
+      ],
+      "nuv": [
+        0.10666666666666667,
+        0.08,
+        0.9,
+        0.08,
+        0.10666666666666667,
+        0.92,
+        0.9,
+        0.92
+      ],
+      "minPos": {
+        "x": -59.5,
+        "y": -63,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 59.5,
+        "y": 63,
+        "z": 0
+      }
+    },
+    "texture": "84571574-7546-4a23-89a4-51b22052e9f5@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

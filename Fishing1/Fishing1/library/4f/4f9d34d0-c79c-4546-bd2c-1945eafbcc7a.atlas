@@ -1,0 +1,125 @@
+
+icon_dragon.png
+size: 1983,427
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01_pic/icon2_bear
+  rotate: false
+  xy: 1546, 261
+  size: 314, 164
+  orig: 314, 164
+  offset: 0, 0
+  index: -1
+01_pic/icon2_bearL
+  rotate: true
+  xy: 851, 2
+  size: 91, 66
+  orig: 91, 66
+  offset: 0, 0
+  index: -1
+01_pic/icon2_bearR
+  rotate: false
+  xy: 540, 23
+  size: 309, 70
+  orig: 309, 70
+  offset: 0, 0
+  index: -1
+01_pic/icon2_body
+  rotate: false
+  xy: 540, 95
+  size: 445, 330
+  orig: 445, 330
+  offset: 0, 0
+  index: -1
+01_pic/icon2_coin1
+  rotate: true
+  xy: 1333, 13
+  size: 98, 103
+  orig: 98, 103
+  offset: 0, 0
+  index: -1
+01_pic/icon2_coin2
+  rotate: false
+  xy: 1333, 113
+  size: 113, 89
+  orig: 113, 89
+  offset: 0, 0
+  index: -1
+01_pic/icon2_eye
+  rotate: true
+  xy: 919, 21
+  size: 72, 36
+  orig: 72, 36
+  offset: 0, 0
+  index: -1
+01_pic/icon2_eye_light
+  rotate: false
+  xy: 1438, 26
+  size: 78, 78
+  orig: 78, 78
+  offset: 0, 0
+  index: -1
+01_pic/icon2_haed
+  rotate: false
+  xy: 2, 13
+  size: 536, 412
+  orig: 536, 412
+  offset: 0, 0
+  index: -1
+01_pic/icon2_ligjt1
+  rotate: false
+  xy: 987, 30
+  size: 188, 166
+  orig: 188, 166
+  offset: 0, 0
+  index: -1
+01_pic/icon2_ligjt2
+  rotate: true
+  xy: 1785, 51
+  size: 208, 196
+  orig: 208, 196
+  offset: 0, 0
+  index: -1
+01_pic/icon2_ligjt3
+  rotate: false
+  xy: 1270, 204
+  size: 274, 221
+  orig: 274, 221
+  offset: 0, 0
+  index: -1
+01_pic/icon2_ligjt4
+  rotate: true
+  xy: 1177, 19
+  size: 177, 154
+  orig: 177, 154
+  offset: 0, 0
+  index: -1
+01_pic/icon2_ligjt5
+  rotate: false
+  xy: 1546, 49
+  size: 237, 210
+  orig: 237, 210
+  offset: 0, 0
+  index: -1
+01_pic/icon2_ligjt6
+  rotate: false
+  xy: 1862, 289
+  size: 105, 136
+  orig: 105, 136
+  offset: 0, 0
+  index: -1
+01_pic/icon2_mouth
+  rotate: false
+  xy: 987, 198
+  size: 281, 227
+  orig: 281, 227
+  offset: 0, 0
+  index: -1
+01_pic/icon3_coin_light
+  rotate: false
+  xy: 1448, 106
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1

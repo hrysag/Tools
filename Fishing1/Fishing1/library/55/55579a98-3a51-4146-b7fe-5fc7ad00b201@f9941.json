@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "numLobby",
+    "atlas": "",
+    "rect": {
+      "x": 2,
+      "y": 0,
+      "width": 154,
+      "height": 180
+    },
+    "offset": {
+      "x": -1,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 160,
+      "height": 180
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -77,
+        -90,
+        0,
+        77,
+        -90,
+        0,
+        -77,
+        90,
+        0,
+        77,
+        90,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        2,
+        180,
+        156,
+        180,
+        2,
+        0,
+        156,
+        0
+      ],
+      "nuv": [
+        0.0125,
+        0,
+        0.975,
+        0,
+        0.0125,
+        1,
+        0.975,
+        1
+      ],
+      "minPos": {
+        "x": -77,
+        "y": -90,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 77,
+        "y": 90,
+        "z": 0
+      }
+    },
+    "texture": "55579a98-3a51-4146-b7fe-5fc7ad00b201@6c48a",
+    "packable": false,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

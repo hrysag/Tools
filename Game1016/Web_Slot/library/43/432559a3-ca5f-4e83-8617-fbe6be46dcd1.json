@@ -1,0 +1,209 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "loading_page1_front",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "uKoeun7AFFFvUwGeulYAgfW49Fg",
+      "spine": "3.8.99",
+      "x": -127.06,
+      "y": -78.25,
+      "width": 176.12,
+      "height": 276.64,
+      "images": "./images/",
+      "audio": "D:/H5專案/013_妖精寶藏/SPINE_/loading_page"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "Main",
+        "parent": "root"
+      },
+      {
+        "name": "ICON9",
+        "parent": "Main",
+        "x": -39.41,
+        "y": 60.07,
+        "scaleX": 0.52,
+        "scaleY": 0.52
+      }
+    ],
+    "slots": [
+      {
+        "name": "icon_09",
+        "bone": "ICON9",
+        "color": "ffffff00",
+        "attachment": "icon_09"
+      },
+      {
+        "name": "icon_9",
+        "bone": "ICON9",
+        "color": "ffffff00",
+        "attachment": "icon_09"
+      }
+    ],
+    "skins": [
+      {
+        "name": "default",
+        "attachments": {
+          "icon_09": {
+            "icon_09": {
+              "x": -78.56,
+              "y": 0.01,
+              "width": 180,
+              "height": 532
+            }
+          },
+          "icon_9": {
+            "icon_09": {
+              "x": 80.14,
+              "y": 0.01,
+              "width": 180,
+              "height": 532
+            }
+          }
+        }
+      }
+    ],
+    "animations": {
+      "L": {
+        "bones": {
+          "root": {
+            "translate": [
+              {
+                "curve": "stepped"
+              },
+              {
+                "time": 0.0667
+              }
+            ]
+          }
+        }
+      },
+      "P": {
+        "bones": {
+          "root": {
+            "translate": [
+              {
+                "y": 31,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.0667,
+                "y": 31
+              }
+            ]
+          }
+        }
+      },
+      "loop": {
+        "slots": {
+          "icon_09": {
+            "color": [
+              {
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.6624,
+                "color": "ffffff00",
+                "curve": 0.157,
+                "c2": 0.5,
+                "c3": 0.75
+              },
+              {
+                "time": 1.6667,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 3,
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "icon_9": {
+            "color": [
+              {
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.6624,
+                "color": "ffffff00",
+                "curve": 0.155,
+                "c2": 0.5,
+                "c3": 0.75
+              },
+              {
+                "time": 1.6667,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 3,
+                "color": "ffffffff"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "ICON9": {
+            "scale": [
+              {
+                "curve": "stepped"
+              },
+              {
+                "time": 1.6667,
+                "curve": 0.155,
+                "c2": 0.8,
+                "c3": 0.394
+              },
+              {
+                "time": 2,
+                "x": 1.25,
+                "y": 1.25,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 2.2667,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 2.3333,
+                "x": 0.981,
+                "y": 0.981,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 2.4333,
+                "curve": "stepped"
+              },
+              {
+                "time": 3
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "textures": [
+    {
+      "__uuid__": "9469b9f2-f4a5-4700-8660-6b48b8be8edf@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "loading_page1_front.webp"
+  ],
+  "scale": 1,
+  "_atlasText": "\r\nloading_page1_front.webp\r\nsize: 184,536\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nicon_09\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 180, 532\r\n  orig: 180, 532\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

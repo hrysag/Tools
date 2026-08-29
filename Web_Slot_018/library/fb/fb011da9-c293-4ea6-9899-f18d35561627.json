@@ -1,0 +1,208 @@
+{
+  "__type__": "cc.BitmapFont",
+  "_name": "fnt_BuyFG",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "fntDataStr": "",
+  "spriteFrame": {
+    "__uuid__": "8216d4b5-c3d3-4521-a087-0834db4346b0@f9941",
+    "__expectedType__": "cc.SpriteFrame"
+  },
+  "fontSize": 72,
+  "fntConfig": {
+    "commonHeight": 72,
+    "fontSize": 72,
+    "atlasName": "fnt_BuyFG.png",
+    "fontDefDictionary": {
+      "32": {
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "xOffset": 0,
+        "yOffset": 0,
+        "xAdvance": 21
+      },
+      "44": {
+        "rect": {
+          "x": 253,
+          "y": 58,
+          "width": 24,
+          "height": 28
+        },
+        "xOffset": 0,
+        "yOffset": 44,
+        "xAdvance": 24
+      },
+      "46": {
+        "rect": {
+          "x": 253,
+          "y": 87,
+          "width": 23,
+          "height": 23
+        },
+        "xOffset": 1,
+        "yOffset": 44,
+        "xAdvance": 24
+      },
+      "48": {
+        "rect": {
+          "x": 40,
+          "y": 0,
+          "width": 39,
+          "height": 56
+        },
+        "xOffset": 3,
+        "yOffset": 10,
+        "xAdvance": 44
+      },
+      "49": {
+        "rect": {
+          "x": 80,
+          "y": 0,
+          "width": 25,
+          "height": 56
+        },
+        "xOffset": 6,
+        "yOffset": 10,
+        "xAdvance": 36
+      },
+      "50": {
+        "rect": {
+          "x": 96,
+          "y": 58,
+          "width": 39,
+          "height": 55
+        },
+        "xOffset": 3,
+        "yOffset": 11,
+        "xAdvance": 44
+      },
+      "51": {
+        "rect": {
+          "x": 136,
+          "y": 58,
+          "width": 37,
+          "height": 55
+        },
+        "xOffset": 4,
+        "yOffset": 11,
+        "xAdvance": 44
+      },
+      "52": {
+        "rect": {
+          "x": 174,
+          "y": 58,
+          "width": 40,
+          "height": 55
+        },
+        "xOffset": 2,
+        "yOffset": 11,
+        "xAdvance": 44
+      },
+      "53": {
+        "rect": {
+          "x": 215,
+          "y": 58,
+          "width": 37,
+          "height": 55
+        },
+        "xOffset": 4,
+        "yOffset": 11,
+        "xAdvance": 44
+      },
+      "54": {
+        "rect": {
+          "x": 106,
+          "y": 0,
+          "width": 38,
+          "height": 56
+        },
+        "xOffset": 3,
+        "yOffset": 11,
+        "xAdvance": 44
+      },
+      "55": {
+        "rect": {
+          "x": 145,
+          "y": 0,
+          "width": 36,
+          "height": 56
+        },
+        "xOffset": 4,
+        "yOffset": 11,
+        "xAdvance": 44
+      },
+      "56": {
+        "rect": {
+          "x": 182,
+          "y": 0,
+          "width": 39,
+          "height": 56
+        },
+        "xOffset": 3,
+        "yOffset": 11,
+        "xAdvance": 44
+      },
+      "57": {
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 39,
+          "height": 57
+        },
+        "xOffset": 3,
+        "yOffset": 10,
+        "xAdvance": 44
+      },
+      "66": {
+        "rect": {
+          "x": 222,
+          "y": 0,
+          "width": 41,
+          "height": 56
+        },
+        "xOffset": 8,
+        "yOffset": 8,
+        "xAdvance": 56
+      },
+      "75": {
+        "rect": {
+          "x": 264,
+          "y": 0,
+          "width": 42,
+          "height": 56
+        },
+        "xOffset": 7,
+        "yOffset": 8,
+        "xAdvance": 56
+      },
+      "77": {
+        "rect": {
+          "x": 0,
+          "y": 58,
+          "width": 52,
+          "height": 56
+        },
+        "xOffset": 2,
+        "yOffset": 8,
+        "xAdvance": 56
+      },
+      "88": {
+        "rect": {
+          "x": 53,
+          "y": 58,
+          "width": 42,
+          "height": 56
+        },
+        "xOffset": 7,
+        "yOffset": 8,
+        "xAdvance": 56
+      }
+    },
+    "kerningDict": {}
+  }
+}

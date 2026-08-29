@@ -1,0 +1,71 @@
+/* 容器佈局 - 使用 flexbox 實現自適應 */
+.panel-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0; /* 重要:允許 flex 子元素縮小 */
+  overflow: hidden;
+}
+
+/* Header 固定在頂部 */
+.header {
+  flex-shrink: 0; /* 不允許縮小 */
+  font-weight: bold;
+  padding-right: 25px; /* 8px padding + 17px scrollbar width compensation */
+}
+
+/* 可捲動的內容區域 */
+#panel-body {
+  flex: 1;
+  overflow-y: scroll; /* Force scrollbar to prevent layout shift */
+  overflow-x: hidden;
+  min-height: 0; /* 重要:允許內容區域正確捲動 */
+}
+
+/* Footer 固定在底部 */
+.panel-footer {
+  flex-shrink: 0;
+  padding: 12px;
+  text-align: right;
+}
+
+/* Row 佈局 */
+.row {
+  display: grid;
+  grid-template-columns: 1fr 90px 80px 140px;
+  align-items: center;
+  padding: 6px 8px;
+}
+
+/* Center content in columns except the first one (Label) */
+.row > div:not(:first-child) {
+  display: flex;
+  justify-content: center;
+}
+
+.child {
+  padding-left: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* 當前父元素指示器 */
+.current-parent {
+  color: #666;
+  font-size: 0.9em;
+  font-weight: normal;
+}
+
+.current-parent:not(:empty)::before {
+  content: "當前: ";
+}

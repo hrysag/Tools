@@ -1,0 +1,216 @@
+
+ConnectBox.webp
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+02_fx_connectbox/ConnectBox_00000
+  rotate: false
+  xy: 2, 1696
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+02_fx_connectbox/ConnectBox_00001
+  rotate: false
+  xy: 244, 1696
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+02_fx_connectbox/ConnectBox_00002
+  rotate: false
+  xy: 486, 1696
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+02_fx_connectbox/ConnectBox_00003
+  rotate: false
+  xy: 728, 1696
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+02_fx_connectbox/ConnectBox_00004
+  rotate: false
+  xy: 970, 1696
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+02_fx_connectbox/ConnectBox_00005
+  rotate: false
+  xy: 1212, 1696
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+02_fx_connectbox/ConnectBox_00006
+  rotate: false
+  xy: 1454, 1696
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+02_fx_connectbox/ConnectBox_00007
+  rotate: false
+  xy: 1696, 1696
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+02_fx_connectbox/ConnectBox_00008
+  rotate: false
+  xy: 2, 1454
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+02_fx_connectbox/ConnectBox_00009
+  rotate: false
+  xy: 244, 1454
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+02_fx_connectbox/ConnectBox_00010
+  rotate: false
+  xy: 486, 1454
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+02_fx_connectbox/ConnectBox_00011
+  rotate: false
+  xy: 728, 1454
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+02_fx_connectbox/ConnectBox_00012
+  rotate: false
+  xy: 970, 1454
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+02_fx_connectbox/ConnectBox_00013
+  rotate: false
+  xy: 1212, 1454
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+02_fx_connectbox/ConnectBox_00014
+  rotate: false
+  xy: 1454, 1454
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+02_fx_connectbox/ConnectBox_00015
+  rotate: false
+  xy: 1696, 1454
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+02_fx_connectbox/ConnectBox_00016
+  rotate: false
+  xy: 2, 1212
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+02_fx_connectbox/ConnectBox_00017
+  rotate: false
+  xy: 244, 1212
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+02_fx_connectbox/ConnectBox_00018
+  rotate: false
+  xy: 486, 1212
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+02_fx_connectbox/ConnectBox_00019
+  rotate: false
+  xy: 728, 1212
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+02_fx_connectbox/ConnectBox_00020
+  rotate: false
+  xy: 970, 1212
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+02_fx_connectbox/ConnectBox_00021
+  rotate: false
+  xy: 1212, 1212
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+02_fx_connectbox/ConnectBox_00022
+  rotate: false
+  xy: 1454, 1212
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+02_fx_connectbox/ConnectBox_00023
+  rotate: false
+  xy: 1696, 1212
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+02_fx_connectbox/ConnectBox_00024
+  rotate: false
+  xy: 2, 970
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+02_fx_connectbox/ConnectBox_00025
+  rotate: false
+  xy: 244, 970
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+02_fx_connectbox/ConnectBox_00026
+  rotate: false
+  xy: 486, 970
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+02_fx_connectbox/ConnectBox_00027
+  rotate: false
+  xy: 728, 970
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+02_fx_connectbox/ConnectBox_00028
+  rotate: false
+  xy: 970, 970
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+02_fx_connectbox/ConnectBox_00029
+  rotate: false
+  xy: 1212, 970
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1

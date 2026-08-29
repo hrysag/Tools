@@ -1,0 +1,150 @@
+System.register(["__unresolved_0", "cc", "__unresolved_1"], function (_export, _context) {
+  "use strict";
+
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, JsonAsset, Debug, _dec, _dec2, _dec3, _dec4, _class, _class2, _crd, ccclass, property, JsonSerialization;
+
+  function _applyDecoratedDescriptor(target, property, decorators, descriptor, context) { var desc = {}; Object.keys(descriptor).forEach(function (key) { desc[key] = descriptor[key]; }); desc.enumerable = !!desc.enumerable; desc.configurable = !!desc.configurable; if ('value' in desc || desc.initializer) { desc.writable = true; } desc = decorators.slice().reverse().reduce(function (desc, decorator) { return decorator(target, property, desc) || desc; }, desc); if (context && desc.initializer !== void 0) { desc.value = desc.initializer ? desc.initializer.call(context) : void 0; desc.initializer = undefined; } if (desc.initializer === void 0) { Object.defineProperty(target, property, desc); desc = null; } return desc; }
+
+  function _reportPossibleCrUseOfDebug(extras) {
+    _reporterNs.report("Debug", "../../Utils/Debug", _context.meta, extras);
+  }
+
+  return {
+    setters: [function (_unresolved_) {
+      _reporterNs = _unresolved_;
+    }, function (_cc) {
+      _cclegacy = _cc.cclegacy;
+      __checkObsolete__ = _cc.__checkObsolete__;
+      __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
+      _decorator = _cc._decorator;
+      Component = _cc.Component;
+      JsonAsset = _cc.JsonAsset;
+    }, function (_unresolved_2) {
+      Debug = _unresolved_2.Debug;
+    }],
+    execute: function () {
+      _crd = true;
+
+      _cclegacy._RF.push({}, "6535elGv9tNMrj4Udgcr/cg", "JsonSerialization", undefined);
+
+      __checkObsolete__(['_decorator', 'Component', 'JsonAsset', 'Node']);
+
+      ({
+        ccclass,
+        property
+      } = _decorator);
+
+      _export("JsonSerialization", JsonSerialization = (_dec = ccclass('JsonSerialization'), _dec2 = property({
+        displayName: '匯出Json'
+      }), _dec3 = property({
+        displayName: '更新面板'
+      }), _dec4 = property({
+        type: JsonAsset,
+        displayName: 'Json資料'
+      }), _dec(_class = (_class2 = class JsonSerialization extends Component {
+        constructor(...args) {
+          super(...args);
+          this._jsonData = void 0;
+          this.exporting = false;
+        }
+
+        set exportJson(value) {
+          if (value && !this.exporting && this.jsonExtensionEnable()) {
+            this.startExportJson();
+          }
+        }
+
+        get exportJson() {
+          return false;
+        }
+
+        set importJson(value) {
+          if (value && this._jsonData) {
+            JsonSerialization.setJsonData(this._jsonData.json, this);
+          }
+        }
+
+        get importJson() {
+          return false;
+        }
+
+        set jsonData(v) {
+          this._jsonData = v;
+        }
+
+        get jsonData() {
+          return this._jsonData;
+        }
+
+        /**
+         * 根據Json資料更新物件
+         * @param data json資料
+         * @param obj 物件
+         */
+        static setJsonData(data, obj) {
+          for (const key in data) {
+            const value = data[key];
+
+            if (typeof value === 'object') {
+              if (value['isRealCurve']) {
+                obj[key].postExtrapolation = value.value.postExtrap;
+                obj[key].preExtrapolation = value.value.preExtrap;
+                obj[key].clear();
+                value.value.keyFrames.forEach(item => {
+                  let keyFrameValue = {};
+                  keyFrameValue.value = item.value;
+                  keyFrameValue.rightTangent = item.outTangent;
+                  keyFrameValue.rightTangentWeight = item.outTangentWeight;
+                  keyFrameValue.leftTangent = item.inTangent;
+                  keyFrameValue.leftTangentWeight = item.inTangentWeight;
+                  keyFrameValue.interpolationMode = item.interpMode;
+                  keyFrameValue.tangentWeightMode = item.tangentWeightMode;
+                  obj[key].addKeyFrame(item.time, keyFrameValue);
+                });
+              } else {
+                this.setJsonData(value, obj[key]);
+              }
+            } else {
+              obj[key] = value;
+            }
+          }
+        }
+
+        async startExportJson() {
+          const match = this.name.match(/<([^>]+)>/);
+          const componentName = match[1];
+          this.exporting = true;
+          await Editor.Message.request('component_json_tools', 'exportJsonForComponent', this.node.uuid, componentName, componentName);
+          this.exporting = false;
+        }
+
+        async jsonExtensionEnable() {
+          let packages = await Editor.Package.getPackages({
+            name: 'component_json_tools'
+          });
+
+          if (packages.length > 0) {
+            if (!packages[0].enable) {
+              (_crd && Debug === void 0 ? (_reportPossibleCrUseOfDebug({
+                error: Error()
+              }), Debug) : Debug).LogWarning('component_json_tools 拓展未啟用');
+            }
+
+            return packages[0].enable;
+          } else {
+            (_crd && Debug === void 0 ? (_reportPossibleCrUseOfDebug({
+              error: Error()
+            }), Debug) : Debug).LogError('找不到 component_json_tools 拓展');
+            return false;
+          }
+        }
+
+      }, (_applyDecoratedDescriptor(_class2.prototype, "exportJson", [_dec2], Object.getOwnPropertyDescriptor(_class2.prototype, "exportJson"), _class2.prototype), _applyDecoratedDescriptor(_class2.prototype, "importJson", [_dec3], Object.getOwnPropertyDescriptor(_class2.prototype, "importJson"), _class2.prototype), _applyDecoratedDescriptor(_class2.prototype, "jsonData", [_dec4], Object.getOwnPropertyDescriptor(_class2.prototype, "jsonData"), _class2.prototype)), _class2)) || _class));
+
+      _cclegacy._RF.pop();
+
+      _crd = false;
+    }
+  };
+});
+//# sourceMappingURL=2f7abef2256b1bf94b9dae6624209c8b3fc7d7b9.js.map

@@ -1,0 +1,52 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tx_AutoShot",
+    "atlas": "655eab38-7b64-4338-aef4-58cebaf979a6",
+    "rect": {
+      "x": 635,
+      "y": 513,
+      "width": 212,
+      "height": 62
+    },
+    "offset": {
+      "x": -2,
+      "y": -3
+    },
+    "originalSize": {
+      "width": 244,
+      "height": 68
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [],
+      "indexes": [],
+      "uv": [],
+      "nuv": [],
+      "minPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "texture": "2039f097-2ed3-4d34-94df-4418ee71ba95@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

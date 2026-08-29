@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_bfg_hover.png",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 482,
+      "height": 197
+    },
+    "offset": {
+      "x": 0,
+      "y": 0.5
+    },
+    "originalSize": {
+      "width": 482,
+      "height": 198
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -241,
+        -98.5,
+        0,
+        241,
+        -98.5,
+        0,
+        -241,
+        98.5,
+        0,
+        241,
+        98.5,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        198,
+        482,
+        198,
+        0,
+        1,
+        482,
+        1
+      ],
+      "nuv": [
+        0,
+        0.005050505050505051,
+        1,
+        0.005050505050505051,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -241,
+        "y": -98.5,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 241,
+        "y": 98.5,
+        "z": 0
+      }
+    },
+    "texture": "b8f7695e-1994-4867-b71a-d917fb1fb03d@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

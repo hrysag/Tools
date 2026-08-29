@@ -1,0 +1,86 @@
+{
+  "name": "Web_Slot",
+  "server": "",
+  "platform": "web-mobile",
+  "buildPath": "project://build",
+  "debug": false,
+  "md5Cache": true,
+  "skipCompressTexture": false,
+  "sourceMaps": true,
+  "overwriteProjectSettings": {
+    "includeModules": {
+      "gfx-webgl2": "on",
+      "physics": "inherit-project-setting",
+      "physics-2d": "inherit-project-setting"
+    },
+    "macroConfig": {
+      "cleanupImageCache": "on"
+    }
+  },
+  "nativeCodeBundleMode": "both",
+  "polyfills": {
+    "asyncFunctions": true
+  },
+  "experimentalEraseModules": false,
+  "startSceneAssetBundle": false,
+  "bundleConfigs": [],
+  "useBuiltinServer": false,
+  "mainBundleIsRemote": false,
+  "mainBundleCompressionType": "merge_dep",
+  "useSplashScreen": false,
+  "bundleCommonChunk": false,
+  "packAutoAtlas": true,
+  "startScene": "ae12032c-421e-4238-bed3-89fbb712d50b",
+  "outputName": "game1016",
+  "taskName": "web-mobile",
+  "scenes": [
+    {
+      "url": "db://assets/Game1016/Scene/Game1016.scene",
+      "uuid": "efa8d294-06d1-4d0a-ba5b-282d8576c49e"
+    },
+    {
+      "url": "db://assets/Game1016/Scene/Game1016_Start.scene",
+      "uuid": "ae12032c-421e-4238-bed3-89fbb712d50b"
+    }
+  ],
+  "wasmCompressionMode": false,
+  "packages": {
+    "adsense-h5g-plugin": {
+      "enableAdsense": false,
+      "enableTestAd": false,
+      "__version__": "1.0.1",
+      "AFPHostPropertyCode": "ca-host-pub-5396158963872751",
+      "AFPHostDomain": "douyougame.com",
+      "otherAFPHostPropertyCode": "",
+      "otherAFPDomain": ""
+    },
+    "web-mobile": {
+      "orientation": "auto",
+      "embedWebDebugger": false,
+      "__version__": "1.0.1"
+    },
+    "cocos-service": {
+      "configID": "3ab0e6",
+      "services": [],
+      "__version__": "3.0.7"
+    },
+    "build-plugin-template": {
+      "objectTest": {
+        "number": 80,
+        "string": "cocos",
+        "boolean": true
+      },
+      "arrayTest": [
+        80,
+        "cocos",
+        true
+      ],
+      "remoteAddress": "https://www.cocos.com/",
+      "enterCocos": "",
+      "selectTest": "option2"
+    }
+  },
+  "__version__": "1.3.8",
+  "buildMode": "normal",
+  "logDest": "project://temp/builder/log/web-mobile2025-9-9 18-19.log"
+}

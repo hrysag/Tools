@@ -1,0 +1,96 @@
+{
+  "version": "1.0.0",
+  "map": {
+    "D:\\cocosProject\\Game1016\\Web_Slot\\plugin\\custom-extension-manager": {
+      "time": 1773805284767.223,
+      "uuid": "09c90961-3d7c-4bb0-b08d-3cfd2da36b9b"
+    },
+    "D:\\cocosProject\\Game1016\\Web_Slot\\plugin\\custom-extension-manager.meta": {
+      "time": 1766110477287.0337
+    },
+    "D:\\cocosProject\\Game1016\\Web_Slot\\plugin\\custom-extension-manager\\build-plugin-template (啟用).meta": {
+      "time": 1773805284938.3755
+    },
+    "D:\\cocosProject\\Game1016\\Web_Slot\\plugin\\custom-extension-manager\\package-analyzer (啟用).meta": {
+      "time": 1773805284940.3694
+    },
+    "D:\\cocosProject\\Game1016\\Web_Slot\\plugin\\custom-extension-manager\\component-json-tools (啟用).meta": {
+      "time": 1773805284939.3735
+    },
+    "D:\\cocosProject\\Game1016\\Web_Slot\\plugin\\custom-extension-manager\\art-tool (啟用).meta": {
+      "time": 1773805284935.3835
+    },
+    "D:\\cocosProject\\Game1016\\Web_Slot\\plugin\\custom-extension-manager\\check-pos-z (啟用).meta": {
+      "time": 1773805284936.3865
+    },
+    "D:\\wanin\\完成\\Game1016\\Web_Slot\\plugin\\custom-extension-manager": {
+      "time": 1776883044061.833,
+      "uuid": "09c90961-3d7c-4bb0-b08d-3cfd2da36b9b"
+    },
+    "D:\\wanin\\完成\\Game1016\\Web_Slot\\plugin\\custom-extension-manager\\art-tool (啟用)": {
+      "time": 1776883035916.5833,
+      "uuid": "45e97b95-f472-4a66-99cf-1b53a0f98348"
+    },
+    "D:\\wanin\\完成\\Game1016\\Web_Slot\\plugin\\custom-extension-manager\\build-plugin-template (啟用)": {
+      "time": 1776883035917.5828,
+      "uuid": "9ddd0a45-a36f-442f-a308-41fa8e2ed063"
+    },
+    "D:\\wanin\\完成\\Game1016\\Web_Slot\\plugin\\custom-extension-manager\\check-pos-z (啟用)": {
+      "time": 1776883035917.5828,
+      "uuid": "5c6e9e21-35d1-4736-9048-eeb66165c4a9"
+    },
+    "D:\\wanin\\完成\\Game1016\\Web_Slot\\plugin\\custom-extension-manager\\component-json-tools (啟用)": {
+      "time": 1776883035917.5828,
+      "uuid": "5c7d1d6e-af34-4d28-b3e5-e20a4545faff"
+    },
+    "D:\\wanin\\完成\\Game1016\\Web_Slot\\plugin\\custom-extension-manager\\package-analyzer (啟用)": {
+      "time": 1776883035917.5828,
+      "uuid": "64cef9b3-b3cf-44ba-8b90-4c6633c3f2af"
+    },
+    "D:\\wanin\\完成\\Game1016\\Web_Slot\\plugin\\custom-extension-manager.meta": {
+      "time": 1766110477287.0337
+    },
+    "D:\\wanin\\完成\\Game1016\\Web_Slot\\plugin\\custom-extension-manager\\art-tool (啟用).meta": {
+      "time": 1776883044082.2532
+    },
+    "D:\\wanin\\完成\\Game1016\\Web_Slot\\plugin\\custom-extension-manager\\check-pos-z (啟用).meta": {
+      "time": 1776883044082.2532
+    },
+    "D:\\wanin\\完成\\Game1016\\Web_Slot\\plugin\\custom-extension-manager\\build-plugin-template (啟用).meta": {
+      "time": 1776883044081.249
+    },
+    "D:\\wanin\\完成\\Game1016\\Web_Slot\\plugin\\custom-extension-manager\\package-analyzer (啟用).meta": {
+      "time": 1776883044083.2544
+    },
+    "D:\\wanin\\完成\\Game1016\\Web_Slot\\plugin\\custom-extension-manager\\component-json-tools (啟用).meta": {
+      "time": 1776883044083.2544
+    }
+  },
+  "missing": {
+    "d77ab29c-aa39-4838-8527-9e8e6e284d75": {
+      "path": "D:\\cocosProject\\Game1016\\Web_Slot\\plugin\\custom-extension-manager\\art-tool (啟用)",
+      "time": 1773805279769.6143,
+      "removeTime": 1776500021763
+    },
+    "c971cee8-b509-4877-a87d-9e60b0e385a0": {
+      "path": "D:\\cocosProject\\Game1016\\Web_Slot\\plugin\\custom-extension-manager\\build-plugin-template (啟用)",
+      "time": 1773805279769.6143,
+      "removeTime": 1776500021764
+    },
+    "682232a9-0d76-4f59-bf6b-e7d03c72e9fc": {
+      "path": "D:\\cocosProject\\Game1016\\Web_Slot\\plugin\\custom-extension-manager\\check-pos-z (啟用)",
+      "time": 1773805279770.6147,
+      "removeTime": 1776500021764
+    },
+    "3842cbb8-d06a-4325-a271-d606b2e4f17b": {
+      "path": "D:\\cocosProject\\Game1016\\Web_Slot\\plugin\\custom-extension-manager\\component-json-tools (啟用)",
+      "time": 1773805279770.6147,
+      "removeTime": 1776500021765
+    },
+    "a8eca718-f864-48cb-82c7-c161af270ebb": {
+      "path": "D:\\cocosProject\\Game1016\\Web_Slot\\plugin\\custom-extension-manager\\package-analyzer (啟用)",
+      "time": 1773805279770.6147,
+      "removeTime": 1776500021765
+    }
+  }
+}

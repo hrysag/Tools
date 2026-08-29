@@ -1,0 +1,52 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_switch_on",
+    "atlas": "532ffa44-67c6-44b0-a213-da16455977e8",
+    "rect": {
+      "x": 1975,
+      "y": 456,
+      "width": 144,
+      "height": 68
+    },
+    "offset": {
+      "x": 1,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 146,
+      "height": 68
+    },
+    "rotated": true,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [],
+      "indexes": [],
+      "uv": [],
+      "nuv": [],
+      "minPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "texture": "492913c5-9769-4c97-b974-b360ebbba052@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

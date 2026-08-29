@@ -1,0 +1,1 @@
+{"importBase":"import","nativeBase":"native","name":"WaninPlayerEffect","deps":[],"uuids":["fb4YQyqj5GKbGDrtEwCJRo"],"paths":{"0":["playerEffect",0,1]},"scenes":{},"packs":{},"versions":{"import":[0,"d9ada"],"native":[]},"redirect":[],"debug":false,"extensionMap":{},"hasPreloadScript":true,"dependencyRelationships":{},"types":["cc.EffectAsset"]}

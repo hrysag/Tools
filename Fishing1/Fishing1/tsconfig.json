@@ -1,0 +1,12 @@
+{
+  /* Base configuration. Do not edit this field. */
+  "extends": "./temp/tsconfig.cocos.json",
+
+  /* Add your custom configuration here. */
+  "compilerOptions": {
+    "strict": false,
+    //-https://stackoverflow.com/questions/56577201/why-is-isolatedmodules-error-fixed-by-any-import
+    "isolatedModules": false,
+    "maxNodeModuleJsDepth": 1
+  }
+}

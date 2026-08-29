@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tx_start_cn_disable.png",
+    "atlas": "",
+    "rect": {
+      "x": 42,
+      "y": 25,
+      "width": 215,
+      "height": 50
+    },
+    "offset": {
+      "x": -0.5,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 300,
+      "height": 100
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -107.5,
+        -25,
+        0,
+        107.5,
+        -25,
+        0,
+        -107.5,
+        25,
+        0,
+        107.5,
+        25,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        42,
+        75,
+        257,
+        75,
+        42,
+        25,
+        257,
+        25
+      ],
+      "nuv": [
+        0.14,
+        0.25,
+        0.8566666666666667,
+        0.25,
+        0.14,
+        0.75,
+        0.8566666666666667,
+        0.75
+      ],
+      "minPos": {
+        "x": -107.5,
+        "y": -25,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 107.5,
+        "y": 25,
+        "z": 0
+      }
+    },
+    "texture": "a179edeb-f55e-421b-809f-624b671f0052@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

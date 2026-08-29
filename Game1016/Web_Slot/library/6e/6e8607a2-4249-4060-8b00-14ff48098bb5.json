@@ -1,0 +1,8 @@
+{
+  "__type__": "cc.TextAsset",
+  "_name": "icon_05.atlas",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "text": "\r\nicon_05.webp\r\nsize: 512,256\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\n01_Spades\r\n  rotate: false\r\n  xy: 276, 2\r\n  size: 89, 84\r\n  orig: 89, 84\r\n  offset: 0, 0\r\n  index: -1\r\n01_Spades_BK_Glow_00\r\n  rotate: false\r\n  xy: 154, 62\r\n  size: 120, 113\r\n  orig: 120, 113\r\n  offset: 0, 0\r\n  index: -1\r\n01_Spades_sd\r\n  rotate: false\r\n  xy: 276, 88\r\n  size: 92, 87\r\n  orig: 92, 87\r\n  offset: 0, 0\r\n  index: -1\r\nStar_Fx\r\n  rotate: false\r\n  xy: 2, 25\r\n  size: 150, 150\r\n  orig: 150, 150\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

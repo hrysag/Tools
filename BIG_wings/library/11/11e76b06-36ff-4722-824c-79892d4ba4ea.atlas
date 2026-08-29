@@ -1,0 +1,27 @@
+
+ani_sym_06.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+flow_light_line
+  rotate: false
+  xy: 2, 2
+  size: 58, 14
+  orig: 58, 14
+  offset: 0, 0
+  index: -1
+flow_light_o
+  rotate: false
+  xy: 246, 198
+  size: 44, 48
+  orig: 44, 48
+  offset: 0, 0
+  index: -1
+sym_7
+  rotate: false
+  xy: 2, 18
+  size: 242, 228
+  orig: 242, 228
+  offset: 0, 0
+  index: -1

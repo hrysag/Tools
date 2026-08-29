@@ -1,0 +1,110 @@
+
+transition.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+02_pic/v_cloud_a1
+  rotate: false
+  xy: 738, 514
+  size: 214, 170
+  orig: 214, 170
+  offset: 0, 0
+  index: -1
+02_pic/v_cloud_a2
+  rotate: false
+  xy: 519, 2
+  size: 290, 220
+  orig: 290, 220
+  offset: 0, 0
+  index: -1
+02_pic/v_cloud_a3
+  rotate: true
+  xy: 738, 686
+  size: 322, 262
+  orig: 322, 262
+  offset: 0, 0
+  index: -1
+02_pic/v_cloud_center_ft1
+  rotate: false
+  xy: 2, 224
+  size: 702, 154
+  orig: 702, 154
+  offset: 0, 0
+  index: -1
+02_pic/v_cloud_center_ft2
+  rotate: false
+  xy: 2, 380
+  size: 708, 236
+  orig: 708, 236
+  offset: 0, 0
+  index: -1
+02_pic/v_scroll_paper
+  rotate: false
+  xy: 2, 618
+  size: 734, 390
+  orig: 734, 390
+  offset: 0, 0
+  index: -1
+02_pic/v_scroll_rope_l
+  rotate: true
+  xy: 712, 362
+  size: 150, 182
+  orig: 150, 182
+  offset: 0, 0
+  index: -1
+02_pic/v_scroll_rope_r
+  rotate: false
+  xy: 811, 21
+  size: 182, 339
+  orig: 182, 339
+  offset: 0, 0
+  index: -1
+02_pic/v_scroll_side_l
+  rotate: true
+  xy: 2, 113
+  size: 109, 515
+  orig: 109, 515
+  offset: 0, 0
+  index: -1
+02_pic/v_scroll_side_r
+  rotate: true
+  xy: 2, 2
+  size: 109, 515
+  orig: 109, 515
+  offset: 0, 0
+  index: -1
+02_pic/v_star01
+  rotate: false
+  xy: 706, 287
+  size: 75, 73
+  orig: 75, 73
+  offset: 0, 0
+  index: -1
+02_pic/v_star02
+  rotate: false
+  xy: 954, 642
+  size: 45, 42
+  orig: 45, 42
+  offset: 0, 0
+  index: -1
+02_pic/v_star03
+  rotate: false
+  xy: 896, 459
+  size: 54, 53
+  orig: 54, 53
+  offset: 0, 0
+  index: -1
+
+transition_fx.jpg
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01_fx/fx_2x_light
+  rotate: false
+  xy: 2, 2
+  size: 564, 561
+  orig: 564, 561
+  offset: 0, 0
+  index: -1

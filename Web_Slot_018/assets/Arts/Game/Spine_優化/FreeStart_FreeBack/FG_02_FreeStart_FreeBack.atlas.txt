@@ -1,0 +1,223 @@
+
+FG_02_FreeStart_FreeBack.webp
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01_pic/FG02_botmoney_l
+  rotate: false
+  xy: 1552, 549
+  size: 220, 67
+  orig: 220, 67
+  offset: 0, 0
+  index: -1
+01_pic/FG02_botmoney_l_shadow
+  rotate: false
+  xy: 717, 368
+  size: 81, 39
+  orig: 81, 39
+  offset: 0, 0
+  index: -1
+01_pic/FG02_middle_gem
+  rotate: false
+  xy: 800, 365
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+01_pic/FG02_potplant_bot
+  rotate: false
+  xy: 1359, 327
+  size: 118, 80
+  orig: 118, 80
+  offset: 0, 0
+  index: -1
+01_pic/FG02_potplant_leaf_b
+  rotate: false
+  xy: 1552, 420
+  size: 183, 127
+  orig: 183, 127
+  offset: 0, 0
+  index: -1
+01_pic/FG02_potplant_leaf_f
+  rotate: false
+  xy: 1737, 444
+  size: 129, 103
+  orig: 129, 103
+  offset: 0, 0
+  index: -1
+01_pic/FG02_royal_bot_bridge
+  rotate: false
+  xy: 717, 409
+  size: 833, 207
+  orig: 833, 207
+  offset: 0, 0
+  index: -1
+01_pic/FG02_royal_bot_flat
+  rotate: false
+  xy: 2, 170
+  size: 713, 446
+  orig: 713, 446
+  offset: 0, 0
+  index: -1
+01_pic/FG02_royal_bot_pillar_l
+  rotate: false
+  xy: 1902, 226
+  size: 125, 390
+  orig: 125, 390
+  offset: 0, 0
+  index: -1
+01_pic/FG02_royal_bot_stairs
+  rotate: false
+  xy: 2, 80
+  size: 691, 88
+  orig: 691, 88
+  offset: 0, 0
+  index: -1
+01_pic/black
+  rotate: false
+  xy: 1847, 554
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+01_pic/coins_00000
+  rotate: false
+  xy: 1847, 566
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+01_pic/coins_00001
+  rotate: false
+  xy: 1359, 275
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+01_pic/coins_00002
+  rotate: false
+  xy: 1411, 275
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+01_pic/coins_00003
+  rotate: false
+  xy: 1423, 174
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+01_pic/coins_00004
+  rotate: false
+  xy: 1463, 275
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+01_pic/coins_00005
+  rotate: false
+  xy: 1479, 357
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+01_pic/coins_00006
+  rotate: false
+  xy: 1423, 122
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+01_pic/coins_00007
+  rotate: false
+  xy: 1423, 70
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+01_pic/coins_00008
+  rotate: false
+  xy: 1359, 52
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+01_pic/coins_00009
+  rotate: false
+  xy: 1475, 174
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+01_pic/coins_00010
+  rotate: false
+  xy: 1515, 305
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+01_pic/coins_00011
+  rotate: false
+  xy: 1515, 253
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+01_pic/fx_smoke_b
+  rotate: false
+  xy: 1774, 559
+  size: 71, 57
+  orig: 71, 57
+  offset: 0, 0
+  index: -1
+01_pic/num_totalwin_bot
+  rotate: false
+  xy: 1552, 364
+  size: 176, 54
+  orig: 176, 54
+  offset: 0, 0
+  index: -1
+01_pic/supersed
+  rotate: false
+  xy: 1859, 554
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+02_fx/FX_FG02_royal_bot_pillar_l_Add
+  rotate: false
+  xy: 1359, 104
+  size: 62, 142
+  orig: 62, 142
+  offset: 0, 0
+  index: -1
+02_fx/FreeStart_partical_fg02
+  rotate: false
+  xy: 717, 2
+  size: 640, 360
+  orig: 640, 360
+  offset: 0, 0
+  index: -1
+02_fx/blur_circle
+  rotate: false
+  xy: 844, 371
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1
+02_fx/fx_cross
+  rotate: false
+  xy: 1730, 248
+  size: 170, 170
+  orig: 170, 170
+  offset: 0, 0
+  index: -1
+02_fx/high_flash
+  rotate: false
+  xy: 1423, 227
+  size: 44, 46
+  orig: 44, 46
+  offset: 0, 0
+  index: -1

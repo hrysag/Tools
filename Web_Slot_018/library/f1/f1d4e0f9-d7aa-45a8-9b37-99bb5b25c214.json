@@ -1,0 +1,8 @@
+{
+  "__type__": "cc.TextAsset",
+  "_name": "FG_Bkg_front.atlas",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "text": "\r\nFG_Bkg_front.webp\r\nsize: 2048,512\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nbutterfly\r\n  rotate: false\r\n  xy: 1387, 76\r\n  size: 69, 128\r\n  orig: 128, 128\r\n  offset: 59, 0\r\n  index: -1\r\nfg2_v_bgbottom2\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 722, 295\r\n  orig: 722, 295\r\n  offset: 0, 0\r\n  index: -1\r\nfg2_vh_plant1\r\n  rotate: false\r\n  xy: 1107, 15\r\n  size: 93, 283\r\n  orig: 98, 283\r\n  offset: 5, 0\r\n  index: -1\r\nfg2_vh_plant2\r\n  rotate: false\r\n  xy: 1151, 39\r\n  size: 168, 259\r\n  orig: 175, 259\r\n  offset: 0, 0\r\n  index: -1\r\nfg2_vh_plant3\r\n  rotate: false\r\n  xy: 1229, 93\r\n  size: 157, 204\r\n  orig: 161, 204\r\n  offset: 0, 0\r\n  index: -1\r\nfg2_vh_plant4\r\n  rotate: false\r\n  xy: 841, 9\r\n  size: 161, 272\r\n  orig: 163, 272\r\n  offset: 0, 0\r\n  index: -1\r\nfg2_vh_plant5\r\n  rotate: false\r\n  xy: 1256, 182\r\n  size: 132, 115\r\n  orig: 132, 115\r\n  offset: 0, 0\r\n  index: -1\r\nfg2_vh_plantback\r\n  rotate: false\r\n  xy: 1320, 16\r\n  size: 105, 58\r\n  orig: 105, 58\r\n  offset: 0, 0\r\n  index: -1\r\nfg2_vh_plantfront\r\n  rotate: false\r\n  xy: 1000, 31\r\n  size: 105, 181\r\n  orig: 105, 181\r\n  offset: 0, 0\r\n  index: -1\r\npp\r\n  rotate: false\r\n  xy: 1202, 5\r\n  size: 35, 49\r\n  orig: 35, 49\r\n  offset: 0, 0\r\n  index: -1\r\nshine_\r\n  rotate: false\r\n  xy: 726, 147\r\n  size: 150, 150\r\n  orig: 150, 150\r\n  offset: 0, 0\r\n  index: -1\r\nspark\r\n  rotate: false\r\n  xy: 726, 52\r\n  size: 94, 93\r\n  orig: 94, 93\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

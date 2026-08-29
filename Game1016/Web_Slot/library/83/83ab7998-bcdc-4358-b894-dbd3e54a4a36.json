@@ -1,0 +1,8 @@
+{
+  "__type__": "cc.TextAsset",
+  "_name": "icon_03.atlas",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "text": "\r\nicon_03.webp\r\nsize: 152,508\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\n01_crown\r\n  rotate: false\r\n  xy: 1, 138\r\n  size: 110, 108\r\n  orig: 110, 108\r\n  offset: 0, 0\r\n  index: -1\r\n01_crown_s\r\n  rotate: false\r\n  xy: 1, 2\r\n  size: 113, 24\r\n  orig: 113, 24\r\n  offset: 0, 0\r\n  index: -1\r\nFx/01_crown_00\r\n  rotate: false\r\n  xy: 1, 247\r\n  size: 110, 108\r\n  orig: 110, 108\r\n  offset: 0, 0\r\n  index: -1\r\nFx/Gem_00\r\n  rotate: false\r\n  xy: 1, 29\r\n  size: 110, 108\r\n  orig: 110, 108\r\n  offset: 0, 0\r\n  index: -1\r\nFx/star_txt\r\n  rotate: false\r\n  xy: 1, 356\r\n  size: 150, 150\r\n  orig: 150, 150\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

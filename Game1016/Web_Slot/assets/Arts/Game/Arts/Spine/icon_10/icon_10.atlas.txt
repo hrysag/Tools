@@ -1,0 +1,762 @@
+
+icon_10.webp
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01_font
+  rotate: false
+  xy: 279, 235
+  size: 157, 30
+  orig: 157, 30
+  offset: 0, 0
+  index: -1
+01_frame
+  rotate: false
+  xy: 211, 364
+  size: 161, 35
+  orig: 161, 35
+  offset: 0, 0
+  index: -1
+01_gem
+  rotate: false
+  xy: 148, 363
+  size: 61, 36
+  orig: 61, 36
+  offset: 0, 0
+  index: -1
+01_ribbon_01
+  rotate: false
+  xy: 533, 380
+  size: 81, 47
+  orig: 81, 47
+  offset: 0, 0
+  index: -1
+01_ribbon_02
+  rotate: false
+  xy: 279, 220
+  size: 32, 13
+  orig: 32, 13
+  offset: 0, 0
+  index: -1
+01_ribbon_02_sh
+  rotate: false
+  xy: 829, 419
+  size: 27, 15
+  orig: 27, 15
+  offset: 0, 0
+  index: -1
+01_ribbon_03
+  rotate: false
+  xy: 1136, 153
+  size: 13, 63
+  orig: 13, 63
+  offset: 0, 0
+  index: -1
+01_ribbon_03_sh
+  rotate: false
+  xy: 1151, 153
+  size: 11, 63
+  orig: 11, 63
+  offset: 0, 0
+  index: -1
+02_frame
+  rotate: false
+  xy: 2, 214
+  size: 142, 146
+  orig: 142, 146
+  offset: 0, 0
+  index: -1
+02_lion
+  rotate: false
+  xy: 146, 219
+  size: 131, 141
+  orig: 131, 141
+  offset: 0, 0
+  index: -1
+02_mane
+  rotate: false
+  xy: 374, 378
+  size: 50, 27
+  orig: 50, 27
+  offset: 0, 0
+  index: -1
+02_sword
+  rotate: false
+  xy: 242, 77
+  size: 146, 140
+  orig: 146, 140
+  offset: 0, 0
+  index: -1
+03_frame_sh
+  rotate: false
+  xy: 2, 362
+  size: 144, 148
+  orig: 144, 148
+  offset: 0, 0
+  index: -1
+03_ribbon_sh
+  rotate: false
+  xy: 450, 378
+  size: 81, 49
+  orig: 81, 49
+  offset: 0, 0
+  index: -1
+03_ribbon_sh_22
+  rotate: false
+  xy: 134, 3
+  size: 15, 65
+  orig: 15, 65
+  offset: 0, 0
+  index: -1
+03_sword_sh
+  rotate: false
+  xy: 92, 70
+  size: 148, 142
+  orig: 148, 142
+  offset: 0, 0
+  index: -1
+CenterRing_03_Fx
+  rotate: false
+  xy: 274, 407
+  size: 103, 103
+  orig: 103, 103
+  offset: 0, 0
+  index: -1
+Connect_BG_Glow_00
+  rotate: false
+  xy: 1152, 221
+  size: 70, 61
+  orig: 70, 61
+  offset: 0, 0
+  index: -1
+Eye
+  rotate: false
+  xy: 313, 225
+  size: 11, 8
+  orig: 11, 8
+  offset: 0, 0
+  index: -1
+Frame_line_00
+  rotate: false
+  xy: 148, 401
+  size: 124, 109
+  orig: 124, 109
+  offset: 0, 0
+  index: -1
+Lion_Plastic/lion_plastic_06
+  rotate: false
+  xy: 729, 315
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+Lion_Plastic/lion_plastic_07
+  rotate: false
+  xy: 691, 436
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+Lion_Plastic/lion_plastic_08
+  rotate: false
+  xy: 767, 436
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+Lion_Plastic/lion_plastic_09
+  rotate: false
+  xy: 805, 322
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+Lion_Plastic/lion_plastic_10
+  rotate: false
+  xy: 854, 246
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+Lion_Plastic/lion_plastic_11
+  rotate: false
+  xy: 858, 170
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+Lion_Plastic/lion_plastic_12
+  rotate: false
+  xy: 918, 94
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+Lion_Plastic/lion_plastic_13
+  rotate: false
+  xy: 959, 18
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+Lion_Plastic/lion_plastic_14
+  rotate: false
+  xy: 843, 436
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+Lion_Plastic/lion_plastic_15
+  rotate: false
+  xy: 881, 360
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+Lion_Plastic/lion_plastic_16
+  rotate: false
+  xy: 919, 436
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+Lion_Plastic/lion_plastic_17
+  rotate: false
+  xy: 930, 284
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+Lion_Plastic/lion_plastic_18
+  rotate: false
+  xy: 957, 360
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+Lion_Plastic/lion_plastic_19
+  rotate: false
+  xy: 995, 436
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+Lion_Plastic/lion_plastic_20
+  rotate: false
+  xy: 934, 208
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+Lion_Plastic/lion_plastic_21
+  rotate: false
+  xy: 1006, 284
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+Lion_Plastic/lion_plastic_22
+  rotate: false
+  xy: 1033, 360
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+Lion_Plastic/lion_plastic_23
+  rotate: false
+  xy: 1071, 436
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+Lion_Plastic/lion_plastic_24
+  rotate: false
+  xy: 994, 132
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+Lion_Plastic/lion_plastic_25
+  rotate: false
+  xy: 1010, 208
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+Lion_Plastic/lion_plastic_26
+  rotate: false
+  xy: 1082, 284
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+Lion_Plastic/lion_plastic_27
+  rotate: false
+  xy: 1109, 360
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+Lion_Plastic/lion_plastic_28
+  rotate: false
+  xy: 1147, 436
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+Lion_Plastic/lion_plastic_29
+  rotate: false
+  xy: 1035, 56
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+Loop_Sweap/frame_Sweap_Loop_01
+  rotate: false
+  xy: 379, 429
+  size: 76, 81
+  orig: 76, 81
+  offset: 0, 0
+  index: -1
+Loop_Sweap/frame_Sweap_Loop_02
+  rotate: false
+  xy: 417, 295
+  size: 76, 81
+  orig: 76, 81
+  offset: 0, 0
+  index: -1
+Loop_Sweap/frame_Sweap_Loop_03
+  rotate: false
+  xy: 457, 429
+  size: 76, 81
+  orig: 76, 81
+  offset: 0, 0
+  index: -1
+Loop_Sweap/frame_Sweap_Loop_04
+  rotate: false
+  xy: 390, 152
+  size: 76, 81
+  orig: 76, 81
+  offset: 0, 0
+  index: -1
+Loop_Sweap/frame_Sweap_Loop_05
+  rotate: false
+  xy: 415, 3
+  size: 76, 81
+  orig: 76, 81
+  offset: 0, 0
+  index: -1
+Loop_Sweap/frame_Sweap_Loop_06
+  rotate: false
+  xy: 493, 3
+  size: 76, 81
+  orig: 76, 81
+  offset: 0, 0
+  index: -1
+Loop_Sweap/frame_Sweap_Loop_07
+  rotate: false
+  xy: 495, 295
+  size: 76, 81
+  orig: 76, 81
+  offset: 0, 0
+  index: -1
+Loop_Sweap/frame_Sweap_Loop_08
+  rotate: false
+  xy: 535, 429
+  size: 76, 81
+  orig: 76, 81
+  offset: 0, 0
+  index: -1
+Loop_Sweap/frame_Sweap_Loop_09
+  rotate: false
+  xy: 613, 429
+  size: 76, 81
+  orig: 76, 81
+  offset: 0, 0
+  index: -1
+Loop_Sweap/frame_Sweap_Loop_10
+  rotate: false
+  xy: 468, 155
+  size: 76, 81
+  orig: 76, 81
+  offset: 0, 0
+  index: -1
+Loop_Sweap/frame_Sweap_Loop_11
+  rotate: false
+  xy: 571, 6
+  size: 76, 81
+  orig: 76, 81
+  offset: 0, 0
+  index: -1
+Loop_Sweap/frame_Sweap_Loop_12
+  rotate: false
+  xy: 546, 155
+  size: 76, 81
+  orig: 76, 81
+  offset: 0, 0
+  index: -1
+Loop_Sweap/frame_Sweap_Loop_13
+  rotate: false
+  xy: 573, 297
+  size: 76, 81
+  orig: 76, 81
+  offset: 0, 0
+  index: -1
+Loop_Sweap/frame_Sweap_Loop_14
+  rotate: false
+  xy: 649, 6
+  size: 76, 81
+  orig: 76, 81
+  offset: 0, 0
+  index: -1
+Loop_Sweap/frame_Sweap_Loop_15
+  rotate: false
+  xy: 624, 155
+  size: 76, 81
+  orig: 76, 81
+  offset: 0, 0
+  index: -1
+Loop_Sweap/frame_Sweap_Loop_16
+  rotate: false
+  xy: 702, 157
+  size: 76, 81
+  orig: 76, 81
+  offset: 0, 0
+  index: -1
+Loop_Sweap/frame_Sweap_Loop_17
+  rotate: false
+  xy: 727, 8
+  size: 76, 81
+  orig: 76, 81
+  offset: 0, 0
+  index: -1
+Loop_Sweap/frame_Sweap_Loop_18
+  rotate: false
+  xy: 651, 308
+  size: 76, 81
+  orig: 76, 81
+  offset: 0, 0
+  index: -1
+Loop_Sweap/frame_Sweap_Loop_19
+  rotate: false
+  xy: 780, 159
+  size: 76, 81
+  orig: 76, 81
+  offset: 0, 0
+  index: -1
+Particle/Particle_Connect_07
+  rotate: false
+  xy: 2, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Particle/Particle_Connect_08
+  rotate: false
+  xy: 68, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Particle/Particle_Connect_09
+  rotate: false
+  xy: 151, 4
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Particle/Particle_Connect_10
+  rotate: false
+  xy: 217, 4
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Particle/Particle_Connect_11
+  rotate: false
+  xy: 283, 11
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Particle/Particle_Connect_12
+  rotate: false
+  xy: 349, 11
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Particle/Particle_Connect_13
+  rotate: false
+  xy: 390, 86
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Particle/Particle_Connect_14
+  rotate: false
+  xy: 456, 86
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Particle/Particle_Connect_15
+  rotate: false
+  xy: 522, 89
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Particle/Particle_Connect_16
+  rotate: false
+  xy: 588, 89
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Particle/Particle_Connect_17
+  rotate: false
+  xy: 654, 89
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Particle/Particle_Connect_18
+  rotate: false
+  xy: 720, 91
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Particle/Particle_Connect_19
+  rotate: false
+  xy: 722, 242
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Particle/Particle_Connect_20
+  rotate: false
+  xy: 786, 93
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Particle/Particle_Connect_21
+  rotate: false
+  xy: 852, 93
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Particle/Particle_Connect_22
+  rotate: false
+  xy: 788, 249
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Particle/Particle_Connect_23
+  rotate: false
+  xy: 1070, 142
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Particle/Particle_Connect_24
+  rotate: false
+  xy: 1086, 218
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Particle/Particle_Connect_25
+  rotate: false
+  xy: 1111, 76
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Ring
+  rotate: false
+  xy: 329, 274
+  size: 86, 88
+  orig: 86, 88
+  offset: 0, 0
+  index: -1
+Star_Fx
+  rotate: false
+  xy: 805, 16
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+SunLine 3_00
+  rotate: false
+  xy: 882, 16
+  size: 75, 75
+  orig: 75, 75
+  offset: 0, 0
+  index: -1
+Sword_Glow
+  rotate: false
+  xy: 279, 267
+  size: 48, 95
+  orig: 48, 95
+  offset: 0, 0
+  index: -1
+Sword_glow_00
+  rotate: false
+  xy: 2, 68
+  size: 88, 144
+  orig: 88, 144
+  offset: 0, 0
+  index: -1
+Word_Sweap/Word_Sweap_01
+  rotate: false
+  xy: 379, 410
+  size: 69, 17
+  orig: 69, 17
+  offset: 0, 0
+  index: -1
+Word_Sweap/Word_Sweap_02
+  rotate: false
+  xy: 417, 276
+  size: 69, 17
+  orig: 69, 17
+  offset: 0, 0
+  index: -1
+Word_Sweap/Word_Sweap_03
+  rotate: false
+  xy: 438, 257
+  size: 69, 17
+  orig: 69, 17
+  offset: 0, 0
+  index: -1
+Word_Sweap/Word_Sweap_04
+  rotate: false
+  xy: 488, 276
+  size: 69, 17
+  orig: 69, 17
+  offset: 0, 0
+  index: -1
+Word_Sweap/Word_Sweap_05
+  rotate: false
+  xy: 438, 238
+  size: 69, 17
+  orig: 69, 17
+  offset: 0, 0
+  index: -1
+Word_Sweap/Word_Sweap_06
+  rotate: false
+  xy: 509, 257
+  size: 69, 17
+  orig: 69, 17
+  offset: 0, 0
+  index: -1
+Word_Sweap/Word_Sweap_07
+  rotate: false
+  xy: 559, 276
+  size: 69, 17
+  orig: 69, 17
+  offset: 0, 0
+  index: -1
+Word_Sweap/Word_Sweap_08
+  rotate: false
+  xy: 509, 238
+  size: 69, 17
+  orig: 69, 17
+  offset: 0, 0
+  index: -1
+Word_Sweap/Word_Sweap_09
+  rotate: false
+  xy: 580, 257
+  size: 69, 17
+  orig: 69, 17
+  offset: 0, 0
+  index: -1
+Word_Sweap/Word_Sweap_10
+  rotate: false
+  xy: 580, 238
+  size: 69, 17
+  orig: 69, 17
+  offset: 0, 0
+  index: -1
+Word_Sweap/Word_Sweap_11
+  rotate: false
+  xy: 630, 278
+  size: 69, 17
+  orig: 69, 17
+  offset: 0, 0
+  index: -1
+Word_Sweap/Word_Sweap_12
+  rotate: false
+  xy: 651, 259
+  size: 69, 17
+  orig: 69, 17
+  offset: 0, 0
+  index: -1
+Word_Sweap/Word_Sweap_13
+  rotate: false
+  xy: 651, 240
+  size: 69, 17
+  orig: 69, 17
+  offset: 0, 0
+  index: -1
+Word_Sweap/Word_Sweap_14
+  rotate: false
+  xy: 616, 410
+  size: 69, 17
+  orig: 69, 17
+  offset: 0, 0
+  index: -1
+Word_Sweap/Word_Sweap_15
+  rotate: false
+  xy: 616, 391
+  size: 69, 17
+  orig: 69, 17
+  offset: 0, 0
+  index: -1
+Word_Sweap/Word_Sweap_16
+  rotate: false
+  xy: 687, 410
+  size: 69, 17
+  orig: 69, 17
+  offset: 0, 0
+  index: -1
+Word_Sweap/Word_Sweap_17
+  rotate: false
+  xy: 687, 391
+  size: 69, 17
+  orig: 69, 17
+  offset: 0, 0
+  index: -1
+Word_Sweap/Word_Sweap_18
+  rotate: false
+  xy: 758, 417
+  size: 69, 17
+  orig: 69, 17
+  offset: 0, 0
+  index: -1
+Word_Sweap/Word_Sweap_19
+  rotate: false
+  xy: 758, 398
+  size: 69, 17
+  orig: 69, 17
+  offset: 0, 0
+  index: -1
+glow_Fx
+  rotate: false
+  xy: 1111, 10
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+icon_10_Glow_00
+  rotate: false
+  xy: 1158, 297
+  size: 70, 61
+  orig: 70, 61
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,8 @@
+{
+  "__type__": "cc.TextAsset",
+  "_name": "skeleton.atlas",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "text": "\r\nskeleton.png\r\nsize: 1924,1280\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nsymbol_01\r\n  rotate: false\r\n  xy: 204, 76\r\n  size: 124, 120\r\n  orig: 124, 120\r\n  offset: 0, 0\r\n  index: -1\r\nsymbol_01_glow0\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 200, 194\r\n  orig: 200, 194\r\n  offset: 0, 0\r\n  index: -1\r\nword\r\n  rotate: false\r\n  xy: 2, 198\r\n  size: 1920, 1080\r\n  orig: 1920, 1080\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

@@ -1,0 +1,46 @@
+{
+  "ver": "1.0.26",
+  "importer": "image",
+  "imported": true,
+  "uuid": "d7ad3808-1df0-463b-8273-12b199fd00e5",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "d7ad3808-1df0-463b-8273-12b199fd00e5@6c48a",
+      "displayName": "fishHunter_vi",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "minfilter": "linear",
+        "magfilter": "linear",
+        "mipfilter": "none",
+        "anisotropy": 0,
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "d7ad3808-1df0-463b-8273-12b199fd00e5",
+        "visible": false
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "texture",
+    "fixAlphaTransparencyArtifacts": false,
+    "hasAlpha": true,
+    "redirect": "d7ad3808-1df0-463b-8273-12b199fd00e5@6c48a",
+    "compressSettings": {
+      "useCompressTexture": true,
+      "presetId": "93xqlzlT5H2YVwIxxddmS0"
+    }
+  }
+}

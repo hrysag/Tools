@@ -1,0 +1,1902 @@
+
+HighPrize.webp
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01_pic/Big_Black
+  rotate: false
+  xy: 1933, 1143
+  size: 93, 99
+  orig: 93, 99
+  offset: 0, 0
+  index: -1
+01_pic/Big_Drapes
+  rotate: false
+  xy: 465, 1574
+  size: 178, 249
+  orig: 178, 249
+  offset: 0, 0
+  index: -1
+01_pic/Big_Halo_C
+  rotate: false
+  xy: 1831, 1386
+  size: 154, 73
+  orig: 154, 73
+  offset: 0, 0
+  index: -1
+01_pic/Big_Light_E
+  rotate: false
+  xy: 645, 1683
+  size: 205, 140
+  orig: 205, 140
+  offset: 0, 0
+  index: -1
+01_pic/Big_arch
+  rotate: false
+  xy: 889, 1533
+  size: 342, 503
+  orig: 342, 503
+  offset: 0, 0
+  index: -1
+01_pic/Big_floor
+  rotate: false
+  xy: 1519, 280
+  size: 454, 393
+  orig: 454, 393
+  offset: 0, 0
+  index: -1
+01_pic/Big_win
+  rotate: false
+  xy: 2, 186
+  size: 605, 192
+  orig: 605, 192
+  offset: 0, 0
+  index: -1
+01_pic/E_gold
+  rotate: false
+  xy: 852, 1764
+  size: 27, 25
+  orig: 27, 25
+  offset: 0, 0
+  index: -1
+01_pic/E_gold2
+  rotate: false
+  xy: 1060, 1203
+  size: 38, 23
+  orig: 38, 23
+  offset: 0, 0
+  index: -1
+01_pic/Epic_Drapes
+  rotate: false
+  xy: 880, 977
+  size: 178, 249
+  orig: 178, 249
+  offset: 0, 0
+  index: -1
+01_pic/Epic_Halo_C
+  rotate: false
+  xy: 666, 1143
+  size: 174, 83
+  orig: 174, 83
+  offset: 0, 0
+  index: -1
+01_pic/Epic_arch
+  rotate: false
+  xy: 1143, 1028
+  size: 342, 503
+  orig: 342, 503
+  offset: 0, 0
+  index: -1
+01_pic/Epic_floor
+  rotate: false
+  xy: 2, 1035
+  size: 459, 393
+  orig: 459, 393
+  offset: 0, 0
+  index: -1
+01_pic/Epic_light_a
+  rotate: false
+  xy: 775, 168
+  size: 396, 338
+  orig: 396, 338
+  offset: 0, 0
+  index: -1
+01_pic/Epic_treasure2
+  rotate: false
+  xy: 2, 637
+  size: 674, 196
+  orig: 674, 196
+  offset: 0, 0
+  index: -1
+01_pic/Epic_treasure3
+  rotate: false
+  xy: 465, 1228
+  size: 676, 303
+  orig: 676, 303
+  offset: 0, 0
+  index: -1
+01_pic/Epic_win_main
+  rotate: false
+  xy: 880, 764
+  size: 786, 211
+  orig: 786, 211
+  offset: 0, 0
+  index: -1
+01_pic/M_gold
+  rotate: false
+  xy: 852, 1737
+  size: 27, 25
+  orig: 27, 25
+  offset: 0, 0
+  index: -1
+01_pic/M_gold2
+  rotate: false
+  xy: 1060, 1178
+  size: 38, 23
+  orig: 38, 23
+  offset: 0, 0
+  index: -1
+01_pic/Mega_Drapes
+  rotate: false
+  xy: 678, 584
+  size: 178, 249
+  orig: 178, 249
+  offset: 0, 0
+  index: -1
+01_pic/Mega_Halo_C
+  rotate: false
+  xy: 1831, 1461
+  size: 160, 76
+  orig: 160, 76
+  offset: 0, 0
+  index: -1
+01_pic/Mega_arch
+  rotate: false
+  xy: 1233, 1533
+  size: 342, 503
+  orig: 342, 503
+  offset: 0, 0
+  index: -1
+01_pic/Mega_floor
+  rotate: false
+  xy: 1577, 1643
+  size: 459, 393
+  orig: 459, 393
+  offset: 0, 0
+  index: -1
+01_pic/Mega_treasure2
+  rotate: false
+  xy: 858, 508
+  size: 659, 254
+  orig: 659, 254
+  offset: 0, 0
+  index: -1
+01_pic/Mega_win_main
+  rotate: false
+  xy: 2, 1825
+  size: 885, 211
+  orig: 885, 211
+  offset: 0, 0
+  index: -1
+01_pic/Super_Drapes
+  rotate: false
+  xy: 1668, 777
+  size: 178, 249
+  orig: 178, 249
+  offset: 0, 0
+  index: -1
+01_pic/Super_Halo_C
+  rotate: false
+  xy: 1831, 1311
+  size: 154, 73
+  orig: 154, 73
+  offset: 0, 0
+  index: -1
+01_pic/Super_Light_E
+  rotate: false
+  xy: 645, 1541
+  size: 205, 140
+  orig: 205, 140
+  offset: 0, 0
+  index: -1
+01_pic/Super_arch
+  rotate: false
+  xy: 1487, 1028
+  size: 342, 503
+  orig: 342, 503
+  offset: 0, 0
+  index: -1
+01_pic/Super_floor
+  rotate: false
+  xy: 2, 1430
+  size: 461, 393
+  orig: 461, 393
+  offset: 0, 0
+  index: -1
+01_pic/Super_treasure2
+  rotate: false
+  xy: 2, 381
+  size: 669, 254
+  orig: 669, 254
+  offset: 0, 0
+  index: -1
+01_pic/Super_win_main
+  rotate: false
+  xy: 2, 835
+  size: 876, 198
+  orig: 876, 198
+  offset: 0, 0
+  index: -1
+01_pic/background
+  rotate: false
+  xy: 641, 1535
+  size: 4, 4
+  orig: 4, 4
+  offset: 0, 0
+  index: -1
+01_pic/coins_00000
+  rotate: false
+  xy: 1885, 1541
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+01_pic/coins_00001
+  rotate: false
+  xy: 1831, 1142
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+01_pic/coins_00002
+  rotate: false
+  xy: 1831, 1040
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+01_pic/coins_00003
+  rotate: false
+  xy: 1668, 675
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+01_pic/coins_00004
+  rotate: false
+  xy: 1770, 675
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+01_pic/coins_00005
+  rotate: false
+  xy: 1848, 938
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+01_pic/coins_00006
+  rotate: false
+  xy: 1933, 1041
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+01_pic/coins_00007
+  rotate: false
+  xy: 1848, 836
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+01_pic/coins_00008
+  rotate: false
+  xy: 1872, 734
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+01_pic/coins_00009
+  rotate: false
+  xy: 673, 482
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+01_pic/coins_00010
+  rotate: false
+  xy: 673, 380
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+01_pic/coins_00011
+  rotate: false
+  xy: 609, 278
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+01_pic/diamond_purple_25
+  rotate: false
+  xy: 666, 1039
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+01_pic/dimaond_blue_01
+  rotate: false
+  xy: 1677, 1539
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+01_pic/dimaond_red_02
+  rotate: false
+  xy: 1781, 1539
+  size: 102, 102
+  orig: 102, 102
+  offset: 0, 0
+  index: -1
+01_pic/fnt_HighPrize
+  rotate: false
+  xy: 852, 1698
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+01_pic/gold
+  rotate: false
+  xy: 852, 1710
+  size: 27, 25
+  orig: 27, 25
+  offset: 0, 0
+  index: -1
+01_pic/gold2
+  rotate: false
+  xy: 1060, 1153
+  size: 38, 23
+  orig: 38, 23
+  offset: 0, 0
+  index: -1
+01_pic/kettle_a
+  rotate: false
+  xy: 1577, 1534
+  size: 98, 107
+  orig: 98, 107
+  offset: 0, 0
+  index: -1
+01_pic/kettle_b
+  rotate: false
+  xy: 1831, 1244
+  size: 152, 65
+  orig: 152, 65
+  offset: 0, 0
+  index: -1
+01_pic/kettle_c
+  rotate: false
+  xy: 852, 1791
+  size: 34, 32
+  orig: 34, 32
+  offset: 0, 0
+  index: -1
+01_pic/kettle_d
+  rotate: false
+  xy: 465, 1534
+  size: 66, 38
+  orig: 66, 38
+  offset: 0, 0
+  index: -1
+01_pic/sand_dust
+  rotate: false
+  xy: 463, 1091
+  size: 201, 135
+  orig: 201, 135
+  offset: 0, 0
+  index: -1
+01_pic/treasure_chest_a
+  rotate: false
+  xy: 533, 1535
+  size: 106, 37
+  orig: 106, 37
+  offset: 0, 0
+  index: -1
+01_pic/treasure_chest_b
+  rotate: false
+  xy: 770, 1090
+  size: 108, 51
+  orig: 108, 51
+  offset: 0, 0
+  index: -1
+01_pic/treasure_chest_c
+  rotate: false
+  xy: 770, 1045
+  size: 91, 43
+  orig: 91, 43
+  offset: 0, 0
+  index: -1
+01_pic/treasure_chest_d
+  rotate: false
+  xy: 546, 1047
+  size: 84, 42
+  orig: 84, 42
+  offset: 0, 0
+  index: -1
+01_pic/treasure_chest_e
+  rotate: false
+  xy: 463, 1046
+  size: 81, 43
+  orig: 81, 43
+  offset: 0, 0
+  index: -1
+
+HighPrize_fx1.webp
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+02_fx/Big_Halo_A
+  rotate: false
+  xy: 1851, 268
+  size: 161, 150
+  orig: 161, 150
+  offset: 0, 0
+  index: -1
+02_fx/Big_light_b
+  rotate: false
+  xy: 1274, 1353
+  size: 365, 329
+  orig: 365, 329
+  offset: 0, 0
+  index: -1
+02_fx/Epic_Halo_A
+  rotate: false
+  xy: 2, 116
+  size: 161, 150
+  orig: 161, 150
+  offset: 0, 0
+  index: -1
+02_fx/Epic_Light_E
+  rotate: false
+  xy: 851, 662
+  size: 205, 140
+  orig: 205, 140
+  offset: 0, 0
+  index: -1
+02_fx/Epic_light_b
+  rotate: false
+  xy: 1641, 1279
+  size: 365, 329
+  orig: 365, 329
+  offset: 0, 0
+  index: -1
+02_fx/Light_A
+  rotate: false
+  xy: 1694, 1966
+  size: 317, 68
+  orig: 317, 68
+  offset: 0, 0
+  index: -1
+02_fx/Mega_Halo_A
+  rotate: false
+  xy: 165, 116
+  size: 161, 150
+  orig: 161, 150
+  offset: 0, 0
+  index: -1
+02_fx/Mega_Light_E
+  rotate: false
+  xy: 851, 520
+  size: 205, 140
+  orig: 205, 140
+  offset: 0, 0
+  index: -1
+02_fx/Mega_light_a
+  rotate: false
+  xy: 2, 1258
+  size: 362, 350
+  orig: 362, 350
+  offset: 0, 0
+  index: -1
+02_fx/Mega_light_b
+  rotate: false
+  xy: 1635, 948
+  size: 365, 329
+  orig: 365, 329
+  offset: 0, 0
+  index: -1
+02_fx/Smoke_d
+  rotate: false
+  xy: 1694, 1739
+  size: 240, 225
+  orig: 240, 225
+  offset: 0, 0
+  index: -1
+02_fx/Super_Halo_A
+  rotate: false
+  xy: 328, 116
+  size: 161, 150
+  orig: 161, 150
+  offset: 0, 0
+  index: -1
+02_fx/Super_light_b
+  rotate: false
+  xy: 2, 353
+  size: 365, 329
+  orig: 365, 329
+  offset: 0, 0
+  index: -1
+02_fx/flash
+  rotate: false
+  xy: 1936, 1872
+  size: 92, 92
+  orig: 92, 92
+  offset: 0, 0
+  index: -1
+02_fx/magic
+  rotate: false
+  xy: 1907, 1610
+  size: 123, 127
+  orig: 123, 127
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_frame_sweep/Big_frame_sweep_00003
+  rotate: false
+  xy: 2, 1948
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_frame_sweep/Big_frame_sweep_00004
+  rotate: false
+  xy: 425, 1948
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_frame_sweep/Big_frame_sweep_00005
+  rotate: false
+  xy: 848, 1948
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_frame_sweep/Big_frame_sweep_00006
+  rotate: false
+  xy: 1271, 1948
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_frame_sweep/Big_frame_sweep_00007
+  rotate: false
+  xy: 2, 1860
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_frame_sweep/Big_frame_sweep_00008
+  rotate: false
+  xy: 425, 1860
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_frame_sweep/Big_frame_sweep_00009
+  rotate: false
+  xy: 848, 1860
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_frame_sweep/Big_frame_sweep_00010
+  rotate: false
+  xy: 1271, 1860
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_frame_sweep/Big_frame_sweep_00011
+  rotate: false
+  xy: 2, 1772
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_frame_sweep/Big_frame_sweep_00012
+  rotate: false
+  xy: 425, 1772
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_frame_sweep/Big_frame_sweep_00013
+  rotate: false
+  xy: 848, 1772
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_frame_sweep/Big_frame_sweep_00014
+  rotate: false
+  xy: 1271, 1772
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_frame_sweep/Big_frame_sweep_00015
+  rotate: false
+  xy: 2, 1684
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_frame_sweep/Big_frame_sweep_00016
+  rotate: false
+  xy: 425, 1684
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_frame_sweep/Big_frame_sweep_00017
+  rotate: false
+  xy: 848, 1684
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_frame_sweep/Big_frame_sweep_00018
+  rotate: false
+  xy: 1271, 1684
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_frame_sweep/Big_frame_sweep_00019
+  rotate: false
+  xy: 428, 1596
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_frame_sweep/Big_frame_sweep_00020
+  rotate: false
+  xy: 851, 1596
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_frame_sweep/Big_frame_sweep_00021
+  rotate: false
+  xy: 366, 1508
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_frame_sweep/Big_frame_sweep_00022
+  rotate: false
+  xy: 789, 1508
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_frame_sweep/Big_frame_sweep_00023
+  rotate: false
+  xy: 366, 1420
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_frame_sweep/Big_frame_sweep_00024
+  rotate: false
+  xy: 789, 1420
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_frame_sweep/Big_frame_sweep_00025
+  rotate: false
+  xy: 366, 1332
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_frame_sweep/Big_frame_sweep_00026
+  rotate: false
+  xy: 789, 1332
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_main_sweep/Big_main_sweep_00005
+  rotate: false
+  xy: 1694, 1694
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_main_sweep/Big_main_sweep_00007
+  rotate: false
+  xy: 1694, 1649
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_main_sweep/Big_main_sweep_00008
+  rotate: false
+  xy: 2, 1639
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_main_sweep/Big_main_sweep_00009
+  rotate: false
+  xy: 215, 1639
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_main_sweep/Big_main_sweep_00010
+  rotate: false
+  xy: 2, 1213
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_main_sweep/Big_main_sweep_00011
+  rotate: false
+  xy: 2, 1168
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_main_sweep/Big_main_sweep_00012
+  rotate: false
+  xy: 2, 1123
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_main_sweep/Big_main_sweep_00013
+  rotate: false
+  xy: 2, 1078
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_main_sweep/Big_main_sweep_00014
+  rotate: false
+  xy: 2, 1033
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_main_sweep/Big_main_sweep_00015
+  rotate: false
+  xy: 2, 988
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_main_sweep/Big_main_sweep_00016
+  rotate: false
+  xy: 2, 943
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_main_sweep/Big_main_sweep_00017
+  rotate: false
+  xy: 2, 898
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_main_sweep/Big_main_sweep_00018
+  rotate: false
+  xy: 2, 853
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_main_sweep/Big_main_sweep_00019
+  rotate: false
+  xy: 2, 808
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_main_sweep/Big_main_sweep_00020
+  rotate: false
+  xy: 2, 763
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_main_sweep/Big_main_sweep_00021
+  rotate: false
+  xy: 2, 692
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_main_sweep/Big_main_sweep_00022
+  rotate: false
+  xy: 215, 692
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_main_sweep/Big_main_sweep_00024
+  rotate: false
+  xy: 215, 759
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_main_sweep/Big_main_sweep_00026
+  rotate: false
+  xy: 792, 475
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Big_main_sweep/Big_main_sweep_00028
+  rotate: false
+  xy: 792, 430
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_frame_sweep/Epic_frame_sweep_00002
+  rotate: false
+  xy: 1212, 1265
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_frame_sweep/Epic_frame_sweep_00003
+  rotate: false
+  xy: 366, 1244
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_frame_sweep/Epic_frame_sweep_00004
+  rotate: false
+  xy: 789, 1244
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_frame_sweep/Epic_frame_sweep_00005
+  rotate: false
+  xy: 1212, 1177
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_frame_sweep/Epic_frame_sweep_00006
+  rotate: false
+  xy: 215, 1156
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_frame_sweep/Epic_frame_sweep_00007
+  rotate: false
+  xy: 638, 1156
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_frame_sweep/Epic_frame_sweep_00008
+  rotate: false
+  xy: 1061, 1089
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_frame_sweep/Epic_frame_sweep_00009
+  rotate: false
+  xy: 215, 1068
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_frame_sweep/Epic_frame_sweep_00010
+  rotate: false
+  xy: 638, 1068
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_frame_sweep/Epic_frame_sweep_00011
+  rotate: false
+  xy: 1061, 1001
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_frame_sweep/Epic_frame_sweep_00012
+  rotate: false
+  xy: 215, 980
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_frame_sweep/Epic_frame_sweep_00013
+  rotate: false
+  xy: 638, 980
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_frame_sweep/Epic_frame_sweep_00014
+  rotate: false
+  xy: 1061, 913
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_frame_sweep/Epic_frame_sweep_00015
+  rotate: false
+  xy: 1484, 860
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_frame_sweep/Epic_frame_sweep_00016
+  rotate: false
+  xy: 215, 892
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_frame_sweep/Epic_frame_sweep_00017
+  rotate: false
+  xy: 638, 892
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_frame_sweep/Epic_frame_sweep_00018
+  rotate: false
+  xy: 1061, 825
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_frame_sweep/Epic_frame_sweep_00019
+  rotate: false
+  xy: 1484, 772
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_frame_sweep/Epic_frame_sweep_00020
+  rotate: false
+  xy: 215, 804
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_frame_sweep/Epic_frame_sweep_00021
+  rotate: false
+  xy: 638, 804
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_frame_sweep/Epic_frame_sweep_00022
+  rotate: false
+  xy: 1061, 737
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_frame_sweep/Epic_frame_sweep_00023
+  rotate: false
+  xy: 1484, 684
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_frame_sweep/Epic_frame_sweep_00024
+  rotate: false
+  xy: 428, 716
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_frame_sweep/Epic_frame_sweep_00025
+  rotate: false
+  xy: 428, 628
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_frame_sweep/Epic_frame_sweep_00026
+  rotate: false
+  xy: 1058, 649
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_frame_sweep/Epic_frame_sweep_00027
+  rotate: false
+  xy: 369, 540
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_main_sweep/Epic_main_sweep_00005
+  rotate: false
+  xy: 792, 385
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_main_sweep/Epic_main_sweep_00006
+  rotate: false
+  xy: 2, 287
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_main_sweep/Epic_main_sweep_00007
+  rotate: false
+  xy: 792, 287
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_main_sweep/Epic_main_sweep_00008
+  rotate: false
+  xy: 792, 340
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_main_sweep/Epic_main_sweep_00009
+  rotate: false
+  xy: 491, 135
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_main_sweep/Epic_main_sweep_00010
+  rotate: false
+  xy: 704, 135
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_main_sweep/Epic_main_sweep_00011
+  rotate: false
+  xy: 848, 2
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_main_sweep/Epic_main_sweep_00012
+  rotate: false
+  xy: 1061, 2
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_main_sweep/Epic_main_sweep_00013
+  rotate: false
+  xy: 917, 164
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_main_sweep/Epic_main_sweep_00014
+  rotate: false
+  xy: 1130, 164
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_main_sweep/Epic_main_sweep_00015
+  rotate: false
+  xy: 1343, 164
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_main_sweep/Epic_main_sweep_00016
+  rotate: false
+  xy: 1556, 199
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_main_sweep/Epic_main_sweep_00017
+  rotate: false
+  xy: 1274, 31
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_main_sweep/Epic_main_sweep_00018
+  rotate: false
+  xy: 1487, 31
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_main_sweep/Epic_main_sweep_00019
+  rotate: false
+  xy: 1769, 199
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_main_sweep/Epic_main_sweep_00020
+  rotate: false
+  xy: 1694, 154
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_main_sweep/Epic_main_sweep_00021
+  rotate: false
+  xy: 1694, 109
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_main_sweep/Epic_main_sweep_00022
+  rotate: false
+  xy: 1700, 64
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_main_sweep/Epic_main_sweep_00023
+  rotate: false
+  xy: 1700, 19
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_frame_sweep/Mega_frame_sweep_00003
+  rotate: false
+  xy: 369, 452
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_frame_sweep/Mega_frame_sweep_00004
+  rotate: false
+  xy: 1481, 596
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_frame_sweep/Mega_frame_sweep_00005
+  rotate: false
+  xy: 1058, 561
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_frame_sweep/Mega_frame_sweep_00006
+  rotate: false
+  xy: 1481, 508
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_frame_sweep/Mega_frame_sweep_00007
+  rotate: false
+  xy: 1058, 473
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_frame_sweep/Mega_frame_sweep_00008
+  rotate: false
+  xy: 369, 364
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_frame_sweep/Mega_frame_sweep_00009
+  rotate: false
+  xy: 1481, 420
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_frame_sweep/Mega_frame_sweep_00010
+  rotate: false
+  xy: 1005, 385
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_frame_sweep/Mega_frame_sweep_00011
+  rotate: false
+  xy: 1428, 332
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_frame_sweep/Mega_frame_sweep_00012
+  rotate: false
+  xy: 2, 28
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_frame_sweep/Mega_frame_sweep_00013
+  rotate: false
+  xy: 369, 276
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_frame_sweep/Mega_frame_sweep_00014
+  rotate: false
+  xy: 425, 28
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_frame_sweep/Mega_frame_sweep_00015
+  rotate: false
+  xy: 491, 180
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_frame_sweep/Mega_frame_sweep_00016
+  rotate: false
+  xy: 1005, 297
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_frame_sweep/Mega_frame_sweep_00017
+  rotate: false
+  xy: 1428, 244
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_frame_sweep/Mega_frame_sweep_00018
+  rotate: false
+  xy: 1005, 209
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_frame_sweep/Mega_frame_sweep_00019
+  rotate: false
+  xy: 848, 47
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_frame_sweep/Mega_frame_sweep_00020
+  rotate: false
+  xy: 1271, 76
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+
+HighPrize_fx2.webp
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+03_font_sweep/Epic_main_sweep/Epic_main_sweep_00024
+  rotate: false
+  xy: 1694, 1874
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_main_sweep/Epic_main_sweep_00025
+  rotate: false
+  xy: 1694, 1829
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_main_sweep/Epic_main_sweep_00026
+  rotate: false
+  xy: 1694, 1784
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_main_sweep/Epic_main_sweep_00027
+  rotate: false
+  xy: 1694, 1739
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_main_sweep/Epic_main_sweep_00028
+  rotate: false
+  xy: 1694, 1694
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Epic_main_sweep/Epic_main_sweep_00029
+  rotate: false
+  xy: 1694, 1649
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_frame_sweep/Mega_frame_sweep_00021
+  rotate: false
+  xy: 2, 1831
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_frame_sweep/Mega_frame_sweep_00022
+  rotate: false
+  xy: 425, 1831
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_frame_sweep/Mega_frame_sweep_00023
+  rotate: false
+  xy: 848, 1831
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_frame_sweep/Mega_frame_sweep_00024
+  rotate: false
+  xy: 1271, 1831
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_frame_sweep/Mega_frame_sweep_00025
+  rotate: false
+  xy: 2, 1743
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_frame_sweep/Mega_frame_sweep_00026
+  rotate: false
+  xy: 425, 1743
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_frame_sweep/Mega_frame_sweep_00027
+  rotate: false
+  xy: 848, 1743
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_main_sweep/Mega_main_sweep_00005
+  rotate: false
+  xy: 1694, 1604
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_main_sweep/Mega_main_sweep_00006
+  rotate: false
+  xy: 1694, 1559
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_main_sweep/Mega_main_sweep_00007
+  rotate: false
+  xy: 1694, 1514
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_main_sweep/Mega_main_sweep_00008
+  rotate: false
+  xy: 1694, 1469
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_main_sweep/Mega_main_sweep_00009
+  rotate: false
+  xy: 1694, 1424
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_main_sweep/Mega_main_sweep_00010
+  rotate: false
+  xy: 1694, 1379
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_main_sweep/Mega_main_sweep_00011
+  rotate: false
+  xy: 1694, 1334
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_main_sweep/Mega_main_sweep_00012
+  rotate: false
+  xy: 1694, 1289
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_main_sweep/Mega_main_sweep_00013
+  rotate: false
+  xy: 1694, 1244
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_main_sweep/Mega_main_sweep_00014
+  rotate: false
+  xy: 1694, 1199
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_main_sweep/Mega_main_sweep_00015
+  rotate: false
+  xy: 2, 1170
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_main_sweep/Mega_main_sweep_00016
+  rotate: false
+  xy: 215, 1170
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_main_sweep/Mega_main_sweep_00017
+  rotate: false
+  xy: 428, 1170
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_main_sweep/Mega_main_sweep_00018
+  rotate: false
+  xy: 641, 1170
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_main_sweep/Mega_main_sweep_00019
+  rotate: false
+  xy: 854, 1170
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_main_sweep/Mega_main_sweep_00020
+  rotate: false
+  xy: 1067, 1170
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_main_sweep/Mega_main_sweep_00021
+  rotate: false
+  xy: 1280, 1170
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_main_sweep/Mega_main_sweep_00022
+  rotate: false
+  xy: 1493, 1154
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_main_sweep/Mega_main_sweep_00023
+  rotate: false
+  xy: 1706, 1154
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_main_sweep/Mega_main_sweep_00024
+  rotate: false
+  xy: 2, 1125
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_main_sweep/Mega_main_sweep_00025
+  rotate: false
+  xy: 215, 1125
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_main_sweep/Mega_main_sweep_00026
+  rotate: false
+  xy: 428, 1125
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_main_sweep/Mega_main_sweep_00027
+  rotate: false
+  xy: 641, 1125
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_main_sweep/Mega_main_sweep_00028
+  rotate: false
+  xy: 854, 1125
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Mega_main_sweep/Mega_main_sweep_00029
+  rotate: false
+  xy: 1067, 1125
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_frame_sweep/Super_frame_sweep_00003
+  rotate: false
+  xy: 1271, 1743
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_frame_sweep/Super_frame_sweep_00004
+  rotate: false
+  xy: 2, 1655
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_frame_sweep/Super_frame_sweep_00005
+  rotate: false
+  xy: 425, 1655
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_frame_sweep/Super_frame_sweep_00006
+  rotate: false
+  xy: 848, 1655
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_frame_sweep/Super_frame_sweep_00007
+  rotate: false
+  xy: 1271, 1655
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_frame_sweep/Super_frame_sweep_00008
+  rotate: false
+  xy: 2, 1567
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_frame_sweep/Super_frame_sweep_00009
+  rotate: false
+  xy: 425, 1567
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_frame_sweep/Super_frame_sweep_00010
+  rotate: false
+  xy: 848, 1567
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_frame_sweep/Super_frame_sweep_00011
+  rotate: false
+  xy: 1271, 1567
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_frame_sweep/Super_frame_sweep_00012
+  rotate: false
+  xy: 2, 1479
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_frame_sweep/Super_frame_sweep_00013
+  rotate: false
+  xy: 425, 1479
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_frame_sweep/Super_frame_sweep_00014
+  rotate: false
+  xy: 848, 1479
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_frame_sweep/Super_frame_sweep_00015
+  rotate: false
+  xy: 1271, 1479
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_frame_sweep/Super_frame_sweep_00016
+  rotate: false
+  xy: 2, 1391
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_frame_sweep/Super_frame_sweep_00017
+  rotate: false
+  xy: 425, 1391
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_frame_sweep/Super_frame_sweep_00018
+  rotate: false
+  xy: 848, 1391
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_frame_sweep/Super_frame_sweep_00019
+  rotate: false
+  xy: 1271, 1391
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_frame_sweep/Super_frame_sweep_00020
+  rotate: false
+  xy: 2, 1303
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_frame_sweep/Super_frame_sweep_00021
+  rotate: false
+  xy: 425, 1303
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_frame_sweep/Super_frame_sweep_00022
+  rotate: false
+  xy: 848, 1303
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_frame_sweep/Super_frame_sweep_00023
+  rotate: false
+  xy: 1271, 1303
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_frame_sweep/Super_frame_sweep_00024
+  rotate: false
+  xy: 2, 1215
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_frame_sweep/Super_frame_sweep_00025
+  rotate: false
+  xy: 425, 1215
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_frame_sweep/Super_frame_sweep_00026
+  rotate: false
+  xy: 848, 1215
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_frame_sweep/Super_frame_sweep_00027
+  rotate: false
+  xy: 1271, 1215
+  size: 421, 86
+  orig: 421, 86
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_main_sweep/Super_main_sweep_00006
+  rotate: false
+  xy: 1280, 1125
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_main_sweep/Super_main_sweep_00007
+  rotate: false
+  xy: 1493, 1109
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_main_sweep/Super_main_sweep_00008
+  rotate: false
+  xy: 1706, 1109
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_main_sweep/Super_main_sweep_00009
+  rotate: false
+  xy: 2, 1080
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_main_sweep/Super_main_sweep_00010
+  rotate: false
+  xy: 215, 1080
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_main_sweep/Super_main_sweep_00011
+  rotate: false
+  xy: 428, 1080
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_main_sweep/Super_main_sweep_00012
+  rotate: false
+  xy: 641, 1080
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_main_sweep/Super_main_sweep_00013
+  rotate: false
+  xy: 854, 1080
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_main_sweep/Super_main_sweep_00014
+  rotate: false
+  xy: 1067, 1080
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_main_sweep/Super_main_sweep_00015
+  rotate: false
+  xy: 1280, 1080
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_main_sweep/Super_main_sweep_00016
+  rotate: false
+  xy: 1493, 1064
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_main_sweep/Super_main_sweep_00017
+  rotate: false
+  xy: 1706, 1064
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_main_sweep/Super_main_sweep_00018
+  rotate: false
+  xy: 2, 1035
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_main_sweep/Super_main_sweep_00019
+  rotate: false
+  xy: 215, 1035
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_main_sweep/Super_main_sweep_00020
+  rotate: false
+  xy: 428, 1035
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_main_sweep/Super_main_sweep_00021
+  rotate: false
+  xy: 641, 1035
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_main_sweep/Super_main_sweep_00022
+  rotate: false
+  xy: 854, 1035
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_main_sweep/Super_main_sweep_00023
+  rotate: false
+  xy: 1067, 1035
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_main_sweep/Super_main_sweep_00024
+  rotate: false
+  xy: 1280, 1035
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_main_sweep/Super_main_sweep_00025
+  rotate: false
+  xy: 1493, 1019
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_main_sweep/Super_main_sweep_00026
+  rotate: false
+  xy: 1706, 1019
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_main_sweep/Super_main_sweep_00027
+  rotate: false
+  xy: 2, 990
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+03_font_sweep/Super_main_sweep/Super_main_sweep_00028
+  rotate: false
+  xy: 215, 990
+  size: 211, 43
+  orig: 211, 43
+  offset: 0, 0
+  index: -1
+

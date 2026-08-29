@@ -1,0 +1,8 @@
+{
+  "__type__": "cc.TextAsset",
+  "_name": "loading_page1_front.atlas",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "text": "\r\nloading_page1_front.webp\r\nsize: 2048,2048\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nInfo_shadow_bot_L\r\n  rotate: false\r\n  xy: 730, 479\r\n  size: 541, 99\r\n  orig: 541, 99\r\n  offset: 0, 0\r\n  index: -1\r\nfx_appear_light\r\n  rotate: false\r\n  xy: 2, 575\r\n  size: 726, 696\r\n  orig: 726, 696\r\n  offset: 0, 0\r\n  index: -1\r\nfx_appear_light_sym_add\r\n  rotate: false\r\n  xy: 730, 905\r\n  size: 362, 366\r\n  orig: 362, 366\r\n  offset: 0, 0\r\n  index: -1\r\nicon_08_wolf_3x3\r\n  rotate: false\r\n  xy: 730, 580\r\n  size: 318, 323\r\n  orig: 318, 323\r\n  offset: 0, 0\r\n  index: -1\r\nsupersed\r\n  rotate: false\r\n  xy: 1094, 1261\r\n  size: 10, 10\r\n  orig: 10, 10\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

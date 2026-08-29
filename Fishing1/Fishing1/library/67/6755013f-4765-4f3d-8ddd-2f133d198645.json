@@ -1,0 +1,32 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "vi",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "json": {
+    "MSG": {
+      "RE_LOGIN": "Vui lòng đăng nhập lại trò chơi",
+      "NOT_ENOUGH_CREDIT": "Sốdư không đủ",
+      "DISCONNECTED": "Mất kết nối với máy chủ",
+      "CATEGORY_MAINTAINED": "Đang bảo trì",
+      "LOBBYCLOSE": "Trò chơi này chưa mở, vui lòng đóng cửa sổ.",
+      "CANT_BET": "Hiện tại không thể đặt cược, vui lòng liên hệ với cấp trên.",
+      "RENT_NOT_OPEN": "Hệ thống điểm thuê chưa được mở.",
+      "ACC_DISABLED": "Tài khoản của bạn đã bị vô hiệu hóa, vui lòng liên hệ với nhà cung cấp game để giải quyết vấn đề.",
+      "NO_SERVICE": "Do hạn chế về vị trí của bạn.",
+      "DISCONNECT_IDLE": "Mạng bị ngắt, hãy khởi động lại game hoặc kiểm tra tình hình kết nối",
+      "TIMEOUT": "Kết nối quá giờ",
+      "GAMEPLAYERNOBALANCE": "Kính gửi quý khách hàng, số dư hiện tại của BBIN Casino là 0. Vui lòng truy cập \"Trung tâm Thành viên\" để kiểm tra số dư hoặc nạp tiền để kích hoạt các chức năng, cảm ơn bạn!",
+      "WAIT_EXCHANGING": "Đang đổi điểm, chờ giây lát",
+      "FE_BOSS_WAVE_ALERT": "Long Vương tiến về phía trước",
+      "BALANCE_IS_NOT_ENOUGH": "Sốdư không đủ",
+      "ALREADY_ENTERED": "Đã vào phòng.",
+      "NOT_FIND_RATIO": "Không thể tìm thấy hệ số phòng/ tỷ lệ đổi điểm.",
+      "NOT_FIND_CURRENCY": "Không thể tìm thấy loại tiền tệ.",
+      "NO_CREDIT_EXCHANGE": "Quá trình đổi điểm lỗi.",
+      "CANT_NOT_USE_PROPS": "Hiện tại không thể sử dụng vật phẩm này.",
+      "PROPS_NOT_ENOUGH": "Số lượng hàng trong kho không đủ"
+    }
+  }
+}

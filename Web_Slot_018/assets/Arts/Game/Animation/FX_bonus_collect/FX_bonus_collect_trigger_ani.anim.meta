@@ -1,0 +1,13 @@
+{
+  "ver": "2.0.3",
+  "importer": "animation-clip",
+  "imported": true,
+  "uuid": "aabed59b-d64c-482e-b72b-3ea72a47918c",
+  "files": [
+    ".cconb"
+  ],
+  "subMetas": {},
+  "userData": {
+    "name": "FX_bonus_collect_trigger_ani"
+  }
+}

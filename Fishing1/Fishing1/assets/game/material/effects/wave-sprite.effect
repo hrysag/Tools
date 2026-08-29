@@ -1,0 +1,129 @@
+// Copyright (c) 2017-2020 Xiamen Yaji Software Co., Ltd.
+CCEffect %{
+  techniques:
+  - passes:
+    - vert: sprite-vs:vert
+      frag: sprite-fs:frag  
+      depthStencilState:
+        depthTest: false
+        depthWrite: false
+      blendState:
+        targets:
+        - blend: true
+          blendSrc: src_alpha
+          blendDst: one_minus_src_alpha
+          blendDstAlpha: one_minus_src_alpha
+      rasterizerState:
+        cullMode: none
+      properties:
+        alphaThreshold: { value: 0.5 }
+        _waveTexture:    { value: white, editor: { parent: USE_TEXTURE } }
+        _waveBaseColor:      { value: [0.3, 0.3, 0.3, 1], editor: { type: color,parent: USE_TEXTURE }}
+        _tilling:       { value: 1, editor: { type: float ,parent: USE_TEXTURE } }
+        _speed:       { value: 0.1, editor: { type: float ,parent: USE_TEXTURE } }
+        _offset:       { value: [1,0], editor: { type: vec2 ,parent: USE_TEXTURE } }
+        u_resolution:       { value: [512,512], editor: { type: vec2 ,parent: USE_TEXTURE } }
+}%
+
+CCProgram sprite-vs %{
+  precision highp float;
+  #include <builtin/uniforms/cc-global>
+  
+  #if SAMPLE_FROM_RT
+    #include <common/common-define>
+  #endif
+  in vec3 a_position;
+  in vec2 a_texCoord;
+  in vec4 a_color;
+
+  out vec4 color;
+  out vec2 uv0;
+
+  vec4 vert () {
+    vec4 pos = vec4(a_position, 1);
+
+    #if USE_PIXEL_ALIGNMENT
+      pos = cc_matView * pos;
+      pos.xyz = floor(pos.xyz);
+      pos = cc_matProj * pos;
+    #else
+      pos = cc_matViewProj * pos;
+    #endif
+
+    uv0 = a_texCoord;
+    #if SAMPLE_FROM_RT
+      CC_HANDLE_RT_SAMPLE_FLIP(uv0);
+    #endif
+    color = a_color;
+
+    return pos;
+  }
+
+}%
+
+CCProgram sprite-fs %{
+  precision highp float;
+  #include <builtin/internal/embedded-alpha>
+  #include <builtin/internal/alpha-test>
+  #include <builtin/uniforms/cc-global>
+
+  uniform sampler2D _waveTexture;
+
+  uniform Constant {
+    vec4 _waveBaseColor;
+    vec2 _offset;
+    vec2 u_resolution;
+    float _tilling;
+    float _speed;
+  };
+
+  in vec4 color;
+
+  #if USE_TEXTURE
+    in vec2 uv0;
+    #pragma builtin(local)
+    layout(set = 2, binding = 11) uniform sampler2D cc_spriteTexture;
+  #endif
+
+  //水波紋顏色
+  vec4 waveColor () {
+    vec2 uv;
+    float size;
+    if(u_resolution.x > u_resolution.y)
+      size = u_resolution.y;
+    else
+      size = u_resolution.x;
+    uv = vec2(gl_FragCoord.xy / size);//畫面UV/螢幕短邊尺寸
+    vec2 offset = _offset * _speed * cc_time.x;//水平移動
+    vec4 wColor = texture(_waveTexture , uv * _tilling + offset);
+    wColor = wColor * _waveBaseColor;
+    return wColor;
+  }
+
+  vec4 frag () {
+    vec4 o = vec4(1, 1, 1, 1);
+
+    #if USE_TEXTURE
+      o *= CCSampleWithAlphaSeparated(cc_spriteTexture, uv0);
+      float r = color.x-(color.y+color.z)*0.5;//紅色參數轉換
+      if(r>=0.0) //紅色參數大於0才執行紅色疊加
+        o = o*(1.0+r)+vec4(r,0.0,0.0,0.0);//設置紅色疊加效果
+      #if IS_GRAY
+        float gray  = 0.2126 * o.r + 0.7152 * o.g + 0.0722 * o.b;
+        o.r = o.g = o.b = gray;
+      #endif 
+    #endif
+    
+    o *= color;
+    #if USE_TEXTURE
+      if(color.xyz != vec3(0.0,0.0,0.0)){
+        vec4 wColor = waveColor();
+        o.rgb += wColor.rgb;//水波紋寫入貼圖rgb內
+      }
+    #endif
+
+
+    ALPHA_TEST(o);
+    return o;
+  }
+}%

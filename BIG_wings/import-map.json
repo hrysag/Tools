@@ -1,0 +1,6 @@
+{
+    "imports": {
+        "@casino-mono/mvc": "./assets/game/BigWings/script/framework/mvc/index.ts",
+        "@casino-mono/share-tools": "./assets/game/BigWings/script/framework/share-tools/index.ts"
+    }
+}

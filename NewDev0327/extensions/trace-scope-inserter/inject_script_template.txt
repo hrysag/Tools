@@ -1,0 +1,327 @@
+/**
+ * CONFIG 內容
+ * 定義所有會進行 monkey patch 的腳本名稱、有 traceKey 的方法名稱、Bundle 資訊等
+ */
+<<window.__UNIT_TEST_CONFIG__ replace content>>
+
+/**
+ * import __UNIT_TEST_CONFIG__, __TRACE_MANAGER__
+ * 在遊戲初始化前進行 monkey patch，為每一個目標腳本底下的方法注入 TraceManager
+ */
+window.__MONKEY_PATCH__ = {
+    patchSystemRegister: () => {
+        const rawRegister = System.register;
+
+        System.register = function (id, deps, declare) {
+            return rawRegister.call(this, id, deps, function (exports, context) {
+                const declaration = declare(exports, context);
+
+                if (!declaration || typeof declaration.execute !== 'function') return declaration;
+
+                const isTarget = window.__UNIT_TEST_CONFIG__.targetScripts.some(name => id.includes(name));
+                if (!isTarget) return declaration;
+
+                const rawExecute = declaration.execute;
+                declaration.execute = function () {
+                    try {
+                        window.__MONKEY_PATCH__.patchMethod(id);
+                    } catch (e) {
+                        console.error('[MonkeyPatch]', e);
+                    }
+
+                    // 執行原本模組
+                    const result = rawExecute.apply(this, arguments);
+                    return result;
+                };
+
+                return declaration;
+            });
+        };
+    },
+    patchMethod: (id) => {
+        const target = id.match(/_virtual\/(.+?)\.ts$/)[1];
+        System.import(id).then(m => {
+            const cls = m[target];
+
+            const methods = Object.keys(cls.prototype);
+            methods.forEach((method) => {
+                const rawMethod = cls.prototype[method];
+                if (method === 'constructor' || typeof rawMethod !== 'function') {
+                    return;
+                }
+                if (window.__UNIT_TEST_CONFIG__.ignoreSet.includes(`${target}.${method}`)) {
+                    return;
+                }
+
+                const needOutputLog = window.__UNIT_TEST_CONFIG__.toJsonSet.includes(`${target}.${method}`);
+                const toJSON = needOutputLog ? window.__TRACE_MANAGER__.toJSON : null;
+
+                cls.prototype[method] = function (...args) {
+                    const traceNode = window.__TRACE_MANAGER__.start(method, target);
+                    window.__TRACE_MANAGER__.checkRegisterCoverageClass(target, methods);
+
+                    let result;
+                    try {
+                        result = rawMethod.apply(this, args);
+                    } catch (e) {
+                        window.__TRACE_MANAGER__.end();
+                        toJSON?.(traceNode);
+                        throw e;
+                    }
+
+                    if (result && typeof result.then === 'function') {
+                        // 1. 立即退出 Context (避免 Promise.all Sibling 誤判)
+                        // 注意: Promise.patch 會確保 children 在正確的 context下執行
+                        window.__TRACE_MANAGER__.end();
+
+                        return result.finally(() => {
+                            // 2. 僅更新時間 (Async 結束)
+                            window.__TRACE_MANAGER__.end(traceNode);
+                            toJSON?.(traceNode);
+                        });
+                    }
+
+                    window.__TRACE_MANAGER__.end();
+                    toJSON?.(traceNode);
+                    return result;
+                }
+            });
+        });
+    }
+}
+
+/**
+ * Context Manager & Promise Patch
+ * 用於解決非同步呼叫 (Promise.all) 中的 Context 丟失與錯亂問題
+ */
+window.__CONTEXT_MANAGER__ = {
+    _stack: [],
+
+    get() {
+        return this._stack.length > 0 ? this._stack[this._stack.length - 1] : null;
+    },
+
+    enter(context) {
+        this._stack.push(context);
+    },
+
+    exit() {
+        this._stack.pop();
+    },
+
+    // 執行帶有特定 Context 的 callback (Zone-like)
+    runWithContext(context, callback) {
+        this.enter(context);
+        try {
+            return callback();
+        } finally {
+            this.exit();
+        }
+    },
+
+    patchPromise() {
+        if (window.Promise.__patched) return;
+
+        const OriginalThen = window.Promise.prototype.then;
+        const ContextManager = window.__CONTEXT_MANAGER__;
+
+        window.Promise.prototype.then = function (onFulfilled, onRejected) {
+            const context = ContextManager.get();
+
+            const wrappedFulfilled = onFulfilled ? function (...args) {
+                if (context) {
+                    return ContextManager.runWithContext(context, () => {
+                        return onFulfilled.apply(this, args);
+                    });
+                }
+                return onFulfilled.apply(this, args);
+            } : undefined;
+
+            const wrappedRejected = onRejected ? function (...args) {
+                if (context) {
+                    return ContextManager.runWithContext(context, () => {
+                        return onRejected.apply(this, args);
+                    });
+                }
+                return onRejected.apply(this, args);
+            } : undefined;
+
+            return OriginalThen.call(this, wrappedFulfilled, wrappedRejected);
+        };
+
+        // 標記已 Patch
+        window.Promise.__patched = true;
+    }
+};
+
+/**
+ * import __BUNDLE_LOADER__
+ * TraceManager 本體，透過 enter 和 exit 追蹤程式碼執行鏈
+ */
+window.__TRACE_MANAGER__ = {
+    methodMap: new Map(),
+    rootMap: new Map(),
+    result: [],
+    stack: [], // 用於維持 JSON 結構的 Children 關係
+
+    start(name, instanceName) {
+        // 從 Context Manager 獲取真實的 Parent (處理了 Async 恢復)
+        const parent = window.__CONTEXT_MANAGER__.get();
+
+        const node = {
+            target: instanceName,
+            function: name,
+            mode: parent ? 'async' : 'sync',
+            count: 1,
+            const: 0,
+            _start: Date.now(),
+            children: [],
+        }
+
+        if (parent) {
+            parent.children.push(node);
+        }
+
+        // 推入 TraceStack (結構用)
+        this.stack.push(node);
+        // 推入 ContextManager (邏輯用)
+        window.__CONTEXT_MANAGER__.enter(node);
+
+        return node;
+    },
+
+    end(traceNode = null) {
+        if (traceNode) {
+            // 僅更新時間模式 (用於 Async finally)
+            traceNode.cost = Date.now() - traceNode._start;
+            return traceNode;
+        }
+
+        // 正常結束模式 (Sync)
+        // 從 ContextManager 退出
+        window.__CONTEXT_MANAGER__.exit();
+
+        // 從 TraceStack 退出
+        const node = this.stack.pop();
+
+        if (node) {
+            node.cost = Date.now() - node._start;
+        }
+        return node;
+    },
+
+    toJSON: (trace) => {
+        const object = window.__TRACE_MANAGER__.toJSONObject(trace);
+        if (window.__BUNDLE_LOADER__.logViewUIInstance) {
+            window.__BUNDLE_LOADER__.logViewUIInstance.addFunctionLogData([object]);
+        } else {
+            window.__TRACE_MANAGER__.result.push(object);
+        }
+    },
+    toJSONObject: (trace) => {
+        const children = [];
+        for (let i = 0; i < trace.children.length; i++) {
+            const child = trace.children[i];
+            children.push(window.__TRACE_MANAGER__.toJSONObject(child));
+        }
+        return {
+            target: trace.target,
+            function: trace.function,
+            mode: trace.mode,
+            count: trace.count,
+            cost: trace.cost.toFixed(2),
+            children: children,
+        };
+    },
+    checkRegisterCoverageClass: (target, methods) => {
+        if (!window.__TRACE_MANAGER__.methodMap.has(target)) {
+            window.__TRACE_MANAGER__.methodMap.set(target, methods);
+            if (window.__BUNDLE_LOADER__.logViewUIInstance) {
+                window.__BUNDLE_LOADER__.logViewUIInstance.registerClass(target, methods);
+            }
+        }
+    },
+    insertDataWhenLogViewUILoaded: () => {
+        window.__TRACE_MANAGER__.methodMap.forEach((methods, target) => {
+            window.__BUNDLE_LOADER__.logViewUIInstance.registerClass(target, methods);
+        });
+        window.__TRACE_MANAGER__.result.forEach((node) => {
+            window.__BUNDLE_LOADER__.logViewUIInstance.addFunctionLogData([node]);
+        });
+        window.__TRACE_MANAGER__.result = [];
+    }
+}
+
+/**
+ * import __UNIT_TEST_CONFIG__
+ * 用來載入 LogViewUI 的 bundle
+ */
+window.__BUNDLE_LOADER__ = {
+    logViewUIInstance: null,
+    loadBundle: async () => {
+        const addLogViewUI = async () => {
+            return new Promise((resolve, reject) => {
+                cc.assetManager.loadBundle(window.__UNIT_TEST_CONFIG__.bundleUrl, {}, (error, bundle) => {
+                    if (error) {
+                        console.error(error);
+                        reject(error);
+                    } else {
+                        bundle.load(window.__UNIT_TEST_CONFIG__.bundlePrefabPath, (error, prefab) => {
+                            const inst = cc.instantiate(prefab);
+                            const canvasNode = cc.director.getScene().getComponentInChildren(cc.Canvas).node;
+                            canvasNode.addChild(inst);
+                            resolve();
+                        });
+                    }
+                });
+            });
+        }
+
+        const waitPromise = async (time) => {
+            return new Promise((resolve, reject) => {
+                setTimeout(() => {
+                    resolve();
+                }, time * 1000);
+            });
+        }
+
+        if (window.__UNIT_TEST_CONFIG__.logViewUIInstance) return;
+        await addLogViewUI();
+        await waitPromise(0.1);
+        const logViewModule = await System.import('chunks:///_virtual/LogViewMainUI.ts');
+        const logViewMainUIClass = logViewModule['LogViewMainUI'];
+        const logViewMainUIComponent = cc.director.getScene().getComponentInChildren(logViewMainUIClass);
+        window.__BUNDLE_LOADER__.logViewUIInstance = logViewMainUIComponent;
+    }
+}
+
+const waitForSystem = () => {
+    if (typeof System === 'undefined' || !System.register) {
+        // SystemJS 還沒掛上，下一個 tick 再試
+        setTimeout(waitForSystem, 0);
+        return;
+    }
+    window.__UNIT_TEST_CONFIG__.initConfig();
+    window.__MONKEY_PATCH__.patchSystemRegister();
+};
+
+const waitForDirector = () => {
+    if (typeof cc === 'undefined' || !cc.director) {
+        setTimeout(waitForDirector, 0);
+        return;
+    }
+    cc.director.on(
+        window.cc.Director.EVENT_AFTER_SCENE_LAUNCH,
+        async (scene) => {
+            if (!scene.name.includes('Start')) {
+                await window.__BUNDLE_LOADER__.loadBundle();
+                window.__TRACE_MANAGER__.insertDataWhenLogViewUILoaded();
+            }
+        }
+    );
+}
+
+// 立即執行 Patch
+window.__CONTEXT_MANAGER__.patchPromise();
+waitForSystem();
+waitForDirector();

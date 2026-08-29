@@ -1,0 +1,32 @@
+2026-4-23 02:38:39 - log: Load engine in C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine
+2026-4-23 02:38:40 - log: Profile changed: engine (modules.includeModules: 2d,3d,animation,audio,base,gfx-webgl,meshopt,particle,primitive,profiler,spine,tween,ui,websocket,webview)
+2026-4-23 02:38:40 - log: Register native engine in C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\native
+2026-4-23 02:38:40 - log: Request namespace: device-list
+2026-4-23 02:39:00 - log: [Scene] meshopt wasm decoder initialized
+2026-4-23 02:39:00 - log: [Scene] [box2d]:box2d wasm lib loaded.
+2026-4-23 02:39:01 - log: [Scene] [bullet]:bullet wasm lib loaded.
+2026-4-23 02:39:01 - log: [Scene] [PHYSICS]: using builtin.
+2026-4-23 02:39:01 - log: [Scene] Cocos Creator v3.8.3
+2026-4-23 02:39:01 - info: [Scene] Forward render pipeline initialized.
+2026-4-23 02:39:05 - warn: [Scene] 'LocalizationButtonExtension.resourcePath' hides inherited property 'LocalizationButton.resourcePath'. To make the current property override that implementation, add the `override: true` attribute please.Error: [Scene] 'LocalizationButtonExtension.resourcePath' hides inherited property 'LocalizationButton.resourcePath'. To make the current property override that implementation, add the `override: true` attribute please.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148211:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148393:5)
+    at preprocessAttrs (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:274175:11)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:125648:7)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:125677:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:272065:21)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:273076:18)
+2026-4-23 02:39:05 - log: [Scene] No need to specify the "type" of "FG_BonusCountTimes._bonusTimes_cnTw" because cc.Vec2 is a child class of ValueType.
+2026-4-23 02:39:05 - log: [Scene] No need to specify the "type" of "FG_BonusCountTimes._bonusTimes_cnEn" because cc.Vec2 is a child class of ValueType.
+2026-4-23 02:39:05 - log: [Scene] No need to specify the "type" of "FG_BonusCountTimes._bonusTimes_Title_cnTw" because cc.Vec2 is a child class of ValueType.
+2026-4-23 02:39:05 - log: [Scene] No need to specify the "type" of "FG_BonusCountTimes._bonusTimes_Title_cnEn" because cc.Vec2 is a child class of ValueType.
+2026-4-23 02:39:07 - log: [Scene] No need to specify the "type" of "GameReel018._reelNGPos" because cc.Vec3 is a child class of ValueType.
+2026-4-23 02:39:07 - log: [Scene] No need to specify the "type" of "GameReel018._reelFGPos" because cc.Vec3 is a child class of ValueType.
+2026-4-23 02:39:09 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to builtin.
+2026-4-23 02:39:13 - log: [Scene] Spine: Animation not found: <None>
+2026-4-23 02:39:13 - log: [Scene] Spine: Animation not found: <None>
+2026-4-23 02:44:23 - log: [Window] UUID  已被复制：    ef7f4919-b803-4273-8ffd-4d378bbf222d  ,  压缩的 UUID：    ef7f4kZuANCc4/9TTeLvyIt
+2026-4-23 02:46:08 - log: [Scene] Spine: Animation not found: <None>
+2026-4-23 02:46:08 - log: [Scene] Spine: Animation not found: <None>
+2026-4-23 02:47:17 - log: [Scene] Spine: Animation not found: <None>
+2026-4-23 02:47:17 - log: [Scene] Spine: Animation not found: <None>

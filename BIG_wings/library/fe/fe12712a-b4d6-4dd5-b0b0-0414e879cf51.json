@@ -1,0 +1,1612 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "prz_win_bg",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "2MLjvm6aKMhe0nIjOYi3I4jLuAQ",
+      "spine": "3.7.94",
+      "width": 1959.78,
+      "height": 1497.5
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "background_painting",
+        "parent": "root"
+      },
+      {
+        "name": "background_cloud_comp",
+        "parent": "root",
+        "y": -850
+      },
+      {
+        "name": "background_cloud",
+        "parent": "background_cloud_comp",
+        "x": 264.89,
+        "y": 169.66,
+        "scaleX": 2,
+        "scaleY": 2
+      },
+      {
+        "name": "background_cloud2",
+        "parent": "background_cloud_comp",
+        "x": 7.85,
+        "y": 123.15,
+        "scaleX": 1.5,
+        "scaleY": 1.5
+      },
+      {
+        "name": "background_cloud3",
+        "parent": "background_cloud_comp",
+        "x": -181.87,
+        "y": 132.94,
+        "scaleX": 1.5,
+        "scaleY": 1.5
+      },
+      {
+        "name": "background_cloud4",
+        "parent": "background_cloud_comp",
+        "x": -469.51,
+        "y": 174.55,
+        "scaleX": 2,
+        "scaleY": 2
+      },
+      {
+        "name": "background_cloud5",
+        "parent": "background_cloud_comp",
+        "x": -350.78,
+        "y": 137.72,
+        "scaleX": 3,
+        "scaleY": 3
+      },
+      {
+        "name": "background_cloud6",
+        "parent": "background_cloud_comp",
+        "x": 494.65,
+        "y": 316.53,
+        "scaleX": 3,
+        "scaleY": 3
+      },
+      {
+        "name": "background_cloud7",
+        "parent": "background_cloud_comp",
+        "x": 397.43,
+        "y": 162.03,
+        "scaleX": 3,
+        "scaleY": 3
+      },
+      {
+        "name": "background_cloud8",
+        "parent": "background_cloud_comp",
+        "x": -14.85,
+        "y": 77.07,
+        "scaleX": 7,
+        "scaleY": 4
+      },
+      {
+        "name": "background_cloud9",
+        "parent": "background_cloud_comp",
+        "x": -635.13,
+        "y": 187.03,
+        "scaleX": -7,
+        "scaleY": 4
+      }
+    ],
+    "slots": [
+      {
+        "name": "background2_painting",
+        "bone": "background_painting",
+        "attachment": "background2_painting"
+      },
+      {
+        "name": "background3_painting",
+        "bone": "background_painting",
+        "attachment": "background3_painting"
+      },
+      {
+        "name": "background_cloud",
+        "bone": "background_cloud",
+        "attachment": "background_cloud"
+      },
+      {
+        "name": "background_cloud8",
+        "bone": "background_cloud8",
+        "color": "ffffff64",
+        "attachment": "background_cloud"
+      },
+      {
+        "name": "background_cloud9",
+        "bone": "background_cloud9",
+        "color": "ffffff64",
+        "attachment": "background_cloud"
+      },
+      {
+        "name": "background_cloud2",
+        "bone": "background_cloud2",
+        "attachment": "background_cloud"
+      },
+      {
+        "name": "background_cloud4",
+        "bone": "background_cloud4",
+        "attachment": "background_cloud"
+      },
+      {
+        "name": "background_cloud5",
+        "bone": "background_cloud5",
+        "color": "ffffff78",
+        "attachment": "background_cloud"
+      },
+      {
+        "name": "background_cloud6",
+        "bone": "background_cloud6",
+        "color": "ffffff78",
+        "attachment": "background_cloud"
+      },
+      {
+        "name": "background_cloud7",
+        "bone": "background_cloud7",
+        "color": "ffffff78",
+        "attachment": "background_cloud"
+      },
+      {
+        "name": "background_cloud3",
+        "bone": "background_cloud3",
+        "color": "ffffff78",
+        "attachment": "background_cloud"
+      }
+    ],
+    "skins": {
+      "default": {
+        "background2_painting": {
+          "background2_painting": {
+            "y": -125.5,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 541,
+            "height": 662
+          }
+        },
+        "background3_painting": {
+          "background3_painting": {
+            "y": -567,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 541,
+            "height": 394
+          }
+        },
+        "background_cloud": {
+          "background_cloud": {
+            "x": 0.5,
+            "width": 165,
+            "height": 72
+          }
+        },
+        "background_cloud2": {
+          "background_cloud": {
+            "x": 0.5,
+            "width": 165,
+            "height": 72
+          }
+        },
+        "background_cloud3": {
+          "background_cloud": {
+            "x": 0.5,
+            "y": -1.63,
+            "width": 165,
+            "height": 72
+          }
+        },
+        "background_cloud4": {
+          "background_cloud": {
+            "x": 0.5,
+            "width": 165,
+            "height": 72
+          }
+        },
+        "background_cloud5": {
+          "background_cloud": {
+            "x": 0.5,
+            "width": 165,
+            "height": 72
+          }
+        },
+        "background_cloud6": {
+          "background_cloud": {
+            "x": 0.5,
+            "width": 165,
+            "height": 72
+          }
+        },
+        "background_cloud7": {
+          "background_cloud": {
+            "x": 0.5,
+            "width": 165,
+            "height": 72
+          }
+        },
+        "background_cloud8": {
+          "background_cloud": {
+            "x": 0.5,
+            "width": 165,
+            "height": 72
+          }
+        },
+        "background_cloud9": {
+          "background_cloud": {
+            "x": 0.5,
+            "width": 165,
+            "height": 72
+          }
+        }
+      }
+    },
+    "animations": {
+      "big_win_begin": {
+        "slots": {
+          "background2_painting": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "background3_painting": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "background_cloud": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "background_cloud2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "background_cloud3": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "background_cloud4": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "background_cloud5": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "background_cloud6": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "background_cloud7": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "background_cloud8": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "background_cloud9": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        }
+      },
+      "big_win_loop": {
+        "slots": {
+          "background2_painting": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "background3_painting": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "background_cloud": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "background_cloud2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "background_cloud3": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "background_cloud4": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "background_cloud5": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "background_cloud6": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "background_cloud7": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "background_cloud8": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "background_cloud9": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        }
+      },
+      "mega_win_begin": {
+        "slots": {
+          "background2_painting": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffffa0"
+              }
+            ]
+          },
+          "background3_painting": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "background_cloud": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "background_cloud2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "background_cloud3": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "background_cloud4": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "background_cloud5": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "background_cloud6": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "background_cloud7": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "background_cloud8": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "background_cloud9": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "background_painting": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.6667,
+                "x": 0,
+                "y": 110.5,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        }
+      },
+      "mega_win_loop": {
+        "slots": {
+          "background2_painting": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffa0"
+              }
+            ]
+          },
+          "background3_painting": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "background_cloud": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "background_cloud2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "background_cloud3": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "background_cloud4": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "background_cloud5": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "background_cloud6": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "background_cloud7": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "background_cloud8": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "background_cloud9": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        }
+      },
+      "super_win_begin": {
+        "slots": {
+          "background2_painting": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffa0",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.9333,
+                "color": "ffffffa0"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "background3_painting": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.9333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "background_cloud": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "background_cloud2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "background_cloud3": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff78"
+              }
+            ]
+          },
+          "background_cloud4": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "background_cloud5": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff78"
+              }
+            ]
+          },
+          "background_cloud6": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff78"
+              }
+            ]
+          },
+          "background_cloud7": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff78"
+              }
+            ]
+          },
+          "background_cloud8": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff64"
+              }
+            ]
+          },
+          "background_cloud9": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              },
+              {
+                "time": 1.5,
+                "color": "ffffff64"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "background_cloud7": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 9.92,
+                "curve": [
+                  0.381,
+                  0.55,
+                  0.742,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.1667,
+                "x": 0,
+                "y": 26.96,
+                "curve": [
+                  0.245,
+                  0,
+                  0.637,
+                  0.56
+                ]
+              },
+              {
+                "time": 1.6667,
+                "x": 0,
+                "y": 9.92
+              }
+            ]
+          },
+          "background_cloud8": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 14.87,
+                "curve": [
+                  0.381,
+                  0.55,
+                  0.742,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.1667,
+                "x": 0,
+                "y": 40.42,
+                "curve": [
+                  0.245,
+                  0,
+                  0.637,
+                  0.56
+                ]
+              },
+              {
+                "time": 1.6667,
+                "x": 0,
+                "y": 14.87
+              }
+            ]
+          },
+          "background_cloud6": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 17.04,
+                "curve": [
+                  0.363,
+                  0.44,
+                  0.755,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3333,
+                "x": 0,
+                "y": 26.96,
+                "curve": [
+                  0.258,
+                  0,
+                  0.619,
+                  0.45
+                ]
+              },
+              {
+                "time": 1.6667,
+                "x": 0,
+                "y": 17.04
+              }
+            ]
+          },
+          "background_cloud5": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 43.08,
+                "curve": [
+                  0.32,
+                  0.29,
+                  0.757,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.5,
+                "x": 0,
+                "y": 49.52,
+                "curve": [
+                  0.284,
+                  0,
+                  0.625,
+                  0.38
+                ]
+              },
+              {
+                "time": 1.6667,
+                "x": 0,
+                "y": 43.08
+              }
+            ]
+          },
+          "background_cloud4": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 14.8,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8333,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.6667,
+                "x": 0,
+                "y": 14.8
+              }
+            ]
+          },
+          "background_painting": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.9333,
+                "x": 0,
+                "y": -53.49,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.4,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "background_cloud": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8333,
+                "x": 0,
+                "y": 14.8,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.6667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "background_cloud2": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 7.79,
+                "curve": [
+                  0.373,
+                  0.49,
+                  0.751,
+                  1
+                ]
+              },
+              {
+                "time": 0.4333,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.2667,
+                "x": 0,
+                "y": 14.8,
+                "curve": [
+                  0.251,
+                  0,
+                  0.623,
+                  0.49
+                ]
+              },
+              {
+                "time": 1.6667,
+                "x": 0,
+                "y": 7.79
+              }
+            ]
+          },
+          "background_cloud3": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 1.93,
+                "curve": [
+                  0.375,
+                  0.62,
+                  0.716,
+                  1
+                ]
+              },
+              {
+                "time": 0.1667,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 0,
+                "y": 14.8,
+                "curve": [
+                  0.243,
+                  0,
+                  0.68,
+                  0.71
+                ]
+              },
+              {
+                "time": 1.6667,
+                "x": 0,
+                "y": 1.93
+              }
+            ]
+          },
+          "background_cloud9": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 71.74,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8333,
+                "x": 0,
+                "y": -9.13,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.6667,
+                "x": 71.74,
+                "y": 0
+              }
+            ]
+          },
+          "background_cloud_comp": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 0,
+                "y": -49.67,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.5,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        }
+      },
+      "super_win_loop": {
+        "bones": {
+          "background_cloud": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8333,
+                "x": 0,
+                "y": 14.8,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.6667,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "background_cloud2": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 7.79,
+                "curve": [
+                  0.373,
+                  0.49,
+                  0.751,
+                  1
+                ]
+              },
+              {
+                "time": 0.4333,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.2667,
+                "x": 0,
+                "y": 14.8,
+                "curve": [
+                  0.251,
+                  0,
+                  0.623,
+                  0.49
+                ]
+              },
+              {
+                "time": 1.6667,
+                "x": 0,
+                "y": 7.79
+              }
+            ]
+          },
+          "background_cloud3": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 1.93,
+                "curve": [
+                  0.375,
+                  0.62,
+                  0.716,
+                  1
+                ]
+              },
+              {
+                "time": 0.1667,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 0,
+                "y": 14.8,
+                "curve": [
+                  0.243,
+                  0,
+                  0.68,
+                  0.71
+                ]
+              },
+              {
+                "time": 1.6667,
+                "x": 0,
+                "y": 1.93
+              }
+            ]
+          },
+          "background_cloud4": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 14.8,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8333,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.6667,
+                "x": 0,
+                "y": 14.8
+              }
+            ]
+          },
+          "background_cloud5": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 43.08,
+                "curve": [
+                  0.32,
+                  0.29,
+                  0.757,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.5,
+                "x": 0,
+                "y": 49.52,
+                "curve": [
+                  0.284,
+                  0,
+                  0.625,
+                  0.38
+                ]
+              },
+              {
+                "time": 1.6667,
+                "x": 0,
+                "y": 43.08
+              }
+            ]
+          },
+          "background_cloud6": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 17.04,
+                "curve": [
+                  0.363,
+                  0.44,
+                  0.755,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3333,
+                "x": 0,
+                "y": 26.96,
+                "curve": [
+                  0.258,
+                  0,
+                  0.619,
+                  0.45
+                ]
+              },
+              {
+                "time": 1.6667,
+                "x": 0,
+                "y": 17.04
+              }
+            ]
+          },
+          "background_cloud7": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 9.92,
+                "curve": [
+                  0.381,
+                  0.55,
+                  0.742,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.1667,
+                "x": 0,
+                "y": 26.96,
+                "curve": [
+                  0.245,
+                  0,
+                  0.637,
+                  0.56
+                ]
+              },
+              {
+                "time": 1.6667,
+                "x": 0,
+                "y": 9.92
+              }
+            ]
+          },
+          "background_cloud8": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 14.87,
+                "curve": [
+                  0.381,
+                  0.55,
+                  0.742,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.1667,
+                "x": 0,
+                "y": 40.42,
+                "curve": [
+                  0.245,
+                  0,
+                  0.637,
+                  0.56
+                ]
+              },
+              {
+                "time": 1.6667,
+                "x": 0,
+                "y": 14.87
+              }
+            ]
+          },
+          "background_cloud9": {
+            "translate": [
+              {
+                "time": 0,
+                "x": 71.74,
+                "y": 0,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8333,
+                "x": 0,
+                "y": -9.13,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.6667,
+                "x": 71.74,
+                "y": 0
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "textures": [
+    {
+      "__uuid__": "940d0135-4ba2-4eb9-982d-f8775e23c8e6@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "prz_win_bg.png"
+  ],
+  "scale": 1,
+  "_atlasText": "\r\nprz_win_bg.png\r\nsize: 1024,512\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nbackground2_painting\r\n  rotate: false\r\n  xy: 2, 47\r\n  size: 325, 397\r\n  orig: 325, 397\r\n  offset: 0, 0\r\n  index: -1\r\nbackground3_painting\r\n  rotate: false\r\n  xy: 329, 208\r\n  size: 325, 236\r\n  orig: 325, 236\r\n  offset: 0, 0\r\n  index: -1\r\nbackground_cloud\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 99, 43\r\n  orig: 99, 43\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

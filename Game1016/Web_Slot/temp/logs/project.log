@@ -1,0 +1,120 @@
+2026-4-23 02:36:59 - log: Load engine in C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine
+2026-4-23 02:37:00 - log: Profile changed: engine (modules.includeModules: 2d,3d,animation,audio,base,gfx-webgl,marionette,meshopt,particle,particle-2d,primitive,profiler,skeletal-animation,spine,tween,ui,video,websocket,webview)
+2026-4-23 02:37:00 - log: Register native engine in C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\native
+2026-4-23 02:37:01 - log: Request namespace: device-list
+2026-4-23 02:37:15 - log: [custom-extension-manager]: ✅ 所有插件的映射檔案刷新完成
+2026-4-23 02:37:38 - log: [Scene] meshopt wasm decoder initialized
+2026-4-23 02:37:38 - log: [Scene] [box2d]:box2d wasm lib loaded.
+2026-4-23 02:37:38 - log: [Scene] [bullet]:bullet wasm lib loaded.
+2026-4-23 02:37:38 - log: [Scene] [PHYSICS]: using builtin.
+2026-4-23 02:37:38 - error: [Assets] Cannot find module 'fs-extra'
+Require stack:
+- D:\wanin\完成\Game1016\Web_Slot\extensions\build-plugin-template\dist\asset-handlers.js
+- C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\creator\dist\module\protected\public.ccc
+- C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\creator\dist\module\protected\index.ccc
+- C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\creator\dist\module\index.ccc
+- C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\editor\preload.js
+- C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\index.ccc
+- C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@base\electron-worker\static\script.ccc
+- C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@base\electron-worker\static\worker.htmlError: Cannot find module 'fs-extra'
+Require stack:
+- D:\wanin\完成\Game1016\Web_Slot\extensions\build-plugin-template\dist\asset-handlers.js
+- C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\creator\dist\module\protected\public.ccc
+- C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\creator\dist\module\protected\index.ccc
+- C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\creator\dist\module\index.ccc
+- C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\editor\preload.js
+- C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\index.ccc
+- C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@base\electron-worker\static\script.ccc
+- C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@base\electron-worker\static\worker.html
+    at Module._resolveFilename (internal/modules/cjs/loader.js:887:15)
+    at o._resolveFilename (electron/js2c/renderer_init.js:33:917)
+    at Function.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\fix-electron-require\index.js:7:24)
+    at Function._resolveFilename (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\cc\preload.ts:109:46)
+    at Module._load (internal/modules/cjs/loader.js:732:27)
+    at Function.f._load (electron/js2c/asar_bundle.js:5:12913)
+    at Function._load (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\cc\preload.ts:127:35)
+    at Module.require (internal/modules/cjs/loader.js:959:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (D:\wanin\完成\Game1016\Web_Slot\extensions\build-plugin-template\dist\asset-handlers.js:13:20)
+2026-4-23 02:37:38 - error: [Assets] register plugin build-plugin-template in build worker failed![Assets] register plugin build-plugin-template in build worker failed!  
+at Object.error (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\console.ccc:1:1409)  
+at PluginManager.register (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\builder\dist\worker\plugin.ccc:1:1411)  
+at C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\builder\dist\worker\plugin.ccc:1:645  
+at Array.map (<anonymous>)  
+at PluginManager.init (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\builder\dist\worker\plugin.ccc:1:633)  
+at initBuildEnv (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\builder\dist\worker\index.ccc:1:2569)
+2026-4-23 02:37:39 - log: [Scene] Cocos Creator v3.8.3
+2026-4-23 02:37:39 - info: [Scene] Forward render pipeline initialized.
+2026-4-23 02:37:44 - warn: [Scene] No needs to indicate the 'cc.String' attribute for "AnimationState.customStateName", which its default value is type of String.Error: [Scene] No needs to indicate the 'cc.String' attribute for "AnimationState.customStateName", which its default value is type of String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148211:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148393:5)
+    at Array.eval (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:273445:11)
+    at defineProp (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:125491:27)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:125652:11)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:125677:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:272065:21)
+2026-4-23 02:37:44 - warn: [Scene] No needs to indicate the 'cc.Boolean' attribute for "SpineController._useDefaultInit", which its default value is type of Boolean.Error: [Scene] No needs to indicate the 'cc.Boolean' attribute for "SpineController._useDefaultInit", which its default value is type of Boolean.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148211:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148393:5)
+    at Array.eval (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:273445:11)
+    at defineProp (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:125491:27)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:125652:11)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:125677:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:272065:21)
+2026-4-23 02:37:44 - warn: [Scene] No needs to indicate the 'cc.String' attribute for "SpineMultiPropertyDef.key", which its default value is type of String.Error: [Scene] No needs to indicate the 'cc.String' attribute for "SpineMultiPropertyDef.key", which its default value is type of String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148211:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148393:5)
+    at Array.eval (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:273445:11)
+    at defineProp (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:125491:27)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:125652:11)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:125677:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:272065:21)
+2026-4-23 02:37:44 - warn: [Scene] No needs to indicate the 'cc.Boolean' attribute for "AbstractBasicGameController._isLocalTest", which its default value is type of Boolean.Error: [Scene] No needs to indicate the 'cc.Boolean' attribute for "AbstractBasicGameController._isLocalTest", which its default value is type of Boolean.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148211:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148393:5)
+    at Array.eval (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:273445:11)
+    at defineProp (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:125491:27)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:125652:11)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:125677:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:272065:21)
+2026-4-23 02:37:44 - warn: [Scene] No needs to indicate the 'cc.Boolean' attribute for "AbstractBasicGameController._useBuyFeature", which its default value is type of Boolean.Error: [Scene] No needs to indicate the 'cc.Boolean' attribute for "AbstractBasicGameController._useBuyFeature", which its default value is type of Boolean.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148211:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148393:5)
+    at Array.eval (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:273445:11)
+    at defineProp (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:125491:27)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:125652:11)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:125677:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:272065:21)
+2026-4-23 02:37:44 - warn: [Scene] No needs to indicate the 'cc.String' attribute for "WildMoveFXCtrl._wildMoveAnimationPrefabId", which its default value is type of String.Error: [Scene] No needs to indicate the 'cc.String' attribute for "WildMoveFXCtrl._wildMoveAnimationPrefabId", which its default value is type of String.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148211:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148393:5)
+    at Array.eval (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:273445:11)
+    at defineProp (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:125491:27)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:125652:11)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:125677:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:272065:21)
+2026-4-23 02:37:45 - warn: [Scene] No needs to indicate the 'cc.Boolean' attribute for "FG_BG_Display.isBkgAni", which its default value is type of Boolean.Error: [Scene] No needs to indicate the 'cc.Boolean' attribute for "FG_BG_Display.isBkgAni", which its default value is type of Boolean.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148211:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148393:5)
+    at Array.eval (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:273445:11)
+    at defineProp (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:125491:27)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:125652:11)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:125677:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:272065:21)
+2026-4-23 02:37:45 - warn: [Scene] No needs to indicate the 'cc.Boolean' attribute for "NG_BG_AM_Display.isBkgAni", which its default value is type of Boolean.Error: [Scene] No needs to indicate the 'cc.Boolean' attribute for "NG_BG_AM_Display.isBkgAni", which its default value is type of Boolean.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148211:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148393:5)
+    at Array.eval (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:273445:11)
+    at defineProp (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:125491:27)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:125652:11)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:125677:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:272065:21)
+2026-4-23 02:37:45 - warn: [Scene] No needs to indicate the 'cc.Boolean' attribute for "RS_BG_PM_Display.isBkgAni", which its default value is type of Boolean.Error: [Scene] No needs to indicate the 'cc.Boolean' attribute for "RS_BG_PM_Display.isBkgAni", which its default value is type of Boolean.
+    at warn (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148211:12)
+    at warnID (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:148393:5)
+    at Array.eval (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:273445:11)
+    at defineProp (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:125491:27)
+    at declareProperties (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:125652:11)
+    at CCClass (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:125677:5)
+    at eval (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\resources\3d\engine\bin\.cache\dev\editor\bundled\index.js:272065:21)
+2026-4-23 02:37:51 - log: [Scene] [PHYSICS2D]: switch from box2d-wasm to builtin.

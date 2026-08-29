@@ -1,0 +1,26 @@
+{
+  "name": "Fishing1",
+  "uuid": "77a0c70b-1bd4-43ff-8066-5898a0775c26",
+  "version": "3.6.2",
+  "game_version": "1.0.84",
+  "creator": {
+    "version": "3.8.1"
+  },
+  "scripts": {
+    "test": "jest --config=jest.config.js --coverage --coverageReporters='text-summary' --coverageReporters='lcov'",
+    "ver": "node version_auto_increment.js",
+    "build": "node version_auto_increment.js && node detect-os-and-run.js",
+    "release": "echo '******\nhey, make sure you update the version manually!!\n******' && node detect-os-and-run.js release",
+    "cocos": "/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/MacOS/CocosCreator --project ./ --build 'configPath=build-config-for-cicd.json'",
+    "cocos-release": "/Applications/CocosCreator/Creator/3.6.2/CocosCreator.app/Contents/MacOS/CocosCreator --project ./ --build 'configPath=build-config-for-cicd-prod.json'",
+    "win-cocos": "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\CocosCreator.exe --project .\\ --build \"configPath=build-config-for-cicd.json\"",
+    "win-cocos-release": "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\CocosCreator.exe --project .\\ --build \"configPath=build-config-for-cicd-prod.json\""
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.4.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "ts-jest": "^29.1.2"
+  }
+}

@@ -1,0 +1,69 @@
+// Copyright (c) 2017-2020 Xiamen Yaji Software Co., Ltd.
+CCEffect %{
+  techniques:
+  - passes:
+    - vert: sprite-vs:vert
+      frag: sprite-fs:frag
+      depthStencilState:
+        depthTest: false
+        depthWrite: false
+      blendState:
+        targets:
+        - blend: true
+          blendSrc: src_alpha
+          blendDst: one_minus_src_alpha
+          blendDstAlpha: one_minus_src_alpha
+      rasterizerState:
+        cullMode: none
+      properties:
+        alphaUvOffset: { value: [0.0,0.0]  }
+}%
+
+CCProgram sprite-vs %{
+  precision highp float;
+  #include <builtin/uniforms/cc-global>
+
+
+  in vec3 a_position;
+  in vec2 a_texCoord;
+
+  uniform UVScale{
+    vec2 alphaUvOffset;
+  };
+
+  out vec2 colorUv;
+  out vec2 alphaUv;
+
+  vec4 vert () {
+    vec4 pos = vec4(a_position, 1);
+    pos = cc_matViewProj * pos;
+
+    colorUv = a_texCoord;
+    alphaUv = vec2((a_texCoord.x + alphaUvOffset.x), (a_texCoord.y + alphaUvOffset.y));
+
+    return pos;
+  }
+}%
+
+CCProgram sprite-fs %{
+  precision highp float;
+  #include <builtin/internal/embedded-alpha>
+
+
+  in vec2 colorUv;
+  in vec2 alphaUv;
+    #pragma builtin(local)
+    layout(set = 2, binding = 12) uniform sampler2D cc_spriteTexture;
+
+
+  vec4 frag () {
+    vec4 color = vec4(1, 1, 1, 1);
+    vec4 alpha = vec4(1, 1, 1, 1);
+
+    alpha = texture(cc_spriteTexture, alphaUv);
+    color = texture(cc_spriteTexture, colorUv);
+    color.a = alpha.r;
+
+    return color;
+  }
+}%

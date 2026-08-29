@@ -1,0 +1,52 @@
+{
+    "$schema": "./@types/schema/package/index.json",
+    "package_version": 2,
+    "name": "trace-scope-inserter",
+    "version": "1.0.0",
+    "author": "Cocos Creator",
+    "editor": ">=3.8.3",
+    "scripts": {
+        "preinstall": "node ./scripts/preinstall.js",
+        "build": "tsc"
+    },
+    "description": "i18n:trace-scope-inserter.description",
+    "main": "./dist/main.js",
+    "devDependencies": {
+        "@cocos/creator-types": "^3.8.3",
+        "@types/node": "^18.17.1"
+    },
+    "panels": {
+        "default": {
+            "title": "trace-scope-inserter Default Panel",
+            "type": "dockable",
+            "main": "dist/panels/default",
+            "size": {
+                "min-width": 600,
+                "min-height": 400
+            }
+        }
+    },
+    "contributions": {
+        "messages": {
+            "after-reload": {
+                "methods": [
+                    "afterReload"
+                ]
+            },
+            "my-asset-menu-event": {
+                "methods": [
+                    "myAssetMenuEvent"
+                ]
+            }
+        },
+        "assets": {
+            "menu": {
+                "methods": "./dist/AssetMenu.js",
+                "assetMenu": "onAssetMenu"
+            }
+        }
+    },
+    "dependencies": {
+        "ts-morph": "^16.0.0"
+    }
+}

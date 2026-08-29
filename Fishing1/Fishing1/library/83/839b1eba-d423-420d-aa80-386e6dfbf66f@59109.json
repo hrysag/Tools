@@ -1,0 +1,52 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "fish_12_swim0010",
+    "atlas": "839b1eba-d423-420d-aa80-386e6dfbf66f",
+    "rect": {
+      "x": 1738,
+      "y": 231,
+      "width": 164,
+      "height": 110
+    },
+    "offset": {
+      "x": -3,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 170,
+      "height": 110
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [],
+      "indexes": [],
+      "uv": [],
+      "nuv": [],
+      "minPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "texture": "5aecd5f0-0136-48cd-a5d8-93f926b0150c@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

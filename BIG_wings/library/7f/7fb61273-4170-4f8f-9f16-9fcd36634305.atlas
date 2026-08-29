@@ -1,0 +1,146 @@
+
+gamble_leaf.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+spot1
+  rotate: true
+  xy: 1361, 264
+  size: 105, 99
+  orig: 105, 99
+  offset: 0, 0
+  index: -1
+spot2
+  rotate: false
+  xy: 471, 191
+  size: 172, 167
+  orig: 172, 167
+  offset: 0, 0
+  index: -1
+spot3
+  rotate: false
+  xy: 1548, 333
+  size: 71, 52
+  orig: 71, 52
+  offset: 0, 0
+  index: -1
+spot4
+  rotate: false
+  xy: 2, 209
+  size: 187, 278
+  orig: 187, 278
+  offset: 0, 0
+  index: -1
+tree_01
+  rotate: false
+  xy: 191, 213
+  size: 245, 120
+  orig: 245, 120
+  offset: 0, 0
+  index: -1
+tree_02
+  rotate: true
+  xy: 645, 205
+  size: 153, 91
+  orig: 153, 91
+  offset: 0, 0
+  index: -1
+tree_03
+  rotate: true
+  xy: 982, 344
+  size: 143, 200
+  orig: 143, 200
+  offset: 0, 0
+  index: -1
+tree_04
+  rotate: false
+  xy: 191, 335
+  size: 278, 152
+  orig: 278, 152
+  offset: 0, 0
+  index: -1
+tree_05
+  rotate: false
+  xy: 1184, 238
+  size: 175, 131
+  orig: 175, 131
+  offset: 0, 0
+  index: -1
+tree_06
+  rotate: false
+  xy: 1845, 367
+  size: 180, 120
+  orig: 180, 120
+  offset: 0, 0
+  index: -1
+tree_07
+  rotate: false
+  xy: 909, 226
+  size: 121, 116
+  orig: 121, 116
+  offset: 0, 0
+  index: -1
+tree_08
+  rotate: false
+  xy: 1462, 282
+  size: 84, 103
+  orig: 84, 103
+  offset: 0, 0
+  index: -1
+tree_1
+  rotate: true
+  xy: 1032, 238
+  size: 104, 123
+  orig: 104, 123
+  offset: 0, 0
+  index: -1
+tree_2
+  rotate: false
+  xy: 2, 2
+  size: 182, 205
+  orig: 182, 205
+  offset: 0, 0
+  index: -1
+tree_3
+  rotate: false
+  xy: 738, 215
+  size: 169, 136
+  orig: 169, 136
+  offset: 0, 0
+  index: -1
+tree_4
+  rotate: true
+  xy: 1184, 371
+  size: 116, 214
+  orig: 116, 214
+  offset: 0, 0
+  index: -1
+tree_5
+  rotate: false
+  xy: 471, 360
+  size: 291, 127
+  orig: 291, 127
+  offset: 0, 0
+  index: -1
+tree_6
+  rotate: false
+  xy: 764, 353
+  size: 216, 134
+  orig: 216, 134
+  offset: 0, 0
+  index: -1
+tree_shine
+  rotate: true
+  xy: 1400, 387
+  size: 100, 222
+  orig: 100, 222
+  offset: 0, 0
+  index: -1
+tree_shine2
+  rotate: true
+  xy: 1624, 396
+  size: 91, 219
+  orig: 91, 219
+  offset: 0, 0
+  index: -1

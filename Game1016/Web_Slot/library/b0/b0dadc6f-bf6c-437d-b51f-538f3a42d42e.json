@@ -1,0 +1,52 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "skeleton",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "tLTsPo9tEK/zNiDQJYlM9xJE6r4",
+      "spine": "3.8.99"
+    },
+    "bones": [
+      {
+        "name": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "sym_11_bg_2",
+        "bone": "root",
+        "attachment": "sym_11_bg_2"
+      }
+    ],
+    "skins": [
+      {
+        "name": "default",
+        "attachments": {
+          "sym_11_bg_2": {
+            "sym_11_bg_2": {
+              "width": 172,
+              "height": 260
+            }
+          }
+        }
+      }
+    ],
+    "animations": {
+      "animation": {}
+    }
+  },
+  "textures": [
+    {
+      "__uuid__": "7ec3680d-1102-4f5f-ac33-f0f834f3cb95@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "skeleton.png"
+  ],
+  "scale": 1,
+  "_atlasText": "\r\nskeleton.png\r\nsize: 176,264\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nsym_11_bg_2\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 172, 260\r\n  orig: 172, 260\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

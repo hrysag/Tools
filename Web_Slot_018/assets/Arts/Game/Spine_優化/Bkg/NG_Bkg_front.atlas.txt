@@ -1,0 +1,34 @@
+
+NG_Bkg_front.webp
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Airflow_1014
+  rotate: false
+  xy: 726, 312
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+ng_v_Sand_font
+  rotate: false
+  xy: 2, 2
+  size: 722, 464
+  orig: 722, 464
+  offset: 0, 0
+  index: -1
+ng_v_grassball
+  rotate: false
+  xy: 726, 233
+  size: 79, 77
+  orig: 79, 77
+  offset: 0, 0
+  index: -1
+pp
+  rotate: false
+  xy: 726, 182
+  size: 35, 49
+  orig: 35, 49
+  offset: 0, 0
+  index: -1

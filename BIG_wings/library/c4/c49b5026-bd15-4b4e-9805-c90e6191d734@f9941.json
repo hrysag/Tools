@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pic_jp_panel",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 396,
+      "height": 396
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 396,
+      "height": 396
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -198,
+        -198,
+        0,
+        198,
+        -198,
+        0,
+        -198,
+        198,
+        0,
+        198,
+        198,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        396,
+        396,
+        396,
+        0,
+        0,
+        396,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -198,
+        "y": -198,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 198,
+        "y": 198,
+        "z": 0
+      }
+    },
+    "texture": "c49b5026-bd15-4b4e-9805-c90e6191d734@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

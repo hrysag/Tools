@@ -1,0 +1,52 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Props_call_btn_down",
+    "atlas": "b87d4868-12e2-450e-82b2-1f6c440cd4ec",
+    "rect": {
+      "x": 1378,
+      "y": 835,
+      "width": 162,
+      "height": 162
+    },
+    "offset": {
+      "x": -1,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 170,
+      "height": 170
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [],
+      "indexes": [],
+      "uv": [],
+      "nuv": [],
+      "minPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "texture": "5163787a-fcc8-4e85-8119-71c61b64b8ac@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

@@ -1,0 +1,489 @@
+import { Component } from 'cc';
+import { GameUtilsTools } from '../GameUtilsTool';
+
+/** 
+ * 定義一個可取消的任務 
+ * - 用於追蹤任務來源與取消控制 
+ */
+export interface ICancelableTask {
+    /** 執行取消邏輯 */
+    cancel: () => void;
+    /** 標籤，用於識別 */
+    label?: string;
+    /** 所屬者或來源物件 */
+    owner?: any;
+    /** 任務來源標記（如 "AsyncScope"） */
+    source?: string;
+    /** 額外資料（例如延遲秒數等） */
+    meta?: Record<string, any>;
+}
+
+/**
+ *AsyncScope 
+ * ------------------------------------------------------------
+ * 全域非同步任務管理器，提供：
+ * - 延遲 / 任務 / timeout 管理
+ * - skip / cancel / abort 三層控制
+ * - 可廣播中止（AbortSignal）與個別取消
+ * - 內部整合 DeferByTweenPromise，可跟隨 Cocos timeScale
+ *
+ * 常見用途：
+ *  - 等待動畫時間（可取消）
+ *  - 任務防掛（自動 timeout）
+ *  - 跳過整個表演流程（resolveAllPending）
+ *  - 統一清理所有非同步流程
+ *
+ * 例：
+ * ```ts
+ * // 初始化
+ * this._async = new AsyncScope().init(this);
+ * 
+ * // 等待 0.8 秒
+ * await this._async.waitSecondsCancelable(0.8);
+ * 
+ * // 任務防掛（5 秒後自動 timeout）
+ * await this._async.withTimeout(this.playAnimation(), 5, { phase: 'show' }, 'aniPlay');
+ *
+ * // 若玩家點擊跳過
+ * this._async.resolveAllPending();
+ * ```
+ */
+export class AsyncScope {
+    
+    private _timeoutCallbacks = new Set<() => void>();
+    private _cancelList: ICancelableTask[] = [];
+    private _resolveMap = new Map<string, { resolve: () => void; cancel: () => void }>();
+    private _trackedTasks = new Set<{ label: string; promise: Promise<any>; skip?: () => void }>();
+    private _parent: Component | null = null;
+    private static readonly TIMEOUT_TOLERANCE = 0.05; // 秒
+    // 全域 Abort 控制器（一次中斷所有任務）
+    private _abortController: AbortController | null = null;
+
+    /**
+     * 初始化（通常在組件的 onLoad 呼叫）
+     * @param host 掛載的 Cocos 組件
+     * @example
+     * this._async = new AsyncScope().init(this);
+     */
+    public init(host: Component): AsyncScope {
+        this._parent = host;
+        return this;
+    }
+
+    // ===========================================================
+    // 🧩 AbortController 控制區
+    // ===========================================================
+
+    /**
+     * 建立新的中止範圍
+     * - 若已有控制器，會自動中止前一個
+     * @returns AbortSignal
+     * @example
+     * const signal = this._async.createAbortScope();
+     * this._async.runWithAbort(() => this.playAni(), signal);
+     */
+    public createAbortScope(): AbortSignal {
+        
+        if (this._abortController) this._abortController.abort();
+        this._abortController = new AbortController();
+        return this._abortController.signal;
+    }
+
+    /** 取得目前的中止 signal（若無則為 null） */
+    public get signal(): AbortSignal | null {
+        return this._abortController?.signal ?? null;
+    }
+
+    /**
+     * 廣播中止（例如按下「跳過」）
+     * - 所有使用同一 signal 的任務都會立即停止
+     * @example
+     * this._async.abortAll(); // 所有動畫/等待立即中止
+     */
+    public abortAll(): void {
+        this._abortController?.abort();
+        this._abortController = null;
+        //this.cancelAll(); 
+    }
+
+    /**
+     * 建立一個等待 signal.aborted 的 Promise
+     * @example
+     * const { promise, off } = this._async.makeCancelGate(signal);
+     * await promise; // 等待被中止
+     */
+    public makeCancelGate(signal: AbortSignal) {
+        let handler: (() => void) | null = null;
+        const promise = new Promise<void>((resolve) => {
+            if (signal.aborted) { resolve(); return; }
+            handler = () => resolve();
+            signal.addEventListener('abort', handler, { once: true });
+        });
+
+        const off = () => {
+            if (handler) {
+                signal.removeEventListener('abort', handler);
+                handler = null;
+            }
+        };
+        return { promise, off };
+    }
+
+    // ===========================================================
+    // Cancel 基本控制區
+    // ===========================================================
+
+    /**
+     * 註冊可取消任務
+     * @example
+     * const delay = GameUtilsTools.DeferByTweenPromiseWithCancel(1);
+     * this._async.trackCancel({ cancel: delay.cancel, label: 'delay' });
+     */
+    public trackCancel(task: ICancelableTask): void {
+        this._cancelList.push(task);
+    }
+
+    /** 解除任務追蹤 */
+    public untrackCancel(task: ICancelableTask): void {
+        const i = this._cancelList.indexOf(task);
+        if (i >= 0) this._cancelList.splice(i, 1);
+    }
+
+    /**
+     * 中止所有正在追蹤的任務
+     * - 會呼叫每個 task.cancel()
+     * @example
+     * this._async.cancelAll(); // 清除所有延遲、timeout
+     */
+    public cancelAll(): void {
+        for (const t of this._cancelList) {
+            try {
+                t.cancel();
+            } catch { }
+        }
+        this._cancelList.length = 0;
+    }
+
+    /** 按來源中止特定任務 */
+    public cancelBySource(source: string): void {
+        
+        for (const t of this._cancelList) {
+            if (t.source === source) {
+                try { t.cancel(); } catch { }
+            }
+        }
+        this._cancelList = this._cancelList.filter(t => t.source !== source);
+    }
+
+    /** 按標籤中止特定任務 */
+    public cancelByLabel(label: string): void {
+        
+        for (const t of this._cancelList) {
+            if (t.label === label) {
+                try { t.cancel(); } catch { }
+            }
+        }
+        this._cancelList = this._cancelList.filter(t => t.label !== label);
+    }
+
+    /** 清除所有 schedule-based timeout */
+    public clearAllTimeouts(): void {
+        
+        for (const cb of this._timeoutCallbacks) this._parent?.unschedule(cb);
+        this._timeoutCallbacks.clear();
+    }
+
+    /** 重置：等同於中止全部任務與 deferred */
+    public reset(): void {
+        
+        this.cancelAll();
+        this.clearAllTimeouts();
+        this.abortAll();
+        this._trackedTasks.clear();
+        this.safeResolve();
+    }
+
+    /** 元件銷毀時清理 */
+    public dispose(): void {
+        this.reset();
+    }
+
+    // ===========================================================
+    //  Deferred 任務管理區
+    // ===========================================================
+
+    /**
+     * 建立一個 deferred（手動控制 resolve）
+     * @example
+     * const d = this._async.createDeferredFor('myKey');
+     * setTimeout(d.resolve, 2_000);
+     * await d.promise;
+     */
+    public createDeferredFor(key: string): { promise: Promise<void>, resolve: () => void } {
+        
+        let resolveFn!: () => void;
+        const p = new Promise<void>((res) => { resolveFn = res; });
+        this.setPendingResolveFor(key, resolveFn);
+        return { promise: p, resolve: resolveFn };
+    }
+
+    /** 註冊 pending resolve（相同 key 會覆蓋舊的） */
+    public setPendingResolveFor(key: string, res: () => void): void {
+        
+        this.safeResolve(key);
+        const cancel = () => {
+            const entry = this._resolveMap.get(key);
+            if (!entry) return;
+            this._resolveMap.delete(key);
+            try { entry.resolve(); } catch { }
+        };
+        const entry = { resolve: res, cancel };
+        this._resolveMap.set(key, entry);
+    }
+
+    /**
+     * 單純移除 pending（不觸發 resolve）
+     * @example
+     * this._async.clearPending('playWin');
+     */
+    public clearPending(key?: string): void {
+        
+        if (key === undefined) {
+            for (const lb of Array.from(this._resolveMap.keys())) {
+                this.clearPending(lb);
+            }
+            return;
+        }
+        const entry = this._resolveMap.get(key);
+        if (!entry) return;
+        this._resolveMap.delete(key);
+        try { this.untrackCancel(entry.cancel as any); } catch { }
+    }
+
+    /**
+     * 提前 resolve 特定或全部 pending
+     * @example
+     * this._async.safeResolve('playWin');
+     * this._async.safeResolve(); // 全部 resolve
+     */
+    public safeResolve(key?: string): void {
+        
+        if (key === undefined) {
+            for (const k of Array.from(this._resolveMap.keys())) this.safeResolve(k);
+            return;
+        }
+        const entry = this._resolveMap.get(key);
+        if (!entry) return;
+        this._resolveMap.delete(key);
+        try { entry.resolve(); } catch { }
+    }
+
+    // ===========================================================
+    //  通用等待功能區
+    // ===========================================================
+
+    /**
+     * 等待指定秒數，可中途取消（reset 時會強制 resolve）
+     * @example
+     * await this._async.waitSecondsCancelable(1.2);
+     */
+    public async waitSecondsCancelable(sec: number): Promise<void> {
+        
+        const h = GameUtilsTools.DeferByTweenPromiseWithCancel(sec);
+        const task: ICancelableTask = {
+            cancel: h.forceCancelAndResolve,
+            label: 'waitSecondsCancelable',
+            source: 'AsyncScope',
+            meta: { duration: sec }
+        };
+        this.trackCancel(task);
+        try { await h.promise; } finally { this.untrackCancel(task); }
+    }
+
+    /** 純延遲（不可取消） */
+    public async waitSecondsRaw(sec: number): Promise<void> {
+        await GameUtilsTools.DeferByTweenPromise(sec);
+    }
+
+    /**
+     * 等待特定秒數（可在 skip 時立即完成）
+     * @example
+     * await this._async.waitSecondsTracked(2.0, 'showLine');
+     */
+    public async waitSecondsTracked(duration: number, label: string, autoResolveOnSkip = true): Promise<void> {
+        
+        const h = GameUtilsTools.DeferByTweenPromiseWithCancel(duration);
+        const task: ICancelableTask = {
+            cancel: h.cancel,
+            label,
+            source: 'AsyncScope',
+            meta: { duration }
+        };
+        this.trackCancel(task);
+        const promise = h.promise.finally(() => this.untrackCancel(task));
+        if (autoResolveOnSkip) this.trackTask(label, promise, () => h.forceCancelAndResolve());
+        await promise;
+    }
+
+    /**
+     * <<延遲執行 Promise 任務，但允許提前取消延遲>>
+     * - 取消延遲時會立即執行任務
+     * - 適合用於 Promise.all 流程中
+     * 延遲執行指定 Promise 任務（延遲可取消）
+     * @param task 要執行的 Promise function（會被 await）
+     * @param delayTime 延遲時間（單位：秒）
+     * @param args 任務參數
+     * @returns { promise, cancelDelay, forceCancelAndResolve }
+     * @example
+     * --包裝API的用法
+     * await this._async.deferTaskWithCancelableDelay('showWin', this.showWin, 0.5);
+     * --原始API的用法
+     * const t = GameUtilsTools.DeferTaskWithCancelableDelay(fetchData, 2);
+     * t.cancelDelay(); // 提前執行 fetchData，不再等待 2 秒
+     * const result = await t.promise;
+     */
+    public deferTaskWithCancelableDelay<T, A extends any[]>(
+        label: string,
+        task: (...args: A) => Promise<T>,
+        delayTime: number,
+        ...args: A
+    ): Promise<T> {
+        
+        const handle = GameUtilsTools.DeferTaskWithCancelableDelay(task, delayTime, ...args);
+        this.trackTask(label, handle.promise, handle.forceCancelAndResolve);
+        return handle.promise;
+    }
+
+    /**
+     * <<為原始 promise 設置超時機制>>
+     * <!!超時會 reject 或 resolve 特定值-保底promise死掉>
+     * 包裝 Promise，加入自動 timeout
+     * @param ogPromise 原始 Promise
+     * @param seconds 等待秒數
+     * @param meta 附加在 Error 物件上的資訊
+     * @param label 變更辨識標籤，會附加在 Error 物件上
+     * @param resolveOnTimeout 超時是否強制 resolve(true會出出錯誤訊息不噴錯,fasle會 reject error)
+     * @param timeoutValue 超時要回傳的值(當 resolveOnTimeout=true 時有效)
+     * @example
+     * await this._async.withTimeout(this.playAnimation(), 5, { phase: 'play' }, 'playWin');
+     */
+    public withTimeout<T, M>(
+        ogPromise: Promise<T>,
+        seconds: number,
+        meta?: M,
+        label = 'timeout',
+        resolveOnTimeout = false,
+        timeoutValue?: T
+    ): Promise<{ status: 'ok' | 'timeout' | 'error', value?: T, err?: any, meta?: M, label: string }> {
+        
+        const adjusted = seconds + AsyncScope.TIMEOUT_TOLERANCE;//--直接使用指定的時間在流程疊加下會timeout
+        const p = GameUtilsTools.withTimeout(
+            ogPromise, 
+            adjusted, 
+            meta, 
+            label, 
+            resolveOnTimeout, 
+            timeoutValue
+        );
+        this.trackTask(label, p);
+        return p;
+    }
+
+    /**
+     * 下一個 microtask（類似 setTimeout(...,0)）
+     * @example
+     * await this._async.nextTick();
+     */
+    public async nextTick(): Promise<void> {
+        
+        const p = Promise.resolve();
+        let finished = false;
+        const task: ICancelableTask = {
+            cancel: () => { finished = true; },
+            label: 'nextTick',
+            source: 'AsyncScope'
+        };
+        this.trackCancel(task);
+        try { await p; } finally { finished = true; this.untrackCancel(task); }
+    }
+
+    /**
+     * 下一個 frame（以 tween 為基準）
+     * @example
+     * await this._async.nextFrame();
+     */
+    public async nextFrame(): Promise<void> {
+        
+        const h = GameUtilsTools.DeferByTweenPromiseWithCancel(0);
+        const task: ICancelableTask = {
+            cancel: h.forceCancelAndResolve,
+            label: 'nextFrame',
+            source: 'AsyncScope'
+        };
+        this.trackCancel(task);
+        this.trackTask('nextFrame', h.promise, () => h.forceCancelAndResolve());
+        try { await h.promise; } finally { this.untrackCancel(task); }
+    }
+
+    /**
+     * 執行可被中止的任務（含防掛 timeout）
+     * @example
+     * const signal = this._async.createAbortScope();
+     * await this._async.runWithAbort(() => this.playAni(), signal, 'playAni', 10);
+     */
+    public runWithAbort<T>(
+        task: () => Promise<T>,
+        signal?: AbortSignal,
+        label = 'runWithAbort',
+        fallbackSeconds = 30
+    ): Promise<T> {
+        if (!signal) return task();
+
+        const { promise: cancelP, off } = this.makeCancelGate(signal);
+        const taggedCancel = cancelP.then(() => ({ winner: "cancel" as const }));
+        const taggedPlay = task().then(
+            (res) => ({ winner: "play" as const, result: res }),
+            (error) => ({ winner: "play" as const, error })
+        );
+
+        // 使用 Cocos tween-based 延遲作為 timeout
+        const timeout = GameUtilsTools.DeferByTweenPromise(fallbackSeconds)
+            .then(() => ({ winner: "timeout" as const }));
+
+        return Promise.race([taggedCancel, taggedPlay, timeout])
+            .then((outcome) => {
+                if (outcome.winner === "cancel")
+                    throw new DOMException("Operation aborted", "AbortError");
+                if (outcome.winner === "timeout")
+                    throw new Error(`[${label}] Timeout after ${fallbackSeconds}s`);
+                if ("error" in outcome)
+                    throw outcome.error;
+                return outcome.result as T;
+            })
+            .finally(() => off());
+    }
+
+    // ===========================================================
+    // Skip / 清理整合區
+    // ===========================================================
+
+    /**
+     * 立即結束所有任務、清空延遲與 resolve pending
+     * @example
+     * this._async.resolveAllPending(); // 跳過所有流程
+     */
+    public resolveAllPending(): void {
+        this.safeResolve();
+        this.cancelAll();
+        this.abortAll();
+        this._trackedTasks.forEach(t => { try { t.skip?.(); } catch { } });
+        this._trackedTasks.clear();
+    }
+
+    /** 登錄外部任務（自動在完成後移除） */
+    public trackTask(label: string, promise: Promise<any>, skipCallback?: () => void): void {
+        const task = { label, promise, skip: skipCallback };
+        this._trackedTasks.add(task);
+        promise.finally(() => this._trackedTasks.delete(task));
+    }
+}

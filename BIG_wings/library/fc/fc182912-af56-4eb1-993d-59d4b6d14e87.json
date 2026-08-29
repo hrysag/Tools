@@ -1,0 +1,167 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "gamble_time",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "68Xk9M+ysrOo+/+EXpydGeBLoes",
+      "spine": "3.7.94",
+      "width": 40,
+      "height": 61,
+      "images": "./images/",
+      "audio": "./../"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "all",
+        "parent": "root",
+        "x": 56.5,
+        "y": -850.5
+      },
+      {
+        "name": "all_gamble",
+        "parent": "all"
+      },
+      {
+        "name": "time",
+        "parent": "all_gamble",
+        "y": 850.5
+      },
+      {
+        "name": "time2",
+        "parent": "time",
+        "x": -56.5
+      }
+    ],
+    "slots": [
+      {
+        "name": "hourglass",
+        "bone": "time2",
+        "attachment": "hourglass"
+      },
+      {
+        "name": "hourglass2",
+        "bone": "time2",
+        "color": "ffffff00",
+        "attachment": "hourglass"
+      }
+    ],
+    "skins": {
+      "default": {
+        "hourglass": {
+          "hourglass": {
+            "x": 0.5,
+            "width": 40,
+            "height": 61
+          }
+        },
+        "hourglass2": {
+          "hourglass": {
+            "x": 0.5,
+            "rotation": 180,
+            "width": 40,
+            "height": 61
+          }
+        }
+      }
+    },
+    "animations": {
+      "loop": {
+        "slots": {
+          "hourglass2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.2333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.4333,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.2333,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.4333,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 2,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "time2": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.0667,
+                "angle": 0,
+                "curve": [
+                  0.465,
+                  0.36,
+                  0.195,
+                  1
+                ]
+              },
+              {
+                "time": 0.9667,
+                "angle": 180,
+                "curve": "stepped"
+              },
+              {
+                "time": 1.0333,
+                "angle": 180,
+                "curve": [
+                  0.465,
+                  0.36,
+                  0.195,
+                  1
+                ]
+              },
+              {
+                "time": 1.9333,
+                "angle": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 2,
+                "angle": 0
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "textures": [
+    {
+      "__uuid__": "6a81ebf6-c2c9-475b-9624-91fbff573590@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "gamble_time.png"
+  ],
+  "scale": 1,
+  "_atlasText": "\r\ngamble_time.png\r\nsize: 128,64\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nhourglass\r\n  rotate: true\r\n  xy: 2, 2\r\n  size: 40, 61\r\n  orig: 40, 61\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

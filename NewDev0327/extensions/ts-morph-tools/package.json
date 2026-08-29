@@ -1,0 +1,64 @@
+{
+    "$schema": "./@types/schema/package/index.json",
+    "package_version": 2,
+    "name": "ts-morph-tools",
+    "version": "1.0.0",
+    "author": "Cocos Creator",
+    "editor": ">=3.8.3",
+    "scripts": {
+        "preinstall": "node ./scripts/preinstall.js",
+        "build": "tsc",
+        "watch": "tsc -w"
+    },
+    "description": "i18n:ts-morph-tools.description",
+    "main": "./dist/main.js",
+    "devDependencies": {
+        "@cocos/creator-types": "^3.8.3",
+        "@types/node": "^18.17.1",
+        "typescript": "^4.3.4"
+    },
+    "contributions": {
+        "menu": [
+            {
+                "path": "i18n:ts-morph-tools.menu",
+                "label": "生成ModuleEntry",
+                "message": "generate-module-entry"
+            },
+            {
+                "path": "i18n:ts-morph-tools.menu",
+                "label": "檢查entry.ts依賴",
+                "message": "check-entry-depend-on-cc"
+            },
+            {
+                "path": "i18n:ts-morph-tools.menu",
+                "label": "檢查entryHistory.ts依賴",
+                "message": "check-entry-history-depend-on-cc"
+            }
+        ],
+        "messages": {
+            "after-reload": {
+                "methods": [
+                    "afterReload"
+                ]
+            },
+            "generate-module-entry": {
+                "methods": [
+                    "generateModuleEntry"
+                ]
+            },
+            "check-entry-depend-on-cc": {
+                "methods": [
+                    "checkEntryDependOnCC"
+                ]
+            },
+            "check-entry-history-depend-on-cc": {
+                "methods": [
+                    "checkEntryHistoryDependOnCC"
+                ]
+            }
+        }
+    },
+    "dependencies": {
+        "ts-morph": "^16.0.0"
+    }
+}

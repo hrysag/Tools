@@ -1,0 +1,60 @@
+{
+"skeleton": { "hash": "68Xk9M+ysrOo+/+EXpydGeBLoes", "spine": "3.7.94", "width": 40, "height": 61, "images": "./images/", "audio": "./../" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "all", "parent": "root", "x": 56.5, "y": -850.5 },
+	{ "name": "all_gamble", "parent": "all" },
+	{ "name": "time", "parent": "all_gamble", "y": 850.5 },
+	{ "name": "time2", "parent": "time", "x": -56.5 }
+],
+"slots": [
+	{ "name": "hourglass", "bone": "time2", "attachment": "hourglass" },
+	{ "name": "hourglass2", "bone": "time2", "color": "ffffff00", "attachment": "hourglass" }
+],
+"skins": {
+	"default": {
+		"hourglass": {
+			"hourglass": { "x": 0.5, "width": 40, "height": 61 }
+		},
+		"hourglass2": {
+			"hourglass": { "x": 0.5, "rotation": 180, "width": 40, "height": 61 }
+		}
+	}
+},
+"animations": {
+	"loop": {
+		"slots": {
+			"hourglass2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2333, "color": "ffffff00" },
+					{ "time": 0.4333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.2333, "color": "ffffffff" },
+					{ "time": 1.4333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 2, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"time2": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{
+						"time": 0.0667,
+						"angle": 0,
+						"curve": [ 0.465, 0.36, 0.195, 1 ]
+					},
+					{ "time": 0.9667, "angle": 180, "curve": "stepped" },
+					{
+						"time": 1.0333,
+						"angle": 180,
+						"curve": [ 0.465, 0.36, 0.195, 1 ]
+					},
+					{ "time": 1.9333, "angle": 0, "curve": "stepped" },
+					{ "time": 2, "angle": 0 }
+				]
+			}
+		}
+	}
+}
+}

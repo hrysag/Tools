@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_close_down.png",
+    "atlas": "",
+    "rect": {
+      "x": 9,
+      "y": 9,
+      "width": 62,
+      "height": 62
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 80,
+      "height": 80
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -31,
+        -31,
+        0,
+        31,
+        -31,
+        0,
+        -31,
+        31,
+        0,
+        31,
+        31,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        9,
+        71,
+        71,
+        71,
+        9,
+        9,
+        71,
+        9
+      ],
+      "nuv": [
+        0.1125,
+        0.1125,
+        0.8875,
+        0.1125,
+        0.1125,
+        0.8875,
+        0.8875,
+        0.8875
+      ],
+      "minPos": {
+        "x": -31,
+        "y": -31,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 31,
+        "y": 31,
+        "z": 0
+      }
+    },
+    "texture": "b47325f0-b4e0-442f-9448-68e9465667de@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

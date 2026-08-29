@@ -1,0 +1,52 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tx_dragon",
+    "atlas": "fea06cdb-43e1-42c5-ac60-ec84e4a7993b",
+    "rect": {
+      "x": 1,
+      "y": 438,
+      "width": 357,
+      "height": 94
+    },
+    "offset": {
+      "x": 0,
+      "y": 1
+    },
+    "originalSize": {
+      "width": 443,
+      "height": 110
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [],
+      "indexes": [],
+      "uv": [],
+      "nuv": [],
+      "minPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "texture": "fa4f3166-9ba4-4856-9c64-e82c32152d2a@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

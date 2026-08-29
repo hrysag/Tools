@@ -1,0 +1,427 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "FG_CollectBox_sub",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "0Uf5KcJuVYgbia2jSppvBZP0rJY",
+      "spine": "3.8.99",
+      "x": -14,
+      "y": -14,
+      "width": 29,
+      "height": 29
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "FG_bean_",
+        "parent": "root"
+      },
+      {
+        "name": "FG_goalicon_",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "FG_bean_off",
+        "bone": "FG_bean_",
+        "attachment": "FG02_sub_normal_off"
+      },
+      {
+        "name": "FG_bean_on",
+        "bone": "FG_bean_",
+        "attachment": "FG02_sub_normal_on"
+      },
+      {
+        "name": "FG_goalicon_off",
+        "bone": "FG_goalicon_",
+        "attachment": "FG02_sub_off"
+      },
+      {
+        "name": "FG_goalicon_on",
+        "bone": "FG_goalicon_",
+        "color": "ffffff00",
+        "attachment": "FG02_sub_on"
+      }
+    ],
+    "skins": [
+      {
+        "name": "FG_01_sub_01",
+        "attachments": {
+          "FG_goalicon_off": {
+            "FG02_sub_off": {
+              "name": "FG_01_goalx2_off",
+              "y": -1.5,
+              "width": 55,
+              "height": 44
+            }
+          },
+          "FG_goalicon_on": {
+            "FG02_sub_on": {
+              "name": "FG_01_goalx2_on",
+              "y": -1.5,
+              "width": 55,
+              "height": 44
+            }
+          }
+        }
+      },
+      {
+        "name": "FG_01_sub_05",
+        "attachments": {
+          "FG_goalicon_off": {
+            "FG02_sub_off": {
+              "name": "FG_01_goalx3_off",
+              "y": -1.5,
+              "width": 55,
+              "height": 46
+            }
+          },
+          "FG_goalicon_on": {
+            "FG02_sub_on": {
+              "name": "FG_01_goalx3_on",
+              "y": -1.5,
+              "width": 55,
+              "height": 46
+            }
+          }
+        }
+      },
+      {
+        "name": "FG_01_sub_09",
+        "attachments": {
+          "FG_goalicon_off": {
+            "FG02_sub_off": {
+              "name": "FG_01_goalx5_off",
+              "y": -1.5,
+              "width": 52,
+              "height": 47
+            }
+          },
+          "FG_goalicon_on": {
+            "FG02_sub_on": {
+              "name": "FG_01_goalx5_on",
+              "y": -1.5,
+              "width": 52,
+              "height": 47
+            }
+          }
+        }
+      },
+      {
+        "name": "FG_01_sub_13",
+        "attachments": {
+          "FG_goalicon_off": {
+            "FG02_sub_off": {
+              "name": "FG_01_goalx10_off",
+              "y": -1.5,
+              "width": 69,
+              "height": 43
+            }
+          },
+          "FG_goalicon_on": {
+            "FG02_sub_on": {
+              "name": "FG_01_goalx10_on",
+              "y": -1.5,
+              "width": 69,
+              "height": 43
+            }
+          }
+        }
+      },
+      {
+        "name": "FG_01_sub_normal",
+        "attachments": {
+          "FG_bean_off": {
+            "FG02_sub_normal_off": {
+              "name": "FG_01_red_plusbean_off",
+              "y": 0.5,
+              "width": 29,
+              "height": 29
+            }
+          },
+          "FG_bean_on": {
+            "FG02_sub_normal_on": {
+              "name": "FG_01_red_plusbean",
+              "width": 21,
+              "height": 22
+            }
+          }
+        }
+      },
+      {
+        "name": "FG_02_sub_01",
+        "attachments": {
+          "FG_goalicon_off": {
+            "FG02_sub_off": {
+              "name": "FG_02_goalicon07_off",
+              "y": -1.5,
+              "width": 66,
+              "height": 63
+            }
+          },
+          "FG_goalicon_on": {
+            "FG02_sub_on": {
+              "name": "FG_02_goalicon07_on",
+              "y": -1.5,
+              "width": 66,
+              "height": 63
+            }
+          }
+        }
+      },
+      {
+        "name": "FG_02_sub_05",
+        "attachments": {
+          "FG_goalicon_off": {
+            "FG02_sub_off": {
+              "name": "FG_02_goalicon06_off",
+              "x": -0.5,
+              "y": -1,
+              "width": 69,
+              "height": 72
+            }
+          },
+          "FG_goalicon_on": {
+            "FG02_sub_on": {
+              "name": "FG_02_goalicon06_on",
+              "x": -0.5,
+              "y": -1,
+              "width": 69,
+              "height": 72
+            }
+          }
+        }
+      },
+      {
+        "name": "FG_02_sub_09",
+        "attachments": {
+          "FG_goalicon_off": {
+            "FG02_sub_off": {
+              "name": "FG_02_goalicon05_off",
+              "x": 0.5,
+              "y": -3,
+              "width": 67,
+              "height": 60
+            }
+          },
+          "FG_goalicon_on": {
+            "FG02_sub_on": {
+              "name": "FG_02_goalicon05_on",
+              "x": 0.5,
+              "y": -3,
+              "width": 67,
+              "height": 60
+            }
+          }
+        }
+      },
+      {
+        "name": "FG_02_sub_13",
+        "attachments": {
+          "FG_goalicon_off": {
+            "FG02_sub_off": {
+              "name": "FG_02_goalicon04_off",
+              "y": -1.5,
+              "width": 64,
+              "height": 65
+            }
+          },
+          "FG_goalicon_on": {
+            "FG02_sub_on": {
+              "name": "FG_02_goalicon04_on",
+              "y": -1.5,
+              "width": 64,
+              "height": 65
+            }
+          }
+        }
+      },
+      {
+        "name": "FG_02_sub_normal",
+        "attachments": {
+          "FG_bean_off": {
+            "FG02_sub_normal_off": {
+              "name": "FG_02_blue_plusbean_off",
+              "x": 0.5,
+              "y": 0.5,
+              "width": 29,
+              "height": 29
+            }
+          },
+          "FG_bean_on": {
+            "FG02_sub_normal_on": {
+              "name": "FG_02_blue_plusbean",
+              "width": 25,
+              "height": 26
+            }
+          }
+        }
+      }
+    ],
+    "animations": {
+      "off": {
+        "slots": {
+          "FG_bean_on": {
+            "color": [
+              {
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "FG_goalicon_on": {
+            "color": [
+              {
+                "time": 0.0333,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        }
+      },
+      "off_to_on": {
+        "slots": {
+          "FG_bean_off": {
+            "color": [
+              {
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.0333,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "FG_bean_on": {
+            "color": [
+              {
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.0333,
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "FG_goalicon_on": {
+            "color": [
+              {
+                "color": "ffffff00",
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.0667,
+                "color": "ffffffff"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "FG_bean_": {
+            "scale": [
+              {
+                "time": 0.1,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.2,
+                "x": 1.35,
+                "y": 1.35,
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.2667
+              }
+            ]
+          },
+          "FG_goalicon_": {
+            "scale": [
+              {
+                "curve": 0,
+                "c3": 0.45
+              },
+              {
+                "time": 0.1667,
+                "x": 1.2,
+                "y": 1.2,
+                "curve": 0.595,
+                "c3": 0.736
+              },
+              {
+                "time": 0.3333
+              }
+            ]
+          }
+        }
+      },
+      "on": {
+        "slots": {
+          "FG_bean_off": {
+            "color": [
+              {
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "FG_goalicon_on": {
+            "color": [
+              {
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.0333,
+                "color": "ffffffff"
+              }
+            ]
+          }
+        }
+      },
+      "on_to_off": {
+        "slots": {
+          "FG_bean_on": {
+            "color": [
+              {
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "FG_goalicon_on": {
+            "color": [
+              {
+                "color": "ffffffff"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "textures": [
+    {
+      "__uuid__": "6c0699a8-d2e8-44f0-825b-4f597d651913@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "FG_CollectBox_sub.webp"
+  ],
+  "scale": 1,
+  "_atlasText": "\r\nFG_CollectBox_sub.webp\r\nsize: 512,512\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nFG_01_goalx10_off\r\n  rotate: false\r\n  xy: 144, 184\r\n  size: 69, 43\r\n  orig: 69, 43\r\n  offset: 0, 0\r\n  index: -1\r\nFG_01_goalx10_on\r\n  rotate: false\r\n  xy: 2, 177\r\n  size: 69, 43\r\n  orig: 69, 43\r\n  offset: 0, 0\r\n  index: -1\r\nFG_01_goalx2_off\r\n  rotate: false\r\n  xy: 2, 21\r\n  size: 55, 44\r\n  orig: 55, 44\r\n  offset: 0, 0\r\n  index: -1\r\nFG_01_goalx2_on\r\n  rotate: false\r\n  xy: 193, 76\r\n  size: 55, 44\r\n  orig: 55, 44\r\n  offset: 0, 0\r\n  index: -1\r\nFG_01_goalx3_off\r\n  rotate: false\r\n  xy: 2, 67\r\n  size: 55, 46\r\n  orig: 55, 46\r\n  offset: 0, 0\r\n  index: -1\r\nFG_01_goalx3_on\r\n  rotate: false\r\n  xy: 59, 44\r\n  size: 55, 46\r\n  orig: 55, 46\r\n  offset: 0, 0\r\n  index: -1\r\nFG_01_goalx5_off\r\n  rotate: false\r\n  xy: 139, 73\r\n  size: 52, 47\r\n  orig: 52, 47\r\n  offset: 0, 0\r\n  index: -1\r\nFG_01_goalx5_on\r\n  rotate: false\r\n  xy: 215, 180\r\n  size: 52, 47\r\n  orig: 52, 47\r\n  offset: 0, 0\r\n  index: -1\r\nFG_01_red_plusbean\r\n  rotate: false\r\n  xy: 116, 68\r\n  size: 21, 22\r\n  orig: 21, 22\r\n  offset: 0, 0\r\n  index: -1\r\nFG_01_red_plusbean_off\r\n  rotate: false\r\n  xy: 210, 149\r\n  size: 29, 29\r\n  orig: 29, 29\r\n  offset: 0, 0\r\n  index: -1\r\nFG_02_blue_plusbean\r\n  rotate: false\r\n  xy: 269, 201\r\n  size: 25, 26\r\n  orig: 25, 26\r\n  offset: 0, 0\r\n  index: -1\r\nFG_02_blue_plusbean_off\r\n  rotate: false\r\n  xy: 241, 149\r\n  size: 29, 29\r\n  orig: 29, 29\r\n  offset: 0, 0\r\n  index: -1\r\nFG_02_goalicon04_off\r\n  rotate: false\r\n  xy: 144, 229\r\n  size: 64, 65\r\n  orig: 64, 65\r\n  offset: 0, 0\r\n  index: -1\r\nFG_02_goalicon04_on\r\n  rotate: false\r\n  xy: 210, 229\r\n  size: 64, 65\r\n  orig: 64, 65\r\n  offset: 0, 0\r\n  index: -1\r\nFG_02_goalicon05_off\r\n  rotate: false\r\n  xy: 2, 115\r\n  size: 67, 60\r\n  orig: 67, 60\r\n  offset: 0, 0\r\n  index: -1\r\nFG_02_goalicon05_on\r\n  rotate: false\r\n  xy: 141, 122\r\n  size: 67, 60\r\n  orig: 67, 60\r\n  offset: 0, 0\r\n  index: -1\r\nFG_02_goalicon06_off\r\n  rotate: false\r\n  xy: 2, 222\r\n  size: 69, 72\r\n  orig: 69, 72\r\n  offset: 0, 0\r\n  index: -1\r\nFG_02_goalicon06_on\r\n  rotate: false\r\n  xy: 73, 222\r\n  size: 69, 72\r\n  orig: 69, 72\r\n  offset: 0, 0\r\n  index: -1\r\nFG_02_goalicon07_off\r\n  rotate: false\r\n  xy: 73, 157\r\n  size: 66, 63\r\n  orig: 66, 63\r\n  offset: 0, 0\r\n  index: -1\r\nFG_02_goalicon07_on\r\n  rotate: false\r\n  xy: 71, 92\r\n  size: 66, 63\r\n  orig: 66, 63\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

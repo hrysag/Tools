@@ -1,0 +1,27 @@
+
+loading_page2_bot.webp
+size: 972,772
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Loading_info_title_02
+  rotate: false
+  xy: 2, 760
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+Loading_info_txt_02
+  rotate: false
+  xy: 2, 760
+  size: 8, 8
+  orig: 8, 8
+  offset: 0, 0
+  index: -1
+frame
+  rotate: false
+  xy: 12, 2
+  size: 956, 766
+  orig: 956, 766
+  offset: 0, 0
+  index: -1

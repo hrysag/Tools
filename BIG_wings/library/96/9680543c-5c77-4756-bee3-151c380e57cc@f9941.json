@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ani_bg_leaf",
+    "atlas": "",
+    "rect": {
+      "x": 2,
+      "y": 2,
+      "width": 18,
+      "height": 13
+    },
+    "offset": {
+      "x": -5,
+      "y": 7.5
+    },
+    "originalSize": {
+      "width": 32,
+      "height": 32
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -9,
+        -6.5,
+        0,
+        9,
+        -6.5,
+        0,
+        -9,
+        6.5,
+        0,
+        9,
+        6.5,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        2,
+        30,
+        20,
+        30,
+        2,
+        17,
+        20,
+        17
+      ],
+      "nuv": [
+        0.0625,
+        0.53125,
+        0.625,
+        0.53125,
+        0.0625,
+        0.9375,
+        0.625,
+        0.9375
+      ],
+      "minPos": {
+        "x": -9,
+        "y": -6.5,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 9,
+        "y": 6.5,
+        "z": 0
+      }
+    },
+    "texture": "9680543c-5c77-4756-bee3-151c380e57cc@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

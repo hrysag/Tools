@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tx_title_rule_en.png",
+    "atlas": "",
+    "rect": {
+      "x": 90,
+      "y": 18,
+      "width": 370,
+      "height": 54
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 550,
+      "height": 90
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -185,
+        -27,
+        0,
+        185,
+        -27,
+        0,
+        -185,
+        27,
+        0,
+        185,
+        27,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        90,
+        72,
+        460,
+        72,
+        90,
+        18,
+        460,
+        18
+      ],
+      "nuv": [
+        0.16363636363636364,
+        0.2,
+        0.8363636363636363,
+        0.2,
+        0.16363636363636364,
+        0.8,
+        0.8363636363636363,
+        0.8
+      ],
+      "minPos": {
+        "x": -185,
+        "y": -27,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 185,
+        "y": 27,
+        "z": 0
+      }
+    },
+    "texture": "c5b80b58-cf48-40bd-bf65-8e73c0635fc4@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

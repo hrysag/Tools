@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Loading_info_txt_02",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 830,
+      "height": 150
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 830,
+      "height": 150
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -415,
+        -75,
+        0,
+        415,
+        -75,
+        0,
+        -415,
+        75,
+        0,
+        415,
+        75,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        150,
+        830,
+        150,
+        0,
+        0,
+        830,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -415,
+        "y": -75,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 415,
+        "y": 75,
+        "z": 0
+      }
+    },
+    "texture": "a8821683-772e-41ea-8460-601be9eda735@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

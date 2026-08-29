@@ -1,0 +1,62 @@
+
+Feature_hint.webp
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01_pic/draw_light_add
+  rotate: false
+  xy: 2, 2
+  size: 426, 225
+  orig: 426, 225
+  offset: 0, 0
+  index: -1
+01_pic/draw_small_light_add
+  rotate: false
+  xy: 584, 223
+  size: 352, 154
+  orig: 352, 154
+  offset: 0, 0
+  index: -1
+01_pic/fx_respin_back_sq_light
+  rotate: false
+  xy: 2, 452
+  size: 590, 564
+  orig: 590, 564
+  offset: 0, 0
+  index: -1
+01_pic/fx_respin_partical_dot
+  rotate: false
+  xy: 430, 27
+  size: 212, 194
+  orig: 212, 194
+  offset: 0, 0
+  index: -1
+01_pic/fx_respin_pinlight
+  rotate: false
+  xy: 2, 229
+  size: 580, 221
+  orig: 580, 221
+  offset: 0, 0
+  index: -1
+01_pic/fx_respin_spikelight
+  rotate: false
+  xy: 594, 379
+  size: 340, 266
+  orig: 340, 266
+  offset: 0, 0
+  index: -1
+01_pic/supersed
+  rotate: false
+  xy: 965, 1006
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+01_pic/win_light_add
+  rotate: false
+  xy: 594, 647
+  size: 369, 369
+  orig: 369, 369
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,41 @@
+
+fx_pic_win.jpg
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+win_box_glow_frame2
+  rotate: false
+  xy: 2, 404
+  size: 1176, 282
+  orig: 1176, 282
+  offset: 0, 0
+  index: -1
+win_box_light_dot
+  rotate: false
+  xy: 1180, 583
+  size: 79, 103
+  orig: 79, 103
+  offset: 0, 0
+  index: -1
+win_frame_glowing2
+  rotate: false
+  xy: 2, 270
+  size: 1008, 132
+  orig: 1008, 132
+  offset: 0, 0
+  index: -1
+win_frame_glowing3
+  rotate: false
+  xy: 2, 136
+  size: 1008, 132
+  orig: 1008, 132
+  offset: 0, 0
+  index: -1
+win_frame_glowing4
+  rotate: false
+  xy: 2, 2
+  size: 1008, 132
+  orig: 1008, 132
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,86 @@
+let cc;
+export class Application {
+    constructor () {
+        this.settingsPath = '<%= settingsJsonPath %>';
+        this.showFPS = <%= showFPS %>;
+
+        window.game_version = '1.0.84';
+    }
+
+    init (engine) {
+        cc = engine;
+        cc.game.onPostBaseInitDelegate.add(this.onPostInitBase.bind(this));
+        cc.game.onPostSubsystemInitDelegate.add(this.onPostSystemInit.bind(this));
+    }
+
+    onPostInitBase () {
+        /** cid 參考
+            1:bbgp
+            2:bbin雲
+            3:bbin地
+            11:demo
+            4:go+
+            5:demogo
+        */
+        const data = this.urlGet('d');
+        if (data) {
+            const jsonData = JSON.parse(decodeURIComponent(encodeURIComponent(window.atob(data))));
+            if (jsonData['cid'] != '4') {
+                document.title = 'Welcome';
+                var favIcon = document.querySelector("link[rel~='icon']");
+                if (!favIcon) {
+                    favIcon = document.createElement('link');
+                    favIcon.rel = 'icon';
+                    document.getElementsByTagName('head')[0].appendChild(favIcon);
+                }
+                favIcon.href = 'public/images/faviconBB.png';
+            }
+        }
+    }
+
+    onPostSystemInit () {
+        // 实现一些自定义的逻辑
+    }
+
+    start () {
+        return cc.game.init({ // 以需要的参数运行引擎
+            debugMode: <%= debugMode %> ? cc.DebugMode.INFO : cc.DebugMode.ERROR,
+            settingsPath: this.settingsPath, // 传入 settings.json 路径
+            overrideSettings: { // 对配置文件中的部分数据进行覆盖，第二部分会详细介绍这个字段
+                // assets: {
+                //      preloadBundles: [{ bundle: 'main', version: 'xxx' }],
+                // }
+                profiling: {
+                    showFPS: this.showFPS,
+                }
+            }
+        }).then(() => {
+            // 2024/03/12 edited by Alan
+            // PC dpr = 1 (因為enableRetina不能用了)
+            if (cc.sys.platform === cc.sys.Platform.DESKTOP_BROWSER) {
+                window.devicePixelRatio = 1;
+            }
+            cc.game.run()
+        });
+    }
+
+    urlGet(n){
+        if(n=(new RegExp('[?&]'+encodeURIComponent(n)+'=([^&]*)')).exec(location.search))
+            return decodeURIComponent(n[1]);
+    }
+
+    getCookie(cname) {
+        var name = cname + "=";
+        var ca = document.cookie.split(';');
+        for(var i = 0; i <ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(name) == 0) {
+                return c.substring(name.length,c.length);
+            }
+        }
+        return sessionStorage.getItem(cname);
+    }
+}

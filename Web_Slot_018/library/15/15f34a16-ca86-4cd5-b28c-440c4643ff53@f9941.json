@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "BuyFG_title_txt",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 480,
+      "height": 64
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 480,
+      "height": 64
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -240,
+        -32,
+        0,
+        240,
+        -32,
+        0,
+        -240,
+        32,
+        0,
+        240,
+        32,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        64,
+        480,
+        64,
+        0,
+        0,
+        480,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -240,
+        "y": -32,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 240,
+        "y": 32,
+        "z": 0
+      }
+    },
+    "texture": "15f34a16-ca86-4cd5-b28c-440c4643ff53@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

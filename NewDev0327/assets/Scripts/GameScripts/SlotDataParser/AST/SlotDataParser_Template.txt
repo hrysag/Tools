@@ -1,0 +1,179 @@
+////【階段 1：專案與命名】/////
+// 此階段包含：
+// - 引入必要的型別與類別
+// - 定義遊戲 ID 與相關 Config
+import { GameRecordAST, IconConfig, Item, Line, SlotDataGameModeType, SlotDataParser, SlotDataStringType } from "db://assets/Scripts/ModuleEntry"
+// import { GameData{GAMEID}, ... } from "./GameData{GAMEID}";
+// import { Game{GAMEID}Config, IconList } from "../GameViewConfig{GAMEID}";
+////【階段 1：專案與命名】/////
+
+////【階段 6：Icon 與資源】/////
+// 此階段包含：
+// - 定義所有 Icon 的配置（ID、路徑、尺寸）
+// - 建立 icons 常數供 GameRecordAST 使用
+export const icons: Record<number, IconConfig> = {
+    0: { src: "/images/game{GAMEID}/icon_00.png", width: 152, height: 156 },
+    1: { src: "/images/game{GAMEID}/icon_01.png", width: 152, height: 156 },
+    // ... 補充所有 Icon ID
+};
+////【階段 6：Icon 與資源】/////
+
+////【階段 1：專案與命名】/////
+// 主解析類別
+export class SlotDataParser { GAMEID } {
+
+    // 主要入口方法
+    public getSlotParser(gameResult: any /* GameData{GAMEID} */) {
+        const parser = new SlotDataParser(gameResult.Bet);
+
+        ////【階段 2：遊戲模式與回合結構】/////
+        // 此階段包含：
+        // - 設定遊戲模式 setGameMode()
+        // - 設定回合標題 setTitle()
+        // - 定義何時呼叫 setRecords()
+        // - 處理不同模式間的切換邏輯
+
+        // 一般遊戲模式
+        parser.setGameMode(SlotDataGameModeType.normal);
+
+        // 處理一般遊戲回合
+        const ngRoundData = gameResult.RoundDataList[0];
+        const title = this.getNormalGameTitle(/* 相關參數 */);
+        parser.setTitle(title);
+        ////【階段 2：遊戲模式與回合結構】/////
+
+        ////【階段 3：盤面規格】/////
+        // 此階段包含：
+        // - 呼叫 processIconData(row, col, iconList, processors)
+        // - 設定中獎位置標記 setBorderMark()
+        // - 設定特殊位置標記
+        // - 自定義 Processor（如有需要）
+        parser.processIconData(
+            /* Game{GAMEID}Config.Row */,
+            /* Game{GAMEID}Config.Column */,
+            ngRoundData.IconList,
+            [
+                parser.setBorderMark(/* winPos2D */, "#ff0000ff"),
+            parser.setBorderMark(/* specialPos2D */, "#00b7ffff"),
+                // 其他標記或自定義 processor
+            ]
+        );
+        ////【階段 3：盤面規格】/////
+
+        ////【階段 4：中獎資料與細單格式】/////
+        // 此階段包含：
+        // - 呼叫 setDetailDescription() 顯示中獎細節
+        // - 呼叫 setLineSummary() 顯示額外資訊（如需要在細單前顯示）
+        // - 實作 getDetailDescriptionList() 等輔助方法
+
+        // 額外顯示（在細單前）
+        if (/* 有特殊資訊需要顯示 */) {
+            const extraInfo = this.getExtraInfo(/* 參數 */);
+            parser.setLineSummary(extraInfo);
+        }
+
+        // 中獎細單
+        const detailDescriptionList = this.getDetailDescriptionList(/* winData, bet */);
+        parser.setDetailDescription(detailDescriptionList);
+        ////【階段 4：中獎資料與細單格式】/////
+
+        ////【階段 5：摘要與額外顯示】/////
+        // 此階段包含：
+        // - 呼叫 setSummary() 設定摘要資訊（單次贏分、總贏分等）
+        // - 呼叫 setLineSummary() 顯示額外資訊（如需要在細單後顯示）
+
+        const oneSingleWin = this.getWinDescription("單次贏分", /* score */);
+        const totalWin = this.getWinDescription("總贏分", /* totalScore */);
+        parser.setSummary(oneSingleWin);
+        parser.setSummary(totalWin);
+        ////【階段 5：摘要與額外顯示】/////
+
+        // 收斂本回合資料
+        parser.combineOneRoundData();
+
+        ////【階段 2：遊戲模式與回合結構】/////
+        // 紀錄一般遊戲結束
+        parser.setRecords();
+        ////【階段 2：遊戲模式與回合結構】/////
+
+        ////【階段 2：遊戲模式與回合結構】/////
+        // 免費遊戲模式（如有）
+        if (gameResult.HasFreeGame) {
+            parser.setGameMode(SlotDataGameModeType.free);
+
+            for (let i = 0; i < gameResult.FreeGameRounds.length; i++) {
+                parser.setTitle([
+                    [SlotDataStringType.text, SlotDataGameModeType.free],
+                    [SlotDataStringType.number, i + 1]
+                ]);
+
+                const fgRoundData = gameResult.FreeGameRounds[i];
+
+                ////【階段 3：盤面規格】/////
+                parser.processIconData(/* ... */);
+                ////【階段 3：盤面規格】/////
+
+                ////【階段 4：中獎資料與細單格式】/////
+                // 處理免費遊戲的細單
+                ////【階段 4：中獎資料與細單格式】/////
+
+                ////【階段 5：摘要與額外顯示】/////
+                // 處理免費遊戲的摘要
+                ////【階段 5：摘要與額外顯示】/////
+
+                parser.combineOneRoundData();
+            }
+
+            parser.setRecords();
+        }
+        ////【階段 2：遊戲模式與回合結構】/////
+
+        // 最終輸出
+        const finalSltData = parser.getFinalSlotData();
+        const gameRecordAST: GameRecordAST = {
+            ast: finalSltData,
+            icons: icons
+        };
+        return gameRecordAST;
+    }
+
+    ////【輔助方法區】/////
+
+    // 標題產生方法
+    private getNormalGameTitle(/* 參數 */): Item[] {
+        return [
+            [SlotDataStringType.text, SlotDataGameModeType.normal]
+        ];
+    }
+
+    // 細單行組裝方法
+    private getDetailDescriptionList(/* winData, bet */): Line[] {
+        const descriptionList: Line[] = [];
+        // for (let i = 0; i < winData.length; i++) {
+        //     const line: Line = [
+        //         SlotDataStringType.line, [
+        //             [SlotDataStringType.icon, winData[i].iconId],
+        //             [SlotDataStringType.number, bet],
+        //             [SlotDataStringType.symbol, "*"],
+        //             [SlotDataStringType.number, winData[i].odd],
+        //             [SlotDataStringType.symbol, "="],
+        //             [SlotDataStringType.number, winData[i].score]
+        //         ]
+        //     ];
+        //     descriptionList.push(line);
+        // }
+        return descriptionList;
+    }
+
+    // 摘要資訊產生方法
+    private getWinDescription(text: string, score: number): Item[] {
+        return [
+            [SlotDataStringType.text, text],
+            [SlotDataStringType.symbol, "="],
+            [SlotDataStringType.number, score]
+        ];
+    }
+
+    ////【輔助方法區】/////
+}
+////【階段 1：專案與命名】/////

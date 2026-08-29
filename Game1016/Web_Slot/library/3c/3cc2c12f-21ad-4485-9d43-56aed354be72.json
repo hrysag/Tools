@@ -1,0 +1,8 @@
+{
+  "__type__": "cc.TextAsset",
+  "_name": "icon_06.atlas",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "text": "\r\nicon_06.webp\r\nsize: 512,256\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\n01_Heart_Glow_BK_00\r\n  rotate: false\r\n  xy: 154, 58\r\n  size: 120, 109\r\n  orig: 120, 109\r\n  offset: 0, 0\r\n  index: -1\r\n01_red_heart\r\n  rotate: false\r\n  xy: 276, 2\r\n  size: 86, 80\r\n  orig: 86, 80\r\n  offset: 0, 0\r\n  index: -1\r\n01_red_heart_sd\r\n  rotate: false\r\n  xy: 276, 84\r\n  size: 88, 83\r\n  orig: 88, 83\r\n  offset: 0, 0\r\n  index: -1\r\nStar_Fx\r\n  rotate: false\r\n  xy: 2, 17\r\n  size: 150, 150\r\n  orig: 150, 150\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

@@ -1,0 +1,123 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "ani_sym_02_bot",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "wMrSORYsV3gyip9Pi5tRcbk9VD8",
+      "spine": "3.7.94",
+      "width": 216,
+      "height": 204,
+      "images": "./m_images/",
+      "audio": "../symbol_m1-m4_animation/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "m2",
+        "parent": "root",
+        "x": 1,
+        "y": -5,
+        "color": "005cffff"
+      },
+      {
+        "name": "m2_bg_comp",
+        "parent": "m2",
+        "color": "005cffff"
+      },
+      {
+        "name": "m2_bg1",
+        "parent": "m2_bg_comp",
+        "color": "005cffff"
+      },
+      {
+        "name": "m2_bg2",
+        "parent": "m2_bg_comp",
+        "color": "005cffff"
+      }
+    ],
+    "slots": [
+      {
+        "name": "m2_bg",
+        "bone": "m2_bg1",
+        "attachment": "m2_bg"
+      },
+      {
+        "name": "m2_bg2",
+        "bone": "m2_bg2",
+        "color": "ffffff00",
+        "attachment": "m2_bg",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "m2_bg": {
+          "m2_bg": {
+            "x": -1,
+            "y": 3,
+            "width": 216,
+            "height": 204
+          }
+        },
+        "m2_bg2": {
+          "m2_bg": {
+            "x": -1,
+            "y": 3,
+            "width": 216,
+            "height": 204
+          }
+        }
+      }
+    },
+    "animations": {
+      "connect": {
+        "slots": {
+          "m2_bg2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "color": "ffffff3c",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "textures": [
+    {
+      "__uuid__": "2bcda1ea-1196-432d-be66-17607f940a11@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "ani_sym_02_bot.png"
+  ],
+  "scale": 1,
+  "_atlasText": "\r\nani_sym_02_bot.png\r\nsize: 256,256\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nm2_bg\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 216, 204\r\n  orig: 216, 204\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

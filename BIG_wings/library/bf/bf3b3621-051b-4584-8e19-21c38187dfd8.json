@@ -1,0 +1,4660 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "prz_win_coin",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "9PtW8CaHyk3fRr8MAE/js0wHiJc",
+      "spine": "3.7.94",
+      "width": 0,
+      "height": 0
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "scale",
+        "parent": "root",
+        "scaleX": 2,
+        "scaleY": 2
+      },
+      {
+        "name": "scale2",
+        "parent": "root",
+        "x": 240,
+        "scaleX": 2,
+        "scaleY": 2
+      },
+      {
+        "name": "scale3",
+        "parent": "root",
+        "x": -240,
+        "scaleX": 2,
+        "scaleY": 2
+      }
+    ],
+    "slots": [
+      {
+        "name": "gold_coin",
+        "bone": "scale"
+      },
+      {
+        "name": "gold_coin2",
+        "bone": "scale2"
+      },
+      {
+        "name": "gold_coin3",
+        "bone": "scale3"
+      }
+    ],
+    "skins": {
+      "default": {
+        "gold_coin": {
+          "gold_coin_00000": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00001": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00002": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00003": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00004": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00005": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00006": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00007": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00008": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00009": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00010": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00011": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00012": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00013": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00014": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00015": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00016": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00017": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00018": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00019": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00020": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00021": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00022": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00023": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00024": {
+            "width": 960,
+            "height": 960
+          }
+        },
+        "gold_coin2": {
+          "gold_coin_00000": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00001": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00002": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00003": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00004": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00005": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00006": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00007": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00008": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00009": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00010": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00011": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00012": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00013": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00014": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00015": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00016": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00017": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00018": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00019": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00020": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00021": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00022": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00023": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00024": {
+            "width": 960,
+            "height": 960
+          }
+        },
+        "gold_coin3": {
+          "gold_coin_00000": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00001": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00002": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00003": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00004": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00005": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00006": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00007": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00008": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00009": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00010": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00011": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00012": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00013": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00014": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00015": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00016": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00017": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00018": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00019": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00020": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00021": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00022": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00023": {
+            "width": 960,
+            "height": 960
+          },
+          "gold_coin_00024": {
+            "width": 960,
+            "height": 960
+          }
+        }
+      }
+    },
+    "animations": {
+      "big_win_begin": {
+        "slots": {
+          "gold_coin": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "gold_coin_00000"
+              },
+              {
+                "time": 0.0333,
+                "name": "gold_coin_00001"
+              },
+              {
+                "time": 0.0667,
+                "name": "gold_coin_00002"
+              },
+              {
+                "time": 0.1,
+                "name": "gold_coin_00003"
+              },
+              {
+                "time": 0.1333,
+                "name": "gold_coin_00004"
+              },
+              {
+                "time": 0.1667,
+                "name": "gold_coin_00005"
+              },
+              {
+                "time": 0.2,
+                "name": "gold_coin_00006"
+              },
+              {
+                "time": 0.2333,
+                "name": "gold_coin_00007"
+              },
+              {
+                "time": 0.2667,
+                "name": "gold_coin_00008"
+              },
+              {
+                "time": 0.3,
+                "name": "gold_coin_00009"
+              },
+              {
+                "time": 0.3333,
+                "name": "gold_coin_00010"
+              },
+              {
+                "time": 0.3667,
+                "name": "gold_coin_00011"
+              },
+              {
+                "time": 0.4,
+                "name": "gold_coin_00012"
+              },
+              {
+                "time": 0.4333,
+                "name": "gold_coin_00013"
+              },
+              {
+                "time": 0.4667,
+                "name": "gold_coin_00014"
+              },
+              {
+                "time": 0.5,
+                "name": "gold_coin_00015"
+              },
+              {
+                "time": 0.5333,
+                "name": "gold_coin_00016"
+              },
+              {
+                "time": 0.5667,
+                "name": "gold_coin_00017"
+              },
+              {
+                "time": 0.6,
+                "name": "gold_coin_00018"
+              },
+              {
+                "time": 0.6333,
+                "name": "gold_coin_00019"
+              },
+              {
+                "time": 0.6667,
+                "name": "gold_coin_00020"
+              },
+              {
+                "time": 0.7,
+                "name": "gold_coin_00021"
+              },
+              {
+                "time": 0.7333,
+                "name": "gold_coin_00022"
+              },
+              {
+                "time": 0.7667,
+                "name": "gold_coin_00023"
+              },
+              {
+                "time": 0.8,
+                "name": "gold_coin_00024"
+              },
+              {
+                "time": 0.8333,
+                "name": "gold_coin_00000"
+              },
+              {
+                "time": 0.8667,
+                "name": "gold_coin_00001"
+              },
+              {
+                "time": 0.9,
+                "name": "gold_coin_00002"
+              },
+              {
+                "time": 0.9333,
+                "name": "gold_coin_00003"
+              },
+              {
+                "time": 0.9667,
+                "name": "gold_coin_00004"
+              },
+              {
+                "time": 1,
+                "name": "gold_coin_00005"
+              },
+              {
+                "time": 1.0333,
+                "name": "gold_coin_00006"
+              },
+              {
+                "time": 1.0667,
+                "name": "gold_coin_00007"
+              },
+              {
+                "time": 1.1,
+                "name": "gold_coin_00008"
+              },
+              {
+                "time": 1.1333,
+                "name": "gold_coin_00009"
+              },
+              {
+                "time": 1.1667,
+                "name": "gold_coin_00010"
+              },
+              {
+                "time": 1.2,
+                "name": "gold_coin_00011"
+              },
+              {
+                "time": 1.2333,
+                "name": "gold_coin_00012"
+              },
+              {
+                "time": 1.2667,
+                "name": "gold_coin_00013"
+              },
+              {
+                "time": 1.3,
+                "name": "gold_coin_00014"
+              },
+              {
+                "time": 1.3333,
+                "name": "gold_coin_00015"
+              },
+              {
+                "time": 1.3667,
+                "name": "gold_coin_00016"
+              },
+              {
+                "time": 1.4,
+                "name": "gold_coin_00017"
+              },
+              {
+                "time": 1.4333,
+                "name": "gold_coin_00018"
+              },
+              {
+                "time": 1.4667,
+                "name": "gold_coin_00019"
+              },
+              {
+                "time": 1.5,
+                "name": "gold_coin_00020"
+              },
+              {
+                "time": 1.5333,
+                "name": "gold_coin_00021"
+              },
+              {
+                "time": 1.5667,
+                "name": "gold_coin_00022"
+              },
+              {
+                "time": 1.6,
+                "name": "gold_coin_00023"
+              },
+              {
+                "time": 1.6333,
+                "name": "gold_coin_00024"
+              },
+              {
+                "time": 1.6667,
+                "name": "gold_coin_00000"
+              }
+            ]
+          },
+          "gold_coin2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "gold_coin_00017"
+              },
+              {
+                "time": 0.0333,
+                "name": "gold_coin_00018"
+              },
+              {
+                "time": 0.0667,
+                "name": "gold_coin_00019"
+              },
+              {
+                "time": 0.1,
+                "name": "gold_coin_00020"
+              },
+              {
+                "time": 0.1333,
+                "name": "gold_coin_00021"
+              },
+              {
+                "time": 0.1667,
+                "name": "gold_coin_00022"
+              },
+              {
+                "time": 0.2,
+                "name": "gold_coin_00023"
+              },
+              {
+                "time": 0.2333,
+                "name": "gold_coin_00024"
+              },
+              {
+                "time": 0.2667,
+                "name": "gold_coin_00000"
+              },
+              {
+                "time": 0.3,
+                "name": "gold_coin_00001"
+              },
+              {
+                "time": 0.3333,
+                "name": "gold_coin_00002"
+              },
+              {
+                "time": 0.3667,
+                "name": "gold_coin_00003"
+              },
+              {
+                "time": 0.4,
+                "name": "gold_coin_00004"
+              },
+              {
+                "time": 0.4333,
+                "name": "gold_coin_00005"
+              },
+              {
+                "time": 0.4667,
+                "name": "gold_coin_00006"
+              },
+              {
+                "time": 0.5,
+                "name": "gold_coin_00007"
+              },
+              {
+                "time": 0.5333,
+                "name": "gold_coin_00008"
+              },
+              {
+                "time": 0.5667,
+                "name": "gold_coin_00009"
+              },
+              {
+                "time": 0.6,
+                "name": "gold_coin_00010"
+              },
+              {
+                "time": 0.6333,
+                "name": "gold_coin_00011"
+              },
+              {
+                "time": 0.6667,
+                "name": "gold_coin_00012"
+              },
+              {
+                "time": 0.7,
+                "name": "gold_coin_00013"
+              },
+              {
+                "time": 0.7333,
+                "name": "gold_coin_00014"
+              },
+              {
+                "time": 0.7667,
+                "name": "gold_coin_00015"
+              },
+              {
+                "time": 0.8,
+                "name": "gold_coin_00016"
+              },
+              {
+                "time": 0.8333,
+                "name": "gold_coin_00017"
+              },
+              {
+                "time": 0.8667,
+                "name": "gold_coin_00018"
+              },
+              {
+                "time": 0.9,
+                "name": "gold_coin_00019"
+              },
+              {
+                "time": 0.9333,
+                "name": "gold_coin_00020"
+              },
+              {
+                "time": 0.9667,
+                "name": "gold_coin_00021"
+              },
+              {
+                "time": 1,
+                "name": "gold_coin_00022"
+              },
+              {
+                "time": 1.0333,
+                "name": "gold_coin_00023"
+              },
+              {
+                "time": 1.0667,
+                "name": "gold_coin_00024"
+              },
+              {
+                "time": 1.1,
+                "name": "gold_coin_00000"
+              },
+              {
+                "time": 1.1333,
+                "name": "gold_coin_00001"
+              },
+              {
+                "time": 1.1667,
+                "name": "gold_coin_00002"
+              },
+              {
+                "time": 1.2,
+                "name": "gold_coin_00003"
+              },
+              {
+                "time": 1.2333,
+                "name": "gold_coin_00004"
+              },
+              {
+                "time": 1.2667,
+                "name": "gold_coin_00005"
+              },
+              {
+                "time": 1.3,
+                "name": "gold_coin_00006"
+              },
+              {
+                "time": 1.3333,
+                "name": "gold_coin_00007"
+              },
+              {
+                "time": 1.3667,
+                "name": "gold_coin_00008"
+              },
+              {
+                "time": 1.4,
+                "name": "gold_coin_00009"
+              },
+              {
+                "time": 1.4333,
+                "name": "gold_coin_00010"
+              },
+              {
+                "time": 1.4667,
+                "name": "gold_coin_00011"
+              },
+              {
+                "time": 1.5,
+                "name": "gold_coin_00012"
+              },
+              {
+                "time": 1.5333,
+                "name": "gold_coin_00013"
+              },
+              {
+                "time": 1.5667,
+                "name": "gold_coin_00014"
+              },
+              {
+                "time": 1.6,
+                "name": "gold_coin_00015"
+              },
+              {
+                "time": 1.6333,
+                "name": "gold_coin_00016"
+              },
+              {
+                "time": 1.6667,
+                "name": "gold_coin_00017"
+              }
+            ]
+          },
+          "gold_coin3": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "gold_coin_00009"
+              },
+              {
+                "time": 0.0333,
+                "name": "gold_coin_00010"
+              },
+              {
+                "time": 0.0667,
+                "name": "gold_coin_00011"
+              },
+              {
+                "time": 0.1,
+                "name": "gold_coin_00012"
+              },
+              {
+                "time": 0.1333,
+                "name": "gold_coin_00013"
+              },
+              {
+                "time": 0.1667,
+                "name": "gold_coin_00014"
+              },
+              {
+                "time": 0.2,
+                "name": "gold_coin_00015"
+              },
+              {
+                "time": 0.2333,
+                "name": "gold_coin_00016"
+              },
+              {
+                "time": 0.2667,
+                "name": "gold_coin_00017"
+              },
+              {
+                "time": 0.3,
+                "name": "gold_coin_00018"
+              },
+              {
+                "time": 0.3333,
+                "name": "gold_coin_00019"
+              },
+              {
+                "time": 0.3667,
+                "name": "gold_coin_00020"
+              },
+              {
+                "time": 0.4,
+                "name": "gold_coin_00021"
+              },
+              {
+                "time": 0.4333,
+                "name": "gold_coin_00022"
+              },
+              {
+                "time": 0.4667,
+                "name": "gold_coin_00023"
+              },
+              {
+                "time": 0.5,
+                "name": "gold_coin_00024"
+              },
+              {
+                "time": 0.5333,
+                "name": "gold_coin_00000"
+              },
+              {
+                "time": 0.5667,
+                "name": "gold_coin_00001"
+              },
+              {
+                "time": 0.6,
+                "name": "gold_coin_00002"
+              },
+              {
+                "time": 0.6333,
+                "name": "gold_coin_00003"
+              },
+              {
+                "time": 0.6667,
+                "name": "gold_coin_00004"
+              },
+              {
+                "time": 0.7,
+                "name": "gold_coin_00005"
+              },
+              {
+                "time": 0.7333,
+                "name": "gold_coin_00006"
+              },
+              {
+                "time": 0.7667,
+                "name": "gold_coin_00007"
+              },
+              {
+                "time": 0.8,
+                "name": "gold_coin_00008"
+              },
+              {
+                "time": 0.8333,
+                "name": "gold_coin_00009"
+              },
+              {
+                "time": 0.8667,
+                "name": "gold_coin_00010"
+              },
+              {
+                "time": 0.9,
+                "name": "gold_coin_00011"
+              },
+              {
+                "time": 0.9333,
+                "name": "gold_coin_00012"
+              },
+              {
+                "time": 0.9667,
+                "name": "gold_coin_00013"
+              },
+              {
+                "time": 1,
+                "name": "gold_coin_00014"
+              },
+              {
+                "time": 1.0333,
+                "name": "gold_coin_00015"
+              },
+              {
+                "time": 1.0667,
+                "name": "gold_coin_00016"
+              },
+              {
+                "time": 1.1,
+                "name": "gold_coin_00017"
+              },
+              {
+                "time": 1.1333,
+                "name": "gold_coin_00018"
+              },
+              {
+                "time": 1.1667,
+                "name": "gold_coin_00019"
+              },
+              {
+                "time": 1.2,
+                "name": "gold_coin_00020"
+              },
+              {
+                "time": 1.2333,
+                "name": "gold_coin_00021"
+              },
+              {
+                "time": 1.2667,
+                "name": "gold_coin_00022"
+              },
+              {
+                "time": 1.3,
+                "name": "gold_coin_00023"
+              },
+              {
+                "time": 1.3333,
+                "name": "gold_coin_00024"
+              },
+              {
+                "time": 1.3667,
+                "name": "gold_coin_00000"
+              },
+              {
+                "time": 1.4,
+                "name": "gold_coin_00001"
+              },
+              {
+                "time": 1.4333,
+                "name": "gold_coin_00002"
+              },
+              {
+                "time": 1.4667,
+                "name": "gold_coin_00003"
+              },
+              {
+                "time": 1.5,
+                "name": "gold_coin_00004"
+              },
+              {
+                "time": 1.5333,
+                "name": "gold_coin_00005"
+              },
+              {
+                "time": 1.5667,
+                "name": "gold_coin_00006"
+              },
+              {
+                "time": 1.6,
+                "name": "gold_coin_00007"
+              },
+              {
+                "time": 1.6333,
+                "name": "gold_coin_00008"
+              },
+              {
+                "time": 1.6667,
+                "name": "gold_coin_00009"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "scale": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.8333,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0,
+                  0.56,
+                  0.08,
+                  1
+                ]
+              },
+              {
+                "time": 1.2333,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "scale2": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "scale3": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        }
+      },
+      "big_win_loop": {
+        "slots": {
+          "gold_coin": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "gold_coin_00000"
+              },
+              {
+                "time": 0.0333,
+                "name": "gold_coin_00001"
+              },
+              {
+                "time": 0.0667,
+                "name": "gold_coin_00002"
+              },
+              {
+                "time": 0.1,
+                "name": "gold_coin_00003"
+              },
+              {
+                "time": 0.1333,
+                "name": "gold_coin_00004"
+              },
+              {
+                "time": 0.1667,
+                "name": "gold_coin_00005"
+              },
+              {
+                "time": 0.2,
+                "name": "gold_coin_00006"
+              },
+              {
+                "time": 0.2333,
+                "name": "gold_coin_00007"
+              },
+              {
+                "time": 0.2667,
+                "name": "gold_coin_00008"
+              },
+              {
+                "time": 0.3,
+                "name": "gold_coin_00009"
+              },
+              {
+                "time": 0.3333,
+                "name": "gold_coin_00010"
+              },
+              {
+                "time": 0.3667,
+                "name": "gold_coin_00011"
+              },
+              {
+                "time": 0.4,
+                "name": "gold_coin_00012"
+              },
+              {
+                "time": 0.4333,
+                "name": "gold_coin_00013"
+              },
+              {
+                "time": 0.4667,
+                "name": "gold_coin_00014"
+              },
+              {
+                "time": 0.5,
+                "name": "gold_coin_00015"
+              },
+              {
+                "time": 0.5333,
+                "name": "gold_coin_00016"
+              },
+              {
+                "time": 0.5667,
+                "name": "gold_coin_00017"
+              },
+              {
+                "time": 0.6,
+                "name": "gold_coin_00018"
+              },
+              {
+                "time": 0.6333,
+                "name": "gold_coin_00019"
+              },
+              {
+                "time": 0.6667,
+                "name": "gold_coin_00020"
+              },
+              {
+                "time": 0.7,
+                "name": "gold_coin_00021"
+              },
+              {
+                "time": 0.7333,
+                "name": "gold_coin_00022"
+              },
+              {
+                "time": 0.7667,
+                "name": "gold_coin_00023"
+              },
+              {
+                "time": 0.8,
+                "name": "gold_coin_00024"
+              },
+              {
+                "time": 0.8333,
+                "name": "gold_coin_00000"
+              },
+              {
+                "time": 0.8667,
+                "name": "gold_coin_00001"
+              },
+              {
+                "time": 0.9,
+                "name": "gold_coin_00002"
+              },
+              {
+                "time": 0.9333,
+                "name": "gold_coin_00003"
+              },
+              {
+                "time": 0.9667,
+                "name": "gold_coin_00004"
+              },
+              {
+                "time": 1,
+                "name": "gold_coin_00005"
+              },
+              {
+                "time": 1.0333,
+                "name": "gold_coin_00006"
+              },
+              {
+                "time": 1.0667,
+                "name": "gold_coin_00007"
+              },
+              {
+                "time": 1.1,
+                "name": "gold_coin_00008"
+              },
+              {
+                "time": 1.1333,
+                "name": "gold_coin_00009"
+              },
+              {
+                "time": 1.1667,
+                "name": "gold_coin_00010"
+              },
+              {
+                "time": 1.2,
+                "name": "gold_coin_00011"
+              },
+              {
+                "time": 1.2333,
+                "name": "gold_coin_00012"
+              },
+              {
+                "time": 1.2667,
+                "name": "gold_coin_00013"
+              },
+              {
+                "time": 1.3,
+                "name": "gold_coin_00014"
+              },
+              {
+                "time": 1.3333,
+                "name": "gold_coin_00015"
+              },
+              {
+                "time": 1.3667,
+                "name": "gold_coin_00016"
+              },
+              {
+                "time": 1.4,
+                "name": "gold_coin_00017"
+              },
+              {
+                "time": 1.4333,
+                "name": "gold_coin_00018"
+              },
+              {
+                "time": 1.4667,
+                "name": "gold_coin_00019"
+              },
+              {
+                "time": 1.5,
+                "name": "gold_coin_00020"
+              },
+              {
+                "time": 1.5333,
+                "name": "gold_coin_00021"
+              },
+              {
+                "time": 1.5667,
+                "name": "gold_coin_00022"
+              },
+              {
+                "time": 1.6,
+                "name": "gold_coin_00023"
+              },
+              {
+                "time": 1.6333,
+                "name": "gold_coin_00024"
+              },
+              {
+                "time": 1.6667,
+                "name": "gold_coin_00000"
+              }
+            ]
+          },
+          "gold_coin2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "gold_coin_00017"
+              },
+              {
+                "time": 0.0333,
+                "name": "gold_coin_00018"
+              },
+              {
+                "time": 0.0667,
+                "name": "gold_coin_00019"
+              },
+              {
+                "time": 0.1,
+                "name": "gold_coin_00020"
+              },
+              {
+                "time": 0.1333,
+                "name": "gold_coin_00021"
+              },
+              {
+                "time": 0.1667,
+                "name": "gold_coin_00022"
+              },
+              {
+                "time": 0.2,
+                "name": "gold_coin_00023"
+              },
+              {
+                "time": 0.2333,
+                "name": "gold_coin_00024"
+              },
+              {
+                "time": 0.2667,
+                "name": "gold_coin_00000"
+              },
+              {
+                "time": 0.3,
+                "name": "gold_coin_00001"
+              },
+              {
+                "time": 0.3333,
+                "name": "gold_coin_00002"
+              },
+              {
+                "time": 0.3667,
+                "name": "gold_coin_00003"
+              },
+              {
+                "time": 0.4,
+                "name": "gold_coin_00004"
+              },
+              {
+                "time": 0.4333,
+                "name": "gold_coin_00005"
+              },
+              {
+                "time": 0.4667,
+                "name": "gold_coin_00006"
+              },
+              {
+                "time": 0.5,
+                "name": "gold_coin_00007"
+              },
+              {
+                "time": 0.5333,
+                "name": "gold_coin_00008"
+              },
+              {
+                "time": 0.5667,
+                "name": "gold_coin_00009"
+              },
+              {
+                "time": 0.6,
+                "name": "gold_coin_00010"
+              },
+              {
+                "time": 0.6333,
+                "name": "gold_coin_00011"
+              },
+              {
+                "time": 0.6667,
+                "name": "gold_coin_00012"
+              },
+              {
+                "time": 0.7,
+                "name": "gold_coin_00013"
+              },
+              {
+                "time": 0.7333,
+                "name": "gold_coin_00014"
+              },
+              {
+                "time": 0.7667,
+                "name": "gold_coin_00015"
+              },
+              {
+                "time": 0.8,
+                "name": "gold_coin_00016"
+              },
+              {
+                "time": 0.8333,
+                "name": "gold_coin_00017"
+              },
+              {
+                "time": 0.8667,
+                "name": "gold_coin_00018"
+              },
+              {
+                "time": 0.9,
+                "name": "gold_coin_00019"
+              },
+              {
+                "time": 0.9333,
+                "name": "gold_coin_00020"
+              },
+              {
+                "time": 0.9667,
+                "name": "gold_coin_00021"
+              },
+              {
+                "time": 1,
+                "name": "gold_coin_00022"
+              },
+              {
+                "time": 1.0333,
+                "name": "gold_coin_00023"
+              },
+              {
+                "time": 1.0667,
+                "name": "gold_coin_00024"
+              },
+              {
+                "time": 1.1,
+                "name": "gold_coin_00000"
+              },
+              {
+                "time": 1.1333,
+                "name": "gold_coin_00001"
+              },
+              {
+                "time": 1.1667,
+                "name": "gold_coin_00002"
+              },
+              {
+                "time": 1.2,
+                "name": "gold_coin_00003"
+              },
+              {
+                "time": 1.2333,
+                "name": "gold_coin_00004"
+              },
+              {
+                "time": 1.2667,
+                "name": "gold_coin_00005"
+              },
+              {
+                "time": 1.3,
+                "name": "gold_coin_00006"
+              },
+              {
+                "time": 1.3333,
+                "name": "gold_coin_00007"
+              },
+              {
+                "time": 1.3667,
+                "name": "gold_coin_00008"
+              },
+              {
+                "time": 1.4,
+                "name": "gold_coin_00009"
+              },
+              {
+                "time": 1.4333,
+                "name": "gold_coin_00010"
+              },
+              {
+                "time": 1.4667,
+                "name": "gold_coin_00011"
+              },
+              {
+                "time": 1.5,
+                "name": "gold_coin_00012"
+              },
+              {
+                "time": 1.5333,
+                "name": "gold_coin_00013"
+              },
+              {
+                "time": 1.5667,
+                "name": "gold_coin_00014"
+              },
+              {
+                "time": 1.6,
+                "name": "gold_coin_00015"
+              },
+              {
+                "time": 1.6333,
+                "name": "gold_coin_00016"
+              },
+              {
+                "time": 1.6667,
+                "name": "gold_coin_00017"
+              }
+            ]
+          },
+          "gold_coin3": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "gold_coin_00009"
+              },
+              {
+                "time": 0.0333,
+                "name": "gold_coin_00010"
+              },
+              {
+                "time": 0.0667,
+                "name": "gold_coin_00011"
+              },
+              {
+                "time": 0.1,
+                "name": "gold_coin_00012"
+              },
+              {
+                "time": 0.1333,
+                "name": "gold_coin_00013"
+              },
+              {
+                "time": 0.1667,
+                "name": "gold_coin_00014"
+              },
+              {
+                "time": 0.2,
+                "name": "gold_coin_00015"
+              },
+              {
+                "time": 0.2333,
+                "name": "gold_coin_00016"
+              },
+              {
+                "time": 0.2667,
+                "name": "gold_coin_00017"
+              },
+              {
+                "time": 0.3,
+                "name": "gold_coin_00018"
+              },
+              {
+                "time": 0.3333,
+                "name": "gold_coin_00019"
+              },
+              {
+                "time": 0.3667,
+                "name": "gold_coin_00020"
+              },
+              {
+                "time": 0.4,
+                "name": "gold_coin_00021"
+              },
+              {
+                "time": 0.4333,
+                "name": "gold_coin_00022"
+              },
+              {
+                "time": 0.4667,
+                "name": "gold_coin_00023"
+              },
+              {
+                "time": 0.5,
+                "name": "gold_coin_00024"
+              },
+              {
+                "time": 0.5333,
+                "name": "gold_coin_00000"
+              },
+              {
+                "time": 0.5667,
+                "name": "gold_coin_00001"
+              },
+              {
+                "time": 0.6,
+                "name": "gold_coin_00002"
+              },
+              {
+                "time": 0.6333,
+                "name": "gold_coin_00003"
+              },
+              {
+                "time": 0.6667,
+                "name": "gold_coin_00004"
+              },
+              {
+                "time": 0.7,
+                "name": "gold_coin_00005"
+              },
+              {
+                "time": 0.7333,
+                "name": "gold_coin_00006"
+              },
+              {
+                "time": 0.7667,
+                "name": "gold_coin_00007"
+              },
+              {
+                "time": 0.8,
+                "name": "gold_coin_00008"
+              },
+              {
+                "time": 0.8333,
+                "name": "gold_coin_00009"
+              },
+              {
+                "time": 0.8667,
+                "name": "gold_coin_00010"
+              },
+              {
+                "time": 0.9,
+                "name": "gold_coin_00011"
+              },
+              {
+                "time": 0.9333,
+                "name": "gold_coin_00012"
+              },
+              {
+                "time": 0.9667,
+                "name": "gold_coin_00013"
+              },
+              {
+                "time": 1,
+                "name": "gold_coin_00014"
+              },
+              {
+                "time": 1.0333,
+                "name": "gold_coin_00015"
+              },
+              {
+                "time": 1.0667,
+                "name": "gold_coin_00016"
+              },
+              {
+                "time": 1.1,
+                "name": "gold_coin_00017"
+              },
+              {
+                "time": 1.1333,
+                "name": "gold_coin_00018"
+              },
+              {
+                "time": 1.1667,
+                "name": "gold_coin_00019"
+              },
+              {
+                "time": 1.2,
+                "name": "gold_coin_00020"
+              },
+              {
+                "time": 1.2333,
+                "name": "gold_coin_00021"
+              },
+              {
+                "time": 1.2667,
+                "name": "gold_coin_00022"
+              },
+              {
+                "time": 1.3,
+                "name": "gold_coin_00023"
+              },
+              {
+                "time": 1.3333,
+                "name": "gold_coin_00024"
+              },
+              {
+                "time": 1.3667,
+                "name": "gold_coin_00000"
+              },
+              {
+                "time": 1.4,
+                "name": "gold_coin_00001"
+              },
+              {
+                "time": 1.4333,
+                "name": "gold_coin_00002"
+              },
+              {
+                "time": 1.4667,
+                "name": "gold_coin_00003"
+              },
+              {
+                "time": 1.5,
+                "name": "gold_coin_00004"
+              },
+              {
+                "time": 1.5333,
+                "name": "gold_coin_00005"
+              },
+              {
+                "time": 1.5667,
+                "name": "gold_coin_00006"
+              },
+              {
+                "time": 1.6,
+                "name": "gold_coin_00007"
+              },
+              {
+                "time": 1.6333,
+                "name": "gold_coin_00008"
+              },
+              {
+                "time": 1.6667,
+                "name": "gold_coin_00009"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "scale2": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          },
+          "scale3": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        }
+      },
+      "mega_win_begin": {
+        "slots": {
+          "gold_coin": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "gold_coin_00000"
+              },
+              {
+                "time": 0.0333,
+                "name": "gold_coin_00001"
+              },
+              {
+                "time": 0.0667,
+                "name": "gold_coin_00002"
+              },
+              {
+                "time": 0.1,
+                "name": "gold_coin_00003"
+              },
+              {
+                "time": 0.1333,
+                "name": "gold_coin_00004"
+              },
+              {
+                "time": 0.1667,
+                "name": "gold_coin_00005"
+              },
+              {
+                "time": 0.2,
+                "name": "gold_coin_00006"
+              },
+              {
+                "time": 0.2333,
+                "name": "gold_coin_00007"
+              },
+              {
+                "time": 0.2667,
+                "name": "gold_coin_00008"
+              },
+              {
+                "time": 0.3,
+                "name": "gold_coin_00009"
+              },
+              {
+                "time": 0.3333,
+                "name": "gold_coin_00010"
+              },
+              {
+                "time": 0.3667,
+                "name": "gold_coin_00011"
+              },
+              {
+                "time": 0.4,
+                "name": "gold_coin_00012"
+              },
+              {
+                "time": 0.4333,
+                "name": "gold_coin_00013"
+              },
+              {
+                "time": 0.4667,
+                "name": "gold_coin_00014"
+              },
+              {
+                "time": 0.5,
+                "name": "gold_coin_00015"
+              },
+              {
+                "time": 0.5333,
+                "name": "gold_coin_00016"
+              },
+              {
+                "time": 0.5667,
+                "name": "gold_coin_00017"
+              },
+              {
+                "time": 0.6,
+                "name": "gold_coin_00018"
+              },
+              {
+                "time": 0.6333,
+                "name": "gold_coin_00019"
+              },
+              {
+                "time": 0.6667,
+                "name": "gold_coin_00020"
+              },
+              {
+                "time": 0.7,
+                "name": "gold_coin_00021"
+              },
+              {
+                "time": 0.7333,
+                "name": "gold_coin_00022"
+              },
+              {
+                "time": 0.7667,
+                "name": "gold_coin_00023"
+              },
+              {
+                "time": 0.8,
+                "name": "gold_coin_00024"
+              },
+              {
+                "time": 0.8333,
+                "name": "gold_coin_00000"
+              },
+              {
+                "time": 0.8667,
+                "name": "gold_coin_00001"
+              },
+              {
+                "time": 0.9,
+                "name": "gold_coin_00002"
+              },
+              {
+                "time": 0.9333,
+                "name": "gold_coin_00003"
+              },
+              {
+                "time": 0.9667,
+                "name": "gold_coin_00004"
+              },
+              {
+                "time": 1,
+                "name": "gold_coin_00005"
+              },
+              {
+                "time": 1.0333,
+                "name": "gold_coin_00006"
+              },
+              {
+                "time": 1.0667,
+                "name": "gold_coin_00007"
+              },
+              {
+                "time": 1.1,
+                "name": "gold_coin_00008"
+              },
+              {
+                "time": 1.1333,
+                "name": "gold_coin_00009"
+              },
+              {
+                "time": 1.1667,
+                "name": "gold_coin_00010"
+              },
+              {
+                "time": 1.2,
+                "name": "gold_coin_00011"
+              },
+              {
+                "time": 1.2333,
+                "name": "gold_coin_00012"
+              },
+              {
+                "time": 1.2667,
+                "name": "gold_coin_00013"
+              },
+              {
+                "time": 1.3,
+                "name": "gold_coin_00014"
+              },
+              {
+                "time": 1.3333,
+                "name": "gold_coin_00015"
+              },
+              {
+                "time": 1.3667,
+                "name": "gold_coin_00016"
+              },
+              {
+                "time": 1.4,
+                "name": "gold_coin_00017"
+              },
+              {
+                "time": 1.4333,
+                "name": "gold_coin_00018"
+              },
+              {
+                "time": 1.4667,
+                "name": "gold_coin_00019"
+              },
+              {
+                "time": 1.5,
+                "name": "gold_coin_00020"
+              },
+              {
+                "time": 1.5333,
+                "name": "gold_coin_00021"
+              },
+              {
+                "time": 1.5667,
+                "name": "gold_coin_00022"
+              },
+              {
+                "time": 1.6,
+                "name": "gold_coin_00023"
+              },
+              {
+                "time": 1.6333,
+                "name": "gold_coin_00024"
+              },
+              {
+                "time": 1.6667,
+                "name": "gold_coin_00000"
+              }
+            ]
+          },
+          "gold_coin2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "gold_coin_00017"
+              },
+              {
+                "time": 0.0333,
+                "name": "gold_coin_00018"
+              },
+              {
+                "time": 0.0667,
+                "name": "gold_coin_00019"
+              },
+              {
+                "time": 0.1,
+                "name": "gold_coin_00020"
+              },
+              {
+                "time": 0.1333,
+                "name": "gold_coin_00021"
+              },
+              {
+                "time": 0.1667,
+                "name": "gold_coin_00022"
+              },
+              {
+                "time": 0.2,
+                "name": "gold_coin_00023"
+              },
+              {
+                "time": 0.2333,
+                "name": "gold_coin_00024"
+              },
+              {
+                "time": 0.2667,
+                "name": "gold_coin_00000"
+              },
+              {
+                "time": 0.3,
+                "name": "gold_coin_00001"
+              },
+              {
+                "time": 0.3333,
+                "name": "gold_coin_00002"
+              },
+              {
+                "time": 0.3667,
+                "name": "gold_coin_00003"
+              },
+              {
+                "time": 0.4,
+                "name": "gold_coin_00004"
+              },
+              {
+                "time": 0.4333,
+                "name": "gold_coin_00005"
+              },
+              {
+                "time": 0.4667,
+                "name": "gold_coin_00006"
+              },
+              {
+                "time": 0.5,
+                "name": "gold_coin_00007"
+              },
+              {
+                "time": 0.5333,
+                "name": "gold_coin_00008"
+              },
+              {
+                "time": 0.5667,
+                "name": "gold_coin_00009"
+              },
+              {
+                "time": 0.6,
+                "name": "gold_coin_00010"
+              },
+              {
+                "time": 0.6333,
+                "name": "gold_coin_00011"
+              },
+              {
+                "time": 0.6667,
+                "name": "gold_coin_00012"
+              },
+              {
+                "time": 0.7,
+                "name": "gold_coin_00013"
+              },
+              {
+                "time": 0.7333,
+                "name": "gold_coin_00014"
+              },
+              {
+                "time": 0.7667,
+                "name": "gold_coin_00015"
+              },
+              {
+                "time": 0.8,
+                "name": "gold_coin_00016"
+              },
+              {
+                "time": 0.8333,
+                "name": "gold_coin_00017"
+              },
+              {
+                "time": 0.8667,
+                "name": "gold_coin_00018"
+              },
+              {
+                "time": 0.9,
+                "name": "gold_coin_00019"
+              },
+              {
+                "time": 0.9333,
+                "name": "gold_coin_00020"
+              },
+              {
+                "time": 0.9667,
+                "name": "gold_coin_00021"
+              },
+              {
+                "time": 1,
+                "name": "gold_coin_00022"
+              },
+              {
+                "time": 1.0333,
+                "name": "gold_coin_00023"
+              },
+              {
+                "time": 1.0667,
+                "name": "gold_coin_00024"
+              },
+              {
+                "time": 1.1,
+                "name": "gold_coin_00000"
+              },
+              {
+                "time": 1.1333,
+                "name": "gold_coin_00001"
+              },
+              {
+                "time": 1.1667,
+                "name": "gold_coin_00002"
+              },
+              {
+                "time": 1.2,
+                "name": "gold_coin_00003"
+              },
+              {
+                "time": 1.2333,
+                "name": "gold_coin_00004"
+              },
+              {
+                "time": 1.2667,
+                "name": "gold_coin_00005"
+              },
+              {
+                "time": 1.3,
+                "name": "gold_coin_00006"
+              },
+              {
+                "time": 1.3333,
+                "name": "gold_coin_00007"
+              },
+              {
+                "time": 1.3667,
+                "name": "gold_coin_00008"
+              },
+              {
+                "time": 1.4,
+                "name": "gold_coin_00009"
+              },
+              {
+                "time": 1.4333,
+                "name": "gold_coin_00010"
+              },
+              {
+                "time": 1.4667,
+                "name": "gold_coin_00011"
+              },
+              {
+                "time": 1.5,
+                "name": "gold_coin_00012"
+              },
+              {
+                "time": 1.5333,
+                "name": "gold_coin_00013"
+              },
+              {
+                "time": 1.5667,
+                "name": "gold_coin_00014"
+              },
+              {
+                "time": 1.6,
+                "name": "gold_coin_00015"
+              },
+              {
+                "time": 1.6333,
+                "name": "gold_coin_00016"
+              },
+              {
+                "time": 1.6667,
+                "name": "gold_coin_00017"
+              }
+            ]
+          },
+          "gold_coin3": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "gold_coin_00009"
+              },
+              {
+                "time": 0.0333,
+                "name": "gold_coin_00010"
+              },
+              {
+                "time": 0.0667,
+                "name": "gold_coin_00011"
+              },
+              {
+                "time": 0.1,
+                "name": "gold_coin_00012"
+              },
+              {
+                "time": 0.1333,
+                "name": "gold_coin_00013"
+              },
+              {
+                "time": 0.1667,
+                "name": "gold_coin_00014"
+              },
+              {
+                "time": 0.2,
+                "name": "gold_coin_00015"
+              },
+              {
+                "time": 0.2333,
+                "name": "gold_coin_00016"
+              },
+              {
+                "time": 0.2667,
+                "name": "gold_coin_00017"
+              },
+              {
+                "time": 0.3,
+                "name": "gold_coin_00018"
+              },
+              {
+                "time": 0.3333,
+                "name": "gold_coin_00019"
+              },
+              {
+                "time": 0.3667,
+                "name": "gold_coin_00020"
+              },
+              {
+                "time": 0.4,
+                "name": "gold_coin_00021"
+              },
+              {
+                "time": 0.4333,
+                "name": "gold_coin_00022"
+              },
+              {
+                "time": 0.4667,
+                "name": "gold_coin_00023"
+              },
+              {
+                "time": 0.5,
+                "name": "gold_coin_00024"
+              },
+              {
+                "time": 0.5333,
+                "name": "gold_coin_00000"
+              },
+              {
+                "time": 0.5667,
+                "name": "gold_coin_00001"
+              },
+              {
+                "time": 0.6,
+                "name": "gold_coin_00002"
+              },
+              {
+                "time": 0.6333,
+                "name": "gold_coin_00003"
+              },
+              {
+                "time": 0.6667,
+                "name": "gold_coin_00004"
+              },
+              {
+                "time": 0.7,
+                "name": "gold_coin_00005"
+              },
+              {
+                "time": 0.7333,
+                "name": "gold_coin_00006"
+              },
+              {
+                "time": 0.7667,
+                "name": "gold_coin_00007"
+              },
+              {
+                "time": 0.8,
+                "name": "gold_coin_00008"
+              },
+              {
+                "time": 0.8333,
+                "name": "gold_coin_00009"
+              },
+              {
+                "time": 0.8667,
+                "name": "gold_coin_00010"
+              },
+              {
+                "time": 0.9,
+                "name": "gold_coin_00011"
+              },
+              {
+                "time": 0.9333,
+                "name": "gold_coin_00012"
+              },
+              {
+                "time": 0.9667,
+                "name": "gold_coin_00013"
+              },
+              {
+                "time": 1,
+                "name": "gold_coin_00014"
+              },
+              {
+                "time": 1.0333,
+                "name": "gold_coin_00015"
+              },
+              {
+                "time": 1.0667,
+                "name": "gold_coin_00016"
+              },
+              {
+                "time": 1.1,
+                "name": "gold_coin_00017"
+              },
+              {
+                "time": 1.1333,
+                "name": "gold_coin_00018"
+              },
+              {
+                "time": 1.1667,
+                "name": "gold_coin_00019"
+              },
+              {
+                "time": 1.2,
+                "name": "gold_coin_00020"
+              },
+              {
+                "time": 1.2333,
+                "name": "gold_coin_00021"
+              },
+              {
+                "time": 1.2667,
+                "name": "gold_coin_00022"
+              },
+              {
+                "time": 1.3,
+                "name": "gold_coin_00023"
+              },
+              {
+                "time": 1.3333,
+                "name": "gold_coin_00024"
+              },
+              {
+                "time": 1.3667,
+                "name": "gold_coin_00000"
+              },
+              {
+                "time": 1.4,
+                "name": "gold_coin_00001"
+              },
+              {
+                "time": 1.4333,
+                "name": "gold_coin_00002"
+              },
+              {
+                "time": 1.4667,
+                "name": "gold_coin_00003"
+              },
+              {
+                "time": 1.5,
+                "name": "gold_coin_00004"
+              },
+              {
+                "time": 1.5333,
+                "name": "gold_coin_00005"
+              },
+              {
+                "time": 1.5667,
+                "name": "gold_coin_00006"
+              },
+              {
+                "time": 1.6,
+                "name": "gold_coin_00007"
+              },
+              {
+                "time": 1.6333,
+                "name": "gold_coin_00008"
+              },
+              {
+                "time": 1.6667,
+                "name": "gold_coin_00009"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "scale2": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.8333,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0,
+                  0.56,
+                  0.08,
+                  1
+                ]
+              },
+              {
+                "time": 1.2333,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "scale3": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        }
+      },
+      "mega_win_loop": {
+        "slots": {
+          "gold_coin": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "gold_coin_00000"
+              },
+              {
+                "time": 0.0333,
+                "name": "gold_coin_00001"
+              },
+              {
+                "time": 0.0667,
+                "name": "gold_coin_00002"
+              },
+              {
+                "time": 0.1,
+                "name": "gold_coin_00003"
+              },
+              {
+                "time": 0.1333,
+                "name": "gold_coin_00004"
+              },
+              {
+                "time": 0.1667,
+                "name": "gold_coin_00005"
+              },
+              {
+                "time": 0.2,
+                "name": "gold_coin_00006"
+              },
+              {
+                "time": 0.2333,
+                "name": "gold_coin_00007"
+              },
+              {
+                "time": 0.2667,
+                "name": "gold_coin_00008"
+              },
+              {
+                "time": 0.3,
+                "name": "gold_coin_00009"
+              },
+              {
+                "time": 0.3333,
+                "name": "gold_coin_00010"
+              },
+              {
+                "time": 0.3667,
+                "name": "gold_coin_00011"
+              },
+              {
+                "time": 0.4,
+                "name": "gold_coin_00012"
+              },
+              {
+                "time": 0.4333,
+                "name": "gold_coin_00013"
+              },
+              {
+                "time": 0.4667,
+                "name": "gold_coin_00014"
+              },
+              {
+                "time": 0.5,
+                "name": "gold_coin_00015"
+              },
+              {
+                "time": 0.5333,
+                "name": "gold_coin_00016"
+              },
+              {
+                "time": 0.5667,
+                "name": "gold_coin_00017"
+              },
+              {
+                "time": 0.6,
+                "name": "gold_coin_00018"
+              },
+              {
+                "time": 0.6333,
+                "name": "gold_coin_00019"
+              },
+              {
+                "time": 0.6667,
+                "name": "gold_coin_00020"
+              },
+              {
+                "time": 0.7,
+                "name": "gold_coin_00021"
+              },
+              {
+                "time": 0.7333,
+                "name": "gold_coin_00022"
+              },
+              {
+                "time": 0.7667,
+                "name": "gold_coin_00023"
+              },
+              {
+                "time": 0.8,
+                "name": "gold_coin_00024"
+              },
+              {
+                "time": 0.8333,
+                "name": "gold_coin_00000"
+              },
+              {
+                "time": 0.8667,
+                "name": "gold_coin_00001"
+              },
+              {
+                "time": 0.9,
+                "name": "gold_coin_00002"
+              },
+              {
+                "time": 0.9333,
+                "name": "gold_coin_00003"
+              },
+              {
+                "time": 0.9667,
+                "name": "gold_coin_00004"
+              },
+              {
+                "time": 1,
+                "name": "gold_coin_00005"
+              },
+              {
+                "time": 1.0333,
+                "name": "gold_coin_00006"
+              },
+              {
+                "time": 1.0667,
+                "name": "gold_coin_00007"
+              },
+              {
+                "time": 1.1,
+                "name": "gold_coin_00008"
+              },
+              {
+                "time": 1.1333,
+                "name": "gold_coin_00009"
+              },
+              {
+                "time": 1.1667,
+                "name": "gold_coin_00010"
+              },
+              {
+                "time": 1.2,
+                "name": "gold_coin_00011"
+              },
+              {
+                "time": 1.2333,
+                "name": "gold_coin_00012"
+              },
+              {
+                "time": 1.2667,
+                "name": "gold_coin_00013"
+              },
+              {
+                "time": 1.3,
+                "name": "gold_coin_00014"
+              },
+              {
+                "time": 1.3333,
+                "name": "gold_coin_00015"
+              },
+              {
+                "time": 1.3667,
+                "name": "gold_coin_00016"
+              },
+              {
+                "time": 1.4,
+                "name": "gold_coin_00017"
+              },
+              {
+                "time": 1.4333,
+                "name": "gold_coin_00018"
+              },
+              {
+                "time": 1.4667,
+                "name": "gold_coin_00019"
+              },
+              {
+                "time": 1.5,
+                "name": "gold_coin_00020"
+              },
+              {
+                "time": 1.5333,
+                "name": "gold_coin_00021"
+              },
+              {
+                "time": 1.5667,
+                "name": "gold_coin_00022"
+              },
+              {
+                "time": 1.6,
+                "name": "gold_coin_00023"
+              },
+              {
+                "time": 1.6333,
+                "name": "gold_coin_00024"
+              },
+              {
+                "time": 1.6667,
+                "name": "gold_coin_00000"
+              }
+            ]
+          },
+          "gold_coin2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "gold_coin_00017"
+              },
+              {
+                "time": 0.0333,
+                "name": "gold_coin_00018"
+              },
+              {
+                "time": 0.0667,
+                "name": "gold_coin_00019"
+              },
+              {
+                "time": 0.1,
+                "name": "gold_coin_00020"
+              },
+              {
+                "time": 0.1333,
+                "name": "gold_coin_00021"
+              },
+              {
+                "time": 0.1667,
+                "name": "gold_coin_00022"
+              },
+              {
+                "time": 0.2,
+                "name": "gold_coin_00023"
+              },
+              {
+                "time": 0.2333,
+                "name": "gold_coin_00024"
+              },
+              {
+                "time": 0.2667,
+                "name": "gold_coin_00000"
+              },
+              {
+                "time": 0.3,
+                "name": "gold_coin_00001"
+              },
+              {
+                "time": 0.3333,
+                "name": "gold_coin_00002"
+              },
+              {
+                "time": 0.3667,
+                "name": "gold_coin_00003"
+              },
+              {
+                "time": 0.4,
+                "name": "gold_coin_00004"
+              },
+              {
+                "time": 0.4333,
+                "name": "gold_coin_00005"
+              },
+              {
+                "time": 0.4667,
+                "name": "gold_coin_00006"
+              },
+              {
+                "time": 0.5,
+                "name": "gold_coin_00007"
+              },
+              {
+                "time": 0.5333,
+                "name": "gold_coin_00008"
+              },
+              {
+                "time": 0.5667,
+                "name": "gold_coin_00009"
+              },
+              {
+                "time": 0.6,
+                "name": "gold_coin_00010"
+              },
+              {
+                "time": 0.6333,
+                "name": "gold_coin_00011"
+              },
+              {
+                "time": 0.6667,
+                "name": "gold_coin_00012"
+              },
+              {
+                "time": 0.7,
+                "name": "gold_coin_00013"
+              },
+              {
+                "time": 0.7333,
+                "name": "gold_coin_00014"
+              },
+              {
+                "time": 0.7667,
+                "name": "gold_coin_00015"
+              },
+              {
+                "time": 0.8,
+                "name": "gold_coin_00016"
+              },
+              {
+                "time": 0.8333,
+                "name": "gold_coin_00017"
+              },
+              {
+                "time": 0.8667,
+                "name": "gold_coin_00018"
+              },
+              {
+                "time": 0.9,
+                "name": "gold_coin_00019"
+              },
+              {
+                "time": 0.9333,
+                "name": "gold_coin_00020"
+              },
+              {
+                "time": 0.9667,
+                "name": "gold_coin_00021"
+              },
+              {
+                "time": 1,
+                "name": "gold_coin_00022"
+              },
+              {
+                "time": 1.0333,
+                "name": "gold_coin_00023"
+              },
+              {
+                "time": 1.0667,
+                "name": "gold_coin_00024"
+              },
+              {
+                "time": 1.1,
+                "name": "gold_coin_00000"
+              },
+              {
+                "time": 1.1333,
+                "name": "gold_coin_00001"
+              },
+              {
+                "time": 1.1667,
+                "name": "gold_coin_00002"
+              },
+              {
+                "time": 1.2,
+                "name": "gold_coin_00003"
+              },
+              {
+                "time": 1.2333,
+                "name": "gold_coin_00004"
+              },
+              {
+                "time": 1.2667,
+                "name": "gold_coin_00005"
+              },
+              {
+                "time": 1.3,
+                "name": "gold_coin_00006"
+              },
+              {
+                "time": 1.3333,
+                "name": "gold_coin_00007"
+              },
+              {
+                "time": 1.3667,
+                "name": "gold_coin_00008"
+              },
+              {
+                "time": 1.4,
+                "name": "gold_coin_00009"
+              },
+              {
+                "time": 1.4333,
+                "name": "gold_coin_00010"
+              },
+              {
+                "time": 1.4667,
+                "name": "gold_coin_00011"
+              },
+              {
+                "time": 1.5,
+                "name": "gold_coin_00012"
+              },
+              {
+                "time": 1.5333,
+                "name": "gold_coin_00013"
+              },
+              {
+                "time": 1.5667,
+                "name": "gold_coin_00014"
+              },
+              {
+                "time": 1.6,
+                "name": "gold_coin_00015"
+              },
+              {
+                "time": 1.6333,
+                "name": "gold_coin_00016"
+              },
+              {
+                "time": 1.6667,
+                "name": "gold_coin_00017"
+              }
+            ]
+          },
+          "gold_coin3": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "gold_coin_00009"
+              },
+              {
+                "time": 0.0333,
+                "name": "gold_coin_00010"
+              },
+              {
+                "time": 0.0667,
+                "name": "gold_coin_00011"
+              },
+              {
+                "time": 0.1,
+                "name": "gold_coin_00012"
+              },
+              {
+                "time": 0.1333,
+                "name": "gold_coin_00013"
+              },
+              {
+                "time": 0.1667,
+                "name": "gold_coin_00014"
+              },
+              {
+                "time": 0.2,
+                "name": "gold_coin_00015"
+              },
+              {
+                "time": 0.2333,
+                "name": "gold_coin_00016"
+              },
+              {
+                "time": 0.2667,
+                "name": "gold_coin_00017"
+              },
+              {
+                "time": 0.3,
+                "name": "gold_coin_00018"
+              },
+              {
+                "time": 0.3333,
+                "name": "gold_coin_00019"
+              },
+              {
+                "time": 0.3667,
+                "name": "gold_coin_00020"
+              },
+              {
+                "time": 0.4,
+                "name": "gold_coin_00021"
+              },
+              {
+                "time": 0.4333,
+                "name": "gold_coin_00022"
+              },
+              {
+                "time": 0.4667,
+                "name": "gold_coin_00023"
+              },
+              {
+                "time": 0.5,
+                "name": "gold_coin_00024"
+              },
+              {
+                "time": 0.5333,
+                "name": "gold_coin_00000"
+              },
+              {
+                "time": 0.5667,
+                "name": "gold_coin_00001"
+              },
+              {
+                "time": 0.6,
+                "name": "gold_coin_00002"
+              },
+              {
+                "time": 0.6333,
+                "name": "gold_coin_00003"
+              },
+              {
+                "time": 0.6667,
+                "name": "gold_coin_00004"
+              },
+              {
+                "time": 0.7,
+                "name": "gold_coin_00005"
+              },
+              {
+                "time": 0.7333,
+                "name": "gold_coin_00006"
+              },
+              {
+                "time": 0.7667,
+                "name": "gold_coin_00007"
+              },
+              {
+                "time": 0.8,
+                "name": "gold_coin_00008"
+              },
+              {
+                "time": 0.8333,
+                "name": "gold_coin_00009"
+              },
+              {
+                "time": 0.8667,
+                "name": "gold_coin_00010"
+              },
+              {
+                "time": 0.9,
+                "name": "gold_coin_00011"
+              },
+              {
+                "time": 0.9333,
+                "name": "gold_coin_00012"
+              },
+              {
+                "time": 0.9667,
+                "name": "gold_coin_00013"
+              },
+              {
+                "time": 1,
+                "name": "gold_coin_00014"
+              },
+              {
+                "time": 1.0333,
+                "name": "gold_coin_00015"
+              },
+              {
+                "time": 1.0667,
+                "name": "gold_coin_00016"
+              },
+              {
+                "time": 1.1,
+                "name": "gold_coin_00017"
+              },
+              {
+                "time": 1.1333,
+                "name": "gold_coin_00018"
+              },
+              {
+                "time": 1.1667,
+                "name": "gold_coin_00019"
+              },
+              {
+                "time": 1.2,
+                "name": "gold_coin_00020"
+              },
+              {
+                "time": 1.2333,
+                "name": "gold_coin_00021"
+              },
+              {
+                "time": 1.2667,
+                "name": "gold_coin_00022"
+              },
+              {
+                "time": 1.3,
+                "name": "gold_coin_00023"
+              },
+              {
+                "time": 1.3333,
+                "name": "gold_coin_00024"
+              },
+              {
+                "time": 1.3667,
+                "name": "gold_coin_00000"
+              },
+              {
+                "time": 1.4,
+                "name": "gold_coin_00001"
+              },
+              {
+                "time": 1.4333,
+                "name": "gold_coin_00002"
+              },
+              {
+                "time": 1.4667,
+                "name": "gold_coin_00003"
+              },
+              {
+                "time": 1.5,
+                "name": "gold_coin_00004"
+              },
+              {
+                "time": 1.5333,
+                "name": "gold_coin_00005"
+              },
+              {
+                "time": 1.5667,
+                "name": "gold_coin_00006"
+              },
+              {
+                "time": 1.6,
+                "name": "gold_coin_00007"
+              },
+              {
+                "time": 1.6333,
+                "name": "gold_coin_00008"
+              },
+              {
+                "time": 1.6667,
+                "name": "gold_coin_00009"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "scale3": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              }
+            ]
+          }
+        }
+      },
+      "super_win_begin": {
+        "slots": {
+          "gold_coin": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "gold_coin_00000"
+              },
+              {
+                "time": 0.0333,
+                "name": "gold_coin_00001"
+              },
+              {
+                "time": 0.0667,
+                "name": "gold_coin_00002"
+              },
+              {
+                "time": 0.1,
+                "name": "gold_coin_00003"
+              },
+              {
+                "time": 0.1333,
+                "name": "gold_coin_00004"
+              },
+              {
+                "time": 0.1667,
+                "name": "gold_coin_00005"
+              },
+              {
+                "time": 0.2,
+                "name": "gold_coin_00006"
+              },
+              {
+                "time": 0.2333,
+                "name": "gold_coin_00007"
+              },
+              {
+                "time": 0.2667,
+                "name": "gold_coin_00008"
+              },
+              {
+                "time": 0.3,
+                "name": "gold_coin_00009"
+              },
+              {
+                "time": 0.3333,
+                "name": "gold_coin_00010"
+              },
+              {
+                "time": 0.3667,
+                "name": "gold_coin_00011"
+              },
+              {
+                "time": 0.4,
+                "name": "gold_coin_00012"
+              },
+              {
+                "time": 0.4333,
+                "name": "gold_coin_00013"
+              },
+              {
+                "time": 0.4667,
+                "name": "gold_coin_00014"
+              },
+              {
+                "time": 0.5,
+                "name": "gold_coin_00015"
+              },
+              {
+                "time": 0.5333,
+                "name": "gold_coin_00016"
+              },
+              {
+                "time": 0.5667,
+                "name": "gold_coin_00017"
+              },
+              {
+                "time": 0.6,
+                "name": "gold_coin_00018"
+              },
+              {
+                "time": 0.6333,
+                "name": "gold_coin_00019"
+              },
+              {
+                "time": 0.6667,
+                "name": "gold_coin_00020"
+              },
+              {
+                "time": 0.7,
+                "name": "gold_coin_00021"
+              },
+              {
+                "time": 0.7333,
+                "name": "gold_coin_00022"
+              },
+              {
+                "time": 0.7667,
+                "name": "gold_coin_00023"
+              },
+              {
+                "time": 0.8,
+                "name": "gold_coin_00024"
+              },
+              {
+                "time": 0.8333,
+                "name": "gold_coin_00000"
+              },
+              {
+                "time": 0.8667,
+                "name": "gold_coin_00001"
+              },
+              {
+                "time": 0.9,
+                "name": "gold_coin_00002"
+              },
+              {
+                "time": 0.9333,
+                "name": "gold_coin_00003"
+              },
+              {
+                "time": 0.9667,
+                "name": "gold_coin_00004"
+              },
+              {
+                "time": 1,
+                "name": "gold_coin_00005"
+              },
+              {
+                "time": 1.0333,
+                "name": "gold_coin_00006"
+              },
+              {
+                "time": 1.0667,
+                "name": "gold_coin_00007"
+              },
+              {
+                "time": 1.1,
+                "name": "gold_coin_00008"
+              },
+              {
+                "time": 1.1333,
+                "name": "gold_coin_00009"
+              },
+              {
+                "time": 1.1667,
+                "name": "gold_coin_00010"
+              },
+              {
+                "time": 1.2,
+                "name": "gold_coin_00011"
+              },
+              {
+                "time": 1.2333,
+                "name": "gold_coin_00012"
+              },
+              {
+                "time": 1.2667,
+                "name": "gold_coin_00013"
+              },
+              {
+                "time": 1.3,
+                "name": "gold_coin_00014"
+              },
+              {
+                "time": 1.3333,
+                "name": "gold_coin_00015"
+              },
+              {
+                "time": 1.3667,
+                "name": "gold_coin_00016"
+              },
+              {
+                "time": 1.4,
+                "name": "gold_coin_00017"
+              },
+              {
+                "time": 1.4333,
+                "name": "gold_coin_00018"
+              },
+              {
+                "time": 1.4667,
+                "name": "gold_coin_00019"
+              },
+              {
+                "time": 1.5,
+                "name": "gold_coin_00020"
+              },
+              {
+                "time": 1.5333,
+                "name": "gold_coin_00021"
+              },
+              {
+                "time": 1.5667,
+                "name": "gold_coin_00022"
+              },
+              {
+                "time": 1.6,
+                "name": "gold_coin_00023"
+              },
+              {
+                "time": 1.6333,
+                "name": "gold_coin_00024"
+              },
+              {
+                "time": 1.6667,
+                "name": "gold_coin_00000"
+              }
+            ]
+          },
+          "gold_coin2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "gold_coin_00017"
+              },
+              {
+                "time": 0.0333,
+                "name": "gold_coin_00018"
+              },
+              {
+                "time": 0.0667,
+                "name": "gold_coin_00019"
+              },
+              {
+                "time": 0.1,
+                "name": "gold_coin_00020"
+              },
+              {
+                "time": 0.1333,
+                "name": "gold_coin_00021"
+              },
+              {
+                "time": 0.1667,
+                "name": "gold_coin_00022"
+              },
+              {
+                "time": 0.2,
+                "name": "gold_coin_00023"
+              },
+              {
+                "time": 0.2333,
+                "name": "gold_coin_00024"
+              },
+              {
+                "time": 0.2667,
+                "name": "gold_coin_00000"
+              },
+              {
+                "time": 0.3,
+                "name": "gold_coin_00001"
+              },
+              {
+                "time": 0.3333,
+                "name": "gold_coin_00002"
+              },
+              {
+                "time": 0.3667,
+                "name": "gold_coin_00003"
+              },
+              {
+                "time": 0.4,
+                "name": "gold_coin_00004"
+              },
+              {
+                "time": 0.4333,
+                "name": "gold_coin_00005"
+              },
+              {
+                "time": 0.4667,
+                "name": "gold_coin_00006"
+              },
+              {
+                "time": 0.5,
+                "name": "gold_coin_00007"
+              },
+              {
+                "time": 0.5333,
+                "name": "gold_coin_00008"
+              },
+              {
+                "time": 0.5667,
+                "name": "gold_coin_00009"
+              },
+              {
+                "time": 0.6,
+                "name": "gold_coin_00010"
+              },
+              {
+                "time": 0.6333,
+                "name": "gold_coin_00011"
+              },
+              {
+                "time": 0.6667,
+                "name": "gold_coin_00012"
+              },
+              {
+                "time": 0.7,
+                "name": "gold_coin_00013"
+              },
+              {
+                "time": 0.7333,
+                "name": "gold_coin_00014"
+              },
+              {
+                "time": 0.7667,
+                "name": "gold_coin_00015"
+              },
+              {
+                "time": 0.8,
+                "name": "gold_coin_00016"
+              },
+              {
+                "time": 0.8333,
+                "name": "gold_coin_00017"
+              },
+              {
+                "time": 0.8667,
+                "name": "gold_coin_00018"
+              },
+              {
+                "time": 0.9,
+                "name": "gold_coin_00019"
+              },
+              {
+                "time": 0.9333,
+                "name": "gold_coin_00020"
+              },
+              {
+                "time": 0.9667,
+                "name": "gold_coin_00021"
+              },
+              {
+                "time": 1,
+                "name": "gold_coin_00022"
+              },
+              {
+                "time": 1.0333,
+                "name": "gold_coin_00023"
+              },
+              {
+                "time": 1.0667,
+                "name": "gold_coin_00024"
+              },
+              {
+                "time": 1.1,
+                "name": "gold_coin_00000"
+              },
+              {
+                "time": 1.1333,
+                "name": "gold_coin_00001"
+              },
+              {
+                "time": 1.1667,
+                "name": "gold_coin_00002"
+              },
+              {
+                "time": 1.2,
+                "name": "gold_coin_00003"
+              },
+              {
+                "time": 1.2333,
+                "name": "gold_coin_00004"
+              },
+              {
+                "time": 1.2667,
+                "name": "gold_coin_00005"
+              },
+              {
+                "time": 1.3,
+                "name": "gold_coin_00006"
+              },
+              {
+                "time": 1.3333,
+                "name": "gold_coin_00007"
+              },
+              {
+                "time": 1.3667,
+                "name": "gold_coin_00008"
+              },
+              {
+                "time": 1.4,
+                "name": "gold_coin_00009"
+              },
+              {
+                "time": 1.4333,
+                "name": "gold_coin_00010"
+              },
+              {
+                "time": 1.4667,
+                "name": "gold_coin_00011"
+              },
+              {
+                "time": 1.5,
+                "name": "gold_coin_00012"
+              },
+              {
+                "time": 1.5333,
+                "name": "gold_coin_00013"
+              },
+              {
+                "time": 1.5667,
+                "name": "gold_coin_00014"
+              },
+              {
+                "time": 1.6,
+                "name": "gold_coin_00015"
+              },
+              {
+                "time": 1.6333,
+                "name": "gold_coin_00016"
+              },
+              {
+                "time": 1.6667,
+                "name": "gold_coin_00017"
+              }
+            ]
+          },
+          "gold_coin3": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "gold_coin_00009"
+              },
+              {
+                "time": 0.0333,
+                "name": "gold_coin_00010"
+              },
+              {
+                "time": 0.0667,
+                "name": "gold_coin_00011"
+              },
+              {
+                "time": 0.1,
+                "name": "gold_coin_00012"
+              },
+              {
+                "time": 0.1333,
+                "name": "gold_coin_00013"
+              },
+              {
+                "time": 0.1667,
+                "name": "gold_coin_00014"
+              },
+              {
+                "time": 0.2,
+                "name": "gold_coin_00015"
+              },
+              {
+                "time": 0.2333,
+                "name": "gold_coin_00016"
+              },
+              {
+                "time": 0.2667,
+                "name": "gold_coin_00017"
+              },
+              {
+                "time": 0.3,
+                "name": "gold_coin_00018"
+              },
+              {
+                "time": 0.3333,
+                "name": "gold_coin_00019"
+              },
+              {
+                "time": 0.3667,
+                "name": "gold_coin_00020"
+              },
+              {
+                "time": 0.4,
+                "name": "gold_coin_00021"
+              },
+              {
+                "time": 0.4333,
+                "name": "gold_coin_00022"
+              },
+              {
+                "time": 0.4667,
+                "name": "gold_coin_00023"
+              },
+              {
+                "time": 0.5,
+                "name": "gold_coin_00024"
+              },
+              {
+                "time": 0.5333,
+                "name": "gold_coin_00000"
+              },
+              {
+                "time": 0.5667,
+                "name": "gold_coin_00001"
+              },
+              {
+                "time": 0.6,
+                "name": "gold_coin_00002"
+              },
+              {
+                "time": 0.6333,
+                "name": "gold_coin_00003"
+              },
+              {
+                "time": 0.6667,
+                "name": "gold_coin_00004"
+              },
+              {
+                "time": 0.7,
+                "name": "gold_coin_00005"
+              },
+              {
+                "time": 0.7333,
+                "name": "gold_coin_00006"
+              },
+              {
+                "time": 0.7667,
+                "name": "gold_coin_00007"
+              },
+              {
+                "time": 0.8,
+                "name": "gold_coin_00008"
+              },
+              {
+                "time": 0.8333,
+                "name": "gold_coin_00009"
+              },
+              {
+                "time": 0.8667,
+                "name": "gold_coin_00010"
+              },
+              {
+                "time": 0.9,
+                "name": "gold_coin_00011"
+              },
+              {
+                "time": 0.9333,
+                "name": "gold_coin_00012"
+              },
+              {
+                "time": 0.9667,
+                "name": "gold_coin_00013"
+              },
+              {
+                "time": 1,
+                "name": "gold_coin_00014"
+              },
+              {
+                "time": 1.0333,
+                "name": "gold_coin_00015"
+              },
+              {
+                "time": 1.0667,
+                "name": "gold_coin_00016"
+              },
+              {
+                "time": 1.1,
+                "name": "gold_coin_00017"
+              },
+              {
+                "time": 1.1333,
+                "name": "gold_coin_00018"
+              },
+              {
+                "time": 1.1667,
+                "name": "gold_coin_00019"
+              },
+              {
+                "time": 1.2,
+                "name": "gold_coin_00020"
+              },
+              {
+                "time": 1.2333,
+                "name": "gold_coin_00021"
+              },
+              {
+                "time": 1.2667,
+                "name": "gold_coin_00022"
+              },
+              {
+                "time": 1.3,
+                "name": "gold_coin_00023"
+              },
+              {
+                "time": 1.3333,
+                "name": "gold_coin_00024"
+              },
+              {
+                "time": 1.3667,
+                "name": "gold_coin_00000"
+              },
+              {
+                "time": 1.4,
+                "name": "gold_coin_00001"
+              },
+              {
+                "time": 1.4333,
+                "name": "gold_coin_00002"
+              },
+              {
+                "time": 1.4667,
+                "name": "gold_coin_00003"
+              },
+              {
+                "time": 1.5,
+                "name": "gold_coin_00004"
+              },
+              {
+                "time": 1.5333,
+                "name": "gold_coin_00005"
+              },
+              {
+                "time": 1.5667,
+                "name": "gold_coin_00006"
+              },
+              {
+                "time": 1.6,
+                "name": "gold_coin_00007"
+              },
+              {
+                "time": 1.6333,
+                "name": "gold_coin_00008"
+              },
+              {
+                "time": 1.6667,
+                "name": "gold_coin_00009"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "scale3": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.8333,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0,
+                  0.56,
+                  0.08,
+                  1
+                ]
+              },
+              {
+                "time": 1.2333,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      },
+      "super_win_loop": {
+        "slots": {
+          "gold_coin": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "gold_coin_00000"
+              },
+              {
+                "time": 0.0333,
+                "name": "gold_coin_00001"
+              },
+              {
+                "time": 0.0667,
+                "name": "gold_coin_00002"
+              },
+              {
+                "time": 0.1,
+                "name": "gold_coin_00003"
+              },
+              {
+                "time": 0.1333,
+                "name": "gold_coin_00004"
+              },
+              {
+                "time": 0.1667,
+                "name": "gold_coin_00005"
+              },
+              {
+                "time": 0.2,
+                "name": "gold_coin_00006"
+              },
+              {
+                "time": 0.2333,
+                "name": "gold_coin_00007"
+              },
+              {
+                "time": 0.2667,
+                "name": "gold_coin_00008"
+              },
+              {
+                "time": 0.3,
+                "name": "gold_coin_00009"
+              },
+              {
+                "time": 0.3333,
+                "name": "gold_coin_00010"
+              },
+              {
+                "time": 0.3667,
+                "name": "gold_coin_00011"
+              },
+              {
+                "time": 0.4,
+                "name": "gold_coin_00012"
+              },
+              {
+                "time": 0.4333,
+                "name": "gold_coin_00013"
+              },
+              {
+                "time": 0.4667,
+                "name": "gold_coin_00014"
+              },
+              {
+                "time": 0.5,
+                "name": "gold_coin_00015"
+              },
+              {
+                "time": 0.5333,
+                "name": "gold_coin_00016"
+              },
+              {
+                "time": 0.5667,
+                "name": "gold_coin_00017"
+              },
+              {
+                "time": 0.6,
+                "name": "gold_coin_00018"
+              },
+              {
+                "time": 0.6333,
+                "name": "gold_coin_00019"
+              },
+              {
+                "time": 0.6667,
+                "name": "gold_coin_00020"
+              },
+              {
+                "time": 0.7,
+                "name": "gold_coin_00021"
+              },
+              {
+                "time": 0.7333,
+                "name": "gold_coin_00022"
+              },
+              {
+                "time": 0.7667,
+                "name": "gold_coin_00023"
+              },
+              {
+                "time": 0.8,
+                "name": "gold_coin_00024"
+              },
+              {
+                "time": 0.8333,
+                "name": "gold_coin_00000"
+              },
+              {
+                "time": 0.8667,
+                "name": "gold_coin_00001"
+              },
+              {
+                "time": 0.9,
+                "name": "gold_coin_00002"
+              },
+              {
+                "time": 0.9333,
+                "name": "gold_coin_00003"
+              },
+              {
+                "time": 0.9667,
+                "name": "gold_coin_00004"
+              },
+              {
+                "time": 1,
+                "name": "gold_coin_00005"
+              },
+              {
+                "time": 1.0333,
+                "name": "gold_coin_00006"
+              },
+              {
+                "time": 1.0667,
+                "name": "gold_coin_00007"
+              },
+              {
+                "time": 1.1,
+                "name": "gold_coin_00008"
+              },
+              {
+                "time": 1.1333,
+                "name": "gold_coin_00009"
+              },
+              {
+                "time": 1.1667,
+                "name": "gold_coin_00010"
+              },
+              {
+                "time": 1.2,
+                "name": "gold_coin_00011"
+              },
+              {
+                "time": 1.2333,
+                "name": "gold_coin_00012"
+              },
+              {
+                "time": 1.2667,
+                "name": "gold_coin_00013"
+              },
+              {
+                "time": 1.3,
+                "name": "gold_coin_00014"
+              },
+              {
+                "time": 1.3333,
+                "name": "gold_coin_00015"
+              },
+              {
+                "time": 1.3667,
+                "name": "gold_coin_00016"
+              },
+              {
+                "time": 1.4,
+                "name": "gold_coin_00017"
+              },
+              {
+                "time": 1.4333,
+                "name": "gold_coin_00018"
+              },
+              {
+                "time": 1.4667,
+                "name": "gold_coin_00019"
+              },
+              {
+                "time": 1.5,
+                "name": "gold_coin_00020"
+              },
+              {
+                "time": 1.5333,
+                "name": "gold_coin_00021"
+              },
+              {
+                "time": 1.5667,
+                "name": "gold_coin_00022"
+              },
+              {
+                "time": 1.6,
+                "name": "gold_coin_00023"
+              },
+              {
+                "time": 1.6333,
+                "name": "gold_coin_00024"
+              },
+              {
+                "time": 1.6667,
+                "name": "gold_coin_00000"
+              }
+            ]
+          },
+          "gold_coin2": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "gold_coin_00017"
+              },
+              {
+                "time": 0.0333,
+                "name": "gold_coin_00018"
+              },
+              {
+                "time": 0.0667,
+                "name": "gold_coin_00019"
+              },
+              {
+                "time": 0.1,
+                "name": "gold_coin_00020"
+              },
+              {
+                "time": 0.1333,
+                "name": "gold_coin_00021"
+              },
+              {
+                "time": 0.1667,
+                "name": "gold_coin_00022"
+              },
+              {
+                "time": 0.2,
+                "name": "gold_coin_00023"
+              },
+              {
+                "time": 0.2333,
+                "name": "gold_coin_00024"
+              },
+              {
+                "time": 0.2667,
+                "name": "gold_coin_00000"
+              },
+              {
+                "time": 0.3,
+                "name": "gold_coin_00001"
+              },
+              {
+                "time": 0.3333,
+                "name": "gold_coin_00002"
+              },
+              {
+                "time": 0.3667,
+                "name": "gold_coin_00003"
+              },
+              {
+                "time": 0.4,
+                "name": "gold_coin_00004"
+              },
+              {
+                "time": 0.4333,
+                "name": "gold_coin_00005"
+              },
+              {
+                "time": 0.4667,
+                "name": "gold_coin_00006"
+              },
+              {
+                "time": 0.5,
+                "name": "gold_coin_00007"
+              },
+              {
+                "time": 0.5333,
+                "name": "gold_coin_00008"
+              },
+              {
+                "time": 0.5667,
+                "name": "gold_coin_00009"
+              },
+              {
+                "time": 0.6,
+                "name": "gold_coin_00010"
+              },
+              {
+                "time": 0.6333,
+                "name": "gold_coin_00011"
+              },
+              {
+                "time": 0.6667,
+                "name": "gold_coin_00012"
+              },
+              {
+                "time": 0.7,
+                "name": "gold_coin_00013"
+              },
+              {
+                "time": 0.7333,
+                "name": "gold_coin_00014"
+              },
+              {
+                "time": 0.7667,
+                "name": "gold_coin_00015"
+              },
+              {
+                "time": 0.8,
+                "name": "gold_coin_00016"
+              },
+              {
+                "time": 0.8333,
+                "name": "gold_coin_00017"
+              },
+              {
+                "time": 0.8667,
+                "name": "gold_coin_00018"
+              },
+              {
+                "time": 0.9,
+                "name": "gold_coin_00019"
+              },
+              {
+                "time": 0.9333,
+                "name": "gold_coin_00020"
+              },
+              {
+                "time": 0.9667,
+                "name": "gold_coin_00021"
+              },
+              {
+                "time": 1,
+                "name": "gold_coin_00022"
+              },
+              {
+                "time": 1.0333,
+                "name": "gold_coin_00023"
+              },
+              {
+                "time": 1.0667,
+                "name": "gold_coin_00024"
+              },
+              {
+                "time": 1.1,
+                "name": "gold_coin_00000"
+              },
+              {
+                "time": 1.1333,
+                "name": "gold_coin_00001"
+              },
+              {
+                "time": 1.1667,
+                "name": "gold_coin_00002"
+              },
+              {
+                "time": 1.2,
+                "name": "gold_coin_00003"
+              },
+              {
+                "time": 1.2333,
+                "name": "gold_coin_00004"
+              },
+              {
+                "time": 1.2667,
+                "name": "gold_coin_00005"
+              },
+              {
+                "time": 1.3,
+                "name": "gold_coin_00006"
+              },
+              {
+                "time": 1.3333,
+                "name": "gold_coin_00007"
+              },
+              {
+                "time": 1.3667,
+                "name": "gold_coin_00008"
+              },
+              {
+                "time": 1.4,
+                "name": "gold_coin_00009"
+              },
+              {
+                "time": 1.4333,
+                "name": "gold_coin_00010"
+              },
+              {
+                "time": 1.4667,
+                "name": "gold_coin_00011"
+              },
+              {
+                "time": 1.5,
+                "name": "gold_coin_00012"
+              },
+              {
+                "time": 1.5333,
+                "name": "gold_coin_00013"
+              },
+              {
+                "time": 1.5667,
+                "name": "gold_coin_00014"
+              },
+              {
+                "time": 1.6,
+                "name": "gold_coin_00015"
+              },
+              {
+                "time": 1.6333,
+                "name": "gold_coin_00016"
+              },
+              {
+                "time": 1.6667,
+                "name": "gold_coin_00017"
+              }
+            ]
+          },
+          "gold_coin3": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "gold_coin_00009"
+              },
+              {
+                "time": 0.0333,
+                "name": "gold_coin_00010"
+              },
+              {
+                "time": 0.0667,
+                "name": "gold_coin_00011"
+              },
+              {
+                "time": 0.1,
+                "name": "gold_coin_00012"
+              },
+              {
+                "time": 0.1333,
+                "name": "gold_coin_00013"
+              },
+              {
+                "time": 0.1667,
+                "name": "gold_coin_00014"
+              },
+              {
+                "time": 0.2,
+                "name": "gold_coin_00015"
+              },
+              {
+                "time": 0.2333,
+                "name": "gold_coin_00016"
+              },
+              {
+                "time": 0.2667,
+                "name": "gold_coin_00017"
+              },
+              {
+                "time": 0.3,
+                "name": "gold_coin_00018"
+              },
+              {
+                "time": 0.3333,
+                "name": "gold_coin_00019"
+              },
+              {
+                "time": 0.3667,
+                "name": "gold_coin_00020"
+              },
+              {
+                "time": 0.4,
+                "name": "gold_coin_00021"
+              },
+              {
+                "time": 0.4333,
+                "name": "gold_coin_00022"
+              },
+              {
+                "time": 0.4667,
+                "name": "gold_coin_00023"
+              },
+              {
+                "time": 0.5,
+                "name": "gold_coin_00024"
+              },
+              {
+                "time": 0.5333,
+                "name": "gold_coin_00000"
+              },
+              {
+                "time": 0.5667,
+                "name": "gold_coin_00001"
+              },
+              {
+                "time": 0.6,
+                "name": "gold_coin_00002"
+              },
+              {
+                "time": 0.6333,
+                "name": "gold_coin_00003"
+              },
+              {
+                "time": 0.6667,
+                "name": "gold_coin_00004"
+              },
+              {
+                "time": 0.7,
+                "name": "gold_coin_00005"
+              },
+              {
+                "time": 0.7333,
+                "name": "gold_coin_00006"
+              },
+              {
+                "time": 0.7667,
+                "name": "gold_coin_00007"
+              },
+              {
+                "time": 0.8,
+                "name": "gold_coin_00008"
+              },
+              {
+                "time": 0.8333,
+                "name": "gold_coin_00009"
+              },
+              {
+                "time": 0.8667,
+                "name": "gold_coin_00010"
+              },
+              {
+                "time": 0.9,
+                "name": "gold_coin_00011"
+              },
+              {
+                "time": 0.9333,
+                "name": "gold_coin_00012"
+              },
+              {
+                "time": 0.9667,
+                "name": "gold_coin_00013"
+              },
+              {
+                "time": 1,
+                "name": "gold_coin_00014"
+              },
+              {
+                "time": 1.0333,
+                "name": "gold_coin_00015"
+              },
+              {
+                "time": 1.0667,
+                "name": "gold_coin_00016"
+              },
+              {
+                "time": 1.1,
+                "name": "gold_coin_00017"
+              },
+              {
+                "time": 1.1333,
+                "name": "gold_coin_00018"
+              },
+              {
+                "time": 1.1667,
+                "name": "gold_coin_00019"
+              },
+              {
+                "time": 1.2,
+                "name": "gold_coin_00020"
+              },
+              {
+                "time": 1.2333,
+                "name": "gold_coin_00021"
+              },
+              {
+                "time": 1.2667,
+                "name": "gold_coin_00022"
+              },
+              {
+                "time": 1.3,
+                "name": "gold_coin_00023"
+              },
+              {
+                "time": 1.3333,
+                "name": "gold_coin_00024"
+              },
+              {
+                "time": 1.3667,
+                "name": "gold_coin_00000"
+              },
+              {
+                "time": 1.4,
+                "name": "gold_coin_00001"
+              },
+              {
+                "time": 1.4333,
+                "name": "gold_coin_00002"
+              },
+              {
+                "time": 1.4667,
+                "name": "gold_coin_00003"
+              },
+              {
+                "time": 1.5,
+                "name": "gold_coin_00004"
+              },
+              {
+                "time": 1.5333,
+                "name": "gold_coin_00005"
+              },
+              {
+                "time": 1.5667,
+                "name": "gold_coin_00006"
+              },
+              {
+                "time": 1.6,
+                "name": "gold_coin_00007"
+              },
+              {
+                "time": 1.6333,
+                "name": "gold_coin_00008"
+              },
+              {
+                "time": 1.6667,
+                "name": "gold_coin_00009"
+              }
+            ]
+          }
+        }
+      },
+      "total_win_begin": {
+        "slots": {
+          "gold_coin": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "gold_coin_00000"
+              },
+              {
+                "time": 0.0333,
+                "name": "gold_coin_00001"
+              },
+              {
+                "time": 0.0667,
+                "name": "gold_coin_00002"
+              },
+              {
+                "time": 0.1,
+                "name": "gold_coin_00003"
+              },
+              {
+                "time": 0.1333,
+                "name": "gold_coin_00004"
+              },
+              {
+                "time": 0.1667,
+                "name": "gold_coin_00005"
+              },
+              {
+                "time": 0.2,
+                "name": "gold_coin_00006"
+              },
+              {
+                "time": 0.2333,
+                "name": "gold_coin_00007"
+              },
+              {
+                "time": 0.2667,
+                "name": "gold_coin_00008"
+              },
+              {
+                "time": 0.3,
+                "name": "gold_coin_00009"
+              },
+              {
+                "time": 0.3333,
+                "name": "gold_coin_00010"
+              },
+              {
+                "time": 0.3667,
+                "name": "gold_coin_00011"
+              },
+              {
+                "time": 0.4,
+                "name": "gold_coin_00012"
+              },
+              {
+                "time": 0.4333,
+                "name": "gold_coin_00013"
+              },
+              {
+                "time": 0.4667,
+                "name": "gold_coin_00014"
+              },
+              {
+                "time": 0.5,
+                "name": "gold_coin_00015"
+              },
+              {
+                "time": 0.5333,
+                "name": "gold_coin_00016"
+              },
+              {
+                "time": 0.5667,
+                "name": "gold_coin_00017"
+              },
+              {
+                "time": 0.6,
+                "name": "gold_coin_00018"
+              },
+              {
+                "time": 0.6333,
+                "name": "gold_coin_00019"
+              },
+              {
+                "time": 0.6667,
+                "name": "gold_coin_00020"
+              },
+              {
+                "time": 0.7,
+                "name": "gold_coin_00021"
+              },
+              {
+                "time": 0.7333,
+                "name": "gold_coin_00022"
+              },
+              {
+                "time": 0.7667,
+                "name": "gold_coin_00023"
+              },
+              {
+                "time": 0.8,
+                "name": "gold_coin_00024"
+              },
+              {
+                "time": 0.8333,
+                "name": "gold_coin_00000"
+              },
+              {
+                "time": 0.8667,
+                "name": "gold_coin_00001"
+              },
+              {
+                "time": 0.9,
+                "name": "gold_coin_00002"
+              },
+              {
+                "time": 0.9333,
+                "name": "gold_coin_00003"
+              },
+              {
+                "time": 0.9667,
+                "name": "gold_coin_00004"
+              },
+              {
+                "time": 1,
+                "name": "gold_coin_00005"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "scale": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667,
+                "x": 0,
+                "y": 0,
+                "curve": [
+                  0,
+                  0.56,
+                  0.08,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      },
+      "total_win_loop": {
+        "slots": {
+          "gold_coin": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "gold_coin_00005"
+              },
+              {
+                "time": 0.0333,
+                "name": "gold_coin_00006"
+              },
+              {
+                "time": 0.0667,
+                "name": "gold_coin_00007"
+              },
+              {
+                "time": 0.1,
+                "name": "gold_coin_00008"
+              },
+              {
+                "time": 0.1333,
+                "name": "gold_coin_00009"
+              },
+              {
+                "time": 0.1667,
+                "name": "gold_coin_00010"
+              },
+              {
+                "time": 0.2,
+                "name": "gold_coin_00011"
+              },
+              {
+                "time": 0.2333,
+                "name": "gold_coin_00012"
+              },
+              {
+                "time": 0.2667,
+                "name": "gold_coin_00013"
+              },
+              {
+                "time": 0.3,
+                "name": "gold_coin_00014"
+              },
+              {
+                "time": 0.3333,
+                "name": "gold_coin_00015"
+              },
+              {
+                "time": 0.3667,
+                "name": "gold_coin_00016"
+              },
+              {
+                "time": 0.4,
+                "name": "gold_coin_00017"
+              },
+              {
+                "time": 0.4333,
+                "name": "gold_coin_00018"
+              },
+              {
+                "time": 0.4667,
+                "name": "gold_coin_00019"
+              },
+              {
+                "time": 0.5,
+                "name": "gold_coin_00020"
+              },
+              {
+                "time": 0.5333,
+                "name": "gold_coin_00021"
+              },
+              {
+                "time": 0.5667,
+                "name": "gold_coin_00022"
+              },
+              {
+                "time": 0.6,
+                "name": "gold_coin_00023"
+              },
+              {
+                "time": 0.6333,
+                "name": "gold_coin_00024"
+              },
+              {
+                "time": 0.6667,
+                "name": "gold_coin_00000"
+              },
+              {
+                "time": 0.7,
+                "name": "gold_coin_00001"
+              },
+              {
+                "time": 0.7333,
+                "name": "gold_coin_00002"
+              },
+              {
+                "time": 0.7667,
+                "name": "gold_coin_00003"
+              },
+              {
+                "time": 0.8,
+                "name": "gold_coin_00004"
+              },
+              {
+                "time": 0.8333,
+                "name": "gold_coin_00005"
+              },
+              {
+                "time": 0.8667,
+                "name": "gold_coin_00006"
+              },
+              {
+                "time": 0.9,
+                "name": "gold_coin_00007"
+              },
+              {
+                "time": 0.9333,
+                "name": "gold_coin_00008"
+              },
+              {
+                "time": 0.9667,
+                "name": "gold_coin_00009"
+              },
+              {
+                "time": 1,
+                "name": "gold_coin_00010"
+              },
+              {
+                "time": 1.0333,
+                "name": "gold_coin_00011"
+              },
+              {
+                "time": 1.0667,
+                "name": "gold_coin_00012"
+              },
+              {
+                "time": 1.1,
+                "name": "gold_coin_00013"
+              },
+              {
+                "time": 1.1333,
+                "name": "gold_coin_00014"
+              },
+              {
+                "time": 1.1667,
+                "name": "gold_coin_00015"
+              },
+              {
+                "time": 1.2,
+                "name": "gold_coin_00016"
+              },
+              {
+                "time": 1.2333,
+                "name": "gold_coin_00017"
+              },
+              {
+                "time": 1.2667,
+                "name": "gold_coin_00018"
+              },
+              {
+                "time": 1.3,
+                "name": "gold_coin_00019"
+              },
+              {
+                "time": 1.3333,
+                "name": "gold_coin_00020"
+              },
+              {
+                "time": 1.3667,
+                "name": "gold_coin_00021"
+              },
+              {
+                "time": 1.4,
+                "name": "gold_coin_00022"
+              },
+              {
+                "time": 1.4333,
+                "name": "gold_coin_00023"
+              },
+              {
+                "time": 1.4667,
+                "name": "gold_coin_00024"
+              },
+              {
+                "time": 1.5,
+                "name": "gold_coin_00000"
+              },
+              {
+                "time": 1.5667,
+                "name": "gold_coin_00001"
+              },
+              {
+                "time": 1.6,
+                "name": "gold_coin_00002"
+              },
+              {
+                "time": 1.6333,
+                "name": "gold_coin_00003"
+              },
+              {
+                "time": 1.6667,
+                "name": "gold_coin_00004"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "textures": [
+    {
+      "__uuid__": "648aab89-dfcc-4817-b80d-df68cce0d84c@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    },
+    {
+      "__uuid__": "a94e6b5e-f8c1-40a3-ae83-49ad7fd1ed17@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "prz_win_coin.png",
+    "prz_win_coin2.png"
+  ],
+  "scale": 1,
+  "_atlasText": "\r\nprz_win_coin.png\r\nsize: 1930,1930\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\ngold_coin_00000\r\n  rotate: false\r\n  xy: 2, 1448\r\n  size: 480, 480\r\n  orig: 480, 480\r\n  offset: 0, 0\r\n  index: -1\r\ngold_coin_00001\r\n  rotate: false\r\n  xy: 2, 966\r\n  size: 480, 480\r\n  orig: 480, 480\r\n  offset: 0, 0\r\n  index: -1\r\ngold_coin_00002\r\n  rotate: false\r\n  xy: 484, 1448\r\n  size: 480, 480\r\n  orig: 480, 480\r\n  offset: 0, 0\r\n  index: -1\r\ngold_coin_00003\r\n  rotate: false\r\n  xy: 2, 484\r\n  size: 480, 480\r\n  orig: 480, 480\r\n  offset: 0, 0\r\n  index: -1\r\ngold_coin_00004\r\n  rotate: false\r\n  xy: 484, 966\r\n  size: 480, 480\r\n  orig: 480, 480\r\n  offset: 0, 0\r\n  index: -1\r\ngold_coin_00005\r\n  rotate: false\r\n  xy: 966, 1448\r\n  size: 480, 480\r\n  orig: 480, 480\r\n  offset: 0, 0\r\n  index: -1\r\ngold_coin_00006\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 480, 480\r\n  orig: 480, 480\r\n  offset: 0, 0\r\n  index: -1\r\ngold_coin_00007\r\n  rotate: false\r\n  xy: 484, 484\r\n  size: 480, 480\r\n  orig: 480, 480\r\n  offset: 0, 0\r\n  index: -1\r\ngold_coin_00008\r\n  rotate: false\r\n  xy: 966, 966\r\n  size: 480, 480\r\n  orig: 480, 480\r\n  offset: 0, 0\r\n  index: -1\r\ngold_coin_00009\r\n  rotate: false\r\n  xy: 1448, 1448\r\n  size: 480, 480\r\n  orig: 480, 480\r\n  offset: 0, 0\r\n  index: -1\r\ngold_coin_00010\r\n  rotate: false\r\n  xy: 484, 2\r\n  size: 480, 480\r\n  orig: 480, 480\r\n  offset: 0, 0\r\n  index: -1\r\ngold_coin_00011\r\n  rotate: false\r\n  xy: 966, 484\r\n  size: 480, 480\r\n  orig: 480, 480\r\n  offset: 0, 0\r\n  index: -1\r\ngold_coin_00012\r\n  rotate: false\r\n  xy: 1448, 966\r\n  size: 480, 480\r\n  orig: 480, 480\r\n  offset: 0, 0\r\n  index: -1\r\ngold_coin_00013\r\n  rotate: false\r\n  xy: 966, 2\r\n  size: 480, 480\r\n  orig: 480, 480\r\n  offset: 0, 0\r\n  index: -1\r\ngold_coin_00014\r\n  rotate: false\r\n  xy: 1448, 484\r\n  size: 480, 480\r\n  orig: 480, 480\r\n  offset: 0, 0\r\n  index: -1\r\ngold_coin_00015\r\n  rotate: false\r\n  xy: 1448, 2\r\n  size: 480, 480\r\n  orig: 480, 480\r\n  offset: 0, 0\r\n  index: -1\r\n\r\nprz_win_coin2.png\r\nsize: 1448,1448\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\ngold_coin_00016\r\n  rotate: false\r\n  xy: 2, 966\r\n  size: 480, 480\r\n  orig: 480, 480\r\n  offset: 0, 0\r\n  index: -1\r\ngold_coin_00017\r\n  rotate: false\r\n  xy: 2, 484\r\n  size: 480, 480\r\n  orig: 480, 480\r\n  offset: 0, 0\r\n  index: -1\r\ngold_coin_00018\r\n  rotate: false\r\n  xy: 484, 966\r\n  size: 480, 480\r\n  orig: 480, 480\r\n  offset: 0, 0\r\n  index: -1\r\ngold_coin_00019\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 480, 480\r\n  orig: 480, 480\r\n  offset: 0, 0\r\n  index: -1\r\ngold_coin_00020\r\n  rotate: false\r\n  xy: 484, 484\r\n  size: 480, 480\r\n  orig: 480, 480\r\n  offset: 0, 0\r\n  index: -1\r\ngold_coin_00021\r\n  rotate: false\r\n  xy: 966, 966\r\n  size: 480, 480\r\n  orig: 480, 480\r\n  offset: 0, 0\r\n  index: -1\r\ngold_coin_00022\r\n  rotate: false\r\n  xy: 484, 2\r\n  size: 480, 480\r\n  orig: 480, 480\r\n  offset: 0, 0\r\n  index: -1\r\ngold_coin_00023\r\n  rotate: false\r\n  xy: 966, 484\r\n  size: 480, 480\r\n  orig: 480, 480\r\n  offset: 0, 0\r\n  index: -1\r\ngold_coin_00024\r\n  rotate: false\r\n  xy: 966, 2\r\n  size: 480, 480\r\n  orig: 480, 480\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "tx_title_bet_en.png",
+    "atlas": "",
+    "rect": {
+      "x": 220,
+      "y": 18,
+      "width": 110,
+      "height": 53
+    },
+    "offset": {
+      "x": 0,
+      "y": 0.5
+    },
+    "originalSize": {
+      "width": 550,
+      "height": 90
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -55,
+        -26.5,
+        0,
+        55,
+        -26.5,
+        0,
+        -55,
+        26.5,
+        0,
+        55,
+        26.5,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        220,
+        72,
+        330,
+        72,
+        220,
+        19,
+        330,
+        19
+      ],
+      "nuv": [
+        0.4,
+        0.2111111111111111,
+        0.6,
+        0.2111111111111111,
+        0.4,
+        0.8,
+        0.6,
+        0.8
+      ],
+      "minPos": {
+        "x": -55,
+        "y": -26.5,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 55,
+        "y": 26.5,
+        "z": 0
+      }
+    },
+    "texture": "da455f9f-b3c7-4c0c-9394-23bed386227d@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

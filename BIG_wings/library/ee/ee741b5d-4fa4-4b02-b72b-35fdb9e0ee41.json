@@ -1,0 +1,3230 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "fx_pic_win_bot",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "EUqKw3T5WYcZRVTbyoC7IpPg8DA",
+      "spine": "3.7.94",
+      "width": 1176,
+      "height": 282,
+      "images": "./images/",
+      "audio": "D:/trave/製作檔/大鵬展翅_改/border/"
+    },
+    "bones": [
+      {
+        "name": "root",
+        "y": 264
+      },
+      {
+        "name": "win_box",
+        "parent": "root",
+        "y": -264
+      },
+      {
+        "name": "win_box_light_dot_comp",
+        "parent": "win_box"
+      },
+      {
+        "name": "win_box_light_dot",
+        "parent": "win_box_light_dot_comp",
+        "x": 40.21,
+        "y": -63.67,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot2",
+        "parent": "win_box_light_dot_comp",
+        "x": 266.84,
+        "y": -25.37,
+        "scaleX": 0.3,
+        "scaleY": 0.3,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot3",
+        "parent": "win_box_light_dot_comp",
+        "x": 183.05,
+        "y": -41.33,
+        "scaleX": 0.3,
+        "scaleY": 0.3,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot4",
+        "parent": "win_box_light_dot_comp",
+        "x": 224.54,
+        "y": -68.46,
+        "scaleX": 0.6,
+        "scaleY": 0.6,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot5",
+        "parent": "win_box_light_dot_comp",
+        "x": 375.37,
+        "y": -42.13,
+        "scaleX": 0.4,
+        "scaleY": 0.4,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot6",
+        "parent": "win_box_light_dot_comp",
+        "x": 440,
+        "y": -3.82,
+        "scaleX": 0.3,
+        "scaleY": 0.3,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot7",
+        "parent": "win_box_light_dot_comp",
+        "x": 293.27,
+        "y": 35.42,
+        "scaleX": 0.22,
+        "scaleY": 0.22,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot8",
+        "parent": "win_box_light_dot_comp",
+        "x": 338.1,
+        "y": 22.98,
+        "scaleX": 0.3,
+        "scaleY": 0.3,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot9",
+        "parent": "win_box_light_dot_comp",
+        "x": 406.03,
+        "y": 50.47,
+        "scaleX": 0.44,
+        "scaleY": 0.44,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot10",
+        "parent": "win_box_light_dot_comp",
+        "x": 195.64,
+        "y": 38.04,
+        "scaleX": 0.4,
+        "scaleY": 0.4,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot11",
+        "parent": "win_box_light_dot_comp",
+        "x": 466.43,
+        "y": 28.77,
+        "scaleX": 0.6,
+        "scaleY": 0.6,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot_comp2",
+        "parent": "win_box",
+        "scaleX": -1,
+        "scaleY": -1
+      },
+      {
+        "name": "win_box_light_dot12",
+        "parent": "win_box_light_dot_comp2",
+        "x": 40.21,
+        "y": -63.67,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot13",
+        "parent": "win_box_light_dot_comp2",
+        "x": 266.84,
+        "y": -25.37,
+        "scaleX": 0.3,
+        "scaleY": 0.3,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot14",
+        "parent": "win_box_light_dot_comp2",
+        "x": 183.05,
+        "y": -41.33,
+        "scaleX": 0.3,
+        "scaleY": 0.3,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot15",
+        "parent": "win_box_light_dot_comp2",
+        "x": 224.54,
+        "y": -68.46,
+        "scaleX": 0.6,
+        "scaleY": 0.6,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot16",
+        "parent": "win_box_light_dot_comp2",
+        "x": 375.37,
+        "y": -42.13,
+        "scaleX": 0.4,
+        "scaleY": 0.4,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot17",
+        "parent": "win_box_light_dot_comp2",
+        "x": 440,
+        "y": -3.82,
+        "scaleX": 0.3,
+        "scaleY": 0.3,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot18",
+        "parent": "win_box_light_dot_comp2",
+        "x": 293.27,
+        "y": 35.42,
+        "scaleX": 0.22,
+        "scaleY": 0.22,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot19",
+        "parent": "win_box_light_dot_comp2",
+        "x": 338.1,
+        "y": 22.98,
+        "scaleX": 0.3,
+        "scaleY": 0.3,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot20",
+        "parent": "win_box_light_dot_comp2",
+        "x": 406.03,
+        "y": 50.47,
+        "scaleX": 0.44,
+        "scaleY": 0.44,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot21",
+        "parent": "win_box_light_dot_comp2",
+        "x": 195.64,
+        "y": 38.04,
+        "scaleX": 0.4,
+        "scaleY": 0.4,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot22",
+        "parent": "win_box_light_dot_comp2",
+        "x": 466.43,
+        "y": 28.77,
+        "scaleX": 0.6,
+        "scaleY": 0.6,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_222glow_frame",
+        "parent": "win_box",
+        "y": -8,
+        "color": "68ff00ff"
+      },
+      {
+        "name": "win_box_222glow_frame2",
+        "parent": "win_box",
+        "y": -8,
+        "color": "68ff00ff"
+      },
+      {
+        "name": "win_frame_glowing",
+        "parent": "win_box",
+        "color": "ff0000ff"
+      },
+      {
+        "name": "win_frame_glowing2",
+        "parent": "win_frame_glowing",
+        "color": "ff0000ff"
+      },
+      {
+        "name": "win_frame_glowing3",
+        "parent": "win_frame_glowing",
+        "color": "ffbf00ff"
+      },
+      {
+        "name": "expl_dot",
+        "parent": "win_box",
+        "scaleX": -1,
+        "color": "00ffffff"
+      },
+      {
+        "name": "win_box_light_dot_comp3",
+        "parent": "expl_dot",
+        "scaleX": -1,
+        "scaleY": -1
+      },
+      {
+        "name": "win_box_light_dot23",
+        "parent": "win_box_light_dot_comp3",
+        "x": 40.21,
+        "y": -63.67,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot24",
+        "parent": "win_box_light_dot_comp3",
+        "x": 266.84,
+        "y": -25.37,
+        "scaleX": 0.3,
+        "scaleY": 0.3,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot25",
+        "parent": "win_box_light_dot_comp3",
+        "x": 183.05,
+        "y": -41.33,
+        "scaleX": 0.3,
+        "scaleY": 0.3,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot26",
+        "parent": "win_box_light_dot_comp3",
+        "x": 224.54,
+        "y": -68.46,
+        "scaleX": 0.6,
+        "scaleY": 0.6,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot27",
+        "parent": "win_box_light_dot_comp3",
+        "x": 375.37,
+        "y": -42.13,
+        "scaleX": 0.4,
+        "scaleY": 0.4,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot28",
+        "parent": "win_box_light_dot_comp3",
+        "x": 440,
+        "y": -3.82,
+        "scaleX": 0.3,
+        "scaleY": 0.3,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot29",
+        "parent": "win_box_light_dot_comp3",
+        "x": 293.27,
+        "y": 35.42,
+        "scaleX": 0.22,
+        "scaleY": 0.22,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot30",
+        "parent": "win_box_light_dot_comp3",
+        "x": 338.1,
+        "y": 22.98,
+        "scaleX": 0.3,
+        "scaleY": 0.3,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot31",
+        "parent": "win_box_light_dot_comp3",
+        "x": 406.03,
+        "y": 50.47,
+        "scaleX": 0.44,
+        "scaleY": 0.44,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot32",
+        "parent": "win_box_light_dot_comp3",
+        "x": 195.64,
+        "y": 38.04,
+        "scaleX": 0.4,
+        "scaleY": 0.4,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot33",
+        "parent": "win_box_light_dot_comp3",
+        "x": 466.43,
+        "y": 28.77,
+        "scaleX": 0.6,
+        "scaleY": 0.6,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot_comp4",
+        "parent": "expl_dot"
+      },
+      {
+        "name": "win_box_light_dot34",
+        "parent": "win_box_light_dot_comp4",
+        "x": 40.21,
+        "y": -63.67,
+        "scaleX": 0.5,
+        "scaleY": 0.5,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot35",
+        "parent": "win_box_light_dot_comp4",
+        "x": 266.84,
+        "y": -25.37,
+        "scaleX": 0.3,
+        "scaleY": 0.3,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot36",
+        "parent": "win_box_light_dot_comp4",
+        "x": 183.05,
+        "y": -41.33,
+        "scaleX": 0.3,
+        "scaleY": 0.3,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot37",
+        "parent": "win_box_light_dot_comp4",
+        "x": 224.54,
+        "y": -68.46,
+        "scaleX": 0.6,
+        "scaleY": 0.6,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot38",
+        "parent": "win_box_light_dot_comp4",
+        "x": 375.37,
+        "y": -42.13,
+        "scaleX": 0.4,
+        "scaleY": 0.4,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot39",
+        "parent": "win_box_light_dot_comp4",
+        "x": 440,
+        "y": -3.82,
+        "scaleX": 0.3,
+        "scaleY": 0.3,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot40",
+        "parent": "win_box_light_dot_comp4",
+        "x": 293.27,
+        "y": 35.42,
+        "scaleX": 0.22,
+        "scaleY": 0.22,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot41",
+        "parent": "win_box_light_dot_comp4",
+        "x": 338.1,
+        "y": 22.98,
+        "scaleX": 0.3,
+        "scaleY": 0.3,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot42",
+        "parent": "win_box_light_dot_comp4",
+        "x": 406.03,
+        "y": 50.47,
+        "scaleX": 0.44,
+        "scaleY": 0.44,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot43",
+        "parent": "win_box_light_dot_comp4",
+        "x": 195.64,
+        "y": 38.04,
+        "scaleX": 0.4,
+        "scaleY": 0.4,
+        "color": "24fc00ff"
+      },
+      {
+        "name": "win_box_light_dot44",
+        "parent": "win_box_light_dot_comp4",
+        "x": 466.43,
+        "y": 28.77,
+        "scaleX": 0.6,
+        "scaleY": 0.6,
+        "color": "24fc00ff"
+      }
+    ],
+    "slots": [
+      {
+        "name": "win_box_light_dot",
+        "bone": "win_box_light_dot",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot34",
+        "bone": "win_box_light_dot34",
+        "color": "ffffff00",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot12",
+        "bone": "win_box_light_dot12",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot23",
+        "bone": "win_box_light_dot23",
+        "color": "ffffff00",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot3",
+        "bone": "win_box_light_dot3",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot36",
+        "bone": "win_box_light_dot36",
+        "color": "ffffff00",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot14",
+        "bone": "win_box_light_dot14",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot25",
+        "bone": "win_box_light_dot25",
+        "color": "ffffff00",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot8",
+        "bone": "win_box_light_dot8",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot41",
+        "bone": "win_box_light_dot41",
+        "color": "ffffff00",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot19",
+        "bone": "win_box_light_dot19",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot30",
+        "bone": "win_box_light_dot30",
+        "color": "ffffff00",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot5",
+        "bone": "win_box_light_dot5",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot38",
+        "bone": "win_box_light_dot38",
+        "color": "ffffff00",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot16",
+        "bone": "win_box_light_dot16",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot27",
+        "bone": "win_box_light_dot27",
+        "color": "ffffff00",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot10",
+        "bone": "win_box_light_dot10",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot43",
+        "bone": "win_box_light_dot43",
+        "color": "ffffff00",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot21",
+        "bone": "win_box_light_dot21",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot32",
+        "bone": "win_box_light_dot32",
+        "color": "ffffff00",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot2",
+        "bone": "win_box_light_dot2",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot35",
+        "bone": "win_box_light_dot35",
+        "color": "ffffff00",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot13",
+        "bone": "win_box_light_dot13",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot24",
+        "bone": "win_box_light_dot24",
+        "color": "ffffff00",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot7",
+        "bone": "win_box_light_dot7",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot40",
+        "bone": "win_box_light_dot40",
+        "color": "ffffff00",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot18",
+        "bone": "win_box_light_dot18",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot29",
+        "bone": "win_box_light_dot29",
+        "color": "ffffff00",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot4",
+        "bone": "win_box_light_dot4",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot37",
+        "bone": "win_box_light_dot37",
+        "color": "ffffff00",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot15",
+        "bone": "win_box_light_dot15",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot26",
+        "bone": "win_box_light_dot26",
+        "color": "ffffff00",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot9",
+        "bone": "win_box_light_dot9",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot42",
+        "bone": "win_box_light_dot42",
+        "color": "ffffff00",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot20",
+        "bone": "win_box_light_dot20",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot31",
+        "bone": "win_box_light_dot31",
+        "color": "ffffff00",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot6",
+        "bone": "win_box_light_dot6",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot39",
+        "bone": "win_box_light_dot39",
+        "color": "ffffff00",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot17",
+        "bone": "win_box_light_dot17",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot28",
+        "bone": "win_box_light_dot28",
+        "color": "ffffff00",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot11",
+        "bone": "win_box_light_dot11",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot44",
+        "bone": "win_box_light_dot44",
+        "color": "ffffff00",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot22",
+        "bone": "win_box_light_dot22",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_light_dot33",
+        "bone": "win_box_light_dot33",
+        "color": "ffffff00",
+        "attachment": "win_box_light_dot",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_glow_frame",
+        "bone": "win_box_222glow_frame",
+        "color": "ffffff78",
+        "attachment": "win_box_glow_frame2",
+        "blend": "additive"
+      },
+      {
+        "name": "win_box_glow_frame2",
+        "bone": "win_box_222glow_frame2",
+        "color": "ffffff00",
+        "attachment": "win_box_glow_frame2",
+        "blend": "additive"
+      },
+      {
+        "name": "win_frame_glowing2",
+        "bone": "win_frame_glowing2",
+        "color": "ffffff00",
+        "attachment": "win_frame_glowing2",
+        "blend": "screen"
+      },
+      {
+        "name": "win_frame_glowing3",
+        "bone": "win_frame_glowing3",
+        "color": "ffffff00",
+        "attachment": "win_frame_glowing3",
+        "blend": "screen"
+      },
+      {
+        "name": "win_frame_glowing4",
+        "bone": "win_frame_glowing3",
+        "color": "ffffff00",
+        "attachment": "win_frame_glowing4",
+        "blend": "screen"
+      }
+    ],
+    "skins": {
+      "default": {
+        "win_box_glow_frame": {
+          "win_box_glow_frame2": {
+            "rotation": 180,
+            "width": 1176,
+            "height": 282
+          }
+        },
+        "win_box_glow_frame2": {
+          "win_box_glow_frame2": {
+            "rotation": 180,
+            "width": 1176,
+            "height": 282
+          }
+        },
+        "win_box_light_dot": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot10": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot11": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot12": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot13": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot14": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot15": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot16": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot17": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot18": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot19": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot2": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot20": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot21": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot22": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot23": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot24": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot25": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot26": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot27": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot28": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot29": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot3": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot30": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot31": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot32": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot33": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot34": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot35": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot36": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot37": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot38": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot39": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot4": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot40": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot41": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot42": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot43": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot44": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot5": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot6": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot7": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot8": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_box_light_dot9": {
+          "win_box_light_dot": {
+            "x": 0.5,
+            "y": 0.5,
+            "width": 79,
+            "height": 103
+          }
+        },
+        "win_frame_glowing2": {
+          "win_frame_glowing2": {
+            "width": 1008,
+            "height": 132
+          }
+        },
+        "win_frame_glowing3": {
+          "win_frame_glowing3": {
+            "width": 1008,
+            "height": 132
+          }
+        },
+        "win_frame_glowing4": {
+          "win_frame_glowing4": {
+            "width": 1008,
+            "height": 132
+          }
+        }
+      }
+    },
+    "animations": {
+      "02_begin": {
+        "slots": {
+          "win_box_glow_frame": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffffc7",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "color": "ffffff81"
+              }
+            ]
+          },
+          "win_box_glow_frame2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.1667,
+                "color": "ffffffc7",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot3": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot4": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot5": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot6": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot7": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot8": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot9": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot10": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot11": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot12": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot13": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot14": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot15": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot16": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot17": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot18": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot19": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot20": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot21": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot22": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot23": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot24": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot25": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot26": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot27": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot28": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot29": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot30": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot31": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot32": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot33": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot34": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot35": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot36": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot37": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot38": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot39": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot40": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot41": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot42": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot43": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot44": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_frame_glowing2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffa0"
+              }
+            ]
+          },
+          "win_frame_glowing3": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.2333,
+                "color": "ffffff64"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffff3c"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "win_box_222glow_frame2": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 1.06,
+                "y": 1.2
+              }
+            ]
+          },
+          "expl_dot": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0,
+                  0.01,
+                  0.572,
+                  0.99
+                ]
+              },
+              {
+                "time": 0.5,
+                "x": 1.04,
+                "y": 1.04
+              }
+            ]
+          }
+        }
+      },
+      "02_loop": {
+        "slots": {
+          "win_box_glow_frame": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff81",
+                "curve": "stepped"
+              },
+              {
+                "time": 2,
+                "color": "ffffff81"
+              }
+            ]
+          },
+          "win_box_glow_frame2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff32",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot3": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot4": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot5": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot6": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot7": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot8": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot9": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot10": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot11": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot12": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot13": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot14": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot15": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot16": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot17": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot18": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot19": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot20": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot21": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot22": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot23": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot24": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot25": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot26": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot27": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot28": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot29": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot30": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot31": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot32": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot33": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot34": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot35": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot36": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot37": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot38": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot39": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot40": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot41": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot42": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot43": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot44": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_frame_glowing2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffa0",
+                "curve": "stepped"
+              },
+              {
+                "time": 2,
+                "color": "ffffffa0"
+              }
+            ]
+          },
+          "win_frame_glowing3": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff3c",
+                "curve": "stepped"
+              },
+              {
+                "time": 2,
+                "color": "ffffff3c"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "win_box_222glow_frame2": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1.06,
+                "y": 1.2,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "x": 1.06,
+                "y": 1.2
+              }
+            ]
+          }
+        }
+      },
+      "03_begin": {
+        "slots": {
+          "win_box_glow_frame": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2667,
+                "color": "ffffffa0",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffffc7"
+              }
+            ]
+          },
+          "win_box_glow_frame2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2667,
+                "color": "ffffffa0",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot3": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot4": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot5": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot6": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot7": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot8": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot9": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot10": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot11": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot12": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot13": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot14": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot15": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot16": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot17": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot18": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot19": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot20": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot21": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot22": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot23": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot24": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot25": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot26": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot27": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot28": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot29": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot30": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot31": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot32": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot33": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot34": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot35": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot36": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot37": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot38": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot39": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot40": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot41": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot42": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot43": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot44": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_frame_glowing2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "win_frame_glowing3": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2667,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.4333,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_frame_glowing4": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2667,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.4333,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffffa0"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "win_box_222glow_frame2": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "x": 1.06,
+                "y": 1.2
+              }
+            ]
+          },
+          "expl_dot": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0,
+                  0.01,
+                  0.572,
+                  0.99
+                ]
+              },
+              {
+                "time": 0.6667,
+                "x": 1.1,
+                "y": 1.1
+              }
+            ]
+          }
+        }
+      },
+      "03_loop": {
+        "slots": {
+          "win_box_glow_frame": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffc7",
+                "curve": "stepped"
+              },
+              {
+                "time": 2,
+                "color": "ffffffc7"
+              }
+            ]
+          },
+          "win_box_glow_frame2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffff32",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot3": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot4": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot5": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot6": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot7": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot8": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot9": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot10": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot11": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot12": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot13": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot14": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot15": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot16": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot17": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot18": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot19": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot20": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot21": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot22": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot23": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot24": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot25": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot26": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot27": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot28": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot29": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot30": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot31": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot32": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot33": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot34": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot35": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot36": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot37": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot38": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot39": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot40": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot41": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot42": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot43": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_box_light_dot44": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_frame_glowing2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffffff",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3333,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.6667,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "win_frame_glowing3": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 2,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "win_frame_glowing4": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffffa0",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3333,
+                "color": "db00ffa0",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667,
+                "color": "db00ffa0",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "color": "ffffffa0",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3333,
+                "color": "db00ffa0",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.6667,
+                "color": "db00ffa0",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "color": "ffffffa0"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "win_box_222glow_frame2": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 1.06,
+                "y": 1.2,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "x": 1,
+                "y": 1,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 2,
+                "x": 1.06,
+                "y": 1.2
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "textures": [
+    {
+      "__uuid__": "f05d549b-6505-49fd-8c33-d848c3001a6e@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "fx_pic_win.jpg"
+  ],
+  "scale": 1,
+  "_atlasText": "\r\nfx_pic_win.jpg\r\nsize: 2048,1024\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nwin_box_glow_frame2\r\n  rotate: false\r\n  xy: 2, 404\r\n  size: 1176, 282\r\n  orig: 1176, 282\r\n  offset: 0, 0\r\n  index: -1\r\nwin_box_light_dot\r\n  rotate: false\r\n  xy: 1180, 583\r\n  size: 79, 103\r\n  orig: 79, 103\r\n  offset: 0, 0\r\n  index: -1\r\nwin_frame_glowing2\r\n  rotate: false\r\n  xy: 2, 270\r\n  size: 1008, 132\r\n  orig: 1008, 132\r\n  offset: 0, 0\r\n  index: -1\r\nwin_frame_glowing3\r\n  rotate: false\r\n  xy: 2, 136\r\n  size: 1008, 132\r\n  orig: 1008, 132\r\n  offset: 0, 0\r\n  index: -1\r\nwin_frame_glowing4\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 1008, 132\r\n  orig: 1008, 132\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

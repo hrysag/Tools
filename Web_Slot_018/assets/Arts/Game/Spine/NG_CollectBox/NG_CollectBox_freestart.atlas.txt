@@ -1,0 +1,524 @@
+
+NG_CollectBox_freestart.webp
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01_pic/FG01_eff_door_gem
+  rotate: false
+  xy: 1899, 1915
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+01_pic/FG01_eff_door_handle
+  rotate: false
+  xy: 851, 1323
+  size: 152, 157
+  orig: 152, 157
+  offset: 0, 0
+  index: -1
+01_pic/FG01_eff_door_side
+  rotate: false
+  xy: 851, 1482
+  size: 522, 534
+  orig: 522, 534
+  offset: 0, 0
+  index: -1
+01_pic/FG02_eff_door_gem
+  rotate: false
+  xy: 1943, 1915
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+01_pic/FG02_eff_door_handle
+  rotate: false
+  xy: 2, 1294
+  size: 152, 152
+  orig: 152, 152
+  offset: 0, 0
+  index: -1
+01_pic/FG02_eff_door_side
+  rotate: false
+  xy: 1375, 1482
+  size: 522, 534
+  orig: 522, 534
+  offset: 0, 0
+  index: -1
+02_fx/fx_smoke
+  rotate: false
+  xy: 1899, 1959
+  size: 117, 57
+  orig: 117, 57
+  offset: 0, 0
+  index: -1
+02_fx/fx_smoke_fall
+  rotate: false
+  xy: 156, 1372
+  size: 276, 74
+  orig: 276, 74
+  offset: 0, 0
+  index: -1
+02_fx_front_transition/fx_transition_bigsand
+  rotate: false
+  xy: 2, 1448
+  size: 847, 568
+  orig: 847, 568
+  offset: 0, 0
+  index: -1
+
+NG_CollectBox_freestart_fx.webp
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+02_fx/fx_smoke
+  rotate: false
+  xy: 280, 249
+  size: 117, 57
+  orig: 117, 57
+  offset: 0, 0
+  index: -1
+02_fx/fx_smoke_fall
+  rotate: false
+  xy: 2, 232
+  size: 276, 74
+  orig: 276, 74
+  offset: 0, 0
+  index: -1
+02_fx_door/fx_door_00000
+  rotate: false
+  xy: 851, 1450
+  size: 80, 570
+  orig: 80, 570
+  offset: 0, 0
+  index: -1
+02_fx_door/fx_door_00001
+  rotate: false
+  xy: 2, 880
+  size: 80, 570
+  orig: 80, 570
+  offset: 0, 0
+  index: -1
+02_fx_door/fx_door_00002
+  rotate: false
+  xy: 84, 880
+  size: 80, 570
+  orig: 80, 570
+  offset: 0, 0
+  index: -1
+02_fx_door/fx_door_00003
+  rotate: false
+  xy: 166, 880
+  size: 80, 570
+  orig: 80, 570
+  offset: 0, 0
+  index: -1
+02_fx_door/fx_door_00004
+  rotate: false
+  xy: 248, 880
+  size: 80, 570
+  orig: 80, 570
+  offset: 0, 0
+  index: -1
+02_fx_door/fx_door_00005
+  rotate: false
+  xy: 330, 880
+  size: 80, 570
+  orig: 80, 570
+  offset: 0, 0
+  index: -1
+02_fx_door/fx_door_00006
+  rotate: false
+  xy: 412, 880
+  size: 80, 570
+  orig: 80, 570
+  offset: 0, 0
+  index: -1
+02_fx_door/fx_door_00007
+  rotate: false
+  xy: 494, 880
+  size: 80, 570
+  orig: 80, 570
+  offset: 0, 0
+  index: -1
+02_fx_door/fx_door_00008
+  rotate: false
+  xy: 576, 880
+  size: 80, 570
+  orig: 80, 570
+  offset: 0, 0
+  index: -1
+02_fx_door/fx_door_00009
+  rotate: false
+  xy: 658, 880
+  size: 80, 570
+  orig: 80, 570
+  offset: 0, 0
+  index: -1
+02_fx_door/fx_door_00010
+  rotate: false
+  xy: 740, 880
+  size: 80, 570
+  orig: 80, 570
+  offset: 0, 0
+  index: -1
+02_fx_door/fx_door_00011
+  rotate: false
+  xy: 822, 878
+  size: 80, 570
+  orig: 80, 570
+  offset: 0, 0
+  index: -1
+02_fx_door/fx_door_00012
+  rotate: false
+  xy: 2, 308
+  size: 80, 570
+  orig: 80, 570
+  offset: 0, 0
+  index: -1
+02_fx_door/fx_door_00013
+  rotate: false
+  xy: 84, 308
+  size: 80, 570
+  orig: 80, 570
+  offset: 0, 0
+  index: -1
+02_fx_door/fx_door_00014
+  rotate: false
+  xy: 166, 308
+  size: 80, 570
+  orig: 80, 570
+  offset: 0, 0
+  index: -1
+02_fx_door/fx_door_00015
+  rotate: false
+  xy: 248, 308
+  size: 80, 570
+  orig: 80, 570
+  offset: 0, 0
+  index: -1
+02_fx_door/fx_door_00016
+  rotate: false
+  xy: 330, 308
+  size: 80, 570
+  orig: 80, 570
+  offset: 0, 0
+  index: -1
+02_fx_door/fx_door_00017
+  rotate: false
+  xy: 412, 308
+  size: 80, 570
+  orig: 80, 570
+  offset: 0, 0
+  index: -1
+02_fx_door/fx_door_00018
+  rotate: false
+  xy: 494, 308
+  size: 80, 570
+  orig: 80, 570
+  offset: 0, 0
+  index: -1
+02_fx_door/fx_door_00019
+  rotate: false
+  xy: 576, 308
+  size: 80, 570
+  orig: 80, 570
+  offset: 0, 0
+  index: -1
+02_fx_door/fx_door_00020
+  rotate: false
+  xy: 658, 308
+  size: 80, 570
+  orig: 80, 570
+  offset: 0, 0
+  index: -1
+02_fx_door/fx_door_00021
+  rotate: false
+  xy: 740, 308
+  size: 80, 570
+  orig: 80, 570
+  offset: 0, 0
+  index: -1
+02_fx_door/fx_door_00022
+  rotate: false
+  xy: 904, 878
+  size: 80, 570
+  orig: 80, 570
+  offset: 0, 0
+  index: -1
+02_fx_door/fx_door_00023
+  rotate: false
+  xy: 933, 1450
+  size: 80, 570
+  orig: 80, 570
+  offset: 0, 0
+  index: -1
+02_fx_door/fx_door_00024
+  rotate: false
+  xy: 986, 878
+  size: 80, 570
+  orig: 80, 570
+  offset: 0, 0
+  index: -1
+02_fx_door/fx_door_00025
+  rotate: false
+  xy: 1015, 1450
+  size: 80, 570
+  orig: 80, 570
+  offset: 0, 0
+  index: -1
+02_fx_door/fx_door_00026
+  rotate: false
+  xy: 1022, 306
+  size: 80, 570
+  orig: 80, 570
+  offset: 0, 0
+  index: -1
+02_fx_door/fx_door_00027
+  rotate: false
+  xy: 1068, 878
+  size: 80, 570
+  orig: 80, 570
+  offset: 0, 0
+  index: -1
+02_fx_door/fx_door_00028
+  rotate: false
+  xy: 1097, 1450
+  size: 80, 570
+  orig: 80, 570
+  offset: 0, 0
+  index: -1
+02_fx_door/fx_door_00029
+  rotate: false
+  xy: 1104, 306
+  size: 80, 570
+  orig: 80, 570
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00000
+  rotate: false
+  xy: 2, 130
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00030
+  rotate: false
+  xy: 2, 130
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00001
+  rotate: false
+  xy: 2, 28
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00002
+  rotate: false
+  xy: 104, 130
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00003
+  rotate: false
+  xy: 104, 28
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00004
+  rotate: false
+  xy: 206, 130
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00005
+  rotate: false
+  xy: 206, 28
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00006
+  rotate: false
+  xy: 308, 147
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00007
+  rotate: false
+  xy: 308, 45
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00008
+  rotate: false
+  xy: 410, 206
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00009
+  rotate: false
+  xy: 410, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00010
+  rotate: false
+  xy: 410, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00011
+  rotate: false
+  xy: 512, 206
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00012
+  rotate: false
+  xy: 512, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00013
+  rotate: false
+  xy: 512, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00014
+  rotate: false
+  xy: 614, 206
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00015
+  rotate: false
+  xy: 614, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00016
+  rotate: false
+  xy: 614, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00017
+  rotate: false
+  xy: 716, 206
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00018
+  rotate: false
+  xy: 716, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00019
+  rotate: false
+  xy: 716, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00020
+  rotate: false
+  xy: 818, 206
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00021
+  rotate: false
+  xy: 818, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00022
+  rotate: false
+  xy: 818, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00023
+  rotate: false
+  xy: 822, 776
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00024
+  rotate: false
+  xy: 822, 674
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00025
+  rotate: false
+  xy: 822, 572
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00026
+  rotate: false
+  xy: 822, 470
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00027
+  rotate: false
+  xy: 822, 368
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00028
+  rotate: false
+  xy: 920, 266
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00029
+  rotate: false
+  xy: 920, 164
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_front_transition/fx_transition_bigsand
+  rotate: false
+  xy: 2, 1452
+  size: 847, 568
+  orig: 847, 568
+  offset: 0, 0
+  index: -1
+

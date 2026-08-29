@@ -1,0 +1,76 @@
+
+fx_connect_border.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01_fx/frame
+  rotate: false
+  xy: 2, 2
+  size: 245, 116
+  orig: 245, 116
+  offset: 0, 0
+  index: -1
+01_fx/frame2
+  rotate: false
+  xy: 381, 113
+  size: 245, 96
+  orig: 245, 96
+  offset: 0, 0
+  index: -1
+01_fx/frame3
+  rotate: true
+  xy: 849, 231
+  size: 242, 53
+  orig: 242, 53
+  offset: 0, 0
+  index: -1
+01_fx/light
+  rotate: false
+  xy: 381, 241
+  size: 232, 232
+  orig: 232, 232
+  offset: 0, 0
+  index: -1
+01_fx/light2
+  rotate: false
+  xy: 381, 211
+  size: 317, 28
+  orig: 317, 28
+  offset: 0, 0
+  index: -1
+01_fx/light3
+  rotate: false
+  xy: 615, 241
+  size: 232, 232
+  orig: 232, 232
+  offset: 0, 0
+  index: -1
+01_fx/light_spot
+  rotate: false
+  xy: 2, 120
+  size: 377, 353
+  orig: 377, 353
+  offset: 0, 0
+  index: -1
+02_pic/coin_16
+  rotate: false
+  xy: 904, 253
+  size: 110, 109
+  orig: 110, 109
+  offset: 0, 0
+  index: -1
+02_pic/coin_4
+  rotate: false
+  xy: 249, 9
+  size: 110, 109
+  orig: 110, 109
+  offset: 0, 0
+  index: -1
+02_pic/coin_9
+  rotate: false
+  xy: 904, 364
+  size: 110, 109
+  orig: 110, 109
+  offset: 0, 0
+  index: -1

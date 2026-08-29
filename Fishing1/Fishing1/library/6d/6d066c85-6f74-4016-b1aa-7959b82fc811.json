@@ -1,0 +1,40 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "content": {
+    "name": "fishHunterDragon",
+    "spriteFrames": [
+      "kill_dragon_brush",
+      "6d066c85-6f74-4016-b1aa-7959b82fc811@5106f",
+      "num_power_0",
+      "6d066c85-6f74-4016-b1aa-7959b82fc811@6c848",
+      "num_power_1",
+      "6d066c85-6f74-4016-b1aa-7959b82fc811@77b63",
+      "num_power_2",
+      "6d066c85-6f74-4016-b1aa-7959b82fc811@446c2",
+      "num_power_3",
+      "6d066c85-6f74-4016-b1aa-7959b82fc811@a4855",
+      "num_power_4",
+      "6d066c85-6f74-4016-b1aa-7959b82fc811@00eaa",
+      "num_power_5",
+      "6d066c85-6f74-4016-b1aa-7959b82fc811@633bb",
+      "num_power_6",
+      "6d066c85-6f74-4016-b1aa-7959b82fc811@9b7c7",
+      "num_power_7",
+      "6d066c85-6f74-4016-b1aa-7959b82fc811@99c24",
+      "num_power_8",
+      "6d066c85-6f74-4016-b1aa-7959b82fc811@c5e6b",
+      "num_power_9",
+      "6d066c85-6f74-4016-b1aa-7959b82fc811@35d21",
+      "num_power_point",
+      "6d066c85-6f74-4016-b1aa-7959b82fc811@b59ab",
+      "num_power_x",
+      "6d066c85-6f74-4016-b1aa-7959b82fc811@bfc8d",
+      "reel_mid",
+      "6d066c85-6f74-4016-b1aa-7959b82fc811@8c4b4",
+      "reel_rod",
+      "6d066c85-6f74-4016-b1aa-7959b82fc811@d3706",
+      "text_powerup",
+      "6d066c85-6f74-4016-b1aa-7959b82fc811@b2dd9"
+    ]
+  }
+}

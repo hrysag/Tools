@@ -1,0 +1,1 @@
+{"version":3,"sources":["file:///D:/wanin/%E5%AE%8C%E6%88%90/Game1016/Web_Slot/assets/Test/StateExample/Scripts/StateTestConfig.ts"],"names":["TestStateEnum"],"mappings":";;;;;;;;;;;;;;+BAAYA,a,0BAAAA,a;AAAAA,QAAAA,a;AAAAA,QAAAA,a;AAAAA,QAAAA,a;eAAAA,a","sourcesContent":["export enum TestStateEnum {\r\n    Idle = \"Idle\",\r\n    Spin = \"Spin\",\r\n    Win = \"Win\",\r\n}"]}

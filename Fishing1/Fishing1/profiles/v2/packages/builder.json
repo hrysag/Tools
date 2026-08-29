@@ -1,0 +1,75 @@
+{
+  "log": {
+    "level": 4
+  },
+  "common": {
+    "polyfills": {
+      "asyncFunctions": true,
+      "coreJs": false
+    },
+    "buildPath": "project://build",
+    "outputName": "web-mobile",
+    "mainBundleCompressionType": "merge_dep",
+    "platform": "web-mobile",
+    "startScene": "98852a8b-b7b6-477a-bbb0-91412d07ce05",
+    "debug": false,
+    "sourceMaps": true,
+    "scenes": [
+      {
+        "url": "db://assets/Scene/MainScene.scene",
+        "uuid": "98852a8b-b7b6-477a-bbb0-91412d07ce05"
+      }
+    ]
+  },
+  "BuildTaskManager": {
+    "taskMap": {
+      "1711521038237": {
+        "type": "build",
+        "id": "1711521038237",
+        "progress": 1,
+        "state": "success",
+        "stage": "build",
+        "message": "2024-4-12 17:52:58 build success in 18337 ms!",
+        "options": {
+          "name": "Fishing1",
+          "server": "",
+          "platform": "web-mobile",
+          "buildPath": "project://build",
+          "debug": false,
+          "md5Cache": false,
+          "skipCompressTexture": false,
+          "sourceMaps": true,
+          "polyfills": {
+            "asyncFunctions": true,
+            "coreJs": false
+          },
+          "experimentalEraseModules": false,
+          "startSceneAssetBundle": false,
+          "bundleConfigs": [],
+          "useBuiltinServer": false,
+          "mainBundleIsRemote": false,
+          "mainBundleCompressionType": "merge_dep",
+          "useSplashScreen": true,
+          "bundleCommonChunk": false,
+          "packAutoAtlas": true,
+          "startScene": "98852a8b-b7b6-477a-bbb0-91412d07ce05",
+          "outputName": "web-mobile",
+          "taskName": "web-mobile-001",
+          "scenes": [
+            {
+              "url": "db://assets/Scene/MainScene.scene",
+              "uuid": "98852a8b-b7b6-477a-bbb0-91412d07ce05"
+            }
+          ],
+          "__version__": "1.3.7",
+          "buildMode": "normal",
+          "logDest": "project://temp/builder/log/web-mobile2024-3-27 14-30.log",
+          "packages": {}
+        },
+        "time": "2024-4-12 17:52:40",
+        "dirty": false
+      }
+    }
+  },
+  "__version__": "1.3.7"
+}

@@ -1,0 +1,240 @@
+2026-3-17 18:27:57-log: Cannot access game frame or container.
+2026-3-17 18:27:57-debug: asset-db:require-engine-code (600ms)
+2026-3-17 18:27:57-log: meshopt wasm decoder initialized
+2026-3-17 18:27:57-log: [box2d]:box2d wasm lib loaded.
+2026-3-17 18:27:57-log: [bullet]:bullet wasm lib loaded.
+2026-3-17 18:27:57-log: Cocos Creator v3.8.3
+2026-3-17 18:27:57-debug: [Assets Memory track]: asset-db:worker-init: initEngine start:27.89MB, end 77.83MB, increase: 49.94MB
+2026-3-17 18:28:00-debug: [Assets Memory track]: asset-db-plugin-register: builder start:82.27MB, end 204.99MB, increase: 122.72MB
+2026-3-17 18:28:00-debug: [Assets Memory track]: asset-db-plugin-register: engine-extends start:205.21MB, end 208.32MB, increase: 3.11MB
+2026-3-17 18:28:00-debug: [Assets Memory track]: asset-db:worker-init: initPlugin start:77.84MB, end 208.41MB, increase: 130.58MB
+2026-3-17 18:28:00-debug: [Assets Memory track]: asset-db-plugin-register: project start:78.48MB, end 208.40MB, increase: 129.92MB
+2026-3-17 18:27:57-debug: [Assets Memory track]: asset-db-plugin-register: programming start:78.60MB, end 82.25MB, increase: 3.65MB
+2026-3-17 18:28:00-debug: run package(web-desktop) handler(enable) start
+2026-3-17 18:28:00-debug: run package(web-desktop) handler(enable) success!
+2026-3-17 18:28:00-debug: run package(web-mobile) handler(enable) start
+2026-3-17 18:28:00-debug: run package(wechatgame) handler(enable) success!
+2026-3-17 18:28:00-debug: run package(wechatprogram) handler(enable) start
+2026-3-17 18:28:00-debug: run package(wechatgame) handler(enable) start
+2026-3-17 18:28:00-debug: run package(web-mobile) handler(enable) success!
+2026-3-17 18:28:00-debug: run package(wechatprogram) handler(enable) success!
+2026-3-17 18:28:00-debug: run package(windows) handler(enable) start
+2026-3-17 18:28:00-debug: run package(windows) handler(enable) success!
+2026-3-17 18:28:00-debug: run package(xiaomi-quick-game) handler(enable) success!
+2026-3-17 18:28:00-debug: run package(xiaomi-quick-game) handler(enable) start
+2026-3-17 18:28:00-debug: run package(cocos-service) handler(enable) start
+2026-3-17 18:28:00-debug: run package(cocos-service) handler(enable) success!
+2026-3-17 18:28:00-debug: run package(im-plugin) handler(enable) start
+2026-3-17 18:28:00-debug: run package(im-plugin) handler(enable) success!
+2026-3-17 18:28:00-debug: run package(art-tool) handler(enable) success!
+2026-3-17 18:28:00-debug: run package(art-tool) handler(enable) start
+2026-3-17 18:28:00-debug: run package(build-plugin-template) handler(enable) start
+2026-3-17 18:28:00-debug: run package(build-plugin-template) handler(enable) success!
+2026-3-17 18:28:00-debug: run package(check-pos-z) handler(enable) start
+2026-3-17 18:28:00-debug: run package(check-pos-z) handler(enable) success!
+2026-3-17 18:28:00-debug: run package(component-json-tools) handler(enable) start
+2026-3-17 18:28:00-debug: run package(component-json-tools) handler(enable) success!
+2026-3-17 18:28:00-debug: run package(custom-extension-manager) handler(enable) start
+2026-3-17 18:28:00-debug: run package(custom-extension-manager) handler(enable) success!
+2026-3-17 18:28:00-debug: run package(package-analyzer) handler(enable) start
+2026-3-17 18:28:00-debug: run package(package-analyzer) handler(enable) success!
+2026-3-17 18:28:00-debug: run package(placeholder) handler(enable) start
+2026-3-17 18:28:00-debug: run package(placeholder) handler(enable) success!
+2026-3-17 18:28:00-debug: asset-db:worker-init: initPlugin (3168ms)
+2026-3-17 18:28:00-debug: Run asset db hook programming:beforePreStart ...
+2026-3-17 18:28:00-debug: Run asset db hook engine-extends:beforePreStart ...
+2026-3-17 18:28:00-debug: [Assets Memory track]: asset-db:worker-init start:27.89MB, end 209.64MB, increase: 181.75MB
+2026-3-17 18:28:00-debug: Run asset db hook programming:beforePreStart success!
+2026-3-17 18:28:00-debug: Run asset db hook engine-extends:beforePreStart success!
+2026-3-17 18:28:01-debug: asset-db:worker-init (4177ms)
+2026-3-17 18:28:01-debug: asset-db-hook-programming-beforePreStart (151ms)
+2026-3-17 18:28:01-debug: asset-db-hook-engine-extends-beforePreStart (151ms)
+2026-3-17 18:28:01-debug: Preimport db internal success
+2026-3-17 18:28:01-debug: start refresh asset from db://custom-extension-manager/custom-extension-manager/art-tool (啟用)...
+2026-3-17 18:28:01-debug: refresh asset db://custom-extension-manager/custom-extension-manager success
+2026-3-17 18:28:01-debug: refresh asset db://custom-extension-manager/custom-extension-manager success
+2026-3-17 18:28:01-debug: start refresh asset from db://custom-extension-manager/custom-extension-manager/build-plugin-template (啟用)...
+2026-3-17 18:28:01-debug: refresh asset db://custom-extension-manager/custom-extension-manager success
+2026-3-17 18:28:01-debug: start refresh asset from db://custom-extension-manager/custom-extension-manager/check-pos-z (啟用)...
+2026-3-17 18:28:01-debug: start refresh asset from db://custom-extension-manager/custom-extension-manager/component-json-tools (啟用)...
+2026-3-17 18:28:01-debug: refresh asset db://custom-extension-manager/custom-extension-manager success
+2026-3-17 18:28:01-debug: start refresh asset from db://custom-extension-manager/custom-extension-manager/package-analyzer (啟用)...
+2026-3-17 18:28:01-debug: refresh asset db://custom-extension-manager/custom-extension-manager success
+2026-3-17 18:28:01-debug: %cImport%c: D:\cocosProject\Game1016\Web_Slot\plugin\custom-extension-managerbackground: #aaff85; color: #000;color: #000;
+2026-3-17 18:28:01-debug: Preimport db assets success
+2026-3-17 18:28:01-debug: %cImport%c: D:\cocosProject\Game1016\Web_Slot\plugin\custom-extension-manager\art-tool (啟用)background: #aaff85; color: #000;color: #000;
+2026-3-17 18:28:01-debug: %cImport%c: D:\cocosProject\Game1016\Web_Slot\plugin\custom-extension-manager\build-plugin-template (啟用)background: #aaff85; color: #000;color: #000;
+2026-3-17 18:28:01-debug: %cImport%c: D:\cocosProject\Game1016\Web_Slot\plugin\custom-extension-manager\check-pos-z (啟用)background: #aaff85; color: #000;color: #000;
+2026-3-17 18:28:01-debug: %cImport%c: D:\cocosProject\Game1016\Web_Slot\plugin\custom-extension-manager\component-json-tools (啟用)background: #aaff85; color: #000;color: #000;
+2026-3-17 18:28:01-debug: asset-db:reimport-asset (47ms)
+2026-3-17 18:28:01-debug: %cImport%c: D:\cocosProject\Game1016\Web_Slot\plugin\custom-extension-manager\package-analyzer (啟用)background: #aaff85; color: #000;color: #000;
+2026-3-17 18:28:01-debug: asset-db:reimport-asset (47ms)
+2026-3-17 18:28:01-debug: asset-db:reimport-asset (47ms)
+2026-3-17 18:28:01-debug: asset-db:reimport-asset (47ms)
+2026-3-17 18:28:01-debug: asset-db:reimport-asset (47ms)
+2026-3-17 18:28:01-debug: Preimport db custom-extension-manager success
+2026-3-17 18:28:01-debug: starting packer-driver...
+2026-3-17 18:28:01-debug: Run asset db hook programming:afterPreStart ...
+2026-3-17 18:28:05-debug: initialize scripting environment...
+2026-3-17 18:28:05-debug: Set detail map pack:///resolution-detail-map.json: {}
+2026-3-17 18:28:05-debug: Run asset db hook engine-extends:afterPreStart ...
+2026-3-17 18:28:05-debug: Run asset db hook programming:afterPreStart success!
+2026-3-17 18:28:05-debug: Start up the 'internal' database...
+2026-3-17 18:28:05-debug: Run asset db hook engine-extends:afterPreStart success!
+2026-3-17 18:28:05-debug: [Assets Memory track]: asset-db:worker-init: preStart start:209.64MB, end 218.08MB, increase: 8.44MB
+2026-3-17 18:28:05-debug: asset-db-hook-programming-afterPreStart (4111ms)
+2026-3-17 18:28:05-debug: asset-db-hook-engine-extends-afterPreStart (240ms)
+2026-3-17 18:28:05-debug: asset-db:worker-effect-data-processing (240ms)
+2026-3-17 18:28:05-debug: Start up the 'assets' database...
+2026-3-17 18:28:09-debug: asset-db:worker-startup-database[internal] (8852ms)
+2026-3-17 18:28:09-debug: Start up the 'custom-extension-manager' database...
+2026-3-17 18:28:09-debug: asset-db:worker-startup-database[assets] (8797ms)
+2026-3-17 18:28:09-debug: lazy register asset handler *
+2026-3-17 18:28:09-debug: lazy register asset handler directory
+2026-3-17 18:28:09-debug: lazy register asset handler spine-data
+2026-3-17 18:28:09-debug: lazy register asset handler text
+2026-3-17 18:28:09-debug: lazy register asset handler json
+2026-3-17 18:28:09-debug: lazy register asset handler dragonbones
+2026-3-17 18:28:09-debug: lazy register asset handler dragonbones-atlas
+2026-3-17 18:28:09-debug: lazy register asset handler terrain
+2026-3-17 18:28:09-debug: lazy register asset handler typescript
+2026-3-17 18:28:09-debug: lazy register asset handler scene
+2026-3-17 18:28:09-debug: lazy register asset handler javascript
+2026-3-17 18:28:09-debug: lazy register asset handler prefab
+2026-3-17 18:28:09-debug: lazy register asset handler sprite-frame
+2026-3-17 18:28:09-debug: lazy register asset handler tiled-map
+2026-3-17 18:28:09-debug: lazy register asset handler buffer
+2026-3-17 18:28:09-debug: lazy register asset handler image
+2026-3-17 18:28:09-debug: lazy register asset handler sign-image
+2026-3-17 18:28:09-debug: lazy register asset handler alpha-image
+2026-3-17 18:28:09-debug: lazy register asset handler texture
+2026-3-17 18:28:09-debug: lazy register asset handler texture-cube
+2026-3-17 18:28:09-debug: lazy register asset handler erp-texture-cube
+2026-3-17 18:28:09-debug: lazy register asset handler render-texture
+2026-3-17 18:28:09-debug: lazy register asset handler rt-sprite-frame
+2026-3-17 18:28:09-debug: lazy register asset handler texture-cube-face
+2026-3-17 18:28:09-debug: lazy register asset handler gltf
+2026-3-17 18:28:09-debug: lazy register asset handler gltf-mesh
+2026-3-17 18:28:09-debug: lazy register asset handler gltf-animation
+2026-3-17 18:28:09-debug: lazy register asset handler gltf-skeleton
+2026-3-17 18:28:09-debug: lazy register asset handler gltf-material
+2026-3-17 18:28:09-debug: lazy register asset handler gltf-scene
+2026-3-17 18:28:09-debug: lazy register asset handler gltf-embeded-image
+2026-3-17 18:28:09-debug: lazy register asset handler fbx
+2026-3-17 18:28:09-debug: lazy register asset handler material
+2026-3-17 18:28:09-debug: lazy register asset handler physics-material
+2026-3-17 18:28:09-debug: lazy register asset handler effect
+2026-3-17 18:28:09-debug: lazy register asset handler effect-header
+2026-3-17 18:28:09-debug: lazy register asset handler audio-clip
+2026-3-17 18:28:09-debug: lazy register asset handler animation-clip
+2026-3-17 18:28:09-debug: lazy register asset handler animation-graph
+2026-3-17 18:28:09-debug: lazy register asset handler animation-graph-variant
+2026-3-17 18:28:09-debug: lazy register asset handler animation-mask
+2026-3-17 18:28:09-debug: lazy register asset handler ttf-font
+2026-3-17 18:28:09-debug: lazy register asset handler bitmap-font
+2026-3-17 18:28:09-debug: lazy register asset handler sprite-atlas
+2026-3-17 18:28:09-debug: lazy register asset handler particle
+2026-3-17 18:28:09-debug: lazy register asset handler auto-atlas
+2026-3-17 18:28:09-debug: lazy register asset handler label-atlas
+2026-3-17 18:28:09-debug: lazy register asset handler render-pipeline
+2026-3-17 18:28:09-debug: lazy register asset handler render-stage
+2026-3-17 18:28:09-debug: lazy register asset handler instantiation-material
+2026-3-17 18:28:09-debug: lazy register asset handler render-flow
+2026-3-17 18:28:09-debug: lazy register asset handler instantiation-mesh
+2026-3-17 18:28:09-debug: lazy register asset handler instantiation-skeleton
+2026-3-17 18:28:09-debug: lazy register asset handler instantiation-animation
+2026-3-17 18:28:09-debug: lazy register asset handler video-clip
+2026-3-17 18:28:09-debug: asset-db:worker-startup-database[custom-extension-manager] (8403ms)
+2026-3-17 18:28:09-debug: asset-db:start-database (9042ms)
+2026-3-17 18:28:09-debug: asset-db:ready (18229ms)
+2026-3-17 18:28:09-debug: init worker message success
+2026-3-17 18:28:10-error: Error: Cannot find module 'fs-extra'Require stack:- D:\cocosProject\Game1016\Web_Slot\extensions\build-plugin-template\dist\asset-handlers.js- C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\creator\dist\module\protected\public.ccc- C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\creator\dist\module\protected\index.ccc- C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@editor\creator\dist\module\index.ccc- C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\editor\preload.js- C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\builtin\asset-db\dist\worker\index.ccc- C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@base\electron-worker\static\script.ccc- C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\@base\electron-worker\static\worker.html    at Module._resolveFilename (internal/modules/cjs/loader.js:887:15)    at o._resolveFilename (electron/js2c/renderer_init.js:33:917)    at Function.<anonymous> (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\fix-electron-require\index.js:7:24)    at Function._resolveFilename (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\cc\preload.ts:109:46)    at Module._load (internal/modules/cjs/loader.js:732:27)    at Function.f._load (electron/js2c/asar_bundle.js:5:12913)    at Function._load (C:\ProgramData\cocos\editors\Creator\3.8.3\resources\app.asar\node_modules\cc\preload.ts:127:35)    at Module.require (internal/modules/cjs/loader.js:959:19)    at require (internal/modules/cjs/helpers.js:88:18)    at Object.<anonymous> (D:\cocosProject\Game1016\Web_Slot\extensions\build-plugin-template\dist\asset-handlers.js:13:20)
+2026-3-17 18:28:10-error: register plugin build-plugin-template in build worker failed!
+2026-3-17 18:28:10-debug: programming:execute-script (1ms)
+2026-3-17 18:28:10-debug: [Build Memory track]: builder:worker-init start:168.00MB, end 176.73MB, increase: 8.73MB
+2026-3-17 18:28:10-debug: builder:worker-init (480ms)
+2026-3-17 18:29:24-debug: refresh db internal success
+2026-3-17 18:29:24-debug: refresh db assets success
+2026-3-17 18:29:24-debug: refresh db custom-extension-manager success
+2026-3-17 18:29:24-debug: Run asset db hook engine-extends:afterRefresh success!
+2026-3-17 18:29:24-debug: Run asset db hook engine-extends:afterRefresh ...
+2026-3-17 18:29:24-debug: asset-db:refresh-all-database (305ms)
+2026-3-17 18:29:24-debug: asset-db:worker-effect-data-processing (1ms)
+2026-3-17 18:29:24-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2026-3-17 18:29:36-debug: refresh db internal success
+2026-3-17 18:29:36-debug: refresh db assets success
+2026-3-17 18:29:36-debug: refresh db custom-extension-manager success
+2026-3-17 18:29:36-debug: Run asset db hook engine-extends:afterRefresh success!
+2026-3-17 18:29:36-debug: Run asset db hook engine-extends:afterRefresh ...
+2026-3-17 18:29:36-debug: asset-db:refresh-all-database (250ms)
+2026-3-17 18:30:18-debug: refresh db internal success
+2026-3-17 18:30:18-debug: refresh db assets success
+2026-3-17 18:30:18-debug: refresh db custom-extension-manager success
+2026-3-17 18:30:18-debug: Run asset db hook engine-extends:afterRefresh success!
+2026-3-17 18:30:18-debug: Run asset db hook engine-extends:afterRefresh ...
+2026-3-17 18:30:18-debug: asset-db:refresh-all-database (276ms)
+2026-3-17 18:30:18-debug: asset-db:worker-effect-data-processing (1ms)
+2026-3-17 18:30:18-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2026-3-17 18:30:25-debug: refresh db internal success
+2026-3-17 18:30:25-debug: refresh db assets success
+2026-3-17 18:30:25-debug: refresh db custom-extension-manager success
+2026-3-17 18:30:25-debug: Run asset db hook engine-extends:afterRefresh ...
+2026-3-17 18:30:25-debug: Run asset db hook engine-extends:afterRefresh success!
+2026-3-17 18:30:25-debug: asset-db:refresh-all-database (263ms)
+2026-3-17 18:30:25-debug: asset-db:worker-effect-data-processing (1ms)
+2026-3-17 18:30:25-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2026-3-17 18:30:40-debug: refresh db internal success
+2026-3-17 18:30:40-debug: refresh db assets success
+2026-3-17 18:30:40-debug: refresh db custom-extension-manager success
+2026-3-17 18:30:40-debug: Run asset db hook engine-extends:afterRefresh success!
+2026-3-17 18:30:40-debug: Run asset db hook engine-extends:afterRefresh ...
+2026-3-17 18:30:40-debug: asset-db:refresh-all-database (288ms)
+2026-3-17 18:30:40-debug: asset-db:worker-effect-data-processing (1ms)
+2026-3-17 18:30:40-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2026-3-17 18:30:47-debug: refresh db internal success
+2026-3-17 18:30:48-debug: refresh db assets success
+2026-3-17 18:30:48-debug: refresh db custom-extension-manager success
+2026-3-17 18:30:48-debug: Run asset db hook engine-extends:afterRefresh success!
+2026-3-17 18:30:48-debug: Run asset db hook engine-extends:afterRefresh ...
+2026-3-17 18:30:48-debug: asset-db:refresh-all-database (273ms)
+2026-3-17 18:30:59-debug: refresh db internal success
+2026-3-17 18:30:59-debug: refresh db assets success
+2026-3-17 18:30:59-debug: Run asset db hook engine-extends:afterRefresh ...
+2026-3-17 18:30:59-debug: Run asset db hook engine-extends:afterRefresh success!
+2026-3-17 18:30:59-debug: refresh db custom-extension-manager success
+2026-3-17 18:30:59-debug: asset-db:refresh-all-database (261ms)
+2026-3-17 18:30:59-debug: asset-db:worker-effect-data-processing (1ms)
+2026-3-17 18:30:59-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2026-3-17 18:31:31-debug: refresh db internal success
+2026-3-17 18:31:31-debug: refresh db assets success
+2026-3-17 18:31:31-debug: refresh db custom-extension-manager success
+2026-3-17 18:31:31-debug: Run asset db hook engine-extends:afterRefresh ...
+2026-3-17 18:31:31-debug: Run asset db hook engine-extends:afterRefresh success!
+2026-3-17 18:31:31-debug: asset-db:refresh-all-database (307ms)
+2026-3-17 18:31:31-debug: asset-db:worker-effect-data-processing (1ms)
+2026-3-17 18:31:31-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2026-3-17 18:42:40-debug: refresh db internal success
+2026-3-17 18:42:40-debug: refresh db assets success
+2026-3-17 18:42:40-debug: refresh db custom-extension-manager success
+2026-3-17 18:42:40-debug: Run asset db hook engine-extends:afterRefresh success!
+2026-3-17 18:42:40-debug: Run asset db hook engine-extends:afterRefresh ...
+2026-3-17 18:42:40-debug: asset-db:refresh-all-database (271ms)
+2026-3-17 18:42:40-debug: asset-db:worker-effect-data-processing (1ms)
+2026-3-17 18:42:40-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2026-3-17 18:43:00-debug: refresh db internal success
+2026-3-17 18:43:00-debug: refresh db assets success
+2026-3-17 18:43:00-debug: refresh db custom-extension-manager success
+2026-3-17 18:43:00-debug: Run asset db hook engine-extends:afterRefresh success!
+2026-3-17 18:43:00-debug: Run asset db hook engine-extends:afterRefresh ...
+2026-3-17 18:43:00-debug: asset-db:refresh-all-database (290ms)
+2026-3-17 18:43:00-debug: asset-db:worker-effect-data-processing (1ms)
+2026-3-17 18:43:00-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2026-3-17 18:43:13-debug: refresh db internal success
+2026-3-17 18:43:13-debug: refresh db assets success
+2026-3-17 18:43:13-debug: refresh db custom-extension-manager success
+2026-3-17 18:43:13-debug: Run asset db hook engine-extends:afterRefresh ...
+2026-3-17 18:43:13-debug: Run asset db hook engine-extends:afterRefresh success!
+2026-3-17 18:43:13-debug: asset-db:refresh-all-database (284ms)
+2026-3-17 18:43:13-debug: asset-db:worker-effect-data-processing (1ms)
+2026-3-17 18:43:13-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2026-3-17 18:56:42-debug: refresh db internal success

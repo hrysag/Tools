@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "BuyFG_btn_decrease_hover",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 1,
+      "width": 63,
+      "height": 63
+    },
+    "offset": {
+      "x": -0.5,
+      "y": -0.5
+    },
+    "originalSize": {
+      "width": 64,
+      "height": 64
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -31.5,
+        -31.5,
+        0,
+        31.5,
+        -31.5,
+        0,
+        -31.5,
+        31.5,
+        0,
+        31.5,
+        31.5,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        63,
+        63,
+        63,
+        0,
+        0,
+        63,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        0.984375,
+        0,
+        0,
+        0.984375,
+        0.984375,
+        0.984375
+      ],
+      "minPos": {
+        "x": -31.5,
+        "y": -31.5,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 31.5,
+        "y": 31.5,
+        "z": 0
+      }
+    },
+    "texture": "4d7d142d-7b2a-45d4-87c0-a30269baeeb8@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

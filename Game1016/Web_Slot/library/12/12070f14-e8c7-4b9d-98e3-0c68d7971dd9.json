@@ -1,0 +1,8 @@
+{
+  "__type__": "cc.TextAsset",
+  "_name": "NG_UI.atlas",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "text": "\r\nNG_UI.webp\r\nsize: 2048,2048\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\n00_NG_reel_frame_01\r\n  rotate: false\r\n  xy: 2, 73\r\n  size: 958, 1319\r\n  orig: 958, 1319\r\n  offset: 0, 0\r\n  index: -1\r\n00_NG_reel_frame_03\r\n  rotate: false\r\n  xy: 2, 1521\r\n  size: 845, 184\r\n  orig: 845, 184\r\n  offset: 0, 0\r\n  index: -1\r\n00_NG_reel_frame_05\r\n  rotate: false\r\n  xy: 962, 2\r\n  size: 906, 1373\r\n  orig: 906, 1373\r\n  offset: 0, 0\r\n  index: -1\r\n01_NG_reel_frame_02\r\n  rotate: false\r\n  xy: 849, 1394\r\n  size: 248, 206\r\n  orig: 248, 206\r\n  offset: 0, 0\r\n  index: -1\r\n01_NG_reel_frame_04\r\n  rotate: false\r\n  xy: 1099, 1377\r\n  size: 283, 223\r\n  orig: 283, 223\r\n  offset: 0, 0\r\n  index: -1\r\n02_Respin_remaining_bot\r\n  rotate: false\r\n  xy: 1006, 1602\r\n  size: 678, 177\r\n  orig: 678, 177\r\n  offset: 0, 0\r\n  index: -1\r\nFG_FG_remaining_txt\r\n  rotate: false\r\n  xy: 2, 1707\r\n  size: 500, 72\r\n  orig: 500, 72\r\n  offset: 0, 0\r\n  index: -1\r\nRespin_remaining_txt\r\n  rotate: false\r\n  xy: 504, 1707\r\n  size: 500, 72\r\n  orig: 500, 72\r\n  offset: 0, 0\r\n  index: -1\r\nshadow_door\r\n  rotate: false\r\n  xy: 1686, 1602\r\n  size: 137, 177\r\n  orig: 137, 177\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

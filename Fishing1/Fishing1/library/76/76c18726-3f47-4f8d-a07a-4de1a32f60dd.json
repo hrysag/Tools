@@ -1,0 +1,37 @@
+{
+  "__type__": "cc.Material",
+  "_name": "wave-sprite",
+  "_objFlags": 0,
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "97cc1e8d-aa42-4949-9753-4e9a8a45bb4a",
+    "__expectedType__": "cc.EffectAsset"
+  },
+  "_techIdx": 0,
+  "_defines": [
+    {
+      "USE_TEXTURE": true
+    }
+  ],
+  "_states": [
+    {
+      "rasterizerState": {},
+      "depthStencilState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      }
+    }
+  ],
+  "_props": [
+    {
+      "_waveTexture": {
+        "__uuid__": "37eda96c-e16c-4a34-bc52-0aabe0f82d8c@6c48a",
+        "__expectedType__": "cc.Texture2D"
+      },
+      "_tilling": 1.5,
+      "_speed": 0.15
+    }
+  ]
+}

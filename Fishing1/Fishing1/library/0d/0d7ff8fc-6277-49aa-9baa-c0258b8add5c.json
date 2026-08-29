@@ -1,0 +1,52 @@
+{
+  "__type__": "cc.Material",
+  "_name": "coin_gpu",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "_effectAsset": {
+    "__uuid__": "971bdb23-3ff6-43eb-b422-1c30165a3663",
+    "__expectedType__": "cc.EffectAsset"
+  },
+  "_techIdx": 1,
+  "_defines": [
+    {},
+    {}
+  ],
+  "_states": [
+    {
+      "rasterizerState": {},
+      "depthStencilState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      }
+    },
+    {
+      "rasterizerState": {},
+      "depthStencilState": {},
+      "blendState": {
+        "targets": [
+          {}
+        ]
+      }
+    }
+  ],
+  "_props": [
+    {
+      "mainTexture": {
+        "__uuid__": "21477031-a417-4ff6-8b5a-adf9b22e9316@6c48a",
+        "__expectedType__": "cc.Texture2D"
+      },
+      "tintColor": {
+        "__type__": "cc.Color",
+        "r": 127,
+        "g": 127,
+        "b": 127,
+        "a": 97
+      }
+    },
+    {}
+  ]
+}

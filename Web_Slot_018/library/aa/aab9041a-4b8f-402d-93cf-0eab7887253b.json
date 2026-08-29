@@ -1,0 +1,19 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "FG_Bkg_front",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": ".bin",
+  "_skeletonJson": null,
+  "textures": [
+    {
+      "__uuid__": "cc5ea48b-7d8c-464e-becf-69f8e91eb49d@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "FG_Bkg_front.webp"
+  ],
+  "scale": 1,
+  "_atlasText": "\r\nFG_Bkg_front.webp\r\nsize: 1024,1024\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\n01_pic/butterfly\r\n  rotate: false\r\n  xy: 856, 856\r\n  size: 128, 128\r\n  orig: 128, 128\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/fg2_v_bgbottom2\r\n  rotate: false\r\n  xy: 2, 374\r\n  size: 740, 303\r\n  orig: 740, 303\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/fg2_vh_plant1\r\n  rotate: true\r\n  xy: 256, 886\r\n  size: 98, 283\r\n  orig: 98, 283\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/fg2_vh_plant2\r\n  rotate: true\r\n  xy: 634, 679\r\n  size: 175, 259\r\n  orig: 175, 259\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/fg2_vh_plant3\r\n  rotate: true\r\n  xy: 154, 723\r\n  size: 161, 204\r\n  orig: 161, 204\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/fg2_vh_plant4\r\n  rotate: true\r\n  xy: 360, 714\r\n  size: 163, 272\r\n  orig: 163, 272\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/fg2_vh_plant5\r\n  rotate: false\r\n  xy: 724, 871\r\n  size: 130, 113\r\n  orig: 130, 113\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/fg2_vh_plantback\r\n  rotate: false\r\n  xy: 53, 926\r\n  size: 105, 58\r\n  orig: 105, 58\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/fg2_vh_plantfront\r\n  rotate: true\r\n  xy: 541, 879\r\n  size: 105, 181\r\n  orig: 105, 181\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/pp\r\n  rotate: true\r\n  xy: 2, 949\r\n  size: 35, 49\r\n  orig: 35, 49\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/shine_\r\n  rotate: false\r\n  xy: 2, 774\r\n  size: 150, 150\r\n  orig: 150, 150\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/spark\r\n  rotate: false\r\n  xy: 160, 891\r\n  size: 94, 93\r\n  orig: 94, 93\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

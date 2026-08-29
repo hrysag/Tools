@@ -1,0 +1,222 @@
+
+Btn_BuyFG.webp
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01_pic/down_2
+  rotate: false
+  xy: 2, 57
+  size: 173, 63
+  orig: 173, 63
+  offset: 0, 0
+  index: -1
+01_pic/down_shadow
+  rotate: false
+  xy: 177, 2
+  size: 76, 118
+  orig: 76, 118
+  offset: 0, 0
+  index: -1
+01_pic/supersed
+  rotate: false
+  xy: 2, 45
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+01_pic/up
+  rotate: false
+  xy: 337, 12
+  size: 138, 221
+  orig: 138, 221
+  offset: 0, 0
+  index: -1
+01_pic/up_2
+  rotate: false
+  xy: 2, 122
+  size: 333, 111
+  orig: 333, 111
+  offset: 0, 0
+  index: -1
+
+Btn_BuyFG_fx.jpg
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+02_fx/Sboard_light_10
+  rotate: false
+  xy: 2, 236
+  size: 148, 232
+  orig: 148, 232
+  offset: 0, 0
+  index: -1
+02_fx/Sboard_light_11
+  rotate: false
+  xy: 152, 236
+  size: 148, 232
+  orig: 148, 232
+  offset: 0, 0
+  index: -1
+02_fx/Sboard_light_13
+  rotate: false
+  xy: 302, 236
+  size: 148, 232
+  orig: 148, 232
+  offset: 0, 0
+  index: -1
+02_fx/Sboard_light_15
+  rotate: false
+  xy: 452, 236
+  size: 148, 232
+  orig: 148, 232
+  offset: 0, 0
+  index: -1
+02_fx/Sboard_light_17
+  rotate: false
+  xy: 602, 236
+  size: 148, 232
+  orig: 148, 232
+  offset: 0, 0
+  index: -1
+02_fx/Sboard_light_19
+  rotate: false
+  xy: 752, 236
+  size: 148, 232
+  orig: 148, 232
+  offset: 0, 0
+  index: -1
+02_fx/Sboard_light_21
+  rotate: false
+  xy: 902, 236
+  size: 148, 232
+  orig: 148, 232
+  offset: 0, 0
+  index: -1
+02_fx/Sboard_light_23
+  rotate: false
+  xy: 1052, 236
+  size: 148, 232
+  orig: 148, 232
+  offset: 0, 0
+  index: -1
+02_fx/Sboard_light_25
+  rotate: false
+  xy: 1202, 236
+  size: 148, 232
+  orig: 148, 232
+  offset: 0, 0
+  index: -1
+02_fx/Sboard_light_27
+  rotate: false
+  xy: 1352, 236
+  size: 148, 232
+  orig: 148, 232
+  offset: 0, 0
+  index: -1
+02_fx/Sboard_light_29
+  rotate: false
+  xy: 1502, 236
+  size: 148, 232
+  orig: 148, 232
+  offset: 0, 0
+  index: -1
+02_fx/Sboard_light_31
+  rotate: false
+  xy: 1652, 236
+  size: 148, 232
+  orig: 148, 232
+  offset: 0, 0
+  index: -1
+02_fx/Sboard_light_33
+  rotate: false
+  xy: 1802, 236
+  size: 148, 232
+  orig: 148, 232
+  offset: 0, 0
+  index: -1
+02_fx/Sboard_light_35
+  rotate: false
+  xy: 2, 2
+  size: 148, 232
+  orig: 148, 232
+  offset: 0, 0
+  index: -1
+02_fx/Sboard_light_37
+  rotate: false
+  xy: 152, 2
+  size: 148, 232
+  orig: 148, 232
+  offset: 0, 0
+  index: -1
+02_fx/Sboard_light_39
+  rotate: false
+  xy: 302, 2
+  size: 148, 232
+  orig: 148, 232
+  offset: 0, 0
+  index: -1
+02_fx/Sboard_light_41
+  rotate: false
+  xy: 452, 2
+  size: 148, 232
+  orig: 148, 232
+  offset: 0, 0
+  index: -1
+02_fx/Sboard_light_43
+  rotate: false
+  xy: 602, 2
+  size: 148, 232
+  orig: 148, 232
+  offset: 0, 0
+  index: -1
+02_fx/Sboard_light_44
+  rotate: false
+  xy: 752, 2
+  size: 148, 232
+  orig: 148, 232
+  offset: 0, 0
+  index: -1
+02_fx/Sboard_light_45
+  rotate: false
+  xy: 902, 2
+  size: 148, 232
+  orig: 148, 232
+  offset: 0, 0
+  index: -1
+02_fx/Sboard_light_46
+  rotate: false
+  xy: 1052, 2
+  size: 148, 232
+  orig: 148, 232
+  offset: 0, 0
+  index: -1
+02_fx/Sboard_light_47
+  rotate: false
+  xy: 1202, 2
+  size: 148, 232
+  orig: 148, 232
+  offset: 0, 0
+  index: -1
+02_fx/Sboard_light_49
+  rotate: false
+  xy: 1352, 2
+  size: 148, 232
+  orig: 148, 232
+  offset: 0, 0
+  index: -1
+02_fx/Sboard_light_50
+  rotate: false
+  xy: 1502, 2
+  size: 148, 232
+  orig: 148, 232
+  offset: 0, 0
+  index: -1
+02_fx/Sboard_light_51
+  rotate: false
+  xy: 1652, 2
+  size: 148, 232
+  orig: 148, 232
+  offset: 0, 0
+  index: -1

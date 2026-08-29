@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "num_line_14.png",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 7,
+      "width": 26,
+      "height": 25
+    },
+    "offset": {
+      "x": 0,
+      "y": 0.5
+    },
+    "originalSize": {
+      "width": 26,
+      "height": 40
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -13,
+        -12.5,
+        0,
+        13,
+        -12.5,
+        0,
+        -13,
+        12.5,
+        0,
+        13,
+        12.5,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        33,
+        26,
+        33,
+        0,
+        8,
+        26,
+        8
+      ],
+      "nuv": [
+        0,
+        0.2,
+        1,
+        0.2,
+        0,
+        0.825,
+        1,
+        0.825
+      ],
+      "minPos": {
+        "x": -13,
+        "y": -12.5,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 13,
+        "y": 12.5,
+        "z": 0
+      }
+    },
+    "texture": "2a6e0669-f7cf-4236-a1e1-2181c39c37df@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

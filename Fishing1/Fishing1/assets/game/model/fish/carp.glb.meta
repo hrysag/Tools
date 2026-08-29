@@ -1,0 +1,243 @@
+{
+  "ver": "2.3.12",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "7d0cb2cc-3211-4fa5-860e-624afb805dbc",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "1ab42": {
+      "importer": "gltf-mesh",
+      "uuid": "7d0cb2cc-3211-4fa5-860e-624afb805dbc@1ab42",
+      "displayName": "",
+      "id": "1ab42",
+      "name": "Carp_LP.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 1178
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ed08d": {
+      "importer": "gltf-animation",
+      "uuid": "7d0cb2cc-3211-4fa5-860e-624afb805dbc@ed08d",
+      "displayName": "",
+      "id": "ed08d",
+      "name": "swim.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0.6666666666666666,
+          "to": 2
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "a80c5": {
+      "importer": "gltf-animation",
+      "uuid": "7d0cb2cc-3211-4fa5-860e-624afb805dbc@a80c5",
+      "displayName": "",
+      "id": "a80c5",
+      "name": "hurt.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "speed": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.26666666666666666
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "13eba": {
+      "importer": "gltf-skeleton",
+      "uuid": "7d0cb2cc-3211-4fa5-860e-624afb805dbc@13eba",
+      "displayName": "",
+      "id": "13eba",
+      "name": "skeleton #0.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 22
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1673d": {
+      "importer": "gltf-material",
+      "uuid": "7d0cb2cc-3211-4fa5-860e-624afb805dbc@1673d",
+      "displayName": "",
+      "id": "1673d",
+      "name": "Carp_LP_SD.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e8343": {
+      "importer": "gltf-scene",
+      "uuid": "7d0cb2cc-3211-4fa5-860e-624afb805dbc@e8343",
+      "displayName": "",
+      "id": "e8343",
+      "name": "carp.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "animationImportSettings": [
+      {
+        "name": "All Animations",
+        "duration": 2,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "swim",
+            "from": 0.6666666666666666,
+            "to": 2,
+            "wrapMode": 2,
+            "previousId": "ed08d"
+          },
+          {
+            "name": "hurt",
+            "from": 0,
+            "to": 0.26666666666666666,
+            "wrapMode": 1,
+            "speed": 1,
+            "previousId": "a80c5"
+          }
+        ]
+      }
+    ],
+    "redirect": "7d0cb2cc-3211-4fa5-860e-624afb805dbc@e8343",
+    "assetFinder": {
+      "meshes": [
+        "7d0cb2cc-3211-4fa5-860e-624afb805dbc@1ab42"
+      ],
+      "skeletons": [
+        "7d0cb2cc-3211-4fa5-860e-624afb805dbc@13eba"
+      ],
+      "textures": [],
+      "materials": [
+        "7d0cb2cc-3211-4fa5-860e-624afb805dbc@1673d"
+      ],
+      "scenes": [
+        "7d0cb2cc-3211-4fa5-860e-624afb805dbc@e8343"
+      ]
+    },
+    "materials": {
+      "7d0cb2cc-3211-4fa5-860e-624afb805dbc@1673d": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "ed39a98a-aa9c-41c8-ac0e-b9de983e0e72",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_INSTANCING": true,
+            "HAS_SECOND_UV": true,
+            "USE_TILLING_OFFSET": true
+          }
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainTexture": {
+              "__uuid__": "32b35649-f5c2-4d21-aa46-6084202441eb@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "_waveTexture": {
+              "__uuid__": "37eda96c-e16c-4a34-bc52-0aabe0f82d8c@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "_waveBaseColor": {
+              "__type__": "cc.Color",
+              "r": 80,
+              "g": 80,
+              "b": 80,
+              "a": 255
+            },
+            "_speed": 0.08,
+            "_offset": {
+              "__type__": "cc.Vec2",
+              "x": 0,
+              "y": 1
+            }
+          }
+        ]
+      }
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    }
+  }
+}

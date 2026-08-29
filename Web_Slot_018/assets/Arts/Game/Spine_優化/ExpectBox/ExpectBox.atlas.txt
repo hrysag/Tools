@@ -1,0 +1,216 @@
+
+ExpectBox.webp
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+02_fx_expectbox/ExpectBox_00000
+  rotate: false
+  xy: 2, 1548
+  size: 225, 495
+  orig: 225, 495
+  offset: 0, 0
+  index: -1
+02_fx_expectbox/ExpectBox_00001
+  rotate: false
+  xy: 2, 1051
+  size: 225, 495
+  orig: 225, 495
+  offset: 0, 0
+  index: -1
+02_fx_expectbox/ExpectBox_00002
+  rotate: false
+  xy: 229, 1548
+  size: 225, 495
+  orig: 225, 495
+  offset: 0, 0
+  index: -1
+02_fx_expectbox/ExpectBox_00003
+  rotate: false
+  xy: 2, 554
+  size: 225, 495
+  orig: 225, 495
+  offset: 0, 0
+  index: -1
+02_fx_expectbox/ExpectBox_00004
+  rotate: false
+  xy: 229, 1051
+  size: 225, 495
+  orig: 225, 495
+  offset: 0, 0
+  index: -1
+02_fx_expectbox/ExpectBox_00005
+  rotate: false
+  xy: 456, 1548
+  size: 225, 495
+  orig: 225, 495
+  offset: 0, 0
+  index: -1
+02_fx_expectbox/ExpectBox_00006
+  rotate: false
+  xy: 2, 57
+  size: 225, 495
+  orig: 225, 495
+  offset: 0, 0
+  index: -1
+02_fx_expectbox/ExpectBox_00007
+  rotate: false
+  xy: 229, 554
+  size: 225, 495
+  orig: 225, 495
+  offset: 0, 0
+  index: -1
+02_fx_expectbox/ExpectBox_00008
+  rotate: false
+  xy: 456, 1051
+  size: 225, 495
+  orig: 225, 495
+  offset: 0, 0
+  index: -1
+02_fx_expectbox/ExpectBox_00009
+  rotate: false
+  xy: 683, 1548
+  size: 225, 495
+  orig: 225, 495
+  offset: 0, 0
+  index: -1
+02_fx_expectbox/ExpectBox_00010
+  rotate: false
+  xy: 229, 57
+  size: 225, 495
+  orig: 225, 495
+  offset: 0, 0
+  index: -1
+02_fx_expectbox/ExpectBox_00011
+  rotate: false
+  xy: 456, 554
+  size: 225, 495
+  orig: 225, 495
+  offset: 0, 0
+  index: -1
+02_fx_expectbox/ExpectBox_00012
+  rotate: false
+  xy: 683, 1051
+  size: 225, 495
+  orig: 225, 495
+  offset: 0, 0
+  index: -1
+02_fx_expectbox/ExpectBox_00013
+  rotate: false
+  xy: 910, 1548
+  size: 225, 495
+  orig: 225, 495
+  offset: 0, 0
+  index: -1
+02_fx_expectbox/ExpectBox_00014
+  rotate: false
+  xy: 456, 57
+  size: 225, 495
+  orig: 225, 495
+  offset: 0, 0
+  index: -1
+02_fx_expectbox/ExpectBox_00015
+  rotate: false
+  xy: 683, 554
+  size: 225, 495
+  orig: 225, 495
+  offset: 0, 0
+  index: -1
+02_fx_expectbox/ExpectBox_00016
+  rotate: false
+  xy: 910, 1051
+  size: 225, 495
+  orig: 225, 495
+  offset: 0, 0
+  index: -1
+02_fx_expectbox/ExpectBox_00017
+  rotate: false
+  xy: 1137, 1548
+  size: 225, 495
+  orig: 225, 495
+  offset: 0, 0
+  index: -1
+02_fx_expectbox/ExpectBox_00018
+  rotate: false
+  xy: 683, 57
+  size: 225, 495
+  orig: 225, 495
+  offset: 0, 0
+  index: -1
+02_fx_expectbox/ExpectBox_00019
+  rotate: false
+  xy: 910, 554
+  size: 225, 495
+  orig: 225, 495
+  offset: 0, 0
+  index: -1
+02_fx_expectbox/ExpectBox_00020
+  rotate: false
+  xy: 1137, 1051
+  size: 225, 495
+  orig: 225, 495
+  offset: 0, 0
+  index: -1
+02_fx_expectbox/ExpectBox_00021
+  rotate: false
+  xy: 1364, 1548
+  size: 225, 495
+  orig: 225, 495
+  offset: 0, 0
+  index: -1
+02_fx_expectbox/ExpectBox_00022
+  rotate: false
+  xy: 910, 57
+  size: 225, 495
+  orig: 225, 495
+  offset: 0, 0
+  index: -1
+02_fx_expectbox/ExpectBox_00023
+  rotate: false
+  xy: 1137, 554
+  size: 225, 495
+  orig: 225, 495
+  offset: 0, 0
+  index: -1
+02_fx_expectbox/ExpectBox_00024
+  rotate: false
+  xy: 1364, 1051
+  size: 225, 495
+  orig: 225, 495
+  offset: 0, 0
+  index: -1
+02_fx_expectbox/ExpectBox_00025
+  rotate: false
+  xy: 1591, 1548
+  size: 225, 495
+  orig: 225, 495
+  offset: 0, 0
+  index: -1
+02_fx_expectbox/ExpectBox_00026
+  rotate: false
+  xy: 1137, 57
+  size: 225, 495
+  orig: 225, 495
+  offset: 0, 0
+  index: -1
+02_fx_expectbox/ExpectBox_00027
+  rotate: false
+  xy: 1364, 554
+  size: 225, 495
+  orig: 225, 495
+  offset: 0, 0
+  index: -1
+02_fx_expectbox/ExpectBox_00028
+  rotate: false
+  xy: 1591, 1051
+  size: 225, 495
+  orig: 225, 495
+  offset: 0, 0
+  index: -1
+02_fx_expectbox/ExpectBox_00029
+  rotate: false
+  xy: 1818, 1548
+  size: 225, 495
+  orig: 225, 495
+  offset: 0, 0
+  index: -1

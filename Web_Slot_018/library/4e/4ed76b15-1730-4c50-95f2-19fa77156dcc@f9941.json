@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "FG_remaining_txt",
+    "atlas": "",
+    "rect": {
+      "x": 115,
+      "y": 9,
+      "width": 138,
+      "height": 33
+    },
+    "offset": {
+      "x": 0,
+      "y": -1.5
+    },
+    "originalSize": {
+      "width": 368,
+      "height": 48
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -69,
+        -16.5,
+        0,
+        69,
+        -16.5,
+        0,
+        -69,
+        16.5,
+        0,
+        69,
+        16.5,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        115,
+        39,
+        253,
+        39,
+        115,
+        6,
+        253,
+        6
+      ],
+      "nuv": [
+        0.3125,
+        0.125,
+        0.6875,
+        0.125,
+        0.3125,
+        0.8125,
+        0.6875,
+        0.8125
+      ],
+      "minPos": {
+        "x": -69,
+        "y": -16.5,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 69,
+        "y": 16.5,
+        "z": 0
+      }
+    },
+    "texture": "4ed76b15-1730-4c50-95f2-19fa77156dcc@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

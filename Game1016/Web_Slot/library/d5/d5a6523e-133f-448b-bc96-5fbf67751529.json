@@ -1,0 +1,8 @@
+{
+  "__type__": "cc.TextAsset",
+  "_name": "loading_page1_bot.atlas",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "text": "\r\nloading_page1_bot.webp\r\nsize: 740,588\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nLoading_info_title_01\r\n  rotate: false\r\n  xy: 731, 578\r\n  size: 6, 6\r\n  orig: 6, 6\r\n  offset: 0, 0\r\n  index: -1\r\nLoading_info_txt_01\r\n  rotate: false\r\n  xy: 731, 578\r\n  size: 6, 6\r\n  orig: 6, 6\r\n  offset: 0, 0\r\n  index: -1\r\nframe\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 727, 582\r\n  orig: 727, 582\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

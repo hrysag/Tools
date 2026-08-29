@@ -1,0 +1,1314 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "icon_04_07",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "exPheqG2f4FqeqUB73v3Z1zdL6g",
+      "spine": "3.8.99",
+      "x": -97.75,
+      "y": -96.9,
+      "width": 196.35,
+      "height": 194.65
+    },
+    "bones": [
+      {
+        "name": "root",
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "sym_low",
+        "parent": "root"
+      },
+      {
+        "name": "sym_bot",
+        "parent": "sym_low"
+      },
+      {
+        "name": "sym_low_frame2_add",
+        "parent": "sym_low"
+      },
+      {
+        "name": "sym_low4",
+        "parent": "sym_low"
+      },
+      {
+        "name": "sym_low5",
+        "parent": "sym_low"
+      },
+      {
+        "name": "sym_low6",
+        "parent": "sym_low"
+      },
+      {
+        "name": "sym_low7",
+        "parent": "sym_low"
+      },
+      {
+        "name": "sym_low_golw",
+        "parent": "sym_low",
+        "scaleX": 1.7,
+        "scaleY": 1.7
+      },
+      {
+        "name": "sym_low_light",
+        "parent": "sym_low",
+        "scaleX": 3,
+        "scaleY": 3
+      }
+    ],
+    "slots": [
+      {
+        "name": "sym_to_bot",
+        "bone": "sym_bot",
+        "color": "ffffff00",
+        "attachment": "sym_to_bot"
+      },
+      {
+        "name": "sym_low_04_shadow",
+        "bone": "sym_low4",
+        "color": "ffffff00",
+        "attachment": "01_pic/sym_low_04_shadow"
+      },
+      {
+        "name": "sym_low_04_gem",
+        "bone": "sym_low4",
+        "color": "ffffff00",
+        "attachment": "01_pic/sym_low_04_gem"
+      },
+      {
+        "name": "sym_low_04_frame",
+        "bone": "sym_low4",
+        "color": "ffffff00",
+        "attachment": "01_pic/sym_low_04_frame"
+      },
+      {
+        "name": "sym_low_05_shadow",
+        "bone": "sym_low5",
+        "color": "ffffff00",
+        "attachment": "01_pic/sym_low_05_shadow"
+      },
+      {
+        "name": "sym_low_05_gem",
+        "bone": "sym_low5",
+        "color": "ffffff00",
+        "attachment": "01_pic/sym_low_05_gem"
+      },
+      {
+        "name": "sym_low_05_frame",
+        "bone": "sym_low5",
+        "color": "ffffff00",
+        "attachment": "01_pic/sym_low_05_frame"
+      },
+      {
+        "name": "sym_low_06_shadow",
+        "bone": "sym_low6",
+        "color": "ffffff00",
+        "attachment": "01_pic/sym_low_06_shadow"
+      },
+      {
+        "name": "sym_low_06_gem",
+        "bone": "sym_low6",
+        "color": "ffffff00",
+        "attachment": "01_pic/sym_low_06_gem"
+      },
+      {
+        "name": "sym_low_06_frame",
+        "bone": "sym_low6",
+        "color": "ffffff00",
+        "attachment": "01_pic/sym_low_06_frame"
+      },
+      {
+        "name": "sym_low_07_shadow",
+        "bone": "sym_low7",
+        "color": "ffffff00",
+        "attachment": "01_pic/sym_low_07_shadow"
+      },
+      {
+        "name": "sym_low_07_gem",
+        "bone": "sym_low7",
+        "color": "ffffff00",
+        "attachment": "01_pic/sym_low_07_gem"
+      },
+      {
+        "name": "sym_low_07_frame",
+        "bone": "sym_low7",
+        "color": "ffffff00",
+        "attachment": "01_pic/sym_low_07_frame"
+      },
+      {
+        "name": "sym_low_04_frame2_add",
+        "bone": "sym_low_frame2_add",
+        "color": "ffffff00",
+        "attachment": "01_pic/sym_low_04_frame",
+        "blend": "additive"
+      },
+      {
+        "name": "sym_low_05_frame2_add",
+        "bone": "sym_low_frame2_add",
+        "color": "ffffff00",
+        "attachment": "01_pic/sym_low_05_frame",
+        "blend": "additive"
+      },
+      {
+        "name": "sym_low_06_frame2_add",
+        "bone": "sym_low_frame2_add",
+        "color": "ffffff00",
+        "attachment": "01_pic/sym_low_06_frame",
+        "blend": "additive"
+      },
+      {
+        "name": "sym_low_07_frame2_add",
+        "bone": "sym_low_frame2_add",
+        "color": "ffffff00",
+        "attachment": "01_pic/sym_low_07_frame",
+        "blend": "additive"
+      },
+      {
+        "name": "sym_low_04_gem_glow_add",
+        "bone": "sym_low_golw",
+        "color": "ffffff00",
+        "attachment": "02_fx/sym_low_04_gem_glow",
+        "blend": "additive"
+      },
+      {
+        "name": "sym_low_05_gem_glow_add2",
+        "bone": "sym_low_golw",
+        "color": "ffffff00",
+        "attachment": "02_fx/sym_low_05_gem_glow",
+        "blend": "additive"
+      },
+      {
+        "name": "sym_low_06_gem_glow_add3",
+        "bone": "sym_low_golw",
+        "color": "ffffff00",
+        "attachment": "02_fx/sym_low_06_gem_glow",
+        "blend": "additive"
+      },
+      {
+        "name": "sym_low_07_gem_glow_add4",
+        "bone": "sym_low_golw",
+        "color": "ffffff00",
+        "attachment": "02_fx/sym_low_07_gem_glow",
+        "blend": "additive"
+      },
+      {
+        "name": "sym_low_exp_light_add",
+        "bone": "sym_low_light",
+        "color": "ffffff00",
+        "attachment": "02_fx/exp_white_light_add",
+        "blend": "additive"
+      }
+    ],
+    "skins": [
+      {
+        "name": "default",
+        "attachments": {
+          "sym_low_04_frame": {
+            "01_pic/sym_low_04_frame": {
+              "y": 5,
+              "width": 242,
+              "height": 246
+            }
+          },
+          "sym_low_04_frame2_add": {
+            "01_pic/sym_low_04_frame": {
+              "y": 5,
+              "width": 242,
+              "height": 246
+            }
+          },
+          "sym_low_04_gem": {
+            "01_pic/sym_low_04_gem": {
+              "y": -4,
+              "width": 210,
+              "height": 208
+            }
+          },
+          "sym_low_04_gem_glow_add": {
+            "02_fx/sym_low_04_gem_glow": {
+              "x": 0.5,
+              "y": 0.5,
+              "width": 231,
+              "height": 229
+            }
+          },
+          "sym_low_04_shadow": {
+            "01_pic/sym_low_04_shadow": {
+              "y": 2,
+              "scaleX": 4,
+              "scaleY": 4,
+              "width": 64,
+              "height": 65
+            }
+          },
+          "sym_low_05_frame": {
+            "01_pic/sym_low_05_frame": {
+              "x": 0.5,
+              "y": -8.5,
+              "width": 253,
+              "height": 225
+            }
+          },
+          "sym_low_05_frame2_add": {
+            "01_pic/sym_low_05_frame": {
+              "x": 0.5,
+              "y": -8.5,
+              "width": 253,
+              "height": 225
+            }
+          },
+          "sym_low_05_gem": {
+            "01_pic/sym_low_05_gem": {
+              "y": -1.5,
+              "width": 216,
+              "height": 177
+            }
+          },
+          "sym_low_05_gem_glow_add2": {
+            "02_fx/sym_low_05_gem_glow": {
+              "x": 0.5,
+              "y": 0.5,
+              "width": 231,
+              "height": 229
+            }
+          },
+          "sym_low_05_shadow": {
+            "01_pic/sym_low_05_shadow": {
+              "x": 0.5,
+              "y": -11.5,
+              "scaleX": 4,
+              "scaleY": 4,
+              "width": 66,
+              "height": 59
+            }
+          },
+          "sym_low_06_frame": {
+            "01_pic/sym_low_06_frame": {
+              "x": -0.5,
+              "y": 1,
+              "width": 261,
+              "height": 270
+            }
+          },
+          "sym_low_06_frame2_add": {
+            "01_pic/sym_low_06_frame": {
+              "x": -0.5,
+              "y": 1,
+              "width": 261,
+              "height": 270
+            }
+          },
+          "sym_low_06_gem": {
+            "01_pic/sym_low_06_gem": {
+              "x": -0.5,
+              "y": 1,
+              "width": 201,
+              "height": 206
+            }
+          },
+          "sym_low_06_gem_glow_add3": {
+            "02_fx/sym_low_06_gem_glow": {
+              "x": 0.5,
+              "y": 0.5,
+              "width": 231,
+              "height": 229
+            }
+          },
+          "sym_low_06_shadow": {
+            "01_pic/sym_low_06_shadow": {
+              "x": -0.5,
+              "y": -2,
+              "scaleX": 4,
+              "scaleY": 4,
+              "width": 68,
+              "height": 70
+            }
+          },
+          "sym_low_07_frame": {
+            "01_pic/sym_low_07_frame": {
+              "x": -0.5,
+              "y": 1.5,
+              "width": 245,
+              "height": 233
+            }
+          },
+          "sym_low_07_frame2_add": {
+            "01_pic/sym_low_07_frame": {
+              "x": -0.5,
+              "y": 1.5,
+              "width": 245,
+              "height": 233
+            }
+          },
+          "sym_low_07_gem": {
+            "01_pic/sym_low_07_gem": {
+              "width": 218,
+              "height": 212
+            }
+          },
+          "sym_low_07_gem_glow_add4": {
+            "02_fx/sym_low_07_gem_glow": {
+              "x": 0.5,
+              "y": 0.5,
+              "width": 231,
+              "height": 229
+            }
+          },
+          "sym_low_07_shadow": {
+            "01_pic/sym_low_07_shadow": {
+              "y": -2,
+              "scaleX": 4,
+              "scaleY": 4,
+              "width": 64,
+              "height": 61
+            }
+          },
+          "sym_low_exp_light_add": {
+            "02_fx/exp_white_light_add": {
+              "width": 80,
+              "height": 80
+            }
+          }
+        }
+      },
+      {
+        "name": "FG_01",
+        "attachments": {
+          "sym_to_bot": {
+            "sym_to_bot": {
+              "name": "01_pic/sym_low_bot_rad",
+              "y": 2,
+              "width": 322,
+              "height": 326
+            }
+          }
+        }
+      },
+      {
+        "name": "FG_02",
+        "attachments": {
+          "sym_to_bot": {
+            "sym_to_bot": {
+              "name": "01_pic/sym_low_bot_blue",
+              "y": 2,
+              "width": 322,
+              "height": 326
+            }
+          }
+        }
+      }
+    ],
+    "animations": {
+      "icon_04_connect": {
+        "slots": {
+          "sym_low_04_frame": {
+            "color": [
+              {
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "sym_low_04_frame2_add": {
+            "color": [
+              {
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffff95"
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "sym_low_04_gem": {
+            "color": [
+              {
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "sym_low_04_gem_glow_add": {
+            "color": [
+              {
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.4,
+                "color": "7c00ff73"
+              },
+              {
+                "time": 0.9667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "sym_low_04_shadow": {
+            "color": [
+              {
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "sym_low_exp_light_add": {
+            "color": [
+              {
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.4,
+                "color": "ff00bf59",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667,
+                "color": "ff00bf59"
+              },
+              {
+                "time": 0.9667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "sym_to_bot": {
+            "color": [
+              {
+                "color": "ffffffff"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "sym_low_frame2_add": {
+            "scale": [
+              {
+                "x": 1.06,
+                "y": 1.06,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "x": 0.93,
+                "y": 0.93
+              },
+              {
+                "time": 0.5,
+                "x": 0.95,
+                "y": 0.95
+              },
+              {
+                "time": 1,
+                "x": 1.06,
+                "y": 1.06
+              }
+            ]
+          },
+          "sym_low_golw": {
+            "scale": [
+              {
+                "x": 0.882,
+                "y": 0.882
+              },
+              {
+                "time": 0.9667,
+                "x": 1.176,
+                "y": 1.176,
+                "curve": "stepped"
+              },
+              {
+                "time": 1,
+                "x": 0.882,
+                "y": 0.882
+              }
+            ]
+          },
+          "sym_low_light": {
+            "scale": [
+              {
+                "x": 0.882,
+                "y": 0.882
+              },
+              {
+                "time": 0.9667,
+                "x": 1.333,
+                "y": 1.333,
+                "curve": "stepped"
+              },
+              {
+                "time": 1,
+                "x": 0.882,
+                "y": 0.882
+              }
+            ]
+          }
+        }
+      },
+      "icon_04_idle": {
+        "slots": {
+          "sym_low_04_frame": {
+            "color": [
+              {
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "sym_low_04_frame2_add": {
+            "color": [
+              {
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "sym_low_04_gem": {
+            "color": [
+              {
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "sym_low_04_shadow": {
+            "color": [
+              {
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "sym_low_exp_light_add": {
+            "color": [
+              {
+                "time": 0.0333,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "sym_to_bot": {
+            "color": [
+              {
+                "color": "ffffffff"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "sym_low_frame2_add": {
+            "scale": [
+              {
+                "x": 1.06,
+                "y": 1.06
+              }
+            ]
+          },
+          "sym_low_golw": {
+            "scale": [
+              {
+                "x": 0.882,
+                "y": 0.882
+              }
+            ]
+          },
+          "sym_low_light": {
+            "scale": [
+              {
+                "x": 0.882,
+                "y": 0.882
+              }
+            ]
+          }
+        }
+      },
+      "icon_05_connect": {
+        "slots": {
+          "sym_low_05_frame": {
+            "color": [
+              {
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "sym_low_05_frame2_add": {
+            "color": [
+              {
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffff95"
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "sym_low_05_gem": {
+            "color": [
+              {
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "sym_low_05_gem_glow_add2": {
+            "color": [
+              {
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.4,
+                "color": "ffffff32"
+              },
+              {
+                "time": 0.9667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "sym_low_05_shadow": {
+            "color": [
+              {
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "sym_low_exp_light_add": {
+            "color": [
+              {
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.4,
+                "color": "ff340059"
+              },
+              {
+                "time": 0.6667,
+                "color": "ff330059"
+              },
+              {
+                "time": 0.9667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "sym_to_bot": {
+            "color": [
+              {
+                "color": "ffffffff"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "sym_low_frame2_add": {
+            "scale": [
+              {
+                "x": 1.06,
+                "y": 1.06,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "x": 0.93,
+                "y": 0.93
+              },
+              {
+                "time": 0.5,
+                "x": 0.95,
+                "y": 0.95
+              },
+              {
+                "time": 1,
+                "x": 1.06,
+                "y": 1.06
+              }
+            ]
+          },
+          "sym_low_golw": {
+            "scale": [
+              {
+                "x": 0.882,
+                "y": 0.882
+              },
+              {
+                "time": 0.9667,
+                "x": 1.176,
+                "y": 1.176,
+                "curve": "stepped"
+              },
+              {
+                "time": 1,
+                "x": 0.882,
+                "y": 0.882
+              }
+            ]
+          },
+          "sym_low_light": {
+            "scale": [
+              {
+                "x": 0.882,
+                "y": 0.882
+              },
+              {
+                "time": 0.9667,
+                "x": 1.333,
+                "y": 1.333,
+                "curve": "stepped"
+              },
+              {
+                "time": 1,
+                "x": 0.882,
+                "y": 0.882
+              }
+            ]
+          }
+        }
+      },
+      "icon_05_idle": {
+        "slots": {
+          "sym_low_05_frame": {
+            "color": [
+              {
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "sym_low_05_frame2_add": {
+            "color": [
+              {
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "sym_low_05_gem": {
+            "color": [
+              {
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "sym_low_05_shadow": {
+            "color": [
+              {
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "sym_low_exp_light_add": {
+            "color": [
+              {
+                "time": 0.0333,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "sym_to_bot": {
+            "color": [
+              {
+                "color": "ffffffff"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "sym_low_frame2_add": {
+            "scale": [
+              {
+                "x": 1.06,
+                "y": 1.06
+              }
+            ]
+          },
+          "sym_low_golw": {
+            "scale": [
+              {
+                "x": 0.882,
+                "y": 0.882
+              }
+            ]
+          },
+          "sym_low_light": {
+            "scale": [
+              {
+                "x": 0.882,
+                "y": 0.882
+              }
+            ]
+          }
+        }
+      },
+      "icon_06_connect": {
+        "slots": {
+          "sym_low_06_frame": {
+            "color": [
+              {
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "sym_low_06_frame2_add": {
+            "color": [
+              {
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffff95"
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "sym_low_06_gem": {
+            "color": [
+              {
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "sym_low_06_gem_glow_add3": {
+            "color": [
+              {
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.4,
+                "color": "007eff64"
+              },
+              {
+                "time": 0.9667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "sym_low_06_shadow": {
+            "color": [
+              {
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "sym_low_exp_light_add": {
+            "color": [
+              {
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.4,
+                "color": "00e7ff3c",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667,
+                "color": "00e7ff3c"
+              },
+              {
+                "time": 0.9667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "sym_to_bot": {
+            "color": [
+              {
+                "color": "ffffffff"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "sym_low_frame2_add": {
+            "scale": [
+              {
+                "x": 1.06,
+                "y": 1.06,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "x": 0.93,
+                "y": 0.93
+              },
+              {
+                "time": 0.5,
+                "x": 0.95,
+                "y": 0.95
+              },
+              {
+                "time": 1,
+                "x": 1.06,
+                "y": 1.06
+              }
+            ]
+          },
+          "sym_low_light": {
+            "scale": [
+              {
+                "x": 0.882,
+                "y": 0.882
+              },
+              {
+                "time": 0.9667,
+                "x": 1.333,
+                "y": 1.333,
+                "curve": "stepped"
+              },
+              {
+                "time": 1,
+                "x": 0.882,
+                "y": 0.882
+              }
+            ]
+          },
+          "sym_low_golw": {
+            "scale": [
+              {
+                "x": 0.882,
+                "y": 0.882
+              },
+              {
+                "time": 0.9667,
+                "x": 1.176,
+                "y": 1.176,
+                "curve": "stepped"
+              },
+              {
+                "time": 1,
+                "x": 0.882,
+                "y": 0.882
+              }
+            ]
+          }
+        }
+      },
+      "icon_06_idle": {
+        "slots": {
+          "sym_low_06_frame": {
+            "color": [
+              {
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "sym_low_06_frame2_add": {
+            "color": [
+              {
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "sym_low_06_gem": {
+            "color": [
+              {
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "sym_low_06_gem_glow_add3": {
+            "color": [
+              {
+                "time": 0.0333,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "sym_low_06_shadow": {
+            "color": [
+              {
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "sym_to_bot": {
+            "color": [
+              {
+                "color": "ffffffff"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "sym_low_frame2_add": {
+            "scale": [
+              {
+                "x": 1.06,
+                "y": 1.06
+              }
+            ]
+          },
+          "sym_low_light": {
+            "scale": [
+              {
+                "x": 0.882,
+                "y": 0.882
+              }
+            ]
+          },
+          "sym_low_golw": {
+            "scale": [
+              {
+                "x": 0.882,
+                "y": 0.882
+              }
+            ]
+          }
+        }
+      },
+      "icon_07_connect": {
+        "slots": {
+          "sym_low_07_frame": {
+            "color": [
+              {
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "sym_low_07_frame2_add": {
+            "color": [
+              {
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.5,
+                "color": "ffffff81"
+              },
+              {
+                "time": 1,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "sym_low_07_gem": {
+            "color": [
+              {
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "sym_low_07_gem_glow_add4": {
+            "color": [
+              {
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.4,
+                "color": "ffffff32"
+              },
+              {
+                "time": 0.9667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "sym_low_07_shadow": {
+            "color": [
+              {
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "sym_low_exp_light_add": {
+            "color": [
+              {
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.4,
+                "color": "caff0064",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6667,
+                "color": "caff0064"
+              },
+              {
+                "time": 0.9667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "sym_to_bot": {
+            "color": [
+              {
+                "color": "ffffffff"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "sym_low_frame2_add": {
+            "scale": [
+              {
+                "x": 1.06,
+                "y": 1.06,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "x": 0.93,
+                "y": 0.93
+              },
+              {
+                "time": 0.5,
+                "x": 0.95,
+                "y": 0.95
+              },
+              {
+                "time": 1,
+                "x": 1.06,
+                "y": 1.06
+              }
+            ]
+          },
+          "sym_low_golw": {
+            "scale": [
+              {
+                "x": 0.882,
+                "y": 0.882
+              },
+              {
+                "time": 0.9667,
+                "x": 1.176,
+                "y": 1.176,
+                "curve": "stepped"
+              },
+              {
+                "time": 1,
+                "x": 0.882,
+                "y": 0.882
+              }
+            ]
+          },
+          "sym_low_light": {
+            "scale": [
+              {
+                "x": 0.882,
+                "y": 0.882
+              },
+              {
+                "time": 0.9667,
+                "x": 1.333,
+                "y": 1.333,
+                "curve": "stepped"
+              },
+              {
+                "time": 1,
+                "x": 0.882,
+                "y": 0.882
+              }
+            ]
+          }
+        }
+      },
+      "icon_07_idle": {
+        "slots": {
+          "sym_low_07_frame": {
+            "color": [
+              {
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "sym_low_07_frame2_add": {
+            "color": [
+              {
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "sym_low_07_gem": {
+            "color": [
+              {
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "sym_low_07_shadow": {
+            "color": [
+              {
+                "color": "ffffffff"
+              }
+            ]
+          },
+          "sym_low_exp_light_add": {
+            "color": [
+              {
+                "time": 0.0333,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "sym_to_bot": {
+            "color": [
+              {
+                "color": "ffffffff"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "sym_low_frame2_add": {
+            "scale": [
+              {
+                "x": 1.06,
+                "y": 1.06
+              }
+            ]
+          },
+          "sym_low_golw": {
+            "scale": [
+              {
+                "x": 0.882,
+                "y": 0.882
+              }
+            ]
+          },
+          "sym_low_light": {
+            "scale": [
+              {
+                "x": 0.882,
+                "y": 0.882
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "textures": [
+    {
+      "__uuid__": "388fa79e-9a6c-4d36-a7f3-d2bd18525229@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "Icon_04_07.webp"
+  ],
+  "scale": 1,
+  "_atlasText": "\r\nIcon_04_07.webp\r\nsize: 1024,1024\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\n01_pic/sym_low_04_frame\r\n  rotate: false\r\n  xy: 249, 441\r\n  size: 242, 246\r\n  orig: 242, 246\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/sym_low_04_gem\r\n  rotate: false\r\n  xy: 468, 77\r\n  size: 210, 208\r\n  orig: 210, 208\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/sym_low_04_shadow\r\n  rotate: false\r\n  xy: 575, 622\r\n  size: 64, 65\r\n  orig: 64, 65\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/sym_low_05_frame\r\n  rotate: false\r\n  xy: 650, 518\r\n  size: 253, 225\r\n  orig: 253, 225\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/sym_low_05_gem\r\n  rotate: false\r\n  xy: 680, 108\r\n  size: 216, 177\r\n  orig: 216, 177\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/sym_low_05_shadow\r\n  rotate: false\r\n  xy: 563, 546\r\n  size: 66, 59\r\n  orig: 66, 59\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/sym_low_06_frame\r\n  rotate: false\r\n  xy: 650, 745\r\n  size: 261, 270\r\n  orig: 261, 270\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/sym_low_06_gem\r\n  rotate: false\r\n  xy: 222, 2\r\n  size: 201, 206\r\n  orig: 201, 206\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/sym_low_06_shadow\r\n  rotate: false\r\n  xy: 493, 535\r\n  size: 68, 70\r\n  orig: 68, 70\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/sym_low_07_frame\r\n  rotate: false\r\n  xy: 2, 454\r\n  size: 245, 233\r\n  orig: 245, 233\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/sym_low_07_gem\r\n  rotate: false\r\n  xy: 2, 9\r\n  size: 218, 212\r\n  orig: 218, 212\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/sym_low_07_shadow\r\n  rotate: false\r\n  xy: 905, 682\r\n  size: 64, 61\r\n  orig: 64, 61\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/sym_low_bot_blue\r\n  rotate: false\r\n  xy: 2, 689\r\n  size: 322, 326\r\n  orig: 322, 326\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/sym_low_bot_rad\r\n  rotate: false\r\n  xy: 326, 689\r\n  size: 322, 326\r\n  orig: 322, 326\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx/exp_white_light_add\r\n  rotate: false\r\n  xy: 493, 607\r\n  size: 80, 80\r\n  orig: 80, 80\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx/sym_low_04_gem_glow\r\n  rotate: false\r\n  xy: 2, 223\r\n  size: 231, 229\r\n  orig: 231, 229\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx/sym_low_05_gem_glow\r\n  rotate: false\r\n  xy: 493, 287\r\n  size: 231, 229\r\n  orig: 231, 229\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx/sym_low_06_gem_glow\r\n  rotate: false\r\n  xy: 235, 210\r\n  size: 231, 229\r\n  orig: 231, 229\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx/sym_low_07_gem_glow\r\n  rotate: false\r\n  xy: 726, 287\r\n  size: 231, 229\r\n  orig: 231, 229\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

@@ -1,0 +1,505 @@
+{
+"skeleton": { "hash": "M9We0PMcvUTMlscEnikSWhKQEyg", "spine": "3.8.99", "x": -444.5, "y": -426.25, "width": 889, "height": 814.5 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "blue_win", "parent": "root" },
+	{ "name": "red_win", "parent": "root" },
+	{ "name": "oo_blue_win_01", "parent": "red_win", "x": -257, "y": -166 },
+	{ "name": "draw", "parent": "root", "y": -81.5 },
+	{ "name": "draw_light", "parent": "draw" },
+	{ "name": "win_light_add_r", "parent": "blue_win", "x": 260, "y": -160 },
+	{ "name": "lose__l", "parent": "blue_win", "x": -265, "y": -166 },
+	{ "name": "draw_txt", "parent": "draw" },
+	{ "name": "draw_small_light", "parent": "draw" },
+	{ "name": "oo_red_win_02", "parent": "blue_win", "x": 264, "y": -166 },
+	{ "name": "lose__r", "parent": "red_win", "x": 261, "y": -166 },
+	{ "name": "win_light_add_l", "parent": "red_win", "x": -260, "y": -160 },
+	{ "name": "respin", "parent": "root", "y": -19 },
+	{ "name": "respin_fx", "parent": "respin" },
+	{ "name": "fx_respin_partical_dot", "parent": "respin_fx" },
+	{ "name": "fx_respin_partical_dot2", "parent": "respin_fx", "rotation": 90 },
+	{ "name": "fx_respin_partical_dot3", "parent": "respin_fx", "rotation": 180 },
+	{ "name": "fx_respin_partical_dot4", "parent": "respin_fx", "rotation": -90 },
+	{ "name": "fx_respin_spikelight", "parent": "respin_fx" },
+	{ "name": "fx_respin_pinlight", "parent": "respin_fx" },
+	{ "name": "fx_respin_back_sq_light", "parent": "respin_fx" },
+	{ "name": "fx_respin_back_sq_light2", "parent": "respin_fx", "rotation": 50 },
+	{ "name": "respin_txt", "parent": "respin" }
+],
+"slots": [
+	{ "name": "draw_light", "bone": "draw_light", "color": "ffffff00", "attachment": "01_pic/draw_light_add" },
+	{ "name": "draw_small_light", "bone": "draw_small_light", "color": "ffffff00", "attachment": "01_pic/draw_small_light_add" },
+	{ "name": "draw_txt", "bone": "draw_txt", "color": "ffffff00", "attachment": "01_pic/supersed" },
+	{ "name": "lose_txt", "bone": "lose__l", "color": "ffffff00", "attachment": "01_pic/supersed" },
+	{ "name": "lose_txt2", "bone": "lose__r", "color": "ffffff00", "attachment": "01_pic/supersed" },
+	{ "name": "win_light_add2", "bone": "win_light_add_r", "color": "002fff00", "attachment": "01_pic/win_light_add", "blend": "additive" },
+	{ "name": "win_light_add", "bone": "win_light_add_r", "color": "00e7ff00", "attachment": "01_pic/win_light_add", "blend": "additive" },
+	{ "name": "win_light_add3", "bone": "win_light_add_l", "color": "ff001600", "attachment": "01_pic/win_light_add", "blend": "additive" },
+	{ "name": "win_light_add4", "bone": "win_light_add_l", "color": "ff900000", "attachment": "01_pic/win_light_add", "blend": "additive" },
+	{ "name": "win_01_txt", "bone": "oo_blue_win_01", "color": "ffffff00", "attachment": "01_pic/supersed" },
+	{ "name": "win_02_txt", "bone": "oo_red_win_02", "color": "ffffff00", "attachment": "01_pic/supersed" },
+	{ "name": "fx_respin_back_sq_light", "bone": "fx_respin_back_sq_light", "color": "ffffff00", "attachment": "01_pic/fx_respin_back_sq_light" },
+	{ "name": "fx_respin_back_sq_light2", "bone": "fx_respin_back_sq_light2", "color": "ffffff00", "attachment": "01_pic/fx_respin_back_sq_light" },
+	{ "name": "fx_respin_pinlight", "bone": "fx_respin_pinlight", "color": "ffffff00", "attachment": "01_pic/fx_respin_pinlight" },
+	{ "name": "fx_respin_spikelight", "bone": "fx_respin_spikelight", "color": "ffffff00", "attachment": "01_pic/fx_respin_spikelight" },
+	{ "name": "fx_respin_partical_dot_add", "bone": "fx_respin_partical_dot", "color": "ffffff00", "attachment": "01_pic/fx_respin_partical_dot", "blend": "additive" },
+	{ "name": "fx_respin_partical_dot2_add", "bone": "fx_respin_partical_dot2", "color": "ffffff00", "attachment": "01_pic/fx_respin_partical_dot", "blend": "additive" },
+	{ "name": "fx_respin_partical_dot3_add", "bone": "fx_respin_partical_dot3", "color": "ffffff00", "attachment": "01_pic/fx_respin_partical_dot", "blend": "additive" },
+	{ "name": "fx_respin_partical_dot4_add", "bone": "fx_respin_partical_dot4", "color": "ffffff00", "attachment": "01_pic/fx_respin_partical_dot", "blend": "additive" },
+	{ "name": "respin_txt", "bone": "respin_txt", "color": "ffffff00", "attachment": "01_pic/supersed" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"draw_light": {
+				"01_pic/draw_light_add": { "y": 0.5, "width": 426, "height": 225 }
+			},
+			"draw_small_light": {
+				"01_pic/draw_small_light_add": { "width": 352, "height": 154 }
+			},
+			"draw_txt": {
+				"01_pic/supersed": { "width": 10, "height": 10 }
+			},
+			"fx_respin_back_sq_light": {
+				"01_pic/fx_respin_back_sq_light": { "width": 590, "height": 564 }
+			},
+			"fx_respin_back_sq_light2": {
+				"01_pic/fx_respin_back_sq_light": { "width": 590, "height": 564 }
+			},
+			"fx_respin_partical_dot2_add": {
+				"01_pic/fx_respin_partical_dot": { "width": 212, "height": 194 }
+			},
+			"fx_respin_partical_dot3_add": {
+				"01_pic/fx_respin_partical_dot": { "width": 212, "height": 194 }
+			},
+			"fx_respin_partical_dot4_add": {
+				"01_pic/fx_respin_partical_dot": { "width": 212, "height": 194 }
+			},
+			"fx_respin_partical_dot_add": {
+				"01_pic/fx_respin_partical_dot": { "width": 212, "height": 194 }
+			},
+			"fx_respin_pinlight": {
+				"01_pic/fx_respin_pinlight": { "y": 0.5, "width": 580, "height": 221 }
+			},
+			"fx_respin_spikelight": {
+				"01_pic/fx_respin_spikelight": { "width": 340, "height": 266 }
+			},
+			"lose_txt": {
+				"01_pic/supersed": { "width": 10, "height": 10 }
+			},
+			"lose_txt2": {
+				"01_pic/supersed": { "width": 10, "height": 10 }
+			},
+			"respin_txt": {
+				"01_pic/supersed": { "width": 10, "height": 10 }
+			},
+			"win_01_txt": {
+				"01_pic/supersed": { "width": 10, "height": 10 }
+			},
+			"win_02_txt": {
+				"01_pic/supersed": { "width": 10, "height": 10 }
+			},
+			"win_light_add": {
+				"01_pic/win_light_add": { "width": 369, "height": 369 }
+			},
+			"win_light_add2": {
+				"01_pic/win_light_add": { "width": 369, "height": 369 }
+			},
+			"win_light_add3": {
+				"01_pic/win_light_add": { "width": 369, "height": 369 }
+			},
+			"win_light_add4": {
+				"01_pic/win_light_add": { "width": 369, "height": 369 }
+			}
+		}
+	}
+],
+"events": {
+	"reel_black_fadeout": {}
+},
+"animations": {
+	"draw": {
+		"slots": {
+			"draw_light": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.0333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.2667, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" }
+				]
+			},
+			"draw_small_light": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.0333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.2667, "color": "ffffffff" },
+					{ "time": 0.5, "color": "ffffff00" }
+				]
+			},
+			"draw_txt": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.1667, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"draw": {
+				"translate": [
+					{ "x": -0.83 }
+				]
+			},
+			"draw_light": {
+				"scale": [
+					{ "x": 0.79, "y": 0.04 },
+					{ "time": 0.1333, "curve": 0.25 },
+					{ "time": 0.5, "x": 1.47, "y": 1.16 }
+				]
+			},
+			"draw_txt": {
+				"scale": [
+					{ "x": 0.8, "y": 0.8, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.1667, "x": 1.2, "y": 1.2, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 1, "name": "reel_black_fadeout" }
+		]
+	},
+	"icon_08_win": {
+		"slots": {
+			"lose_txt2": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.1667, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"win_01_txt": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.1667, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"win_light_add3": {
+				"color": [
+					{ "color": "ff001600" },
+					{ "time": 0.1667, "color": "ff592aff", "curve": "stepped" },
+					{ "time": 1.1667, "color": "ff592aff" },
+					{ "time": 1.3333, "color": "ff001600" }
+				]
+			},
+			"win_light_add4": {
+				"color": [
+					{ "color": "ff900000" },
+					{ "time": 0.1667, "color": "ff9000ff", "curve": "stepped" },
+					{ "time": 1.1667, "color": "ff9000ff" },
+					{ "time": 1.3333, "color": "ff900000" }
+				]
+			}
+		},
+		"bones": {
+			"draw_light": {
+				"rotate": [
+					{ "angle": -0.08 }
+				]
+			},
+			"oo_blue_win_01": {
+				"scale": [
+					{ "x": 0.8, "y": 0.8 },
+					{ "time": 0.1667, "x": 1.2, "y": 1.2, "curve": 0.45, "c3": 0.586 },
+					{ "time": 0.3333 }
+				]
+			},
+			"win_light_add_l": {
+				"rotate": [
+					{},
+					{ "time": 1.3333, "angle": -50 }
+				]
+			},
+			"lose__l": {
+				"scale": [
+					{ "x": 0.8, "y": 0.8 }
+				]
+			},
+			"lose__r": {
+				"scale": [
+					{ "x": 0.8, "y": 0.8 },
+					{ "time": 0.1667, "curve": "stepped" },
+					{ "time": 1.1667 },
+					{ "time": 1.3333, "x": 0.8, "y": 0.8 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 1, "name": "reel_black_fadeout" }
+		]
+	},
+	"icon_09_win": {
+		"slots": {
+			"lose_txt": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.1667, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"win_01_txt": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"win_02_txt": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.1667, "color": "ffffffff" },
+					{ "time": 1.3333, "color": "ffffff00" }
+				]
+			},
+			"win_light_add": {
+				"color": [
+					{ "color": "00e7ff00" },
+					{ "time": 0.1667, "color": "00e7ffff", "curve": "stepped" },
+					{ "time": 1.1667, "color": "00e7ffff" },
+					{ "time": 1.3333, "color": "00e7ff00" }
+				]
+			},
+			"win_light_add2": {
+				"color": [
+					{ "color": "002fff00" },
+					{ "time": 0.1667, "color": "002fffff", "curve": "stepped" },
+					{ "time": 1.1667, "color": "002fffff" },
+					{ "time": 1.3333, "color": "002fff00" }
+				]
+			},
+			"win_light_add3": {
+				"color": [
+					{ "color": "ff001600" }
+				]
+			}
+		},
+		"bones": {
+			"draw_light": {
+				"rotate": [
+					{ "angle": -0.08 }
+				]
+			},
+			"win_light_add_r": {
+				"rotate": [
+					{},
+					{ "time": 1.3333, "angle": -50 }
+				]
+			},
+			"oo_red_win_02": {
+				"scale": [
+					{ "x": 0.8, "y": 0.8 },
+					{ "time": 0.1667, "x": 1.2, "y": 1.2, "curve": 0.45, "c3": 0.586 },
+					{ "time": 0.3333 }
+				]
+			},
+			"oo_blue_win_01": {
+				"scale": [
+					{ "x": 0.8, "y": 0.8 }
+				]
+			},
+			"lose__l": {
+				"scale": [
+					{ "x": 0.8, "y": 0.8 },
+					{ "time": 0.1667, "curve": "stepped" },
+					{ "time": 1.1667 },
+					{ "time": 1.3333, "x": 0.8, "y": 0.8 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 1, "name": "reel_black_fadeout" }
+		]
+	},
+	"respin": {
+		"slots": {
+			"fx_respin_back_sq_light": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.9667, "color": "ffffffff" },
+					{ "time": 1.3, "color": "ffffff00" }
+				]
+			},
+			"fx_respin_back_sq_light2": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.2, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.9667, "color": "ffffffff" },
+					{ "time": 1.3, "color": "ffffff00" }
+				]
+			},
+			"fx_respin_partical_dot2_add": {
+				"color": [
+					{ "time": 0.2667, "color": "ffffff00" },
+					{ "time": 0.3, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.6, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				]
+			},
+			"fx_respin_partical_dot3_add": {
+				"color": [
+					{ "time": 0.4, "color": "ffffff00" },
+					{ "time": 0.4333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.7333, "color": "ffffffff" },
+					{ "time": 0.8667, "color": "ffffff00" }
+				]
+			},
+			"fx_respin_partical_dot4_add": {
+				"color": [
+					{ "time": 0.5333, "color": "ffffff00" },
+					{ "time": 0.5667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.8667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"fx_respin_partical_dot_add": {
+				"color": [
+					{ "time": 0.1333, "color": "ffffff00" },
+					{ "time": 0.1667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.4667, "color": "ffffffff" },
+					{ "time": 0.6, "color": "ffffff00" }
+				]
+			},
+			"fx_respin_pinlight": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.1, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.2667, "color": "ffffffff" },
+					{ "time": 0.4333, "color": "ffffff00" }
+				]
+			},
+			"fx_respin_spikelight": {
+				"color": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.2, "color": "ffffffff" },
+					{ "time": 0.4333, "color": "ffffff00" }
+				]
+			},
+			"respin_txt": {
+				"color": [
+					{ "time": 0.1667, "color": "ffffff00" },
+					{ "time": 0.3333, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.9333, "color": "ffffffff" },
+					{ "time": 1.2667, "color": "ffffff00" }
+				]
+			},
+			"win_01_txt": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"win_02_txt": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"win_light_add3": {
+				"color": [
+					{ "color": "ff001600" }
+				]
+			}
+		},
+		"bones": {
+			"draw_light": {
+				"rotate": [
+					{ "angle": -0.08 }
+				]
+			},
+			"oo_red_win_02": {
+				"scale": [
+					{ "x": 0.8, "y": 0.8 }
+				]
+			},
+			"oo_blue_win_01": {
+				"scale": [
+					{ "x": 0.8, "y": 0.8 }
+				]
+			},
+			"lose__l": {
+				"scale": [
+					{ "x": 0.8, "y": 0.8 }
+				]
+			},
+			"fx_respin_partical_dot": {
+				"scale": [
+					{ "x": 0.5, "y": 0.5, "curve": "stepped" },
+					{ "time": 0.1667, "x": 0.5, "y": 0.5 },
+					{ "time": 0.6 }
+				]
+			},
+			"fx_respin_partical_dot2": {
+				"scale": [
+					{ "x": 0.5, "y": 0.5, "curve": "stepped" },
+					{ "time": 0.3, "x": 0.5, "y": 0.5 },
+					{ "time": 0.7333 }
+				]
+			},
+			"fx_respin_partical_dot3": {
+				"scale": [
+					{ "x": 0.5, "y": 0.5, "curve": "stepped" },
+					{ "time": 0.4333, "x": 0.5, "y": 0.5 },
+					{ "time": 0.8667 }
+				]
+			},
+			"fx_respin_partical_dot4": {
+				"scale": [
+					{ "x": 0.5, "y": 0.5, "curve": "stepped" },
+					{ "time": 0.5667, "x": 0.5, "y": 0.5 },
+					{ "time": 1 }
+				]
+			},
+			"fx_respin_spikelight": {
+				"scale": [
+					{ "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.1, "x": 0, "y": 0 },
+					{ "time": 0.4333, "x": 3, "y": 1.8 }
+				]
+			},
+			"fx_respin_pinlight": {
+				"scale": [
+					{ "x": 0.5, "y": 0.5 },
+					{ "time": 0.3667 }
+				]
+			},
+			"fx_respin_back_sq_light": {
+				"rotate": [
+					{},
+					{ "time": 1.3, "angle": -150 }
+				]
+			},
+			"fx_respin_back_sq_light2": {
+				"rotate": [
+					{},
+					{ "time": 1.3, "angle": -150 }
+				]
+			},
+			"respin_txt": {
+				"scale": [
+					{ "x": 0.5, "y": 0, "curve": "stepped" },
+					{ "time": 0.0667, "x": 0.5, "y": 0, "curve": 0, "c3": 0.75 },
+					{ "time": 0.2667, "x": 1.12, "y": 1.05, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.9667, "name": "reel_black_fadeout" }
+		]
+	}
+}
+}

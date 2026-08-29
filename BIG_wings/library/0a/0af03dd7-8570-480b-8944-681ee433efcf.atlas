@@ -1,0 +1,20 @@
+
+gamble_win.jpg
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+fx_gamble_green
+  rotate: false
+  xy: 2, 2
+  size: 370, 383
+  orig: 370, 383
+  offset: 0, 0
+  index: -1
+gamble_glow_image
+  rotate: false
+  xy: 374, 150
+  size: 235, 235
+  orig: 235, 235
+  offset: 0, 0
+  index: -1

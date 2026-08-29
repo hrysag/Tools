@@ -1,0 +1,117 @@
+System.register(["cc"], function (_export, _context) {
+  "use strict";
+
+  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, CCFloat, Component, Enum, _dec, _dec2, _dec3, _dec4, _class, _class2, _descriptor, _descriptor2, _descriptor3, _crd, ccclass, property, rollDirection, ReelDataBase;
+
+  function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
+
+  function _applyDecoratedDescriptor(target, property, decorators, descriptor, context) { var desc = {}; Object.keys(descriptor).forEach(function (key) { desc[key] = descriptor[key]; }); desc.enumerable = !!desc.enumerable; desc.configurable = !!desc.configurable; if ('value' in desc || desc.initializer) { desc.writable = true; } desc = decorators.slice().reverse().reduce(function (desc, decorator) { return decorator(target, property, desc) || desc; }, desc); if (context && desc.initializer !== void 0) { desc.value = desc.initializer ? desc.initializer.call(context) : void 0; desc.initializer = undefined; } if (desc.initializer === void 0) { Object.defineProperty(target, property, desc); desc = null; } return desc; }
+
+  function _initializerWarningHelper(descriptor, context) { throw new Error('Decorating class property failed. Please ensure that ' + 'transform-class-properties is enabled and runs after the decorators transform.'); }
+
+  return {
+    setters: [function (_cc) {
+      _cclegacy = _cc.cclegacy;
+      __checkObsolete__ = _cc.__checkObsolete__;
+      __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
+      _decorator = _cc._decorator;
+      CCFloat = _cc.CCFloat;
+      Component = _cc.Component;
+      Enum = _cc.Enum;
+    }],
+    execute: function () {
+      _crd = true;
+
+      _cclegacy._RF.push({}, "e04bcRd/SpAnKM7PQucxVs4", "ReelDataBase", undefined);
+
+      __checkObsolete__(['_decorator', 'CCFloat', 'CCInteger', 'Component', 'Enum', 'Node']);
+
+      ({
+        ccclass,
+        property
+      } = _decorator);
+
+      _export("rollDirection", rollDirection = /*#__PURE__*/function (rollDirection) {
+        rollDirection[rollDirection["Down"] = 0] = "Down";
+        rollDirection[rollDirection["Up"] = 1] = "Up";
+        rollDirection[rollDirection["Left"] = 2] = "Left";
+        rollDirection[rollDirection["Right"] = 3] = "Right";
+        return rollDirection;
+      }({}));
+
+      _export("ReelDataBase", ReelDataBase = (_dec = ccclass('ReelDataBase'), _dec2 = property({
+        visible: true,
+        tooltip: '是否使用layout排版'
+      }), _dec3 = property({
+        type: Enum(rollDirection),
+        visible: true,
+        tooltip: '滾輪方向'
+      }), _dec4 = property({
+        type: CCFloat,
+        visible: true,
+        tooltip: 'icon相隔距離'
+      }), _dec(_class = (_class2 = class ReelDataBase extends Component {
+        constructor() {
+          super(...arguments);
+
+          _initializerDefineProperty(this, "_useLayout", _descriptor, this);
+
+          _initializerDefineProperty(this, "_reelDir", _descriptor2, this);
+
+          _initializerDefineProperty(this, "_iconSpacing", _descriptor3, this);
+        }
+
+        get useLayout() {
+          return this._useLayout;
+        }
+
+        set useLayout(use) {
+          this._useLayout = use;
+        }
+
+        get iconSpacing() {
+          return this._iconSpacing;
+        }
+
+        set iconSpacing(spacing) {
+          this._iconSpacing = spacing;
+        }
+
+        get reelDir() {
+          return this._reelDir;
+        }
+
+        set reelDir(dir) {
+          this._reelDir = dir;
+        }
+
+      }, (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "_useLayout", [_dec2], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return false;
+        }
+      }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "_reelDir", [_dec3], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return rollDirection.Down;
+        }
+      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "_iconSpacing", [_dec4], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: function initializer() {
+          return 0;
+        }
+      })), _class2)) || _class));
+
+      _cclegacy._RF.pop();
+
+      _crd = false;
+    }
+  };
+});
+//# sourceMappingURL=9188c9aa467cfe30640eafd920aed3fe2180d821.js.map

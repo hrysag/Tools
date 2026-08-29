@@ -1,0 +1,19 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "icon_dragon",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": ".bin",
+  "_skeletonJson": null,
+  "textures": [
+    {
+      "__uuid__": "b7b740ff-30ee-47bd-8c1c-1b5a73c7c203@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "icon_dragon.png"
+  ],
+  "scale": 1,
+  "_atlasText": "\nicon_dragon.png\nsize: 1983,427\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n01_pic/icon2_bear\n  rotate: false\n  xy: 1546, 261\n  size: 314, 164\n  orig: 314, 164\n  offset: 0, 0\n  index: -1\n01_pic/icon2_bearL\n  rotate: true\n  xy: 851, 2\n  size: 91, 66\n  orig: 91, 66\n  offset: 0, 0\n  index: -1\n01_pic/icon2_bearR\n  rotate: false\n  xy: 540, 23\n  size: 309, 70\n  orig: 309, 70\n  offset: 0, 0\n  index: -1\n01_pic/icon2_body\n  rotate: false\n  xy: 540, 95\n  size: 445, 330\n  orig: 445, 330\n  offset: 0, 0\n  index: -1\n01_pic/icon2_coin1\n  rotate: true\n  xy: 1333, 13\n  size: 98, 103\n  orig: 98, 103\n  offset: 0, 0\n  index: -1\n01_pic/icon2_coin2\n  rotate: false\n  xy: 1333, 113\n  size: 113, 89\n  orig: 113, 89\n  offset: 0, 0\n  index: -1\n01_pic/icon2_eye\n  rotate: true\n  xy: 919, 21\n  size: 72, 36\n  orig: 72, 36\n  offset: 0, 0\n  index: -1\n01_pic/icon2_eye_light\n  rotate: false\n  xy: 1438, 26\n  size: 78, 78\n  orig: 78, 78\n  offset: 0, 0\n  index: -1\n01_pic/icon2_haed\n  rotate: false\n  xy: 2, 13\n  size: 536, 412\n  orig: 536, 412\n  offset: 0, 0\n  index: -1\n01_pic/icon2_ligjt1\n  rotate: false\n  xy: 987, 30\n  size: 188, 166\n  orig: 188, 166\n  offset: 0, 0\n  index: -1\n01_pic/icon2_ligjt2\n  rotate: true\n  xy: 1785, 51\n  size: 208, 196\n  orig: 208, 196\n  offset: 0, 0\n  index: -1\n01_pic/icon2_ligjt3\n  rotate: false\n  xy: 1270, 204\n  size: 274, 221\n  orig: 274, 221\n  offset: 0, 0\n  index: -1\n01_pic/icon2_ligjt4\n  rotate: true\n  xy: 1177, 19\n  size: 177, 154\n  orig: 177, 154\n  offset: 0, 0\n  index: -1\n01_pic/icon2_ligjt5\n  rotate: false\n  xy: 1546, 49\n  size: 237, 210\n  orig: 237, 210\n  offset: 0, 0\n  index: -1\n01_pic/icon2_ligjt6\n  rotate: false\n  xy: 1862, 289\n  size: 105, 136\n  orig: 105, 136\n  offset: 0, 0\n  index: -1\n01_pic/icon2_mouth\n  rotate: false\n  xy: 987, 198\n  size: 281, 227\n  orig: 281, 227\n  offset: 0, 0\n  index: -1\n01_pic/icon3_coin_light\n  rotate: false\n  xy: 1448, 106\n  size: 96, 96\n  orig: 96, 96\n  offset: 0, 0\n  index: -1\n"
+}

@@ -1,0 +1,39 @@
+{
+  "ver": "1.2.1",
+  "importer": "render-texture",
+  "imported": true,
+  "uuid": "867b4d40-8c9d-47d4-82a9-34ef2fa971fe",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {
+    "f9941": {
+      "importer": "rt-sprite-frame",
+      "uuid": "867b4d40-8c9d-47d4-82a9-34ef2fa971fe@f9941",
+      "displayName": "feather-render-texture",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "imageUuidOrDatabaseUri": "867b4d40-8c9d-47d4-82a9-34ef2fa971fe",
+        "width": 320,
+        "height": 190
+      },
+      "ver": "1.0.0",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "width": 320,
+    "height": 190,
+    "anisotropy": 0,
+    "minfilter": "linear",
+    "magfilter": "linear",
+    "mipfilter": "none",
+    "wrapModeS": "repeat",
+    "wrapModeT": "repeat"
+  }
+}

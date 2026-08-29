@@ -1,0 +1,34 @@
+
+WinScore.webp
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01_pic/supersed
+  rotate: false
+  xy: 594, 950
+  size: 10, 10
+  orig: 10, 10
+  offset: 0, 0
+  index: -1
+03_score/win_score_bot
+  rotate: false
+  xy: 2, 138
+  size: 623, 230
+  orig: 623, 230
+  offset: 0, 0
+  index: -1
+03_score/win_score_dott
+  rotate: false
+  xy: 2, 2
+  size: 136, 134
+  orig: 136, 134
+  offset: 0, 0
+  index: -1
+03_score/win_score_light3
+  rotate: false
+  xy: 2, 370
+  size: 590, 590
+  orig: 590, 590
+  offset: 0, 0
+  index: -1

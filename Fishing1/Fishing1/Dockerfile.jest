@@ -1,0 +1,12 @@
+FROM node:18-alpine3.18
+WORKDIR /do-jest
+COPY for_git_coverage_badge /do-jest/for_git_coverage_badge
+COPY __mocks__ /do-jest/__mocks__
+COPY package.json /do-jest/package.json
+COPY cc.env.for.jest.d.ts /do-jest/cc.env.for.jest.d.ts 
+COPY cc.for.jest.d.ts /do-jest/cc.for.jest.d.ts
+COPY jest.config.js /do-jest/jest.config.js
+COPY tsconfig.for.jest.json /do-jest/tsconfig.for.jest.json
+RUN npm i
+RUN ls /do-jest/node_modules/
+CMD npm run test

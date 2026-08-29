@@ -1,0 +1,85 @@
+
+CCEffect %{
+  techniques:
+  - name: opaque
+    passes:
+    - vert: legacy/main-functions/general-vs:vert # 頂點shader builtin header
+      frag: unlit-fs:frag #著色shader
+      properties: &props
+        mainTexture:    { value: white }
+        mainColor:      { value: [1, 1, 1, 1], editor: { type: color } }
+        colorScale:     { value: [1, 1, 1] ,target: colorScaleAndCutoff.xyz }
+        _waveTexture:    { value: white, editor: { parent: USE_TILLING_OFFSET } }
+        _waveBaseColor:      { value: [0.3, 0.3, 0.3, 1], editor: { type: color, parent: USE_TILLING_OFFSET }}
+        _tilling:       { value: 1, editor: { type: float ,parent: USE_TILLING_OFFSET } }
+        _speed:       { value: 0.1, editor: { type: float ,parent: USE_TILLING_OFFSET } }
+        _offset:       { value: [1,0], editor: { type: vec2 ,parent: USE_TILLING_OFFSET } }
+        alphaThreshold: { value: 0.5, target: colorScaleAndCutoff.w, editor: { parent: USE_ALPHA_TEST } }
+  - name: transparent
+    passes:
+    - vert: general-vs:vert # builtin header
+      frag: unlit-fs:frag
+      blendState:
+        targets:
+        - blend: true
+          blendSrc: src_alpha
+          blendDst: one_minus_src_alpha
+          blendSrcAlpha: src_alpha
+          blendDstAlpha: one_minus_src_alpha
+      properties: *props
+}%
+
+CCProgram unlit-fs %{
+  precision highp float;
+  #include <legacy/output>
+  #include <legacy/fog-fs>
+  #include <builtin/uniforms/cc-global>
+
+  in vec2 v_uv;
+  in vec2 v_uv1;
+  in vec3 v_position;
+
+  uniform sampler2D mainTexture;
+  uniform sampler2D _waveTexture;
+
+  uniform Constant {
+    vec4 mainColor;
+    vec4 colorScaleAndCutoff;
+    vec4 _waveBaseColor;
+    float _tilling;
+    float _speed;
+    vec2 _offset;
+  };
+
+  #if USE_ALPHA_TEST
+    #pragma define-meta ALPHA_TEST_CHANNEL options([a, r, g, b])
+  #endif  
+
+
+
+  //水波紋顏色
+  vec4 waveColor (vec2 uv) {
+    vec2 offset = _offset* _speed * cc_time.x;//水平移動
+    vec4 wColor = texture(_waveTexture , uv * _tilling+offset);
+    wColor = wColor * _waveBaseColor;
+    float stren = 1.0;
+    return wColor * stren;
+  }
+
+  vec4 frag () {
+    vec4 o = mainColor * texture(mainTexture, v_uv);
+    o.rgb *= colorScaleAndCutoff.xyz;
+  
+    #if USE_ALPHA_TEST
+      if (o.ALPHA_TEST_CHANNEL < colorScaleAndCutoff.w) discard;
+    #endif
+
+    #if USE_TILLING_OFFSET
+      //添加水波紋(第二UV滾動)
+      vec4 wColor = waveColor(v_uv1);
+      o = o + wColor;
+    #endif
+
+    return CCFragOutput(o);
+  }
+}%

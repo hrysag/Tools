@@ -1,0 +1,239 @@
+
+FG_Bkg_back.webp
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01_pic/0_rainbow
+  rotate: false
+  xy: 937, 1796
+  size: 162, 160
+  orig: 162, 160
+  offset: 0, 0
+  index: -1
+01_pic/FireSmoke_
+  rotate: false
+  xy: 2, 1394
+  size: 267, 267
+  orig: 267, 267
+  offset: 0, 0
+  index: -1
+01_pic/FireSmoke_2
+  rotate: false
+  xy: 427, 1637
+  size: 201, 221
+  orig: 201, 221
+  offset: 0, 0
+  index: -1
+01_pic/FireSmoke_3
+  rotate: false
+  xy: 2, 2000
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+01_pic/Smoke
+  rotate: true
+  xy: 630, 1603
+  size: 201, 221
+  orig: 201, 221
+  offset: 0, 0
+  index: -1
+01_pic/bowl
+  rotate: false
+  xy: 1313, 1950
+  size: 82, 82
+  orig: 82, 82
+  offset: 0, 0
+  index: -1
+01_pic/fg2_h_atmosphere
+  rotate: false
+  xy: 2, 1860
+  size: 640, 117
+  orig: 640, 117
+  offset: 0, 0
+  index: -1
+01_pic/fg2_v_Column1
+  rotate: false
+  xy: 1158, 1212
+  size: 740, 284
+  orig: 740, 284
+  offset: 0, 0
+  index: -1
+01_pic/fg2_v_Column2
+  rotate: true
+  xy: 868, 1958
+  size: 74, 443
+  orig: 74, 443
+  offset: 0, 0
+  index: -1
+01_pic/fg2_v_air
+  rotate: false
+  xy: 208, 1663
+  size: 217, 195
+  orig: 217, 195
+  offset: 0, 0
+  index: -1
+01_pic/fg2_v_curtain
+  rotate: true
+  xy: 271, 1346
+  size: 255, 480
+  orig: 255, 480
+  offset: 0, 0
+  index: -1
+01_pic/fg2_v_plant
+  rotate: true
+  xy: 1493, 1928
+  size: 104, 281
+  orig: 104, 281
+  offset: 0, 0
+  index: -1
+01_pic/fg2_vh_curtain1
+  rotate: true
+  xy: 853, 1536
+  size: 233, 450
+  orig: 233, 450
+  offset: 0, 0
+  index: -1
+01_pic/fg2_vh_curtain2
+  rotate: true
+  xy: 753, 1241
+  size: 293, 403
+  orig: 293, 403
+  offset: 0, 0
+  index: -1
+01_pic/fg2_vh_curtain3
+  rotate: false
+  xy: 2, 997
+  size: 381, 347
+  orig: 381, 347
+  offset: 0, 0
+  index: -1
+01_pic/jewel_light
+  rotate: true
+  xy: 142, 1990
+  size: 42, 305
+  orig: 42, 305
+  offset: 0, 0
+  index: -1
+01_pic/light
+  rotate: true
+  xy: 449, 1979
+  size: 53, 301
+  orig: 53, 301
+  offset: 0, 0
+  index: -1
+01_pic/money1
+  rotate: true
+  xy: 36, 2000
+  size: 32, 53
+  orig: 32, 53
+  offset: 0, 0
+  index: -1
+01_pic/money2
+  rotate: true
+  xy: 752, 1961
+  size: 71, 114
+  orig: 71, 114
+  offset: 0, 0
+  index: -1
+01_pic/pp
+  rotate: true
+  xy: 91, 1997
+  size: 35, 49
+  orig: 35, 49
+  offset: 0, 0
+  index: -1
+01_pic/rock
+  rotate: false
+  xy: 1307, 1741
+  size: 720, 161
+  orig: 720, 161
+  offset: 0, 0
+  index: -1
+01_pic/shadow
+  rotate: true
+  xy: 644, 1825
+  size: 134, 139
+  orig: 134, 139
+  offset: 0, 0
+  index: -1
+01_pic/shine_
+  rotate: false
+  xy: 785, 1806
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+01_pic/spark
+  rotate: false
+  xy: 1397, 1939
+  size: 94, 93
+  orig: 94, 93
+  offset: 0, 0
+  index: -1
+01_pic/spp
+  rotate: false
+  xy: 1101, 1771
+  size: 204, 185
+  orig: 204, 185
+  offset: 0, 0
+  index: -1
+01_pic/spp2
+  rotate: false
+  xy: 2, 1673
+  size: 204, 185
+  orig: 204, 185
+  offset: 0, 0
+  index: -1
+01_pic/sunlight
+  rotate: false
+  xy: 1776, 1904
+  size: 256, 128
+  orig: 256, 128
+  offset: 0, 0
+  index: -1
+01_pic/up
+  rotate: false
+  xy: 1305, 1498
+  size: 720, 241
+  orig: 720, 241
+  offset: 0, 0
+  index: -1
+
+
+
+FG_Bkg_back_2.jpg
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+02_jpg/fg2_h_bgbottom1
+  rotate: false
+  xy: 2, 1174
+  size: 1170, 666
+  orig: 1170, 666
+  offset: 0, 0
+  index: -1
+02_jpg/fg2_v_bgbottom1
+  rotate: false
+  xy: 1174, 670
+  size: 666, 1170
+  orig: 666, 1170
+  offset: 0, 0
+  index: -1
+02_jpg/fg_h_bgbottom
+  rotate: true
+  xy: 2, 2
+  size: 1170, 666
+  orig: 1170, 666
+  offset: 0, 0
+  index: -1
+02_jpg/fg_v_bgbottom
+  rotate: true
+  xy: 670, 2
+  size: 666, 1170
+  orig: 666, 1170
+  offset: 0, 0
+  index: -1
+

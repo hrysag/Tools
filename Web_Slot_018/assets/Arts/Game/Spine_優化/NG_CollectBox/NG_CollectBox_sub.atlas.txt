@@ -1,0 +1,265 @@
+
+NG_CollectBox_sub.webp
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01_pic/NG_CollectBox_blue_bean
+  rotate: false
+  xy: 174, 365
+  size: 26, 25
+  orig: 26, 25
+  offset: 0, 0
+  index: -1
+01_pic/NG_CollectBox_red_bean
+  rotate: false
+  xy: 174, 338
+  size: 26, 25
+  orig: 26, 25
+  offset: 0, 0
+  index: -1
+02_fx/collectbox_fx_circle_blue
+  rotate: false
+  xy: 2, 758
+  size: 262, 262
+  orig: 262, 262
+  offset: 0, 0
+  index: -1
+02_fx/collectbox_fx_circle_red
+  rotate: false
+  xy: 2, 494
+  size: 262, 262
+  orig: 262, 262
+  offset: 0, 0
+  index: -1
+02_fx/collectbox_fx_cross
+  rotate: false
+  xy: 2, 322
+  size: 170, 170
+  orig: 170, 170
+  offset: 0, 0
+  index: -1
+02_fx/exp_light_add
+  rotate: false
+  xy: 206, 4
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00000
+  rotate: false
+  xy: 2, 220
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00030
+  rotate: false
+  xy: 2, 220
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00001
+  rotate: false
+  xy: 2, 118
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00002
+  rotate: false
+  xy: 2, 16
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00003
+  rotate: false
+  xy: 104, 220
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00004
+  rotate: false
+  xy: 174, 392
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00005
+  rotate: false
+  xy: 104, 118
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00006
+  rotate: false
+  xy: 104, 16
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00007
+  rotate: false
+  xy: 206, 290
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00008
+  rotate: false
+  xy: 206, 188
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00009
+  rotate: false
+  xy: 206, 86
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00010
+  rotate: false
+  xy: 266, 920
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00011
+  rotate: false
+  xy: 266, 818
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00012
+  rotate: false
+  xy: 266, 716
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00013
+  rotate: false
+  xy: 266, 614
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00014
+  rotate: false
+  xy: 266, 512
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00015
+  rotate: false
+  xy: 276, 410
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00016
+  rotate: false
+  xy: 308, 308
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00017
+  rotate: false
+  xy: 308, 206
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00018
+  rotate: false
+  xy: 308, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00019
+  rotate: false
+  xy: 308, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00020
+  rotate: false
+  xy: 368, 920
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00021
+  rotate: false
+  xy: 368, 818
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00022
+  rotate: false
+  xy: 368, 716
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00023
+  rotate: false
+  xy: 368, 614
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00024
+  rotate: false
+  xy: 368, 512
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00025
+  rotate: false
+  xy: 378, 410
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00026
+  rotate: false
+  xy: 410, 308
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00027
+  rotate: false
+  xy: 410, 206
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00028
+  rotate: false
+  xy: 410, 104
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+02_fx_expectlight/expectlight_00029
+  rotate: false
+  xy: 410, 2
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

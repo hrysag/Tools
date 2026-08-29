@@ -1,0 +1,1901 @@
+{
+  "path": {
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\bmfont\\font1\\bmfont_test.fnt": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\bmfont\\font1\\bmfont_test_0.png"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1001\\Arts\\Fonts\\FreeSpin_add.fnt": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1001\\Arts\\Fonts\\FreeSpin_add_0.png"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1001\\Arts\\Fonts\\SW_FreeMode_Font.fnt": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1001\\Arts\\Fonts\\SW_FreeMode_Font_0.png"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1001\\Arts\\Spine\\machine\\machine.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1001\\Arts\\Spine\\machine\\machine.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1001\\Arts\\Spine\\machine\\machine_glow.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1001\\Arts\\Spine\\machine\\machine_glow.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1001\\Arts\\Spine\\Switch\\Switch_Bkg.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1001\\Arts\\Spine\\Switch\\Switch_Bkg.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Arts\\Spine\\BG\\G1003_scene.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Arts\\Spine\\BG\\G1003_scene.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Sprites\\font\\normalScore.fnt": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Sprites\\font\\normalScore.png"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Sprites\\font\\specialScore.fnt": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Sprites\\font\\specialScore.png"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\Effect\\Shader\\SpriteBlur.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-vs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-fs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\embedded-alpha.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\alpha-test.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\sprite-vs.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\common\\common-define.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\sprite-fs.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\builtin\\internal\\embedded-alpha.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\builtin\\internal\\alpha-test.chunk"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\Effect\\Shader\\SpriteDirBlur_todo.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-vs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-fs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\embedded-alpha.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\alpha-test.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\sprite-vs.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\common\\common-define.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\sprite-fs.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\builtin\\internal\\embedded-alpha.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\builtin\\internal\\alpha-test.chunk"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\Effect\\Shader\\SpriteDistortion.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-vs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-fs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\embedded-alpha.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\alpha-test.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\sprite-vs.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\common\\common-define.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\sprite-fs.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\builtin\\internal\\embedded-alpha.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\builtin\\internal\\alpha-test.chunk"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\SpriteTool\\Effects\\grayscale.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-vs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-fs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\alpha-test.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\sprite-vs.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\sprite-fs.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\builtin\\internal\\alpha-test.chunk"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\SpriteTool\\Effects\\motion-blur-y.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-vs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-fs.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\sprite-vs.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\sprite-fs.chunk"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Test\\SpineTest\\machine\\machine.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Test\\SpineTest\\machine\\machine.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Test\\SpineTest\\machine\\machine_glow.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Test\\SpineTest\\machine\\machine_glow.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\Bkg\\NG_Bkg_back.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\Bkg\\NG_Bkg_back.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\Bkg\\NG_Bkg_front.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\Bkg\\NG_Bkg_front.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\Bkg\\NG_reel.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\Bkg\\NG_reel.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\ConnectBox\\ConnectBox.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\ConnectBox\\ConnectBox.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\ExpectBox\\ExpectBox.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\ExpectBox\\ExpectBox.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\Feature_hint\\Feature_hint.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\Feature_hint\\Feature_hint.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\FG_CollectBox\\FG_CollectBox_sub.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\FG_CollectBox\\FG_CollectBox_sub.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\FreeStart_FreeBack\\FG_01_FreeStart_FreeBack.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\FreeStart_FreeBack\\FG_01_FreeStart_FreeBack.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\FX_battle\\FX_battle.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\FX_battle\\FX_battle.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\HighPrize\\HighPrize.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\HighPrize\\HighPrize.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\FX_battle\\FX_battle_item.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\FX_battle\\FX_battle_item.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\Item\\Item_01.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\Item\\Item_01.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\Item\\Item_02.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\Item\\Item_02.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\NG_CollectBox\\FX_FreeStart_front.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\NG_CollectBox\\FX_FreeStart_front.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\NG_CollectBox\\FX_FreeStart_back.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\NG_CollectBox\\FX_FreeStart_back.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\NG_CollectBox\\NG_CollectBox_back.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\NG_CollectBox\\NG_CollectBox_back.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\NG_CollectBox\\NG_CollectBox_freestart.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\NG_CollectBox\\NG_CollectBox_freestart.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\NG_CollectBox\\NG_CollectBox_sub.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\NG_CollectBox\\NG_CollectBox_sub.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_highpay\\Icon_00.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_highpay\\Icon_00.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_highpay\\Icon_01.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_highpay\\Icon_01.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_highpay\\icon_02.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_highpay\\icon_02.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_highpay\\icon_03.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_highpay\\icon_03.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\WinScore\\WinScore.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\WinScore\\WinScore.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Common\\GenericUI\\Arts\\Fonts\\Roboto-Bold.fnt": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Common\\GenericUI\\Arts\\Fonts\\Roboto-Bold.png"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Test\\SpineTest\\Test1\\skel\\icon_01_to_spine.skel": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Test\\SpineTest\\Test1\\skel\\icon_01_to_spine.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Common\\H5_MsgWin\\Effect\\Fonts\\win_number.fnt": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Common\\H5_MsgWin\\Effect\\Fonts\\win_number.png"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Test\\SpineTest\\Test1\\skel2\\wildb.skel": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Test\\SpineTest\\Test1\\skel2\\wildb.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Test\\SpineTest\\Test1\\skel3\\raptor-pro.skel": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Test\\SpineTest\\Test1\\skel3\\raptor-pro.atlas"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Common\\GenericUI\\Arts\\Fonts\\Show_WIN\\font.fnt": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Common\\GenericUI\\Arts\\Fonts\\Show_WIN\\font_0.png"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\Res\\SpineEvent\\EventKey_Test.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\Res\\SpineEvent\\EventKey_Test.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\SpinePremuiltyply_webp_Test\\Art\\webp\\no_premultiply_alpha\\skeleton.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\SpinePremuiltyply_webp_Test\\Art\\webp\\no_premultiply_alpha\\skeleton.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\SpinePremuiltyply_webp_Test\\Art\\webp\\premultiply_alpha\\skeleton.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\SpinePremuiltyply_webp_Test\\Art\\webp\\premultiply_alpha\\skeleton.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\SpinePremuiltyply_webp_Test\\Art\\webp\\no_premultiply_alpha\\skeleton_wp.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\SpinePremuiltyply_webp_Test\\Art\\webp\\no_premultiply_alpha\\skeleton_wp.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\SpinePremuiltyply_webp_Test\\Art\\webp\\premultiply_alpha\\skeleton_wp.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\SpinePremuiltyply_webp_Test\\Art\\webp\\premultiply_alpha\\skeleton_wp.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\Btn_BFG\\Btn_BuyFG.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\Btn_BFG\\Btn_BuyFG.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\Bkg\\FG_Bkg_front.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\Bkg\\FG_Bkg_front.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\BFG\\BuyFG.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\BFG\\BuyFG.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game018\\Arts\\Atlases\\Fonts\\fnt_BuyFG.fnt": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game018\\Arts\\Atlases\\Fonts\\fnt_BuyFG.png"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game018\\Arts\\Fonts\\fnt_BuyFG.fnt": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game018\\Arts\\Fonts\\fnt_BuyFG.png"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\Btn_BFG\\Btn_BuyFG.skel": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\Btn_BFG\\Btn_BuyFG.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\BFG\\BuyFG.skel": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\BFG\\BuyFG.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\ConnectBox\\ConnectBox.skel": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\ConnectBox\\ConnectBox.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\ExpectBox\\ExpectBox.skel": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\ExpectBox\\ExpectBox.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\Feature_hint\\Feature_hint.skel": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\Feature_hint\\Feature_hint.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\FG_CollectBox\\FG_CollectBox_sub.skel": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\FG_CollectBox\\FG_CollectBox_sub.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\FreeStart_FreeBack\\FG_01_FreeStart_FreeBack.skel": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\FreeStart_FreeBack\\FG_01_FreeStart_FreeBack.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\FreeStart_FreeBack\\FG_02_FreeStart_FreeBack.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\FreeStart_FreeBack\\FG_02_FreeStart_FreeBack.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\FreeStart_FreeBack\\FG_02_FreeStart_FreeBack.skel": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\FreeStart_FreeBack\\FG_02_FreeStart_FreeBack.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\Bkg\\FG_Bkg_back.skel": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\Bkg\\FG_Bkg_back.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\Bkg\\FG_Bkg_front.skel": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\Bkg\\FG_Bkg_front.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\FX_battle\\FX_battle.skel": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\FX_battle\\FX_battle.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\FX_battle\\FX_battle_item.skel": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\FX_battle\\FX_battle_item.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\NG_CollectBox\\FX_FreeStart_back.skel": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\NG_CollectBox\\FX_FreeStart_back.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\NG_CollectBox\\FX_FreeStart_front.skel": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\NG_CollectBox\\FX_FreeStart_front.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\HighPrize\\HighPrize.skel": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\HighPrize\\HighPrize.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game018\\Arts\\Atlases\\Fonts\\fnt_BuyFG\\fnt_BuyFG.fnt": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game018\\Arts\\Atlases\\Fonts\\fnt_BuyFG\\fnt_BuyFG.png"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game018\\Arts\\Atlases\\Fonts\\fnt_buyFG_totalbet\\fnt_buyFG_totalbet.fnt": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game018\\Arts\\Atlases\\Fonts\\fnt_buyFG_totalbet\\fnt_buyFG_totalbet.png"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game018\\Arts\\Atlases\\Fonts\\fnt_FG_remaining\\fnt_FG_remaining.fnt": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game018\\Arts\\Atlases\\Fonts\\fnt_FG_remaining\\fnt_FG_remaining.png"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game018\\Arts\\Atlases\\Fonts\\fnt_HighPrize\\fnt_HighPrize.fnt": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game018\\Arts\\Atlases\\Fonts\\fnt_HighPrize\\fnt_HighPrize.png"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game018\\Arts\\Atlases\\Fonts\\fnt_WinScore\\fnt_WinScore.fnt": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game018\\Arts\\Atlases\\Fonts\\fnt_WinScore\\fnt_WinScore.png"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game018\\Arts\\Atlases\\Fonts\\fnt_FG_freespins\\fnt_FG_freespins.fnt": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game018\\Arts\\Atlases\\Fonts\\fnt_FG_freespins\\fnt_FG_freespins.png"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game018\\Arts\\Atlases\\Fonts\\fnt_FreeBack_settle\\fnt_FreeBack_settle.fnt": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game018\\Arts\\Atlases\\Fonts\\fnt_FreeBack_settle\\fnt_FreeBack_settle.png"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\Bkg\\NG_Bkg_back.skel": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\Bkg\\NG_Bkg_back.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\Bkg\\NG_Bkg_front.skel": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\Bkg\\NG_Bkg_front.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\NG_CollectBox\\NG_CollectBox_sub.skel": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\NG_CollectBox\\NG_CollectBox_sub.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\NG_CollectBox\\NG_CollectBox_back.skel": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\NG_CollectBox\\NG_CollectBox_back.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\NG_CollectBox\\NG_CollectBox_freestart.skel": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\NG_CollectBox\\NG_CollectBox_freestart.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\Bkg\\NG_reel.skel": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\Bkg\\NG_reel.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\Item\\Item_01.skel": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\Item\\Item_01.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\Item\\Item_02.skel": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\Item\\Item_02.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\sym_highpay\\Icon_00.skel": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\sym_highpay\\Icon_00.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\sym_highpay\\Icon_01.skel": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\sym_highpay\\Icon_01.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\sym_highpay\\icon_02.skel": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\sym_highpay\\icon_02.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\sym_highpay\\icon_03.skel": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\sym_highpay\\icon_03.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\sym_lowpay\\Icon_04_07.skel": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\sym_lowpay\\Icon_04_07.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\sym_wild\\Icon_08_09_frame.skel": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\sym_wild\\Icon_08_09_frame.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\sym_wild\\Icon_08_09_bot.skel": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\sym_wild\\Icon_08_09_bot.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\sym_bonus\\Icon_10.skel": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\sym_bonus\\Icon_10.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\sym_bonus\\Icon_11.skel": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\sym_bonus\\Icon_11.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\WinScore\\WinScore.skel": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\WinScore\\WinScore.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_bonus\\Icon_10.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_bonus\\Icon_10.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_lowpay\\Icon_04_07.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_lowpay\\Icon_04_07.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_wild\\Icon_08_09_bot.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_wild\\Icon_08_09_bot.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_wild\\Icon_08_09_frame.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_wild\\Icon_08_09_frame.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Fonts\\fnt_BuyFG\\fnt_BuyFG.fnt": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Fonts\\fnt_BuyFG\\fnt_BuyFG.png"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Fonts\\fnt_buyFG_totalbet\\fnt_buyFG_totalbet.fnt": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Fonts\\fnt_buyFG_totalbet\\fnt_buyFG_totalbet.png"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Fonts\\fnt_FG_freespins\\fnt_FG_freespins.fnt": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Fonts\\fnt_FG_freespins\\fnt_FG_freespins.png"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Fonts\\fnt_FreeBack_settle\\fnt_FreeBack_settle.fnt": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Fonts\\fnt_FreeBack_settle\\fnt_FreeBack_settle.png"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Fonts\\fnt_HighPrize\\fnt_HighPrize.fnt": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Fonts\\fnt_HighPrize\\fnt_HighPrize.png"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_bonus\\Icon_11.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_bonus\\Icon_11.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\WaninPlayer\\Effect\\playerEffect.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-vs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-fs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\embedded-alpha.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\sprite-vs.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\sprite-fs.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\builtin\\internal\\embedded-alpha.chunk"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\Effect\\Shader\\SpriteAdditive.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-vs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-fs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\embedded-alpha.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\alpha-test.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\sprite-vs.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\common\\common-define.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\sprite-fs.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\builtin\\internal\\embedded-alpha.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\builtin\\internal\\alpha-test.chunk"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\Effect\\Shader\\FeatherMask.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-vs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-fs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\embedded-alpha.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\alpha-test.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\sprite-vs.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\common\\common-define.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\sprite-fs.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\builtin\\internal\\embedded-alpha.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\builtin\\internal\\alpha-test.chunk"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_bonus\\icon_10.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_bonus\\icon_10.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_bonus\\icon_11.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_bonus\\icon_11.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_lowpay\\icon_04_07.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_lowpay\\icon_04_07.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_wild\\icon_08_09_bot.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_wild\\icon_08_09_bot.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_wild\\icon_08_09_frame.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_wild\\icon_08_09_frame.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Fonts\\fnt_WinScore\\fnt_WinScore.fnt": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Fonts\\fnt_WinScore\\fnt_WinScore.png"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Fonts\\fnt_FG_remaining\\fnt_FG_remaining.fnt": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Fonts\\fnt_FG_remaining\\fnt_FG_remaining.png"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\Bkg\\FG_Bkg_back.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\Bkg\\FG_Bkg_back.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\NG_CollectBox\\NG_CollectBox.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\NG_CollectBox\\NG_CollectBox.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Common\\ApexLogo\\Spine\\Apex_Logo\\Apex_Logo.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Common\\ApexLogo\\Spine\\Apex_Logo\\Apex_Logo.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game018\\Arts\\FGTransitionAtlases\\fnt_FreeBack_settle\\fnt_FreeBack_settle.fnt": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game018\\Arts\\FGTransitionAtlases\\fnt_FreeBack_settle\\fnt_FreeBack_settle.png"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\Effect\\Example\\Resource\\skeleton.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\Effect\\Example\\Resource\\skeleton.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game018\\Arts\\Fonts\\fnt_BuyFG\\fnt_BuyFG.fnt": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game018\\Arts\\Fonts\\fnt_BuyFG\\fnt_BuyFG.png"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game018\\Arts\\Fonts\\fnt_buyFG_totalbet\\fnt_buyFG_totalbet.fnt": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game018\\Arts\\Fonts\\fnt_buyFG_totalbet\\fnt_buyFG_totalbet.png"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game018\\Arts\\Fonts\\fnt_FG_freespins\\fnt_FG_freespins.fnt": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game018\\Arts\\Fonts\\fnt_FG_freespins\\fnt_FG_freespins.png"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game018\\Arts\\Fonts\\fnt_FG_remaining\\fnt_FG_remaining.fnt": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game018\\Arts\\Fonts\\fnt_FG_remaining\\fnt_FG_remaining.png"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game018\\Arts\\Fonts\\fnt_HighPrize\\fnt_HighPrize.fnt": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game018\\Arts\\Fonts\\fnt_HighPrize\\fnt_HighPrize.png"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game018\\Arts\\Fonts\\fnt_WinScore\\fnt_WinScore.fnt": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game018\\Arts\\Fonts\\fnt_WinScore\\fnt_WinScore.png"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\Res\\SpineAlpha\\icon_00.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\Res\\SpineAlpha\\icon_00.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\Res\\SpineMix\\Item.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\Res\\SpineMix\\Item.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\loading_page\\loading_page_1.skel": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\loading_page\\loading_page_1.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\loading_page\\loading_page_2.skel": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\loading_page\\loading_page_2.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\loading_page\\loading_page_3.skel": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\loading_page\\loading_page_3.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\Effect\\Shader\\SpriteDissolve.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-vs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-fs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\embedded-alpha.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\alpha-test.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\sprite-vs.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\common\\common-define.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\sprite-fs.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\builtin\\internal\\embedded-alpha.chunk",
+      "D:\\cocosProject\\Web_Slot\\assets\\chunks\\builtin\\internal\\alpha-test.chunk"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\Test\\SpineTriCountTest\\MESH1000.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\Test\\SpineTriCountTest\\MESH1000.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\Test\\SpineTriCountTest\\WeightL_BoneL.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\Test\\SpineTriCountTest\\WeightL_BoneL.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\Test\\SpineTriCountTest\\WeightH_BoneH.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\Test\\SpineTriCountTest\\WeightH_BoneH.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\Test\\SpineTriCountTest\\WeightH_BoneL.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\Test\\SpineTriCountTest\\WeightH_BoneL.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Test\\CountTest\\Spine\\skeleton.skel": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Test\\CountTest\\Spine\\skeleton.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Test\\GameStart\\spine\\loading\\loading_page1_front.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Test\\GameStart\\spine\\loading\\loading_page1_front.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Test\\GameStart\\spine\\loading\\loading_page1_bot.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Test\\GameStart\\spine\\loading\\loading_page1_bot.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Test\\GameStart\\spine\\loading\\loading_page1.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Test\\GameStart\\spine\\loading\\loading_page1.atlas.txt"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Test\\GameStart\\spine\\loading\\loading_page2.json": [
+      "D:\\cocosProject\\Web_Slot\\assets\\Test\\GameStart\\spine\\loading\\loading_page2.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\WaninPlayer\\Effect\\playerEffect.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-vs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-fs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\embedded-alpha.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\sprite-vs.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\sprite-fs.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\builtin\\internal\\embedded-alpha.chunk"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\Effect\\Shader\\FeatherMask.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-vs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-fs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\embedded-alpha.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\alpha-test.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\sprite-vs.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\common\\common-define.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\sprite-fs.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\builtin\\internal\\embedded-alpha.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\builtin\\internal\\alpha-test.chunk"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\Effect\\Shader\\SpriteAdditive.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-vs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-fs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\embedded-alpha.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\alpha-test.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\sprite-vs.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\common\\common-define.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\sprite-fs.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\builtin\\internal\\embedded-alpha.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\builtin\\internal\\alpha-test.chunk"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\Effect\\Shader\\SpriteBlur.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-vs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-fs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\embedded-alpha.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\alpha-test.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\sprite-vs.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\common\\common-define.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\sprite-fs.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\builtin\\internal\\embedded-alpha.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\builtin\\internal\\alpha-test.chunk"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\Effect\\Shader\\SpriteDirBlur_todo.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-vs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-fs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\embedded-alpha.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\alpha-test.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\sprite-vs.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\common\\common-define.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\sprite-fs.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\builtin\\internal\\embedded-alpha.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\builtin\\internal\\alpha-test.chunk"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\Effect\\Shader\\SpriteDissolve.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-vs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-fs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\embedded-alpha.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\alpha-test.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\sprite-vs.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\common\\common-define.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\sprite-fs.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\builtin\\internal\\embedded-alpha.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\builtin\\internal\\alpha-test.chunk"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\Effect\\Shader\\SpriteDistortion.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-vs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-fs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\embedded-alpha.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\alpha-test.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\sprite-vs.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\common\\common-define.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\sprite-fs.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\builtin\\internal\\embedded-alpha.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\builtin\\internal\\alpha-test.chunk"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\SpriteTool\\Effects\\motion-blur-y.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-vs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-fs.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\sprite-vs.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\sprite-fs.chunk"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\SpriteTool\\Effects\\grayscale.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-vs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-fs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.3\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\alpha-test.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\sprite-vs.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\sprite-fs.chunk",
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\chunks\\builtin\\internal\\alpha-test.chunk"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\Test\\SpineTriCountTest\\WeightH_BoneH.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\Test\\SpineTriCountTest\\WeightH_BoneH.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\SpinePremuiltyply_webp_Test\\Art\\webp\\premultiply_alpha\\skeleton_wp.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\SpinePremuiltyply_webp_Test\\Art\\webp\\premultiply_alpha\\skeleton_wp.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Fonts\\fnt_FG_remaining\\fnt_FG_remaining.fnt": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Fonts\\fnt_FG_remaining\\fnt_FG_remaining.png"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Fonts\\fnt_WinScore\\fnt_WinScore.fnt": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Fonts\\fnt_WinScore\\fnt_WinScore.png"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Test\\SpineTest\\machine\\machine.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Test\\SpineTest\\machine\\machine.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Test\\SpineTest\\machine\\machine_glow.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Test\\SpineTest\\machine\\machine_glow.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Test\\CountTest\\Spine\\skeleton.skel": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Test\\CountTest\\Spine\\skeleton.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\BFG\\BuyFG.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\BFG\\BuyFG.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\Bkg\\FG_Bkg_back.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\Bkg\\FG_Bkg_back.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\Bkg\\FG_Bkg_front.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\Bkg\\FG_Bkg_front.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\Bkg\\NG_Bkg_back.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\Bkg\\NG_Bkg_back.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\Bkg\\NG_Bkg_front.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\Bkg\\NG_Bkg_front.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\Bkg\\NG_reel.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\Bkg\\NG_reel.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\Btn_BFG\\Btn_BuyFG.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\Btn_BFG\\Btn_BuyFG.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\ConnectBox\\ConnectBox.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\ConnectBox\\ConnectBox.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\Feature_hint\\Feature_hint.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\Feature_hint\\Feature_hint.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\ExpectBox\\ExpectBox.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\ExpectBox\\ExpectBox.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\FG_CollectBox\\FG_CollectBox_sub.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\FG_CollectBox\\FG_CollectBox_sub.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\FreeStart_FreeBack\\FG_01_FreeStart_FreeBack.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\FreeStart_FreeBack\\FG_01_FreeStart_FreeBack.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\FreeStart_FreeBack\\FG_02_FreeStart_FreeBack.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\FreeStart_FreeBack\\FG_02_FreeStart_FreeBack.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\FX_battle\\FX_battle.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\FX_battle\\FX_battle.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\FX_battle\\FX_battle_item.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\FX_battle\\FX_battle_item.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\HighPrize\\HighPrize.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\HighPrize\\HighPrize.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\Item\\Item_01.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\Item\\Item_01.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\Item\\Item_02.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\Item\\Item_02.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\loading_page\\loading_page_1.skel": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\loading_page\\loading_page_1.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\loading_page\\loading_page_2.skel": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\loading_page\\loading_page_2.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\NG_CollectBox\\FX_FreeStart_back.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\NG_CollectBox\\FX_FreeStart_back.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\loading_page\\loading_page_3.skel": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\loading_page\\loading_page_3.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\NG_CollectBox\\FX_FreeStart_front.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\NG_CollectBox\\FX_FreeStart_front.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\NG_CollectBox\\NG_CollectBox.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\NG_CollectBox\\NG_CollectBox.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\NG_CollectBox\\NG_CollectBox_back.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\NG_CollectBox\\NG_CollectBox_back.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\NG_CollectBox\\NG_CollectBox_freestart.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\NG_CollectBox\\NG_CollectBox_freestart.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\NG_CollectBox\\NG_CollectBox_sub.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\NG_CollectBox\\NG_CollectBox_sub.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\sym_bonus\\icon_10.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\sym_bonus\\icon_10.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\sym_bonus\\icon_11.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\sym_bonus\\icon_11.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\sym_highpay\\Icon_00.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\sym_highpay\\Icon_00.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\sym_highpay\\Icon_01.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\sym_highpay\\Icon_01.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\sym_highpay\\icon_02.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\sym_highpay\\icon_02.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\sym_highpay\\icon_03.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\sym_highpay\\icon_03.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\sym_lowpay\\icon_04_07.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\sym_lowpay\\icon_04_07.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\WinScore\\WinScore.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\WinScore\\WinScore.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\sym_wild\\icon_08_09_frame.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\sym_wild\\icon_08_09_frame.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\sym_wild\\icon_08_09_bot.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\sym_wild\\icon_08_09_bot.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\BFG\\BuyFG.skel": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\BFG\\BuyFG.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\Bkg\\FG_Bkg_back.skel": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\Bkg\\FG_Bkg_back.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\Bkg\\NG_Bkg_front.skel": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\Bkg\\NG_Bkg_front.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\Bkg\\NG_Bkg_back.skel": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\Bkg\\NG_Bkg_back.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\Bkg\\FG_Bkg_front.skel": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\Bkg\\FG_Bkg_front.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\Bkg\\NG_reel.skel": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\Bkg\\NG_reel.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\Btn_BFG\\Btn_BuyFG.skel": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\Btn_BFG\\Btn_BuyFG.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\Feature_hint\\Feature_hint.skel": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\Feature_hint\\Feature_hint.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\ConnectBox\\ConnectBox.skel": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\ConnectBox\\ConnectBox.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\ExpectBox\\ExpectBox.skel": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\ExpectBox\\ExpectBox.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\FG_CollectBox\\FG_CollectBox_sub.skel": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\FG_CollectBox\\FG_CollectBox_sub.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\FreeStart_FreeBack\\FG_02_FreeStart_FreeBack.skel": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\FreeStart_FreeBack\\FG_02_FreeStart_FreeBack.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\FreeStart_FreeBack\\FG_01_FreeStart_FreeBack.skel": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\FreeStart_FreeBack\\FG_01_FreeStart_FreeBack.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\FX_battle\\FX_battle.skel": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\FX_battle\\FX_battle.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\FX_battle\\FX_battle_item.skel": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\FX_battle\\FX_battle_item.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\HighPrize\\HighPrize.skel": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\HighPrize\\HighPrize.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\Item\\Item_01.skel": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\Item\\Item_01.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\Item\\Item_02.skel": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\Item\\Item_02.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\NG_CollectBox\\FX_FreeStart_back.skel": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\NG_CollectBox\\FX_FreeStart_back.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\NG_CollectBox\\FX_FreeStart_front.skel": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\NG_CollectBox\\FX_FreeStart_front.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\NG_CollectBox\\NG_CollectBox_freestart.skel": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\NG_CollectBox\\NG_CollectBox_freestart.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\NG_CollectBox\\NG_CollectBox_back.skel": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\NG_CollectBox\\NG_CollectBox_back.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\NG_CollectBox\\NG_CollectBox_sub.skel": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\NG_CollectBox\\NG_CollectBox_sub.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\sym_bonus\\Icon_10.skel": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\sym_bonus\\Icon_10.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\sym_bonus\\Icon_11.skel": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\sym_bonus\\Icon_11.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\sym_highpay\\icon_02.skel": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\sym_highpay\\icon_02.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\sym_highpay\\Icon_01.skel": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\sym_highpay\\Icon_01.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\sym_highpay\\Icon_00.skel": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\sym_highpay\\Icon_00.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\sym_highpay\\icon_03.skel": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\sym_highpay\\icon_03.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\sym_wild\\Icon_08_09_bot.skel": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\sym_wild\\Icon_08_09_bot.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\sym_lowpay\\Icon_04_07.skel": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\sym_lowpay\\Icon_04_07.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\WinScore\\WinScore.skel": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\WinScore\\WinScore.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\sym_wild\\Icon_08_09_frame.skel": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\sym_wild\\Icon_08_09_frame.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\Test\\SpineTriCountTest\\MESH1000.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\Test\\SpineTriCountTest\\MESH1000.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\Test\\SpineTriCountTest\\WeightH_BoneL.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\Test\\SpineTriCountTest\\WeightH_BoneL.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\Test\\SpineTriCountTest\\WeightL_BoneL.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\Test\\SpineTriCountTest\\WeightL_BoneL.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Test\\GameStart\\spine\\loading\\loading_page1.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Test\\GameStart\\spine\\loading\\loading_page1.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Test\\GameStart\\spine\\loading\\loading_page1_bot.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Test\\GameStart\\spine\\loading\\loading_page1_bot.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Test\\GameStart\\spine\\loading\\loading_page1_front.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Test\\GameStart\\spine\\loading\\loading_page1_front.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Test\\GameStart\\spine\\loading\\loading_page2.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Test\\GameStart\\spine\\loading\\loading_page2.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Test\\SpineTest\\Test1\\skel\\icon_01_to_spine.skel": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Test\\SpineTest\\Test1\\skel\\icon_01_to_spine.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Common\\GenericUI\\Arts\\Fonts\\Roboto-Bold.fnt": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Common\\GenericUI\\Arts\\Fonts\\Roboto-Bold.png"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Common\\ApexLogo\\Spine\\Apex_Logo\\Apex_Logo.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Common\\ApexLogo\\Spine\\Apex_Logo\\Apex_Logo.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Test\\SpineTest\\Test1\\skel3\\raptor-pro.skel": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Test\\SpineTest\\Test1\\skel3\\raptor-pro.atlas"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Test\\SpineTest\\Test1\\skel2\\wildb.skel": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Test\\SpineTest\\Test1\\skel2\\wildb.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Common\\H5_MsgWin\\Effect\\Fonts\\win_number.fnt": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Common\\H5_MsgWin\\Effect\\Fonts\\win_number.png"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Game\\Game018\\Arts\\FGTransitionAtlases\\fnt_FreeBack_settle\\fnt_FreeBack_settle.fnt": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Game\\Game018\\Arts\\FGTransitionAtlases\\fnt_FreeBack_settle\\fnt_FreeBack_settle.png"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Game\\Game018\\Arts\\Fonts\\fnt_BuyFG\\fnt_BuyFG.fnt": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Game\\Game018\\Arts\\Fonts\\fnt_BuyFG\\fnt_BuyFG.png"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Game\\Game018\\Arts\\Fonts\\fnt_buyFG_totalbet\\fnt_buyFG_totalbet.fnt": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Game\\Game018\\Arts\\Fonts\\fnt_buyFG_totalbet\\fnt_buyFG_totalbet.png"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\Effect\\Example\\Resource\\skeleton.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\Effect\\Example\\Resource\\skeleton.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Game\\Game018\\Arts\\Fonts\\fnt_FG_freespins\\fnt_FG_freespins.fnt": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Game\\Game018\\Arts\\Fonts\\fnt_FG_freespins\\fnt_FG_freespins.png"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Game\\Game018\\Arts\\Fonts\\fnt_FG_remaining\\fnt_FG_remaining.fnt": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Game\\Game018\\Arts\\Fonts\\fnt_FG_remaining\\fnt_FG_remaining.png"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Game\\Game018\\Arts\\Fonts\\fnt_HighPrize\\fnt_HighPrize.fnt": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Game\\Game018\\Arts\\Fonts\\fnt_HighPrize\\fnt_HighPrize.png"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Game\\Game018\\Arts\\Fonts\\fnt_WinScore\\fnt_WinScore.fnt": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Game\\Game018\\Arts\\Fonts\\fnt_WinScore\\fnt_WinScore.png"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Common\\GenericUI\\Arts\\Fonts\\Show_WIN\\font.fnt": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Common\\GenericUI\\Arts\\Fonts\\Show_WIN\\font_0.png"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\Res\\SpineAlpha\\icon_00.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\Res\\SpineAlpha\\icon_00.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\Res\\SpineEvent\\EventKey_Test.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\Res\\SpineEvent\\EventKey_Test.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\SpinePremuiltyply_webp_Test\\Art\\webp\\no_premultiply_alpha\\skeleton_wp.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\SpinePremuiltyply_webp_Test\\Art\\webp\\no_premultiply_alpha\\skeleton_wp.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\Res\\SpineMix\\Item.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\Res\\SpineMix\\Item.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\SpinePremuiltyply_webp_Test\\Art\\webp\\no_premultiply_alpha\\skeleton.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\SpinePremuiltyply_webp_Test\\Art\\webp\\no_premultiply_alpha\\skeleton.atlas.txt"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\SpinePremuiltyply_webp_Test\\Art\\webp\\premultiply_alpha\\skeleton.json": [
+      "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\SpinePremuiltyply_webp_Test\\Art\\webp\\premultiply_alpha\\skeleton.atlas.txt"
+    ]
+  },
+  "uuid": {
+    "D:\\cocosProject\\Web_Slot\\assets\\Test\\SpineTest\\Test1\\skel\\icon_01_to_spine.skel": [
+      "5580c9ec-1b05-406c-bcef-2479482a1d90@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Test\\SpineTest\\Test1\\skel2\\wildb.skel": [
+      "b16be823-98fd-4487-8f62-478130fd5a68@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Test\\SpineTest\\Test1\\skel3\\raptor-pro.skel": [
+      "162b92f2-8f8f-43ae-94d8-c491114e3ced@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\Effect\\Material\\SpriteAdditive.mtl": [
+      "4d75accf-b343-4b95-ac21-2e5cdacab573"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\Effect\\Material\\SpriteBlur.mtl": [
+      "7b01018c-ece9-4ca7-a16c-8ffacce55b14"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\Effect\\Material\\SpriteDissolve.mtl": [
+      "12b41e1d-eae5-4fb6-ad61-5d93766a5ad2"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\Effect\\Material\\SpriteDistortion.mtl": [
+      "7f48b625-bd05-4299-bc35-f22b07feef5b"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\SpriteTool\\Materials\\grayscale.mtl": [
+      "62da0208-22ff-4c67-8cfa-97fbb1c72712"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\SpriteTool\\Materials\\motion-blur-y.mtl": [
+      "fede8fcc-c34d-4e5e-9fc5-626ce6c6ec0a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Common\\GenericUI\\Arts\\Material\\G001_Add_Mat.mtl": [
+      "60f7195c-ec2a-45eb-ba94-8955f60e81d0"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Common\\GenericUI\\Arts\\Material\\G001_Show_WIN_Coin_Mat.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Common\\H5_MsgWin\\Effect\\Material\\Coins_Mat.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Common\\H5_MsgWin\\Effect\\Material\\Glow_Mat.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Common\\H5_MsgWin\\Effect\\Material\\Jewel_Blue_Mat.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Common\\H5_MsgWin\\Effect\\Material\\Jewel_Purple_Mat.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Common\\H5_MsgWin\\Effect\\Material\\Jewel_Red_Mat.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Common\\H5_MsgWin\\Effect\\Material\\Light_Mat.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Common\\H5_MsgWin\\Effect\\Material\\Line_Mat.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Common\\H5_MsgWin\\Effect\\Material\\Particle_Mat.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Common\\H5_MsgWin\\Effect\\Material\\Star_Mat.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\Res\\SpriteAdditive.mtl": [
+      "4d75accf-b343-4b95-ac21-2e5cdacab573"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\Res\\SpriteAdditive2.mtl": [
+      "4d75accf-b343-4b95-ac21-2e5cdacab573"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1001\\Arts\\Spine\\machine\\machine.json": [
+      "8c883e91-c3db-4018-842e-045d59d8cb4c@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1001\\Arts\\Spine\\machine\\machine_glow.json": [
+      "889c0a27-9815-4385-a7ab-f2540201540e@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1001\\Arts\\Spine\\Switch\\Switch_Bkg.json": [
+      "d956e032-ab38-42dc-9cad-9eb98328f005@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\Res\\SpineEvent\\EventKey_Test.json": [
+      "f409fabd-ccbe-4604-8615-85ccf4dc6d72@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\SpinePremuiltyply_webp_Test\\Art\\webp\\no_premultiply_alpha\\skeleton.json": [
+      "5f8ba7ad-22b6-4338-bfc5-66aee7539ae1@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\SpinePremuiltyply_webp_Test\\Art\\webp\\no_premultiply_alpha\\skeleton_wp.json": [
+      "f394f0f9-608f-4304-98a4-380a704f449d@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\SpinePremuiltyply_webp_Test\\Art\\webp\\premultiply_alpha\\skeleton.json": [
+      "e4190b19-c8d0-4ea8-818c-aa6f84840cb0@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\SpinePremuiltyply_webp_Test\\Art\\webp\\premultiply_alpha\\skeleton_wp.json": [
+      "b2c978e2-dd1e-491b-a35b-7b5849cd8617@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Test\\SpineTest\\machine\\machine.json": [
+      "8c883e91-c3db-4018-842e-045d59d8cb4c@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Test\\SpineTest\\machine\\machine_glow.json": [
+      "889c0a27-9815-4385-a7ab-f2540201540e@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Arts\\Material\\BG\\G1003_Par_gem_p_5x3_Mat.mtl": [
+      "971bdb23-3ff6-43eb-b422-1c30165a3663"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Arts\\Material\\BG\\G1003_Par_gem_r_5x3_Mat.mtl": [
+      "971bdb23-3ff6-43eb-b422-1c30165a3663"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Arts\\Material\\BG\\G1003_Par_Light_Mat.mtl": [
+      "971bdb23-3ff6-43eb-b422-1c30165a3663"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Arts\\Material\\BG\\G1003_Par_smoke_Mat.mtl": [
+      "971bdb23-3ff6-43eb-b422-1c30165a3663"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Arts\\Material\\BG\\G1003_Par_SweepLight01_5x3_Mat.mtl": [
+      "971bdb23-3ff6-43eb-b422-1c30165a3663"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Arts\\Material\\BG\\G1003_Par_SweepLight02_5x3_Mat.mtl": [
+      "971bdb23-3ff6-43eb-b422-1c30165a3663"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Arts\\Material\\BG\\G1003_Par_SweepLight03_3x5_Mat.mtl": [
+      "971bdb23-3ff6-43eb-b422-1c30165a3663"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Arts\\Material\\BG\\G1003_Par_SweepLight04_1x15_Mat.mtl": [
+      "971bdb23-3ff6-43eb-b422-1c30165a3663"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Arts\\Material\\BG\\G1003_Par_SweepLight05_5x3_Mat.mtl": [
+      "971bdb23-3ff6-43eb-b422-1c30165a3663"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Arts\\Material\\Mult\\G1003_Par_ball_glow_5x3_Mat.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Arts\\Material\\Mult\\G1003_Par_frame_saber_b_6x5_Mat.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Arts\\Material\\Mult\\G1003_Par_frame_saber_g_6x5_Mat.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Arts\\Material\\Mult\\G1003_Par_frame_saber_p_6x5_Mat.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Arts\\Material\\Mult\\G1003_Par_frame_saber_r_6x5_Mat.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Arts\\Material\\Mult\\G1003_Par_star_Mat.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Arts\\Material\\Mult\\G1003_Spr_add_Mat.mtl": [
+      "60f7195c-ec2a-45eb-ba94-8955f60e81d0"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Arts\\Material\\PointBoom\\G1003_PointBoom_Add_Mat.mtl": [
+      "60f7195c-ec2a-45eb-ba94-8955f60e81d0"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Arts\\Material\\PointBoom\\G1003_PointBoom_Fire_Mat.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Arts\\Material\\PointBoom\\G1003_PointBoom_Flash_Mat.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Arts\\Material\\PointBoom\\G1003_PointBoom_Spark_Mat.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Arts\\Material\\PointBoom\\G1003_PointBoom_Star_Mat.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Arts\\Material\\show_win\\G1003_show_win_add_00_Mat.mtl": [
+      "60f7195c-ec2a-45eb-ba94-8955f60e81d0"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Arts\\Material\\show_win\\G1003_show_win_add_01_Mat.mtl": [
+      "60f7195c-ec2a-45eb-ba94-8955f60e81d0"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Arts\\Material\\show_win\\G1003_show_win_big_Mat.mtl": [
+      "4d75accf-b343-4b95-ac21-2e5cdacab573"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Arts\\Material\\show_win\\G1003_show_win_Coin_01_Mat.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Arts\\Material\\show_win\\G1003_show_win_Coin_02_Mat.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Arts\\Material\\show_win\\G1003_show_win_Coin_03_Mat.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Arts\\Material\\show_win\\G1003_show_win_coin_04_Mat.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Arts\\Material\\show_win\\G1003_show_win_Coin_05_Mat.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Arts\\Material\\show_win\\G1003_show_win_epic_Mat.mtl": [
+      "4d75accf-b343-4b95-ac21-2e5cdacab573"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Arts\\Material\\show_win\\G1003_show_win_lig_00_Mat.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Arts\\Material\\show_win\\G1003_show_win_mega_Mat.mtl": [
+      "4d75accf-b343-4b95-ac21-2e5cdacab573"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Arts\\Material\\show_win\\G1003_show_win_metal_Mat.mtl": [
+      "4d75accf-b343-4b95-ac21-2e5cdacab573"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Arts\\Material\\show_win\\G1003_show_win_star_01_Mat.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Arts\\Material\\show_win\\G1003_show_win_super_Mat.mtl": [
+      "4d75accf-b343-4b95-ac21-2e5cdacab573"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Arts\\Spine\\BG\\G1003_scene.json": [
+      "d179a462-8bfb-4114-84ae-e450eb709d3a@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Arts\\Spine\\Mult_Frame\\G1003_mult_frame.json": [
+      "0c6147de-626f-4f11-9bef-7c887ec87735@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Game\\Game1003\\Arts\\Spine\\Symbol\\G1003_Symbol.json": [
+      "2d51f928-0bde-4b49-9563-ed67aea4d1d5@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\WaninPlayer\\Example\\material.mtl": [
+      "fbe18432-aa3e-4629-b183-aed130089468"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Material\\Bonus_dot_b_Mat.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Material\\Bonus_dot_Mat.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Material\\Bonus_light_add_Mat.mtl": [
+      "60f7195c-ec2a-45eb-ba94-8955f60e81d0"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\Feature_hint\\Feature_hint.json": [
+      "779547fb-5065-47f0-b3c9-79391b5f5feb@6c48a",
+      "135d68a8-23bc-4c1d-bd35-fbd731258f8f@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\FG_CollectBox\\FG_CollectBox_sub.json": [
+      "08d39148-896b-4465-8cb7-77a3839fcbe0@6c48a",
+      "6c0699a8-d2e8-44f0-825b-4f597d651913@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\FX_battle\\FX_battle.json": [
+      "26c018e9-954d-4205-b717-1c73894e294d@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\FX_battle\\FX_battle_item.json": [
+      "34f2278a-8a9e-4d95-b007-90899bbc1466@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_bonus\\icon_10.json": [
+      "a9483ee2-fe5b-4cf7-a35f-7a62f8fa459f@6c48a",
+      "8b8b189c-aa5c-42c4-8889-e122effdb172@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_bonus\\icon_11.json": [
+      "eb3c875b-e939-4225-a400-0c069b5d6801@6c48a",
+      "272443b0-596c-49bf-bbef-0874fa080825@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_lowpay\\icon_04_07.json": [
+      "5f0e5a01-bff9-4cb3-8840-c6f4d9b9e697@6c48a",
+      "388fa79e-9a6c-4d36-a7f3-d2bd18525229@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_wild\\icon_08_09_bot.json": [
+      "d4795979-112c-49e1-a055-5a98158925b3@6c48a",
+      "f7527e67-b97e-41c9-bd9d-1556b73cc0db@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_wild\\icon_08_09_frame.json": [
+      "173737a4-3c70-4f7c-a5e1-fcf98af90cc2@6c48a",
+      "79b7bc0f-9fb4-4744-a749-056d750eaab6@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\WinScore\\WinScore.json": [
+      "05d0b35e-7a35-4f65-9bee-98a545e1e565@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\BFG\\BuyFG.json": [
+      "fcbd0806-fb5d-4002-b7fe-1ee61b8d919f@6c48a",
+      "7e56d458-64ce-4796-a0af-47f87600f425@6c48a",
+      "f44dc19f-3c59-4b49-bc4f-451c13b65652@6c48a",
+      "ba0b63d7-f8fe-40df-9401-91adb35ff250@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\Bkg\\FG_Bkg_back.json": [
+      "4b13e439-adca-492c-9021-8af6712f83cf@6c48a",
+      "e7466213-706f-4c43-9618-d5d9be451e0d@6c48a",
+      "40541d68-f233-4284-9ea0-ac85c4ece0b2@6c48a",
+      "62bc297e-5016-4ee3-b6bc-7b40a7d18d21@6c48a",
+      "706168c5-f562-4e71-be3f-ce368e75e1a7@6c48a",
+      "d0fb8af7-814f-482d-a490-98e8196ac41c@6c48a",
+      "7da036e5-9101-4200-9227-59b14dc8aa8a@6c48a",
+      "e1057bb8-4b4f-43b7-830d-e894c68ae8f4@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\Bkg\\FG_Bkg_front.json": [
+      "7a0b6cb6-7863-47f0-b3ec-b6c58393f660@6c48a",
+      "c390a3fd-6ee2-457b-82ca-23446c7dd044@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\Bkg\\NG_Bkg_back.json": [
+      "ebfed462-e41e-42cf-80ee-9e1884c537f1@6c48a",
+      "f64bd7ae-73b9-4f0b-8796-c29cdd69031a@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\Bkg\\NG_Bkg_front.json": [
+      "1a248269-f9c1-4da9-95d9-66453c2f8a45@6c48a",
+      "96b8be68-4112-4601-8f8a-25c79aba5ec2@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\Bkg\\NG_reel.json": [
+      "37191b2a-c68c-486f-b541-61eea9573663@6c48a",
+      "2f04bb07-9620-48fb-bdee-5e4e635c8153@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\Btn_BFG\\Btn_BuyFG.json": [
+      "5222237f-7de4-413d-9cde-7cb08084d0d8@6c48a",
+      "108f0874-ba7c-41ff-9305-538c764754a5@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\ConnectBox\\ConnectBox.json": [
+      "df6cb14e-504c-4c7a-9d1a-5739ccf7bdc2@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\ExpectBox\\ExpectBox.json": [
+      "230e1d1f-98ba-4193-931e-c4ad85b51554@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\FreeStart_FreeBack\\FG_01_FreeStart_FreeBack.json": [
+      "24dc2008-f07e-4f3e-b809-51b0e49025bc@6c48a",
+      "c5166435-f1b6-4143-90a7-045c973fb48b@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\FreeStart_FreeBack\\FG_02_FreeStart_FreeBack.json": [
+      "c1d00ebc-c202-4bc2-8469-d299a794e440@6c48a",
+      "f9b0c006-aabb-488e-86e9-5ca37a8d8604@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\Item\\Item_01.json": [
+      "5c9dc2ca-87ea-4179-ac3b-7e33244c76a7@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\Item\\Item_02.json": [
+      "ccee777a-cc91-4166-9604-758a83ecb7f5@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\NG_CollectBox\\FX_FreeStart_back.json": [
+      "6559b00c-3ba8-4824-b942-60ea7b903e25@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\NG_CollectBox\\FX_FreeStart_front.json": [
+      "89588b87-b547-485e-b2de-ebb9fccf010d@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\NG_CollectBox\\NG_CollectBox.json": [
+      "1fbf7cac-6a89-4808-9fef-38a991e6d95c@6c48a",
+      "2dc60087-1bad-41d4-bf56-906a697f33fd@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\Effect\\Material\\SpriteAdditive-001.mtl": [
+      "4d75accf-b343-4b95-ac21-2e5cdacab573"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_highpay\\Icon_00.json": [
+      "d3ba988d-c6b3-44c8-b546-aac58e25e391@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_highpay\\Icon_01.json": [
+      "64a2819b-c05a-4f6a-91c7-5651fa66083c@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_highpay\\icon_02.json": [
+      "58e7cb37-ec7d-42f4-850f-dc56eb357044@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_highpay\\icon_03.json": [
+      "d4a994dd-0c18-41d9-841e-681ac8217d11@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\NG_CollectBox\\NG_CollectBox_back.json": [
+      "d5afe5d0-0253-4a2d-96be-ddd59ee90151@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\NG_CollectBox\\NG_CollectBox_freestart.json": [
+      "8d9b9b0e-73f0-4ff3-913e-14a48a2e2b73@6c48a",
+      "db153f10-f9f5-4c1d-ad89-1189ff7b9adf@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\NG_CollectBox\\NG_CollectBox_sub.json": [
+      "c6fc589d-d21a-415e-bd4d-7e39f82fb0f1@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\HighPrize\\HighPrize.json": [
+      "58817f49-5e8a-461d-88ed-6939a0ffd404@6c48a",
+      "b17a2a61-c530-468f-a062-bb66078397ac@6c48a",
+      "6241e9b4-9c2e-4129-9579-1cbad70fc3a3@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\resources\\Game\\ImageLocalization\\en\\BuyFG_btn_confirm_txt.mtl": [
+      "c8f66d17-351a-48da-a12c-0212d28575c4"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_bonus\\Icon_10.json": [
+      "8b8b189c-aa5c-42c4-8889-e122effdb172@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_bonus\\Icon_11.json": [
+      "272443b0-596c-49bf-bbef-0874fa080825@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_lowpay\\Icon_04_07.json": [
+      "388fa79e-9a6c-4d36-a7f3-d2bd18525229@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_wild\\Icon_08_09_bot.json": [
+      "f7527e67-b97e-41c9-bd9d-1556b73cc0db@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\sym_wild\\Icon_08_09_frame.json": [
+      "79b7bc0f-9fb4-4744-a749-056d750eaab6@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\BFG\\BuyFG.skel": [
+      "29bfff33-3e93-48a3-b370-66a51502b218@6c48a",
+      "63066771-933c-4228-8bde-517dc7680e1b@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\Bkg\\FG_Bkg_back.skel": [
+      "3cb97945-ec8b-4c7c-9ee7-93902af2847a@6c48a",
+      "bcf48f2f-7c1d-4540-966a-0ffa8721d76e@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\Bkg\\FG_Bkg_front.skel": [
+      "cc5ea48b-7d8c-464e-becf-69f8e91eb49d@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\Bkg\\NG_Bkg_back.skel": [
+      "4a031394-fd85-4d2b-a2d9-edfca7a419e8@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\Bkg\\NG_Bkg_front.skel": [
+      "97884774-2f1c-40f8-bc7e-e52dafea6bf5@6c48a",
+      "910c71d1-8be3-4ee0-8506-421737a7c793@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\Bkg\\NG_reel.skel": [
+      "7d39c571-f51f-4774-8c72-ecb0b15e0cec@6c48a",
+      "2060ed15-8c2c-463c-9890-762dc8cfc306@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\Btn_BFG\\Btn_BuyFG.skel": [
+      "64958b6b-5e79-4dd0-9c45-b8dd4bf7610f@6c48a",
+      "e959c5bc-51c1-4263-a120-2780e1ae647e@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\ConnectBox\\ConnectBox.skel": [
+      "abfada0b-1231-4e19-bf55-da9b7d29ad1e@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\ExpectBox\\ExpectBox.skel": [
+      "cc104323-a130-418f-a972-99b09db3d799@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\Feature_hint\\Feature_hint.skel": [
+      "f53ea8e7-b497-4b8a-8eca-aed78598a64c@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\FG_CollectBox\\FG_CollectBox_sub.skel": [
+      "18840766-efc9-4506-a755-a869dc9febc5@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\FreeStart_FreeBack\\FG_01_FreeStart_FreeBack.skel": [
+      "aa119376-59c4-432c-a3cd-c8f5acdaf4b4@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\FreeStart_FreeBack\\FG_02_FreeStart_FreeBack.skel": [
+      "b863addc-07c2-417a-919f-086ce4c64ad4@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\FX_battle\\FX_battle.skel": [
+      "67236176-47ef-4d2e-9719-2be829c5c493@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\FX_battle\\FX_battle_item.skel": [
+      "8690fc71-42dd-40c8-b818-cf511e4b6035@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\HighPrize\\HighPrize.skel": [
+      "0d209556-1612-417d-8174-c429e9974dfe@6c48a",
+      "f9d666b2-de14-49f6-ac2e-c6ebba79f560@6c48a",
+      "21f9d951-f175-4aaa-98aa-daf0ec448e3e@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\Item\\Item_01.skel": [
+      "38b9fc6f-2c27-4425-ab5c-f75b1746e2a4@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\Item\\Item_02.skel": [
+      "306c6c49-7ed8-4889-91ce-3d69285e772a@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\NG_CollectBox\\FX_FreeStart_back.skel": [
+      "7a8884da-d90e-4ecc-8d7b-79713fd93575@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\NG_CollectBox\\FX_FreeStart_front.skel": [
+      "47acafae-c3ae-4974-9f82-cae0c3c53ce5@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\NG_CollectBox\\NG_CollectBox_back.skel": [
+      "c97c1770-a178-4bdc-9953-8f7baae9c906@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\NG_CollectBox\\NG_CollectBox_freestart.skel": [
+      "1838a638-f395-4f97-a425-d6b994448695@6c48a",
+      "7b7afd2a-4a88-49ea-a7b3-f9a7c53abac4@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\NG_CollectBox\\NG_CollectBox_sub.skel": [
+      "d1a03f62-cb61-4503-bd91-7129d522f353@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\sym_bonus\\Icon_10.skel": [
+      "c86d8f74-9245-47c3-8f1e-4d7e6430481a@6c48a",
+      "8415c876-93a1-47b0-9711-bd1a3ac54cea@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\sym_bonus\\Icon_11.skel": [
+      "17b3c9c1-2a2c-4aab-ac52-afc9f9a90fd5@6c48a",
+      "8b0650e1-c625-43b6-bdc7-345df1948353@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\sym_highpay\\Icon_00.skel": [
+      "48371b80-bcc9-4554-8300-cc5a2037b16e@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\sym_highpay\\Icon_01.skel": [
+      "9306af28-7564-4693-b308-0ed6475c7f01@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\sym_highpay\\icon_02.skel": [
+      "fede58a1-b70a-4fd9-9733-2dfbf3305579@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\sym_highpay\\icon_03.skel": [
+      "22ed529e-b4f7-49d6-b71e-014c292a5221@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\sym_lowpay\\Icon_04_07.skel": [
+      "fcbe1647-0109-4388-acd4-5d4207300a47@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\sym_wild\\Icon_08_09_bot.skel": [
+      "05b1b655-9eb2-4153-911b-7016c8c9a224@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\sym_wild\\Icon_08_09_frame.skel": [
+      "29a20bb3-b8d9-4fda-9605-6e3d8dcf13e6@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine_優化\\WinScore\\WinScore.skel": [
+      "eebbb473-5b26-44a2-9fcc-91871831f372@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\Effect\\Material\\FeatherMask-001.mtl": [
+      "e98bc192-76db-4a37-8a15-ebd1ef953a7c"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\Effect\\Material\\FeatherMask.mtl": [
+      "e98bc192-76db-4a37-8a15-ebd1ef953a7c"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Test\\GameStart\\spine\\loading\\loading_page1.json": [
+      "9c94bc24-e200-4593-b769-0ed65acde56c@6c48a",
+      "08d34a80-d6e7-4dad-98a1-8cabebcd689b@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Test\\GameStart\\spine\\loading\\loading_page1_bot.json": [
+      "2e2eb02f-6f49-41f8-bc5d-4b15e33e16b2@6c48a",
+      "8feb4598-d03a-41ea-b96a-5ff6a9ffd348@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Test\\GameStart\\spine\\loading\\loading_page1_front.json": [
+      "011c25f3-c955-4fa9-8876-d876cde2076f@6c48a",
+      "28b2350c-4703-41a6-ab51-cb2be8e98fca@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Test\\GameStart\\spine\\loading\\loading_page2.json": [
+      "720e725c-79ce-4574-ba73-010b98e3ae9c@6c48a",
+      "cc2340c1-f427-42e9-9a09-17c9351528ed@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Common\\ApexLogo\\Spine\\Apex_Logo\\Apex_Logo.json": [
+      "b13d3cd4-f1d0-46cd-9920-e60b5d740fbe@6c48a",
+      "4dac7cfe-be1f-44f5-8133-676ba8098efd@6c48a",
+      "ff39a42d-cf2f-48de-93d7-72670060365b@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\Effect\\Example\\Resource\\skeleton.json": [
+      "7ec3680d-1102-4f5f-ac33-f0f834f3cb95@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\Res\\SpineAlpha\\icon_00.json": [
+      "7f450695-3e85-4776-8694-4d3bbacfc9c6@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\Res\\SpineMix\\Item.json": [
+      "1e4fc8d3-1fee-4f3c-84ba-1836431498b8@6c48a",
+      "f4eb4381-54a7-4fc4-bcf8-bf2c82c94314@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\loading_page\\loading_page_1.skel": [
+      "956d6569-f39e-40c2-883b-f2d55357d559@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\loading_page\\loading_page_2.skel": [
+      "22185a27-9bc8-4757-a2c1-9ddc249076af@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Game\\Spine\\loading_page\\loading_page_3.skel": [
+      "779d6b0f-f31f-4599-b0f3-0bf1b4700923@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Test\\CountTest\\Spine\\skeleton.skel": [
+      "106d99a9-3568-4343-b53b-a642a65f44b8@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\Test\\SpineTriCountTest\\MESH1000.json": [
+      "58d8ffde-3747-4f3c-b132-15019994afc0@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\Test\\SpineTriCountTest\\WeightH_BoneH.json": [
+      "99e5d873-c7a7-4c41-863e-5b952abeaba5@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\Test\\SpineTriCountTest\\WeightH_BoneL.json": [
+      "7703a4a9-3fb0-4d2a-9018-538a3947821b@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\Test\\SpineTriCountTest\\WeightL_BoneL.json": [
+      "bab6e55d-bde7-4eef-ad96-4e2e6195c0d9@6c48a"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\Test\\MotionStreakAuxiliary\\Arts\\Material\\icon_10_Trail\\icon_10_Trail.mtl": [
+      "60f7195c-ec2a-45eb-ba94-8955f60e81d0"
+    ],
+    "D:\\cocosProject\\Web_Slot\\assets\\Arts\\Tools\\Test\\MotionStreakAuxiliary\\Arts\\Material\\icon_10_Trail\\particle.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\WaninPlayer\\Example\\material.mtl": [
+      "fbe18432-aa3e-4629-b183-aed130089468"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Material\\Bonus_dot_b_Mat.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Material\\Bonus_light_add_Mat.mtl": [
+      "60f7195c-ec2a-45eb-ba94-8955f60e81d0"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Test\\CountTest\\Spine\\skeleton.skel": [
+      "106d99a9-3568-4343-b53b-a642a65f44b8@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Test\\SpineTest\\machine\\machine.json": [
+      "8c883e91-c3db-4018-842e-045d59d8cb4c@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Test\\SpineTest\\machine\\machine_glow.json": [
+      "889c0a27-9815-4385-a7ab-f2540201540e@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\BFG\\BuyFG.json": [
+      "f44dc19f-3c59-4b49-bc4f-451c13b65652@6c48a",
+      "ba0b63d7-f8fe-40df-9401-91adb35ff250@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\Bkg\\FG_Bkg_back.json": [
+      "7da036e5-9101-4200-9227-59b14dc8aa8a@6c48a",
+      "e1057bb8-4b4f-43b7-830d-e894c68ae8f4@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\Bkg\\FG_Bkg_front.json": [
+      "c390a3fd-6ee2-457b-82ca-23446c7dd044@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\Bkg\\NG_Bkg_back.json": [
+      "f64bd7ae-73b9-4f0b-8796-c29cdd69031a@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\Bkg\\NG_Bkg_front.json": [
+      "96b8be68-4112-4601-8f8a-25c79aba5ec2@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\Bkg\\NG_reel.json": [
+      "2f04bb07-9620-48fb-bdee-5e4e635c8153@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\Btn_BFG\\Btn_BuyFG.json": [
+      "5222237f-7de4-413d-9cde-7cb08084d0d8@6c48a",
+      "108f0874-ba7c-41ff-9305-538c764754a5@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\ConnectBox\\ConnectBox.json": [
+      "df6cb14e-504c-4c7a-9d1a-5739ccf7bdc2@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\ExpectBox\\ExpectBox.json": [
+      "230e1d1f-98ba-4193-931e-c4ad85b51554@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\Feature_hint\\Feature_hint.json": [
+      "135d68a8-23bc-4c1d-bd35-fbd731258f8f@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\FG_CollectBox\\FG_CollectBox_sub.json": [
+      "6c0699a8-d2e8-44f0-825b-4f597d651913@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\FreeStart_FreeBack\\FG_01_FreeStart_FreeBack.json": [
+      "c5166435-f1b6-4143-90a7-045c973fb48b@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\FreeStart_FreeBack\\FG_02_FreeStart_FreeBack.json": [
+      "f9b0c006-aabb-488e-86e9-5ca37a8d8604@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\FX_battle\\FX_battle.json": [
+      "26c018e9-954d-4205-b717-1c73894e294d@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\FX_battle\\FX_battle_item.json": [
+      "34f2278a-8a9e-4d95-b007-90899bbc1466@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\HighPrize\\HighPrize.json": [
+      "58817f49-5e8a-461d-88ed-6939a0ffd404@6c48a",
+      "b17a2a61-c530-468f-a062-bb66078397ac@6c48a",
+      "6241e9b4-9c2e-4129-9579-1cbad70fc3a3@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\Item\\Item_01.json": [
+      "5c9dc2ca-87ea-4179-ac3b-7e33244c76a7@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\Item\\Item_02.json": [
+      "ccee777a-cc91-4166-9604-758a83ecb7f5@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\loading_page\\loading_page_1.skel": [
+      "956d6569-f39e-40c2-883b-f2d55357d559@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\loading_page\\loading_page_2.skel": [
+      "22185a27-9bc8-4757-a2c1-9ddc249076af@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\loading_page\\loading_page_3.skel": [
+      "779d6b0f-f31f-4599-b0f3-0bf1b4700923@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\NG_CollectBox\\FX_FreeStart_back.json": [
+      "6559b00c-3ba8-4824-b942-60ea7b903e25@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\NG_CollectBox\\FX_FreeStart_front.json": [
+      "89588b87-b547-485e-b2de-ebb9fccf010d@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\NG_CollectBox\\NG_CollectBox.json": [
+      "1fbf7cac-6a89-4808-9fef-38a991e6d95c@6c48a",
+      "2dc60087-1bad-41d4-bf56-906a697f33fd@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\NG_CollectBox\\NG_CollectBox_back.json": [
+      "d5afe5d0-0253-4a2d-96be-ddd59ee90151@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\NG_CollectBox\\NG_CollectBox_freestart.json": [
+      "8d9b9b0e-73f0-4ff3-913e-14a48a2e2b73@6c48a",
+      "db153f10-f9f5-4c1d-ad89-1189ff7b9adf@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\NG_CollectBox\\NG_CollectBox_sub.json": [
+      "c6fc589d-d21a-415e-bd4d-7e39f82fb0f1@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\sym_bonus\\icon_10.json": [
+      "8b8b189c-aa5c-42c4-8889-e122effdb172@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\sym_bonus\\icon_11.json": [
+      "272443b0-596c-49bf-bbef-0874fa080825@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\sym_highpay\\Icon_00.json": [
+      "d3ba988d-c6b3-44c8-b546-aac58e25e391@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\sym_highpay\\Icon_01.json": [
+      "64a2819b-c05a-4f6a-91c7-5651fa66083c@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\sym_highpay\\icon_02.json": [
+      "58e7cb37-ec7d-42f4-850f-dc56eb357044@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\sym_highpay\\icon_03.json": [
+      "d4a994dd-0c18-41d9-841e-681ac8217d11@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\sym_lowpay\\icon_04_07.json": [
+      "388fa79e-9a6c-4d36-a7f3-d2bd18525229@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\sym_wild\\icon_08_09_bot.json": [
+      "f7527e67-b97e-41c9-bd9d-1556b73cc0db@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\sym_wild\\icon_08_09_frame.json": [
+      "79b7bc0f-9fb4-4744-a749-056d750eaab6@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine\\WinScore\\WinScore.json": [
+      "05d0b35e-7a35-4f65-9bee-98a545e1e565@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\BFG\\BuyFG.skel": [
+      "29bfff33-3e93-48a3-b370-66a51502b218@6c48a",
+      "63066771-933c-4228-8bde-517dc7680e1b@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\Bkg\\FG_Bkg_back.skel": [
+      "3cb97945-ec8b-4c7c-9ee7-93902af2847a@6c48a",
+      "bcf48f2f-7c1d-4540-966a-0ffa8721d76e@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\Bkg\\FG_Bkg_front.skel": [
+      "cc5ea48b-7d8c-464e-becf-69f8e91eb49d@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\Bkg\\NG_Bkg_back.skel": [
+      "4a031394-fd85-4d2b-a2d9-edfca7a419e8@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\Bkg\\NG_Bkg_front.skel": [
+      "910c71d1-8be3-4ee0-8506-421737a7c793@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\Bkg\\NG_reel.skel": [
+      "2060ed15-8c2c-463c-9890-762dc8cfc306@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\Btn_BFG\\Btn_BuyFG.skel": [
+      "64958b6b-5e79-4dd0-9c45-b8dd4bf7610f@6c48a",
+      "e959c5bc-51c1-4263-a120-2780e1ae647e@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\ConnectBox\\ConnectBox.skel": [
+      "abfada0b-1231-4e19-bf55-da9b7d29ad1e@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\ExpectBox\\ExpectBox.skel": [
+      "cc104323-a130-418f-a972-99b09db3d799@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\Feature_hint\\Feature_hint.skel": [
+      "f53ea8e7-b497-4b8a-8eca-aed78598a64c@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\FG_CollectBox\\FG_CollectBox_sub.skel": [
+      "18840766-efc9-4506-a755-a869dc9febc5@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\FreeStart_FreeBack\\FG_01_FreeStart_FreeBack.skel": [
+      "aa119376-59c4-432c-a3cd-c8f5acdaf4b4@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\FreeStart_FreeBack\\FG_02_FreeStart_FreeBack.skel": [
+      "b863addc-07c2-417a-919f-086ce4c64ad4@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\FX_battle\\FX_battle.skel": [
+      "67236176-47ef-4d2e-9719-2be829c5c493@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\FX_battle\\FX_battle_item.skel": [
+      "8690fc71-42dd-40c8-b818-cf511e4b6035@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\HighPrize\\HighPrize.skel": [
+      "0d209556-1612-417d-8174-c429e9974dfe@6c48a",
+      "f9d666b2-de14-49f6-ac2e-c6ebba79f560@6c48a",
+      "21f9d951-f175-4aaa-98aa-daf0ec448e3e@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\Item\\Item_01.skel": [
+      "38b9fc6f-2c27-4425-ab5c-f75b1746e2a4@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\Item\\Item_02.skel": [
+      "306c6c49-7ed8-4889-91ce-3d69285e772a@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\NG_CollectBox\\FX_FreeStart_back.skel": [
+      "7a8884da-d90e-4ecc-8d7b-79713fd93575@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\NG_CollectBox\\FX_FreeStart_front.skel": [
+      "47acafae-c3ae-4974-9f82-cae0c3c53ce5@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\NG_CollectBox\\NG_CollectBox_back.skel": [
+      "c97c1770-a178-4bdc-9953-8f7baae9c906@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\NG_CollectBox\\NG_CollectBox_freestart.skel": [
+      "1838a638-f395-4f97-a425-d6b994448695@6c48a",
+      "7b7afd2a-4a88-49ea-a7b3-f9a7c53abac4@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\NG_CollectBox\\NG_CollectBox_sub.skel": [
+      "d1a03f62-cb61-4503-bd91-7129d522f353@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\sym_bonus\\Icon_10.skel": [
+      "8415c876-93a1-47b0-9711-bd1a3ac54cea@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\sym_bonus\\Icon_11.skel": [
+      "8b0650e1-c625-43b6-bdc7-345df1948353@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\sym_highpay\\Icon_00.skel": [
+      "48371b80-bcc9-4554-8300-cc5a2037b16e@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\sym_highpay\\Icon_01.skel": [
+      "9306af28-7564-4693-b308-0ed6475c7f01@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\sym_highpay\\icon_02.skel": [
+      "fede58a1-b70a-4fd9-9733-2dfbf3305579@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\sym_highpay\\icon_03.skel": [
+      "22ed529e-b4f7-49d6-b71e-014c292a5221@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\sym_lowpay\\Icon_04_07.skel": [
+      "fcbe1647-0109-4388-acd4-5d4207300a47@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\sym_wild\\Icon_08_09_bot.skel": [
+      "05b1b655-9eb2-4153-911b-7016c8c9a224@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\sym_wild\\Icon_08_09_frame.skel": [
+      "29a20bb3-b8d9-4fda-9605-6e3d8dcf13e6@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Game\\Spine_優化\\WinScore\\WinScore.skel": [
+      "eebbb473-5b26-44a2-9fcc-91871831f372@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\Effect\\Material\\FeatherMask-001.mtl": [
+      "e98bc192-76db-4a37-8a15-ebd1ef953a7c"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\Effect\\Material\\FeatherMask.mtl": [
+      "e98bc192-76db-4a37-8a15-ebd1ef953a7c"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\Effect\\Material\\SpriteAdditive-001.mtl": [
+      "4d75accf-b343-4b95-ac21-2e5cdacab573"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\Effect\\Material\\SpriteAdditive.mtl": [
+      "4d75accf-b343-4b95-ac21-2e5cdacab573"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\Effect\\Material\\SpriteBlur.mtl": [
+      "7b01018c-ece9-4ca7-a16c-8ffacce55b14"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\Effect\\Material\\SpriteDistortion.mtl": [
+      "7f48b625-bd05-4299-bc35-f22b07feef5b"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\Effect\\Material\\SpriteDissolve.mtl": [
+      "12b41e1d-eae5-4fb6-ad61-5d93766a5ad2"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\SpriteTool\\Materials\\grayscale.mtl": [
+      "62da0208-22ff-4c67-8cfa-97fbb1c72712"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\SpriteTool\\Materials\\motion-blur-y.mtl": [
+      "fede8fcc-c34d-4e5e-9fc5-626ce6c6ec0a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\Test\\SpineTriCountTest\\MESH1000.json": [
+      "58d8ffde-3747-4f3c-b132-15019994afc0@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\Test\\SpineTriCountTest\\WeightH_BoneH.json": [
+      "99e5d873-c7a7-4c41-863e-5b952abeaba5@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\Test\\SpineTriCountTest\\WeightH_BoneL.json": [
+      "7703a4a9-3fb0-4d2a-9018-538a3947821b@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\Test\\SpineTriCountTest\\WeightL_BoneL.json": [
+      "bab6e55d-bde7-4eef-ad96-4e2e6195c0d9@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Test\\GameStart\\spine\\loading\\loading_page1.json": [
+      "08d34a80-d6e7-4dad-98a1-8cabebcd689b@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Test\\GameStart\\spine\\loading\\loading_page1_bot.json": [
+      "8feb4598-d03a-41ea-b96a-5ff6a9ffd348@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Test\\GameStart\\spine\\loading\\loading_page1_front.json": [
+      "28b2350c-4703-41a6-ab51-cb2be8e98fca@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Test\\GameStart\\spine\\loading\\loading_page2.json": [
+      "cc2340c1-f427-42e9-9a09-17c9351528ed@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Test\\SpineTest\\Test1\\skel\\icon_01_to_spine.skel": [
+      "5580c9ec-1b05-406c-bcef-2479482a1d90@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Test\\SpineTest\\Test1\\skel2\\wildb.skel": [
+      "b16be823-98fd-4487-8f62-478130fd5a68@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Test\\SpineTest\\Test1\\skel3\\raptor-pro.skel": [
+      "162b92f2-8f8f-43ae-94d8-c491114e3ced@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Common\\ApexLogo\\Spine\\Apex_Logo\\Apex_Logo.json": [
+      "b13d3cd4-f1d0-46cd-9920-e60b5d740fbe@6c48a",
+      "4dac7cfe-be1f-44f5-8133-676ba8098efd@6c48a",
+      "ff39a42d-cf2f-48de-93d7-72670060365b@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Common\\GenericUI\\Arts\\Material\\G001_Add_Mat.mtl": [
+      "60f7195c-ec2a-45eb-ba94-8955f60e81d0"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Common\\GenericUI\\Arts\\Material\\G001_Show_WIN_Coin_Mat.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Common\\H5_MsgWin\\Effect\\Material\\Coins_Mat.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Common\\H5_MsgWin\\Effect\\Material\\Glow_Mat.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Common\\H5_MsgWin\\Effect\\Material\\Jewel_Blue_Mat.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Common\\H5_MsgWin\\Effect\\Material\\Jewel_Purple_Mat.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Common\\H5_MsgWin\\Effect\\Material\\Jewel_Red_Mat.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Common\\H5_MsgWin\\Effect\\Material\\Light_Mat.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Common\\H5_MsgWin\\Effect\\Material\\Line_Mat.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Common\\H5_MsgWin\\Effect\\Material\\Particle_Mat.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Common\\H5_MsgWin\\Effect\\Material\\Star_Mat.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\Res\\SpriteAdditive.mtl": [
+      "4d75accf-b343-4b95-ac21-2e5cdacab573"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\Res\\SpriteAdditive2.mtl": [
+      "4d75accf-b343-4b95-ac21-2e5cdacab573"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\Effect\\Example\\Resource\\skeleton.json": [
+      "7ec3680d-1102-4f5f-ac33-f0f834f3cb95@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\Res\\SpineAlpha\\icon_00.json": [
+      "7f450695-3e85-4776-8694-4d3bbacfc9c6@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\Res\\SpineEvent\\EventKey_Test.json": [
+      "f409fabd-ccbe-4604-8615-85ccf4dc6d72@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\Res\\SpineMix\\Item.json": [
+      "1e4fc8d3-1fee-4f3c-84ba-1836431498b8@6c48a",
+      "f4eb4381-54a7-4fc4-bcf8-bf2c82c94314@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\Test\\MotionStreakAuxiliary\\Arts\\Material\\icon_10_Trail\\icon_10_Trail.mtl": [
+      "60f7195c-ec2a-45eb-ba94-8955f60e81d0"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\Test\\MotionStreakAuxiliary\\Arts\\Material\\icon_10_Trail\\particle.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\SpinePremuiltyply_webp_Test\\Art\\webp\\no_premultiply_alpha\\skeleton.json": [
+      "5f8ba7ad-22b6-4338-bfc5-66aee7539ae1@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\SpinePremuiltyply_webp_Test\\Art\\webp\\no_premultiply_alpha\\skeleton_wp.json": [
+      "f394f0f9-608f-4304-98a4-380a704f449d@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\SpinePremuiltyply_webp_Test\\Art\\webp\\premultiply_alpha\\skeleton.json": [
+      "e4190b19-c8d0-4ea8-818c-aa6f84840cb0@6c48a"
+    ],
+    "D:\\wanin\\完成\\Web_Slot_018\\assets\\Arts\\Tools\\FXControl\\ExampleScenes\\SpinePremuiltyply_webp_Test\\Art\\webp\\premultiply_alpha\\skeleton_wp.json": [
+      "b2c978e2-dd1e-491b-a35b-7b5849cd8617@6c48a"
+    ]
+  }
+}

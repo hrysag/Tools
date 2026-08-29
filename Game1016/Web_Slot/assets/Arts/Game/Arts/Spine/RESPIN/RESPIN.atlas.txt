@@ -1,0 +1,272 @@
+
+RESPIN.webp
+size: 1076,1876
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01_crown
+  rotate: false
+  xy: 901, 1371
+  size: 67, 98
+  orig: 67, 98
+  offset: 0, 0
+  index: -1
+01_crown_M
+  rotate: false
+  xy: 202, 1349
+  size: 40, 96
+  orig: 40, 96
+  offset: 0, 0
+  index: -1
+01_crown_saber
+  rotate: false
+  xy: 889, 1462
+  size: 149, 114
+  orig: 149, 114
+  offset: 0, 0
+  index: -1
+02_accessories
+  rotate: false
+  xy: 54, 1250
+  size: 98, 99
+  orig: 99, 100
+  offset: 0, 1
+  index: -1
+02_accessories_saber
+  rotate: true
+  xy: 951, 8
+  size: 113, 109
+  orig: 113, 109
+  offset: 0, 0
+  index: -1
+03_ribbon
+  rotate: true
+  xy: 787, 879
+  size: 317, 151
+  orig: 317, 151
+  offset: 0, 0
+  index: -1
+03_ribbon_M
+  rotate: false
+  xy: 206, 1255
+  size: 40, 92
+  orig: 40, 92
+  offset: 0, 0
+  index: -1
+03_ribbon_saber
+  rotate: true
+  xy: 787, 621
+  size: 263, 127
+  orig: 326, 169
+  offset: 63, 0
+  index: -1
+03_ribbon_saber_M
+  rotate: true
+  xy: 787, 1198
+  size: 377, 112
+  orig: 377, 112
+  offset: 0, 0
+  index: -1
+04_shield
+  rotate: false
+  xy: 830, 31
+  size: 145, 298
+  orig: 145, 298
+  offset: 0, 0
+  index: -1
+04_shield_M
+  rotate: false
+  xy: 931, 686
+  size: 40, 296
+  orig: 40, 296
+  offset: 0, 0
+  index: -1
+04_shield_saber
+  rotate: false
+  xy: 525, 63
+  size: 304, 316
+  orig: 304, 316
+  offset: 0, 0
+  index: -1
+05_horns
+  rotate: false
+  xy: 939, 906
+  size: 130, 125
+  orig: 130, 125
+  offset: 0, 0
+  index: -1
+05_horns_saber
+  rotate: false
+  xy: 918, 1007
+  size: 146, 143
+  orig: 146, 143
+  offset: 0, 0
+  index: -1
+06_horn
+  rotate: true
+  xy: 906, 565
+  size: 225, 136
+  orig: 225, 136
+  offset: 0, 0
+  index: -1
+06_horn_saber
+  rotate: true
+  xy: 893, 239
+  size: 242, 154
+  orig: 242, 154
+  offset: 0, 0
+  index: -1
+07_laurel
+  rotate: 180
+  xy: 869, 1134
+  size: 179, 256
+  orig: 179, 256
+  offset: 0, 0
+  index: -1
+07_laurel_saber
+  rotate: false
+  xy: 782, 324
+  size: 195, 273
+  orig: 195, 273
+  offset: 0, 0
+  index: -1
+08_cloth
+  rotate: false
+  xy: 187, 1734
+  size: 46, 140
+  orig: 46, 140
+  offset: 0, 0
+  index: -1
+08_cloth_saber
+  rotate: false
+  xy: 983, 87
+  size: 67, 150
+  orig: 67, 150
+  offset: 0, 0
+  index: -1
+09_backlight
+  rotate: false
+  xy: 1, 1250
+  size: 270, 625
+  orig: 270, 654
+  offset: 0, 18
+  index: -1
+Glow
+  rotate: false
+  xy: 774, 1577
+  size: 240, 240
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+Ray
+  rotate: true
+  xy: 973, 791
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+shine/shine_00
+  rotate: false
+  xy: 1, 951
+  size: 260, 297
+  orig: 260, 297
+  offset: 0, 0
+  index: -1
+shine/shine_01
+  rotate: false
+  xy: 1, 652
+  size: 260, 297
+  orig: 260, 297
+  offset: 0, 0
+  index: -1
+shine/shine_02
+  rotate: false
+  xy: 1, 353
+  size: 260, 297
+  orig: 260, 297
+  offset: 0, 0
+  index: -1
+shine/shine_03
+  rotate: false
+  xy: 1, 54
+  size: 260, 297
+  orig: 260, 297
+  offset: 0, 0
+  index: -1
+shine/shine_04
+  rotate: false
+  xy: 250, 1577
+  size: 260, 297
+  orig: 260, 297
+  offset: 0, 0
+  index: -1
+shine/shine_05
+  rotate: false
+  xy: 263, 1198
+  size: 260, 297
+  orig: 260, 297
+  offset: 0, 0
+  index: -1
+shine/shine_06
+  rotate: false
+  xy: 263, 899
+  size: 260, 297
+  orig: 260, 297
+  offset: 0, 0
+  index: -1
+shine/shine_07
+  rotate: false
+  xy: 263, 600
+  size: 260, 297
+  orig: 260, 297
+  offset: 0, 0
+  index: -1
+shine/shine_08
+  rotate: false
+  xy: 263, 301
+  size: 260, 297
+  orig: 260, 297
+  offset: 0, 0
+  index: -1
+shine/shine_09
+  rotate: false
+  xy: 263, 2
+  size: 260, 297
+  orig: 260, 297
+  offset: 0, 0
+  index: -1
+shine/shine_10
+  rotate: false
+  xy: 512, 1577
+  size: 260, 297
+  orig: 260, 297
+  offset: 0, 0
+  index: -1
+shine/shine_11
+  rotate: false
+  xy: 525, 1278
+  size: 260, 297
+  orig: 260, 297
+  offset: 0, 0
+  index: -1
+shine/shine_12
+  rotate: false
+  xy: 525, 979
+  size: 260, 297
+  orig: 260, 297
+  offset: 0, 0
+  index: -1
+shine/shine_13
+  rotate: false
+  xy: 525, 680
+  size: 260, 297
+  orig: 260, 297
+  offset: 0, 0
+  index: -1
+shine/shine_14
+  rotate: false
+  xy: 525, 381
+  size: 260, 297
+  orig: 260, 297
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,469 @@
+{
+  "textureCompressConfig": {
+    "userPreset": {
+      "93xqlzlT5H2YVwIxxddmS0": {
+        "name": "pngWebp",
+        "options": {
+          "web": {
+            "png": {
+              "quality": 80
+            },
+            "webp": {
+              "quality": 50
+            }
+          }
+        }
+      }
+    },
+    "genMipmaps": false
+  },
+  "splash-setting": {
+    "totalTime": 0,
+    "watermarkLocation": "default",
+    "logo": {
+      "type": "custom",
+      "image": "project://assets/GameResources/prefab/textures/BBINLoading.png"
+    },
+    "background": {
+      "type": "color",
+      "color": {
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      }
+    }
+  },
+  "__version__": "1.3.7",
+  "bundleConfig": {
+    "custom": {
+      "auto_d5lcX2U6BOoqffAwUkmGhV": {
+        "displayName": "GameResources",
+        "configs": {
+          "native": {
+            "preferredOptions": {
+              "compressionType": "merge_dep",
+              "isRemote": false
+            }
+          },
+          "miniGame": {
+            "configMode": "overwrite",
+            "overwriteSettings": {
+              "alipay-mini-game": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "taobao-creative-app": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "taobao-mini-game": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "bytedance-mini-game": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "oppo-mini-game": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "huawei-quick-game": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "vivo-mini-game": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "xiaomi-quick-game": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "baidu-mini-game": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "wechatgame": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "link-sure": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "qtt": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "cocos-play": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              }
+            }
+          },
+          "web": {
+            "preferredOptions": {
+              "compressionType": "merge_dep",
+              "isRemote": false
+            },
+            "overwriteSettings": {
+              "web-mobile": {
+                "compressionType": "merge_dep",
+                "isRemote": true
+              }
+            }
+          }
+        }
+      },
+      "auto_2bXIBNNTRJwYBNyntB6lHS": {
+        "displayName": "Language_cn",
+        "configs": {
+          "native": {
+            "preferredOptions": {
+              "compressionType": "merge_dep",
+              "isRemote": false
+            }
+          },
+          "miniGame": {
+            "configMode": "overwrite",
+            "overwriteSettings": {
+              "alipay-mini-game": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "taobao-creative-app": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "taobao-mini-game": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "bytedance-mini-game": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "oppo-mini-game": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "huawei-quick-game": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "vivo-mini-game": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "xiaomi-quick-game": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "baidu-mini-game": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "wechatgame": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "link-sure": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "qtt": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "cocos-play": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              }
+            }
+          },
+          "web": {
+            "preferredOptions": {
+              "compressionType": "merge_dep",
+              "isRemote": false
+            },
+            "overwriteSettings": {
+              "web-mobile": {
+                "compressionType": "merge_dep",
+                "isRemote": true
+              }
+            }
+          }
+        }
+      },
+      "auto_d1ezrj+O1I57cMdXfZ/mil": {
+        "displayName": "Language_en",
+        "configs": {
+          "native": {
+            "preferredOptions": {
+              "compressionType": "merge_dep",
+              "isRemote": false
+            }
+          },
+          "miniGame": {
+            "configMode": "overwrite",
+            "overwriteSettings": {
+              "alipay-mini-game": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "taobao-creative-app": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "taobao-mini-game": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "bytedance-mini-game": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "oppo-mini-game": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "huawei-quick-game": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "vivo-mini-game": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "xiaomi-quick-game": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "baidu-mini-game": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "wechatgame": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "link-sure": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "qtt": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "cocos-play": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              }
+            }
+          },
+          "web": {
+            "preferredOptions": {
+              "compressionType": "merge_dep",
+              "isRemote": false
+            },
+            "overwriteSettings": {
+              "web-mobile": {
+                "compressionType": "merge_dep",
+                "isRemote": true
+              }
+            }
+          }
+        }
+      },
+      "auto_60qxe/0pNAPLQEHMAzjs8c": {
+        "displayName": "Language_tw",
+        "configs": {
+          "native": {
+            "preferredOptions": {
+              "compressionType": "merge_dep",
+              "isRemote": false
+            }
+          },
+          "miniGame": {
+            "configMode": "overwrite",
+            "overwriteSettings": {
+              "alipay-mini-game": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "taobao-creative-app": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "taobao-mini-game": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "bytedance-mini-game": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "oppo-mini-game": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "huawei-quick-game": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "vivo-mini-game": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "xiaomi-quick-game": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "baidu-mini-game": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "wechatgame": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "link-sure": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "qtt": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "cocos-play": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              }
+            }
+          },
+          "web": {
+            "preferredOptions": {
+              "compressionType": "merge_dep",
+              "isRemote": false
+            },
+            "overwriteSettings": {
+              "web-mobile": {
+                "compressionType": "merge_dep",
+                "isRemote": true
+              }
+            }
+          }
+        }
+      },
+      "auto_4bRLdApcFCBpYmsUIZE/Kw": {
+        "displayName": "resources",
+        "configs": {
+          "native": {
+            "preferredOptions": {
+              "compressionType": "merge_dep",
+              "isRemote": false
+            }
+          },
+          "miniGame": {
+            "configMode": "overwrite",
+            "overwriteSettings": {
+              "alipay-mini-game": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "taobao-creative-app": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "taobao-mini-game": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "bytedance-mini-game": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "oppo-mini-game": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "huawei-quick-game": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "vivo-mini-game": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "xiaomi-quick-game": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "baidu-mini-game": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "wechatgame": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "link-sure": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "qtt": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              },
+              "cocos-play": {
+                "compressionType": "merge_dep",
+                "isRemote": false
+              }
+            }
+          },
+          "web": {
+            "preferredOptions": {
+              "compressionType": "merge_dep",
+              "isRemote": false
+            }
+          }
+        }
+      },
+      "76sfAeA9FJ4aeEatqSzuIV": {
+        "displayName": "gameTest",
+        "configs": {
+          "native": {
+            "preferredOptions": {
+              "isRemote": false,
+              "compressionType": "merge_dep"
+            }
+          },
+          "web": {
+            "preferredOptions": {
+              "isRemote": false,
+              "compressionType": "merge_dep"
+            },
+            "fallbackOptions": {
+              "compressionType": "merge_dep"
+            },
+            "overwriteSettings": {
+              "web-mobile": {
+                "isRemote": true,
+                "compressionType": "merge_dep"
+              }
+            }
+          },
+          "miniGame": {
+            "fallbackOptions": {
+              "isRemote": false,
+              "compressionType": "merge_dep"
+            },
+            "configMode": "fallback"
+          }
+        }
+      }
+    }
+  }
+}

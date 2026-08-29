@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "win_glow",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 335,
+      "height": 171
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 335,
+      "height": 171
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -167.5,
+        -85.5,
+        0,
+        167.5,
+        -85.5,
+        0,
+        -167.5,
+        85.5,
+        0,
+        167.5,
+        85.5,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        171,
+        335,
+        171,
+        0,
+        0,
+        335,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -167.5,
+        "y": -85.5,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 167.5,
+        "y": 85.5,
+        "z": 0
+      }
+    },
+    "texture": "2b9546c4-d0fe-48e4-8d68-581baf4bae27@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

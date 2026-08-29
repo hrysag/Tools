@@ -1,0 +1,32 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "cn",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "json": {
+    "MSG": {
+      "RE_LOGIN": "请重新登入游戏",
+      "NOT_ENOUGH_CREDIT": "余额不足",
+      "DISCONNECTED": "与伺服器断线",
+      "CATEGORY_MAINTAINED": "游戏维护中",
+      "LOBBYCLOSE": "游戏未开放请关闭视窗",
+      "CANT_BET": "目前无法下注，请连络上层",
+      "RENT_NOT_OPEN": "租卡体系未开放",
+      "ACC_DISABLED": "帐号已被停权, 请洽上层",
+      "NO_SERVICE": "由于您的所在地不在我们的服务允许范围内。我们暂时无法为您服务。",
+      "DISCONNECT_IDLE": "网路断线,请重新开启游戏或检查连线状态!",
+      "TIMEOUT": "连线逾时",
+      "GAMEPLAYERNOBALANCE": "尊敬的客户您好，[BBIN平台]目前无可用余额，请至[会员中心]确认余额或入款以激活各项功能，谢谢您！",
+      "WAIT_EXCHANGING": "开分中 请稍后",
+      "FE_BOSS_WAVE_ALERT": "龙王将至",
+      "BALANCE_IS_NOT_ENOUGH": "余额不足",
+      "ALREADY_ENTERED": "已进房",
+      "NOT_FIND_RATIO": "找不到房型倍率/换分比",
+      "NOT_FIND_CURRENCY": "找不到币别",
+      "NO_CREDIT_EXCHANGE": "换分流程错误",
+      "CANT_NOT_USE_PROPS": "目前无法使用此道具",
+      "PROPS_NOT_ENOUGH": "道具持有数量不足"
+    }
+  }
+}

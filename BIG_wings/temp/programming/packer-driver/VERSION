@@ -1,0 +1,22 @@
+{
+  "version": "20",
+  "config": {
+    "useDefineForClassFields": true,
+    "allowDeclareFields": true,
+    "loose": true,
+    "exportsConditions": [
+      "browser"
+    ],
+    "guessCommonJsExports": false,
+    "importMap": {
+      "json": {
+        "imports": {
+          "@casino-mono/mvc": "./assets/game/BigWings/script/framework/mvc/index.ts",
+          "@casino-mono/share-tools": "./assets/game/BigWings/script/framework/share-tools/index.ts"
+        }
+      },
+      "url": "file:///D:/bbin/cocos/BIG_wings/import-map.json"
+    },
+    "preserveSymlinks": true
+  }
+}

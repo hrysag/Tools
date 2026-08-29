@@ -1,0 +1,25 @@
+stages: 
+  - build
+  - test
+  - deploy
+
+variables:
+  GIT_STRATEGY: fetch
+
+cache:
+  paths:
+    - ${CI_PROJECT_DIR}/node_modules
+
+build-job:
+  stage: build
+  script:
+    - echo "Building starting ${CI_PROJECT_DIR}"
+    - echo "Environment ${CI_COMMIT_REF_NAME}"
+    - echo "Builded Completed"
+
+test-job:
+  stage: test
+  script:
+    - echo 'test'
+    # - pnpm install
+    # - pnpm test

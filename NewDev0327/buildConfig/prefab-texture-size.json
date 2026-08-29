@@ -1,0 +1,88 @@
+{
+  "name": "game000",
+  "server": "",
+  "platform": "web-mobile",
+  "buildPath": "project://build",
+  "debug": false,
+  "md5Cache": false,
+  "skipCompressTexture": false,
+  "sourceMaps": false,
+  "overwriteProjectSettings": {
+    "includeModules": {
+      "gfx-webgl2": "on",
+      "physics": "inherit-project-setting",
+      "physics-2d": "inherit-project-setting"
+    },
+    "macroConfig": {
+      "cleanupImageCache": "inherit-project-setting"
+    }
+  },
+  "nativeCodeBundleMode": "both",
+  "polyfills": {
+    "asyncFunctions": true
+  },
+  "experimentalEraseModules": false,
+  "startSceneAssetBundle": false,
+  "bundleConfigs": [],
+  "useBuiltinServer": false,
+  "mainBundleIsRemote": false,
+  "mainBundleCompressionType": "merge_dep",
+  "useSplashScreen": false,
+  "bundleCommonChunk": false,
+  "packAutoAtlas": true,
+  "startScene": "63e8781d-52dd-43e3-9ef2-d2874a41ff9b",
+  "outputName": "game000",
+  "taskName": "game000",
+  "scenes": [
+    {
+      "url": "db://assets/Arts/Tools/Test/PrefabTextureSizeProfiler/PrefabTextureSizeTest.scene",
+      "uuid": "63e8781d-52dd-43e3-9ef2-d2874a41ff9b"
+    }
+  ],
+  "wasmCompressionMode": false,
+  "buildStageGroup": {
+    "build": [
+      "run"
+    ]
+  },
+  "packages": {
+    "adsense-h5g-plugin": {
+      "enableAdsense": false,
+      "enableTestAd": false,
+      "__version__": "1.0.1",
+      "AFPHostPropertyCode": "ca-host-pub-5396158963872751",
+      "AFPHostDomain": "douyougame.com",
+      "otherAFPHostPropertyCode": "",
+      "otherAFPDomain": ""
+    },
+    "cocos-service": {
+      "configID": "3ab0e6",
+      "services": [],
+      "__version__": "3.0.7"
+    },
+    "build-plugin-template": {
+      "remoteAddress": "https://www.cocos.com/",
+      "enterCocos": "",
+      "selectTest": "option2",
+      "objectTest": {
+        "number": 80,
+        "string": "cocos",
+        "boolean": true
+      },
+      "arrayTest": [
+        80,
+        "cocos",
+        true
+      ],
+      "__version__": "1.0.0"
+    },
+    "web-mobile": {
+      "orientation": "auto",
+      "embedWebDebugger": false,
+      "__version__": "1.0.1"
+    }
+  },
+  "__version__": "1.3.8",
+  "buildMode": "normal",
+  "logDest": "project://temp/builder/log/web-mobile2026-1-15 14-47.log"
+}

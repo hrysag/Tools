@@ -1,0 +1,20 @@
+
+gamble_bg.jpg
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+back_light_glow
+  rotate: false
+  xy: 2, 2
+  size: 514, 377
+  orig: 514, 377
+  offset: 0, 0
+  index: -1
+shine25%
+  rotate: false
+  xy: 518, 121
+  size: 257, 258
+  orig: 257, 258
+  offset: 0, 0
+  index: -1

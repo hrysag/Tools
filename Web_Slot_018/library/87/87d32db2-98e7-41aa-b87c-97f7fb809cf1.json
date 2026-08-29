@@ -1,0 +1,8 @@
+{
+  "__type__": "cc.TextAsset",
+  "_name": "loading_page1_bot.atlas",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "text": "\r\nloading_page1_bot.webp\r\nsize: 1024,1024\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nFG_reel\r\n  rotate: false\r\n  xy: 2, 452\r\n  size: 696, 407\r\n  orig: 696, 407\r\n  offset: 0, 0\r\n  index: -1\r\nfx_FG_reel_backlight_l\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 265, 448\r\n  orig: 265, 448\r\n  offset: 0, 0\r\n  index: -1\r\nfx_FG_reel_backlight_r\r\n  rotate: false\r\n  xy: 269, 33\r\n  size: 262, 417\r\n  orig: 262, 417\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

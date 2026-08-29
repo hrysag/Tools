@@ -1,0 +1,234 @@
+{
+  "ver": "2.3.12",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "06a73aea-7593-492c-bcaa-425145f3fd21",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "18466": {
+      "importer": "gltf-mesh",
+      "uuid": "06a73aea-7593-492c-bcaa-425145f3fd21@18466",
+      "displayName": "",
+      "id": "18466",
+      "name": "D_lightpoint02.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 2
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a46a8": {
+      "importer": "gltf-mesh",
+      "uuid": "06a73aea-7593-492c-bcaa-425145f3fd21@a46a8",
+      "displayName": "",
+      "id": "a46a8",
+      "name": "D_lightbeam.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 58
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3316b": {
+      "importer": "gltf-mesh",
+      "uuid": "06a73aea-7593-492c-bcaa-425145f3fd21@3316b",
+      "displayName": "",
+      "id": "3316b",
+      "name": "D_lightpoint01.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 2
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "beff7": {
+      "importer": "gltf-mesh",
+      "uuid": "06a73aea-7593-492c-bcaa-425145f3fd21@beff7",
+      "displayName": "",
+      "id": "beff7",
+      "name": "D_halo.mesh",
+      "userData": {
+        "gltfIndex": 3,
+        "triangleCount": 176
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a9ff0": {
+      "importer": "gltf-animation",
+      "uuid": "06a73aea-7593-492c-bcaa-425145f3fd21@a9ff0",
+      "displayName": "",
+      "id": "a9ff0",
+      "name": "animations.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.5
+        },
+        "events": [],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 1
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "fb680": {
+      "importer": "gltf-material",
+      "uuid": "06a73aea-7593-492c-bcaa-425145f3fd21@fb680",
+      "displayName": "",
+      "id": "fb680",
+      "name": "death_halo_02.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "1b21f": {
+      "importer": "gltf-scene",
+      "uuid": "06a73aea-7593-492c-bcaa-425145f3fd21@1b21f",
+      "displayName": "",
+      "id": "1b21f",
+      "name": "fishDeath.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "animationImportSettings": [
+      {
+        "name": "All Animations",
+        "duration": 0.5,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "animations",
+            "from": 0,
+            "to": 0.5,
+            "wrapMode": 1,
+            "previousId": "a9ff0"
+          }
+        ]
+      }
+    ],
+    "redirect": "06a73aea-7593-492c-bcaa-425145f3fd21@1b21f",
+    "assetFinder": {
+      "meshes": [
+        "06a73aea-7593-492c-bcaa-425145f3fd21@a46a8",
+        "06a73aea-7593-492c-bcaa-425145f3fd21@18466",
+        "06a73aea-7593-492c-bcaa-425145f3fd21@3316b",
+        "06a73aea-7593-492c-bcaa-425145f3fd21@beff7"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "06a73aea-7593-492c-bcaa-425145f3fd21@fb680"
+      ],
+      "scenes": [
+        "06a73aea-7593-492c-bcaa-425145f3fd21@1b21f"
+      ]
+    },
+    "materials": {
+      "06a73aea-7593-492c-bcaa-425145f3fd21@fb680": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "a3cd009f-0ab0-420d-9278-b9fdab939bbc",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": "2",
+        "_defines": [
+          {
+            "USE_TEXTURE": true
+          }
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainTexture": {
+              "__uuid__": "026bcb7c-d9cf-4eae-8ccb-2dc9145177c5@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            }
+          }
+        ]
+      }
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,132 @@
+
+Icon_08_09_bot.webp
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01_pic/wild_bot_blue
+  rotate: false
+  xy: 650, 709
+  size: 306, 312
+  orig: 306, 312
+  offset: 0, 0
+  index: -1
+01_pic/wild_bot_rad
+  rotate: false
+  xy: 650, 395
+  size: 306, 312
+  orig: 306, 312
+  offset: 0, 0
+  index: -1
+01_pic/wild_frame_base
+  rotate: false
+  xy: 326, 366
+  size: 322, 322
+  orig: 322, 322
+  offset: 0, 0
+  index: -1
+01_pic/wild_paper_blue
+  rotate: false
+  xy: 295, 15
+  size: 280, 238
+  orig: 280, 238
+  offset: 0, 0
+  index: -1
+01_pic/wild_paper_rad
+  rotate: false
+  xy: 577, 18
+  size: 305, 274
+  orig: 305, 274
+  offset: 0, 0
+  index: -1
+01_pic/wild_reel_bot_blue
+  rotate: false
+  xy: 2, 255
+  size: 322, 331
+  orig: 322, 331
+  offset: 0, 0
+  index: -1
+01_pic/wild_reel_bot_rad
+  rotate: false
+  xy: 326, 690
+  size: 322, 331
+  orig: 322, 331
+  offset: 0, 0
+  index: -1
+01_pic/wild_reel_frame_down
+  rotate: false
+  xy: 326, 294
+  size: 322, 70
+  orig: 322, 70
+  offset: 0, 0
+  index: -1
+01_pic/wild_reel_frame_up
+  rotate: false
+  xy: 958, 428
+  size: 322, 118
+  orig: 322, 118
+  offset: 0, 0
+  index: -1
+01_pic/wild_reel_gem_down_blue
+  rotate: false
+  xy: 650, 329
+  size: 115, 64
+  orig: 115, 64
+  offset: 0, 0
+  index: -1
+01_pic/wild_reel_gem_down_rad
+  rotate: false
+  xy: 767, 329
+  size: 115, 64
+  orig: 115, 64
+  offset: 0, 0
+  index: -1
+01_pic/wild_reel_gem_up_blue
+  rotate: false
+  xy: 884, 54
+  size: 62, 44
+  orig: 62, 44
+  offset: 0, 0
+  index: -1
+01_pic/wild_reel_gem_up_rad
+  rotate: false
+  xy: 884, 8
+  size: 62, 44
+  orig: 62, 44
+  offset: 0, 0
+  index: -1
+01_pic/wild_reel_shadow
+  rotate: false
+  xy: 2, 588
+  size: 322, 433
+  orig: 322, 433
+  offset: 0, 0
+  index: -1
+01_pic/wild_scissors_blue
+  rotate: false
+  xy: 2, 2
+  size: 291, 251
+  orig: 291, 251
+  offset: 0, 0
+  index: -1
+01_pic/wild_scissors_rad
+  rotate: false
+  xy: 884, 100
+  size: 291, 293
+  orig: 291, 293
+  offset: 0, 0
+  index: -1
+01_pic/wild_stone_blue
+  rotate: false
+  xy: 958, 780
+  size: 258, 241
+  orig: 258, 241
+  offset: 0, 0
+  index: -1
+01_pic/wild_stone_rad
+  rotate: false
+  xy: 958, 548
+  size: 242, 230
+  orig: 242, 230
+  offset: 0, 0
+  index: -1

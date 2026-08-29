@@ -1,0 +1,132 @@
+
+icon_boom.png
+size: 1492,491
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01_pic/coin_babo_3
+  rotate: true
+  xy: 2, 3
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+01_pic/icom3_water
+  rotate: true
+  xy: 2, 13
+  size: 476, 461
+  orig: 476, 461
+  offset: 0, 0
+  index: -1
+01_pic/icon3_babo_1
+  rotate: true
+  xy: 567, 2
+  size: 11, 10
+  orig: 11, 10
+  offset: 0, 0
+  index: -1
+01_pic/icon3_babo_2
+  rotate: true
+  xy: 685, 50
+  size: 17, 15
+  orig: 17, 15
+  offset: 0, 0
+  index: -1
+01_pic/icon3_babo_4
+  rotate: false
+  xy: 685, 69
+  size: 16, 19
+  orig: 16, 19
+  offset: 0, 0
+  index: -1
+01_pic/icon3_babo_5
+  rotate: false
+  xy: 684, 11
+  size: 26, 33
+  orig: 26, 33
+  offset: 0, 0
+  index: -1
+01_pic/icon3_babo_6
+  rotate: false
+  xy: 567, 15
+  size: 73, 73
+  orig: 73, 73
+  offset: 0, 0
+  index: -1
+01_pic/icon3_boom
+  rotate: true
+  xy: 846, 126
+  size: 363, 349
+  orig: 363, 349
+  offset: 0, 0
+  index: -1
+01_pic/icon3_boom_fx
+  rotate: false
+  xy: 465, 90
+  size: 379, 399
+  orig: 379, 399
+  offset: 0, 0
+  index: -1
+01_pic/icon3_boom_light
+  rotate: false
+  xy: 971, 28
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+01_pic/icon3_coin
+  rotate: true
+  xy: 465, 8
+  size: 80, 100
+  orig: 80, 100
+  offset: 0, 0
+  index: -1
+01_pic/icon3_coin_fx
+  rotate: true
+  xy: 846, 20
+  size: 104, 123
+  orig: 104, 123
+  offset: 0, 0
+  index: -1
+01_pic/icon3_coin_light
+  rotate: false
+  xy: 1069, 28
+  size: 96, 96
+  orig: 96, 96
+  offset: 0, 0
+  index: -1
+01_pic/icon3_eyeL
+  rotate: false
+  xy: 642, 46
+  size: 41, 42
+  orig: 41, 42
+  offset: 0, 0
+  index: -1
+01_pic/icon3_eyeR
+  rotate: true
+  xy: 642, 2
+  size: 42, 40
+  orig: 42, 40
+  offset: 0, 0
+  index: -1
+01_pic/icon3_eyelid_L
+  rotate: true
+  xy: 1352, 71
+  size: 180, 138
+  orig: 180, 138
+  offset: 0, 0
+  index: -1
+01_pic/icon3_eyelid_R
+  rotate: false
+  xy: 1197, 85
+  size: 153, 166
+  orig: 153, 166
+  offset: 0, 0
+  index: -1
+01_pic/icon3_eyewhite
+  rotate: false
+  xy: 1197, 253
+  size: 287, 236
+  orig: 287, 236
+  offset: 0, 0
+  index: -1

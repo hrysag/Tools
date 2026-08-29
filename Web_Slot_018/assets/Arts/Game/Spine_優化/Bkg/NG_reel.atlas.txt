@@ -1,0 +1,314 @@
+
+NG_reel.webp
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+glitter_3
+  rotate: false
+  xy: 440, 104
+  size: 185, 165
+  orig: 185, 165
+  offset: 0, 0
+  index: -1
+ng_h_BGbottom2
+  rotate: false
+  xy: 2, 271
+  size: 1283, 751
+  orig: 1283, 751
+  offset: 0, 0
+  index: -1
+ng_h_BGfrontrock1
+  rotate: false
+  xy: 2, 34
+  size: 436, 235
+  orig: 436, 235
+  offset: 0, 0
+  index: -1
+ng_h_BGfrontrock2
+  rotate: false
+  xy: 627, 163
+  size: 260, 106
+  orig: 260, 106
+  offset: 0, 0
+  index: -1
+ng_h_Palmtree_A
+  rotate: false
+  xy: 1382, 799
+  size: 122, 223
+  orig: 122, 223
+  offset: 0, 0
+  index: -1
+ng_h_Palmtree_B
+  rotate: false
+  xy: 1329, 12
+  size: 98, 122
+  orig: 98, 122
+  offset: 0, 0
+  index: -1
+ng_h_Palmtree_C
+  rotate: false
+  xy: 897, 10
+  size: 137, 110
+  orig: 137, 110
+  offset: 0, 0
+  index: -1
+ng_h_Palmtree_D
+  rotate: false
+  xy: 1174, 8
+  size: 153, 119
+  orig: 153, 119
+  offset: 0, 0
+  index: -1
+ng_h_Palmtree_E
+  rotate: false
+  xy: 1287, 518
+  size: 86, 96
+  orig: 86, 96
+  offset: 0, 0
+  index: -1
+ng_h_Palmtree_F
+  rotate: false
+  xy: 1036, 13
+  size: 136, 107
+  orig: 136, 107
+  offset: 0, 0
+  index: -1
+ng_h_Palmtree_G
+  rotate: false
+  xy: 613, 32
+  size: 178, 70
+  orig: 178, 70
+  offset: 0, 0
+  index: -1
+ng_h_Palmtree_H
+  rotate: false
+  xy: 67, 14
+  size: 38, 18
+  orig: 38, 18
+  offset: 0, 0
+  index: -1
+ng_h_Palmtree_I
+  rotate: false
+  xy: 1381, 740
+  size: 115, 57
+  orig: 115, 57
+  offset: 0, 0
+  index: -1
+ng_h_Palmtree_J
+  rotate: false
+  xy: 793, 2
+  size: 102, 100
+  orig: 102, 100
+  offset: 0, 0
+  index: -1
+ng_h_Palmtree_K
+  rotate: false
+  xy: 1085, 168
+  size: 93, 101
+  orig: 93, 101
+  offset: 0, 0
+  index: -1
+ng_h_Palmtree_L
+  rotate: false
+  xy: 889, 169
+  size: 99, 100
+  orig: 99, 100
+  offset: 0, 0
+  index: -1
+ng_h_Palmtree_M
+  rotate: false
+  xy: 990, 167
+  size: 93, 102
+  orig: 93, 102
+  offset: 0, 0
+  index: -1
+ng_h_Palmtree_N
+  rotate: false
+  xy: 990, 167
+  size: 93, 102
+  orig: 93, 102
+  offset: 0, 0
+  index: -1
+ng_h_Palmtree_O
+  rotate: false
+  xy: 1287, 706
+  size: 92, 103
+  orig: 92, 103
+  offset: 0, 0
+  index: -1
+ng_h_Palmtree_P
+  rotate: false
+  xy: 440, 12
+  size: 171, 90
+  orig: 171, 90
+  offset: 0, 0
+  index: -1
+ng_h_Palmtree_Q
+  rotate: false
+  xy: 1287, 616
+  size: 100, 88
+  orig: 100, 88
+  offset: 0, 0
+  index: -1
+ng_h_Palmtree_R
+  rotate: false
+  xy: 1180, 180
+  size: 99, 89
+  orig: 99, 89
+  offset: 0, 0
+  index: -1
+ng_h_Palmtree_S
+  rotate: false
+  xy: 1281, 180
+  size: 99, 89
+  orig: 99, 89
+  offset: 0, 0
+  index: -1
+ng_h_Palmtree_T
+  rotate: false
+  xy: 1322, 411
+  size: 71, 105
+  orig: 71, 105
+  offset: 0, 0
+  index: -1
+ng_h_Palmtree_U
+  rotate: false
+  xy: 1382, 190
+  size: 36, 83
+  orig: 36, 83
+  offset: 0, 0
+  index: -1
+ng_h_bug
+  rotate: false
+  xy: 1397, 332
+  size: 41, 38
+  orig: 41, 38
+  offset: 0, 0
+  index: -1
+ng_h_grass
+  rotate: false
+  xy: 1411, 293
+  size: 28, 37
+  orig: 28, 37
+  offset: 0, 0
+  index: -1
+ng_h_leaf_A
+  rotate: false
+  xy: 1322, 274
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+ng_h_leaf_B
+  rotate: false
+  xy: 1410, 152
+  size: 42, 36
+  orig: 42, 36
+  offset: 0, 0
+  index: -1
+ng_h_leaf_E
+  rotate: false
+  xy: 1381, 706
+  size: 81, 32
+  orig: 81, 32
+  offset: 0, 0
+  index: -1
+ng_h_leaf_F
+  rotate: false
+  xy: 627, 104
+  size: 184, 57
+  orig: 184, 57
+  offset: 0, 0
+  index: -1
+ng_h_leaf_G
+  rotate: false
+  xy: 1322, 372
+  size: 100, 37
+  orig: 100, 37
+  offset: 0, 0
+  index: -1
+ng_h_leaf_H
+  rotate: false
+  xy: 1318, 136
+  size: 90, 42
+  orig: 90, 42
+  offset: 0, 0
+  index: -1
+ng_h_leaf_I
+  rotate: false
+  xy: 1389, 644
+  size: 68, 60
+  orig: 68, 60
+  offset: 0, 0
+  index: -1
+ng_h_leaf_J
+  rotate: false
+  xy: 1322, 326
+  size: 73, 44
+  orig: 73, 44
+  offset: 0, 0
+  index: -1
+ng_h_leaf_K
+  rotate: false
+  xy: 1223, 133
+  size: 93, 45
+  orig: 93, 45
+  offset: 0, 0
+  index: -1
+ng_h_leaf_L
+  rotate: false
+  xy: 2, 4
+  size: 63, 28
+  orig: 63, 28
+  offset: 0, 0
+  index: -1
+ng_h_leaf_M
+  rotate: false
+  xy: 1287, 811
+  size: 73, 211
+  orig: 73, 211
+  offset: 0, 0
+  index: -1
+ng_h_stonelight1
+  rotate: false
+  xy: 1287, 282
+  size: 33, 234
+  orig: 33, 234
+  offset: 0, 0
+  index: -1
+ng_h_stonelight2
+  rotate: false
+  xy: 813, 122
+  size: 222, 39
+  orig: 222, 39
+  offset: 0, 0
+  index: -1
+ng_h_stonelight3
+  rotate: false
+  xy: 1037, 129
+  size: 184, 36
+  orig: 184, 36
+  offset: 0, 0
+  index: -1
+ng_h_stonelight4
+  rotate: false
+  xy: 1441, 306
+  size: 31, 229
+  orig: 31, 229
+  offset: 0, 0
+  index: -1
+ng_v_grassball
+  rotate: false
+  xy: 1375, 537
+  size: 79, 77
+  orig: 79, 77
+  offset: 0, 0
+  index: -1
+pp
+  rotate: false
+  xy: 1374, 275
+  size: 35, 49
+  orig: 35, 49
+  offset: 0, 0
+  index: -1

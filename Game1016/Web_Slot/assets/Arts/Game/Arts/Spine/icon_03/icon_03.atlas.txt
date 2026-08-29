@@ -1,0 +1,41 @@
+
+icon_03.webp
+size: 152,508
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01_crown
+  rotate: false
+  xy: 1, 138
+  size: 110, 108
+  orig: 110, 108
+  offset: 0, 0
+  index: -1
+01_crown_s
+  rotate: false
+  xy: 1, 2
+  size: 113, 24
+  orig: 113, 24
+  offset: 0, 0
+  index: -1
+Fx/01_crown_00
+  rotate: false
+  xy: 1, 247
+  size: 110, 108
+  orig: 110, 108
+  offset: 0, 0
+  index: -1
+Fx/Gem_00
+  rotate: false
+  xy: 1, 29
+  size: 110, 108
+  orig: 110, 108
+  offset: 0, 0
+  index: -1
+Fx/star_txt
+  rotate: false
+  xy: 1, 356
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1

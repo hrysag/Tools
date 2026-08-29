@@ -1,0 +1,19 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "Feature_hint",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": ".bin",
+  "_skeletonJson": null,
+  "textures": [
+    {
+      "__uuid__": "f53ea8e7-b497-4b8a-8eca-aed78598a64c@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "Feature_hint.webp"
+  ],
+  "scale": 1,
+  "_atlasText": "\r\nFeature_hint.webp\r\nsize: 1024,1024\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\n01_pic/draw_light_add\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 426, 225\r\n  orig: 426, 225\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/draw_small_light_add\r\n  rotate: false\r\n  xy: 584, 223\r\n  size: 352, 154\r\n  orig: 352, 154\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/fx_respin_back_sq_light\r\n  rotate: false\r\n  xy: 2, 452\r\n  size: 590, 564\r\n  orig: 590, 564\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/fx_respin_partical_dot\r\n  rotate: false\r\n  xy: 430, 27\r\n  size: 212, 194\r\n  orig: 212, 194\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/fx_respin_pinlight\r\n  rotate: false\r\n  xy: 2, 229\r\n  size: 580, 221\r\n  orig: 580, 221\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/fx_respin_spikelight\r\n  rotate: false\r\n  xy: 594, 379\r\n  size: 340, 266\r\n  orig: 340, 266\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/supersed\r\n  rotate: false\r\n  xy: 965, 1006\r\n  size: 10, 10\r\n  orig: 10, 10\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/win_light_add\r\n  rotate: false\r\n  xy: 594, 647\r\n  size: 369, 369\r\n  orig: 369, 369\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

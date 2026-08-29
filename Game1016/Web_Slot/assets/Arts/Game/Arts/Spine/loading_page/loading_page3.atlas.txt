@@ -1,0 +1,83 @@
+
+loading_page3.webp
+size: 860,316
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+icon_00
+  rotate: false
+  xy: 2, 2
+  size: 160, 128
+  orig: 160, 128
+  offset: 0, 0
+  index: -1
+icon_01
+  rotate: false
+  xy: 164, 2
+  size: 160, 128
+  orig: 160, 128
+  offset: 0, 0
+  index: -1
+icon_02
+  rotate: false
+  xy: 326, 2
+  size: 160, 128
+  orig: 160, 128
+  offset: 0, 0
+  index: -1
+icon_03
+  rotate: false
+  xy: 488, 18
+  size: 112, 112
+  orig: 160, 128
+  offset: 23, 5
+  index: -1
+icon_04
+  rotate: true
+  xy: 602, 19
+  size: 130, 96
+  orig: 160, 128
+  offset: 20, 10
+  index: -1
+icon_05
+  rotate: true
+  xy: 700, 124
+  size: 90, 87
+  orig: 160, 128
+  offset: 35, 19
+  index: -1
+icon_06
+  rotate: true
+  xy: 700, 35
+  size: 87, 83
+  orig: 160, 128
+  offset: 37, 21
+  index: -1
+icon_07
+  rotate: false
+  xy: 686, 216
+  size: 84, 96
+  orig: 160, 128
+  offset: 37, 14
+  index: -1
+icon_08
+  rotate: true
+  xy: 772, 222
+  size: 90, 84
+  orig: 160, 128
+  offset: 35, 21
+  index: -1
+icon_09
+  rotate: true
+  xy: 2, 132
+  size: 180, 532
+  orig: 180, 532
+  offset: 0, 0
+  index: -1
+icon_10
+  rotate: true
+  xy: 536, 151
+  size: 161, 148
+  orig: 180, 156
+  offset: 10, 3
+  index: -1

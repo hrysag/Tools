@@ -1,0 +1,30 @@
+{
+    "importBase": "import",
+    "nativeBase": "native",
+    "name": "WaninPlayerEffect",
+    "deps": [],
+    "uuids": [
+        "fbe18432-aa3e-4629-b183-aed130089468"
+    ],
+    "paths": {
+        "fbe18432-aa3e-4629-b183-aed130089468": [
+            "playerEffect",
+            "cc.EffectAsset",
+            1
+        ]
+    },
+    "scenes": {},
+    "packs": {},
+    "versions": {
+        "import": [
+            "fbe18432-aa3e-4629-b183-aed130089468",
+            "d9ada"
+        ],
+        "native": []
+    },
+    "redirect": [],
+    "debug": true,
+    "extensionMap": {},
+    "hasPreloadScript": true,
+    "dependencyRelationships": {}
+}

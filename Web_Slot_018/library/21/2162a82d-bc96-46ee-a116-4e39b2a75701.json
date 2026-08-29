@@ -1,0 +1,8 @@
+{
+  "__type__": "cc.TextAsset",
+  "_name": "NG_Bkg_front.atlas",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "text": "\r\nNG_Bkg_front.webp\r\nsize: 1024,512\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nAirflow_1014\r\n  rotate: false\r\n  xy: 726, 312\r\n  size: 154, 154\r\n  orig: 154, 154\r\n  offset: 0, 0\r\n  index: -1\r\nng_v_Sand_font\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 722, 464\r\n  orig: 722, 464\r\n  offset: 0, 0\r\n  index: -1\r\nng_v_grassball\r\n  rotate: false\r\n  xy: 726, 233\r\n  size: 79, 77\r\n  orig: 79, 77\r\n  offset: 0, 0\r\n  index: -1\r\npp\r\n  rotate: false\r\n  xy: 726, 182\r\n  size: 35, 49\r\n  orig: 35, 49\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

@@ -1,0 +1,52 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ani_exploding0002",
+    "atlas": "b87d4868-12e2-450e-82b2-1f6c440cd4ec",
+    "rect": {
+      "x": 727,
+      "y": 1,
+      "width": 280,
+      "height": 272
+    },
+    "offset": {
+      "x": 0,
+      "y": -2
+    },
+    "originalSize": {
+      "width": 280,
+      "height": 276
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [],
+      "indexes": [],
+      "uv": [],
+      "nuv": [],
+      "minPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "texture": "5163787a-fcc8-4e85-8119-71c61b64b8ac@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

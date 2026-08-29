@@ -1,0 +1,356 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "fx_border",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "7cIgV/1e6SiPLxpTSdO2eqUVVaQ",
+      "spine": "3.7.94",
+      "width": 0,
+      "height": 0,
+      "images": "./images/",
+      "audio": "D:/trave/製作檔/大鵬展翅_改/border"
+    },
+    "bones": [
+      {
+        "name": "root",
+        "y": 659
+      },
+      {
+        "name": "fx2_border",
+        "parent": "root",
+        "y": -659,
+        "color": "ffda00ff"
+      }
+    ],
+    "slots": [
+      {
+        "name": "fx2_border",
+        "bone": "fx2_border",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "fx2_border": {
+          "fx2_00000": {
+            "width": 1080,
+            "height": 602
+          },
+          "fx2_00001": {
+            "width": 1080,
+            "height": 602
+          },
+          "fx2_00002": {
+            "width": 1080,
+            "height": 602
+          },
+          "fx2_00003": {
+            "width": 1080,
+            "height": 602
+          },
+          "fx2_00004": {
+            "width": 1080,
+            "height": 602
+          },
+          "fx2_00005": {
+            "width": 1080,
+            "height": 602
+          },
+          "fx2_00006": {
+            "width": 1080,
+            "height": 602
+          },
+          "fx2_00007": {
+            "width": 1080,
+            "height": 602
+          },
+          "fx2_00008": {
+            "width": 1080,
+            "height": 602
+          },
+          "fx2_00009": {
+            "width": 1080,
+            "height": 602
+          },
+          "fx2_00010": {
+            "width": 1080,
+            "height": 602
+          },
+          "fx2_00011": {
+            "width": 1080,
+            "height": 602
+          },
+          "fx2_00012": {
+            "width": 1080,
+            "height": 602
+          },
+          "fx2_00013": {
+            "width": 1080,
+            "height": 602
+          },
+          "fx2_00014": {
+            "width": 1080,
+            "height": 602
+          },
+          "fx2_00015": {
+            "width": 1080,
+            "height": 602
+          },
+          "fx2_00016": {
+            "width": 1080,
+            "height": 602
+          },
+          "fx2_00017": {
+            "width": 1080,
+            "height": 602
+          },
+          "fx2_00018": {
+            "width": 1080,
+            "height": 602
+          },
+          "fx2_00019": {
+            "width": 1080,
+            "height": 602
+          },
+          "fx2_00020": {
+            "width": 1080,
+            "height": 602
+          },
+          "fx2_00021": {
+            "width": 1080,
+            "height": 602
+          },
+          "fx2_00022": {
+            "width": 1080,
+            "height": 602
+          },
+          "fx2_00023": {
+            "width": 1080,
+            "height": 602
+          },
+          "fx2_00024": {
+            "width": 1080,
+            "height": 602
+          },
+          "fx2_00025": {
+            "width": 1080,
+            "height": 602
+          },
+          "fx2_00026": {
+            "width": 1080,
+            "height": 602
+          },
+          "fx2_00027": {
+            "width": 1080,
+            "height": 602
+          },
+          "fx2_00028": {
+            "width": 1080,
+            "height": 602
+          },
+          "fx2_00029": {
+            "width": 1080,
+            "height": 602
+          },
+          "fx2_00030": {
+            "width": 1080,
+            "height": 602
+          },
+          "fx2_00031": {
+            "width": 1080,
+            "height": 602
+          }
+        }
+      }
+    },
+    "animations": {
+      "down": {
+        "slots": {
+          "fx2_border": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.0333,
+                "color": "ffffff00"
+              },
+              {
+                "time": 0.0667,
+                "color": "ffffffff",
+                "curve": "stepped"
+              },
+              {
+                "time": 1.0667,
+                "color": "ffffffff"
+              },
+              {
+                "time": 1.4333,
+                "color": "ffffff00"
+              }
+            ],
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.0333,
+                "name": "fx2_00000"
+              },
+              {
+                "time": 0.0667,
+                "name": "fx2_00001"
+              },
+              {
+                "time": 0.1,
+                "name": "fx2_00002"
+              },
+              {
+                "time": 0.1333,
+                "name": "fx2_00003"
+              },
+              {
+                "time": 0.1667,
+                "name": "fx2_00004"
+              },
+              {
+                "time": 0.2,
+                "name": "fx2_00005"
+              },
+              {
+                "time": 0.2333,
+                "name": "fx2_00006"
+              },
+              {
+                "time": 0.2667,
+                "name": "fx2_00007"
+              },
+              {
+                "time": 0.3,
+                "name": "fx2_00008"
+              },
+              {
+                "time": 0.3333,
+                "name": "fx2_00009"
+              },
+              {
+                "time": 0.3667,
+                "name": "fx2_00010"
+              },
+              {
+                "time": 0.4,
+                "name": "fx2_00011"
+              },
+              {
+                "time": 0.4333,
+                "name": "fx2_00012"
+              },
+              {
+                "time": 0.4667,
+                "name": "fx2_00013"
+              },
+              {
+                "time": 0.5,
+                "name": "fx2_00014"
+              },
+              {
+                "time": 0.5333,
+                "name": "fx2_00015"
+              },
+              {
+                "time": 0.5667,
+                "name": "fx2_00016"
+              },
+              {
+                "time": 0.6,
+                "name": "fx2_00017"
+              },
+              {
+                "time": 0.6333,
+                "name": "fx2_00018"
+              },
+              {
+                "time": 0.6667,
+                "name": "fx2_00019"
+              },
+              {
+                "time": 0.7,
+                "name": "fx2_00020"
+              },
+              {
+                "time": 0.7333,
+                "name": "fx2_00021"
+              },
+              {
+                "time": 0.7667,
+                "name": "fx2_00022"
+              },
+              {
+                "time": 0.8,
+                "name": "fx2_00023"
+              },
+              {
+                "time": 0.8333,
+                "name": "fx2_00024"
+              },
+              {
+                "time": 0.8667,
+                "name": "fx2_00025"
+              },
+              {
+                "time": 0.9,
+                "name": "fx2_00026"
+              },
+              {
+                "time": 0.9333,
+                "name": "fx2_00027"
+              },
+              {
+                "time": 0.9667,
+                "name": "fx2_00028"
+              },
+              {
+                "time": 1,
+                "name": "fx2_00029"
+              },
+              {
+                "time": 1.0333,
+                "name": "fx2_00030"
+              },
+              {
+                "time": 1.0667,
+                "name": "fx2_00031"
+              },
+              {
+                "time": 1.4333,
+                "name": null
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "textures": [
+    {
+      "__uuid__": "d51f4e06-a229-44ad-b35e-1a9616f1b4a1@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    },
+    {
+      "__uuid__": "9c787174-f814-4758-b03d-030ef2a12cc2@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "fx_border.jpg",
+    "fx_border2.jpg"
+  ],
+  "scale": 1,
+  "_atlasText": "\r\nfx_border.jpg\r\nsize: 2048,2048\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nfx2_00000\r\n  rotate: false\r\n  xy: 2, 1517\r\n  size: 540, 301\r\n  orig: 540, 301\r\n  offset: 0, 0\r\n  index: -1\r\nfx2_00001\r\n  rotate: false\r\n  xy: 2, 1214\r\n  size: 540, 301\r\n  orig: 540, 301\r\n  offset: 0, 0\r\n  index: -1\r\nfx2_00002\r\n  rotate: false\r\n  xy: 544, 1517\r\n  size: 540, 301\r\n  orig: 540, 301\r\n  offset: 0, 0\r\n  index: -1\r\nfx2_00003\r\n  rotate: false\r\n  xy: 2, 911\r\n  size: 540, 301\r\n  orig: 540, 301\r\n  offset: 0, 0\r\n  index: -1\r\nfx2_00004\r\n  rotate: false\r\n  xy: 544, 1214\r\n  size: 540, 301\r\n  orig: 540, 301\r\n  offset: 0, 0\r\n  index: -1\r\nfx2_00005\r\n  rotate: false\r\n  xy: 1086, 1517\r\n  size: 540, 301\r\n  orig: 540, 301\r\n  offset: 0, 0\r\n  index: -1\r\nfx2_00006\r\n  rotate: false\r\n  xy: 2, 608\r\n  size: 540, 301\r\n  orig: 540, 301\r\n  offset: 0, 0\r\n  index: -1\r\nfx2_00007\r\n  rotate: false\r\n  xy: 544, 911\r\n  size: 540, 301\r\n  orig: 540, 301\r\n  offset: 0, 0\r\n  index: -1\r\nfx2_00008\r\n  rotate: false\r\n  xy: 1086, 1214\r\n  size: 540, 301\r\n  orig: 540, 301\r\n  offset: 0, 0\r\n  index: -1\r\nfx2_00009\r\n  rotate: true\r\n  xy: 1628, 1278\r\n  size: 540, 301\r\n  orig: 540, 301\r\n  offset: 0, 0\r\n  index: -1\r\nfx2_00010\r\n  rotate: false\r\n  xy: 2, 305\r\n  size: 540, 301\r\n  orig: 540, 301\r\n  offset: 0, 0\r\n  index: -1\r\nfx2_00011\r\n  rotate: false\r\n  xy: 544, 608\r\n  size: 540, 301\r\n  orig: 540, 301\r\n  offset: 0, 0\r\n  index: -1\r\nfx2_00012\r\n  rotate: false\r\n  xy: 1086, 911\r\n  size: 540, 301\r\n  orig: 540, 301\r\n  offset: 0, 0\r\n  index: -1\r\nfx2_00013\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 540, 301\r\n  orig: 540, 301\r\n  offset: 0, 0\r\n  index: -1\r\nfx2_00014\r\n  rotate: false\r\n  xy: 544, 305\r\n  size: 540, 301\r\n  orig: 540, 301\r\n  offset: 0, 0\r\n  index: -1\r\nfx2_00015\r\n  rotate: false\r\n  xy: 1086, 608\r\n  size: 540, 301\r\n  orig: 540, 301\r\n  offset: 0, 0\r\n  index: -1\r\nfx2_00016\r\n  rotate: true\r\n  xy: 1628, 736\r\n  size: 540, 301\r\n  orig: 540, 301\r\n  offset: 0, 0\r\n  index: -1\r\nfx2_00017\r\n  rotate: false\r\n  xy: 544, 2\r\n  size: 540, 301\r\n  orig: 540, 301\r\n  offset: 0, 0\r\n  index: -1\r\nfx2_00018\r\n  rotate: false\r\n  xy: 1086, 305\r\n  size: 540, 301\r\n  orig: 540, 301\r\n  offset: 0, 0\r\n  index: -1\r\nfx2_00019\r\n  rotate: false\r\n  xy: 1086, 2\r\n  size: 540, 301\r\n  orig: 540, 301\r\n  offset: 0, 0\r\n  index: -1\r\nfx2_00020\r\n  rotate: true\r\n  xy: 1628, 194\r\n  size: 540, 301\r\n  orig: 540, 301\r\n  offset: 0, 0\r\n  index: -1\r\n\r\nfx_border2.jpg\r\nsize: 2048,2048\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nfx2_00021\r\n  rotate: false\r\n  xy: 2, 1214\r\n  size: 540, 301\r\n  orig: 540, 301\r\n  offset: 0, 0\r\n  index: -1\r\nfx2_00022\r\n  rotate: false\r\n  xy: 2, 911\r\n  size: 540, 301\r\n  orig: 540, 301\r\n  offset: 0, 0\r\n  index: -1\r\nfx2_00023\r\n  rotate: false\r\n  xy: 544, 1214\r\n  size: 540, 301\r\n  orig: 540, 301\r\n  offset: 0, 0\r\n  index: -1\r\nfx2_00024\r\n  rotate: false\r\n  xy: 2, 608\r\n  size: 540, 301\r\n  orig: 540, 301\r\n  offset: 0, 0\r\n  index: -1\r\nfx2_00025\r\n  rotate: false\r\n  xy: 544, 911\r\n  size: 540, 301\r\n  orig: 540, 301\r\n  offset: 0, 0\r\n  index: -1\r\nfx2_00026\r\n  rotate: false\r\n  xy: 1086, 1214\r\n  size: 540, 301\r\n  orig: 540, 301\r\n  offset: 0, 0\r\n  index: -1\r\nfx2_00027\r\n  rotate: false\r\n  xy: 2, 305\r\n  size: 540, 301\r\n  orig: 540, 301\r\n  offset: 0, 0\r\n  index: -1\r\nfx2_00028\r\n  rotate: false\r\n  xy: 544, 608\r\n  size: 540, 301\r\n  orig: 540, 301\r\n  offset: 0, 0\r\n  index: -1\r\nfx2_00029\r\n  rotate: false\r\n  xy: 1086, 911\r\n  size: 540, 301\r\n  orig: 540, 301\r\n  offset: 0, 0\r\n  index: -1\r\nfx2_00030\r\n  rotate: true\r\n  xy: 1628, 975\r\n  size: 540, 301\r\n  orig: 540, 301\r\n  offset: 0, 0\r\n  index: -1\r\nfx2_00031\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 540, 301\r\n  orig: 540, 301\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

@@ -1,0 +1,261 @@
+{
+"skeleton": { "hash": "gL3efyQY1FDMSTFu5HDRj9tguSM", "spine": "3.7.94", "width": 458.98, "height": 458.98, "images": "./images/", "audio": "D:/trave/製作檔/大鵬展翅_改/border" },
+"bones": [
+	{ "name": "root", "y": 681 },
+	{ "name": "main_bnt_s", "parent": "root", "y": -681, "color": "00eeffff" },
+	{ "name": "main_bnt_fx", "parent": "main_bnt_s", "color": "00eeffff" },
+	{ "name": "fx_wave_shake", "parent": "main_bnt_fx", "y": 6, "color": "ffeb00ff" },
+	{ "name": "fx_wave_light", "parent": "main_bnt_fx", "y": 6, "color": "ff4500ff" },
+	{ "name": "spin_hover_circle", "parent": "main_bnt_fx", "y": 11, "color": "00ff14ff" },
+	{ "name": "spin_rotation_line_fx", "parent": "main_bnt_fx", "scaleX": 0.9, "scaleY": 0.9, "color": "c04dffff" },
+	{ "name": "spin_rotation_line", "parent": "spin_rotation_line_fx", "color": "d710feff" },
+	{ "name": "spin_rotation_c_light", "parent": "main_bnt_fx", "scaleX": 0.9, "scaleY": 0.9, "color": "d710feff" },
+	{ "name": "spin_rotation_c_light2", "parent": "main_bnt_fx", "rotation": 180, "scaleX": 0.9, "scaleY": 0.9, "color": "d710feff" },
+	{ "name": "spin_rotation_line2", "parent": "spin_rotation_line_fx", "rotation": 180, "color": "d710feff" }
+],
+"slots": [
+	{ "name": "wave_shake", "bone": "fx_wave_shake", "color": "ffffff00", "attachment": "wave_shake", "blend": "additive" },
+	{ "name": "center_light", "bone": "fx_wave_light", "color": "ffffff00", "attachment": "center_light", "blend": "screen" },
+	{ "name": "center_light2", "bone": "fx_wave_light", "color": "ffffff00", "attachment": "center_light", "blend": "screen" },
+	{ "name": "spin_hover_circle", "bone": "spin_hover_circle", "color": "ffffff00", "attachment": "spin_hover_circle", "blend": "additive" },
+	{ "name": "spin_rotation_c_light", "bone": "spin_rotation_c_light", "color": "ffffff00", "attachment": "spin_rotation_c_light", "blend": "additive" },
+	{ "name": "spin_rotation_c_light2", "bone": "spin_rotation_c_light2", "color": "ffffff00", "attachment": "spin_rotation_c_light", "blend": "additive" },
+	{ "name": "spin_rotation_line", "bone": "spin_rotation_line", "color": "ffffff00", "attachment": "spin_rotation_line", "blend": "additive" },
+	{ "name": "spin_rotation_line2", "bone": "spin_rotation_line2", "color": "ffffff00", "attachment": "spin_rotation_line", "blend": "additive" }
+],
+"skins": {
+	"default": {
+		"center_light": {
+			"center_light": { "scaleX": 0.7, "scaleY": 0.7, "width": 480, "height": 480 }
+		},
+		"center_light2": {
+			"center_light": { "scaleX": 0.7, "scaleY": 0.7, "rotation": 60, "width": 480, "height": 480 }
+		},
+		"spin_hover_circle": {
+			"spin_hover_circle": { "x": -1.2, "scaleX": 1.2, "scaleY": 1.2, "width": 310, "height": 310 }
+		},
+		"spin_rotation_c_light": {
+			"spin_rotation_c_light": { "width": 400, "height": 400 }
+		},
+		"spin_rotation_c_light2": {
+			"spin_rotation_c_light": { "width": 400, "height": 400 }
+		},
+		"spin_rotation_line": {
+			"spin_rotation_line": { "width": 400, "height": 400 }
+		},
+		"spin_rotation_line2": {
+			"spin_rotation_line": { "width": 400, "height": 400 }
+		},
+		"wave_shake": {
+			"wave_shake": { "width": 310, "height": 310 }
+		}
+	}
+},
+"animations": {
+	"disable": {
+		"slots": {
+			"spin_rotation_c_light": {
+				"color": [
+					{ "time": 0, "color": "ffffff78", "curve": "stepped" },
+					{ "time": 4, "color": "ffffff78" }
+				]
+			},
+			"spin_rotation_c_light2": {
+				"color": [
+					{ "time": 0, "color": "ffffff78", "curve": "stepped" },
+					{ "time": 4, "color": "ffffff78" }
+				]
+			},
+			"spin_rotation_line": {
+				"color": [
+					{ "time": 0, "color": "ffffffc7", "curve": "stepped" },
+					{ "time": 4, "color": "ffffffc7" }
+				]
+			},
+			"spin_rotation_line2": {
+				"color": [
+					{ "time": 0, "color": "ffffffc7", "curve": "stepped" },
+					{ "time": 4, "color": "ffffffc7" }
+				]
+			}
+		},
+		"bones": {
+			"fx_wave_shake": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"fx_wave_light": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"spin_rotation_c_light": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 2, "angle": 180 },
+					{ "time": 4, "angle": 0 }
+				]
+			},
+			"spin_rotation_c_light2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1, "angle": 90 },
+					{ "time": 2, "angle": 180 },
+					{ "time": 3, "angle": -90 },
+					{ "time": 4, "angle": 0 }
+				]
+			},
+			"spin_rotation_line": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1667, "angle": 90 },
+					{ "time": 0.3333, "angle": 180 },
+					{ "time": 0.5, "angle": -90 },
+					{ "time": 0.6667, "angle": 0 },
+					{ "time": 0.8333, "angle": 90 },
+					{ "time": 1, "angle": 180 },
+					{ "time": 1.1667, "angle": -90 },
+					{ "time": 1.3333, "angle": 0 },
+					{ "time": 1.5, "angle": 90 },
+					{ "time": 1.6667, "angle": 180 },
+					{ "time": 1.8333, "angle": -90 },
+					{ "time": 2, "angle": 0 },
+					{ "time": 2.1667, "angle": 90 },
+					{ "time": 2.3333, "angle": 180 },
+					{ "time": 2.5, "angle": -90 },
+					{ "time": 2.6667, "angle": 0 },
+					{ "time": 2.8333, "angle": 90 },
+					{ "time": 3, "angle": 180 },
+					{ "time": 3.1667, "angle": -90 },
+					{ "time": 3.3333, "angle": 0 },
+					{ "time": 3.5, "angle": 90 },
+					{ "time": 3.6667, "angle": 180 },
+					{ "time": 3.8333, "angle": -90 },
+					{ "time": 4, "angle": 0 }
+				]
+			},
+			"spin_rotation_line2": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1667, "angle": 90 },
+					{ "time": 0.3333, "angle": 180 },
+					{ "time": 0.5, "angle": -90 },
+					{ "time": 0.6667, "angle": 0 },
+					{ "time": 0.8333, "angle": 90 },
+					{ "time": 1, "angle": 180 },
+					{ "time": 1.1667, "angle": -90 },
+					{ "time": 1.3333, "angle": 0 },
+					{ "time": 1.5, "angle": 90 },
+					{ "time": 1.6667, "angle": 180 },
+					{ "time": 1.8333, "angle": -90 },
+					{ "time": 2, "angle": 0 },
+					{ "time": 2.1667, "angle": 90 },
+					{ "time": 2.3333, "angle": 180 },
+					{ "time": 2.5, "angle": -90 },
+					{ "time": 2.6667, "angle": 0 },
+					{ "time": 2.8333, "angle": 90 },
+					{ "time": 3, "angle": 180 },
+					{ "time": 3.1667, "angle": -90 },
+					{ "time": 3.3333, "angle": 0 },
+					{ "time": 3.5, "angle": 90 },
+					{ "time": 3.6667, "angle": 180 },
+					{ "time": 3.8333, "angle": -90 },
+					{ "time": 4, "angle": 0 }
+				]
+			}
+		}
+	},
+	"down": {
+		"slots": {
+			"center_light": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{
+						"time": 0.0333,
+						"color": "ffffffff",
+						"curve": [ 0, 0, 0.628, 1 ]
+					},
+					{ "time": 0.3667, "color": "ffffff00" }
+				]
+			},
+			"center_light2": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{
+						"time": 0.0333,
+						"color": "ffffffff",
+						"curve": [ 0, 0, 0.628, 1 ]
+					},
+					{ "time": 0.3667, "color": "ffffff00" }
+				]
+			},
+			"wave_shake": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.0667, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 0.1333,
+						"color": "ffffffff",
+						"curve": [ 0, 0, 0.628, 1 ]
+					},
+					{ "time": 0.3667, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"fx_wave_shake": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{
+						"time": 0.0333,
+						"x": 0.9,
+						"y": 0.9,
+						"curve": [ 0, 0, 0.572, 1 ]
+					},
+					{ "time": 0.3667, "x": 1.1, "y": 1.1 }
+				]
+			},
+			"fx_wave_light": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{
+						"time": 0.0333,
+						"x": 0.8,
+						"y": 0.8,
+						"curve": [ 0, 0, 0.572, 1 ]
+					},
+					{ "time": 0.3667, "x": 1.2, "y": 1.2 }
+				]
+			}
+		}
+	},
+	"hover": {
+		"slots": {
+			"spin_hover_circle": {
+				"color": [
+					{ "time": 0, "color": "ffffff00" },
+					{ "time": 0.0667, "color": "ffffffff", "curve": "stepped" },
+					{
+						"time": 0.1667,
+						"color": "ffffffff",
+						"curve": [ 0.379, 0, 0.75, 1 ]
+					},
+					{ "time": 0.9667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"spin_hover_circle": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 0.0667, "x": 1, "y": 1 },
+					{ "time": 0.9667, "x": 1.3, "y": 1.3, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

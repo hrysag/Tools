@@ -1,0 +1,50 @@
+System.register(["cc"], function (_export, _context) {
+  "use strict";
+
+  var _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, HistoryItemInfo, _crd, ccclass, property;
+
+  _export("HistoryItemInfo", void 0);
+
+  return {
+    setters: [function (_cc) {
+      _cclegacy = _cc.cclegacy;
+      __checkObsolete__ = _cc.__checkObsolete__;
+      __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
+      _decorator = _cc._decorator;
+    }],
+    execute: function () {
+      _crd = true;
+
+      _cclegacy._RF.push({}, "ad3a4jR9otDyp3X6Rx+XeKI", "HistoryItemInfo", undefined);
+
+      __checkObsolete__(['_decorator', 'Component', 'Label', 'Node']);
+
+      ({
+        ccclass,
+        property
+      } = _decorator);
+
+      _export("HistoryItemInfo", HistoryItemInfo = class HistoryItemInfo {
+        constructor() {
+          this.gameCode = '';
+          this.date = 0;
+          this.bet = 0;
+          this.winScore = 0;
+          this.betID = '';
+          this.slotData = '';
+          this.playerId = '';
+          this.version = '';
+          this.beforeTotal = 0;
+          this.afterTotal = 0;
+          this.featureRatio = 0;
+        }
+
+      });
+
+      _cclegacy._RF.pop();
+
+      _crd = false;
+    }
+  };
+});
+//# sourceMappingURL=904f8380d1c548d99431e068c2647fe736e9ba76.js.map

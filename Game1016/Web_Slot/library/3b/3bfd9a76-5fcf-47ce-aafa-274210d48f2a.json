@@ -1,0 +1,194 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "loading_page1_bot",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "u0AH/eQFvTE57Xs1Cm9U3Ydb+zU",
+      "spine": "3.8.99",
+      "x": -248.56,
+      "y": -200.7,
+      "width": 497.12,
+      "height": 490.2,
+      "images": "./images/",
+      "audio": "D:/H5專案/013_妖精寶藏/SPINE_/loading_page"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "frame",
+        "parent": "root",
+        "y": 61
+      },
+      {
+        "name": "Loading_info_title_01",
+        "parent": "root",
+        "y": -126.96
+      },
+      {
+        "name": "Loading_info_txt_01",
+        "parent": "root",
+        "y": -196.7
+      }
+    ],
+    "slots": [
+      {
+        "name": "frame",
+        "bone": "frame",
+        "attachment": "frame"
+      },
+      {
+        "name": "Loading_info_title_01",
+        "bone": "Loading_info_title_01",
+        "attachment": "Loading_info_title_01"
+      },
+      {
+        "name": "Loading_info_txt_01",
+        "bone": "Loading_info_txt_01",
+        "attachment": "Loading_info_txt_01"
+      }
+    ],
+    "skins": [
+      {
+        "name": "default",
+        "attachments": {
+          "Loading_info_title_01": {
+            "Loading_info_title_01": {
+              "width": 8,
+              "height": 8
+            }
+          },
+          "Loading_info_txt_01": {
+            "Loading_info_txt_01": {
+              "x": 0.44,
+              "width": 8,
+              "height": 8
+            }
+          },
+          "frame": {
+            "frame": {
+              "y": 29.34,
+              "scaleX": 0.52,
+              "scaleY": 0.52,
+              "width": 956,
+              "height": 766
+            }
+          }
+        }
+      }
+    ],
+    "animations": {
+      "L": {
+        "bones": {
+          "frame": {
+            "translate": [
+              {
+                "curve": "stepped"
+              },
+              {
+                "time": 0.0667
+              }
+            ]
+          },
+          "Loading_info_txt_01": {
+            "translate": [
+              {
+                "curve": "stepped"
+              },
+              {
+                "time": 0.0667
+              }
+            ]
+          },
+          "Loading_info_title_01": {
+            "translate": [
+              {
+                "curve": "stepped"
+              },
+              {
+                "time": 0.0667
+              }
+            ]
+          }
+        }
+      },
+      "P": {
+        "bones": {
+          "frame": {
+            "translate": [
+              {
+                "y": 31,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.0667,
+                "y": 31
+              }
+            ]
+          },
+          "Loading_info_txt_01": {
+            "translate": [
+              {
+                "y": -14.09,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.0667,
+                "y": -14.09
+              }
+            ]
+          },
+          "Loading_info_title_01": {
+            "translate": [
+              {
+                "y": -12.7,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.0667,
+                "y": -12.7
+              }
+            ]
+          }
+        }
+      },
+      "loop": {
+        "slots": {
+          "frame": {
+            "color": [
+              {
+                "color": "ffffffff",
+                "curve": 0.25,
+                "c3": 0.75
+              },
+              {
+                "time": 0.5,
+                "color": "9b9b9bff",
+                "curve": "stepped"
+              },
+              {
+                "time": 3,
+                "color": "9b9b9bff"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "textures": [
+    {
+      "__uuid__": "5308a161-de2c-498e-9d34-7e9d8f8b122c@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "loading_page1_bot.webp"
+  ],
+  "scale": 1,
+  "_atlasText": "\r\nloading_page1_bot.webp\r\nsize: 740,588\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nLoading_info_title_01\r\n  rotate: false\r\n  xy: 731, 578\r\n  size: 6, 6\r\n  orig: 6, 6\r\n  offset: 0, 0\r\n  index: -1\r\nLoading_info_txt_01\r\n  rotate: false\r\n  xy: 731, 578\r\n  size: 6, 6\r\n  orig: 6, 6\r\n  offset: 0, 0\r\n  index: -1\r\nframe\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 727, 582\r\n  orig: 727, 582\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

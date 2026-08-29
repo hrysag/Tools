@@ -1,0 +1,19 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "FX_battle_item",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": ".bin",
+  "_skeletonJson": null,
+  "textures": [
+    {
+      "__uuid__": "8690fc71-42dd-40c8-b818-cf511e4b6035@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "FX_battle_item.webp"
+  ],
+  "scale": 1,
+  "_atlasText": "\r\nFX_battle_item.webp\r\nsize: 16,16\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\n01_pic/supersed\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 10, 10\r\n  orig: 10, 10\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

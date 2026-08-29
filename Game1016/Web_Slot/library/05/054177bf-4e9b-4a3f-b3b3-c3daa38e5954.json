@@ -1,0 +1,8 @@
+{
+  "__type__": "cc.TextAsset",
+  "_name": "readMe",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "text": "<使用Mediator來讓UniReelView 反Call 高階父類別物件>\n[UniSlotMachine1016]\n     │\n     │ creates and registers mediator\n     ▼\n[SlotMediator]\n     ▲\n     │ registered into\n     │\n[UniReelView1016]"
+}

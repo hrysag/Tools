@@ -1,0 +1,52 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "gui_fish_03",
+    "atlas": "cabca338-fd6a-4c53-92d3-92a7de480ad2",
+    "rect": {
+      "x": 1863,
+      "y": 1,
+      "width": 146,
+      "height": 98
+    },
+    "offset": {
+      "x": 1,
+      "y": 10
+    },
+    "originalSize": {
+      "width": 234,
+      "height": 198
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [],
+      "indexes": [],
+      "uv": [],
+      "nuv": [],
+      "minPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "texture": "c78126cb-b344-442f-8423-84aa63bb58f9@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

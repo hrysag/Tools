@@ -1,0 +1,90 @@
+
+FG_Bkg_front.webp
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01_pic/butterfly
+  rotate: false
+  xy: 856, 856
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+01_pic/fg2_v_bgbottom2
+  rotate: false
+  xy: 2, 374
+  size: 740, 303
+  orig: 740, 303
+  offset: 0, 0
+  index: -1
+01_pic/fg2_vh_plant1
+  rotate: true
+  xy: 256, 886
+  size: 98, 283
+  orig: 98, 283
+  offset: 0, 0
+  index: -1
+01_pic/fg2_vh_plant2
+  rotate: true
+  xy: 634, 679
+  size: 175, 259
+  orig: 175, 259
+  offset: 0, 0
+  index: -1
+01_pic/fg2_vh_plant3
+  rotate: true
+  xy: 154, 723
+  size: 161, 204
+  orig: 161, 204
+  offset: 0, 0
+  index: -1
+01_pic/fg2_vh_plant4
+  rotate: true
+  xy: 360, 714
+  size: 163, 272
+  orig: 163, 272
+  offset: 0, 0
+  index: -1
+01_pic/fg2_vh_plant5
+  rotate: false
+  xy: 724, 871
+  size: 130, 113
+  orig: 130, 113
+  offset: 0, 0
+  index: -1
+01_pic/fg2_vh_plantback
+  rotate: false
+  xy: 53, 926
+  size: 105, 58
+  orig: 105, 58
+  offset: 0, 0
+  index: -1
+01_pic/fg2_vh_plantfront
+  rotate: true
+  xy: 541, 879
+  size: 105, 181
+  orig: 105, 181
+  offset: 0, 0
+  index: -1
+01_pic/pp
+  rotate: true
+  xy: 2, 949
+  size: 35, 49
+  orig: 35, 49
+  offset: 0, 0
+  index: -1
+01_pic/shine_
+  rotate: false
+  xy: 2, 774
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+01_pic/spark
+  rotate: false
+  xy: 160, 891
+  size: 94, 93
+  orig: 94, 93
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,44 @@
+﻿{
+	"tw":{
+		"GenericUI": {
+			"HISTORY": {
+				"TITLE": "投注歷程"
+			}
+		}
+	},
+	"cn":{
+		"GenericUI": {
+			"HISTORY": {
+				"TITLE": "投注历程"
+			}
+		}
+	},
+	"en":{
+		"GenericUI": {
+			"HISTORY": {
+				"TITLE": "BET RECORD"
+			}
+		}
+	},
+	"vn":{
+		"GenericUI": {
+			"HISTORY": {
+				"TITLE": "CÁ CƯỢC GHI"
+			}
+		}
+	},
+	"jp":{
+		"GenericUI": {
+			"HISTORY": {
+				"TITLE": "ベット履歴"
+			}
+		}
+	},
+	"th":{
+		"GenericUI": {
+			"HISTORY": {
+				"TITLE": "บันทึกการเดิมพัน"
+			}
+		}
+	}
+}

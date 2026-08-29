@@ -1,0 +1,19 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "icon_shark",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": ".bin",
+  "_skeletonJson": null,
+  "textures": [
+    {
+      "__uuid__": "1c7fe200-3b5c-4619-b015-91fe3d7e73e6@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "icon_shark.png"
+  ],
+  "scale": 1,
+  "_atlasText": "\nicon_shark.png\nsize: 1829,327\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\n01_pic/icon1_body\n  rotate: false\n  xy: 2, 2\n  size: 553, 323\n  orig: 553, 323\n  offset: 0, 0\n  index: -1\n01_pic/icon1_coin\n  rotate: false\n  xy: 1680, 138\n  size: 75, 93\n  orig: 75, 93\n  offset: 0, 0\n  index: -1\n01_pic/icon1_coin_light\n  rotate: false\n  xy: 1763, 261\n  size: 64, 64\n  orig: 64, 64\n  offset: 0, 0\n  index: -1\n01_pic/icon1_eye_L\n  rotate: false\n  xy: 1673, 233\n  size: 88, 92\n  orig: 88, 92\n  offset: 0, 0\n  index: -1\n01_pic/icon1_eye_R\n  rotate: true\n  xy: 1242, 119\n  size: 50, 81\n  orig: 50, 81\n  offset: 0, 0\n  index: -1\n01_pic/icon1_eyelid_L\n  rotate: true\n  xy: 1680, 42\n  size: 94, 82\n  orig: 94, 82\n  offset: 0, 0\n  index: -1\n01_pic/icon1_eyelid_R\n  rotate: true\n  xy: 1763, 203\n  size: 56, 62\n  orig: 56, 62\n  offset: 0, 0\n  index: -1\n01_pic/icon1_ligjt1\n  rotate: true\n  xy: 1519, 40\n  size: 160, 159\n  orig: 160, 159\n  offset: 0, 0\n  index: -1\n01_pic/icon1_ligjt2\n  rotate: false\n  xy: 1242, 171\n  size: 249, 154\n  orig: 249, 154\n  offset: 0, 0\n  index: -1\n01_pic/icon1_ligjt3\n  rotate: false\n  xy: 1030, 5\n  size: 91, 105\n  orig: 91, 105\n  offset: 0, 0\n  index: -1\n01_pic/icon1_ligjt4\n  rotate: false\n  xy: 1030, 112\n  size: 210, 213\n  orig: 210, 213\n  offset: 0, 0\n  index: -1\n01_pic/icon1_mouth\n  rotate: false\n  xy: 1493, 202\n  size: 178, 123\n  orig: 178, 123\n  offset: 0, 0\n  index: -1\n01_pic/icon1_teeth_B\n  rotate: true\n  xy: 1254, 4\n  size: 113, 62\n  orig: 113, 62\n  offset: 0, 0\n  index: -1\n01_pic/icon1_teeth_T\n  rotate: false\n  xy: 1123, 41\n  size: 129, 69\n  orig: 129, 69\n  offset: 0, 0\n  index: -1\n01_pic/icon1_water\n  rotate: false\n  xy: 557, 27\n  size: 471, 298\n  orig: 471, 298\n  offset: 0, 0\n  index: -1\n01_pic/icon1_wing_L\n  rotate: false\n  xy: 1325, 11\n  size: 192, 158\n  orig: 192, 158\n  offset: 0, 0\n  index: -1\n01_pic/icon1_wing_R\n  rotate: false\n  xy: 1123, 6\n  size: 74, 33\n  orig: 74, 33\n  offset: 0, 0\n  index: -1\n01_pic/icon1_wing_back\n  rotate: false\n  xy: 1757, 149\n  size: 61, 52\n  orig: 61, 52\n  offset: 0, 0\n  index: -1\n"
+}

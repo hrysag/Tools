@@ -1,0 +1,92 @@
+// Copyright (c) 2017-2020 Xiamen Yaji Software Co., Ltd.
+CCEffect %{
+  techniques:
+  - passes:
+    - vert: sprite-vs:vert
+      frag: sprite-fs:frag
+      depthStencilState:
+        depthTest: false
+        depthWrite: false
+      blendState:
+        targets:
+        - blend: true
+          blendSrc: src_alpha
+          blendDst: one_minus_src_alpha
+          blendDstAlpha: one_minus_src_alpha
+      rasterizerState:
+        cullMode: none
+      properties:
+        keyColor: { value: [0, 1, 0, 1], editor: { type: color } }
+        Threshold: { value: 0.25 }
+        Softness: { value: 0.1 }
+        Despill: { value: 0.5 }
+}%
+
+CCProgram sprite-vs %{
+  precision highp float;
+  #include <builtin/uniforms/cc-global>
+
+
+  in vec3 a_position;
+  in vec2 a_texCoord;
+
+  out vec2 uv0;
+
+  vec4 vert () {
+    vec4 pos = vec4(a_position, 1);
+    pos = cc_matViewProj * pos;
+
+    uv0 = vec2(a_texCoord.x, a_texCoord.y);
+
+    return pos;
+  }
+}%
+
+CCProgram sprite-fs %{
+  precision highp float;
+  #include <builtin/internal/embedded-alpha>
+
+  uniform UVScale{
+    vec4 keyColor;
+    float Threshold;
+    float Softness;
+    float Despill;
+  };
+
+  in vec2 uv0;
+
+    #pragma builtin(local)
+    layout(set = 2, binding = 12) uniform sampler2D cc_spriteTexture;
+
+
+  vec4 frag () {
+    vec4 texColor = vec4(1, 1, 1, 1);
+    texColor = texture(cc_spriteTexture, uv0);
+
+    float diff = distance(texColor.rgb, keyColor.rgb);
+    float safeSmoothness = max(Softness, 0.0001);
+    float alpha = smoothstep(Threshold, Threshold + safeSmoothness, diff);
+
+
+    if (keyColor.b > keyColor.r && keyColor.b > keyColor.g) {
+      float maxRG = max(texColor.r, texColor.g);
+      texColor.b = min(texColor.b, maxRG * Despill);
+
+    } else if (keyColor.g > keyColor.r && keyColor.g > keyColor.b) {
+      float maxRB = max(texColor.r, texColor.b);
+      texColor.g = min(texColor.g, maxRB * Despill);
+
+    } else {
+      float maxGB = max(texColor.g, texColor.b);  
+      texColor.r = min(texColor.r, maxGB * Despill);  
+
+    }
+    
+
+
+    vec4 finalColor = vec4(texColor.rgb, alpha);
+
+
+    return finalColor;
+  }
+}%

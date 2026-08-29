@@ -1,0 +1,649 @@
+{
+  "ver": "2.3.12",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "0e490ae2-11c2-490e-8dcd-707ae7472d91",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "c352e": {
+      "importer": "gltf-mesh",
+      "uuid": "0e490ae2-11c2-490e-8dcd-707ae7472d91@c352e",
+      "displayName": "",
+      "id": "c352e",
+      "name": " 01.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 12
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e8f93": {
+      "importer": "gltf-mesh",
+      "uuid": "0e490ae2-11c2-490e-8dcd-707ae7472d91@e8f93",
+      "displayName": "",
+      "id": "e8f93",
+      "name": "CATRigTail1.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 12
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e1736": {
+      "importer": "gltf-mesh",
+      "uuid": "0e490ae2-11c2-490e-8dcd-707ae7472d91@e1736",
+      "displayName": "",
+      "id": "e1736",
+      "name": "CATRigTail2.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 12
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "72ee6": {
+      "importer": "gltf-mesh",
+      "uuid": "0e490ae2-11c2-490e-8dcd-707ae7472d91@72ee6",
+      "displayName": "",
+      "id": "72ee6",
+      "name": "CATRigTail3.mesh",
+      "userData": {
+        "gltfIndex": 3,
+        "triangleCount": 12
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "111ff": {
+      "importer": "gltf-mesh",
+      "uuid": "0e490ae2-11c2-490e-8dcd-707ae7472d91@111ff",
+      "displayName": "",
+      "id": "111ff",
+      "name": "CATRigTail4.mesh",
+      "userData": {
+        "gltfIndex": 4,
+        "triangleCount": 12
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "9cc98": {
+      "importer": "gltf-mesh",
+      "uuid": "0e490ae2-11c2-490e-8dcd-707ae7472d91@9cc98",
+      "displayName": "",
+      "id": "9cc98",
+      "name": "CATRigTail5.mesh",
+      "userData": {
+        "gltfIndex": 5,
+        "triangleCount": 12
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "78d50": {
+      "importer": "gltf-mesh",
+      "uuid": "0e490ae2-11c2-490e-8dcd-707ae7472d91@78d50",
+      "displayName": "",
+      "id": "78d50",
+      "name": "CATRigTail6.mesh",
+      "userData": {
+        "gltfIndex": 6,
+        "triangleCount": 12
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "e0d21": {
+      "importer": "gltf-mesh",
+      "uuid": "0e490ae2-11c2-490e-8dcd-707ae7472d91@e0d21",
+      "displayName": "",
+      "id": "e0d21",
+      "name": "CATRigTail7.mesh",
+      "userData": {
+        "gltfIndex": 7,
+        "triangleCount": 12
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "b40d4": {
+      "importer": "gltf-mesh",
+      "uuid": "0e490ae2-11c2-490e-8dcd-707ae7472d91@b40d4",
+      "displayName": "",
+      "id": "b40d4",
+      "name": "CATRigTail8.mesh",
+      "userData": {
+        "gltfIndex": 8,
+        "triangleCount": 12
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "964b2": {
+      "importer": "gltf-mesh",
+      "uuid": "0e490ae2-11c2-490e-8dcd-707ae7472d91@964b2",
+      "displayName": "",
+      "id": "964b2",
+      "name": "CoinBorn.mesh",
+      "userData": {
+        "gltfIndex": 9,
+        "triangleCount": 12
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "2d8c2": {
+      "importer": "gltf-mesh",
+      "uuid": "0e490ae2-11c2-490e-8dcd-707ae7472d91@2d8c2",
+      "displayName": "",
+      "id": "2d8c2",
+      "name": "GoldDragon_LP.mesh",
+      "userData": {
+        "gltfIndex": 10,
+        "triangleCount": 1700
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "d25ad": {
+      "importer": "gltf-animation",
+      "uuid": "0e490ae2-11c2-490e-8dcd-707ae7472d91@d25ad",
+      "displayName": "",
+      "id": "d25ad",
+      "name": "in.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 3
+        },
+        "events": [],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "speed": 1,
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "1f586": {
+      "importer": "gltf-animation",
+      "uuid": "0e490ae2-11c2-490e-8dcd-707ae7472d91@1f586",
+      "displayName": "",
+      "id": "1f586",
+      "name": "idle.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "speed": 1,
+        "sample": 30,
+        "span": {
+          "from": 3,
+          "to": 7
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "39eac": {
+      "importer": "gltf-animation",
+      "uuid": "0e490ae2-11c2-490e-8dcd-707ae7472d91@39eac",
+      "displayName": "",
+      "id": "39eac",
+      "name": "attack01.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "speed": 1,
+        "sample": 30,
+        "span": {
+          "from": 8.333333333333334,
+          "to": 9.166666666666666
+        },
+        "events": [],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        }
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "d52fc": {
+      "importer": "gltf-animation",
+      "uuid": "0e490ae2-11c2-490e-8dcd-707ae7472d91@d52fc",
+      "displayName": "",
+      "id": "d52fc",
+      "name": "attack02.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "speed": 1,
+        "sample": 30,
+        "span": {
+          "from": 9.333333333333334,
+          "to": 10.5
+        },
+        "events": [],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        }
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "6d314": {
+      "importer": "gltf-animation",
+      "uuid": "0e490ae2-11c2-490e-8dcd-707ae7472d91@6d314",
+      "displayName": "",
+      "id": "6d314",
+      "name": "attack03.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "speed": 1,
+        "sample": 30,
+        "span": {
+          "from": 10.666666666666666,
+          "to": 11.333333333333334
+        },
+        "events": [],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "1f0ca": {
+      "importer": "gltf-animation",
+      "uuid": "0e490ae2-11c2-490e-8dcd-707ae7472d91@1f0ca",
+      "displayName": "",
+      "id": "1f0ca",
+      "name": "attack04.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "speed": 1,
+        "sample": 30,
+        "span": {
+          "from": 11.666666666666666,
+          "to": 12.333333333333334
+        },
+        "events": [],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        },
+        "auxiliaryCurves": {}
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "dc496": {
+      "importer": "gltf-animation",
+      "uuid": "0e490ae2-11c2-490e-8dcd-707ae7472d91@dc496",
+      "displayName": "",
+      "id": "dc496",
+      "name": "roar.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "speed": 1,
+        "sample": 30,
+        "span": {
+          "from": 12.666666666666666,
+          "to": 16
+        },
+        "events": [],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        }
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "fa91f": {
+      "importer": "gltf-animation",
+      "uuid": "0e490ae2-11c2-490e-8dcd-707ae7472d91@fa91f",
+      "displayName": "",
+      "id": "fa91f",
+      "name": "out.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "speed": 1,
+        "sample": 30,
+        "span": {
+          "from": 16.333333333333332,
+          "to": 17.33333396911621
+        },
+        "events": [],
+        "embeddedPlayers": [],
+        "editorExtras": {
+          "embeddedPlayerGroups": []
+        }
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "13eba": {
+      "importer": "gltf-skeleton",
+      "uuid": "0e490ae2-11c2-490e-8dcd-707ae7472d91@13eba",
+      "displayName": "",
+      "id": "13eba",
+      "name": "skeleton #0.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 10
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "da762": {
+      "importer": "gltf-material",
+      "uuid": "0e490ae2-11c2-490e-8dcd-707ae7472d91@da762",
+      "displayName": "",
+      "id": "da762",
+      "name": "DragonGold.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "3c115": {
+      "importer": "gltf-scene",
+      "uuid": "0e490ae2-11c2-490e-8dcd-707ae7472d91@3c115",
+      "displayName": "",
+      "id": "3c115",
+      "name": "goldDragon.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "animationImportSettings": [
+      {
+        "name": "All Animations",
+        "duration": 17.33333396911621,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "in",
+            "from": 0,
+            "to": 3,
+            "wrapMode": 1,
+            "previousId": "d25ad"
+          },
+          {
+            "name": "idle",
+            "from": 3,
+            "to": 7,
+            "wrapMode": 2,
+            "speed": 1,
+            "previousId": "1f586"
+          },
+          {
+            "name": "attack01",
+            "from": 8.333333333333334,
+            "to": 9.166666666666666,
+            "wrapMode": 1,
+            "speed": 1,
+            "previousId": "39eac"
+          },
+          {
+            "name": "attack02",
+            "from": 9.333333333333334,
+            "to": 10.5,
+            "wrapMode": 1,
+            "speed": 1,
+            "previousId": "d52fc"
+          },
+          {
+            "name": "attack03",
+            "from": 10.666666666666666,
+            "to": 11.333333333333334,
+            "wrapMode": 1,
+            "speed": 1,
+            "previousId": "6d314"
+          },
+          {
+            "name": "attack04",
+            "from": 11.666666666666666,
+            "to": 12.333333333333334,
+            "wrapMode": 1,
+            "speed": 1,
+            "previousId": "1f0ca"
+          },
+          {
+            "name": "roar",
+            "from": 12.666666666666666,
+            "to": 16,
+            "wrapMode": 2,
+            "speed": 1,
+            "previousId": "dc496"
+          },
+          {
+            "name": "out",
+            "from": 16.333333333333332,
+            "to": 17.33333396911621,
+            "wrapMode": 1,
+            "speed": 1,
+            "previousId": "fa91f"
+          }
+        ]
+      }
+    ],
+    "redirect": "0e490ae2-11c2-490e-8dcd-707ae7472d91@3c115",
+    "assetFinder": {
+      "meshes": [
+        "0e490ae2-11c2-490e-8dcd-707ae7472d91@c352e",
+        "0e490ae2-11c2-490e-8dcd-707ae7472d91@e8f93",
+        "0e490ae2-11c2-490e-8dcd-707ae7472d91@e1736",
+        "0e490ae2-11c2-490e-8dcd-707ae7472d91@72ee6",
+        "0e490ae2-11c2-490e-8dcd-707ae7472d91@111ff",
+        "0e490ae2-11c2-490e-8dcd-707ae7472d91@9cc98",
+        "0e490ae2-11c2-490e-8dcd-707ae7472d91@78d50",
+        "0e490ae2-11c2-490e-8dcd-707ae7472d91@e0d21",
+        "0e490ae2-11c2-490e-8dcd-707ae7472d91@b40d4",
+        "0e490ae2-11c2-490e-8dcd-707ae7472d91@964b2",
+        "0e490ae2-11c2-490e-8dcd-707ae7472d91@2d8c2"
+      ],
+      "skeletons": [
+        "0e490ae2-11c2-490e-8dcd-707ae7472d91@13eba"
+      ],
+      "textures": [],
+      "materials": [
+        "0e490ae2-11c2-490e-8dcd-707ae7472d91@da762"
+      ],
+      "scenes": [
+        "0e490ae2-11c2-490e-8dcd-707ae7472d91@3c115"
+      ]
+    },
+    "materials": {
+      "0e490ae2-11c2-490e-8dcd-707ae7472d91@da762": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "ed39a98a-aa9c-41c8-ac0e-b9de983e0e72",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "HAS_SECOND_UV": true,
+            "USE_ALPHA_TEST": true,
+            "USE_TILLING_OFFSET": true
+          }
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainTexture": {
+              "__uuid__": "b6fef5df-a5ca-4ace-a776-facef2c8eb47@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "_waveTexture": {
+              "__uuid__": "37eda96c-e16c-4a34-bc52-0aabe0f82d8c@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "_speed": 0.08,
+            "_offset": {
+              "__type__": "cc.Vec2",
+              "x": 0,
+              "y": 1
+            }
+          }
+        ]
+      }
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    }
+  }
+}

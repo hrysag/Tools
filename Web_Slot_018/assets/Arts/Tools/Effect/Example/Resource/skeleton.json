@@ -1,0 +1,22 @@
+{
+"skeleton": { "hash": "tLTsPo9tEK/zNiDQJYlM9xJE6r4", "spine": "3.8.99" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "sym_11_bg_2", "bone": "root", "attachment": "sym_11_bg_2" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"sym_11_bg_2": {
+				"sym_11_bg_2": { "width": 172, "height": 260 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {}
+}
+}

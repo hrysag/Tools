@@ -1,0 +1,497 @@
+{
+  "ver": "2.3.12",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "175c1dd5-3fd9-4832-a491-493344748567",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "df347": {
+      "importer": "gltf-mesh",
+      "uuid": "175c1dd5-3fd9-4832-a491-493344748567@df347",
+      "displayName": "",
+      "id": "df347",
+      "name": "swordfish_LP.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 1684
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "288a7": {
+      "importer": "gltf-mesh",
+      "uuid": "175c1dd5-3fd9-4832-a491-493344748567@288a7",
+      "displayName": "",
+      "id": "288a7",
+      "name": "swordfish_Effect.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 538
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ed08d": {
+      "importer": "gltf-animation",
+      "uuid": "175c1dd5-3fd9-4832-a491-493344748567@ed08d",
+      "displayName": "",
+      "id": "ed08d",
+      "name": "swim.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "sample": 30,
+        "span": {
+          "from": 0.6666666666666666,
+          "to": 2
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "a80c5": {
+      "importer": "gltf-animation",
+      "uuid": "175c1dd5-3fd9-4832-a491-493344748567@a80c5",
+      "displayName": "",
+      "id": "a80c5",
+      "name": "hurt.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "speed": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 0.26666666666666666
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "13eba": {
+      "importer": "gltf-skeleton",
+      "uuid": "175c1dd5-3fd9-4832-a491-493344748567@13eba",
+      "displayName": "",
+      "id": "13eba",
+      "name": "skeleton #0.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 24
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ab21b": {
+      "importer": "gltf-material",
+      "uuid": "175c1dd5-3fd9-4832-a491-493344748567@ab21b",
+      "displayName": "",
+      "id": "ab21b",
+      "name": "swordfish_body.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "c1ac1": {
+      "importer": "gltf-material",
+      "uuid": "175c1dd5-3fd9-4832-a491-493344748567@c1ac1",
+      "displayName": "",
+      "id": "c1ac1",
+      "name": "swordfish_fx.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ac4e5": {
+      "importer": "gltf-scene",
+      "uuid": "175c1dd5-3fd9-4832-a491-493344748567@ac4e5",
+      "displayName": "",
+      "id": "ac4e5",
+      "name": "swordfish.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "animationImportSettings": [
+      {
+        "name": "All Animations",
+        "duration": 2,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "swim",
+            "from": 0.6666666666666666,
+            "to": 2,
+            "wrapMode": 2,
+            "previousId": "ed08d"
+          },
+          {
+            "name": "hurt",
+            "from": 0,
+            "to": 0.26666666666666666,
+            "wrapMode": 1,
+            "speed": 1,
+            "previousId": "a80c5"
+          }
+        ]
+      }
+    ],
+    "redirect": "175c1dd5-3fd9-4832-a491-493344748567@ac4e5",
+    "assetFinder": {
+      "meshes": [
+        "175c1dd5-3fd9-4832-a491-493344748567@df347",
+        "175c1dd5-3fd9-4832-a491-493344748567@288a7"
+      ],
+      "skeletons": [
+        "175c1dd5-3fd9-4832-a491-493344748567@13eba"
+      ],
+      "textures": [],
+      "materials": [
+        "175c1dd5-3fd9-4832-a491-493344748567@ab21b",
+        "175c1dd5-3fd9-4832-a491-493344748567@c1ac1"
+      ],
+      "scenes": [
+        "175c1dd5-3fd9-4832-a491-493344748567@ac4e5"
+      ]
+    },
+    "materials": {
+      "175c1dd5-3fd9-4832-a491-493344748567@ab21b": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "ed39a98a-aa9c-41c8-ac0e-b9de983e0e72",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "USE_INSTANCING": true,
+            "HAS_SECOND_UV": true,
+            "USE_TILLING_OFFSET": true
+          }
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainTexture": {
+              "__uuid__": "aaa11dd1-8b80-46db-8b63-782efaf40a8d@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "_waveTexture": {
+              "__uuid__": "37eda96c-e16c-4a34-bc52-0aabe0f82d8c@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "_waveBaseColor": {
+              "__type__": "cc.Color",
+              "r": 80,
+              "g": 80,
+              "b": 80,
+              "a": 255
+            },
+            "_speed": 0.08,
+            "_offset": {
+              "__type__": "cc.Vec2",
+              "x": 0,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "175c1dd5-3fd9-4832-a491-493344748567@f7409": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "a3cd009f-0ab0-420d-9278-b9fdab939bbc",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": "2",
+        "_defines": [
+          {
+            "USE_INSTANCING": true,
+            "USE_VERTEX_COLOR": true,
+            "USE_TEXTURE": true
+          }
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainTexture": {
+              "__uuid__": "99006838-f768-4aa3-9cd6-3b587f8cbf15@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "tilingOffset": {
+              "__type__": "cc.Vec4",
+              "x": 0.25,
+              "y": 1,
+              "z": 0.75,
+              "w": 0
+            }
+          }
+        ]
+      },
+      "175c1dd5-3fd9-4832-a491-493344748567@85358": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "a3cd009f-0ab0-420d-9278-b9fdab939bbc",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": "2",
+        "_defines": [
+          {
+            "USE_INSTANCING": true,
+            "USE_VERTEX_COLOR": true,
+            "USE_TEXTURE": true
+          }
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainTexture": {
+              "__uuid__": "99006838-f768-4aa3-9cd6-3b587f8cbf15@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "tilingOffset": {
+              "__type__": "cc.Vec4",
+              "x": 0.25,
+              "y": 1,
+              "z": 0.5,
+              "w": 0
+            }
+          }
+        ]
+      },
+      "175c1dd5-3fd9-4832-a491-493344748567@39e84": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "a3cd009f-0ab0-420d-9278-b9fdab939bbc",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": "2",
+        "_defines": [
+          {
+            "USE_INSTANCING": true,
+            "USE_VERTEX_COLOR": true,
+            "USE_TEXTURE": true
+          }
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainTexture": {
+              "__uuid__": "99006838-f768-4aa3-9cd6-3b587f8cbf15@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "tilingOffset": {
+              "__type__": "cc.Vec4",
+              "x": 0.25,
+              "y": 1,
+              "z": 0.25,
+              "w": 0
+            }
+          }
+        ]
+      },
+      "175c1dd5-3fd9-4832-a491-493344748567@a0999": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "a3cd009f-0ab0-420d-9278-b9fdab939bbc",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": "2",
+        "_defines": [
+          {
+            "USE_INSTANCING": true,
+            "USE_VERTEX_COLOR": true,
+            "USE_TEXTURE": true
+          }
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainTexture": {
+              "__uuid__": "99006838-f768-4aa3-9cd6-3b587f8cbf15@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "tilingOffset": {
+              "__type__": "cc.Vec4",
+              "x": 0.25,
+              "y": 1,
+              "z": 0,
+              "w": 0
+            }
+          }
+        ]
+      },
+      "175c1dd5-3fd9-4832-a491-493344748567@c1ac1": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "3a967b94-a8c5-4ee6-865f-ec9d2978c0f9",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": "2",
+        "_defines": [
+          {
+            "USE_INSTANCING": true,
+            "USE_VERTEX_COLOR": true,
+            "USE_TEXTURE": true
+          }
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainTexture": {
+              "__uuid__": "ba28dd02-3795-4819-90c8-e887e3a8cc09@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "_offset": {
+              "__type__": "cc.Vec2",
+              "x": 0,
+              "y": 0.3
+            }
+          }
+        ]
+      }
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    }
+  }
+}

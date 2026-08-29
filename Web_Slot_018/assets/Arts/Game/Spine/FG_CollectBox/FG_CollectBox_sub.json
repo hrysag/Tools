@@ -1,0 +1,211 @@
+{
+"skeleton": { "hash": "0Uf5KcJuVYgbia2jSppvBZP0rJY", "spine": "3.8.99", "x": -14, "y": -14, "width": 29, "height": 29 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "FG_bean_", "parent": "root" },
+	{ "name": "FG_goalicon_", "parent": "root" }
+],
+"slots": [
+	{ "name": "FG_bean_off", "bone": "FG_bean_", "attachment": "FG02_sub_normal_off" },
+	{ "name": "FG_bean_on", "bone": "FG_bean_", "attachment": "FG02_sub_normal_on" },
+	{ "name": "FG_goalicon_off", "bone": "FG_goalicon_", "attachment": "FG02_sub_off" },
+	{ "name": "FG_goalicon_on", "bone": "FG_goalicon_", "color": "ffffff00", "attachment": "FG02_sub_on" }
+],
+"skins": [
+	{
+		"name": "FG_01_sub_01",
+		"attachments": {
+			"FG_goalicon_off": {
+				"FG02_sub_off": { "name": "FG_01_goalx2_off", "y": -1.5, "width": 55, "height": 44 }
+			},
+			"FG_goalicon_on": {
+				"FG02_sub_on": { "name": "FG_01_goalx2_on", "y": -1.5, "width": 55, "height": 44 }
+			}
+		}
+	},
+	{
+		"name": "FG_01_sub_05",
+		"attachments": {
+			"FG_goalicon_off": {
+				"FG02_sub_off": { "name": "FG_01_goalx3_off", "y": -1.5, "width": 55, "height": 46 }
+			},
+			"FG_goalicon_on": {
+				"FG02_sub_on": { "name": "FG_01_goalx3_on", "y": -1.5, "width": 55, "height": 46 }
+			}
+		}
+	},
+	{
+		"name": "FG_01_sub_09",
+		"attachments": {
+			"FG_goalicon_off": {
+				"FG02_sub_off": { "name": "FG_01_goalx5_off", "y": -1.5, "width": 52, "height": 47 }
+			},
+			"FG_goalicon_on": {
+				"FG02_sub_on": { "name": "FG_01_goalx5_on", "y": -1.5, "width": 52, "height": 47 }
+			}
+		}
+	},
+	{
+		"name": "FG_01_sub_13",
+		"attachments": {
+			"FG_goalicon_off": {
+				"FG02_sub_off": { "name": "FG_01_goalx10_off", "y": -1.5, "width": 69, "height": 43 }
+			},
+			"FG_goalicon_on": {
+				"FG02_sub_on": { "name": "FG_01_goalx10_on", "y": -1.5, "width": 69, "height": 43 }
+			}
+		}
+	},
+	{
+		"name": "FG_01_sub_normal",
+		"attachments": {
+			"FG_bean_off": {
+				"FG02_sub_normal_off": { "name": "FG_01_red_plusbean_off", "y": 0.5, "width": 29, "height": 29 }
+			},
+			"FG_bean_on": {
+				"FG02_sub_normal_on": { "name": "FG_01_red_plusbean", "width": 21, "height": 22 }
+			}
+		}
+	},
+	{
+		"name": "FG_02_sub_01",
+		"attachments": {
+			"FG_goalicon_off": {
+				"FG02_sub_off": { "name": "FG_02_goalicon07_off", "y": -1.5, "width": 66, "height": 63 }
+			},
+			"FG_goalicon_on": {
+				"FG02_sub_on": { "name": "FG_02_goalicon07_on", "y": -1.5, "width": 66, "height": 63 }
+			}
+		}
+	},
+	{
+		"name": "FG_02_sub_05",
+		"attachments": {
+			"FG_goalicon_off": {
+				"FG02_sub_off": { "name": "FG_02_goalicon06_off", "x": -0.5, "y": -1, "width": 69, "height": 72 }
+			},
+			"FG_goalicon_on": {
+				"FG02_sub_on": { "name": "FG_02_goalicon06_on", "x": -0.5, "y": -1, "width": 69, "height": 72 }
+			}
+		}
+	},
+	{
+		"name": "FG_02_sub_09",
+		"attachments": {
+			"FG_goalicon_off": {
+				"FG02_sub_off": { "name": "FG_02_goalicon05_off", "x": 0.5, "y": -3, "width": 67, "height": 60 }
+			},
+			"FG_goalicon_on": {
+				"FG02_sub_on": { "name": "FG_02_goalicon05_on", "x": 0.5, "y": -3, "width": 67, "height": 60 }
+			}
+		}
+	},
+	{
+		"name": "FG_02_sub_13",
+		"attachments": {
+			"FG_goalicon_off": {
+				"FG02_sub_off": { "name": "FG_02_goalicon04_off", "y": -1.5, "width": 64, "height": 65 }
+			},
+			"FG_goalicon_on": {
+				"FG02_sub_on": { "name": "FG_02_goalicon04_on", "y": -1.5, "width": 64, "height": 65 }
+			}
+		}
+	},
+	{
+		"name": "FG_02_sub_normal",
+		"attachments": {
+			"FG_bean_off": {
+				"FG02_sub_normal_off": { "name": "FG_02_blue_plusbean_off", "x": 0.5, "y": 0.5, "width": 29, "height": 29 }
+			},
+			"FG_bean_on": {
+				"FG02_sub_normal_on": { "name": "FG_02_blue_plusbean", "width": 25, "height": 26 }
+			}
+		}
+	}
+],
+"animations": {
+	"off": {
+		"slots": {
+			"FG_bean_on": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"FG_goalicon_on": {
+				"color": [
+					{ "time": 0.0333, "color": "ffffff00" }
+				]
+			}
+		}
+	},
+	"off_to_on": {
+		"slots": {
+			"FG_bean_off": {
+				"color": [
+					{ "color": "ffffffff" },
+					{ "time": 0.0333, "color": "ffffff00" }
+				]
+			},
+			"FG_bean_on": {
+				"color": [
+					{ "color": "ffffff00" },
+					{ "time": 0.0333, "color": "ffffffff" }
+				]
+			},
+			"FG_goalicon_on": {
+				"color": [
+					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.0667, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"FG_bean_": {
+				"scale": [
+					{ "time": 0.1, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2, "x": 1.35, "y": 1.35, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.2667 }
+				]
+			},
+			"FG_goalicon_": {
+				"scale": [
+					{ "curve": 0, "c3": 0.45 },
+					{ "time": 0.1667, "x": 1.2, "y": 1.2, "curve": 0.595, "c3": 0.736 },
+					{ "time": 0.3333 }
+				]
+			}
+		}
+	},
+	"on": {
+		"slots": {
+			"FG_bean_off": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"FG_goalicon_on": {
+				"color": [
+					{ "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.0333, "color": "ffffffff" }
+				]
+			}
+		}
+	},
+	"on_to_off": {
+		"slots": {
+			"FG_bean_on": {
+				"color": [
+					{ "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				]
+			},
+			"FG_goalicon_on": {
+				"color": [
+					{ "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff00" }
+				]
+			}
+		}
+	}
+}
+}

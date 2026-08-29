@@ -1,0 +1,302 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "ExpectBox",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "QGaKuBTJ+cnCAUWOnkF6QmnLaJA",
+      "spine": "3.8.99"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "ExpectBox",
+        "parent": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "ExpectBox_00000",
+        "bone": "ExpectBox",
+        "blend": "additive"
+      }
+    ],
+    "skins": [
+      {
+        "name": "default",
+        "attachments": {
+          "ExpectBox_00000": {
+            "02_fx_expectbox/ExpectBox_00000": {
+              "width": 250,
+              "height": 550
+            },
+            "02_fx_expectbox/ExpectBox_00001": {
+              "width": 250,
+              "height": 550
+            },
+            "02_fx_expectbox/ExpectBox_00002": {
+              "width": 250,
+              "height": 550
+            },
+            "02_fx_expectbox/ExpectBox_00003": {
+              "width": 250,
+              "height": 550
+            },
+            "02_fx_expectbox/ExpectBox_00004": {
+              "width": 250,
+              "height": 550
+            },
+            "02_fx_expectbox/ExpectBox_00005": {
+              "width": 250,
+              "height": 550
+            },
+            "02_fx_expectbox/ExpectBox_00006": {
+              "width": 250,
+              "height": 550
+            },
+            "02_fx_expectbox/ExpectBox_00007": {
+              "width": 250,
+              "height": 550
+            },
+            "02_fx_expectbox/ExpectBox_00008": {
+              "width": 250,
+              "height": 550
+            },
+            "02_fx_expectbox/ExpectBox_00009": {
+              "width": 250,
+              "height": 550
+            },
+            "02_fx_expectbox/ExpectBox_00010": {
+              "width": 250,
+              "height": 550
+            },
+            "02_fx_expectbox/ExpectBox_00011": {
+              "width": 250,
+              "height": 550
+            },
+            "02_fx_expectbox/ExpectBox_00012": {
+              "width": 250,
+              "height": 550
+            },
+            "02_fx_expectbox/ExpectBox_00013": {
+              "width": 250,
+              "height": 550
+            },
+            "02_fx_expectbox/ExpectBox_00014": {
+              "width": 250,
+              "height": 550
+            },
+            "02_fx_expectbox/ExpectBox_00015": {
+              "width": 250,
+              "height": 550
+            },
+            "02_fx_expectbox/ExpectBox_00016": {
+              "width": 250,
+              "height": 550
+            },
+            "02_fx_expectbox/ExpectBox_00017": {
+              "width": 250,
+              "height": 550
+            },
+            "02_fx_expectbox/ExpectBox_00018": {
+              "width": 250,
+              "height": 550
+            },
+            "02_fx_expectbox/ExpectBox_00019": {
+              "width": 250,
+              "height": 550
+            },
+            "02_fx_expectbox/ExpectBox_00020": {
+              "width": 250,
+              "height": 550
+            },
+            "02_fx_expectbox/ExpectBox_00021": {
+              "width": 250,
+              "height": 550
+            },
+            "02_fx_expectbox/ExpectBox_00022": {
+              "width": 250,
+              "height": 550
+            },
+            "02_fx_expectbox/ExpectBox_00023": {
+              "width": 250,
+              "height": 550
+            },
+            "02_fx_expectbox/ExpectBox_00024": {
+              "width": 250,
+              "height": 550
+            },
+            "02_fx_expectbox/ExpectBox_00025": {
+              "width": 250,
+              "height": 550
+            },
+            "02_fx_expectbox/ExpectBox_00026": {
+              "width": 250,
+              "height": 550
+            },
+            "02_fx_expectbox/ExpectBox_00027": {
+              "width": 250,
+              "height": 550
+            },
+            "02_fx_expectbox/ExpectBox_00028": {
+              "width": 250,
+              "height": 550
+            },
+            "02_fx_expectbox/ExpectBox_00029": {
+              "width": 250,
+              "height": 550
+            }
+          }
+        }
+      }
+    ],
+    "animations": {
+      "expect": {
+        "slots": {
+          "ExpectBox_00000": {
+            "attachment": [
+              {
+                "name": "02_fx_expectbox/ExpectBox_00000"
+              },
+              {
+                "time": 0.0333,
+                "name": "02_fx_expectbox/ExpectBox_00001"
+              },
+              {
+                "time": 0.0667,
+                "name": "02_fx_expectbox/ExpectBox_00002"
+              },
+              {
+                "time": 0.1,
+                "name": "02_fx_expectbox/ExpectBox_00003"
+              },
+              {
+                "time": 0.1333,
+                "name": "02_fx_expectbox/ExpectBox_00004"
+              },
+              {
+                "time": 0.1667,
+                "name": "02_fx_expectbox/ExpectBox_00005"
+              },
+              {
+                "time": 0.2,
+                "name": "02_fx_expectbox/ExpectBox_00006"
+              },
+              {
+                "time": 0.2333,
+                "name": "02_fx_expectbox/ExpectBox_00007"
+              },
+              {
+                "time": 0.2667,
+                "name": "02_fx_expectbox/ExpectBox_00008"
+              },
+              {
+                "time": 0.3,
+                "name": "02_fx_expectbox/ExpectBox_00009"
+              },
+              {
+                "time": 0.3333,
+                "name": "02_fx_expectbox/ExpectBox_00010"
+              },
+              {
+                "time": 0.3667,
+                "name": "02_fx_expectbox/ExpectBox_00011"
+              },
+              {
+                "time": 0.4,
+                "name": "02_fx_expectbox/ExpectBox_00012"
+              },
+              {
+                "time": 0.4333,
+                "name": "02_fx_expectbox/ExpectBox_00013"
+              },
+              {
+                "time": 0.4667,
+                "name": "02_fx_expectbox/ExpectBox_00014"
+              },
+              {
+                "time": 0.5,
+                "name": "02_fx_expectbox/ExpectBox_00015"
+              },
+              {
+                "time": 0.5333,
+                "name": "02_fx_expectbox/ExpectBox_00016"
+              },
+              {
+                "time": 0.5667,
+                "name": "02_fx_expectbox/ExpectBox_00017"
+              },
+              {
+                "time": 0.6,
+                "name": "02_fx_expectbox/ExpectBox_00018"
+              },
+              {
+                "time": 0.6333,
+                "name": "02_fx_expectbox/ExpectBox_00019"
+              },
+              {
+                "time": 0.6667,
+                "name": "02_fx_expectbox/ExpectBox_00020"
+              },
+              {
+                "time": 0.7,
+                "name": "02_fx_expectbox/ExpectBox_00021"
+              },
+              {
+                "time": 0.7333,
+                "name": "02_fx_expectbox/ExpectBox_00022"
+              },
+              {
+                "time": 0.7667,
+                "name": "02_fx_expectbox/ExpectBox_00023"
+              },
+              {
+                "time": 0.8,
+                "name": "02_fx_expectbox/ExpectBox_00024"
+              },
+              {
+                "time": 0.8333,
+                "name": "02_fx_expectbox/ExpectBox_00025"
+              },
+              {
+                "time": 0.8667,
+                "name": "02_fx_expectbox/ExpectBox_00026"
+              },
+              {
+                "time": 0.9,
+                "name": "02_fx_expectbox/ExpectBox_00027"
+              },
+              {
+                "time": 0.9333,
+                "name": "02_fx_expectbox/ExpectBox_00028"
+              },
+              {
+                "time": 0.9667,
+                "name": "02_fx_expectbox/ExpectBox_00029"
+              },
+              {
+                "time": 1,
+                "name": "02_fx_expectbox/ExpectBox_00000"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "textures": [
+    {
+      "__uuid__": "230e1d1f-98ba-4193-931e-c4ad85b51554@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "ExpectBox.webp"
+  ],
+  "scale": 1,
+  "_atlasText": "\r\nExpectBox.webp\r\nsize: 2048,2048\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\n02_fx_expectbox/ExpectBox_00000\r\n  rotate: false\r\n  xy: 2, 1548\r\n  size: 225, 495\r\n  orig: 225, 495\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_expectbox/ExpectBox_00001\r\n  rotate: false\r\n  xy: 2, 1051\r\n  size: 225, 495\r\n  orig: 225, 495\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_expectbox/ExpectBox_00002\r\n  rotate: false\r\n  xy: 229, 1548\r\n  size: 225, 495\r\n  orig: 225, 495\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_expectbox/ExpectBox_00003\r\n  rotate: false\r\n  xy: 2, 554\r\n  size: 225, 495\r\n  orig: 225, 495\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_expectbox/ExpectBox_00004\r\n  rotate: false\r\n  xy: 229, 1051\r\n  size: 225, 495\r\n  orig: 225, 495\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_expectbox/ExpectBox_00005\r\n  rotate: false\r\n  xy: 456, 1548\r\n  size: 225, 495\r\n  orig: 225, 495\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_expectbox/ExpectBox_00006\r\n  rotate: false\r\n  xy: 2, 57\r\n  size: 225, 495\r\n  orig: 225, 495\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_expectbox/ExpectBox_00007\r\n  rotate: false\r\n  xy: 229, 554\r\n  size: 225, 495\r\n  orig: 225, 495\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_expectbox/ExpectBox_00008\r\n  rotate: false\r\n  xy: 456, 1051\r\n  size: 225, 495\r\n  orig: 225, 495\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_expectbox/ExpectBox_00009\r\n  rotate: false\r\n  xy: 683, 1548\r\n  size: 225, 495\r\n  orig: 225, 495\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_expectbox/ExpectBox_00010\r\n  rotate: false\r\n  xy: 229, 57\r\n  size: 225, 495\r\n  orig: 225, 495\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_expectbox/ExpectBox_00011\r\n  rotate: false\r\n  xy: 456, 554\r\n  size: 225, 495\r\n  orig: 225, 495\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_expectbox/ExpectBox_00012\r\n  rotate: false\r\n  xy: 683, 1051\r\n  size: 225, 495\r\n  orig: 225, 495\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_expectbox/ExpectBox_00013\r\n  rotate: false\r\n  xy: 910, 1548\r\n  size: 225, 495\r\n  orig: 225, 495\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_expectbox/ExpectBox_00014\r\n  rotate: false\r\n  xy: 456, 57\r\n  size: 225, 495\r\n  orig: 225, 495\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_expectbox/ExpectBox_00015\r\n  rotate: false\r\n  xy: 683, 554\r\n  size: 225, 495\r\n  orig: 225, 495\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_expectbox/ExpectBox_00016\r\n  rotate: false\r\n  xy: 910, 1051\r\n  size: 225, 495\r\n  orig: 225, 495\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_expectbox/ExpectBox_00017\r\n  rotate: false\r\n  xy: 1137, 1548\r\n  size: 225, 495\r\n  orig: 225, 495\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_expectbox/ExpectBox_00018\r\n  rotate: false\r\n  xy: 683, 57\r\n  size: 225, 495\r\n  orig: 225, 495\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_expectbox/ExpectBox_00019\r\n  rotate: false\r\n  xy: 910, 554\r\n  size: 225, 495\r\n  orig: 225, 495\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_expectbox/ExpectBox_00020\r\n  rotate: false\r\n  xy: 1137, 1051\r\n  size: 225, 495\r\n  orig: 225, 495\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_expectbox/ExpectBox_00021\r\n  rotate: false\r\n  xy: 1364, 1548\r\n  size: 225, 495\r\n  orig: 225, 495\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_expectbox/ExpectBox_00022\r\n  rotate: false\r\n  xy: 910, 57\r\n  size: 225, 495\r\n  orig: 225, 495\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_expectbox/ExpectBox_00023\r\n  rotate: false\r\n  xy: 1137, 554\r\n  size: 225, 495\r\n  orig: 225, 495\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_expectbox/ExpectBox_00024\r\n  rotate: false\r\n  xy: 1364, 1051\r\n  size: 225, 495\r\n  orig: 225, 495\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_expectbox/ExpectBox_00025\r\n  rotate: false\r\n  xy: 1591, 1548\r\n  size: 225, 495\r\n  orig: 225, 495\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_expectbox/ExpectBox_00026\r\n  rotate: false\r\n  xy: 1137, 57\r\n  size: 225, 495\r\n  orig: 225, 495\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_expectbox/ExpectBox_00027\r\n  rotate: false\r\n  xy: 1364, 554\r\n  size: 225, 495\r\n  orig: 225, 495\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_expectbox/ExpectBox_00028\r\n  rotate: false\r\n  xy: 1591, 1051\r\n  size: 225, 495\r\n  orig: 225, 495\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_expectbox/ExpectBox_00029\r\n  rotate: false\r\n  xy: 1818, 1548\r\n  size: 225, 495\r\n  orig: 225, 495\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

@@ -1,0 +1,77 @@
+{
+    "package_version": 2,
+    "version": "1.0.0",
+    "name": "print-bundle-dependencies",
+    "description": "用以打印資料夾內的Prefab或Scene引用的資源,來自哪一些Bundle(資料夾)。 \n以檢查資源相依性是否合理。 \n可以單選也可以多選。",
+    "main": "./dist/main.js",
+    "dependencies": {
+        "fs-extra": "^10.0.0"
+    },
+    "devDependencies": {
+        "@types/node": "^16.0.1",
+        "@types/fs-extra": "^9.0.5",
+        "typescript": "^4.3.4"
+    },
+    "panels": {
+        "default": {
+            "title": "Print Bundle Dependencies Tool Panel",
+            "type": "dockable",
+            "main": "dist/panels/default",
+            "size": {
+                "min-width": 400,
+                "min-height": 300,
+                "width": 1024,
+                "height": 1024
+            }
+        }
+    },
+    "contributions": {
+        "menu": [
+            {
+                "path": "Bundle依賴檢查工具",
+                "label": "工具面板",
+                "message": "open-panel-from-menu"
+            }
+        ],
+        "messages": {
+            "open-panel-from-menu": {
+                "methods": [
+                    "openPanel"
+                ]
+            },
+            "send-to-panel": {
+                "methods": [
+                    "default.hello",
+                    "default.log",
+                    "default.sendResult"
+                ]
+            },
+            "send-to-panel-selected-assets": {
+                "methods": [
+                    "default.currentlySelected"
+                ]
+            },
+            "send-run-bundle": {
+                "methods": [
+                    "sendRun"
+                ]
+            },
+            "send-result:bundleType": {
+                "methods": [
+                    "sendTypesResult"
+                ]
+            },
+            "send-result:bundleData": {
+                "methods": [
+                    "sendDataResult"
+                ]
+            }
+        }
+    },
+    "author": "Fanny",
+    "editor": ">=3.6.2",
+    "scripts": {
+        "build": "tsc -b",
+        "watch": "tsc -w"
+    }
+}

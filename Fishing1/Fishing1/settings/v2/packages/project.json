@@ -1,0 +1,30 @@
+{
+  "general": {
+    "designResolution": {
+      "width": 1920,
+      "height": 1080,
+      "fitHeight": false,
+      "fitWidth": false
+    }
+  },
+  "layer": [
+    {
+      "name": "fx",
+      "value": 2
+    },
+    {
+      "name": "fish",
+      "value": 1
+    }
+  ],
+  "__version__": "1.0.6",
+  "fbx": {
+    "legacyFbxImporter": {
+      "visible": true
+    }
+  },
+  "script": {
+    "preserveSymlinks": true
+  },
+  "custom_joint_texture_layouts": []
+}

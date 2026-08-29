@@ -1,0 +1,782 @@
+System.register(["__unresolved_0", "cc", "__unresolved_1", "__unresolved_2", "__unresolved_3", "__unresolved_4", "__unresolved_5", "__unresolved_6", "__unresolved_7", "__unresolved_8", "__unresolved_9", "__unresolved_10", "__unresolved_11", "__unresolved_12", "__unresolved_13"], function (_export, _context) {
+  "use strict";
+
+  var _reporterNs, _cclegacy, __checkObsolete__, __checkObsoleteInNamespace__, _decorator, Component, Debug, MainUI, NewFlashModeEnum, MenuUI, BetSelectUI, AUTO_INFINITY_NUMBER, AutoSpinSelectUI, BottomBarUI, GenericUIRes, InfoType, InfoUI, MainUIBtnState, AudioManager, GenericSound, SlotRelayLang, Localization, HistoryUI, _dec, _dec2, _dec3, _dec4, _dec5, _dec6, _dec7, _dec8, _dec9, _class, _class2, _descriptor, _descriptor2, _descriptor3, _descriptor4, _descriptor5, _descriptor6, _descriptor7, _descriptor8, _class3, _crd, ccclass, property, GenericUIManager;
+
+  function _initializerDefineProperty(target, property, descriptor, context) { if (!descriptor) return; Object.defineProperty(target, property, { enumerable: descriptor.enumerable, configurable: descriptor.configurable, writable: descriptor.writable, value: descriptor.initializer ? descriptor.initializer.call(context) : void 0 }); }
+
+  function _applyDecoratedDescriptor(target, property, decorators, descriptor, context) { var desc = {}; Object.keys(descriptor).forEach(function (key) { desc[key] = descriptor[key]; }); desc.enumerable = !!desc.enumerable; desc.configurable = !!desc.configurable; if ('value' in desc || desc.initializer) { desc.writable = true; } desc = decorators.slice().reverse().reduce(function (desc, decorator) { return decorator(target, property, desc) || desc; }, desc); if (context && desc.initializer !== void 0) { desc.value = desc.initializer ? desc.initializer.call(context) : void 0; desc.initializer = undefined; } if (desc.initializer === void 0) { Object.defineProperty(target, property, desc); desc = null; } return desc; }
+
+  function _initializerWarningHelper(descriptor, context) { throw new Error('Decorating class property failed. Please ensure that ' + 'transform-class-properties is enabled and runs after the decorators transform.'); }
+
+  function _reportPossibleCrUseOfDebug(extras) {
+    _reporterNs.report("Debug", "../../Scripts/Utils/Debug", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfMainUI(extras) {
+    _reporterNs.report("MainUI", "./MainUI", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfNewFlashModeEnum(extras) {
+    _reporterNs.report("NewFlashModeEnum", "./MainUI", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfMenuUI(extras) {
+    _reporterNs.report("MenuUI", "./MenuUI", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfBetSelectUI(extras) {
+    _reporterNs.report("BetSelectUI", "./BetSelectUI", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfAUTO_INFINITY_NUMBER(extras) {
+    _reporterNs.report("AUTO_INFINITY_NUMBER", "./AutoSpinSelectUI", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfAutoSpinSelectUI(extras) {
+    _reporterNs.report("AutoSpinSelectUI", "./AutoSpinSelectUI", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfBottomBarUI(extras) {
+    _reporterNs.report("BottomBarUI", "./BottomBarUI", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfGenericUIRes(extras) {
+    _reporterNs.report("GenericUIRes", "./GenericUIRes", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfInfoType(extras) {
+    _reporterNs.report("InfoType", "./InfoUI", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfInfoUI(extras) {
+    _reporterNs.report("InfoUI", "./InfoUI", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfMainUIBtnState(extras) {
+    _reporterNs.report("MainUIBtnState", "./GenericUIConfig", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfAudioManager(extras) {
+    _reporterNs.report("AudioManager", "../../Scripts/Audio/AudioManager", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfGenericSound(extras) {
+    _reporterNs.report("GenericSound", "../../Scripts/Utils/Config", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfSlotRelayLang(extras) {
+    _reporterNs.report("SlotRelayLang", "../../Scripts/Utils/Config", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfKeySpriteFramePair(extras) {
+    _reporterNs.report("KeySpriteFramePair", "../../Scripts/Utils/KeySpriteFramePair", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfLocalization(extras) {
+    _reporterNs.report("Localization", "../../Scripts/GameScripts/Localization", _context.meta, extras);
+  }
+
+  function _reportPossibleCrUseOfHistoryUI(extras) {
+    _reporterNs.report("HistoryUI", "./HistoryUI", _context.meta, extras);
+  }
+
+  return {
+    setters: [function (_unresolved_) {
+      _reporterNs = _unresolved_;
+    }, function (_cc) {
+      _cclegacy = _cc.cclegacy;
+      __checkObsolete__ = _cc.__checkObsolete__;
+      __checkObsoleteInNamespace__ = _cc.__checkObsoleteInNamespace__;
+      _decorator = _cc._decorator;
+      Component = _cc.Component;
+    }, function (_unresolved_2) {
+      Debug = _unresolved_2.Debug;
+    }, function (_unresolved_3) {
+      MainUI = _unresolved_3.MainUI;
+      NewFlashModeEnum = _unresolved_3.NewFlashModeEnum;
+    }, function (_unresolved_4) {
+      MenuUI = _unresolved_4.MenuUI;
+    }, function (_unresolved_5) {
+      BetSelectUI = _unresolved_5.BetSelectUI;
+    }, function (_unresolved_6) {
+      AUTO_INFINITY_NUMBER = _unresolved_6.AUTO_INFINITY_NUMBER;
+      AutoSpinSelectUI = _unresolved_6.AutoSpinSelectUI;
+    }, function (_unresolved_7) {
+      BottomBarUI = _unresolved_7.BottomBarUI;
+    }, function (_unresolved_8) {
+      GenericUIRes = _unresolved_8.GenericUIRes;
+    }, function (_unresolved_9) {
+      InfoType = _unresolved_9.InfoType;
+      InfoUI = _unresolved_9.InfoUI;
+    }, function (_unresolved_10) {
+      MainUIBtnState = _unresolved_10.MainUIBtnState;
+    }, function (_unresolved_11) {
+      AudioManager = _unresolved_11.AudioManager;
+    }, function (_unresolved_12) {
+      GenericSound = _unresolved_12.GenericSound;
+      SlotRelayLang = _unresolved_12.SlotRelayLang;
+    }, function (_unresolved_13) {
+      Localization = _unresolved_13.Localization;
+    }, function (_unresolved_14) {
+      HistoryUI = _unresolved_14.HistoryUI;
+    }],
+    execute: function () {
+      _crd = true;
+
+      _cclegacy._RF.push({}, "8ca16F5rLJMGatjn4qDQSQh", "GenericUIManager", undefined);
+
+      __checkObsolete__(['_decorator', 'Component', 'Node']);
+
+      ({
+        ccclass,
+        property
+      } = _decorator);
+
+      _export("GenericUIManager", GenericUIManager = (_dec = ccclass('GenericUIManager'), _dec2 = property(_crd && GenericUIRes === void 0 ? (_reportPossibleCrUseOfGenericUIRes({
+        error: Error()
+      }), GenericUIRes) : GenericUIRes), _dec3 = property(_crd && MainUI === void 0 ? (_reportPossibleCrUseOfMainUI({
+        error: Error()
+      }), MainUI) : MainUI), _dec4 = property(_crd && MenuUI === void 0 ? (_reportPossibleCrUseOfMenuUI({
+        error: Error()
+      }), MenuUI) : MenuUI), _dec5 = property(_crd && BetSelectUI === void 0 ? (_reportPossibleCrUseOfBetSelectUI({
+        error: Error()
+      }), BetSelectUI) : BetSelectUI), _dec6 = property(_crd && AutoSpinSelectUI === void 0 ? (_reportPossibleCrUseOfAutoSpinSelectUI({
+        error: Error()
+      }), AutoSpinSelectUI) : AutoSpinSelectUI), _dec7 = property(_crd && BottomBarUI === void 0 ? (_reportPossibleCrUseOfBottomBarUI({
+        error: Error()
+      }), BottomBarUI) : BottomBarUI), _dec8 = property(_crd && InfoUI === void 0 ? (_reportPossibleCrUseOfInfoUI({
+        error: Error()
+      }), InfoUI) : InfoUI), _dec9 = property(_crd && HistoryUI === void 0 ? (_reportPossibleCrUseOfHistoryUI({
+        error: Error()
+      }), HistoryUI) : HistoryUI), _dec(_class = (_class2 = (_class3 = class GenericUIManager extends Component {
+        constructor(...args) {
+          super(...args);
+
+          _initializerDefineProperty(this, "genericUIRes", _descriptor, this);
+
+          _initializerDefineProperty(this, "mainUI", _descriptor2, this);
+
+          _initializerDefineProperty(this, "menuUI", _descriptor3, this);
+
+          _initializerDefineProperty(this, "betSelectUI", _descriptor4, this);
+
+          _initializerDefineProperty(this, "autoSpinSelectUI", _descriptor5, this);
+
+          _initializerDefineProperty(this, "bottomBarUI", _descriptor6, this);
+
+          _initializerDefineProperty(this, "infoUI", _descriptor7, this);
+
+          _initializerDefineProperty(this, "historyUI", _descriptor8, this);
+
+          this.currentTurboMode = (_crd && NewFlashModeEnum === void 0 ? (_reportPossibleCrUseOfNewFlashModeEnum({
+            error: Error()
+          }), NewFlashModeEnum) : NewFlashModeEnum).None;
+          this.onSpinBtnClickCallback = null;
+          this.onAutoSpinStartClickCallback = null;
+          this.onBetSelectBtnClickCallback = null;
+          this.onStopBtnClickCallback = null;
+          this.onMenuUIShowCallback = null;
+          this.onSetMainUIToSpinModeCallback = null;
+          this.onSetMainUIToNormalModeCallback = null;
+          this.onNewFlashBtnSwitch = null;
+          this._isAutoMode = false;
+          // 剩餘FG的次數，非FG時為-1，無限次數為9999
+          this.autoTimes = -1;
+          this.langKey = (_crd && SlotRelayLang === void 0 ? (_reportPossibleCrUseOfSlotRelayLang({
+            error: Error()
+          }), SlotRelayLang) : SlotRelayLang).tw;
+        }
+
+        /**
+         * 是否自動模式
+         * @returns 是否為自動模式
+         */
+        get isAutoMode() {
+          return this._isAutoMode;
+        }
+        /**
+         * 設定是否為自動模式
+         * @param value 是或否
+         */
+
+
+        set isAutoMode(value) {
+          this._isAutoMode = value;
+        }
+
+        /**
+         * 獲取實例
+         * @returns GenericUIManager
+         */
+        static get instance() {
+          if (this._instance === null) {
+            (_crd && Debug === void 0 ? (_reportPossibleCrUseOfDebug({
+              error: Error()
+            }), Debug) : Debug).LogWarning("GenericUIManager _instance 為空");
+          }
+
+          return this._instance;
+        }
+        /**
+         * 載入
+         */
+
+
+        onLoad() {
+          GenericUIManager._instance = this.node.getComponent(GenericUIManager);
+        }
+        /**
+         *  初始化  
+         * @param langKey 語系
+         */
+
+
+        init(langKey) {
+          this.langKey = langKey;
+          this.genericUIRes.init(); // singleton的第一次初始化
+
+          this.mainUI.init();
+          this.menuUI.init();
+          this.betSelectUI.init();
+          this.autoSpinSelectUI.init();
+          this.bottomBarUI.init();
+          this.infoUI.init();
+          this.historyUI.init();
+          this.bottomBarUI.addBottomRichTextSprite(this.genericUIRes.bottomTextSpriteFrameMaps);
+          this.mainUI.onMenuBtnClickCallback = this.onMainUIMenuBtnClick.bind(this);
+          this.mainUI.onBetBtnClickCallback = this.onMainUIBetBtnClick.bind(this);
+          this.mainUI.onAutoBtnClickCallback = this.onMainUIAutoBtnClick.bind(this);
+          this.mainUI.onSpinBtnClickCallback = this.onMainUIonSpinBtnClick.bind(this);
+          this.mainUI.onStopAutoBtnClickCallback = this.onMainUIStopAutoBtnClick.bind(this);
+          this.mainUI.onMainBGClickCallback = this.onMainBGClick.bind(this);
+          this.mainUI.onSpecialBtnClickCallback = this.onMainUISpecialBtnClick.bind(this);
+          this.mainUI.onStopBtnClickCallback = this.onMainUIStopBtnClick.bind(this);
+          this.mainUI.onNewFlashBtnSwitchCallback = this.onMainUINewFlashBtnSwitch.bind(this);
+          this.menuUI.onRuleBtnClickCallback = this.onMenuUIRuleBtnClick.bind(this);
+          this.menuUI.onPayTableBtnClickCallback = this.onMenuUIPayTableBtnClick.bind(this);
+          this.menuUI.onHistoryBtnClickCallback = this.onMenuUIHistoryBtnClick.bind(this);
+          this.menuUI.onMenuUIHideCallback = this.onMenuUIHide.bind(this);
+          this.autoSpinSelectUI.onStartBtnClickCallback = this.onAutoSpinStartClick.bind(this);
+          this.betSelectUI.onBetSelectBtnClickCallback = this.onBetSelectUIBetSelectBtnClick.bind(this);
+          this.betSelectUI.onUIActiveChange = this.onBetSelectUIActiveChange.bind(this);
+          this.autoSpinSelectUI.onUIActiveChange = this.onAutoSpinSelectUIActiveChange.bind(this);
+          this.menuUI.onBGBtnClickCallback = this.onMainBGClick.bind(this);
+          this.infoUI.onBGBtnClickCallback = this.onMainBGClick.bind(this);
+          this.historyUI.onBGBtnClickCallback = this.onMainBGClick.bind(this);
+          this.betSelectUI.onBGBtnClickCallback = this.onMainBGClick.bind(this);
+          this.autoSpinSelectUI.onBGBtnClickCallback = this.onMainBGClick.bind(this);
+          this.setMainUIKeyboardLock(true);
+        }
+        /**
+         * 點擊主畫面背景
+         */
+
+
+        onMainBGClick() {
+          if (this.autoSpinSelectUI.node.active || this.betSelectUI.node.active || this.menuUI.node.active || this.infoUI.node.active || this.historyUI.node.active) {
+            (_crd && AudioManager === void 0 ? (_reportPossibleCrUseOfAudioManager({
+              error: Error()
+            }), AudioManager) : AudioManager).instance.playGenericSound((_crd && GenericSound === void 0 ? (_reportPossibleCrUseOfGenericSound({
+              error: Error()
+            }), GenericSound) : GenericSound).Public_Off);
+          }
+
+          this.hideAllUI();
+        }
+        /**
+         * 點擊主畫面選單
+         */
+
+
+        onMainUIMenuBtnClick() {
+          var _this$onMenuUIShowCal;
+
+          (_crd && AudioManager === void 0 ? (_reportPossibleCrUseOfAudioManager({
+            error: Error()
+          }), AudioManager) : AudioManager).instance.playGenericSound((_crd && GenericSound === void 0 ? (_reportPossibleCrUseOfGenericSound({
+            error: Error()
+          }), GenericSound) : GenericSound).Public_On);
+          this.hideAllUI();
+          this.menuUI.showUI();
+          this.mainUI.setMenuBtnActive(false);
+          (_this$onMenuUIShowCal = this.onMenuUIShowCallback) == null || _this$onMenuUIShowCal.call(this);
+        }
+        /**
+         * 隱藏所有UI
+         */
+
+
+        hideAllUI() {
+          this.autoSpinSelectUI.hideUI();
+          this.betSelectUI.hideUI();
+          this.infoUI.hideUI();
+          this.historyUI.hideUI();
+          this.menuUI.hideUI();
+        }
+        /**
+         * 點擊主畫面下注鈕
+         */
+
+
+        onMainUIBetBtnClick() {
+          if (this.betSelectUI.node.active === false) {
+            (_crd && AudioManager === void 0 ? (_reportPossibleCrUseOfAudioManager({
+              error: Error()
+            }), AudioManager) : AudioManager).instance.playGenericSound((_crd && GenericSound === void 0 ? (_reportPossibleCrUseOfGenericSound({
+              error: Error()
+            }), GenericSound) : GenericSound).Public_On);
+            this.hideAllUI();
+            this.betSelectUI.showUI();
+          } else {
+            (_crd && AudioManager === void 0 ? (_reportPossibleCrUseOfAudioManager({
+              error: Error()
+            }), AudioManager) : AudioManager).instance.playGenericSound((_crd && GenericSound === void 0 ? (_reportPossibleCrUseOfGenericSound({
+              error: Error()
+            }), GenericSound) : GenericSound).Public_Off);
+            this.betSelectUI.hideUI();
+          }
+        }
+        /**
+         * 點擊主畫面自動旋轉
+         */
+
+
+        onMainUIAutoBtnClick() {
+          if (this.autoSpinSelectUI.node.active === false) {
+            (_crd && AudioManager === void 0 ? (_reportPossibleCrUseOfAudioManager({
+              error: Error()
+            }), AudioManager) : AudioManager).instance.playGenericSound((_crd && GenericSound === void 0 ? (_reportPossibleCrUseOfGenericSound({
+              error: Error()
+            }), GenericSound) : GenericSound).Public_On);
+            this.hideAllUI();
+            this.autoSpinSelectUI.showUI();
+          } else {
+            (_crd && AudioManager === void 0 ? (_reportPossibleCrUseOfAudioManager({
+              error: Error()
+            }), AudioManager) : AudioManager).instance.playGenericSound((_crd && GenericSound === void 0 ? (_reportPossibleCrUseOfGenericSound({
+              error: Error()
+            }), GenericSound) : GenericSound).Public_Off);
+            this.autoSpinSelectUI.hideUI();
+          }
+        }
+        /**
+         * 點擊主畫面 Spin 按鈕
+         */
+
+
+        onMainUIonSpinBtnClick() {
+          var _this$onSpinBtnClickC;
+
+          this.menuUI.hideUI();
+          this.hideUIToSpinMode();
+          (_this$onSpinBtnClickC = this.onSpinBtnClickCallback) == null || _this$onSpinBtnClickC.call(this);
+        }
+        /**
+         * 點擊開始自動 Spin
+         * @param autoTimes 
+         */
+
+
+        onAutoSpinStartClick(autoTimes) {
+          var _this$onAutoSpinStart;
+
+          (_crd && AudioManager === void 0 ? (_reportPossibleCrUseOfAudioManager({
+            error: Error()
+          }), AudioManager) : AudioManager).instance.playGenericSound((_crd && GenericSound === void 0 ? (_reportPossibleCrUseOfGenericSound({
+            error: Error()
+          }), GenericSound) : GenericSound).Public_On);
+          this.hideUIToSpinMode();
+          this.isAutoMode = true;
+          this.autoTimes = autoTimes;
+          this.mainUI.openAutoMode();
+          (_this$onAutoSpinStart = this.onAutoSpinStartClickCallback) == null || _this$onAutoSpinStart.call(this, autoTimes);
+        }
+        /**
+         * 點擊主畫面停止自動旋轉
+         */
+
+
+        onMainUIStopAutoBtnClick() {
+          (_crd && AudioManager === void 0 ? (_reportPossibleCrUseOfAudioManager({
+            error: Error()
+          }), AudioManager) : AudioManager).instance.playGenericSound((_crd && GenericSound === void 0 ? (_reportPossibleCrUseOfGenericSound({
+            error: Error()
+          }), GenericSound) : GenericSound).Public_Off);
+          this.stopAutoMode();
+        }
+        /**
+         * 停止自動旋轉
+         */
+
+
+        stopAutoMode() {
+          this.mainUI.closeAutoMode();
+          this.autoTimes = -1;
+          this.isAutoMode = false;
+        }
+        /**
+         * 檢查自動狀態
+         * @returns 是否還有下一局FG
+         */
+
+
+        checkAutoStatus() {
+          // 是否還有下一局FG
+          let hasAutoNext = this.autoTimes > 0;
+
+          if (this.autoTimes !== (_crd && AUTO_INFINITY_NUMBER === void 0 ? (_reportPossibleCrUseOfAUTO_INFINITY_NUMBER({
+            error: Error()
+          }), AUTO_INFINITY_NUMBER) : AUTO_INFINITY_NUMBER)) {
+            this.autoTimes--;
+          }
+
+          this.mainUI.setAutoCntLabel(this.autoTimes);
+
+          if (this.autoTimes === -1) {
+            this.isAutoMode = false;
+            this.mainUI.closeAutoMode();
+          }
+
+          return hasAutoNext;
+        }
+        /**
+         * 點擊下注金額選單裡的金額按鈕
+         * @param betValues 
+         */
+
+
+        onBetSelectUIBetSelectBtnClick(betValues) {
+          var _this$onBetSelectBtnC;
+
+          this.setBetValue(betValues);
+          (_this$onBetSelectBtnC = this.onBetSelectBtnClickCallback) == null || _this$onBetSelectBtnC.call(this, betValues);
+        }
+
+        onMenuUIRuleBtnClick() {
+          (_crd && AudioManager === void 0 ? (_reportPossibleCrUseOfAudioManager({
+            error: Error()
+          }), AudioManager) : AudioManager).instance.playGenericSound((_crd && GenericSound === void 0 ? (_reportPossibleCrUseOfGenericSound({
+            error: Error()
+          }), GenericSound) : GenericSound).Public_On);
+          this.infoUI.setTitle((_crd && Localization === void 0 ? (_reportPossibleCrUseOfLocalization({
+            error: Error()
+          }), Localization) : Localization).instance.t("GenericUI.GAME_RULES"));
+          this.infoUI.showUI((_crd && InfoType === void 0 ? (_reportPossibleCrUseOfInfoType({
+            error: Error()
+          }), InfoType) : InfoType).Rule);
+          this.menuUI.hideUI();
+        }
+
+        onMenuUIPayTableBtnClick() {
+          (_crd && AudioManager === void 0 ? (_reportPossibleCrUseOfAudioManager({
+            error: Error()
+          }), AudioManager) : AudioManager).instance.playGenericSound((_crd && GenericSound === void 0 ? (_reportPossibleCrUseOfGenericSound({
+            error: Error()
+          }), GenericSound) : GenericSound).Public_On);
+          this.infoUI.setTitle((_crd && Localization === void 0 ? (_reportPossibleCrUseOfLocalization({
+            error: Error()
+          }), Localization) : Localization).instance.t("GenericUI.PAYTABLE"));
+          this.infoUI.showUI((_crd && InfoType === void 0 ? (_reportPossibleCrUseOfInfoType({
+            error: Error()
+          }), InfoType) : InfoType).PayTable);
+          this.menuUI.hideUI();
+        }
+
+        onMenuUIHistoryBtnClick() {
+          (_crd && AudioManager === void 0 ? (_reportPossibleCrUseOfAudioManager({
+            error: Error()
+          }), AudioManager) : AudioManager).instance.playGenericSound((_crd && GenericSound === void 0 ? (_reportPossibleCrUseOfGenericSound({
+            error: Error()
+          }), GenericSound) : GenericSound).Public_On);
+          this.menuUI.hideUI();
+          this.historyUI.showUI();
+        }
+
+        onMenuUIHide() {
+          this.mainUI.setMenuBtnActive(true);
+        }
+
+        presetHistoryUrl(url) {
+          if (this.getHistoryBtnActive()) {
+            this.historyUI.setHistoryUrl(url);
+          }
+        }
+
+        showBottomTextWinScore(score) {
+          this.bottomBarUI.showWinScore(score);
+        }
+
+        setBetValue(score) {
+          this.bottomBarUI.setTotalBet(score);
+        }
+
+        setMainUIToSpinMode() {
+          this.mainUI.setToSpinMode();
+          this.menuUI.setHistoryBtnEnable(false);
+        }
+
+        setMainUIToNormalMode() {
+          this.mainUI.setToIdleMode();
+          this.menuUI.setHistoryBtnEnable(true);
+        }
+
+        get isStopClicked() {
+          return this.mainUI.isStopClicked;
+        }
+
+        get isTurboOn() {
+          return this.mainUI.isTurboOn();
+        }
+
+        hideUIToSpinMode() {
+          this.autoSpinSelectUI.hideUI();
+          this.betSelectUI.hideUI();
+          this.infoUI.hideUI();
+          this.historyUI.hideUI();
+        }
+
+        setScreenBtnRoot(screenBtn) {
+          this.mainUI.setScreenBtnRoot(screenBtn);
+        }
+
+        setUrl(urlPayTable, urlRule) {
+          this.infoUI.setURL((_crd && InfoType === void 0 ? (_reportPossibleCrUseOfInfoType({
+            error: Error()
+          }), InfoType) : InfoType).Rule, urlRule);
+          this.infoUI.setURL((_crd && InfoType === void 0 ? (_reportPossibleCrUseOfInfoType({
+            error: Error()
+          }), InfoType) : InfoType).PayTable, urlPayTable);
+        }
+
+        showBottomTextFirst() {
+          this.bottomBarUI.showBottomTextFirst();
+        }
+
+        showBottomTextGaming() {
+          this.bottomBarUI.showBottomTextGaming();
+        }
+
+        showBottomTextIdle() {
+          this.bottomBarUI.showBottomTextIdle();
+        }
+
+        showBottomTextEmpty() {
+          this.bottomBarUI.showBottomTextEmpty();
+        }
+
+        showBottomTextStartSpin() {
+          if (!this.isAutoMode) {
+            this.showBottomTextGaming();
+          } else {
+            this.showBottomTextEmpty();
+          }
+        }
+
+        addBottomRichTextSprite(spriteFrameMap) {
+          this.bottomBarUI.addBottomRichTextSprite(spriteFrameMap);
+        }
+
+        setBalance(balance) {
+          this.bottomBarUI.setBalance(balance);
+        }
+
+        resetMainUIStopBtn() {
+          this.mainUI.resetStopBtn();
+        }
+
+        addGamingShowTexts(text) {
+          this.bottomBarUI.addGamingShowTexts(text);
+        }
+
+        setBetSelectInfos(betValues) {
+          this.betSelectUI.setInfos(betValues);
+        }
+
+        onMainUISpecialBtnClick() {}
+
+        onMainUIStopBtnClick() {
+          var _this$onStopBtnClickC;
+
+          (_this$onStopBtnClickC = this.onStopBtnClickCallback) == null || _this$onStopBtnClickC.call(this);
+        }
+
+        onMainUINewFlashBtnSwitch(mode) {
+          var _this$onNewFlashBtnSw;
+
+          this.currentTurboMode = mode;
+          (_this$onNewFlashBtnSw = this.onNewFlashBtnSwitch) == null || _this$onNewFlashBtnSw.call(this, mode);
+        }
+
+        getCurrentTurboMode() {
+          return this.currentTurboMode;
+        }
+
+        setBottomText(text) {
+          this.bottomBarUI.setDebugText(text);
+        }
+
+        setVersion(version) {
+          this.bottomBarUI.setVersionText(version);
+        }
+
+        setLogoText(logo) {
+          this.bottomBarUI.setLogoText(logo);
+        }
+
+        onBetSelectUIActiveChange(active) {
+          if (active) {
+            this.mainUI.setBetBtnState((_crd && MainUIBtnState === void 0 ? (_reportPossibleCrUseOfMainUIBtnState({
+              error: Error()
+            }), MainUIBtnState) : MainUIBtnState).UIOpen);
+          } else {
+            this.mainUI.setBetBtnState((_crd && MainUIBtnState === void 0 ? (_reportPossibleCrUseOfMainUIBtnState({
+              error: Error()
+            }), MainUIBtnState) : MainUIBtnState).Normal);
+          }
+        }
+
+        onAutoSpinSelectUIActiveChange(active) {
+          if (active) {
+            this.mainUI.setAutoBtnState((_crd && MainUIBtnState === void 0 ? (_reportPossibleCrUseOfMainUIBtnState({
+              error: Error()
+            }), MainUIBtnState) : MainUIBtnState).UIOpen);
+          } else {
+            this.mainUI.setAutoBtnState((_crd && MainUIBtnState === void 0 ? (_reportPossibleCrUseOfMainUIBtnState({
+              error: Error()
+            }), MainUIBtnState) : MainUIBtnState).Normal);
+          }
+        }
+
+        setHistoryBtnActive(b) {
+          this.menuUI.setHistoryBtnActive(b);
+        }
+
+        getHistoryBtnActive() {
+          return this.menuUI.getHistoryBtnActive();
+        }
+
+        setMainBtnInteractable(b) {
+          this.mainUI.setBetSpinAutoBtnInteractable(b);
+        }
+        /*
+        public setHistoryBtnEnable(b: boolean) {
+            this.menuUI.setHistoryBtnEnable(b);
+        }
+        */
+
+
+        forceClickMainUIStopBtn() {
+          if (!this.isStopClicked) {
+            this.mainUI.forceClickStopBtn();
+          }
+        }
+
+        setMainUIRightBtnVisible(b) {
+          this.mainUI.setLandscapeRightBtnGroupVisible(b);
+        } // 設定為true時，鎖上空白鍵 會觸發Spin與Stop的功能
+
+
+        setMainUIKeyboardLock(b) {
+          this.mainUI.setKeyboardLock(b);
+        } // 由於MainBG要能穿透點擊下方遊戲的UI 故將 preventSwallow 設定為 true
+        // 會造成MainBG與其重疊的UI MouseEnter與MouseLeave事件互相快速交錯被觸發
+        // 導致Hover效果無法正常顯示 ，故如果是全螢幕的遊戲被開啟時，有時要將MainBG關閉
+
+        /*
+        public setMainBGActive(b: boolean) {
+            this.mainUI.setMainBGActive(b);
+        }
+        */
+        // 獨立設定StopBtn的Active
+
+
+        setMainUIStopBtnActive(b) {
+          this.mainUI.setStopBtnActive(b);
+        }
+
+        setMainUIStopBtnInteractable(b) {
+          this.mainUI.setStopBtnInteractable(b);
+        }
+
+        setMainUISpinBtnActive(b) {
+          this.mainUI.setSpinBtnActive(b);
+        }
+
+        setMainUIRightDownBtnActive(b) {
+          this.mainUI.setRightDownBtnActive(b);
+        }
+
+        setMainUIAutoBtnActive(b) {
+          this.mainUI.setAutoBtnActive(b);
+        }
+
+        setMainUISpinBtnInteractable(b) {
+          this.mainUI.setSpinBtnInteractable(b);
+        }
+
+        show() {
+          this.node.setScale(1, 1);
+        }
+
+        hide() {
+          this.node.setScale(0, 0);
+        }
+
+        setBetUITitleLocalizationKey(key) {
+          this.betSelectUI.setBetTitleLocalizationKey(key);
+        }
+
+        setTwoLevelTurboMode(b) {
+          this.mainUI.setTwoLevelTurboMode(b);
+        }
+
+      }, _class3._instance = null, _class3), (_descriptor = _applyDecoratedDescriptor(_class2.prototype, "genericUIRes", [_dec2], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: null
+      }), _descriptor2 = _applyDecoratedDescriptor(_class2.prototype, "mainUI", [_dec3], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: null
+      }), _descriptor3 = _applyDecoratedDescriptor(_class2.prototype, "menuUI", [_dec4], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: null
+      }), _descriptor4 = _applyDecoratedDescriptor(_class2.prototype, "betSelectUI", [_dec5], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: null
+      }), _descriptor5 = _applyDecoratedDescriptor(_class2.prototype, "autoSpinSelectUI", [_dec6], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: null
+      }), _descriptor6 = _applyDecoratedDescriptor(_class2.prototype, "bottomBarUI", [_dec7], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: null
+      }), _descriptor7 = _applyDecoratedDescriptor(_class2.prototype, "infoUI", [_dec8], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: null
+      }), _descriptor8 = _applyDecoratedDescriptor(_class2.prototype, "historyUI", [_dec9], {
+        configurable: true,
+        enumerable: true,
+        writable: true,
+        initializer: null
+      })), _class2)) || _class));
+
+      _cclegacy._RF.pop();
+
+      _crd = false;
+    }
+  };
+});
+//# sourceMappingURL=a874f1a73d248e17e146518f27e62dbca0be8bed.js.map

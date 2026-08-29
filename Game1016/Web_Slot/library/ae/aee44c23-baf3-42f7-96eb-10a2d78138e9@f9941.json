@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "WIN_Number",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 680,
+      "height": 104
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 680,
+      "height": 104
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -340,
+        -52,
+        0,
+        340,
+        -52,
+        0,
+        -340,
+        52,
+        0,
+        340,
+        52,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        104,
+        680,
+        104,
+        0,
+        0,
+        680,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -340,
+        "y": -52,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 340,
+        "y": 52,
+        "z": 0
+      }
+    },
+    "texture": "aee44c23-baf3-42f7-96eb-10a2d78138e9@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

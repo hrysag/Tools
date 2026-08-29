@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Board",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 2048,
+      "height": 1048
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 2048,
+      "height": 1048
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -1024,
+        -524,
+        0,
+        1024,
+        -524,
+        0,
+        -1024,
+        524,
+        0,
+        1024,
+        524,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        1048,
+        2048,
+        1048,
+        0,
+        0,
+        2048,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -1024,
+        "y": -524,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 1024,
+        "y": 524,
+        "z": 0
+      }
+    },
+    "texture": "bfc5e085-85f9-49ec-8b79-089394013e66@6c48a",
+    "packable": false,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

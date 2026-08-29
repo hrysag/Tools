@@ -1,0 +1,439 @@
+{
+  "ver": "2.3.12",
+  "importer": "gltf",
+  "imported": true,
+  "uuid": "cfad6c48-69c9-42c4-b6ba-1ad2de40402a",
+  "files": [
+    "__original-animation-0.cconb"
+  ],
+  "subMetas": {
+    "18899": {
+      "importer": "gltf-mesh",
+      "uuid": "cfad6c48-69c9-42c4-b6ba-1ad2de40402a@18899",
+      "displayName": "",
+      "id": "18899",
+      "name": "Whale_LP.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 1624
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "95467": {
+      "importer": "gltf-material",
+      "uuid": "cfad6c48-69c9-42c4-b6ba-1ad2de40402a@95467",
+      "displayName": "",
+      "id": "95467",
+      "name": "Effect_wave002_SD.material",
+      "userData": {
+        "gltfIndex": 2
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "eec57": {
+      "importer": "gltf-mesh",
+      "uuid": "cfad6c48-69c9-42c4-b6ba-1ad2de40402a@eec57",
+      "displayName": "",
+      "id": "eec57",
+      "name": "Effect_wave001_FX.mesh",
+      "userData": {
+        "gltfIndex": 1,
+        "triangleCount": 96
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "0b174": {
+      "importer": "gltf-mesh",
+      "uuid": "cfad6c48-69c9-42c4-b6ba-1ad2de40402a@0b174",
+      "displayName": "",
+      "id": "0b174",
+      "name": "Effect_wave002_FX.mesh",
+      "userData": {
+        "gltfIndex": 2,
+        "triangleCount": 64
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "440fb": {
+      "importer": "gltf-mesh",
+      "uuid": "cfad6c48-69c9-42c4-b6ba-1ad2de40402a@440fb",
+      "displayName": "",
+      "id": "440fb",
+      "name": "Effect_wave003_FX.mesh",
+      "userData": {
+        "gltfIndex": 3,
+        "triangleCount": 64
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "ed08d": {
+      "importer": "gltf-animation",
+      "uuid": "cfad6c48-69c9-42c4-b6ba-1ad2de40402a@ed08d",
+      "displayName": "",
+      "id": "ed08d",
+      "name": "swim.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 2,
+        "speed": 1,
+        "sample": 30,
+        "span": {
+          "from": 0,
+          "to": 1.3333333333333333
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "a80c5": {
+      "importer": "gltf-animation",
+      "uuid": "cfad6c48-69c9-42c4-b6ba-1ad2de40402a@a80c5",
+      "displayName": "",
+      "id": "a80c5",
+      "name": "hurt.animation",
+      "userData": {
+        "gltfIndex": 0,
+        "wrapMode": 1,
+        "speed": 1,
+        "sample": 30,
+        "span": {
+          "from": 1.6666666666666667,
+          "to": 2.3333332538604736
+        },
+        "events": []
+      },
+      "ver": "1.0.17",
+      "imported": true,
+      "files": [
+        ".cconb"
+      ],
+      "subMetas": {}
+    },
+    "13eba": {
+      "importer": "gltf-skeleton",
+      "uuid": "cfad6c48-69c9-42c4-b6ba-1ad2de40402a@13eba",
+      "displayName": "",
+      "id": "13eba",
+      "name": "skeleton #0.skeleton",
+      "userData": {
+        "gltfIndex": 0,
+        "jointsLength": 22
+      },
+      "ver": "1.0.1",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "5c86a": {
+      "importer": "gltf-material",
+      "uuid": "cfad6c48-69c9-42c4-b6ba-1ad2de40402a@5c86a",
+      "displayName": "",
+      "id": "5c86a",
+      "name": "Whale_SD.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "cbc52": {
+      "importer": "gltf-material",
+      "uuid": "cfad6c48-69c9-42c4-b6ba-1ad2de40402a@cbc52",
+      "displayName": "",
+      "id": "cbc52",
+      "name": "Effect_wave001_SD.material",
+      "userData": {
+        "gltfIndex": 1
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "a08ae": {
+      "importer": "gltf-scene",
+      "uuid": "cfad6c48-69c9-42c4-b6ba-1ad2de40402a@a08ae",
+      "displayName": "",
+      "id": "a08ae",
+      "name": "whale.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "animationImportSettings": [
+      {
+        "name": "All Animations",
+        "duration": 2.3333332538604736,
+        "fps": 30,
+        "splits": [
+          {
+            "name": "swim",
+            "from": 0,
+            "to": 1.3333333333333333,
+            "wrapMode": 2,
+            "speed": 1,
+            "previousId": "ed08d"
+          },
+          {
+            "name": "hurt",
+            "from": 1.6666666666666667,
+            "to": 2.3333332538604736,
+            "wrapMode": 1,
+            "speed": 1,
+            "previousId": "a80c5"
+          }
+        ]
+      }
+    ],
+    "redirect": "cfad6c48-69c9-42c4-b6ba-1ad2de40402a@a08ae",
+    "assetFinder": {
+      "meshes": [
+        "cfad6c48-69c9-42c4-b6ba-1ad2de40402a@18899",
+        "cfad6c48-69c9-42c4-b6ba-1ad2de40402a@eec57",
+        "cfad6c48-69c9-42c4-b6ba-1ad2de40402a@0b174",
+        "cfad6c48-69c9-42c4-b6ba-1ad2de40402a@440fb"
+      ],
+      "skeletons": [
+        "cfad6c48-69c9-42c4-b6ba-1ad2de40402a@13eba"
+      ],
+      "textures": [],
+      "materials": [
+        "cfad6c48-69c9-42c4-b6ba-1ad2de40402a@5c86a",
+        "cfad6c48-69c9-42c4-b6ba-1ad2de40402a@cbc52",
+        "cfad6c48-69c9-42c4-b6ba-1ad2de40402a@95467"
+      ],
+      "scenes": [
+        "cfad6c48-69c9-42c4-b6ba-1ad2de40402a@a08ae"
+      ]
+    },
+    "materials": {
+      "cfad6c48-69c9-42c4-b6ba-1ad2de40402a@5c86a": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "ed39a98a-aa9c-41c8-ac0e-b9de983e0e72",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": 0,
+        "_defines": [
+          {
+            "HAS_SECOND_UV": true,
+            "USE_TILLING_OFFSET": true
+          }
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainTexture": {
+              "__uuid__": "4c4cc7b2-6771-4f04-b67b-0c815b872844@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "_waveTexture": {
+              "__uuid__": "37eda96c-e16c-4a34-bc52-0aabe0f82d8c@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "_waveBaseColor": {
+              "__type__": "cc.Color",
+              "r": 80,
+              "g": 80,
+              "b": 80,
+              "a": 255
+            },
+            "_speed": 0.08,
+            "_offset": {
+              "__type__": "cc.Vec2",
+              "x": 0,
+              "y": 1
+            }
+          }
+        ]
+      },
+      "cfad6c48-69c9-42c4-b6ba-1ad2de40402a@cbc52": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "a3cd009f-0ab0-420d-9278-b9fdab939bbc",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": "2",
+        "_defines": [
+          {
+            "USE_INSTANCING": true,
+            "USE_VERTEX_COLOR": true,
+            "USE_TEXTURE": true
+          },
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainTexture": {
+              "__uuid__": "3240d0b5-5028-4d9c-b341-770e05f9edd7@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            }
+          },
+          {}
+        ]
+      },
+      "cfad6c48-69c9-42c4-b6ba-1ad2de40402a@95467": {
+        "__type__": "cc.Material",
+        "_name": "",
+        "_objFlags": 0,
+        "__editorExtras__": {},
+        "_native": "",
+        "_effectAsset": {
+          "__uuid__": "a3cd009f-0ab0-420d-9278-b9fdab939bbc",
+          "__expectedType__": "cc.EffectAsset"
+        },
+        "_techIdx": "2",
+        "_defines": [
+          {
+            "USE_INSTANCING": true,
+            "USE_VERTEX_COLOR": true,
+            "USE_TEXTURE": true
+          },
+          {}
+        ],
+        "_states": [
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          },
+          {
+            "rasterizerState": {},
+            "depthStencilState": {},
+            "blendState": {
+              "targets": [
+                {}
+              ]
+            }
+          }
+        ],
+        "_props": [
+          {
+            "mainTexture": {
+              "__uuid__": "2c0fad0f-91f5-410f-9306-dc003b8c9f3a@6c48a",
+              "__expectedType__": "cc.Texture2D"
+            },
+            "mainColor": {
+              "__type__": "cc.Color",
+              "r": 255,
+              "g": 255,
+              "b": 255,
+              "a": 119
+            }
+          },
+          {}
+        ]
+      }
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "pic_bar_white.png",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 61,
+      "height": 34
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 61,
+      "height": 34
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -30.5,
+        -17,
+        0,
+        30.5,
+        -17,
+        0,
+        -30.5,
+        17,
+        0,
+        30.5,
+        17,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        34,
+        61,
+        34,
+        0,
+        0,
+        61,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -30.5,
+        "y": -17,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 30.5,
+        "y": 17,
+        "z": 0
+      }
+    },
+    "texture": "c9172a2b-eb28-4779-a328-c622d8d92a62@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

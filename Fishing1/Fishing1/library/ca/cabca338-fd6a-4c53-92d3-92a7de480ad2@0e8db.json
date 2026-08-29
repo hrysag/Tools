@@ -1,0 +1,52 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "num_denomGray_BK",
+    "atlas": "cabca338-fd6a-4c53-92d3-92a7de480ad2",
+    "rect": {
+      "x": 1763,
+      "y": 800,
+      "width": 44,
+      "height": 54
+    },
+    "offset": {
+      "x": 0,
+      "y": -2
+    },
+    "originalSize": {
+      "width": 44,
+      "height": 62
+    },
+    "rotated": true,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [],
+      "indexes": [],
+      "uv": [],
+      "nuv": [],
+      "minPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    },
+    "texture": "c78126cb-b344-442f-8423-84aa63bb58f9@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

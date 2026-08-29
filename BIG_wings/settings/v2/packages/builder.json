@@ -1,0 +1,80 @@
+{
+  "__version__": "1.3.7",
+  "textureCompressConfig": {
+    "userPreset": {
+      "0cMqcQ4Q1MYr4SyaMVpC+9": {
+        "name": "pngWebp",
+        "options": {
+          "web": {
+            "png": {
+              "quality": 95
+            },
+            "webp": {
+              "quality": 85
+            }
+          }
+        }
+      },
+      "581cr2wcZO8KcCHGjtgtBf": {
+        "name": "jpgWebp",
+        "options": {
+          "web": {
+            "jpg": {
+              "quality": 95
+            },
+            "webp": {
+              "quality": 85
+            }
+          }
+        }
+      },
+      "e5DVTOEOBIB5ynRrTPNoWL": {
+        "name": "png8",
+        "options": {
+          "web": {
+            "png": {
+              "quality": 95
+            }
+          }
+        }
+      }
+    }
+  },
+  "bundleConfig": {
+    "custom": {
+      "default": {
+        "displayName": "i18n:builder.asset_bundle.defaultConfig",
+        "configs": {
+          "native": {
+            "preferredOptions": {
+              "isRemote": false,
+              "compressionType": "merge_dep"
+            }
+          },
+          "web": {
+            "preferredOptions": {
+              "isRemote": false,
+              "compressionType": "merge_dep"
+            },
+            "fallbackOptions": {
+              "compressionType": "merge_dep"
+            },
+            "overwriteSettings": {
+              "web-desktop": {
+                "isRemote": true,
+                "compressionType": "merge_dep"
+              }
+            }
+          },
+          "miniGame": {
+            "fallbackOptions": {
+              "isRemote": false,
+              "compressionType": "merge_dep"
+            },
+            "configMode": "fallback"
+          }
+        }
+      }
+    }
+  }
+}

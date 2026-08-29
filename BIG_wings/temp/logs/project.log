@@ -1,0 +1,11 @@
+2026-2-2 23:46:57 - log: Load engine in C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine
+2026-2-2 23:46:57 - log: Profile changed: engine (modules.includeModules: 2d,animation,audio,base,gfx-webgl,gfx-webgl2,intersection-2d,particle-2d,physics-2d-box2d,profiler,spine,tiled-map,tween,ui,video,webview)
+2026-2-2 23:46:57 - log: Register native engine in C:\ProgramData\cocos\editors\Creator\3.8.1\resources\resources\3d\engine\native
+2026-2-3 17:16:24 - error: Error occurred in handler for 'GUEST_VIEW_MANAGER_CALL': Error: Invalid guestInstanceId: 6
+    at getGuestForWebContents (electron/js2c/browser_init.js:181:6307)
+    at electron/js2c/browser_init.js:181:5372
+    at electron/js2c/browser_init.js:181:1637
+    at electron/js2c/browser_init.js:197:579
+    at Object.<anonymous> (electron/js2c/browser_init.js:161:9782)
+    at Object.emit (events.js:315:20)
+    at Object.emit (domain.js:467:12)

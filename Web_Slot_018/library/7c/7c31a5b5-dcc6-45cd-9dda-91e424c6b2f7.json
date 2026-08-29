@@ -1,0 +1,19 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "Icon_08_09_bot",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": ".bin",
+  "_skeletonJson": null,
+  "textures": [
+    {
+      "__uuid__": "05b1b655-9eb2-4153-911b-7016c8c9a224@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "Icon_08_09_bot.webp"
+  ],
+  "scale": 1,
+  "_atlasText": "\r\nIcon_08_09_bot.webp\r\nsize: 2048,1024\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\n01_pic/wild_bot_blue\r\n  rotate: false\r\n  xy: 650, 709\r\n  size: 306, 312\r\n  orig: 306, 312\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/wild_bot_rad\r\n  rotate: false\r\n  xy: 650, 395\r\n  size: 306, 312\r\n  orig: 306, 312\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/wild_frame_base\r\n  rotate: false\r\n  xy: 326, 366\r\n  size: 322, 322\r\n  orig: 322, 322\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/wild_paper_blue\r\n  rotate: false\r\n  xy: 295, 15\r\n  size: 280, 238\r\n  orig: 280, 238\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/wild_paper_rad\r\n  rotate: false\r\n  xy: 577, 18\r\n  size: 305, 274\r\n  orig: 305, 274\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/wild_reel_bot_blue\r\n  rotate: false\r\n  xy: 2, 255\r\n  size: 322, 331\r\n  orig: 322, 331\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/wild_reel_bot_rad\r\n  rotate: false\r\n  xy: 326, 690\r\n  size: 322, 331\r\n  orig: 322, 331\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/wild_reel_frame_down\r\n  rotate: false\r\n  xy: 326, 294\r\n  size: 322, 70\r\n  orig: 322, 70\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/wild_reel_frame_up\r\n  rotate: false\r\n  xy: 958, 428\r\n  size: 322, 118\r\n  orig: 322, 118\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/wild_reel_gem_down_blue\r\n  rotate: false\r\n  xy: 650, 329\r\n  size: 115, 64\r\n  orig: 115, 64\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/wild_reel_gem_down_rad\r\n  rotate: false\r\n  xy: 767, 329\r\n  size: 115, 64\r\n  orig: 115, 64\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/wild_reel_gem_up_blue\r\n  rotate: false\r\n  xy: 884, 54\r\n  size: 62, 44\r\n  orig: 62, 44\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/wild_reel_gem_up_rad\r\n  rotate: false\r\n  xy: 884, 8\r\n  size: 62, 44\r\n  orig: 62, 44\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/wild_reel_shadow\r\n  rotate: false\r\n  xy: 2, 588\r\n  size: 322, 433\r\n  orig: 322, 433\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/wild_scissors_blue\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 291, 251\r\n  orig: 291, 251\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/wild_scissors_rad\r\n  rotate: false\r\n  xy: 884, 100\r\n  size: 291, 293\r\n  orig: 291, 293\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/wild_stone_blue\r\n  rotate: false\r\n  xy: 958, 780\r\n  size: 258, 241\r\n  orig: 258, 241\r\n  offset: 0, 0\r\n  index: -1\r\n01_pic/wild_stone_rad\r\n  rotate: false\r\n  xy: 958, 548\r\n  size: 242, 230\r\n  orig: 242, 230\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

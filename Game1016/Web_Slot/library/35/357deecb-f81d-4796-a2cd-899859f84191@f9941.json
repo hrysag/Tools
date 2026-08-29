@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "WinScore_fnt",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 512,
+      "height": 504
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 512,
+      "height": 504
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -256,
+        -252,
+        0,
+        256,
+        -252,
+        0,
+        -256,
+        252,
+        0,
+        256,
+        252,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        504,
+        512,
+        504,
+        0,
+        0,
+        512,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -256,
+        "y": -252,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 256,
+        "y": 252,
+        "z": 0
+      }
+    },
+    "texture": "357deecb-f81d-4796-a2cd-899859f84191@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

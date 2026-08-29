@@ -1,0 +1,69 @@
+
+NG_UI.webp
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+00_NG_reel_frame_01
+  rotate: false
+  xy: 2, 73
+  size: 958, 1319
+  orig: 958, 1319
+  offset: 0, 0
+  index: -1
+00_NG_reel_frame_03
+  rotate: false
+  xy: 2, 1521
+  size: 845, 184
+  orig: 845, 184
+  offset: 0, 0
+  index: -1
+00_NG_reel_frame_05
+  rotate: false
+  xy: 962, 2
+  size: 906, 1373
+  orig: 906, 1373
+  offset: 0, 0
+  index: -1
+01_NG_reel_frame_02
+  rotate: false
+  xy: 849, 1394
+  size: 248, 206
+  orig: 248, 206
+  offset: 0, 0
+  index: -1
+01_NG_reel_frame_04
+  rotate: false
+  xy: 1099, 1377
+  size: 283, 223
+  orig: 283, 223
+  offset: 0, 0
+  index: -1
+02_Respin_remaining_bot
+  rotate: false
+  xy: 1006, 1602
+  size: 678, 177
+  orig: 678, 177
+  offset: 0, 0
+  index: -1
+FG_FG_remaining_txt
+  rotate: false
+  xy: 2, 1707
+  size: 500, 72
+  orig: 500, 72
+  offset: 0, 0
+  index: -1
+Respin_remaining_txt
+  rotate: false
+  xy: 504, 1707
+  size: 500, 72
+  orig: 500, 72
+  offset: 0, 0
+  index: -1
+shadow_door
+  rotate: false
+  xy: 1686, 1602
+  size: 137, 177
+  orig: 137, 177
+  offset: 0, 0
+  index: -1

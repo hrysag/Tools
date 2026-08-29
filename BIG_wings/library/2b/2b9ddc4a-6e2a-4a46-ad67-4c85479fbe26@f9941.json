@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_game_interface_selected",
+    "atlas": "",
+    "rect": {
+      "x": 7,
+      "y": 7,
+      "width": 87,
+      "height": 87
+    },
+    "offset": {
+      "x": 0.5,
+      "y": -0.5
+    },
+    "originalSize": {
+      "width": 100,
+      "height": 100
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -43.5,
+        -43.5,
+        0,
+        43.5,
+        -43.5,
+        0,
+        -43.5,
+        43.5,
+        0,
+        43.5,
+        43.5,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        7,
+        93,
+        94,
+        93,
+        7,
+        6,
+        94,
+        6
+      ],
+      "nuv": [
+        0.07,
+        0.06,
+        0.94,
+        0.06,
+        0.07,
+        0.93,
+        0.94,
+        0.93
+      ],
+      "minPos": {
+        "x": -43.5,
+        "y": -43.5,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 43.5,
+        "y": 43.5,
+        "z": 0
+      }
+    },
+    "texture": "2b9ddc4a-6e2a-4a46-ad67-4c85479fbe26@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}

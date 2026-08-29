@@ -1,0 +1,41 @@
+
+fx_btn_spin.jpg
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+center_light
+  rotate: false
+  xy: 2, 2
+  size: 480, 480
+  orig: 480, 480
+  offset: 0, 0
+  index: -1
+spin_hover_circle
+  rotate: false
+  xy: 1288, 172
+  size: 310, 310
+  orig: 310, 310
+  offset: 0, 0
+  index: -1
+spin_rotation_c_light
+  rotate: false
+  xy: 484, 82
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+spin_rotation_line
+  rotate: false
+  xy: 886, 82
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+wave_shake
+  rotate: false
+  xy: 1600, 172
+  size: 310, 310
+  orig: 310, 310
+  offset: 0, 0
+  index: -1

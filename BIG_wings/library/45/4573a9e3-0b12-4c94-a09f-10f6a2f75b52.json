@@ -1,0 +1,287 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "gamble_win",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "e4yEElpbfD56Xqa+J2rpe1YBafs",
+      "spine": "3.7.94",
+      "width": 1056,
+      "height": 1094,
+      "images": "./images/",
+      "audio": "./../"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "shine",
+        "parent": "root",
+        "y": 37
+      },
+      {
+        "name": "shine2",
+        "parent": "root",
+        "y": 37
+      },
+      {
+        "name": "fx_gamble_green",
+        "parent": "root",
+        "y": 60
+      }
+    ],
+    "slots": [
+      {
+        "name": "shine25%",
+        "bone": "shine",
+        "color": "ffffff1d",
+        "attachment": "gamble_glow_image",
+        "blend": "additive"
+      },
+      {
+        "name": "shine25%5",
+        "bone": "shine2",
+        "color": "ffffff1d",
+        "attachment": "gamble_glow_image",
+        "blend": "additive"
+      },
+      {
+        "name": "fx_gamble_green",
+        "bone": "fx_gamble_green",
+        "color": "ffffff00",
+        "attachment": "fx_gamble_green",
+        "blend": "additive"
+      },
+      {
+        "name": "fx_gamble_green2",
+        "bone": "fx_gamble_green",
+        "color": "ffffff00",
+        "attachment": "fx_gamble_green",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "fx_gamble_green": {
+          "fx_gamble_green": {
+            "y": 0.5,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 528,
+            "height": 547
+          }
+        },
+        "fx_gamble_green2": {
+          "fx_gamble_green": {
+            "y": 0.5,
+            "scaleX": 2,
+            "scaleY": 2,
+            "width": 528,
+            "height": 547
+          }
+        },
+        "shine25%": {
+          "gamble_glow_image": {
+            "y": 20,
+            "scaleX": 2.38,
+            "scaleY": 2.38,
+            "width": 335,
+            "height": 335
+          }
+        },
+        "shine25%5": {
+          "gamble_glow_image": {
+            "y": 20,
+            "scaleX": 2.38,
+            "scaleY": 2.38,
+            "width": 335,
+            "height": 335
+          }
+        }
+      }
+    },
+    "animations": {
+      "win": {
+        "slots": {
+          "fx_gamble_green": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.0333,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.2,
+                "color": "ffffffc7",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "color": "ffffffc7",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "fx_gamble_green2": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.0333,
+                "color": "ffffff3c",
+                "curve": "stepped"
+              },
+              {
+                "time": 0.2,
+                "color": "ffffff3c",
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5333,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "shine25%": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.432,
+                  0.2,
+                  0.743,
+                  0.58
+                ]
+              },
+              {
+                "time": 0.2,
+                "color": "eff84d23",
+                "curve": [
+                  0.533,
+                  0.21,
+                  0.616,
+                  1
+                ]
+              },
+              {
+                "time": 1.1667,
+                "color": "ffffff00"
+              }
+            ]
+          },
+          "shine25%5": {
+            "color": [
+              {
+                "time": 0,
+                "color": "ffffff00",
+                "curve": [
+                  0.432,
+                  0.2,
+                  0.743,
+                  0.58
+                ]
+              },
+              {
+                "time": 0.2,
+                "color": "eff84d23",
+                "curve": [
+                  0.533,
+                  0.21,
+                  0.616,
+                  1
+                ]
+              },
+              {
+                "time": 1.1667,
+                "color": "ffffff00"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "fx_gamble_green": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 0
+              },
+              {
+                "time": 1.3333,
+                "angle": -120
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1.2,
+                "y": 1.2
+              },
+              {
+                "time": 0.2,
+                "x": 1.4,
+                "y": 1.4
+              },
+              {
+                "time": 1.3333,
+                "x": 1.5,
+                "y": 1.5
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "textures": [
+    {
+      "__uuid__": "d8bc056d-d0a0-4178-a5c4-2d5ab0835b8c@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "gamble_win.jpg"
+  ],
+  "scale": 1,
+  "_atlasText": "\r\ngamble_win.jpg\r\nsize: 1024,512\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nfx_gamble_green\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 370, 383\r\n  orig: 370, 383\r\n  offset: 0, 0\r\n  index: -1\r\ngamble_glow_image\r\n  rotate: false\r\n  xy: 374, 150\r\n  size: 235, 235\r\n  orig: 235, 235\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

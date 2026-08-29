@@ -1,0 +1,583 @@
+{
+  "path": {
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\material\\effects\\builtin-unlit-tilingOffset.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\unlit-vs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\input.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\decode.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\decode-base.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\data\\unpack.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\morph.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\morph-animation.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-morph.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\skinning.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-skinning.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\skinning-animation-lbs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\local-batch.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local-batched.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\world-transform.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\fog-vs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\fog-base.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\fog.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\effect\\fog.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\unlit-fs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output-standard.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\aces.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\fog-fs.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\unlit-vs.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\legacy\\input.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\legacy\\decode.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\legacy\\decode-base.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\common\\data\\unpack.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\legacy\\morph.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\builtin\\functionalities\\morph-animation.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\builtin\\uniforms\\cc-morph.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\legacy\\skinning.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\builtin\\uniforms\\cc-skinning.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\builtin\\functionalities\\skinning-animation-lbs.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\legacy\\local-batch.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\builtin\\uniforms\\cc-local-batched.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\builtin\\functionalities\\world-transform.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\legacy\\fog-vs.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\legacy\\fog-base.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\builtin\\functionalities\\fog.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\common\\effect\\fog.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\unlit-fs.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\legacy\\output-standard.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\common\\color\\aces.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\legacy\\fog-fs.chunk"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\material\\effects\\wave-mesh.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\main-functions\\general-vs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\input-standard.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\decode-standard.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\decode-base.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\data\\unpack.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\morph.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\morph-animation.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-morph.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\skinning.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-skinning.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\skinning-animation-lbs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\local-batch.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local-batched.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\world-transform.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\fog-vs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\fog-base.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\fog.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\effect\\fog.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\shadow-map-vs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-shadow.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\shadow-map-base.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\shadow-map.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-csm.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\math\\coordinates.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-shadow-map.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\data\\packing.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\shadow\\native-pcf.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\unlit-fs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\fog-fs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\general-vs.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\legacy\\main-functions\\general-vs.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\legacy\\input-standard.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\legacy\\decode-standard.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\legacy\\decode-base.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\common\\data\\unpack.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\legacy\\morph.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\builtin\\functionalities\\morph-animation.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\builtin\\uniforms\\cc-morph.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\legacy\\skinning.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\builtin\\uniforms\\cc-skinning.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\builtin\\functionalities\\skinning-animation-lbs.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\legacy\\local-batch.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\builtin\\uniforms\\cc-local-batched.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\builtin\\functionalities\\world-transform.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\legacy\\fog-vs.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\legacy\\fog-base.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\builtin\\functionalities\\fog.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\common\\effect\\fog.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\legacy\\shadow-map-vs.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\builtin\\uniforms\\cc-shadow.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\legacy\\shadow-map-base.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\builtin\\functionalities\\shadow-map.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\builtin\\uniforms\\cc-csm.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\common\\math\\coordinates.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\builtin\\uniforms\\cc-shadow-map.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\common\\data\\packing.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\common\\shadow\\native-pcf.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\unlit-fs.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\legacy\\fog-fs.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\general-vs.chunk"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\material\\effects\\wave-sprite.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-vs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-fs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\embedded-alpha.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\alpha-test.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\sprite-vs.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\sprite-fs.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\builtin\\internal\\embedded-alpha.chunk",
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\chunks\\builtin\\internal\\alpha-test.chunk"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\Language_cn\\fishHunter_cn.plist": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\Language_cn\\fishHunter_cn.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\Language_th\\fishHunter_th.plist": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\Language_th\\fishHunter_th.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\Language_vi\\fishHunter_vi.plist": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\Language_vi\\fishHunter_vi.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\Language_en\\fishHunter_en.plist": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\Language_en\\fishHunter_en.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\Language_tw\\fishHunter_tw.plist": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\Language_tw\\fishHunter_tw.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\atlas\\fishHunterDragon.plist": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\atlas\\fishHunterDragon.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\atlas\\fishHunterLobby.plist": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\atlas\\fishHunterLobby.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\fnt\\numAuto.fnt": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\fnt\\numAuto.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\fnt\\numBig.fnt": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\fnt\\numBig.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\fnt\\numCannon.fnt": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\fnt\\numCannon.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\fnt\\numChoose.fnt": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\fnt\\numChoose.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\fnt\\numDenom.fnt": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\fnt\\numDenom.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\fnt\\numLobby.fnt": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\fnt\\numLobby.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\fnt\\numPower.fnt": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\fnt\\numPower.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\atlas\\fishHunterSystemGUI.plist": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\atlas\\fishHunterSystemGUI.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\fnt\\numProps1.fnt": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\fnt\\numProps1.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\fnt\\numProps2.fnt": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\fnt\\numProps2.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\fnt\\numScore.fnt": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\fnt\\numScore.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\fnt\\numSN.fnt": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\fnt\\numSN.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\fnt\\numWinScore.fnt": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\fnt\\numWinScore.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\atlas\\fishHunterPopup.plist": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\atlas\\fishHunterPopup.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\GameResources\\prefab\\textures\\fishHunterDragon.plist": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\GameResources\\prefab\\textures\\fishHunterDragon.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\GameResources\\prefab\\textures\\fishHunterLobby.plist": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\GameResources\\prefab\\textures\\fishHunterLobby.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\atlas\\fishHunterGui.plist": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\atlas\\fishHunterGui.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\atlas\\fishHunterFish.plist": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\atlas\\fishHunterFish.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\GameResources\\prefab\\textures\\fishHunterPopup.plist": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\GameResources\\prefab\\textures\\fishHunterPopup.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\GameResources\\prefab\\textures\\fishHunterGui.plist": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\GameResources\\prefab\\textures\\fishHunterGui.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\animation\\spine\\lobby\\icon_boom.skel": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\animation\\spine\\lobby\\icon_boom.atlas"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\animation\\spine\\lobby\\icon_dragon.skel": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\animation\\spine\\lobby\\icon_dragon.atlas"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\animation\\spine\\lobby\\icon_shark.skel": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\animation\\spine\\lobby\\icon_shark.atlas"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\lang\\cn\\fishHunter_cn.plist": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\lang\\cn\\fishHunter_cn.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\lang\\en\\fishHunter_en.plist": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\lang\\en\\fishHunter_en.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\lang\\th\\fishHunter_th.plist": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\lang\\th\\fishHunter_th.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\lang\\tw\\fishHunter_tw.plist": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\lang\\tw\\fishHunter_tw.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\lang\\vi\\fishHunter_vi.plist": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\texture\\lang\\vi\\fishHunter_vi.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\GameResources\\prefab\\textures\\fishHunterFish.plist": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\GameResources\\prefab\\textures\\fishHunterFish.png"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\GameResources\\prefab\\textures\\fishHunterSystemGUI.plist": [
+      "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\GameResources\\prefab\\textures\\fishHunterSystemGUI.png"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\material\\effects\\builtin-unlit-tilingOffset.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\unlit-vs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\input.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\decode.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\decode-base.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\data\\unpack.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\morph.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\morph-animation.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-morph.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\skinning.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-skinning.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\skinning-animation-lbs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\local-batch.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local-batched.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\world-transform.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\fog-vs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\fog-base.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\fog.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\effect\\fog.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\unlit-fs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output-standard.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\aces.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\fog-fs.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\unlit-vs.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\legacy\\input.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\legacy\\decode.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\legacy\\decode-base.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\common\\common-define.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\common\\data\\unpack.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\legacy\\morph.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\builtin\\functionalities\\morph-animation.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\builtin\\uniforms\\cc-morph.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\legacy\\skinning.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\builtin\\uniforms\\cc-skinning.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\builtin\\functionalities\\skinning-animation-lbs.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\legacy\\local-batch.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\builtin\\uniforms\\cc-local-batched.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\builtin\\functionalities\\world-transform.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\legacy\\fog-vs.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\legacy\\fog-base.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\builtin\\functionalities\\fog.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\common\\effect\\fog.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\unlit-fs.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\legacy\\output-standard.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\common\\color\\aces.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\common\\color\\gamma.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\legacy\\fog-fs.chunk"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\material\\effects\\wave-mesh.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\main-functions\\general-vs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\input-standard.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\decode-standard.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\decode-base.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\data\\unpack.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\morph.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\morph-animation.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-morph.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\skinning.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-skinning.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\skinning-animation-lbs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\local-batch.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local-batched.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\world-transform.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\fog-vs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\fog-base.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\fog.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\effect\\fog.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\shadow-map-vs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-shadow.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\shadow-map-base.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\functionalities\\shadow-map.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-csm.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\math\\coordinates.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-shadow-map.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\data\\packing.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\shadow\\native-pcf.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\unlit-fs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\output.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\color\\gamma.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\legacy\\fog-fs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\general-vs.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\legacy\\main-functions\\general-vs.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\legacy\\input-standard.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\legacy\\decode-standard.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\legacy\\decode-base.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\common\\common-define.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\common\\data\\unpack.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\legacy\\morph.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\builtin\\functionalities\\morph-animation.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\builtin\\uniforms\\cc-morph.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\legacy\\skinning.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\builtin\\uniforms\\cc-skinning.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\builtin\\functionalities\\skinning-animation-lbs.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\legacy\\local-batch.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\builtin\\uniforms\\cc-local-batched.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\builtin\\uniforms\\cc-local.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\builtin\\functionalities\\world-transform.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\legacy\\fog-vs.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\legacy\\fog-base.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\builtin\\functionalities\\fog.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\common\\effect\\fog.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\legacy\\shadow-map-vs.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\builtin\\uniforms\\cc-shadow.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\legacy\\shadow-map-base.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\builtin\\functionalities\\shadow-map.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\builtin\\uniforms\\cc-csm.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\common\\math\\coordinates.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\builtin\\uniforms\\cc-shadow-map.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\common\\data\\packing.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\common\\shadow\\native-pcf.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\unlit-fs.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\legacy\\output.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\common\\color\\gamma.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\legacy\\fog-fs.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\general-vs.chunk"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\material\\effects\\wave-sprite.effect": [
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-vs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\common\\common-define.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\sprite-fs.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\embedded-alpha.chunk",
+      "C:\\ProgramData\\cocos\\editors\\Creator\\3.8.1\\resources\\resources\\3d\\engine\\editor\\assets\\chunks\\builtin\\internal\\alpha-test.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\sprite-vs.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\builtin\\uniforms\\cc-global.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\common\\common-define.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\sprite-fs.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\builtin\\internal\\embedded-alpha.chunk",
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\chunks\\builtin\\internal\\alpha-test.chunk"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\Language_th\\fishHunter_th.plist": [
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\Language_th\\fishHunter_th.png"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\Language_cn\\fishHunter_cn.plist": [
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\Language_cn\\fishHunter_cn.png"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\Language_en\\fishHunter_en.plist": [
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\Language_en\\fishHunter_en.png"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\Language_tw\\fishHunter_tw.plist": [
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\Language_tw\\fishHunter_tw.png"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\atlas\\fishHunterDragon.plist": [
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\atlas\\fishHunterDragon.png"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\GameResources\\prefab\\textures\\fishHunterDragon.plist": [
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\GameResources\\prefab\\textures\\fishHunterDragon.png"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\GameResources\\prefab\\textures\\fishHunterFish.plist": [
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\GameResources\\prefab\\textures\\fishHunterFish.png"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\GameResources\\prefab\\textures\\fishHunterPopup.plist": [
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\GameResources\\prefab\\textures\\fishHunterPopup.png"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\GameResources\\prefab\\textures\\fishHunterGui.plist": [
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\GameResources\\prefab\\textures\\fishHunterGui.png"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\animation\\spine\\lobby\\icon_boom.skel": [
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\animation\\spine\\lobby\\icon_boom.atlas"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\animation\\spine\\lobby\\icon_dragon.skel": [
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\animation\\spine\\lobby\\icon_dragon.atlas"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\animation\\spine\\lobby\\icon_shark.skel": [
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\animation\\spine\\lobby\\icon_shark.atlas"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\lang\\cn\\fishHunter_cn.plist": [
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\lang\\cn\\fishHunter_cn.png"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\lang\\en\\fishHunter_en.plist": [
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\lang\\en\\fishHunter_en.png"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\lang\\th\\fishHunter_th.plist": [
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\lang\\th\\fishHunter_th.png"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\lang\\tw\\fishHunter_tw.plist": [
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\lang\\tw\\fishHunter_tw.png"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\atlas\\fishHunterLobby.plist": [
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\atlas\\fishHunterLobby.png"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\Language_vi\\fishHunter_vi.plist": [
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\Language_vi\\fishHunter_vi.png"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\atlas\\fishHunterSystemGUI.plist": [
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\atlas\\fishHunterSystemGUI.png"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\fnt\\numAuto.fnt": [
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\fnt\\numAuto.png"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\fnt\\numCannon.fnt": [
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\fnt\\numCannon.png"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\fnt\\numBig.fnt": [
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\fnt\\numBig.png"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\fnt\\numChoose.fnt": [
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\fnt\\numChoose.png"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\fnt\\numLobby.fnt": [
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\fnt\\numLobby.png"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\fnt\\numDenom.fnt": [
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\fnt\\numDenom.png"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\fnt\\numPower.fnt": [
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\fnt\\numPower.png"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\fnt\\numProps2.fnt": [
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\fnt\\numProps2.png"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\fnt\\numProps1.fnt": [
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\fnt\\numProps1.png"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\fnt\\numScore.fnt": [
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\fnt\\numScore.png"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\fnt\\numSN.fnt": [
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\fnt\\numSN.png"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\fnt\\numWinScore.fnt": [
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\fnt\\numWinScore.png"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\atlas\\fishHunterPopup.plist": [
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\atlas\\fishHunterPopup.png"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\GameResources\\prefab\\textures\\fishHunterLobby.plist": [
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\GameResources\\prefab\\textures\\fishHunterLobby.png"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\GameResources\\prefab\\textures\\fishHunterSystemGUI.plist": [
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\GameResources\\prefab\\textures\\fishHunterSystemGUI.png"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\lang\\vi\\fishHunter_vi.plist": [
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\lang\\vi\\fishHunter_vi.png"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\atlas\\fishHunterGui.plist": [
+      "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\texture\\atlas\\fishHunterGui.png"
+    ]
+  },
+  "uuid": {
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\material\\2d\\additive.mtl": [
+      "60f7195c-ec2a-45eb-ba94-8955f60e81d0"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\material\\2d\\wave-sprite.mtl": [
+      "97cc1e8d-aa42-4949-9753-4e9a8a45bb4a"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\material\\3d\\bg1.mtl": [
+      "a3cd009f-0ab0-420d-9278-b9fdab939bbc"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\material\\3d\\bg2.mtl": [
+      "a3cd009f-0ab0-420d-9278-b9fdab939bbc"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\material\\3d\\goldSeaTurtleStarFx.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\material\\3d\\stingrayStarFx.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\material\\particle\\bubble.mtl": [
+      "971bdb23-3ff6-43eb-b422-1c30165a3663"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\material\\particle\\coin.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\material\\particle\\coin_gpu.mtl": [
+      "971bdb23-3ff6-43eb-b422-1c30165a3663"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\material\\particle\\ingot.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\animation\\spine\\lobby\\icon_boom.skel": [
+      "77138d00-b1c0-4b8a-8776-b61226e60ce6@6c48a"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\animation\\spine\\lobby\\icon_dragon.skel": [
+      "b7b740ff-30ee-47bd-8c1c-1b5a73c7c203@6c48a"
+    ],
+    "C:\\Users\\ren-yang\\Desktop\\cocos2Test\\Projects\\Fishing1\\assets\\game\\animation\\spine\\lobby\\icon_shark.skel": [
+      "1c7fe200-3b5c-4619-b015-91fe3d7e73e6@6c48a"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\material\\2d\\additive.mtl": [
+      "60f7195c-ec2a-45eb-ba94-8955f60e81d0"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\material\\2d\\wave-sprite.mtl": [
+      "97cc1e8d-aa42-4949-9753-4e9a8a45bb4a"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\material\\3d\\bg1.mtl": [
+      "a3cd009f-0ab0-420d-9278-b9fdab939bbc"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\material\\3d\\bg2.mtl": [
+      "a3cd009f-0ab0-420d-9278-b9fdab939bbc"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\material\\3d\\goldSeaTurtleStarFx.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\material\\3d\\stingrayStarFx.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\material\\particle\\bubble.mtl": [
+      "971bdb23-3ff6-43eb-b422-1c30165a3663"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\material\\particle\\coin.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\material\\particle\\coin_gpu.mtl": [
+      "971bdb23-3ff6-43eb-b422-1c30165a3663"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\material\\particle\\ingot.mtl": [
+      "d1346436-ac96-4271-b863-1f4fdead95b0"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\animation\\spine\\lobby\\icon_boom.skel": [
+      "77138d00-b1c0-4b8a-8776-b61226e60ce6@6c48a"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\animation\\spine\\lobby\\icon_dragon.skel": [
+      "b7b740ff-30ee-47bd-8c1c-1b5a73c7c203@6c48a"
+    ],
+    "D:\\bbin\\cocos\\Fishing1\\Fishing1\\assets\\game\\animation\\spine\\lobby\\icon_shark.skel": [
+      "1c7fe200-3b5c-4619-b015-91fe3d7e73e6@6c48a"
+    ]
+  }
+}

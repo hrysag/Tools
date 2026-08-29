@@ -1,0 +1,34 @@
+
+icon_08.webp
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+01_Pulm_BK_Glow_00
+  rotate: false
+  xy: 154, 58
+  size: 117, 111
+  orig: 117, 111
+  offset: 0, 0
+  index: -1
+01_plum_bossom
+  rotate: false
+  xy: 273, 2
+  size: 88, 81
+  orig: 88, 81
+  offset: 0, 0
+  index: -1
+01_plum_bossom_sd
+  rotate: false
+  xy: 273, 85
+  size: 91, 84
+  orig: 91, 84
+  offset: 0, 0
+  index: -1
+Star_Fx
+  rotate: false
+  xy: 2, 19
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1

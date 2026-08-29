@@ -1,0 +1,8 @@
+{
+  "__type__": "cc.TextAsset",
+  "_name": "loading_page2.atlas",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "text": "\r\nloading_page2.webp\r\nsize: 860,316\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nicon_00\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 160, 128\r\n  orig: 160, 128\r\n  offset: 0, 0\r\n  index: -1\r\nicon_01\r\n  rotate: false\r\n  xy: 164, 2\r\n  size: 160, 128\r\n  orig: 160, 128\r\n  offset: 0, 0\r\n  index: -1\r\nicon_02\r\n  rotate: false\r\n  xy: 326, 2\r\n  size: 160, 128\r\n  orig: 160, 128\r\n  offset: 0, 0\r\n  index: -1\r\nicon_03\r\n  rotate: false\r\n  xy: 488, 18\r\n  size: 112, 112\r\n  orig: 160, 128\r\n  offset: 23, 5\r\n  index: -1\r\nicon_04\r\n  rotate: true\r\n  xy: 602, 19\r\n  size: 130, 96\r\n  orig: 160, 128\r\n  offset: 20, 10\r\n  index: -1\r\nicon_05\r\n  rotate: true\r\n  xy: 700, 124\r\n  size: 90, 87\r\n  orig: 160, 128\r\n  offset: 35, 19\r\n  index: -1\r\nicon_06\r\n  rotate: true\r\n  xy: 700, 35\r\n  size: 87, 83\r\n  orig: 160, 128\r\n  offset: 37, 21\r\n  index: -1\r\nicon_07\r\n  rotate: false\r\n  xy: 686, 216\r\n  size: 84, 96\r\n  orig: 160, 128\r\n  offset: 37, 14\r\n  index: -1\r\nicon_08\r\n  rotate: true\r\n  xy: 772, 222\r\n  size: 90, 84\r\n  orig: 160, 128\r\n  offset: 35, 21\r\n  index: -1\r\nicon_09\r\n  rotate: true\r\n  xy: 2, 132\r\n  size: 180, 532\r\n  orig: 180, 532\r\n  offset: 0, 0\r\n  index: -1\r\nicon_10\r\n  rotate: true\r\n  xy: 536, 151\r\n  size: 161, 148\r\n  orig: 180, 156\r\n  offset: 10, 3\r\n  index: -1\r\n"
+}

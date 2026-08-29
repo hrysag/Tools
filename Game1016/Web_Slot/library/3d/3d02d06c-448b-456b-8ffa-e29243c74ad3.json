@@ -1,0 +1,139 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "skeleton_wp",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "jpLxEyyWlcK15jcZql7EeFTT93w",
+      "spine": "3.8.99",
+      "x": -960,
+      "y": -540,
+      "width": 1920,
+      "height": 1080,
+      "images": "./images/",
+      "audio": ""
+    },
+    "bones": [
+      {
+        "name": "root"
+      }
+    ],
+    "slots": [
+      {
+        "name": "word",
+        "bone": "root",
+        "attachment": "word"
+      },
+      {
+        "name": "symbol_01",
+        "bone": "root",
+        "attachment": "symbol_01"
+      },
+      {
+        "name": "symbol_4_multiply",
+        "bone": "root",
+        "attachment": "symbol_01_glow0",
+        "blend": "multiply"
+      },
+      {
+        "name": "symbol_1",
+        "bone": "root",
+        "attachment": "symbol_01"
+      },
+      {
+        "name": "symbol_3_screen",
+        "bone": "root",
+        "attachment": "symbol_01_glow0",
+        "blend": "screen"
+      },
+      {
+        "name": "symbol_2",
+        "bone": "root",
+        "attachment": "symbol_01"
+      },
+      {
+        "name": "symbol_3_add",
+        "bone": "root",
+        "attachment": "symbol_01_glow0",
+        "blend": "additive"
+      }
+    ],
+    "skins": [
+      {
+        "name": "default",
+        "attachments": {
+          "symbol_01": {
+            "symbol_01": {
+              "x": -661.55,
+              "y": 133.34,
+              "width": 124,
+              "height": 120
+            }
+          },
+          "symbol_1": {
+            "symbol_01": {
+              "x": -19.27,
+              "y": 133.34,
+              "width": 124,
+              "height": 120
+            }
+          },
+          "symbol_2": {
+            "symbol_01": {
+              "x": 634.27,
+              "y": 133.34,
+              "width": 124,
+              "height": 120
+            }
+          },
+          "symbol_3_add": {
+            "symbol_01_glow0": {
+              "x": 634.27,
+              "y": 133.34,
+              "width": 200,
+              "height": 194
+            }
+          },
+          "symbol_3_screen": {
+            "symbol_01_glow0": {
+              "x": -19.27,
+              "y": 133.34,
+              "width": 200,
+              "height": 194
+            }
+          },
+          "symbol_4_multiply": {
+            "symbol_01_glow0": {
+              "x": -661.55,
+              "y": 133.34,
+              "width": 200,
+              "height": 194
+            }
+          },
+          "word": {
+            "word": {
+              "width": 1920,
+              "height": 1080
+            }
+          }
+        }
+      }
+    ],
+    "animations": {
+      "animation": {}
+    }
+  },
+  "textures": [
+    {
+      "__uuid__": "f394f0f9-608f-4304-98a4-380a704f449d@6c48a",
+      "__expectedType__": "cc.Texture2D"
+    }
+  ],
+  "textureNames": [
+    "skeleton.webp"
+  ],
+  "scale": 1,
+  "_atlasText": "\r\nskeleton.webp\r\nsize: 1924,1280\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nsymbol_01\r\n  rotate: false\r\n  xy: 204, 76\r\n  size: 124, 120\r\n  orig: 124, 120\r\n  offset: 0, 0\r\n  index: -1\r\nsymbol_01_glow0\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 200, 194\r\n  orig: 200, 194\r\n  offset: 0, 0\r\n  index: -1\r\nword\r\n  rotate: false\r\n  xy: 2, 198\r\n  size: 1920, 1080\r\n  orig: 1920, 1080\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

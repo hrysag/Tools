@@ -1,0 +1,8 @@
+{
+  "__type__": "cc.TextAsset",
+  "_name": "FX_FreeStart_back.atlas",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "text": "\r\nFX_FreeStart_back.png\r\nsize: 1024,1024\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\n02_fx_front_transition/fx_transition_lilP_add\r\n  rotate: false\r\n  xy: 2, 364\r\n  size: 390, 614\r\n  orig: 390, 614\r\n  offset: 0, 0\r\n  index: -1\r\n02_fx_front_transition/fx_transition_lil_add\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 635, 360\r\n  orig: 635, 360\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

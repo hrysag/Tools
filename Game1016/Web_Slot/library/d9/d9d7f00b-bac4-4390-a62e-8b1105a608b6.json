@@ -1,0 +1,8 @@
+{
+  "__type__": "cc.TextAsset",
+  "_name": "loading_page1_front.atlas",
+  "_objFlags": 0,
+  "__editorExtras__": {},
+  "_native": "",
+  "text": "\r\nloading_page1_front.webp\r\nsize: 184,536\r\nformat: RGBA8888\r\nfilter: Linear,Linear\r\nrepeat: none\r\nicon_09\r\n  rotate: false\r\n  xy: 2, 2\r\n  size: 180, 532\r\n  orig: 180, 532\r\n  offset: 0, 0\r\n  index: -1\r\n"
+}

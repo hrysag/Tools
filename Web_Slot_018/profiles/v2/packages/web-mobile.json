@@ -1,0 +1,48 @@
+{
+  "__version__": "1.0.1",
+  "builder": {
+    "common": {
+      "polyfills": {
+        "asyncFunctions": true
+      },
+      "buildPath": "project://build",
+      "outputName": "game018",
+      "mainBundleCompressionType": "merge_dep",
+      "platform": "web-mobile",
+      "scenes": [
+        {
+          "url": "db://assets/Game/Game018/Scene/Game018.scene",
+          "uuid": "2f111353-34d2-417f-871c-0819726a6a1d"
+        },
+        {
+          "url": "db://assets/Game/Game018/Scene/Game018_Start.scene",
+          "uuid": "d8c770a5-f8cf-4ca4-809b-82152b68c674"
+        }
+      ],
+      "startScene": "d8c770a5-f8cf-4ca4-809b-82152b68c674",
+      "useSplashScreen": false,
+      "md5Cache": true,
+      "debug": false
+    },
+    "taskOptionsMap": {
+      "1746167141579": {
+        "orientation": "auto",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      },
+      "1748921791541": {
+        "orientation": "auto",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      }
+    },
+    "__version__": "1.3.8",
+    "options": {
+      "web-mobile": {
+        "orientation": "auto",
+        "embedWebDebugger": false,
+        "__version__": "1.0.1"
+      }
+    }
+  }
+}
